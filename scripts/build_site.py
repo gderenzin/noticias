@@ -86,11 +86,18 @@ POLITICA_SEGURIDAD_CONTENIDO = (
     "img-src 'self'; "
     "style-src 'self' https://fonts.googleapis.com; "
     "font-src 'self' https://fonts.gstatic.com; "
-    "script-src 'none'; "
+    "script-src 'self'; "
     "object-src 'none'; "
     "base-uri 'self'; "
     "form-action 'self'"
 )
+# Nota sobre script-src: pasó de 'none' a 'self' para poder cargar
+# assets/compartir.js (botón "Copiar enlace", ver render_botones_compartir).
+# Es el único script del sitio -- un archivo propio, sin inline ni terceros
+# -- así que 'self' alcanza sin necesitar 'unsafe-inline' ni un nonce. Los
+# enlaces "Compartir en <red>" son <a href> normales hacia el sitio externo
+# correspondiente (navegación de usuario, no fetch/XHR), así que no requieren
+# tocar default-src/connect-src.
 
 
 def url_absoluta(ruta: str) -> str:
@@ -635,6 +642,57 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
 """
 
 
+# ---------------------------------------------------------------------------
+# Botones de "Compartir" (página de detalle): comparten el enlace PROPIO de
+# esta página (nunca el enlace externo de la fuente) con el título ya
+# traducido. Enlaces estándar de cada red -- sin SDKs, sin claves de API, sin
+# scripts de terceros. Íconos SVG en línea, mínimos, monoline.
+# ---------------------------------------------------------------------------
+
+_ICONO_WHATSAPP = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.01 2C6.5 2 2.02 6.48 2.02 12c0 1.77.46 3.45 1.28 4.9L2 22l5.25-1.27a9.96 9.96 0 0 0 4.76 1.21h.01c5.5 0 9.98-4.48 9.98-10S17.51 2 12.01 2zm0 18.06h-.01a8.4 8.4 0 0 1-4.28-1.17l-.31-.18-3.11.75.75-3.04-.2-.32a8.43 8.43 0 0 1-1.28-4.5c0-4.65 3.79-8.44 8.45-8.44 2.26 0 4.38.88 5.97 2.48a8.38 8.38 0 0 1 2.47 5.97c0 4.65-3.79 8.45-8.45 8.45zm4.63-6.33c-.25-.13-1.5-.74-1.73-.82-.23-.08-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.55.06-.25-.13-1.07-.4-2.04-1.27-.75-.67-1.26-1.51-1.41-1.76-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.57-1.39-.79-1.9-.21-.5-.42-.43-.57-.44h-.49c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09 0 1.23.9 2.42 1.02 2.59.13.17 1.77 2.79 4.29 3.8.6.26 1.07.42 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.5-.61 1.71-1.21.21-.6.21-1.11.15-1.22-.06-.11-.23-.17-.48-.3z"/></svg>'
+_ICONO_X = '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3 3l7.36 9.64L3.28 21h2.6l6-6.85L16.5 21H21l-7.7-10.1L20.6 3h-2.6l-5.6 6.4L8 3H3zm3.2 1.9h2.2l9.5 12.5h-2.1L6.2 4.9z"/></svg>'
+_ICONO_FACEBOOK = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.02H7.9v-2.92h2.54V9.87c0-2.5 1.5-3.89 3.79-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.86h2.78l-.44 2.92h-2.34V22C18.34 21.24 22 17.08 22 12.06z"/></svg>'
+_ICONO_LINKEDIN = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3.2 9.75h3.6V21H3.2V9.75zM9.5 9.75h3.45v1.54h.05c.48-.9 1.66-1.85 3.42-1.85 3.66 0 4.33 2.4 4.33 5.52V21h-3.6v-5.4c0-1.29-.02-2.94-1.79-2.94-1.8 0-2.07 1.4-2.07 2.85V21H9.5V9.75z"/></svg>'
+_ICONO_TELEGRAM = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21.5 3.5L2.9 10.9c-1.2.48-1.2 1.16-.2 1.47l4.8 1.5 1.85 5.66c.23.62.4.87.83.87.35 0 .5-.16.7-.36l1.83-1.78 3.8 2.81c.7.39 1.2.19 1.38-.65l2.5-11.8c.27-1.16-.44-1.68-1.99-1.62zM8.9 14.24l9-5.68c.42-.26.8-.12.49.17l-7.6 6.87-.3 3.24-1.6-4.6z"/></svg>'
+_ICONO_COPIAR = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 9h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>'
+
+
+def render_botones_compartir(titulo_mostrar: str, ruta_noticia: str) -> str:
+    """Enlaces para compartir esta noticia en redes: comparten el enlace de
+    ESTA página de detalle (nunca el enlace externo de la fuente), con el
+    título ya traducido. Enlaces estándar de cada red (sin SDK, sin clave de
+    API); "Copiar enlace" usa navigator.clipboard vía assets/compartir.js
+    (ver ese archivo) -- de ahí que script-src ya no sea 'none' (ver
+    POLITICA_SEGURIDAD_CONTENIDO)."""
+    url = url_absoluta(ruta_noticia)
+    url_q = urllib.parse.quote(url, safe="")
+    titulo_q = urllib.parse.quote(titulo_mostrar, safe="")
+    url_attr = escape(url, quote=True)
+
+    redes = [
+        ("WhatsApp", f"https://wa.me/?text={titulo_q}%20{url_q}", _ICONO_WHATSAPP),
+        ("X", f"https://twitter.com/intent/tweet?text={titulo_q}&url={url_q}", _ICONO_X),
+        ("Facebook", f"https://www.facebook.com/sharer/sharer.php?u={url_q}", _ICONO_FACEBOOK),
+        ("LinkedIn", f"https://www.linkedin.com/sharing/share-offsite/?url={url_q}", _ICONO_LINKEDIN),
+        ("Telegram", f"https://t.me/share/url?url={url_q}&text={titulo_q}", _ICONO_TELEGRAM),
+    ]
+    enlaces_html = "\n".join(
+        f'          <a class="compartir-boton" href="{escape(href, quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Compartir en {nombre}" title="Compartir en {nombre}">{icono}</a>'
+        for nombre, href, icono in redes
+    )
+    return f"""      <div class="compartir">
+        <span class="compartir-etiqueta">Compartir:</span>
+        <div class="compartir-lista">
+{enlaces_html}
+          <button type="button" class="compartir-boton compartir-copiar" data-url="{url_attr}" aria-label="Copiar enlace" title="Copiar enlace">
+            {_ICONO_COPIAR}
+            <span class="compartir-copiar-msg" role="status"></span>
+          </button>
+        </div>
+      </div>
+"""
+
+
 def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     """Página de detalle propia del sitio para una noticia: resumen ampliado
     en español (parafraseado a partir del texto más completo del RSS, nunca
@@ -694,7 +752,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
         <span class="fecha">Publicado: {fecha_str}</span>
         {notas_html}
       </div>
-{imagen_html}      <div class="noticia-detalle-cuerpo">
+{render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
 {parrafos_html}
       </div>
       <div class="noticia-fuente-final">
@@ -705,6 +763,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
   </main>
 
 {render_pie("../")}
+  <script src="../assets/compartir.js" defer></script>
 </body>
 </html>
 """
