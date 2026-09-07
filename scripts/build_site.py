@@ -1140,13 +1140,23 @@ def _renderizar_grid(items: list[dict], rutas_noticia: dict[str, str]) -> str:
         render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in items[1:]
     )
     titulo_seccion = '    <h2 class="seccion-titulo">Últimas noticias</h2>\n' if items[1:] else ""
+    # El marcador FIN-GRID va DENTRO de .grid-noticias, justo antes de su
+    # </div> de cierre -- antes quedaba DESPUÉS de ese </div> (fuera de la
+    # cuadrícula), así que cuando main() anexaba tarjetas nuevas "antes del
+    # marcador" en una segunda corrida del mismo día, esas tarjetas nuevas
+    # quedaban como hermanas de .grid-noticias en vez de hijas: no reciben
+    # el ancho de columna de la cuadrícula (grid-template-columns), así que
+    # ocupan el ancho completo del contenedor y, por el aspect-ratio de la
+    # imagen, se ven mucho más altas que las demás -- confirmado en vivo:
+    # 4 tarjetas anexadas en corridas posteriores medían 640px de imagen
+    # (el ancho completo) contra 203px (el ancho de columna) de las demás.
     return (
         destacada_html
         + titulo_seccion
         + f"""
     <div class="grid-noticias">
-{tarjetas_html}    </div>
-    <!-- FIN-GRID -->
+{tarjetas_html}    <!-- FIN-GRID -->
+    </div>
 """
     )
 
@@ -1208,23 +1218,15 @@ def main() -> None:
         )
         imagen_og_edicion = nuevos_ciber[0].get("imagen_local") or "/assets/logo-derenzin.png"
 
-        # 1. Portada (index.html)
-        index_html = render_pagina_index(
-            "Periódico de Ciberseguridad — Portada", subtitulo, items_html, descripcion_edicion, imagen_og_edicion
-        )
-        with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
-            f.write(index_html)
-        log(f"Escrito {SITE_DIR / 'index.html'}")
-
-        # 2. Página de archivo del día (solo ciberseguridad)
+        # 1. Página de archivo del día (solo ciberseguridad) -- se escribe
+        # PRIMERO, porque si ya hubo otra edición hoy (p.ej. varias corridas
+        # manuales) las noticias nuevas se ANEXAN a la cuadrícula existente
+        # en vez de reemplazarla; la destacada de la primera edición del día
+        # se queda como está, no cambia con cada corrida posterior.
         ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
         pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html, descripcion_edicion, imagen_og_edicion)
         ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
         if ruta_dia.exists():
-            # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): la
-            # noticia destacada de esa primera edición se queda como está, y las
-            # nuevas se anexan como tarjetas adicionales al final de la
-            # cuadrícula existente — no se sobreescribe lo ya publicado.
             anterior = ruta_dia.read_text(encoding="utf-8")
             marcador_fin_grid = "    <!-- FIN-GRID -->\n"
             if marcador_fin_grid in anterior:
@@ -1240,6 +1242,27 @@ def main() -> None:
         else:
             ruta_dia.write_text(pagina_dia, encoding="utf-8")
             log(f"Escrito {ruta_dia}")
+
+        # 2. Portada (index.html): SIEMPRE refleja el mismo contenido que
+        # acaba de quedar en el archivo del día -- no solo los ítems nuevos
+        # de ESTA corrida. Antes se escribía con `items_html` (solo lo nuevo
+        # de esta corrida), así que si hubo más de una corrida el mismo día
+        # (p.ej. varios workflow_dispatch manuales), la portada terminaba
+        # mostrando nada más que la última corrida, mientras el archivo del
+        # día ya tenía todo acumulado -- quedaban desincronizados. Ahora se
+        # relee el archivo del día recién escrito y se reusa su cuadrícula
+        # completa, para que portada y archivo sean siempre el mismo
+        # contenido.
+        contenido_dia = ruta_dia.read_text(encoding="utf-8")
+        m_items = re.search(r'<h1 class="sr-only">.*?</h1>\n(.*?)\n  </main>', contenido_dia, re.DOTALL)
+        items_html_portada = m_items.group(1) if m_items else items_html
+
+        index_html = render_pagina_index(
+            "Periódico de Ciberseguridad — Portada", subtitulo, items_html_portada, descripcion_edicion, imagen_og_edicion
+        )
+        with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
+            f.write(index_html)
+        log(f"Escrito {SITE_DIR / 'index.html'}")
     else:
         log("Sin noticias nuevas de ciberseguridad hoy: index.html y el archivo del día no se tocan.")
 
