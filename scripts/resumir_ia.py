@@ -93,27 +93,65 @@ def guardar_nuevas(items: list[dict]) -> None:
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
+def _config_trafilatura():
+    """Configuración de descarga de trafilatura, con un User-Agent de
+    navegador real en vez del que trae por defecto -- ese default
+    ("trafilatura/2.2.0 (+https://github.com/adbar/trafilatura)") se
+    autoidentifica como bot, y algunos sitios (confirmado: incibe.es, un
+    sitio .es del gobierno) lo bloquean/descartan la conexión sin
+    responder (~30-45s de espera y falla) aunque el sitio funcione
+    perfectamente para un navegador normal. Con este User-Agent, el mismo
+    artículo de incibe.es que antes fallaba se descargó en ~4s."""
+    from trafilatura.settings import use_config
+
+    config = use_config()
+    config.set(
+        "DEFAULT",
+        "USER_AGENTS",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+    )
+    # 20s alcanza de sobra con el User-Agent correcto (el artículo de
+    # prueba de incibe.es tardó ~4s) -- un timeout más largo no ayuda
+    # contra un bloqueo real (nunca responde de todas formas), solo
+    # alarga la espera antes de caer al Plan B.
+    config.set("DEFAULT", "DOWNLOAD_TIMEOUT", "20")
+    return config
+
+
 def extraer_texto_completo(url: str) -> str | None:
     """Descarga `url` y extrae el texto principal del artículo (sin menús,
     publicidad, comentarios) con trafilatura. Devuelve None si trafilatura
-    no está disponible, si la descarga falla, o si lo extraído es
-    demasiado corto para ser el artículo real -- nunca lanza excepción."""
+    no está disponible, si la descarga falla (incluso tras un reintento),
+    o si lo extraído es demasiado corto para ser el artículo real -- nunca
+    lanza excepción."""
     try:
         import trafilatura
     except ImportError:
         log("AVISO: el paquete 'trafilatura' no está instalado; se omite la extracción de texto completo.")
         return None
 
+    config = _config_trafilatura()
+
+    descargado = None
     try:
-        descargado = trafilatura.fetch_url(url)
+        for intento in (1, 2):
+            descargado = trafilatura.fetch_url(url, config=config)
+            if descargado:
+                break
+            if intento == 1:
+                log(f"  AVISO: no se pudo descargar {url} (intento 1/2); reintentando...")
         if not descargado:
-            log(f"  AVISO: no se pudo descargar {url} para extraer el texto completo.")
+            log(f"  AVISO: no se pudo descargar {url} para extraer el texto completo (2 intentos).")
             return None
+        # Sin favor_precision=True: en modo estricto, trafilatura devolvió
+        # vacío para páginas con poco cuerpo de artículo y mucho "molde"
+        # de plantilla alrededor (confirmado en incibe.es); el modo por
+        # defecto (balanceado) extrajo el mismo artículo sin problema.
         texto = trafilatura.extract(
             descargado,
+            config=config,
             include_comments=False,
             include_tables=False,
-            favor_precision=True,
         )
     except Exception as ex:  # noqa: BLE001 - una falla de extracción nunca debe tumbar el proceso
         log(f"  AVISO: error extrayendo texto completo de {url} ({type(ex).__name__}: {ex}).")
