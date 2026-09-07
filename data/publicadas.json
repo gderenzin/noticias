@@ -1,1 +1,164 @@
-{"urls": {}}
+{
+  "urls": {
+    "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html": {
+      "guid": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "fecha_publicacion_iso": "2026-09-07T15:51:56+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691312+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-fake-it-calls-target-executives-in-microsoft-365-data-theft-a48cf88b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "fuente": "BleepingComputer",
+      "titulo": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+      "fecha_publicacion_iso": "2026-09-07T15:39:51+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691324+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-o-c34ce145.html"
+    },
+    "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html": {
+      "guid": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "fecha_publicacion_iso": "2026-09-07T14:36:07+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691329+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-weekly-recap-chrome-0-day-router-hijacks-coder-supply-chain-51e0fedb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+      "fuente": "BleepingComputer",
+      "titulo": "Mathspace discloses data breach affecting over 1 million people",
+      "fecha_publicacion_iso": "2026-09-07T13:05:11+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691334+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-mathspace-discloses-data-breach-affecting-over-1-million-peo-3dd0677c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Trezor data breach impact now reaches 81,000 customers",
+      "fecha_publicacion_iso": "2026-09-07T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691337+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-trezor-data-breach-impact-now-reaches-81-000-customers-043bf3ce.html"
+    },
+    "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html": {
+      "guid": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+      "fuente": "The Hacker News",
+      "titulo": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+      "fecha_publicacion_iso": "2026-09-07T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691341+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-your-cloud-security-checklist-doesn-t-work-the-way-you-think-07218e5d.html"
+    },
+    "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html": {
+      "guid": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "fuente": "The Hacker News",
+      "titulo": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "fecha_publicacion_iso": "2026-09-07T11:36:39+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691345+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-rogue-screenconnect-clients-spread-four-stage-vbscript-chain-2e8001f9.html"
+    },
+    "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html": {
+      "guid": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+      "fuente": "The Hacker News",
+      "titulo": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+      "fecha_publicacion_iso": "2026-09-07T11:20:14+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691348+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-telerik-ui-padding-oracle-bug-chained-to-unauthenticated-rce-99185531.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+      "fuente": "BleepingComputer",
+      "titulo": "ChatGPT can now connect to your personal apps to mimic writing style",
+      "fecha_publicacion_iso": "2026-09-07T10:36:37+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691352+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writi-f1c17c64.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "fecha_publicacion_iso": "2026-09-07T10:32:40+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691355+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-router-2760a553.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "fuente": "BleepingComputer",
+      "titulo": "ConnectWise warns of new ScreenConnect flaw without patch",
+      "fecha_publicacion_iso": "2026-09-07T10:06:38+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691358+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-connectwise-warns-of-new-screenconnect-flaw-without-patch-58fad119.html"
+    },
+    "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html": {
+      "guid": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "fuente": "The Hacker News",
+      "titulo": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "fecha_publicacion_iso": "2026-09-07T08:31:12+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691362+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-n-able-issues-fourth-n-central-hotfix-in-five-weeks-for-unau-caffc3f2.html"
+    },
+    "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html": {
+      "guid": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "fuente": "The Hacker News",
+      "titulo": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "fecha_publicacion_iso": "2026-09-07T07:53:04+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691365+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-jsceal-malware-can-bypass-google-authentication-using-stolen-de26b139.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "N-able patches max severity N-central flaw amid ongoing attacks",
+      "fecha_publicacion_iso": "2026-09-07T06:17:41+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691369+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-n-able-patches-max-severity-n-central-flaw-amid-ongoing-atta-b0db9571.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+      "fuente": "BleepingComputer",
+      "titulo": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+      "fecha_publicacion_iso": "2026-09-07T01:15:43+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691372+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-chatgpt-astra-is-now-rolling-out-to-20-plus-subscription-9a8c2600.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "fuente": "BleepingComputer",
+      "titulo": "Attackers conceal phishing lures using invisible Unicode characters",
+      "fecha_publicacion_iso": "2026-09-06T14:23:46+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691397+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-attackers-conceal-phishing-lures-using-invisible-unicode-cha-091e6b10.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "fecha_publicacion_iso": "2026-09-06T09:32:38+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691402+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-attackers-hijack-mikrotik-routers-through-internet-exposed-s-d49a120f.html"
+    },
+    "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html": {
+      "guid": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "fuente": "The Hacker News",
+      "titulo": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "fecha_publicacion_iso": "2026-09-06T08:34:20+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691406+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-four-revstealer-linked-modules-disable-windows-update-and-de-acd0dfe2.html"
+    },
+    "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html": {
+      "guid": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "fecha_publicacion_iso": "2026-09-05T20:14:47+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691410+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-unpatched-magento-and-adobe-commerce-zero-day-exploited-to-b-a6f7e900.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "fecha_publicacion_iso": "2026-09-05T16:52:33+00:00",
+      "fecha_agregada_iso": "2026-09-07T16:15:41.691414+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-attackers-breached-jetbrains-cadence-via-unpatched-teamcity-21ba9ecf.html"
+    }
+  }
+}
