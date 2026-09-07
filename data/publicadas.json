@@ -223,6 +223,22 @@
       "fecha_publicacion_iso": "2026-09-07T16:50:29+00:00",
       "fecha_agregada_iso": "2026-09-07T20:15:29.356603+00:00",
       "ruta_noticia": "/noticia/2026-09-07-magento-stylesmuggler-zero-day-exploited-to-deploy-linux-bac-b3511a5b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/control-de-acceso-incorrecto-en-prestashop": {
+      "guid": "658201 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Control de acceso incorrecto en PrestaShop",
+      "fecha_publicacion_iso": "2026-09-07T10:52:49+00:00",
+      "fecha_agregada_iso": "2026-09-07T20:52:04.126170+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-control-de-acceso-incorrecto-en-prestashop-576b131f.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-13": {
+      "guid": "660464 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-09-07T08:37:01+00:00",
+      "fecha_agregada_iso": "2026-09-07T20:52:04.126182+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-multiples-vulnerabilidades-en-productos-de-cisco-b56a1ebb.html"
     }
   }
 }
