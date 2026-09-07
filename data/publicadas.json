@@ -207,6 +207,22 @@
       "guid": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
       "ruta_noticia": "/noticia/2026-09-07-trezor-data-breach-impact-now-reaches-81-000-customers-043bf3ce.html",
       "titulo": "Trezor data breach impact now reaches 81,000 customers"
+    },
+    "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html": {
+      "guid": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "fuente": "The Hacker News",
+      "titulo": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "fecha_publicacion_iso": "2026-09-07T18:12:09+00:00",
+      "fecha_agregada_iso": "2026-09-07T20:15:29.356591+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-peep-turns-chrome-and-edge-into-post-compromise-backdoors-fo-54217c49.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+      "fuente": "BleepingComputer",
+      "titulo": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "fecha_publicacion_iso": "2026-09-07T16:50:29+00:00",
+      "fecha_agregada_iso": "2026-09-07T20:15:29.356603+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-magento-stylesmuggler-zero-day-exploited-to-deploy-linux-bac-b3511a5b.html"
     }
   }
 }
