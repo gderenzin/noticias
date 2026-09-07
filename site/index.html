@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periódico de Ciberseguridad — Portada</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original.">
+  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <link rel="icon" href="assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="cabecera">
     <div class="cabecera-contenido">
-      <h1><a href="index.html">🛡️ Periódico de Ciberseguridad</a></h1>
+      <div class="marca">
+        <a href="index.html" class="marca-enlace">
+          <img src="assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
+          <div class="marca-texto">
+            <span class="marca-titulo">Periódico de Ciberseguridad</span>
+            <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
+          </div>
+        </a>
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="enlace-derenzin">derenzin.com ↗</a>
+      </div>
       <p class="subtitulo">Todavía no se ha publicado ninguna edición.</p>
       <nav class="nav">
-        <a href="index.html">Portada</a>
+        <a href="index.html" class="activo">Portada</a>
         <a href="archivo/index.html">Archivo</a>
       </nav>
     </div>
   </header>
 
-  <main class="contenido">
+  <main class="contenido portada">
     <p>Este sitio se actualiza automáticamente una vez al día vía GitHub Actions.
     En cuanto corra el workflow por primera vez (manual o programado), aquí
     aparecerán las noticias de ciberseguridad más recientes de las fuentes
@@ -27,7 +38,20 @@
   </main>
 
   <footer class="pie">
-    <p>Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; el contenido pertenece a sus autores originales. Consulta el enlace de cada fuente para leer el artículo completo.</p>
+    <div class="pie-contenido">
+      <div class="pie-marca">
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="pie-marca-enlace">
+          <img src="assets/logo-derenzin.png" alt="DERENZIN" class="pie-logo">
+          <span class="pie-marca-nombre">DERENZIN S.A.S.</span>
+        </a>
+        <p class="pie-tagline">Un proyecto de DERENZIN S.A.S. — <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a></p>
+      </div>
+      <div class="pie-legal">
+        <p>Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; el contenido pertenece a sus autores originales. Consulta el enlace de cada fuente para leer el artículo completo.</p>
+        <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
+        <p class="pie-copyright">© 2026 DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

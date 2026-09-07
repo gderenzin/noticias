@@ -94,6 +94,8 @@ data/publicadas.json             Ledger de URLs ya publicadas (para no duplicar)
 data/nuevas_hoy.json             Archivo transitorio (no se versiona, ver .gitignore)
 site/index.html                  Portada con la edición más reciente
 site/style.css                   CSS propio (sin frameworks ni CDNs)
+site/assets/logo-derenzin.png    Logo real de derenzin.com (mismo archivo, sin modificar)
+site/assets/favicon.png          Favicon (mismo archivo que usa derenzin.com)
 site/CNAME                       Dominio personalizado para GitHub Pages
 site/archivo/AAAA-MM-DD.html     Una página por cada día publicado
 site/archivo/index.html          Índice de todas las ediciones archivadas
@@ -176,6 +178,40 @@ Cada noticia muestra una imagen, con estas reglas para no romper la regla de
   - Nota: los `<img>` incrustados dentro del cuerpo HTML de algunos RSS
     (p.ej. INCIBE-CERT) se ignoran a propósito — al revisarlos, resultaron
     ser botones de "compartir en redes sociales", no imágenes de la noticia.
+
+---
+
+## Identidad visual (consistente con derenzin.com)
+
+El diseño toma la paleta y los activos reales de https://derenzin.com (se
+visitó el sitio en vivo para extraerlos, no se inventaron):
+
+- **Logo**: `site/assets/logo-derenzin.png` es el mismo archivo que usa
+  derenzin.com (`img/logo-derenzin.png`), sin modificar. También se reutiliza
+  como favicon (`site/assets/favicon.png`, igual que en el sitio original).
+- **Color de marca**: `#00B8D4` (la variable `--secondary-color` del CSS de
+  derenzin.com) es el acento principal — se usa en encabezados grandes,
+  bordes, íconos y la noticia destacada de portada. Para los **enlaces de
+  texto normal** se usa `#007A94` (misma familia de cian, más oscuro) porque
+  el cian puro (`#00B8D4`) no alcanza el contraste mínimo legible (AA, 4.5:1)
+  sobre fondo blanco — sí lo alcanza sobre fondo oscuro, así que en modo
+  oscuro los enlaces usan el cian puro. Es una decisión deliberada de
+  accesibilidad, manteniendo el mismo tono de marca.
+- **Tipografía**: la misma pila de fuentes de sistema que usa derenzin.com
+  (`"Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, ...`) — sin
+  Google Fonts ni ninguna fuente externa que cargar.
+- **Pie de página**: siempre oscuro (`#1A1A1A`) con texto claro, igual que el
+  footer de derenzin.com, independientemente del tema claro/oscuro del resto
+  del sitio — incluye el logo, un enlace a https://derenzin.com, el aviso
+  legal de agregación de noticias, y el copyright (`© AAAA DERENZIN S.A.S. —
+  Feddor Derenzin Martínez...`, tomado del mismo texto que usa el sitio
+  oficial, con el año calculado automáticamente en cada build).
+- **Portada con noticia destacada**: la primera noticia del día se muestra
+  más grande (imagen más ancha, título más grande, borde de color) para que
+  la portada se lea como la de un periódico real, no como una lista plana.
+- **Modo oscuro/claro**: automático según la preferencia del sistema
+  operativo del visitante (`prefers-color-scheme`), sin necesidad de un
+  interruptor manual ni JavaScript adicional.
 
 ---
 

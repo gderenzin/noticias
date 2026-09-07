@@ -380,6 +380,61 @@ def render_item_html(item: dict) -> str:
 """
 
 
+FUENTES_MONITOREADAS = "The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT."
+
+
+def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
+    """`prefijo`: '' en site/index.html, '../' en site/archivo/*.html.
+    `pagina_actual`: 'portada' o 'archivo', para resaltar el link activo."""
+    nav_portada_clase = ' class="activo"' if pagina_actual == "portada" else ""
+    nav_archivo_clase = ' class="activo"' if pagina_actual == "archivo" else ""
+    # El link "Archivo" apunta a site/archivo/index.html. Desde site/index.html
+    # eso es "archivo/index.html"; desde dentro de site/archivo/ (donde viven
+    # tanto el índice de archivo como cada día) es simplemente "index.html".
+    href_archivo = "index.html" if prefijo == "../" else f"{prefijo}archivo/index.html"
+    return f"""  <header class="cabecera">
+    <div class="cabecera-contenido">
+      <div class="marca">
+        <a href="{prefijo}index.html" class="marca-enlace">
+          <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
+          <div class="marca-texto">
+            <span class="marca-titulo">Periódico de Ciberseguridad</span>
+            <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
+          </div>
+        </a>
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="enlace-derenzin">derenzin.com ↗</a>
+      </div>
+      <p class="subtitulo">{escape(subtitulo)}</p>
+      <nav class="nav">
+        <a href="{prefijo}index.html"{nav_portada_clase}>Portada</a>
+        <a href="{href_archivo}"{nav_archivo_clase}>Archivo</a>
+      </nav>
+    </div>
+  </header>
+"""
+
+
+def render_pie(prefijo: str) -> str:
+    anio = datetime.now(ZONA_GUAYAQUIL).year
+    return f"""  <footer class="pie">
+    <div class="pie-contenido">
+      <div class="pie-marca">
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="pie-marca-enlace">
+          <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="pie-logo">
+          <span class="pie-marca-nombre">DERENZIN S.A.S.</span>
+        </a>
+        <p class="pie-tagline">Un proyecto de DERENZIN S.A.S. — <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a></p>
+      </div>
+      <div class="pie-legal">
+        <p>{escape(AVISO_LEGAL)}</p>
+        <p class="pie-fuentes">Fuentes monitoreadas: {FUENTES_MONITOREADAS}</p>
+        <p class="pie-copyright">© {anio} DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+"""
+
+
 def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -387,29 +442,18 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{escape(titulo_pagina)}</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original.">
+  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <link rel="icon" href="assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="cabecera">
-    <div class="cabecera-contenido">
-      <h1><a href="index.html">🛡️ Periódico de Ciberseguridad</a></h1>
-      <p class="subtitulo">{escape(subtitulo)}</p>
-      <nav class="nav">
-        <a href="index.html">Portada</a>
-        <a href="archivo/index.html">Archivo</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="contenido">
+{render_cabecera(subtitulo, "", "portada")}
+  <main class="contenido portada">
 {items_html}
   </main>
 
-  <footer class="pie">
-    <p>{escape(AVISO_LEGAL)}</p>
-    <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
-  </footer>
+{render_pie("")}
 </body>
 </html>
 """
@@ -422,29 +466,18 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str) -
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ciberseguridad — edición del {escape(fecha_str)}</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original.">
+  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <link rel="icon" href="../assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <header class="cabecera">
-    <div class="cabecera-contenido">
-      <h1><a href="../index.html">🛡️ Periódico de Ciberseguridad</a></h1>
-      <p class="subtitulo">{escape(subtitulo)}</p>
-      <nav class="nav">
-        <a href="../index.html">Portada</a>
-        <a href="index.html">Archivo</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="contenido">
+{render_cabecera(subtitulo, "../", "archivo")}
+  <main class="contenido archivo-dia">
 {items_html}
   </main>
 
-  <footer class="pie">
-    <p>{escape(AVISO_LEGAL)}</p>
-    <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
-  </footer>
+{render_pie("../")}
 </body>
 </html>
 """
@@ -466,27 +499,17 @@ def render_archivo_index(dias: list[str]) -> str:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Archivo — Periódico de Ciberseguridad</title>
+  <link rel="icon" href="../assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <header class="cabecera">
-    <div class="cabecera-contenido">
-      <h1><a href="../index.html">🛡️ Periódico de Ciberseguridad</a></h1>
-      <p class="subtitulo">Archivo de ediciones anteriores</p>
-      <nav class="nav">
-        <a href="../index.html">Portada</a>
-        <a href="index.html">Archivo</a>
-      </nav>
-    </div>
-  </header>
-
+{render_cabecera("Archivo de ediciones anteriores", "../", "archivo")}
   <main class="contenido">
     {lista}
   </main>
 
-  <footer class="pie">
-    <p>{escape(AVISO_LEGAL)}</p>
-  </footer>
+{render_pie("../")}
 </body>
 </html>
 """
@@ -526,7 +549,7 @@ def main() -> None:
         # anexan las noticias nuevas a la página de archivo existente en vez
         # de sobreescribir lo ya publicado.
         anterior = ruta_dia.read_text(encoding="utf-8")
-        marcador = "  <main class=\"contenido\">\n"
+        marcador = "  <main class=\"contenido archivo-dia\">\n"
         if marcador in anterior:
             anterior = anterior.replace(marcador, marcador + items_html, 1)
             ruta_dia.write_text(anterior, encoding="utf-8")
