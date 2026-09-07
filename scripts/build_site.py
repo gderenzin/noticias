@@ -55,7 +55,7 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 
-from texto import acotar_parrafos, rematar_final, truncar
+from texto import acotar_parrafos, fuente_parece_incompleta, primeras_oraciones, rematar_final, truncar
 
 RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
@@ -333,18 +333,45 @@ def nombre_archivo_noticia(item: dict, fecha_carpeta: str) -> str:
     return f"{fecha_carpeta}-{slug}-{hash_corto}.html"
 
 
+NOTA_RESUMEN_IA = (
+    "Resumen generado con IA (Claude) a partir del artículo completo — "
+    "no es una cita textual; consulta la fuente para el texto exacto."
+)
+NOTA_RESUMEN_PARCIAL = (
+    " Resumen parcial: la fuente no incluye más detalle en su RSS; "
+    "lee la noticia completa en la fuente."
+)
+
+
 def preparar_resumen_ampliado(item: dict) -> dict:
     """Para la página de detalle de la noticia: un resumen más completo que
-    el de la tarjeta (2-3+ párrafos), basado en el texto más completo
-    disponible del RSS (ver fetch_news.py: contenido_ampliado). Se recorta a
-    LIMITE_RESUMEN_AMPLIADO caracteres y a MAX_PARRAFOS_AMPLIADO párrafos —
-    nunca se reproduce el artículo completo, incluso si el RSS lo trae
-    entero. Se traduce párrafo por párrafo (no todo el texto de una sola vez)
-    para no depender de que DeepL preserve los saltos de línea; si CUALQUIER
-    párrafo falla al traducir, se muestran TODOS en el idioma original (nunca
-    una mezcla de español e inglés) y se marca con la misma nota de siempre.
+    el de la tarjeta (2-3+ párrafos).
+
+    Fuente del texto, en orden de preferencia:
+    1. `resumen_ia`: si resumir_ia.py extrajo el artículo completo (con
+       trafilatura) y Claude lo resumió con éxito (ver ese script), ya viene
+       en español y NO se vuelve a traducir — se usa tal cual, solo
+       recortado a los mismos topes de siempre por seguridad.
+    2. Si no, el extracto/contenido del RSS de siempre (`contenido_ampliado`
+       o `extracto_original`), traducido con DeepL. Se recorta a
+       LIMITE_RESUMEN_AMPLIADO caracteres y a MAX_PARRAFOS_AMPLIADO
+       párrafos — nunca se reproduce el artículo completo, incluso si el
+       RSS lo trae entero. Se traduce párrafo por párrafo (no todo el texto
+       de una sola vez) para no depender de que DeepL preserve los saltos
+       de línea; si CUALQUIER párrafo falla al traducir, se muestran TODOS
+       en el idioma original (nunca una mezcla de español e inglés). Si el
+       propio extracto de RSS ya venía incompleto (fuente_parece_incompleta),
+       se agrega una nota explícita en vez de confiar solo en la elipsis.
     """
     idioma = item.get("idioma", "en")
+    resumen_ia = item.get("resumen_ia") if item.get("resumen_ia_ok") else None
+
+    if resumen_ia:
+        parrafos_ia = [p.strip() for p in resumen_ia.split("\n") if p.strip()]
+        parrafos_ia = acotar_parrafos(parrafos_ia, LIMITE_RESUMEN_AMPLIADO, MAX_PARRAFOS_AMPLIADO)
+        parrafos_ia = [rematar_final(p) for p in parrafos_ia]
+        return {"parrafos": parrafos_ia, "nota_idioma": NOTA_RESUMEN_IA}
+
     contenido_original = (item.get("contenido_ampliado") or item.get("extracto_original") or "").strip()
 
     if not contenido_original:
@@ -358,14 +385,17 @@ def preparar_resumen_ampliado(item: dict) -> dict:
 
     # Si el propio párrafo viene incompleto del RSS de origen (o si tuvimos
     # que descartar párrafos posteriores por el tope de caracteres/cantidad),
-    # se marca con "…" en vez de dejarlo colgado a media frase.
+    # se marca con "…" en vez de dejarlo colgado a media frase; además, si el
+    # RSS de origen ya llegaba incompleto (con o sin marcador propio), se
+    # agrega una nota explícita en vez de confiar solo en esa elipsis.
     se_recorto_contenido = len(parrafos_acotados) < len(parrafos_originales)
+    nota_parcial = NOTA_RESUMEN_PARCIAL if fuente_parece_incompleta(contenido_original) else ""
     parrafos_acotados = [rematar_final(p) for p in parrafos_acotados]
     if se_recorto_contenido and parrafos_acotados and not parrafos_acotados[-1].endswith("…"):
         parrafos_acotados[-1] = parrafos_acotados[-1].rstrip(".!?") + "…"
 
     if idioma == "es":
-        return {"parrafos": parrafos_acotados, "nota_idioma": ""}
+        return {"parrafos": parrafos_acotados, "nota_idioma": nota_parcial.strip()}
 
     if DEEPL_API_KEY:
         parrafos_traducidos = []
@@ -377,11 +407,11 @@ def preparar_resumen_ampliado(item: dict) -> dict:
             parrafos_traducidos.append(t)
         if parrafos_traducidos:
             nota = "Traducido automáticamente del inglés (DeepL)." if idioma == "en" else f"Traducido automáticamente del {idioma} (DeepL)."
-            return {"parrafos": parrafos_traducidos, "nota_idioma": nota}
+            return {"parrafos": parrafos_traducidos, "nota_idioma": nota + nota_parcial}
 
     return {
         "parrafos": parrafos_acotados,
-        "nota_idioma": "No se pudo traducir automáticamente (se muestra el original).",
+        "nota_idioma": "No se pudo traducir automáticamente (se muestra el original)." + nota_parcial,
     }
 
 
@@ -469,25 +499,33 @@ def preparar_texto_mostrado(item: dict) -> dict:
     """Devuelve un dict con los campos ya listos para mostrar, siempre en
     español, sin inventar contenido:
       - titulo_mostrar
-      - resumen_mostrar: resumen corto para tarjeta/destacada (~600 car.)
+      - resumen_mostrar: resumen corto para tarjeta/destacada
       - resumen_meta: para meta descripción/OG/Twitter (~160 car.)
       - nota_idioma: texto corto para la interfaz (o cadena vacía)
 
+    Si resumir_ia.py generó un resumen con IA para este ítem (`resumen_ia` +
+    `resumen_ia_ok`), `resumen_mostrar` son las primeras 2-3 oraciones
+    COMPLETAS de ese resumen (nunca un corte por cantidad de caracteres a
+    media frase) — el título se sigue traduciendo con DeepL igual que
+    siempre, resumir_ia.py no lo toca. Si no hay resumen de IA, se usa el
+    extracto de RSS de siempre, traducido con DeepL.
+
     `resumen_mostrar` y `resumen_meta` se calculan cada uno por separado a
-    partir del MISMO texto base (el extracto ya traducido, o el original si
-    no aplica traducción) — nunca se recorta un resumen ya recortado (antes
-    la meta descripción se obtenía truncando de nuevo `resumen_mostrar`, y
-    ese segundo recorte podía caer en un punto peor que el primero)."""
+    partir del MISMO texto base — nunca se recorta un resumen ya recortado
+    (antes la meta descripción se obtenía truncando de nuevo
+    `resumen_mostrar`, y ese segundo recorte podía caer en un punto peor que
+    el primero)."""
     titulo_original = item["titulo"].strip()
     idioma = item.get("idioma", "en")
     extracto_original = (item.get("extracto_original") or "").strip()
     aporta_info = bool(extracto_original) and extracto_original.lower() != titulo_original.lower() and len(extracto_original) > 15
+    resumen_ia = item.get("resumen_ia") if item.get("resumen_ia_ok") else None
 
-    def _resultado(titulo_mostrar: str, texto_base: str | None, nota_idioma: str) -> dict:
+    def _resultado(titulo_mostrar: str, texto_base: str | None, nota_idioma: str, resumen_corto: str | None = None) -> dict:
         if texto_base:
             return {
                 "titulo_mostrar": titulo_mostrar,
-                "resumen_mostrar": truncar(texto_base, 600),
+                "resumen_mostrar": resumen_corto if resumen_corto is not None else truncar(texto_base, 600),
                 "resumen_meta": truncar(texto_base, 160),
                 "nota_idioma": nota_idioma,
             }
@@ -498,6 +536,21 @@ def preparar_texto_mostrado(item: dict) -> dict:
             "nota_idioma": nota_idioma,
         }
 
+    # --- Resumen con IA disponible: reemplaza el extracto de RSS como base
+    #     del resumen corto (primeras 2-3 oraciones, no un corte por
+    #     caracteres). El título se traduce igual que siempre. ---
+    if resumen_ia:
+        texto_plano = " ".join(linea.strip() for linea in resumen_ia.split("\n") if linea.strip())
+        resumen_corto = primeras_oraciones(texto_plano, 3)
+        if idioma == "es":
+            return _resultado(titulo_original, texto_plano, NOTA_RESUMEN_IA, resumen_corto)
+        titulo_traducido = traducir_deepl(titulo_original, idioma)
+        if titulo_traducido:
+            return _resultado(titulo_traducido, texto_plano, NOTA_RESUMEN_IA, resumen_corto)
+        nota = NOTA_RESUMEN_IA + " No se pudo traducir el título automáticamente (se muestra el original)."
+        return _resultado(titulo_original, texto_plano, nota, resumen_corto)
+
+    # --- Sin resumen de IA: comportamiento de siempre (extracto de RSS). ---
     if idioma == "es":
         return _resultado(titulo_original, extracto_original if aporta_info else None, "")
 
@@ -507,10 +560,11 @@ def preparar_texto_mostrado(item: dict) -> dict:
 
     titulo_traducido = traducir_deepl(titulo_original, idioma)
     extracto_traducido = traducir_deepl(truncar(extracto_original, 700), idioma) if aporta_info else None
+    nota_parcial = NOTA_RESUMEN_PARCIAL if (aporta_info and fuente_parece_incompleta(extracto_original)) else ""
 
     if titulo_traducido:
         nota = "Traducido automáticamente del inglés (DeepL)." if idioma == "en" else f"Traducido automáticamente del {idioma} (DeepL)."
-        return _resultado(titulo_traducido, extracto_traducido, nota)
+        return _resultado(titulo_traducido, extracto_traducido, nota + nota_parcial)
 
     # Fallback seguro: no se pudo traducir (sin clave o falló la API). Nunca
     # se inventa una traducción — se muestra el extracto original tal cual,
@@ -519,7 +573,7 @@ def preparar_texto_mostrado(item: dict) -> dict:
     return _resultado(
         titulo_original,
         extracto_original if aporta_info else None,
-        "No se pudo traducir automáticamente (se muestra el original).",
+        "No se pudo traducir automáticamente (se muestra el original)." + nota_parcial,
     )
 
 

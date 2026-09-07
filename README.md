@@ -89,7 +89,10 @@ coincidente".
 ```
 feeds.yaml                       Lista blanca de fuentes RSS (única fuente de verdad)
 scripts/fetch_news.py            Descarga feeds, filtra, deduplica -> data/nuevas_hoy.json
+scripts/resumir_ia.py            Extrae el artículo completo (trafilatura) y lo resume con Claude Haiku
+scripts/texto.py                 Recorte/remate de texto compartido por los scripts de arriba
 scripts/build_site.py            Genera el HTML a partir de data/nuevas_hoy.json
+site/assets/compartir.js         Botón "Copiar enlace" de los botones de compartir (único script del sitio)
 data/publicadas.json             Ledger de URLs ya publicadas (para no duplicar)
 data/imagenes_descargadas.json   Ledger de imágenes ya descargadas (URL original -> ruta local)
 data/nuevas_hoy.json             Archivo transitorio (no se versiona, ver .gitignore)
@@ -231,36 +234,49 @@ parezcan) con un resumen más amplio, y **el enlace externo a la fuente
 aparece solo al final de esa página**, en un recuadro claro ("Fuente: [medio]"
 + botón "Leer el artículo original completo ↗", `target="_blank"`).
 
-### Sobre el "resumen ampliado" y el parafraseo — una limitación importante que debes conocer
+### Sobre el "resumen ampliado": extracción del artículo completo + resumen con IA
 
-Pediste que el resumen ampliado **parafrasee/resuma** el contenido, no que
-copie el artículo palabra por palabra. Quiero ser completamente honesto sobre
-cómo se implementó esto, porque hay un límite real:
+El resumen ampliado ya no depende únicamente del extracto corto que trae el
+RSS (muchas fuentes lo entregan ya cortado a media frase — WordPress agrega
+su propio ".. [...]"; otras cortan su `<description>` a una cantidad fija de
+caracteres sin avisar). El flujo real, en orden de preferencia:
 
-- Este script es Python puro corriendo en GitHub Actions — **no llama a
-  ningún modelo de lenguaje** (ni Claude, ni GPT, ni nada) para reescribir o
-  resumir texto. Lo único "inteligente" que hace es traducir con DeepL, que
-  traduce fielmente, no resume ni parafrasea en el sentido de reescribir con
-  otras palabras.
-- Por eso, lo que implementé es esto: se toma el texto más completo
-  disponible del RSS (`<content:encoded>` si el feed lo trae — solo Krebs on
-  Security lo trae de los 6 feeds, y ahí sí es casi el artículo completo; el
-  resto de feeds solo traen un resumen corto igual al de la tarjeta), se
-  **recorta con un tope duro** (2000 caracteres y máximo 5 párrafos,
-  cortando siempre en un párrafo completo, nunca a la mitad) y se traduce.
-  Es decir: es un **extracto más largo y acotado**, nunca el artículo
-  completo — pero no es una reescritura/parafraseo real con otras palabras,
-  porque esta parte del pipeline no tiene esa capacidad.
-- Esto ya evita el problema principal que señalaste (nunca se reproduce el
-  artículo completo, ni siquiera cuando el RSS lo trae entero), pero si
-  quieres una reescritura genuina (no solo una traducción de un extracto más
-  largo), eso requiere llamar a un modelo de lenguaje generativo (p.ej. la
-  API de Claude) desde el script — un cambio aparte, que necesita una clave
-  de API nueva. Dímelo si lo quieres y lo agrego.
-- Para casi todas las fuentes (5 de 6), el resumen ampliado en la práctica
-  **es el mismo texto corto que ya se ve en la tarjeta** — no hay más
-  contenido disponible en el RSS para ampliarlo. Solo Krebs on Security se
-  beneficia de verdad de este cambio.
+1. **`scripts/resumir_ia.py`** (corre entre `fetch_news.py` y
+   `build_site.py`): por cada noticia nueva, entra a la URL original de la
+   fuente (ya verificada contra el dominio declarado) y extrae el texto
+   principal del artículo con [`trafilatura`](https://trafilatura.readthedocs.io/)
+   (una librería de extracción de contenido, sin necesidad de reglas por
+   sitio). Si la extracción da un texto razonable (≥200 caracteres), se lo
+   manda a **Claude Haiku** (API de Anthropic, clave en el secreto
+   `ANTHROPIC_API_KEY`) con instrucciones estrictas: resumen fiel de 3-4
+   párrafos, basado ÚNICAMENTE en ese texto, sin agregar cifras/nombres/
+   conclusiones que no estén ahí, parafraseado (no cita textual larga), y
+   que lo diga explícitamente si el artículo no da para un resumen completo
+   en vez de rellenar con contenido inventado.
+2. Ese resumen (ya en español, no se vuelve a traducir) se usa como el
+   cuerpo de la página de detalle, y las primeras 2-3 oraciones completas
+   (nunca un corte a media palabra) como el resumen corto de la tarjeta.
+   La página muestra una nota visible: *"Resumen generado con IA (Claude) a
+   partir del artículo completo — no es una cita textual; consulta la
+   fuente para el texto exacto."*
+3. **Plan B** — si la extracción o la llamada a la IA fallan por cualquier
+   motivo (sitio bloquea el scraping, timeout, sin clave configurada, cuota
+   agotada, etc.), se cae automáticamente al extracto de RSS de siempre,
+   traducido con DeepL — nunca se falla el proceso por esto. Si además ese
+   extracto de RSS ya venía incompleto por la propia fuente, la página lo
+   deja explícito con una nota — *"Resumen parcial: la fuente no incluye
+   más detalle en su RSS; lee la noticia completa en la fuente."* — en vez
+   de dejarlo colgando con una elipsis sin explicación.
+
+Como con DeepL, esto **nunca se reprocesa para noticias ya publicadas** — se
+aplica desde el momento en que se agrega el secreto en adelante, a las
+noticias genuinamente nuevas de cada corrida.
+
+**Nota de costo**: Claude Haiku es el modelo más económico de Anthropic; el
+texto que se le manda se recorta a 12 000 caracteres como tope defensivo. El
+volumen es bajo (solo las noticias nuevas de cada corrida diaria, típicamente
+unas pocas), así que el costo esperado es mínimo, pero depende de tu plan de
+Anthropic — revísalo si te preocupa.
 
 ---
 
@@ -411,16 +427,18 @@ assets ni su CSS.
     no de este sitio) — si en algún momento este sitio queda detrás de algo
     que permita fijar headers HTTP de verdad (p.ej. un Cloudflare Worker
     delante de GitHub Pages), ahí sí valdría agregarlos.
-- **La clave de DeepL nunca llega al navegador**: `DEEPL_API_KEY` se lee
-  únicamente con `os.environ.get(...)` dentro de `build_site.py`, que corre
-  del lado del workflow de GitHub Actions (Python puro, sin navegador de por
-  medio). Se usa solo para construir el header `Authorization` de la
-  petición HTTP a la API de DeepL — nunca se escribe en ningún archivo HTML,
-  ni se imprime en los logs (los logs de error de DeepL imprimen el
-  endpoint y el código HTTP, nunca la clave). Confirmé con
-  `grep -r "DEEPL_API_KEY\|auth_key\|DeepL-Auth-Key" site/` sobre el sitio
-  generado: cero coincidencias. El sitio no tiene JavaScript del lado del
-  cliente que pudiera necesitar o exponer ninguna clave.
+- **Ninguna clave llega al navegador**: `DEEPL_API_KEY` (en `build_site.py`)
+  y `ANTHROPIC_API_KEY` (en `resumir_ia.py`) se leen únicamente con
+  `os.environ.get(...)`, del lado del workflow de GitHub Actions (Python
+  puro, sin navegador de por medio). Se usan solo para construir el header
+  de autenticación de cada API — nunca se escriben en ningún archivo HTML,
+  ni se imprimen en los logs (los logs de error de ambas imprimen el
+  endpoint/código HTTP, nunca la clave). Confirmé con
+  `grep -r "DEEPL_API_KEY\|ANTHROPIC_API_KEY\|auth_key\|DeepL-Auth-Key\|x-api-key" site/`
+  sobre el sitio generado: cero coincidencias. El único JavaScript del lado
+  del cliente es `site/assets/compartir.js` (el botón "Copiar enlace" de los
+  botones de compartir) — no hace ninguna llamada a red ni usa clave alguna,
+  solo `navigator.clipboard`.
 - **`site/.well-known/security.txt`** (RFC 9116): contacto
   `mailto:sistemas@derenzin.com` (el mismo correo de contacto que ya
   publica derenzin.com), `Preferred-Languages: es, en`, y un campo
@@ -436,9 +454,11 @@ assets ni su CSS.
 1. **Cron diario** a las `11:00 UTC` (≈ 06:00 America/Guayaquil, UTC-5 todo el
    año) + botón manual (`workflow_dispatch`) para probarlo cuando quieras desde
    la pestaña *Actions* de GitHub.
-2. Instala Python + las dos dependencias mínimas (`feedparser`, `PyYAML`).
-3. Corre `fetch_news.py` y luego `build_site.py` (este último recibe
-   `DEEPL_API_KEY` desde los Secrets del repo, si lo configuraste).
+2. Instala Python + las dependencias en `requirements.txt` (`feedparser`,
+   `PyYAML`, `trafilatura`).
+3. Corre, en orden: `fetch_news.py` → `resumir_ia.py` (recibe
+   `ANTHROPIC_API_KEY` si lo configuraste — ver "Resumen ampliado" arriba) →
+   `build_site.py` (recibe `DEEPL_API_KEY` si lo configuraste).
 4. Si hubo noticias nuevas, commitea `site/` (incluidas las imágenes
    descargadas), `data/publicadas.json` y `data/imagenes_descargadas.json` a
    la rama `main` con el usuario `github-actions[bot]`.
@@ -451,9 +471,10 @@ assets ni su CSS.
 6. Si ningún feed trajo novedades, el job igual termina exitosamente (verde);
    simplemente no hay commit ese día.
 
-La única clave/API externa que usa el proyecto es `DEEPL_API_KEY`, exclusiva
-para traducir al español (ver arriba). Sin ella configurada, el sitio sigue
-funcionando en modo seguro (cita el original en vez de traducir).
+Las claves/API externas que usa el proyecto son `DEEPL_API_KEY` (traducir al
+español) y `ANTHROPIC_API_KEY` (resumir el artículo completo con IA — ver
+arriba). Sin cualquiera de las dos configurada, el sitio sigue funcionando
+en modo seguro (cita/extracto original en vez de traducir o resumir).
 
 ---
 
@@ -465,6 +486,12 @@ sistema).
 ```bash
 pip install -r requirements.txt
 python scripts/fetch_news.py
+
+# Resumen con IA (opcional, si ya tienes una clave de Anthropic) -- si no,
+# se salta solo y build_site.py usa el extracto de RSS (Plan B):
+#   macOS/Linux:  ANTHROPIC_API_KEY="tu-clave" python scripts/resumir_ia.py
+#   Windows PowerShell:  $env:ANTHROPIC_API_KEY="tu-clave"; python scripts/resumir_ia.py
+python scripts/resumir_ia.py
 
 # Sin DEEPL_API_KEY: las noticias en inglés se publican citando el original.
 python scripts/build_site.py
@@ -478,6 +505,10 @@ python scripts/build_site.py
   ítems nuevos encontró en cada una, y por qué descartó los que descartó
   (dominio no coincidente, fuera de la ventana de 24-48h, ya publicado antes,
   etc.). Genera/actualiza `data/nuevas_hoy.json`.
+- `resumir_ia.py` lee ese mismo archivo, intenta extraer+resumir cada ítem
+  nuevo, y lo reescribe con los campos `resumen_ia`/`resumen_ia_ok` agregados
+  (deja dicho en el log cuántos tuvieron éxito). Si no hay
+  `ANTHROPIC_API_KEY`, se salta sin tocar el archivo.
 - `build_site.py` lee ese archivo y genera `site/index.html`,
   `site/archivo/AAAA-MM-DD.html` y actualiza `data/publicadas.json`. Si
   `nuevas_hoy.json` está vacío, no toca nada y lo deja dicho en el log.
@@ -570,6 +601,17 @@ muestran citando el original en vez de traducidas. Para traducción real, ve a
 la sección **"Traducción al español (DeepL)"** más arriba: crea una cuenta
 gratuita en DeepL y agrega tu clave como el secreto `DEEPL_API_KEY` en
 **Settings → Secrets and variables → Actions** del repo.
+
+### 5b. (Opcional pero recomendado) Configurar el resumen ampliado con IA
+
+Sin este paso el sitio ya funciona — solo que el resumen ampliado usa el
+extracto corto del RSS de siempre (traducido con DeepL) en vez del resumen
+del artículo completo generado por Claude. Para activarlo: crea una clave en
+[console.anthropic.com](https://console.anthropic.com/) y agrégala como el
+secreto `ANTHROPIC_API_KEY` en **Settings → Secrets and variables →
+Actions** del repo — ver la sección **"Resumen ampliado: extracción del
+artículo completo + resumen con IA"** más arriba para el detalle de cómo
+funciona y el Plan B si algo falla.
 
 ### 6. Ajustar el horario del cron (opcional)
 

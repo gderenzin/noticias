@@ -60,11 +60,44 @@ CONECTORES_COLGANTES = {
 }
 
 
+# Puntuación de cierre real -- si un texto termina en alguno de estos
+# caracteres, se considera una oración/frase completa y no se le toca nada.
+OK_ENDINGS = ".!?…\"'”)»"
+
+
 def _quitar_conectores_colgantes(texto: str) -> str:
     partes = texto.split(" ")
     while len(partes) > 1 and partes[-1].lower().strip(",;:") in CONECTORES_COLGANTES:
         partes.pop()
     return " ".join(partes)
+
+
+def fuente_parece_incompleta(texto: str) -> bool:
+    """True si `texto` (tal cual lo entrega la fuente RSS, ANTES de que
+    nosotros lo cortemos por longitud) ya llega incompleto: o bien trae su
+    propio marcador de "leer más" (ver RE_MARCADOR_ORIGEN), o bien no
+    termina en puntuación de cierre real. Se usa para decidir si hay que
+    agregar una nota explícita de "resumen parcial" en vez de confiar en
+    que la elipsis de rematar_final() alcance para avisarlo."""
+    texto = texto.rstrip()
+    if not texto:
+        return False
+    limpio = RE_MARCADOR_ORIGEN.sub("", texto).rstrip()
+    if limpio != texto:
+        return True  # tenía un marcador de origen tipo "[...]"
+    return limpio[-1] not in OK_ENDINGS
+
+
+def primeras_oraciones(texto: str, cantidad: int) -> str:
+    """Devuelve las primeras `cantidad` oraciones completas de `texto`
+    (corta en el punto/¡!/¿? de cierre de cada una) -- nunca a media
+    palabra ni a media oración. Si `texto` tiene menos oraciones que
+    `cantidad`, lo devuelve entero (rematado si hace falta)."""
+    texto = texto.strip()
+    posiciones = [m.end() for m in re.finditer(r"[.!?](?=\s|$)", texto)]
+    if len(posiciones) >= cantidad:
+        return texto[: posiciones[cantidad - 1]].strip()
+    return rematar_final(texto)
 
 
 def rematar_final(texto: str) -> str:
@@ -87,7 +120,7 @@ def rematar_final(texto: str) -> str:
     texto = RE_MARCADOR_ORIGEN.sub("", texto).rstrip()
     if not texto:
         return texto
-    if texto[-1] in ".!?…\"'”)»":
+    if texto[-1] in OK_ENDINGS:
         return texto
     texto = _quitar_conectores_colgantes(texto)
     texto = texto.rstrip(",;: ")
