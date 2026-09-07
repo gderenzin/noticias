@@ -1,0 +1,84 @@
+name: Diario - Noticias de ciberseguridad
+
+# Se dispara solo (cron) una vez al día + se puede lanzar a mano.
+on:
+  schedule:
+    # 11:00 UTC = 06:00 America/Guayaquil (UTC-5; Ecuador no usa horario de
+    # verano, así que este offset es fijo todo el año).
+    # Si quieres otra hora, cambia el cron de abajo. Formato: min hora dia mes diasemana (UTC).
+    # Ejemplos: '0 12 * * *' -> 07:00 Guayaquil | '30 10 * * *' -> 05:30 Guayaquil
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+# Permisos mínimos: solo necesitamos poder commitear/pushear al propio repo.
+permissions:
+  contents: write
+
+# Evita que dos ejecuciones (p.ej. cron + manual casi al mismo tiempo) se pisen.
+concurrency:
+  group: diario-noticias
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias mínimas
+        run: pip install -r requirements.txt
+
+      - name: Descargar y filtrar feeds (fetch_news.py)
+        run: python scripts/fetch_news.py
+
+      - name: Generar el sitio (build_site.py)
+        run: python scripts/build_site.py
+
+      - name: Commitear cambios en main (si los hay)
+        id: commit_main
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/ data/publicadas.json
+          if git diff --cached --quiet; then
+            echo "sin_cambios=true" >> "$GITHUB_OUTPUT"
+            echo "Sin novedades hoy: no hay cambios que commitear."
+          else
+            echo "sin_cambios=false" >> "$GITHUB_OUTPUT"
+            git commit -m "Actualización automática de noticias - $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Publicar site/ en la rama gh-pages
+        if: steps.commit_main.outputs.sin_cambios == 'false'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            git worktree add gh-pages-deploy origin/gh-pages
+          else
+            git worktree add --detach gh-pages-deploy
+            (cd gh-pages-deploy && git checkout --orphan gh-pages && git rm -rf . > /dev/null 2>&1 || true)
+          fi
+
+          rsync -a --delete --exclude ".git" site/ gh-pages-deploy/
+
+          cd gh-pages-deploy
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios que publicar en gh-pages."
+          else
+            git commit -m "Publicar sitio - $(date -u +%Y-%m-%d)"
+            git push origin HEAD:gh-pages
+          fi

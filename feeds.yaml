@@ -1,0 +1,50 @@
+# Lista blanca (allowlist) de fuentes RSS verificadas.
+#
+# Esta es la ÚNICA lista de fuentes permitida por scripts/fetch_news.py.
+# Nunca se agregan noticias desde ningún otro origen.
+#
+# Campos de cada fuente:
+#   nombre   -> nombre para mostrar en el sitio
+#   url      -> URL del feed RSS/Atom
+#   dominio  -> dominio "oficial" de los artículos de esta fuente. Se usa para
+#               verificar que el enlace de cada noticia realmente pertenece a
+#               esta fuente antes de publicarla (ver fetch_news.py). Nótese que
+#               para "The Hacker News" el feed se sirve vía Feedburner, pero los
+#               artículos enlazan a thehackernews.com — por eso el dominio de
+#               verificación es el del artículo, no el del feed.
+#   idioma   -> "en" o "es", solo informativo (se usa para avisar en el sitio
+#               cuando el contenido original no está en español)
+#   opcional -> si es "true" y el feed falla la validación, se elimina de esta
+#               lista y se documenta en README.md en vez de romper el proceso
+
+fuentes:
+  - nombre: "The Hacker News"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    dominio: "thehackernews.com"
+    idioma: en
+
+  - nombre: "BleepingComputer"
+    url: "https://www.bleepingcomputer.com/feed/"
+    dominio: "bleepingcomputer.com"
+    idioma: en
+
+  - nombre: "Krebs on Security"
+    url: "https://krebsonsecurity.com/feed/"
+    dominio: "krebsonsecurity.com"
+    idioma: en
+
+  - nombre: "Dark Reading"
+    url: "https://www.darkreading.com/rss.xml"
+    dominio: "darkreading.com"
+    idioma: en
+
+  - nombre: "WeLiveSecurity (ESET) en español"
+    url: "https://www.welivesecurity.com/es/rss/feed/"
+    dominio: "welivesecurity.com"
+    idioma: es
+
+  - nombre: "INCIBE-CERT - Avisos"
+    url: "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed"
+    dominio: "incibe.es"
+    idioma: es
+    opcional: true

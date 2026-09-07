@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archivo transitorio de intercambio entre fetch_news.py y build_site.py.
+# No se versiona porque se regenera en cada ejecución del workflow.
+data/nuevas_hoy.json
