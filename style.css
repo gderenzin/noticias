@@ -673,6 +673,14 @@ h1, h2, h3 {
 
 .noticia-detalle-cuerpo p {
   margin: 0 0 1.15rem 0;
+  /* Justificado solo acá (cuerpo del resumen completo en la página de
+     detalle) -- NO en las tarjetas de portada/grid, que quedan alineadas
+     a la izquierda como siempre. hyphens:auto evita que la justificación
+     deje espacios grandes entre palabras en líneas cortas (el <html
+     lang="es"> ya declarado activa el diccionario de guiones en español). */
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .noticia-fuente-final {
