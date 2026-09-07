@@ -7,6 +7,9 @@
   <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
   <link rel="icon" href="assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,181 +27,235 @@
       </div>
       <p class="subtitulo">Edición del 6 de septiembre de 2026 — 12 noticia(s) nueva(s)</p>
       <nav class="nav">
-        <a href="index.html" class="activo">Portada</a>
+        <a href="index.html" class="activo">Inicio</a>
         <a href="archivo/index.html">Archivo</a>
       </nav>
     </div>
   </header>
 
   <main class="contenido portada">
-    <article class="noticia">
-      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #475569">
+    <section class="destacada">
+      <a class="destacada-imagen-enlace" href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/" rel="noopener noreferrer" target="_blank">
+      <figure class="noticia-imagen noticia-imagen--generica noticia-imagen--destacada" style="--color-categoria: #475569">
+        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Ciberseguridad; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
         <figcaption>Ilustración genérica: Ciberseguridad (no es una foto real del hecho)</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: BleepingComputer</span>
-        <span class="fecha">Publicado: 07/09/2026 · 01:15 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+      </a>
+      <div class="destacada-cuerpo">
+        <span class="destacada-eyebrow">Lo más reciente</span>
+        <h2 class="destacada-titulo"><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/" rel="noopener noreferrer" target="_blank">ChatGPT Astra is now rolling out to $20 Plus subscription</a></h2>
+        <p class="destacada-resumen">Título original: &quot;ChatGPT Astra is now rolling out to $20 Plus subscription&quot;. Extracto original: &quot;OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there&#x27;s no word on when free users will get access.. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+        <div class="noticia-meta">
+          <span class="fuente">Fuente: BleepingComputer</span>
+          <span class="fecha">Publicado: 07/09/2026 · 01:15 UTC</span>
+          <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+        </div>
+        <a class="destacada-cta" href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/" rel="noopener noreferrer" target="_blank">Leer la noticia completa →</a>
       </div>
-      <h2 class="noticia-titulo"><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/" rel="noopener noreferrer" target="_blank">ChatGPT Astra is now rolling out to $20 Plus subscription</a></h2>
-      <p class="noticia-resumen">Título original: &quot;ChatGPT Astra is now rolling out to $20 Plus subscription&quot;. Extracto original: &quot;OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there&#x27;s no word on when free users will get access.. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/" rel="noopener noreferrer" target="_blank">Leer la noticia completa en BleepingComputer →</a>
-    </article>
-    <article class="noticia">
+    </section>
+
+    <div class="grid-noticias">
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #d97706">
+        <span class="categoria-badge" style="--color-categoria: #d97706">Phishing</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Phishing; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 7.5l9 6 9-6"/><path d="M12 13.5v4a2 2 0 0 0 3.6 1.2"/></svg></div>
         <figcaption>Ilustración genérica: Phishing (no es una foto real del hecho)</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: BleepingComputer</span>
-        <span class="fecha">Publicado: 06/09/2026 · 14:23 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/" rel="noopener noreferrer" target="_blank">Attackers conceal phishing lures using invisible Unicode characters</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Attackers conceal phishing lures using invisible Unicode characters&quot;. Extracto original: &quot;Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/" rel="noopener noreferrer" target="_blank">Leer la noticia completa en BleepingComputer →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/" rel="noopener noreferrer" target="_blank">Attackers conceal phishing lures using invisible Unicode characters</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Attackers conceal phishing lures using invisible Unicode characters&quot;. Extracto original: &quot;Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: BleepingComputer</span>
+            <span class="fecha">Publicado: 06/09/2026 · 14:23 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s1600/micro.jpg" alt="Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <img src="/imagenes/2026-09-06/facce19f469882d39024.jpg" alt="Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 06/09/2026 · 09:32 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html" rel="noopener noreferrer" target="_blank">Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication&quot;. Extracto original: &quot;Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska&#x27;s attack warning, published on September 5. Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html" rel="noopener noreferrer" target="_blank">Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication&quot;. Extracto original: &quot;Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska&#x27;s attack warning, published on September 5. Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 06/09/2026 · 09:32 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg" alt="Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #7c3aed">Malware</span>
+        <img src="/imagenes/2026-09-06/1d7ae19d99e7c9f0ee9d.jpg" alt="Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 06/09/2026 · 08:34 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html" rel="noopener noreferrer" target="_blank">Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner&quot;. Extracto original: &quot;Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html" rel="noopener noreferrer" target="_blank">Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner&quot;. Extracto original: &quot;Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 06/09/2026 · 08:34 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjghsT_skiIfdOHK2B0WWDfWnSK0G5Ih7BqsX98tKrY4TH7I77oLEmnldtVHuUMEQaIiZZBSPJGI2t8Me7h9kDtE4YGZ9-5NypnAu2-yFFrXsWYkR6OJPlbqkZDEHBAXCmRjWm6Mk4h0Ni48JT0nrDWMYygztjoi4HuHPbe2y-2jreFVkzrxO8r4IhHIEU/s1600/adobe-exploit.jpg" alt="Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <img src="/imagenes/2026-09-06/9e464f7a11302943391b.jpg" alt="Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 20:14 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html" rel="noopener noreferrer" target="_blank">Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores&quot;. Extracto original: &quot;Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store&#x27;s server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. &quot;Sansec is&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html" rel="noopener noreferrer" target="_blank">Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores&quot;. Extracto original: &quot;Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store&#x27;s server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. &quot;Sansec is&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 20:14 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH4sbUEhtXF9n1_8s2f6ChnKMmjUv4Ht-DvEtZyLDPuSNhKFoi41aNlu3-u5kJLXUva81rNFwlsprMXE11cnbXc_es968eO-ANvWm0j1Cyi9SaoVUfneQqNINCR7lRs3qkkYdsSoyMu34Mgxs7B4pKclAt4atPw8B-RCFOTChtgeji9NTes_NEdZ2KKu2_/s1600/jet.jpg" alt="Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
+        <img src="/imagenes/2026-09-06/0760c3adf31a29619fda.jpg" alt="Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 16:52 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html" rel="noopener noreferrer" target="_blank">Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials&quot;. Extracto original: &quot;JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. &quot;Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,&quot; JetBrains said.&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html" rel="noopener noreferrer" target="_blank">Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials&quot;. Extracto original: &quot;JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. &quot;Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,&quot; JetBrains said.&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 16:52 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzExwAd4Vsd2Xz-9kex6ucfK6MDmftPVCfiOGQICWDKrgxMJ6fOj0EttLP2kpYBDv4xSYdrEXt8Wntz916Oa2tyrMnaSHDLH9vb5RF4ncjvwdkeFU8GwaqWvT6zLHRTKIF-BOGK8p24Im4NwqlqZxTokMsYOfXSBdA0-jXxMbMozfjdK-iyyavdAywjAAh/s1600/vmware-host.jpg" alt="Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <img src="/imagenes/2026-09-06/a27e6d11aceb031fb2bb.jpg" alt="Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 16:05 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html" rel="noopener noreferrer" target="_blank">Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code&quot;. Extracto original: &quot;Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code. &quot;A&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html" rel="noopener noreferrer" target="_blank">Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code&quot;. Extracto original: &quot;Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code. &quot;A&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 16:05 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #475569">
+        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Ciberseguridad; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
         <figcaption>Ilustración genérica: Ciberseguridad (no es una foto real del hecho)</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: BleepingComputer</span>
-        <span class="fecha">Publicado: 05/09/2026 · 14:29 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/" rel="noopener noreferrer" target="_blank">Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain&quot;. Extracto original: &quot;A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/" rel="noopener noreferrer" target="_blank">Leer la noticia completa en BleepingComputer →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/" rel="noopener noreferrer" target="_blank">Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain&quot;. Extracto original: &quot;A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: BleepingComputer</span>
+            <span class="fecha">Publicado: 05/09/2026 · 14:29 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIuPjOUFz-c7o9qipnKr4soYR6NxJJxAYgcDqwTPl3LB5XXiag7UpIq8-qFzCbiC1cnlpWfyaRvAt9MVxIlSXeuEN_97devL_mSI25Ee73cO47vDq4dqsM8Nq08d7FogI7sVIPWlnMTD-Una_rRwyTyXqKG6am2DrU_EoIESLicWgDvpxsw6e8yAHmJnGI/s1600/trezor.jpg" alt="Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
+        <img src="/imagenes/2026-09-06/7b528bdd7033c930cdd5.jpg" alt="Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 14:17 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html" rel="noopener noreferrer" target="_blank">Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted&quot;. Extracto original: &quot;Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company&#x27;s hardware wallets&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html" rel="noopener noreferrer" target="_blank">Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted&quot;. Extracto original: &quot;Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company&#x27;s hardware wallets&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 14:17 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #0f766e">
+        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Filtración de datos; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="2.4"/><path d="M5 6v12c0 1.3 3.1 2.4 7 2.4s7-1.1 7-2.4V6"/><path d="M5 12c0 1.3 3.1 2.4 7 2.4"/><path d="M17.3 15.8c0 1.3-1.1 2.4-2.3 2.4s-2.3-1.1-2.3-2.4c0-1.5 2.3-3.8 2.3-3.8s2.3 2.3 2.3 3.8z" fill="currentColor" stroke="none"/></svg></div>
         <figcaption>Ilustración genérica: Filtración de datos (no es una foto real del hecho)</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: BleepingComputer</span>
-        <span class="fecha">Publicado: 05/09/2026 · 11:11 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/" rel="noopener noreferrer" target="_blank">OpenAI admits it didn&#x27;t disclose rogue AI wiki hijacking incident</a></h2>
-      <p class="noticia-resumen">Título original: &quot;OpenAI admits it didn&#x27;t disclose rogue AI wiki hijacking incident&quot;. Extracto original: &quot;OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model &quot;misalignment&quot; rather than a security breach. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/" rel="noopener noreferrer" target="_blank">Leer la noticia completa en BleepingComputer →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/" rel="noopener noreferrer" target="_blank">OpenAI admits it didn&#x27;t disclose rogue AI wiki hijacking incident</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;OpenAI admits it didn&#x27;t disclose rogue AI wiki hijacking incident&quot;. Extracto original: &quot;OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model &quot;misalignment&quot; rather than a security breach. [...]&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: BleepingComputer</span>
+            <span class="fecha">Publicado: 05/09/2026 · 11:11 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1600/agents-openai.jpg" alt="Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
+        <img src="/imagenes/2026-09-06/35e1a87a525342d62eae.jpg" alt="Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 07:55 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html" rel="noopener noreferrer" target="_blank">Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel&quot;. Extracto original: &quot;A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki, a German software developer wiki that runs&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
-    <article class="noticia">
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html" rel="noopener noreferrer" target="_blank">Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel&quot;. Extracto original: &quot;A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki, a German software developer wiki that runs&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 07:55 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html" rel="noopener noreferrer" target="_blank">
       <figure class="noticia-imagen">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s1600/papercut-hacks.jpg" alt="Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <img src="/imagenes/2026-09-06/b2c32c05385ba172a773.jpg" alt="Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
-      <div class="noticia-meta">
-        <span class="fuente">Fuente: The Hacker News</span>
-        <span class="fecha">Publicado: 05/09/2026 · 07:31 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
-      </div>
-      <h2 class="noticia-titulo"><a href="https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html" rel="noopener noreferrer" target="_blank">Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</a></h2>
-      <p class="noticia-resumen">Título original: &quot;Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities&quot;. Extracto original: &quot;Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
-      <a class="noticia-enlace" href="https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html" rel="noopener noreferrer" target="_blank">Leer la noticia completa en The Hacker News →</a>
-    </article>
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html" rel="noopener noreferrer" target="_blank">Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</a></h3>
+          <p class="tarjeta-resumen">Título original: &quot;Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities&quot;. Extracto original: &quot;Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as&quot; (No se pudo traducir automáticamente esta noticia; se muestra el texto original.)</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: The Hacker News</span>
+            <span class="fecha">Publicado: 05/09/2026 · 07:31 UTC</span>
+            <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- FIN-GRID -->
 
   </main>
 
@@ -218,5 +275,6 @@
       </div>
     </div>
   </footer>
+
 </body>
 </html>
