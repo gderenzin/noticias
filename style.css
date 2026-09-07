@@ -532,6 +532,81 @@ h1, h2, h3 {
   margin-bottom: 1.5rem;
 }
 
+/* Botones de compartir: bajo la fecha/fuente, antes de la imagen. Los
+   enlaces a redes son <a href target=_blank> normales (no requieren JS);
+   "Copiar enlace" es el único <button> real, con navigator.clipboard
+   (assets/compartir.js). */
+.compartir {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.75rem;
+}
+
+.compartir-etiqueta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--texto-suave);
+}
+
+.compartir-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.compartir-boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--borde);
+  border-radius: 50%;
+  background: var(--fondo-tarjeta);
+  color: var(--texto-tenue);
+  cursor: pointer;
+  font: inherit;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.compartir-boton:hover,
+.compartir-boton:focus-visible {
+  background: var(--acento-suave);
+  color: var(--marca-acento-oscuro);
+  border-color: var(--marca-acento);
+}
+
+.compartir-copiar {
+  width: auto;
+  padding: 0 0.85rem;
+  border-radius: 999px;
+}
+
+.compartir-copiar-msg {
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.compartir-copiar--hecho {
+  background: var(--acento-suave);
+  color: var(--marca-acento-oscuro);
+  border-color: var(--marca-acento);
+}
+
+@media (max-width: 480px) {
+  .compartir {
+    gap: 0.5rem;
+  }
+  .compartir-etiqueta {
+    width: 100%;
+  }
+}
+
 .noticia-detalle > .noticia-imagen {
   border-radius: var(--radio);
   margin-bottom: 1.75rem;
