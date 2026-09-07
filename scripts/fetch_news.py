@@ -243,16 +243,46 @@ def limpiar_html(texto: str) -> str:
 
 
 def limpiar_html_conservando_parrafos(texto: str) -> str:
-    """Como limpiar_html(), pero marca los saltos de párrafo (</p>, <br>)
-    como "\\n\\n" ANTES de quitar el resto de las etiquetas, para que
-    build_site.py pueda mostrar el contenido ampliado como varios párrafos
-    en vez de un solo bloque de texto corrido."""
+    """Como limpiar_html(), pero marca los saltos de párrafo ANTES de
+    quitar el resto de las etiquetas, para que build_site.py pueda mostrar
+    el contenido ampliado como varios párrafos en vez de un solo bloque de
+    texto corrido.
+
+    Antes solo <p>/<br> marcaban salto de párrafo -- si el <content:encoded>
+    de una fuente arma su contenido con otra estructura (confirmado:
+    INCIBE-CERT usa <table> para el resumen técnico del CVE, <ul>/<li>
+    para "Listado de referencias"/"Etiquetas", y <h1>-<h6> como títulos de
+    sección tipo "Descripción"/"Solución"/"Detalle", sin ningún <p>), todo
+    eso quedaba pegado en una sola frase corrida y sin sentido (p.ej.
+    "Identificador CVE Severidad Explotación Fabricante CVE-2026-84186
+    Media No PrestaShop", que son las celdas de una tabla sin sus
+    columnas). Por eso ahora:
+    1. Se descartan ENTERAS las tablas y listas (<table>, <ul>, <ol>) antes
+       de marcar párrafos -- son datos estructurados o metadatos
+       (referencias, etiquetas), no prosa del artículo, y sin las
+       columnas/viñetas originales quedan ilegibles como texto corrido.
+    2. Los títulos de sección (<h1>-<h6>) también se descartan enteros (no
+       solo se usan como marca de salto de párrafo) -- son etiquetas
+       cortas tipo "Descripción"/"Solución", no prosa, y quedarían como
+       "párrafos" sueltos de una sola palabra si se conservara su texto.
+    3. Se marca salto de párrafo en más bloques, no solo <p>/<br> (también
+       <div>) -- por si una fuente arma sus párrafos con otro elemento en
+       vez de <p>.
+    """
     import html
     import re
 
     if not texto:
         return ""
-    marcado = re.sub(r"</p\s*>|<br\s*/?>", "\n\n", texto, flags=re.IGNORECASE)
+    sin_estructuras = re.sub(r"<table[^>]*>.*?</table>", " ", texto, flags=re.IGNORECASE | re.DOTALL)
+    sin_estructuras = re.sub(r"<(ul|ol)[^>]*>.*?</\1>", " ", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
+    sin_estructuras = re.sub(r"<h[1-6][^>]*>.*?</h[1-6]>", "\n\n", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
+    marcado = re.sub(
+        r"</p\s*>|<br\s*/?>|</div\s*>",
+        "\n\n",
+        sin_estructuras,
+        flags=re.IGNORECASE,
+    )
     sin_tags = re.sub(r"<[^>]+>", " ", marcado)
     decodificado = html.unescape(sin_tags)
     lineas = [re.sub(r"[ \t]+", " ", linea).strip() for linea in decodificado.split("\n")]
