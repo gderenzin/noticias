@@ -68,6 +68,84 @@ MAX_PARRAFOS_AMPLIADO = 5
 # Guayaquil = UTC-5 todo el año (Ecuador no usa horario de verano)
 ZONA_GUAYAQUIL = timezone(timedelta(hours=-5))
 
+# --- SEO / seguridad -------------------------------------------------------
+# Dominio público del sitio (para canonical, Open Graph, JSON-LD y sitemap.xml).
+SITIO_BASE_URL = "https://noticias.derenzin.com"
+
+# Content-Security-Policy vía <meta>: solo el propio dominio y Google Fonts
+# (única dependencia externa). No hay ningún <script> en el sitio aparte de
+# los bloques JSON-LD (application/ld+json, que los navegadores no tratan
+# como "script" ejecutable a efectos de CSP), así que script-src puede ir en
+# 'none'. Nota: frame-ancestors/sandbox no tienen efecto vía <meta> (los
+# ignora el navegador) — si en el futuro este sitio se sirve detrás de algo
+# que permita fijar headers HTTP de verdad, ahí sí conviene agregarlos.
+POLITICA_SEGURIDAD_CONTENIDO = (
+    "default-src 'self'; "
+    "img-src 'self'; "
+    "style-src 'self' https://fonts.googleapis.com; "
+    "font-src 'self' https://fonts.gstatic.com; "
+    "script-src 'none'; "
+    "object-src 'none'; "
+    "base-uri 'self'; "
+    "form-action 'self'"
+)
+
+
+def url_absoluta(ruta: str) -> str:
+    """Convierte una ruta relativa a la raíz del sitio (o ya absoluta) en una
+    URL completa con el dominio — necesaria para canonical/Open Graph/JSON-LD,
+    que no pueden usar rutas relativas."""
+    if ruta.startswith("http://") or ruta.startswith("https://"):
+        return ruta
+    return f"{SITIO_BASE_URL}/{ruta.lstrip('/')}"
+
+
+def render_meta_seo(titulo: str, descripcion: str, ruta_canonica: str, ruta_imagen: str, tipo_og: str = "website") -> str:
+    """Bloque de <meta> compartido por las 4 plantillas: description,
+    canonical, Open Graph y Twitter Card. `ruta_canonica` y `ruta_imagen`
+    pueden ser relativas a la raíz del sitio (se resuelven con
+    url_absoluta) o ya vernir absolutas."""
+    url_canonica = url_absoluta(ruta_canonica)
+    url_imagen = url_absoluta(ruta_imagen)
+    desc = escape(descripcion, quote=True)
+    tit = escape(titulo, quote=True)
+    return f"""  <meta name="description" content="{desc}">
+  <link rel="canonical" href="{escape(url_canonica, quote=True)}">
+  <meta property="og:type" content="{tipo_og}">
+  <meta property="og:site_name" content="Periódico de Ciberseguridad">
+  <meta property="og:title" content="{tit}">
+  <meta property="og:description" content="{desc}">
+  <meta property="og:url" content="{escape(url_canonica, quote=True)}">
+  <meta property="og:image" content="{escape(url_imagen, quote=True)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{tit}">
+  <meta name="twitter:description" content="{desc}">
+  <meta name="twitter:image" content="{escape(url_imagen, quote=True)}">"""
+
+
+def render_json_ld_noticia(item: dict, titulo_mostrar: str, ruta_noticia: str, categoria: str) -> str:
+    """Datos estructurados schema.org/NewsArticle para la página de detalle.
+    Todos los campos salen tal cual de los datos ya verificados del RSS —
+    nada inventado. "author" es la fuente original (no tenemos el nombre de
+    un periodista individual en el RSS); "publisher" es este sitio."""
+    ruta_imagen = item.get("imagen_local") or "/assets/logo-derenzin.png"
+    datos = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": titulo_mostrar,
+        "datePublished": item["fecha_publicacion_iso"],
+        "dateModified": item["fecha_publicacion_iso"],
+        "image": [url_absoluta(ruta_imagen)],
+        "author": {"@type": "Organization", "name": item["fuente"]},
+        "publisher": {
+            "@type": "Organization",
+            "name": "Periódico de Ciberseguridad — DERENZIN S.A.S.",
+            "logo": {"@type": "ImageObject", "url": url_absoluta("/assets/logo-derenzin.png")},
+        },
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url_absoluta(ruta_noticia)},
+    }
+    return f'  <script type="application/ld+json">{json.dumps(datos, ensure_ascii=False)}</script>'
+
 AVISO_LEGAL = (
     "Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; "
     "el contenido pertenece a sus autores originales. Consulta el enlace de "
@@ -444,13 +522,18 @@ def fecha_corta(iso_str: str) -> str:
 
 def render_badge_categoria(categoria: str) -> str:
     info = CATEGORIAS.get(categoria, GENERICO)
-    return f'<span class="categoria-badge" style="--color-categoria: {info["color"]}">{escape(info["etiqueta"])}</span>'
+    return f'<span class="categoria-badge">{escape(info["etiqueta"])}</span>'
 
 
 def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacada: bool = False) -> str:
     """Imagen real (ya descargada por fetch_news.py a site/imagenes/…) o, si no
     hay ninguna, el ícono de categoría de respaldo. Ambas llevan siempre la
-    insignia de color de la categoría encima."""
+    insignia de color de la categoría encima.
+
+    El color de la categoría se aplica con una clase CSS (`cat-<categoria>`)
+    en el contenedor ancestro (ver render_tarjeta_html/render_pagina_noticia),
+    nunca con `style="..."` en línea — así la Content-Security-Policy del
+    sitio puede prohibir estilos en línea sin romper nada."""
     ruta_imagen = item.get("imagen_local")
     fuente = escape(item["fuente"])
     badge = render_badge_categoria(categoria)
@@ -467,13 +550,12 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
 """
 
     info = CATEGORIAS.get(categoria, GENERICO)
-    color = info["color"]
     # La transparencia de que es un ícono (no una foto real) se conserva para
     # lectores de pantalla vía aria-label, y visualmente con una etiqueta
     # pequeña y discreta ("Ilustrativo") en vez de una frase larga metida en
     # el texto de la noticia.
     alt_icono = escape(f"Ilustración genérica de la categoría {info['etiqueta']}; no es una foto real del hecho", quote=True)
-    return f"""      <figure class="noticia-imagen noticia-imagen--generica{clase_extra}" style="--color-categoria: {color}">
+    return f"""      <figure class="noticia-imagen noticia-imagen--generica{clase_extra}">
         {badge}
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="{alt_icono}">{info['svg']}</div>
@@ -495,10 +577,7 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
     categoria = categorizar(item)
     imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=es_destacada)
     info_categoria = CATEGORIAS.get(categoria, GENERICO)
-    eyebrow_categoria = (
-        f'<span class="eyebrow-categoria" style="--color-categoria: {info_categoria["color"]}">'
-        f'{escape(info_categoria["etiqueta"])}</span>'
-    )
+    eyebrow_categoria = f'<span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>'
 
     fuente = escape(item["fuente"])
     enlace_noticia = escape(ruta_noticia, quote=True)
@@ -508,7 +587,7 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
     nota_html = f'<span class="idioma-nota">{escape(nota_idioma)}</span>' if nota_idioma else ""
 
     if es_destacada:
-        return f"""    <section class="destacada">
+        return f"""    <article class="destacada cat-{categoria}">
       <a class="destacada-imagen-enlace" href="{enlace_noticia}">
 {imagen_html}      </a>
       <div class="destacada-cuerpo">
@@ -523,10 +602,10 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
         </div>
         <a class="destacada-cta" href="{enlace_noticia}">Leer la noticia completa →</a>
       </div>
-    </section>
+    </article>
 """
 
-    return f"""      <article class="tarjeta">
+    return f"""      <article class="tarjeta cat-{categoria}">
         <a class="tarjeta-imagen-enlace" href="{enlace_noticia}">
 {imagen_html}        </a>
         <div class="tarjeta-cuerpo">
@@ -543,7 +622,7 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
 """
 
 
-def render_pagina_noticia(item: dict, ruta_noticia_abs: str) -> str:
+def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     """Página de detalle propia del sitio para una noticia: resumen ampliado
     en español (parafraseado a partir del texto más completo del RSS, nunca
     el artículo completo — ver preparar_resumen_ampliado), imagen/ícono y
@@ -564,6 +643,8 @@ def render_pagina_noticia(item: dict, ruta_noticia_abs: str) -> str:
     enlace_externo = escape(item["enlace"], quote=True)
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     titulo_html = escape(titulo_mostrar)
+    descripcion = truncar(mostrado["resumen_mostrar"], 160)
+    imagen_pagina = item.get("imagen_local") or "/assets/logo-derenzin.png"
 
     parrafos_html = "\n".join(
         f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
@@ -579,19 +660,21 @@ def render_pagina_noticia(item: dict, ruta_noticia_abs: str) -> str:
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{titulo_html} — Periódico de Ciberseguridad</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+{render_meta_seo(f"{titulo_mostrar} — Periódico de Ciberseguridad", descripcion, ruta_noticia, imagen_pagina, tipo_og="article")}
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
   <link rel="stylesheet" href="../style.css">
+{render_json_ld_noticia(item, titulo_mostrar, ruta_noticia, categoria)}
 </head>
 <body>
 {render_cabecera("Detalle de la noticia", "../", "noticia")}
   <main class="contenido pagina-noticia">
-    <article class="noticia-detalle">
-      <span class="eyebrow-categoria" style="--color-categoria: {info_categoria["color"]}">{escape(info_categoria["etiqueta"])}</span>
+    <article class="noticia-detalle cat-{categoria}">
+      <span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>
       <h1 class="noticia-detalle-titulo">{titulo_html}</h1>
       <div class="noticia-meta">
         <span class="fuente">Fuente: {fuente}</span>
@@ -675,14 +758,15 @@ def render_pie(prefijo: str) -> str:
 """
 
 
-def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> str:
+def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{escape(titulo_pagina)}</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+{render_meta_seo(titulo_pagina, descripcion, "", imagen_og)}
   <link rel="icon" href="assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
@@ -691,6 +775,7 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> 
 <body>
 {render_cabecera(subtitulo, "", "portada")}
   <main class="contenido portada">
+    <h1 class="sr-only">{escape(titulo_pagina)}</h1>
 {items_html}
   </main>
 
@@ -700,14 +785,16 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> 
 """
 
 
-def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str) -> str:
+def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str) -> str:
+    titulo_pagina = f"Ciberseguridad — edición del {fecha_str}"
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ciberseguridad — edición del {escape(fecha_str)}</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <title>{escape(titulo_pagina)}</title>
+{render_meta_seo(titulo_pagina, descripcion, f"archivo/{fecha_str}.html", imagen_og)}
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
@@ -716,6 +803,7 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str) -
 <body>
 {render_cabecera(subtitulo, "../", "archivo")}
   <main class="contenido archivo-dia">
+    <h1 class="sr-only">{escape(titulo_pagina)}</h1>
 {items_html}
   </main>
 
@@ -735,12 +823,16 @@ def render_archivo_index(dias: list[str]) -> str:
     else:
         lista = "<p>Todavía no hay ediciones archivadas.</p>"
 
+    titulo_pagina = "Archivo — Periódico de Ciberseguridad"
+    descripcion = "Índice de todas las ediciones diarias publicadas del Periódico de Ciberseguridad — un proyecto de DERENZIN S.A.S."
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Archivo — Periódico de Ciberseguridad</title>
+  <title>{escape(titulo_pagina)}</title>
+{render_meta_seo(titulo_pagina, descripcion, "archivo/index.html", "/assets/logo-derenzin.png")}
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
@@ -749,6 +841,7 @@ def render_archivo_index(dias: list[str]) -> str:
 <body>
 {render_cabecera("Archivo de ediciones anteriores", "../", "archivo")}
   <main class="contenido">
+    <h1 class="sr-only">{escape(titulo_pagina)}</h1>
     {lista}
   </main>
 
@@ -756,6 +849,44 @@ def render_archivo_index(dias: list[str]) -> str:
 </body>
 </html>
 """
+
+
+def generar_sitemap() -> None:
+    """Escanea site/ (no solo lo publicado hoy) y regenera sitemap.xml con
+    todas las páginas: portada, índice de archivo, cada día archivado y cada
+    noticia. Se corre al final de cada publicación real."""
+    ahora_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    entradas: list[tuple[str, str]] = []
+
+    def agregar(ruta_relativa: str, archivo: Path) -> None:
+        try:
+            lastmod = datetime.fromtimestamp(archivo.stat().st_mtime, tz=timezone.utc).strftime("%Y-%m-%d")
+        except OSError:
+            lastmod = ahora_str
+        entradas.append((url_absoluta(ruta_relativa), lastmod))
+
+    if (SITE_DIR / "index.html").exists():
+        agregar("", SITE_DIR / "index.html")
+    if (ARCHIVO_DIR / "index.html").exists():
+        agregar("archivo/index.html", ARCHIVO_DIR / "index.html")
+    for p in sorted(ARCHIVO_DIR.glob("*.html")):
+        if p.stem != "index":
+            agregar(f"archivo/{p.name}", p)
+    for p in sorted(NOTICIA_DIR.glob("*.html")):
+        agregar(f"noticia/{p.name}", p)
+
+    urls_xml = "\n".join(
+        f"  <url>\n    <loc>{escape(loc, quote=True)}</loc>\n    <lastmod>{lastmod}</lastmod>\n  </url>"
+        for loc, lastmod in entradas
+    )
+    contenido = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{urls_xml}
+</urlset>
+"""
+    with open(SITE_DIR / "sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(contenido)
+    log(f"Escrito {SITE_DIR / 'sitemap.xml'} ({len(entradas)} URL(s)).")
 
 
 def main() -> None:
@@ -806,16 +937,28 @@ def main() -> None:
 """
     )
 
+    # Descripción/imagen para SEO y Open Graph de portada y archivo del día:
+    # se basan en la noticia destacada (la más reciente), o en el logo si esa
+    # noticia no tiene imagen propia.
+    descripcion_edicion = (
+        f"Titulares de ciberseguridad del {fecha_legible(ahora_gye)}, agregados de fuentes públicas "
+        "verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). "
+        "Un proyecto de DERENZIN S.A.S."
+    )
+    imagen_og_edicion = nuevos[0].get("imagen_local") or "/assets/logo-derenzin.png"
+
     # 1. Portada (index.html)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
-    index_html = render_pagina_index("Periódico de Ciberseguridad — Portada", subtitulo, items_html)
+    index_html = render_pagina_index(
+        "Periódico de Ciberseguridad — Portada", subtitulo, items_html, descripcion_edicion, imagen_og_edicion
+    )
     with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
         f.write(index_html)
     log(f"Escrito {SITE_DIR / 'index.html'}")
 
     # 2. Página de archivo del día
     ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
-    pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html)
+    pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html, descripcion_edicion, imagen_og_edicion)
     ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
     if ruta_dia.exists():
         # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): la
@@ -844,7 +987,10 @@ def main() -> None:
         f.write(render_archivo_index(dias_existentes))
     log(f"Escrito {ARCHIVO_DIR / 'index.html'} ({len(dias_existentes)} edición/ediciones listadas)")
 
-    # 4. Ledger de publicadas
+    # 4. Sitemap (para buscadores) — se regenera completo cada vez que hay publicación
+    generar_sitemap()
+
+    # 5. Ledger de publicadas
     publicadas = cargar_publicadas()
     urls = publicadas.setdefault("urls", {})
     for item in nuevos:

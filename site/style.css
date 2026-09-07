@@ -44,6 +44,34 @@
   box-sizing: border-box;
 }
 
+/* Colores por categoría: se fijan aquí como clases (nunca con style="" en
+   línea) para que la Content-Security-Policy del sitio pueda prohibir
+   estilos en línea sin romper las insignias/íconos. La variable
+   --color-categoria se hereda de forma normal a los elementos descendientes
+   (insignia sobre la imagen, ícono genérico, etiqueta junto al título). */
+.cat-ransomware { --color-categoria: #c0392b; }
+.cat-phishing { --color-categoria: #d97706; }
+.cat-filtracion_datos { --color-categoria: #0f766e; }
+.cat-vulnerabilidad { --color-categoria: #2563eb; }
+.cat-malware { --color-categoria: #7c3aed; }
+.cat-ddos { --color-categoria: #be185d; }
+.cat-generico { --color-categoria: #475569; }
+
+/* Accesible: visible para lectores de pantalla y buscadores, oculto
+   visualmente. Usado para el <h1> de páginas donde ya hay suficiente
+   jerarquía visual sin mostrarlo de nuevo en pantalla. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }

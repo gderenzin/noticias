@@ -102,6 +102,9 @@ site/noticia/AAAA-MM-DD-*.html   Página de detalle propia de cada noticia (resu
 site/CNAME                       Dominio personalizado para GitHub Pages
 site/archivo/AAAA-MM-DD.html     Una página por cada día publicado
 site/archivo/index.html          Índice de todas las ediciones archivadas
+site/sitemap.xml                 Mapa del sitio para buscadores (se regenera en cada publicación)
+site/robots.txt                  Permite indexar todo el sitio y apunta al sitemap
+site/.well-known/security.txt    Contacto para reportar vulnerabilidades (RFC 9116)
 .github/workflows/diario.yml     Automatización (cron diario + botón manual)
 ```
 
@@ -330,6 +333,101 @@ assets ni su CSS.
 - **Sin contadores de depuración en la página**: el número de noticias
   nuevas de cada corrida es información de diagnóstico — queda solo en el
   log del workflow de GitHub Actions, nunca en el texto que ve el visitante.
+
+---
+
+## SEO
+
+- **`site/sitemap.xml`**: lo genera `generar_sitemap()` en `build_site.py`,
+  escaneando `site/` completo (no solo lo publicado ese día) — portada,
+  índice de archivo, cada día archivado y cada noticia individual. Se
+  regenera entera cada vez que hay una publicación nueva, con `<lastmod>`
+  tomado de la fecha de modificación real de cada archivo.
+- **`site/robots.txt`**: permite indexar todo (`Allow: /`) y apunta al
+  sitemap. Es estático (no cambia entre publicaciones), así que no lo genera
+  el script — vive commiteado igual que `CNAME`.
+- **Meta tags únicos por página** (`render_meta_seo()` en `build_site.py`):
+  `<meta name="description">`, `<link rel="canonical">`, Open Graph
+  (`og:title`, `og:description`, `og:url`, `og:image`, `og:type`) y Twitter
+  Card (`summary_large_image`) en las 4 plantillas (portada, archivo del
+  día, índice de archivo, noticia). La descripción y la imagen de portada y
+  archivo del día se basan en la noticia destacada de esa edición; en la
+  página de una noticia, en su propio resumen e imagen (o el logo si esa
+  noticia no tiene imagen real).
+- **JSON-LD `NewsArticle`** (`render_json_ld_noticia()`) en cada página de
+  detalle: `headline`, `datePublished`, `image`, `author` (la fuente
+  original, como `Organization` — el RSS no trae el nombre de un periodista
+  individual) y `publisher` (este sitio, con su logo). Todos los campos
+  salen de datos que el RSS ya trae — nada inventado. Confirmé en el
+  navegador que el bloque `<script type="application/ld+json">` carga y
+  parsea bien incluso con la CSP estricta de abajo (`script-src 'none'` no
+  bloquea `application/ld+json`: los navegadores no lo tratan como script
+  ejecutable).
+- **HTML semántico**: `<header>`, `<main>`, `<footer>` (ya existían) y ahora
+  también `<article>` para cada noticia (destacada incluida — antes la
+  destacada usaba `<section>`, ya que semánticamente es una noticia
+  individual igual que las tarjetas del grid). Jerarquía de encabezados
+  corregida: cada página tiene un único `<h1>` (visible en la página de
+  noticia — es su título; oculto visualmente pero presente para buscadores
+  y lectores de pantalla en portada/archivo, con la clase `.sr-only`, ya que
+  ahí el título visual ya lo transmite la noticia destacada), `<h2>` para la
+  destacada y el encabezado de sección, `<h3>` para cada tarjeta.
+
+---
+
+## Seguridad
+
+- **HTTPS forzado — ⚠️ NO está activo todavía, a pesar de que se pensaba que
+  sí**: probé `http://noticias.derenzin.com` (sin "s") directo y GitHub Pages
+  respondió `200 OK` **sirviendo el contenido en HTTP plano, sin redirigir a
+  HTTPS** (confirmado con `curl -D -` mostrando la respuesta completa: no hay
+  `Location` ni header `Strict-Transport-Security`). `https://` sí funciona
+  bien, pero mientras "Enforce HTTPS" no esté tildado en `Settings → Pages`,
+  un visitante que entre por `http://` (o un enlace viejo sin "s") ve el
+  sitio sin cifrar. Esto no lo puedo activar yo (es un toggle en la interfaz
+  de GitHub, no algo que se controle por API sin autenticación) — actívalo
+  tú en **Settings → Pages → Enforce HTTPS** y avísame para volver a probarlo.
+- **Content-Security-Policy vía `<meta>`** (pedida así porque GitHub Pages no
+  permite fijar headers HTTP propios) en las 4 plantillas:
+  ```
+  default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com;
+  font-src 'self' https://fonts.gstatic.com; script-src 'none'; object-src 'none';
+  base-uri 'self'; form-action 'self'
+  ```
+  Solo permite el propio dominio, más Google Fonts (única dependencia
+  externa). `img-src 'self'` es viable porque **ya no hay ninguna imagen
+  hotlinkeada** — todas se descargan y alojan localmente (ver sección
+  "Imágenes"). `script-src 'none'` porque el sitio no tiene ningún
+  JavaScript (los bloques JSON-LD no cuentan como script ejecutable).
+  - Para que esto funcionara sin `'unsafe-inline'` en `style-src`, tuve que
+    quitar todos los `style="--color-categoria: ..."` en línea que usaba
+    para pintar cada categoría — ahora el color se fija con una clase CSS
+    (`cat-ransomware`, `cat-phishing`, etc.) en el contenedor de cada
+    noticia, y los elementos de adentro (insignia, ícono, etiqueta) heredan
+    el color por la cascada normal de CSS. Mismo resultado visual, sin
+    depender de estilos en línea.
+  - Nota: `frame-ancestors` y `sandbox` no tienen efecto declarados vía
+    `<meta>` (el navegador los ignora ahí, es una limitación del estándar,
+    no de este sitio) — si en algún momento este sitio queda detrás de algo
+    que permita fijar headers HTTP de verdad (p.ej. un Cloudflare Worker
+    delante de GitHub Pages), ahí sí valdría agregarlos.
+- **La clave de DeepL nunca llega al navegador**: `DEEPL_API_KEY` se lee
+  únicamente con `os.environ.get(...)` dentro de `build_site.py`, que corre
+  del lado del workflow de GitHub Actions (Python puro, sin navegador de por
+  medio). Se usa solo para construir el header `Authorization` de la
+  petición HTTP a la API de DeepL — nunca se escribe en ningún archivo HTML,
+  ni se imprime en los logs (los logs de error de DeepL imprimen el
+  endpoint y el código HTTP, nunca la clave). Confirmé con
+  `grep -r "DEEPL_API_KEY\|auth_key\|DeepL-Auth-Key" site/` sobre el sitio
+  generado: cero coincidencias. El sitio no tiene JavaScript del lado del
+  cliente que pudiera necesitar o exponer ninguna clave.
+- **`site/.well-known/security.txt`** (RFC 9116): contacto
+  `mailto:sistemas@derenzin.com` (el mismo correo de contacto que ya
+  publica derenzin.com), `Preferred-Languages: es, en`, y un campo
+  `Expires` a un año desde que se creó este archivo. **Este campo hay que
+  actualizarlo a mano una vez al año** (RFC 9116 exige una fecha de
+  expiración; no hay automatización para esto todavía) — si quieres que lo
+  regenere automáticamente con una fecha rodante, es un cambio aparte.
 
 ---
 

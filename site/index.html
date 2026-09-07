@@ -2,9 +2,21 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periódico de Ciberseguridad — Portada</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <meta name="description" content="Titulares de ciberseguridad del 6 de septiembre de 2026, agregados de fuentes públicas verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). Un proyecto de DERENZIN S.A.S.">
+  <link rel="canonical" href="https://noticias.derenzin.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Periódico de Ciberseguridad">
+  <meta property="og:title" content="Periódico de Ciberseguridad — Portada">
+  <meta property="og:description" content="Titulares de ciberseguridad del 6 de septiembre de 2026, agregados de fuentes públicas verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). Un proyecto de DERENZIN S.A.S.">
+  <meta property="og:url" content="https://noticias.derenzin.com/">
+  <meta property="og:image" content="https://noticias.derenzin.com/assets/logo-derenzin.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Periódico de Ciberseguridad — Portada">
+  <meta name="twitter:description" content="Titulares de ciberseguridad del 6 de septiembre de 2026, agregados de fuentes públicas verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). Un proyecto de DERENZIN S.A.S.">
+  <meta name="twitter:image" content="https://noticias.derenzin.com/assets/logo-derenzin.png">
   <link rel="icon" href="assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,17 +46,18 @@
   </header>
 
   <main class="contenido portada">
-    <section class="destacada">
+    <h1 class="sr-only">Periódico de Ciberseguridad — Portada</h1>
+    <article class="destacada cat-generico">
       <a class="destacada-imagen-enlace" href="/noticia/2026-09-06-chatgpt-astra-is-now-rolling-out-to-20-plus-subscription-9a8c2600.html">
-      <figure class="noticia-imagen noticia-imagen--generica noticia-imagen--destacada" style="--color-categoria: #475569">
-        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
+      <figure class="noticia-imagen noticia-imagen--generica noticia-imagen--destacada">
+        <span class="categoria-badge">Ciberseguridad</span>
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Ciberseguridad; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
       </figure>
       </a>
       <div class="destacada-cuerpo">
         <span class="destacada-eyebrow">Lo más reciente</span>
-        <span class="eyebrow-categoria" style="--color-categoria: #475569">Ciberseguridad</span>
+        <span class="eyebrow-categoria">Ciberseguridad</span>
         <h2 class="destacada-titulo"><a href="/noticia/2026-09-06-chatgpt-astra-is-now-rolling-out-to-20-plus-subscription-9a8c2600.html">ChatGPT Astra is now rolling out to $20 Plus subscription</a></h2>
         <p class="destacada-resumen">OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there&#x27;s no word on when free users will get access.. [...]</p>
         <div class="noticia-meta">
@@ -54,20 +67,20 @@
         </div>
         <a class="destacada-cta" href="/noticia/2026-09-06-chatgpt-astra-is-now-rolling-out-to-20-plus-subscription-9a8c2600.html">Leer la noticia completa →</a>
       </div>
-    </section>
+    </article>
     <h2 class="seccion-titulo">Últimas noticias</h2>
 
     <div class="grid-noticias">
-      <article class="tarjeta">
+      <article class="tarjeta cat-phishing">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-attackers-conceal-phishing-lures-using-invisible-unicode-cha-091e6b10.html">
-      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #d97706">
-        <span class="categoria-badge" style="--color-categoria: #d97706">Phishing</span>
+      <figure class="noticia-imagen noticia-imagen--generica">
+        <span class="categoria-badge">Phishing</span>
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Phishing; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 7.5l9 6 9-6"/><path d="M12 13.5v4a2 2 0 0 0 3.6 1.2"/></svg></div>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #d97706">Phishing</span>
+          <span class="eyebrow-categoria">Phishing</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-attackers-conceal-phishing-lures-using-invisible-unicode-cha-091e6b10.html">Attackers conceal phishing lures using invisible Unicode characters</a></h3>
           <p class="tarjeta-resumen">Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]</p>
           <div class="noticia-meta">
@@ -77,16 +90,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-vulnerabilidad">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-attackers-hijack-mikrotik-routers-through-internet-exposed-s-d49a120f.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <span class="categoria-badge">Vulnerabilidad</span>
         <img src="/imagenes/2026-09-06/facce19f469882d39024.jpg" alt="Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+          <span class="eyebrow-categoria">Vulnerabilidad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-attackers-hijack-mikrotik-routers-through-internet-exposed-s-d49a120f.html">Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication</a></h3>
           <p class="tarjeta-resumen">Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska&#x27;s attack warning, published on September 5. Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or</p>
           <div class="noticia-meta">
@@ -96,16 +109,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-malware">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-four-revstealer-linked-modules-disable-windows-update-and-de-acd0dfe2.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #7c3aed">Malware</span>
+        <span class="categoria-badge">Malware</span>
         <img src="/imagenes/2026-09-06/1d7ae19d99e7c9f0ee9d.jpg" alt="Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #7c3aed">Malware</span>
+          <span class="eyebrow-categoria">Malware</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-four-revstealer-linked-modules-disable-windows-update-and-de-acd0dfe2.html">Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner</a></h3>
           <p class="tarjeta-resumen">Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and</p>
           <div class="noticia-meta">
@@ -115,16 +128,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-vulnerabilidad">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-unpatched-magento-and-adobe-commerce-zero-day-exploited-to-b-a6f7e900.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <span class="categoria-badge">Vulnerabilidad</span>
         <img src="/imagenes/2026-09-06/9e464f7a11302943391b.jpg" alt="Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+          <span class="eyebrow-categoria">Vulnerabilidad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-unpatched-magento-and-adobe-commerce-zero-day-exploited-to-b-a6f7e900.html">Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</a></h3>
           <p class="tarjeta-resumen">Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store&#x27;s server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. &quot;Sansec is</p>
           <div class="noticia-meta">
@@ -134,16 +147,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-filtracion_datos">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-attackers-breached-jetbrains-cadence-via-unpatched-teamcity-21ba9ecf.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
+        <span class="categoria-badge">Filtración de datos</span>
         <img src="/imagenes/2026-09-06/0760c3adf31a29619fda.jpg" alt="Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #0f766e">Filtración de datos</span>
+          <span class="eyebrow-categoria">Filtración de datos</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-attackers-breached-jetbrains-cadence-via-unpatched-teamcity-21ba9ecf.html">Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials</a></h3>
           <p class="tarjeta-resumen">JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. &quot;Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,&quot; JetBrains said.</p>
           <div class="noticia-meta">
@@ -153,16 +166,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-vulnerabilidad">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-critical-vmware-workstation-and-fusion-flaw-lets-vm-admins-e-ca7ece09.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <span class="categoria-badge">Vulnerabilidad</span>
         <img src="/imagenes/2026-09-06/a27e6d11aceb031fb2bb.jpg" alt="Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+          <span class="eyebrow-categoria">Vulnerabilidad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-critical-vmware-workstation-and-fusion-flaw-lets-vm-admins-e-ca7ece09.html">Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code</a></h3>
           <p class="tarjeta-resumen">Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code. &quot;A</p>
           <div class="noticia-meta">
@@ -172,16 +185,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-generico">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-th-b0588f2d.html">
-      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #475569">
-        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
+      <figure class="noticia-imagen noticia-imagen--generica">
+        <span class="categoria-badge">Ciberseguridad</span>
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Ciberseguridad; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #475569">Ciberseguridad</span>
+          <span class="eyebrow-categoria">Ciberseguridad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-th-b0588f2d.html">Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain</a></h3>
           <p class="tarjeta-resumen">A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]</p>
           <div class="noticia-meta">
@@ -191,16 +204,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-filtracion_datos">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-trezor-says-shipmonk-breach-exposed-67-000-u-s-customers-dat-2d965a35.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
+        <span class="categoria-badge">Filtración de datos</span>
         <img src="/imagenes/2026-09-06/7b528bdd7033c930cdd5.jpg" alt="Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #0f766e">Filtración de datos</span>
+          <span class="eyebrow-categoria">Filtración de datos</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-trezor-says-shipmonk-breach-exposed-67-000-u-s-customers-dat-2d965a35.html">Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&#x27; Data It Said Was Deleted</a></h3>
           <p class="tarjeta-resumen">Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company&#x27;s hardware wallets</p>
           <div class="noticia-meta">
@@ -210,16 +223,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-filtracion_datos">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-openai-admits-it-didn-t-disclose-rogue-ai-wiki-hijacking-inc-99654aef.html">
-      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #0f766e">
-        <span class="categoria-badge" style="--color-categoria: #0f766e">Filtración de datos</span>
+      <figure class="noticia-imagen noticia-imagen--generica">
+        <span class="categoria-badge">Filtración de datos</span>
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Filtración de datos; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="7" ry="2.4"/><path d="M5 6v12c0 1.3 3.1 2.4 7 2.4s7-1.1 7-2.4V6"/><path d="M5 12c0 1.3 3.1 2.4 7 2.4"/><path d="M17.3 15.8c0 1.3-1.1 2.4-2.3 2.4s-2.3-1.1-2.3-2.4c0-1.5 2.3-3.8 2.3-3.8s2.3 2.3 2.3 3.8z" fill="currentColor" stroke="none"/></svg></div>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #0f766e">Filtración de datos</span>
+          <span class="eyebrow-categoria">Filtración de datos</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-openai-admits-it-didn-t-disclose-rogue-ai-wiki-hijacking-inc-99654aef.html">OpenAI admits it didn&#x27;t disclose rogue AI wiki hijacking incident</a></h3>
           <p class="tarjeta-resumen">OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model &quot;misalignment&quot; rather than a security breach. [...]</p>
           <div class="noticia-meta">
@@ -229,16 +242,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-generico">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-thousands-of-openai-agents-quietly-turned-an-abandoned-wiki-e2da645b.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #475569">Ciberseguridad</span>
+        <span class="categoria-badge">Ciberseguridad</span>
         <img src="/imagenes/2026-09-06/35e1a87a525342d62eae.jpg" alt="Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #475569">Ciberseguridad</span>
+          <span class="eyebrow-categoria">Ciberseguridad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-thousands-of-openai-agents-quietly-turned-an-abandoned-wiki-e2da645b.html">Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel</a></h3>
           <p class="tarjeta-resumen">A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki, a German software developer wiki that runs</p>
           <div class="noticia-meta">
@@ -248,16 +261,16 @@
           </div>
         </div>
       </article>
-      <article class="tarjeta">
+      <article class="tarjeta cat-vulnerabilidad">
         <a class="tarjeta-imagen-enlace" href="/noticia/2026-09-06-attackers-exploit-papercut-flaws-to-steal-credentials-from-s-85374d96.html">
       <figure class="noticia-imagen">
-        <span class="categoria-badge" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+        <span class="categoria-badge">Vulnerabilidad</span>
         <img src="/imagenes/2026-09-06/b2c32c05385ba172a773.jpg" alt="Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities" loading="lazy" decoding="async">
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
         </a>
         <div class="tarjeta-cuerpo">
-          <span class="eyebrow-categoria" style="--color-categoria: #2563eb">Vulnerabilidad</span>
+          <span class="eyebrow-categoria">Vulnerabilidad</span>
           <h3 class="tarjeta-titulo"><a href="/noticia/2026-09-06-attackers-exploit-papercut-flaws-to-steal-credentials-from-s-85374d96.html">Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</a></h3>
           <p class="tarjeta-resumen">Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as</p>
           <div class="noticia-meta">
