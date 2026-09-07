@@ -236,27 +236,53 @@ def _endpoint_deepl(api_key: str) -> str:
     return "https://api-free.deepl.com/v2/translate" if api_key.endswith(":fx") else "https://api.deepl.com/v2/translate"
 
 
+def _log_cuerpo_error_deepl(cuerpo_bytes: bytes) -> None:
+    """Registra el cuerpo de una respuesta de error de DeepL en el log, para
+    diagnóstico — nunca contiene la clave (DeepL no la repite en sus
+    respuestas), pero por las dudas se recorta a un tamaño razonable."""
+    try:
+        texto = cuerpo_bytes.decode("utf-8", errors="replace")
+    except Exception:
+        texto = "<no se pudo decodificar el cuerpo de la respuesta>"
+    log(f"    Cuerpo de la respuesta de DeepL: {texto[:500]}")
+
+
 def traducir_deepl(texto: str, idioma_origen: str) -> str | None:
     """Traduce `texto` al español usando la API de DeepL. Devuelve None (sin
     lanzar excepción) si no hay clave configurada o si la llamada falla por
-    cualquier motivo — nunca se fabrica una traducción alternativa."""
+    cualquier motivo — nunca se fabrica una traducción alternativa.
+
+    Autenticación: header "Authorization: DeepL-Auth-Key <clave>", que es el
+    método que documenta DeepL actualmente (no "Bearer", y no auth_key como
+    parámetro del cuerpo). El endpoint se elige según el sufijo de la clave:
+    las cuentas API Free terminan en ":fx" y usan api-free.deepl.com; el
+    resto (cuentas Pro) usan api.deepl.com.
+    """
     if not texto or not DEEPL_API_KEY:
         return None
 
     datos = urllib.parse.urlencode(
         {
-            "auth_key": DEEPL_API_KEY,
             "text": texto,
             "source_lang": idioma_origen.upper(),
             "target_lang": "ES",
         }
     ).encode("utf-8")
 
-    req = urllib.request.Request(_endpoint_deepl(DEEPL_API_KEY), data=datos, method="POST")
+    req = urllib.request.Request(
+        _endpoint_deepl(DEEPL_API_KEY),
+        data=datos,
+        method="POST",
+        headers={
+            "Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}",
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+    )
     try:
         with urllib.request.urlopen(req, timeout=DEEPL_TIMEOUT_SEGUNDOS) as resp:
             if resp.status != 200:
                 log(f"  AVISO: DeepL respondió HTTP {resp.status}; se usa el original citado para este ítem.")
+                _log_cuerpo_error_deepl(resp.read())
                 return None
             cuerpo = json.loads(resp.read().decode("utf-8"))
         traducciones = cuerpo.get("translations") or []
@@ -264,7 +290,8 @@ def traducir_deepl(texto: str, idioma_origen: str) -> str | None:
             return None
         return traducciones[0].get("text") or None
     except urllib.error.HTTPError as ex:
-        log(f"  AVISO: DeepL HTTPError {ex.code}; se usa el original citado para este ítem.")
+        log(f"  AVISO: DeepL HTTPError {ex.code} ({_endpoint_deepl(DEEPL_API_KEY)}); se usa el original citado para este ítem.")
+        _log_cuerpo_error_deepl(ex.read())
     except urllib.error.URLError as ex:
         log(f"  AVISO: DeepL URLError ({ex.reason}); se usa el original citado para este ítem.")
     except TimeoutError:
@@ -305,14 +332,13 @@ def preparar_texto_mostrado(item: dict) -> dict:
         return {"titulo_mostrar": titulo_traducido, "resumen_mostrar": resumen, "nota_idioma": nota}
 
     # Fallback seguro: no se pudo traducir (sin clave o falló la API). Nunca
-    # se inventa una traducción; se cita el original con una nota clara.
-    partes = [f'Título original: "{titulo_original}".']
-    if aporta_info:
-        partes.append(f'Extracto original: "{truncar(extracto_original, 500)}"')
-    partes.append("(No se pudo traducir automáticamente esta noticia; se muestra el texto original.)")
+    # se inventa una traducción — se muestra el extracto original tal cual,
+    # sin repetir el título (ya se muestra arriba, como encabezado de la
+    # tarjeta) ni envolverlo en comillas/etiquetas de texto.
+    resumen = truncar(extracto_original, 600) if aporta_info else "El RSS de la fuente no trae un extracto adicional aparte del titular."
     return {
         "titulo_mostrar": titulo_original,
-        "resumen_mostrar": " ".join(partes),
+        "resumen_mostrar": resumen,
         "nota_idioma": "No se pudo traducir automáticamente (se muestra el original).",
     }
 
@@ -356,13 +382,16 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
 """
 
     info = CATEGORIAS.get(categoria, GENERICO)
-    etiqueta = escape(info["etiqueta"])
     color = info["color"]
+    # La transparencia de que es un ícono (no una foto real) se conserva para
+    # lectores de pantalla vía aria-label, y visualmente con una etiqueta
+    # pequeña y discreta ("Ilustrativo") en vez de una frase larga metida en
+    # el texto de la noticia.
     alt_icono = escape(f"Ilustración genérica de la categoría {info['etiqueta']}; no es una foto real del hecho", quote=True)
     return f"""      <figure class="noticia-imagen noticia-imagen--generica{clase_extra}" style="--color-categoria: {color}">
         {badge}
+        <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico" role="img" aria-label="{alt_icono}">{info['svg']}</div>
-        <figcaption>Ilustración genérica: {etiqueta} (no es una foto real del hecho)</figcaption>
       </figure>
 """
 
