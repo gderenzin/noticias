@@ -1,6 +1,6 @@
 /* Periódico de Ciberseguridad — CSS propio, sin frameworks ni dependencias
-   externas. Paleta e identidad tomadas de derenzin.com (mismo logo, mismo
-   color de marca #00B8D4, misma familia tipográfica de sistema). */
+   externas (salvo la tipografía Inter de Google Fonts). Paleta e identidad
+   tomadas de derenzin.com (mismo logo, mismo color de marca #00B8D4). */
 
 :root {
   /* Marca DERENZIN (idénticos a los --tokens de derenzin.com) */
@@ -9,7 +9,7 @@
   --marca-acento: #00b8d4;      /* cian/turquesa de marca — acento principal */
   --marca-acento-oscuro: #007a94;
 
-  --fondo: #f5f7fa;
+  --fondo: #f0f2f5;
   --fondo-tarjeta: #ffffff;
   --fondo-cabecera: rgba(255, 255, 255, 0.96);
   --texto: #1a1a1a;
@@ -17,15 +17,17 @@
   --texto-suave: #757575;
   --acento: var(--marca-acento);
   --acento-suave: color-mix(in srgb, var(--marca-acento) 14%, white);
-  --borde: #e0e0e0;
+  --borde: #e2e5ea;
   /* Cian de marca oscurecido para que el texto de enlaces cumpla contraste
      AA sobre fondo claro; el cian puro se reserva para títulos grandes,
-     bordes e íconos, donde el tamaño ya compensa el contraste. */
+     insignias e íconos, donde el tamaño ya compensa el contraste. */
   --enlace: var(--marca-acento-oscuro);
-  --sombra: 0 1px 3px rgba(26, 26, 26, 0.06);
-  --sombra-md: 0 6px 20px rgba(26, 26, 26, 0.08);
-  --max-ancho: 860px;
-  --fuente: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --sombra: 0 1px 3px rgba(26, 26, 26, 0.07);
+  --sombra-md: 0 10px 24px rgba(26, 26, 26, 0.10);
+  --sombra-hover: 0 16px 32px rgba(26, 26, 26, 0.14);
+  --max-ancho: 1180px;
+  --radio: 14px;
+  --fuente: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
   /* Pie de página: siempre oscuro, igual que en derenzin.com, sin importar
      el tema claro/oscuro del resto del sitio. */
@@ -37,18 +39,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fondo: #0f1620;
-    --fondo-tarjeta: #16202c;
-    --fondo-cabecera: rgba(16, 23, 32, 0.92);
+    --fondo: #0c1218;
+    --fondo-tarjeta: #161f28;
+    --fondo-cabecera: rgba(12, 18, 24, 0.92);
     --texto: #e8edf2;
     --texto-tenue: #a9bacb;
     --texto-suave: #8195a8;
     --acento: var(--marca-acento);
-    --acento-suave: color-mix(in srgb, var(--marca-acento) 20%, #0f1620);
-    --borde: #263442;
+    --acento-suave: color-mix(in srgb, var(--marca-acento) 20%, #0c1218);
+    --borde: #253442;
     --enlace: #3fd6f0; /* sobre fondo oscuro el cian puro ya tiene contraste de sobra */
-    --sombra: 0 1px 3px rgba(0, 0, 0, 0.3);
-    --sombra-md: 0 10px 28px rgba(0, 0, 0, 0.4);
+    --sombra: 0 1px 3px rgba(0, 0, 0, 0.35);
+    --sombra-md: 0 10px 24px rgba(0, 0, 0, 0.45);
+    --sombra-hover: 0 18px 36px rgba(0, 0, 0, 0.55);
   }
 }
 
@@ -68,6 +71,7 @@ body {
   font-family: var(--fuente);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -76,6 +80,11 @@ a {
 
 img {
   max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente);
+  letter-spacing: -0.01em;
 }
 
 /* ---------- Cabecera / marca ---------- */
@@ -87,7 +96,7 @@ img {
   background: var(--fondo-cabecera);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--borde);
-  padding: 1.1rem 1rem;
+  padding: 1.1rem 1.25rem;
 }
 
 .cabecera-contenido {
@@ -126,7 +135,7 @@ img {
 
 .marca-titulo {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--texto);
 }
 
@@ -164,14 +173,15 @@ img {
 
 .nav {
   display: flex;
-  gap: 1.1rem;
+  gap: 1.3rem;
 }
 
 .nav a {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--texto-tenue);
+  padding-bottom: 2px;
 }
 
 .nav a:hover {
@@ -181,98 +191,14 @@ img {
 .nav a.activo {
   color: var(--enlace);
   border-bottom: 2px solid var(--acento);
-  padding-bottom: 2px;
 }
 
-/* ---------- Contenido ---------- */
+/* ---------- Contenido general ---------- */
 
 .contenido {
   max-width: var(--max-ancho);
-  margin: 1.75rem auto;
-  padding: 0 1rem;
-}
-
-.noticia {
-  background: var(--fondo-tarjeta);
-  border: 1px solid var(--borde);
-  border-radius: 12px;
-  padding: 1.4rem 1.6rem;
-  margin-bottom: 1.4rem;
-  overflow: hidden;
-  box-shadow: var(--sombra);
-  transition: box-shadow 0.2s ease;
-}
-
-.noticia:hover {
-  box-shadow: var(--sombra-md);
-}
-
-/* Primera noticia de la portada: tratamiento "destacada" más grande, para
-   que el sitio se lea como una portada de periódico real. */
-.contenido.portada .noticia:first-of-type {
-  border-color: var(--acento);
-  border-width: 1.5px;
-}
-
-.contenido.portada .noticia:first-of-type .noticia-titulo {
-  font-size: 1.55rem;
-}
-
-.contenido.portada .noticia:first-of-type .noticia-imagen img,
-.contenido.portada .noticia:first-of-type .noticia-imagen .icono-generico {
-  aspect-ratio: 21 / 9;
-}
-
-.contenido.portada .noticia:first-of-type .noticia-resumen {
-  font-size: 1.02rem;
-}
-
-.eyebrow-destacada {
-  display: none;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--acento);
-  margin: 0 0 0.4rem 0;
-}
-
-.contenido.portada .noticia:first-of-type .eyebrow-destacada {
-  display: block;
-}
-
-/* Imagen destacada (real, del RSS) o ícono genérico por categoría cuando el
-   RSS no trae imagen propia. Se estira hasta el borde de la tarjeta. */
-.noticia-imagen {
-  margin: -1.4rem -1.6rem 1.1rem -1.6rem;
-}
-
-.noticia-imagen img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  background: var(--acento-suave);
-}
-
-.noticia-imagen--generica .icono-generico {
-  aspect-ratio: 16 / 9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-categoria, var(--texto-suave));
-  background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 16%, var(--fondo-tarjeta));
-}
-
-.noticia-imagen--generica .icono-generico svg {
-  width: 44px;
-  height: 44px;
-}
-
-.noticia-imagen figcaption {
-  padding: 0.35rem 1.6rem 0;
-  font-size: 0.72rem;
-  color: var(--texto-suave);
+  margin: 2rem auto;
+  padding: 0 1.25rem;
 }
 
 .noticia-meta {
@@ -282,7 +208,6 @@ img {
   align-items: center;
   font-size: 0.8rem;
   color: var(--texto-suave);
-  margin-bottom: 0.5rem;
 }
 
 .noticia-meta .fuente {
@@ -297,39 +222,236 @@ img {
   font-size: 0.72rem;
 }
 
-.noticia-titulo {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.2rem;
-  line-height: 1.35;
-  font-weight: 700;
+/* Imagen (real o ícono genérico) + insignia de categoría, compartidas por la
+   noticia destacada y las tarjetas de la cuadrícula. */
+
+.noticia-imagen {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
 }
 
-.noticia-titulo a {
+.noticia-imagen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--acento-suave);
+  transition: transform 0.35s ease;
+}
+
+.noticia-imagen--generica .icono-generico {
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-categoria, var(--texto-suave));
+  background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 16%, var(--fondo-tarjeta));
+}
+
+.noticia-imagen--generica .icono-generico svg {
+  width: 42px;
+  height: 42px;
+}
+
+.noticia-imagen--destacada img,
+.noticia-imagen--destacada .icono-generico {
+  aspect-ratio: 21 / 9;
+}
+
+.noticia-imagen--destacada .icono-generico svg {
+  width: 60px;
+  height: 60px;
+}
+
+.noticia-imagen figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.4rem 0.9rem 0.4rem;
+  font-size: 0.7rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
+}
+
+.noticia-imagen--generica figcaption {
+  position: static;
+  padding: 0.35rem 0 0;
+  color: var(--texto-suave);
+  background: none;
+}
+
+.categoria-badge {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+  z-index: 2;
+  background: var(--color-categoria, var(--texto-suave));
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- Noticia destacada ("lo más reciente") ---------- */
+
+.destacada {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 0;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra-md);
+  margin-bottom: 2.5rem;
+}
+
+.destacada-imagen-enlace {
+  display: block;
+}
+
+.destacada-cuerpo {
+  padding: 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.destacada-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--acento);
+}
+
+.destacada-titulo {
+  margin: 0;
+  font-size: 1.65rem;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.destacada-titulo a {
   color: var(--texto);
   text-decoration: none;
 }
 
-.noticia-titulo a:hover {
+.destacada-titulo a:hover {
   color: var(--enlace);
-  text-decoration: underline;
 }
 
-.noticia-resumen {
-  margin: 0 0 0.85rem 0;
+.destacada-resumen {
+  margin: 0;
   color: var(--texto-tenue);
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.noticia-enlace {
+.destacada-cta {
   display: inline-block;
-  font-size: 0.85rem;
+  align-self: flex-start;
+  margin-top: 0.3rem;
   font-weight: 700;
+  font-size: 0.9rem;
   text-decoration: none;
+  color: #fff;
+  background: var(--acento);
+  padding: 0.6rem 1.15rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.destacada-cta:hover {
+  background: var(--marca-acento-oscuro);
+  transform: translateY(-1px);
+}
+
+/* ---------- Cuadrícula de tarjetas ---------- */
+
+.grid-noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta:hover {
+  box-shadow: var(--sombra-hover);
+  transform: translateY(-3px);
+}
+
+.tarjeta:hover .noticia-imagen img {
+  transform: scale(1.04);
+}
+
+.tarjeta-imagen-enlace {
+  display: block;
+}
+
+.tarjeta-cuerpo {
+  padding: 1.15rem 1.25rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.tarjeta-titulo a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+.tarjeta-titulo a:hover {
   color: var(--enlace);
 }
 
-.noticia-enlace:hover {
-  text-decoration: underline;
+.tarjeta-resumen {
+  margin: 0;
+  color: var(--texto-tenue);
+  font-size: 0.88rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
 }
+
+.tarjeta .noticia-meta {
+  margin-top: auto;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--borde);
+}
+
+/* ---------- Archivo (listado de ediciones) ---------- */
 
 .lista-archivo {
   list-style: none;
@@ -338,13 +460,13 @@ img {
 }
 
 .lista-archivo li {
-  padding: 0.7rem 0;
+  padding: 0.9rem 0;
   border-bottom: 1px solid var(--borde);
 }
 
 .lista-archivo a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--texto);
 }
@@ -366,7 +488,7 @@ img {
 .pie-contenido {
   max-width: var(--max-ancho);
   margin: 0 auto;
-  padding: 2rem 1rem 1.5rem;
+  padding: 2rem 1.25rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -438,8 +560,6 @@ img {
   margin-top: 0.8rem !important;
 }
 
-/* En pantallas anchas, separar visualmente marca vs. avisos legales con un
-   borde solo del lado de "legal". */
 @media (min-width: 640px) {
   .pie-legal {
     border-top: none;
@@ -451,17 +571,35 @@ img {
 
 /* ---------- Responsive ---------- */
 
+@media (max-width: 860px) {
+  .destacada {
+    grid-template-columns: 1fr;
+  }
+
+  .destacada-imagen-enlace .noticia-imagen--destacada img,
+  .destacada-imagen-enlace .noticia-imagen--destacada .icono-generico {
+    aspect-ratio: 16 / 9;
+  }
+
+  .destacada-titulo {
+    font-size: 1.4rem;
+  }
+
+  .destacada-cuerpo {
+    padding: 1.4rem 1.5rem;
+  }
+}
+
 @media (max-width: 480px) {
-  .noticia {
-    padding: 1.1rem 1.1rem;
+  .grid-noticias {
+    grid-template-columns: 1fr;
   }
-  .noticia-imagen {
-    margin: -1.1rem -1.1rem 1rem -1.1rem;
+
+  .destacada-titulo {
+    font-size: 1.25rem;
   }
-  .noticia-imagen figcaption {
-    padding: 0.35rem 1.1rem 0;
-  }
-  .contenido.portada .noticia:first-of-type .noticia-titulo {
-    font-size: 1.3rem;
+
+  .contenido {
+    padding: 0 1rem;
   }
 }

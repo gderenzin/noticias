@@ -5,84 +5,84 @@
       "fuente": "BleepingComputer",
       "titulo": "ChatGPT Astra is now rolling out to $20 Plus subscription",
       "fecha_publicacion_iso": "2026-09-07T01:15:43+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279810+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.731996+00:00"
     },
     "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/": {
       "guid": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
       "fuente": "BleepingComputer",
       "titulo": "Attackers conceal phishing lures using invisible Unicode characters",
       "fecha_publicacion_iso": "2026-09-06T14:23:46+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279822+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732006+00:00"
     },
     "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html": {
       "guid": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
       "fuente": "The Hacker News",
       "titulo": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "fecha_publicacion_iso": "2026-09-06T09:32:38+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279827+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732010+00:00"
     },
     "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html": {
       "guid": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
       "fuente": "The Hacker News",
       "titulo": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
       "fecha_publicacion_iso": "2026-09-06T08:34:20+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279832+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732013+00:00"
     },
     "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html": {
       "guid": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
       "fuente": "The Hacker News",
       "titulo": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
       "fecha_publicacion_iso": "2026-09-05T20:14:47+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279835+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732015+00:00"
     },
     "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html": {
       "guid": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
       "fuente": "The Hacker News",
       "titulo": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
       "fecha_publicacion_iso": "2026-09-05T16:52:33+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279839+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732018+00:00"
     },
     "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html": {
       "guid": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
       "fuente": "The Hacker News",
       "titulo": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
       "fecha_publicacion_iso": "2026-09-05T16:05:08+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279842+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732024+00:00"
     },
     "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/": {
       "guid": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
       "fuente": "BleepingComputer",
       "titulo": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
       "fecha_publicacion_iso": "2026-09-05T14:29:13+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279845+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732027+00:00"
     },
     "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html": {
       "guid": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
       "fuente": "The Hacker News",
       "titulo": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
       "fecha_publicacion_iso": "2026-09-05T14:17:02+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279849+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732029+00:00"
     },
     "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/": {
       "guid": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
       "fuente": "BleepingComputer",
       "titulo": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "fecha_publicacion_iso": "2026-09-05T11:11:50+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279852+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732032+00:00"
     },
     "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html": {
       "guid": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
       "fuente": "The Hacker News",
       "titulo": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "fecha_publicacion_iso": "2026-09-05T07:55:10+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279855+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732034+00:00"
     },
     "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html": {
       "guid": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
       "fuente": "The Hacker News",
       "titulo": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
       "fecha_publicacion_iso": "2026-09-05T07:31:53+00:00",
-      "fecha_agregada_iso": "2026-09-07T02:30:47.279858+00:00"
+      "fecha_agregada_iso": "2026-09-07T03:12:23.732037+00:00"
     }
   }
 }

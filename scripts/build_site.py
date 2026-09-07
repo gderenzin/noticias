@@ -8,10 +8,11 @@ Toma data/nuevas_hoy.json (generado por fetch_news.py) y:
      traducción" abajo). Todo el sitio —títulos, resúmenes y textos de
      interfaz— se muestra en español, incluso si la fuente original está en
      inglés.
-  2. Elige una imagen para cada noticia: si el RSS trae una imagen propia
-     (<enclosure> o <media:content>, ya extraída por fetch_news.py), la usa;
-     si no, muestra un ícono genérico ilustrativo según la categoría de la
-     noticia (nunca se genera ni se inventa una foto).
+  2. Elige una imagen para cada noticia: si fetch_news.py logró descargar la
+     imagen propia del RSS (<enclosure> o <media:content>) a
+     site/imagenes/AAAA-MM-DD/, la usa desde esa copia local; si no hay
+     imagen o la descarga falló, muestra un ícono genérico ilustrativo según
+     la categoría de la noticia (nunca se genera ni se inventa una foto).
   3. Genera/actualiza site/index.html (portada de hoy).
   4. Crea site/archivo/AAAA-MM-DD.html con la edición del día.
   5. Regenera site/archivo/index.html (listado de ediciones anteriores).
@@ -29,11 +30,15 @@ Sobre la traducción (DeepL):
   RSS (ver fetch_news.py).
 
 Sobre las imágenes:
-  No se re-codifican ni redimensionan (evita depender de librerías pesadas
-  como Pillow); se sirven con "loading=lazy" y "decoding=async" para no
-  frenar la carga de la página, confiando en que la fuente ya entrega un
-  tamaño razonable (varias ya traen miniaturas optimizadas). Los íconos
-  genéricos son SVG en línea: no generan ninguna petición de red.
+  Las imágenes reales ya vienen descargadas y guardadas por fetch_news.py
+  (no se hotlinkea a la URL externa — ver ese script para el porqué). Aquí
+  solo se referencian con una ruta local (absoluta desde la raíz del sitio,
+  p.ej. "/imagenes/2026-09-06/abc123.jpg"), con "loading=lazy" y
+  "decoding=async" para no frenar la carga de la página. No se re-codifican
+  ni redimensionan (evita depender de una librería pesada como Pillow) — se
+  guardan tal cual las entrega la fuente. Los íconos genéricos son SVG en
+  línea: no generan ninguna petición de red. Toda imagen (real o ícono)
+  lleva encima una insignia de color con el nombre de la categoría.
 """
 
 from __future__ import annotations
@@ -326,15 +331,26 @@ def fecha_corta(iso_str: str) -> str:
     return f"{dt.day:02d}/{dt.month:02d}/{dt.year} · {dt.hour:02d}:{dt.minute:02d} UTC"
 
 
-def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str) -> str:
-    url_imagen = item.get("imagen_url")
-    fuente = escape(item["fuente"])
+def render_badge_categoria(categoria: str) -> str:
+    info = CATEGORIAS.get(categoria, GENERICO)
+    return f'<span class="categoria-badge" style="--color-categoria: {info["color"]}">{escape(info["etiqueta"])}</span>'
 
-    if url_imagen:
+
+def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacada: bool = False) -> str:
+    """Imagen real (ya descargada por fetch_news.py a site/imagenes/…) o, si no
+    hay ninguna, el ícono de categoría de respaldo. Ambas llevan siempre la
+    insignia de color de la categoría encima."""
+    ruta_imagen = item.get("imagen_local")
+    fuente = escape(item["fuente"])
+    badge = render_badge_categoria(categoria)
+    clase_extra = " noticia-imagen--destacada" if destacada else ""
+
+    if ruta_imagen:
         alt = escape(titulo_mostrar, quote=True)
-        src = escape(url_imagen, quote=True)
-        return f"""      <figure class="noticia-imagen">
-        <img src="{src}" alt="{alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        src = escape(ruta_imagen, quote=True)
+        return f"""      <figure class="noticia-imagen{clase_extra}">
+        {badge}
+        <img src="{src}" alt="{alt}" loading="lazy" decoding="async">
         <figcaption>Imagen: {fuente}</figcaption>
       </figure>
 """
@@ -343,40 +359,64 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str) -> str:
     etiqueta = escape(info["etiqueta"])
     color = info["color"]
     alt_icono = escape(f"Ilustración genérica de la categoría {info['etiqueta']}; no es una foto real del hecho", quote=True)
-    return f"""      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: {color}">
+    return f"""      <figure class="noticia-imagen noticia-imagen--generica{clase_extra}" style="--color-categoria: {color}">
+        {badge}
         <div class="icono-generico" role="img" aria-label="{alt_icono}">{info['svg']}</div>
         <figcaption>Ilustración genérica: {etiqueta} (no es una foto real del hecho)</figcaption>
       </figure>
 """
 
 
-def render_item_html(item: dict) -> str:
+def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
+    """Renderiza una noticia como tarjeta de grid (por defecto) o, si
+    `es_destacada`, como el bloque grande de "lo más reciente" arriba de la
+    portada/edición del día."""
     mostrado = preparar_texto_mostrado(item)
     titulo_mostrar = mostrado["titulo_mostrar"]
     resumen_mostrar = mostrado["resumen_mostrar"]
     nota_idioma = mostrado["nota_idioma"]
 
     categoria = categorizar(item)
-    imagen_html = render_imagen_html(item, categoria, titulo_mostrar)
+    imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=es_destacada)
 
     fuente = escape(item["fuente"])
     enlace = escape(item["enlace"], quote=True)
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     resumen_html = escape(resumen_mostrar).replace("\n", "<br>")
     titulo_html = escape(titulo_mostrar)
-
     nota_html = f'<span class="idioma-nota">{escape(nota_idioma)}</span>' if nota_idioma else ""
 
-    return f"""    <article class="noticia">
-{imagen_html}      <div class="noticia-meta">
-        <span class="fuente">Fuente: {fuente}</span>
-        <span class="fecha">Publicado: {fecha_str}</span>
-        {nota_html}
+    if es_destacada:
+        return f"""    <section class="destacada">
+      <a class="destacada-imagen-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">
+{imagen_html}      </a>
+      <div class="destacada-cuerpo">
+        <span class="destacada-eyebrow">Lo más reciente</span>
+        <h2 class="destacada-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h2>
+        <p class="destacada-resumen">{resumen_html}</p>
+        <div class="noticia-meta">
+          <span class="fuente">Fuente: {fuente}</span>
+          <span class="fecha">Publicado: {fecha_str}</span>
+          {nota_html}
+        </div>
+        <a class="destacada-cta" href="{enlace}" rel="noopener noreferrer" target="_blank">Leer la noticia completa →</a>
       </div>
-      <h2 class="noticia-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h2>
-      <p class="noticia-resumen">{resumen_html}</p>
-      <a class="noticia-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">Leer la noticia completa en {fuente} →</a>
-    </article>
+    </section>
+"""
+
+    return f"""      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">
+{imagen_html}        </a>
+        <div class="tarjeta-cuerpo">
+          <h3 class="tarjeta-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h3>
+          <p class="tarjeta-resumen">{resumen_html}</p>
+          <div class="noticia-meta">
+            <span class="fuente">Fuente: {fuente}</span>
+            <span class="fecha">Publicado: {fecha_str}</span>
+            {nota_html}
+          </div>
+        </div>
+      </article>
 """
 
 
@@ -406,12 +446,18 @@ def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
       </div>
       <p class="subtitulo">{escape(subtitulo)}</p>
       <nav class="nav">
-        <a href="{prefijo}index.html"{nav_portada_clase}>Portada</a>
+        <a href="{prefijo}index.html"{nav_portada_clase}>Inicio</a>
         <a href="{href_archivo}"{nav_archivo_clase}>Archivo</a>
       </nav>
     </div>
   </header>
 """
+
+
+# Google Fonts (Inter) — la misma fuente en las tres plantillas de página.
+ENLACES_FUENTE = """  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">"""
 
 
 def render_pie(prefijo: str) -> str:
@@ -445,6 +491,7 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str) -> 
   <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
   <link rel="icon" href="assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -469,6 +516,7 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str) -
   <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -501,6 +549,7 @@ def render_archivo_index(dias: list[str]) -> str:
   <title>Archivo — Periódico de Ciberseguridad</title>
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -529,9 +578,18 @@ def main() -> None:
     fecha_str = ahora_gye.strftime("%Y-%m-%d")
     subtitulo = f"Edición del {fecha_legible(ahora_gye)} — {len(nuevos)} noticia(s) nueva(s)"
 
-    items_html = ""
-    for item in nuevos:
-        items_html += render_item_html(item)
+    # La noticia más reciente va destacada arriba en grande; el resto forma
+    # la cuadrícula de tarjetas debajo (ver render_tarjeta_html).
+    destacada_html = render_tarjeta_html(nuevos[0], es_destacada=True)
+    tarjetas_html = "".join(render_tarjeta_html(item, es_destacada=False) for item in nuevos[1:])
+    items_html = (
+        destacada_html
+        + f"""
+    <div class="grid-noticias">
+{tarjetas_html}    </div>
+    <!-- FIN-GRID -->
+"""
+    )
 
     # 1. Portada (index.html)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
@@ -545,18 +603,20 @@ def main() -> None:
     pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html)
     ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
     if ruta_dia.exists():
-        # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): se
-        # anexan las noticias nuevas a la página de archivo existente en vez
-        # de sobreescribir lo ya publicado.
+        # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): la
+        # noticia destacada de esa primera edición se queda como está, y las
+        # nuevas se anexan como tarjetas adicionales al final de la
+        # cuadrícula existente — no se sobreescribe lo ya publicado.
         anterior = ruta_dia.read_text(encoding="utf-8")
-        marcador = "  <main class=\"contenido archivo-dia\">\n"
-        if marcador in anterior:
-            anterior = anterior.replace(marcador, marcador + items_html, 1)
+        marcador_fin_grid = "    <!-- FIN-GRID -->\n"
+        if marcador_fin_grid in anterior:
+            tarjetas_nuevas_html = "".join(render_tarjeta_html(item, es_destacada=False) for item in nuevos)
+            anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
             ruta_dia.write_text(anterior, encoding="utf-8")
-            log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos).")
+            log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos a la cuadrícula).")
         else:
             ruta_dia.write_text(pagina_dia, encoding="utf-8")
-            log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura).")
+            log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura; probablemente tenía el diseño anterior).")
     else:
         ruta_dia.write_text(pagina_dia, encoding="utf-8")
         log(f"Escrito {ruta_dia}")

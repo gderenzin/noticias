@@ -12,12 +12,23 @@ vienen tal cual del RSS (título, fuente, fecha, enlace, extracto). No inventa
 nada. Si un feed falla, se salta y se sigue con los demás. Si ningún feed trae
 novedades, no se falla el proceso: simplemente no hay nada nuevo que publicar.
 
+Imágenes: cuando el RSS trae una imagen propia, se DESCARGA y se guarda como
+archivo local dentro de site/imagenes/AAAA-MM-DD/ (en vez de enlazar directo a
+la URL externa — el hotlinking es frágil: bloqueadores de anuncios, filtros de
+red corporativos o el propio origen pueden cortar la imagen en cualquier
+momento). Si la descarga falla por cualquier motivo, o el RSS no trae imagen,
+el ítem queda sin imagen local y build_site.py usa el ícono de categoría de
+respaldo — nunca se inventa ni se sustituye por otra imagen. Cada imagen ya
+descargada se registra en data/imagenes_descargadas.json (URL original ->
+ruta local) para no volver a descargarla si el mismo enlace reaparece.
+
 Salida: data/nuevas_hoy.json -> lista de ítems nuevos, listos para que
 build_site.py los convierta en HTML.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 import urllib.error
@@ -33,13 +44,32 @@ RAIZ = Path(__file__).resolve().parent.parent
 FEEDS_YAML = RAIZ / "feeds.yaml"
 PUBLICADAS_JSON = RAIZ / "data" / "publicadas.json"
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
+IMAGENES_LEDGER_JSON = RAIZ / "data" / "imagenes_descargadas.json"
+SITE_DIR = RAIZ / "site"
+IMAGENES_DIR_NOMBRE = "imagenes"
+
+# Guayaquil = UTC-5 todo el año (mismo criterio que build_site.py para nombrar
+# la carpeta del día; Ecuador no usa horario de verano).
+ZONA_GUAYAQUIL = timezone(timedelta(hours=-5))
 
 VENTANA_HORAS = 48  # tomamos ítems de las últimas 24-48h; usamos 48 para no dejar huecos
 TIMEOUT_SEGUNDOS = 20
+TIMEOUT_IMAGEN_SEGUNDOS = 12
+MAX_IMAGEN_BYTES = 5 * 1024 * 1024  # 5 MB: cualquier imagen más pesada se descarta
 USER_AGENT = (
     "Mozilla/5.0 (compatible; PeriodicoCiberseguridadBot/1.0; "
     "+https://github.com/) NewsAggregator/1.0"
 )
+USER_AGENT_IMAGEN = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+
+EXTENSIONES_POR_TIPO = {
+    "image/jpeg": ".jpg",
+    "image/png": ".png",
+    "image/gif": ".gif",
+    "image/webp": ".webp",
+    "image/avif": ".avif",
+}
+EXTENSIONES_VALIDAS = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".avif")
 
 
 def log(mensaje: str) -> None:
@@ -70,6 +100,85 @@ def cargar_publicadas() -> dict:
     except (json.JSONDecodeError, OSError) as ex:
         log(f"AVISO: no se pudo leer {PUBLICADAS_JSON} ({ex}); se asume vacío.")
         return {}
+
+
+def cargar_ledger_imagenes() -> dict:
+    """{url_original_de_la_imagen: ruta_local_relativa_desde_la_raiz_del_sitio}"""
+    if not IMAGENES_LEDGER_JSON.exists():
+        return {}
+    try:
+        with open(IMAGENES_LEDGER_JSON, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as ex:
+        log(f"AVISO: no se pudo leer {IMAGENES_LEDGER_JSON} ({ex}); se asume vacío.")
+        return {}
+
+
+def guardar_ledger_imagenes(ledger: dict) -> None:
+    IMAGENES_LEDGER_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with open(IMAGENES_LEDGER_JSON, "w", encoding="utf-8") as f:
+        json.dump(ledger, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def descargar_imagen(url: str, carpeta_fecha: str, ledger_imagenes: dict) -> str | None:
+    """Descarga `url` y la guarda en site/imagenes/<carpeta_fecha>/. Devuelve la
+    ruta local (relativa a la raíz del sitio, con "/" inicial) o None si la
+    descarga falla por cualquier motivo — en ese caso build_site.py usa el
+    ícono de categoría de respaldo, nunca se sustituye por otra imagen.
+
+    Si `url` ya fue descargada antes (está en el ledger) y el archivo sigue
+    presente en disco, se reutiliza sin volver a descargarla.
+    """
+    ya_conocida = ledger_imagenes.get(url)
+    if ya_conocida:
+        ruta_absoluta = SITE_DIR / ya_conocida.lstrip("/")
+        if ruta_absoluta.exists():
+            return ya_conocida
+        log(f"    AVISO: {ya_conocida} estaba en el ledger pero ya no existe en disco; se vuelve a descargar.")
+
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT_IMAGEN})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT_IMAGEN_SEGUNDOS) as resp:
+            if resp.status != 200:
+                log(f"    AVISO: la imagen respondió HTTP {resp.status} ({url}); se usa el ícono de categoría en su lugar.")
+                return None
+            tipo = (resp.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+            if not tipo.startswith("image/"):
+                log(f"    AVISO: la URL de imagen no devolvió Content-Type de imagen ({tipo!r}, {url}); se usa el ícono de categoría.")
+                return None
+            datos = resp.read(MAX_IMAGEN_BYTES + 1)
+            if len(datos) > MAX_IMAGEN_BYTES:
+                log(f"    AVISO: la imagen supera {MAX_IMAGEN_BYTES // (1024 * 1024)}MB ({url}); se descarta y se usa el ícono de categoría.")
+                return None
+    except urllib.error.HTTPError as ex:
+        log(f"    AVISO: HTTPError {ex.code} descargando imagen ({url}); se usa el ícono de categoría.")
+        return None
+    except urllib.error.URLError as ex:
+        log(f"    AVISO: URLError ({ex.reason}) descargando imagen ({url}); se usa el ícono de categoría.")
+        return None
+    except TimeoutError:
+        log(f"    AVISO: timeout descargando imagen ({url}); se usa el ícono de categoría.")
+        return None
+    except Exception as ex:  # noqa: BLE001 - una imagen caída nunca debe tumbar el proceso
+        log(f"    AVISO: error inesperado ({type(ex).__name__}: {ex}) descargando imagen ({url}); se usa el ícono de categoría.")
+        return None
+
+    extension = EXTENSIONES_POR_TIPO.get(tipo)
+    if not extension:
+        sufijo = Path(urlparse(url).path).suffix.lower()
+        extension = sufijo if sufijo in EXTENSIONES_VALIDAS else ".jpg"
+
+    nombre_archivo = hashlib.sha1(url.encode("utf-8")).hexdigest()[:20] + extension
+    carpeta_destino = SITE_DIR / IMAGENES_DIR_NOMBRE / carpeta_fecha
+    carpeta_destino.mkdir(parents=True, exist_ok=True)
+    ruta_absoluta = carpeta_destino / nombre_archivo
+    with open(ruta_absoluta, "wb") as f:
+        f.write(datos)
+
+    ruta_relativa = f"/{IMAGENES_DIR_NOMBRE}/{carpeta_fecha}/{nombre_archivo}"
+    ledger_imagenes[url] = ruta_relativa
+    log(f"    Imagen descargada y guardada en {ruta_relativa} ({len(datos)} bytes).")
+    return ruta_relativa
 
 
 def descargar_feed(url: str) -> bytes | None:
@@ -121,9 +230,6 @@ def limpiar_html(texto: str) -> str:
     return sin_espacios
 
 
-EXTENSIONES_IMAGEN = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".avif")
-
-
 def extraer_imagen(entry) -> str | None:
     """Devuelve la URL de la imagen propia del ítem si el RSS trae una
     (etiqueta <enclosure> o <media:content>/<media:thumbnail>), o None si no
@@ -153,7 +259,7 @@ def extraer_imagen(entry) -> str | None:
         parsed = urlparse(url)
         if parsed.scheme not in ("http", "https"):
             continue
-        es_imagen = tipo.startswith("image/") or medio == "image" or url.lower().split("?")[0].endswith(EXTENSIONES_IMAGEN)
+        es_imagen = tipo.startswith("image/") or medio == "image" or url.lower().split("?")[0].endswith(EXTENSIONES_VALIDAS)
         if es_imagen:
             return url
 
@@ -279,6 +385,20 @@ def main() -> None:
 
     # Orden: más reciente primero
     todos_los_nuevos.sort(key=lambda x: x["fecha_publicacion_iso"], reverse=True)
+
+    # Descargar y alojar localmente las imágenes de los ítems nuevos (en vez
+    # de enlazar directo a la URL externa). Si una descarga falla, el ítem
+    # queda con imagen_local=None y build_site.py usará el ícono de categoría.
+    if todos_los_nuevos:
+        carpeta_fecha = datetime.now(ZONA_GUAYAQUIL).strftime("%Y-%m-%d")
+        ledger_imagenes = cargar_ledger_imagenes()
+        log(f"Descargando imágenes de {len(todos_los_nuevos)} ítem(s) (carpeta del día: {carpeta_fecha})...")
+        for item in todos_los_nuevos:
+            if item.get("imagen_url"):
+                item["imagen_local"] = descargar_imagen(item["imagen_url"], carpeta_fecha, ledger_imagenes)
+            else:
+                item["imagen_local"] = None
+        guardar_ledger_imagenes(ledger_imagenes)
 
     NUEVAS_JSON.parent.mkdir(parents=True, exist_ok=True)
     with open(NUEVAS_JSON, "w", encoding="utf-8") as f:

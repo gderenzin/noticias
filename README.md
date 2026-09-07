@@ -91,11 +91,13 @@ feeds.yaml                       Lista blanca de fuentes RSS (única fuente de v
 scripts/fetch_news.py            Descarga feeds, filtra, deduplica -> data/nuevas_hoy.json
 scripts/build_site.py            Genera el HTML a partir de data/nuevas_hoy.json
 data/publicadas.json             Ledger de URLs ya publicadas (para no duplicar)
+data/imagenes_descargadas.json   Ledger de imágenes ya descargadas (URL original -> ruta local)
 data/nuevas_hoy.json             Archivo transitorio (no se versiona, ver .gitignore)
 site/index.html                  Portada con la edición más reciente
-site/style.css                   CSS propio (sin frameworks ni CDNs)
+site/style.css                   CSS propio (sin frameworks ni CDNs, salvo Google Fonts)
 site/assets/logo-derenzin.png    Logo real de derenzin.com (mismo archivo, sin modificar)
 site/assets/favicon.png          Favicon (mismo archivo que usa derenzin.com)
+site/imagenes/AAAA-MM-DD/*.jpg   Imágenes de noticias descargadas y alojadas localmente
 site/CNAME                       Dominio personalizado para GitHub Pages
 site/archivo/AAAA-MM-DD.html     Una página por cada día publicado
 site/archivo/index.html          Índice de todas las ediciones archivadas
@@ -147,37 +149,71 @@ de fallar o inventar una traducción.
 Cada noticia muestra una imagen, con estas reglas para no romper la regla de
 "solo contenido real":
 
+### Diagnóstico del hotlinking original (por qué se cambió)
+
+La primera versión enlazaba directo a la URL de imagen del RSS (p.ej. a
+`blogger.googleusercontent.com` para The Hacker News). Al reportarse
+imágenes rotas, se probó con `fetch()`, carga forzada de `<img>` y `curl`
+directo (con y sin `Referer`, con distintos `User-Agent`) contra las mismas
+URLs: **todas devolvieron HTTP 200 con el contenido completo** — no se pudo
+reproducir un bloqueo de CORS, "mixed content" ni hotlinking del origen en
+ese momento. La causa más probable es del lado del visitante (bloqueadores
+de anuncios o filtros de red corporativos que bloquean dominios tipo
+`googleusercontent.com`) o un problema intermitente del CDN de origen. De
+cualquier forma, depender de un servidor de terceros que no está pensado
+para servir estas imágenes es frágil por diseño — por eso se cambió al
+enfoque de descarga local de todos modos.
+
+### Cómo funciona ahora
+
 - **Si el ítem del RSS trae una imagen propia** (etiqueta `<enclosure>` o
-  `<media:content>`/`<media:thumbnail>`), se usa esa imagen tal cual, con
-  `alt` describiendo la noticia (el título ya traducido) y una atribución
-  visible "Imagen: [nombre de la fuente]" debajo. La imagen se sirve con
-  `loading="lazy"` y `decoding="async"` para no frenar la carga de la
-  página.
+  `<media:content>`/`<media:thumbnail>`), `scripts/fetch_news.py` la
+  **descarga** durante el proceso diario y la guarda en
+  `site/imagenes/AAAA-MM-DD/<hash>.ext` (nombre de archivo = hash SHA-1 de
+  la URL original, para evitar colisiones entre fuentes que reutilizan
+  nombres genéricos como `micro.jpg`). El HTML apunta a esa copia local
+  (`/imagenes/AAAA-MM-DD/...`), nunca a la URL externa.
+  - Se valida el `Content-Type` de la respuesta (debe empezar con `image/`)
+    y se descarta cualquier archivo mayor a 5MB.
+  - Cada imagen descargada se registra en `data/imagenes_descargadas.json`
+    (URL original → ruta local). Si la misma URL de imagen reaparece (poco
+    frecuente, pero posible), se reutiliza el archivo ya descargado en vez
+    de volver a bajarlo.
+  - Si la descarga falla por cualquier motivo (timeout, HTTP distinto de
+    200, tipo de contenido inválido, archivo demasiado pesado), el ítem
+    queda sin imagen y se usa el ícono de categoría de respaldo — nunca se
+    sustituye por otra imagen ni se deja un enlace roto.
+  - No se re-codifican ni redimensionan las imágenes (para no depender de
+    una librería pesada como Pillow) — se guardan tal cual las entrega la
+    fuente.
   - A propósito, **no se exige que el dominio de la imagen coincida** con el
     dominio declarado de la fuente en `feeds.yaml` (a diferencia del enlace
-    del artículo, que sí se valida estrictamente). Varios feeds legítimos
-    sirven sus imágenes desde un CDN distinto — por ejemplo, The Hacker News
-    enlaza sus imágenes desde `blogger.googleusercontent.com`, no desde
-    `thehackernews.com`. La imagen sigue atada al ítem de RSS ya verificado;
-    solo se exige que sea una URL `http`/`https` válida con tipo de imagen.
-  - No se re-codifican ni redimensionan las imágenes (para no depender de
-    una librería pesada como Pillow) — se usan tal cual las entrega la
-    fuente. Al ser un enlace directo ("hotlink") al CDN original, si la
-    fuente borra o mueve esa imagen más adelante, dejará de verse (esto es
-    aceptable y poco frecuente; no afecta el texto de la noticia).
-- **Si el RSS no trae ninguna imagen estructurada**, se muestra un ícono SVG
-  genérico (dibujado a mano, en línea en el HTML — no genera ninguna petición
-  de red) según la categoría de la noticia: `ransomware`, `phishing`,
-  `filtración de datos`, `vulnerabilidad`, `malware`, `ataque DDoS`, o un
-  ícono genérico de "ciberseguridad" si no coincide ninguna categoría. La
-  categoría se detecta por palabras clave en el título/extracto original (ver
-  `categorizar()` en `scripts/build_site.py`) — nunca se le pide a una IA que
-  genere ni imagine una foto del hecho. El ícono siempre lleva una leyenda
-  visible tipo "Ilustración genérica: Ransomware (no es una foto real del
-  hecho)", para que quede clarísimo que no es una fotografía del evento.
+    del artículo, que sí se valida estrictamente) — muchos feeds legítimos
+    sirven sus imágenes desde un CDN distinto. La imagen sigue atada al
+    ítem de RSS ya verificado; solo se exige un `Content-Type` de imagen.
+- **Si el RSS no trae ninguna imagen estructurada, o la descarga falla**, se
+  muestra un ícono SVG genérico (dibujado a mano, en línea en el HTML — no
+  genera ninguna petición de red) según la categoría de la noticia:
+  `ransomware`, `phishing`, `filtración de datos`, `vulnerabilidad`,
+  `malware`, `ataque DDoS`, o un ícono genérico de "ciberseguridad" si no
+  coincide ninguna categoría. La categoría se detecta por palabras clave en
+  el título/extracto original (ver `categorizar()` en
+  `scripts/build_site.py`) — nunca se le pide a una IA que genere ni
+  imagine una foto del hecho. El ícono siempre lleva una leyenda visible
+  tipo "Ilustración genérica: Ransomware (no es una foto real del hecho)".
+- **Toda imagen (real o ícono) lleva una insignia de color** con el nombre
+  de la categoría superpuesta en la esquina — se ve tanto en la noticia
+  destacada como en cada tarjeta de la cuadrícula.
   - Nota: los `<img>` incrustados dentro del cuerpo HTML de algunos RSS
     (p.ej. INCIBE-CERT) se ignoran a propósito — al revisarlos, resultaron
     ser botones de "compartir en redes sociales", no imágenes de la noticia.
+
+**Nota sobre el tamaño del repositorio**: cada imagen descargada queda en el
+repo permanentemente (necesario para que GitHub Pages la sirva). Con el
+tiempo esto hace crecer el repositorio unos pocos MB por día — no se
+implementó limpieza automática de imágenes viejas; si en el futuro quieres
+una política de retención (p.ej. borrar imágenes de ediciones de más de N
+meses), es un cambio aparte, avísame.
 
 ---
 
@@ -197,21 +233,43 @@ visitó el sitio en vivo para extraerlos, no se inventaron):
   sobre fondo blanco — sí lo alcanza sobre fondo oscuro, así que en modo
   oscuro los enlaces usan el cian puro. Es una decisión deliberada de
   accesibilidad, manteniendo el mismo tono de marca.
-- **Tipografía**: la misma pila de fuentes de sistema que usa derenzin.com
-  (`"Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, ...`) — sin
-  Google Fonts ni ninguna fuente externa que cargar.
 - **Pie de página**: siempre oscuro (`#1A1A1A`) con texto claro, igual que el
   footer de derenzin.com, independientemente del tema claro/oscuro del resto
   del sitio — incluye el logo, un enlace a https://derenzin.com, el aviso
   legal de agregación de noticias, y el copyright (`© AAAA DERENZIN S.A.S. —
   Feddor Derenzin Martínez...`, tomado del mismo texto que usa el sitio
   oficial, con el año calculado automáticamente en cada build).
-- **Portada con noticia destacada**: la primera noticia del día se muestra
-  más grande (imagen más ancha, título más grande, borde de color) para que
-  la portada se lea como la de un periódico real, no como una lista plana.
 - **Modo oscuro/claro**: automático según la preferencia del sistema
   operativo del visitante (`prefers-color-scheme`), sin necesidad de un
   interruptor manual ni JavaScript adicional.
+
+---
+
+## Diseño (portal de noticias profesional)
+
+- **Tipografía**: [Inter](https://fonts.google.com/specimen/Inter) de Google
+  Fonts (pesos 400 a 800), con la pila de sistema de derenzin.com como
+  respaldo si Google Fonts no carga (`"Segoe UI", -apple-system, ...`). Es
+  la única dependencia externa del sitio, aparte del logo (que ya es propio).
+- **Cabecera fija**: el header queda pegado arriba (`position: sticky`) con
+  el logo, "Inicio" y "Archivo".
+- **Noticia destacada**: la más reciente del día se muestra arriba en
+  grande — imagen ancha (proporción 21:9 en escritorio, 16:9 en celular),
+  título grande, resumen más largo y un botón de "Leer la noticia completa".
+- **Cuadrícula de tarjetas**: el resto de noticias del día se muestra en un
+  grid responsive (`repeat(auto-fill, minmax(270px, 1fr))`) — 3 columnas en
+  escritorio, 2 en tablet, **1 columna en celular** (sin media queries
+  manuales para esto: el propio `auto-fill` colapsa solo). Cada tarjeta
+  tiene esquinas redondeadas, sombra sutil, y al pasar el mouse se eleva
+  ligeramente y la imagen hace un zoom suave (`transform: scale()`).
+- **Insignia de categoría**: cada imagen (real o ícono) lleva una etiqueta
+  de color en la esquina superior (Ransomware, Phishing, Vulnerabilidad,
+  Malware, Filtración de datos, DDoS, o Ciberseguridad genérica).
+- **Resúmenes recortados visualmente**: con `-webkit-line-clamp` se cortan a
+  3-4 líneas en pantalla, sin cortar el texto real en el HTML (accesible
+  para lectores de pantalla y buscadores igual).
+- Inspirado en la jerarquía de portales como BleepingComputer/The Hacker
+  News (destacada arriba + grid abajo) — sin copiar su marca ni su CSS.
 
 ---
 
@@ -223,8 +281,9 @@ visitó el sitio en vivo para extraerlos, no se inventaron):
 2. Instala Python + las dos dependencias mínimas (`feedparser`, `PyYAML`).
 3. Corre `fetch_news.py` y luego `build_site.py` (este último recibe
    `DEEPL_API_KEY` desde los Secrets del repo, si lo configuraste).
-4. Si hubo noticias nuevas, commitea `site/` y `data/publicadas.json` a la
-   rama `main` con el usuario `github-actions[bot]`.
+4. Si hubo noticias nuevas, commitea `site/` (incluidas las imágenes
+   descargadas), `data/publicadas.json` y `data/imagenes_descargadas.json` a
+   la rama `main` con el usuario `github-actions[bot]`.
 5. Publica el contenido de `site/` en la rama `gh-pages` (así GitHub Pages lo
    puede servir con "Deploy from a branch", que solo soporta la raíz o
    `/docs` de una rama — no una carpeta arbitraria como `/site` dentro de
