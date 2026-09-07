@@ -55,6 +55,8 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 
+from texto import acotar_parrafos, rematar_final, truncar
+
 RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
 PUBLICADAS_JSON = RAIZ / "data" / "publicadas.json"
@@ -304,43 +306,6 @@ def guardar_publicadas(datos: dict) -> None:
         json.dump(datos, f, ensure_ascii=False, indent=2)
 
 
-def truncar(texto: str, maximo: int) -> str:
-    """Recorta `texto` a `maximo` caracteres SIN cortar una oración a la
-    mitad: busca el último punto/¡!/¿? de cierre de oración dentro del
-    límite y corta ahí. Si no hay ninguno lo bastante adentro (una sola
-    oración más larga que el límite), cae al corte por palabra completa de
-    siempre — pero nunca deja el texto colgando sin puntuación: siempre
-    termina en una oración cerrada o en "…"."""
-    texto = texto.strip()
-    if len(texto) <= maximo:
-        return rematar_final(texto)
-
-    fragmento = texto[:maximo]
-    ultimo_punto = -1
-    for m in re.finditer(r"[.!?](?=\s|$)", fragmento):
-        ultimo_punto = m.end()
-    # Solo usar el corte por oración si no deja el resumen demasiado corto
-    # (p.ej. si la primera oración ya ocupa casi todo el límite, preferimos
-    # eso a un corte por palabra que deje un fragmento minúsculo).
-    if ultimo_punto >= maximo * 0.4:
-        return fragmento[:ultimo_punto].strip()
-
-    cortado = fragmento.rsplit(" ", 1)[0].rstrip(",;:")
-    return cortado + "…"
-
-
-def rematar_final(texto: str) -> str:
-    """Si `texto` no termina en puntuación de cierre, es que el propio RSS de
-    origen lo entrega incompleto (algunos feeds recortan su descripción a
-    una cantidad fija de caracteres) — se agrega "…" para dejarlo claro en
-    vez de dejarlo colgado a media frase. Nunca inventa palabras, solo
-    marca visualmente que el texto sigue en la fuente."""
-    texto = texto.rstrip()
-    if not texto or texto[-1] in ".!?…\"'”)»":
-        return texto
-    return texto.rstrip(",;: ") + "…"
-
-
 def slugificar(texto: str, maximo: int = 60) -> str:
     """Convierte un título en un slug apto para URL: sin acentos, minúsculas,
     solo [a-z0-9-]. Se usa únicamente para que la URL sea legible — la
@@ -359,20 +324,6 @@ def nombre_archivo_noticia(item: dict, fecha_carpeta: str) -> str:
     slug = slugificar(item["titulo"])
     hash_corto = hashlib.sha1(item["enlace"].encode("utf-8")).hexdigest()[:8]
     return f"{fecha_carpeta}-{slug}-{hash_corto}.html"
-
-
-def acotar_parrafos(parrafos: list[str], maximo_caracteres: int, maximo_parrafos: int) -> list[str]:
-    """Se queda con párrafos ENTEROS (nunca corta uno a la mitad) hasta llegar
-    al tope de caracteres o de cantidad de párrafos. Siempre devuelve al
-    menos un párrafo (aunque ese solo ya supere el tope)."""
-    resultado: list[str] = []
-    total = 0
-    for p in parrafos:
-        if resultado and (total + len(p) > maximo_caracteres or len(resultado) >= maximo_parrafos):
-            break
-        resultado.append(p)
-        total += len(p)
-    return resultado or parrafos[:1]
 
 
 def preparar_resumen_ampliado(item: dict) -> dict:
@@ -504,21 +455,44 @@ def traducir_deepl(texto: str, idioma_origen: str) -> str | None:
     return None
 
 
+SIN_EXTRACTO_ADICIONAL = "El RSS de la fuente no trae un extracto adicional aparte del titular."
+
+
 def preparar_texto_mostrado(item: dict) -> dict:
     """Devuelve un dict con los campos ya listos para mostrar, siempre en
     español, sin inventar contenido:
       - titulo_mostrar
-      - resumen_mostrar
+      - resumen_mostrar: resumen corto para tarjeta/destacada (~600 car.)
+      - resumen_meta: para meta descripción/OG/Twitter (~160 car.)
       - nota_idioma: texto corto para la interfaz (o cadena vacía)
-    """
+
+    `resumen_mostrar` y `resumen_meta` se calculan cada uno por separado a
+    partir del MISMO texto base (el extracto ya traducido, o el original si
+    no aplica traducción) — nunca se recorta un resumen ya recortado (antes
+    la meta descripción se obtenía truncando de nuevo `resumen_mostrar`, y
+    ese segundo recorte podía caer en un punto peor que el primero)."""
     titulo_original = item["titulo"].strip()
     idioma = item.get("idioma", "en")
     extracto_original = (item.get("extracto_original") or "").strip()
     aporta_info = bool(extracto_original) and extracto_original.lower() != titulo_original.lower() and len(extracto_original) > 15
 
+    def _resultado(titulo_mostrar: str, texto_base: str | None, nota_idioma: str) -> dict:
+        if texto_base:
+            return {
+                "titulo_mostrar": titulo_mostrar,
+                "resumen_mostrar": truncar(texto_base, 600),
+                "resumen_meta": truncar(texto_base, 160),
+                "nota_idioma": nota_idioma,
+            }
+        return {
+            "titulo_mostrar": titulo_mostrar,
+            "resumen_mostrar": SIN_EXTRACTO_ADICIONAL,
+            "resumen_meta": SIN_EXTRACTO_ADICIONAL,
+            "nota_idioma": nota_idioma,
+        }
+
     if idioma == "es":
-        resumen = truncar(extracto_original, 600) if aporta_info else "El RSS de la fuente no trae un extracto adicional; solo se dispone del titular."
-        return {"titulo_mostrar": titulo_original, "resumen_mostrar": resumen, "nota_idioma": ""}
+        return _resultado(titulo_original, extracto_original if aporta_info else None, "")
 
     # Fuente en idioma distinto al español: intentar traducir con DeepL.
     if not DEEPL_API_KEY:
@@ -528,20 +502,18 @@ def preparar_texto_mostrado(item: dict) -> dict:
     extracto_traducido = traducir_deepl(truncar(extracto_original, 700), idioma) if aporta_info else None
 
     if titulo_traducido:
-        resumen = truncar(extracto_traducido, 600) if extracto_traducido else "El RSS de la fuente no trae un extracto adicional aparte del titular."
         nota = "Traducido automáticamente del inglés (DeepL)." if idioma == "en" else f"Traducido automáticamente del {idioma} (DeepL)."
-        return {"titulo_mostrar": titulo_traducido, "resumen_mostrar": resumen, "nota_idioma": nota}
+        return _resultado(titulo_traducido, extracto_traducido, nota)
 
     # Fallback seguro: no se pudo traducir (sin clave o falló la API). Nunca
     # se inventa una traducción — se muestra el extracto original tal cual,
     # sin repetir el título (ya se muestra arriba, como encabezado de la
     # tarjeta) ni envolverlo en comillas/etiquetas de texto.
-    resumen = truncar(extracto_original, 600) if aporta_info else "El RSS de la fuente no trae un extracto adicional aparte del titular."
-    return {
-        "titulo_mostrar": titulo_original,
-        "resumen_mostrar": resumen,
-        "nota_idioma": "No se pudo traducir automáticamente (se muestra el original).",
-    }
+    return _resultado(
+        titulo_original,
+        extracto_original if aporta_info else None,
+        "No se pudo traducir automáticamente (se muestra el original).",
+    )
 
 
 def fecha_legible(dt: datetime) -> str:
@@ -684,7 +656,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     enlace_externo = escape(item["enlace"], quote=True)
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     titulo_html = escape(titulo_mostrar)
-    descripcion = truncar(mostrado["resumen_mostrar"], 160)
+    descripcion = mostrado["resumen_meta"]
     imagen_pagina = item.get("imagen_local") or "/assets/logo-derenzin.png"
 
     parrafos_html = "\n".join(

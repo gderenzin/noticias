@@ -49,6 +49,8 @@ from urllib.parse import urlparse
 import feedparser
 import yaml
 
+from texto import truncar
+
 RAIZ = Path(__file__).resolve().parent.parent
 FEEDS_YAML = RAIZ / "feeds.yaml"
 PUBLICADAS_JSON = RAIZ / "data" / "publicadas.json"
@@ -264,7 +266,13 @@ def extraer_contenido_ampliado(entry, extracto_ya_limpio: str) -> str:
     Security, incluyen ahí el artículo casi completo), o si no, el mismo
     extracto corto que ya se usa en la tarjeta. Se recorta a
     LIMITE_CONTENIDO_AMPLIADO caracteres — nunca se guarda el artículo
-    completo tal cual, ni siquiera cuando el RSS lo trae entero."""
+    completo tal cual, ni siquiera cuando el RSS lo trae entero.
+
+    El recorte usa texto.truncar() (compartido con build_site.py) en vez de
+    un corte propio: así, si el RSS de origen ya trae su propio marcador de
+    "leer más" (p.ej. BleepingComputer agrega ".. [...]" al final del
+    extracto), se limpia acá mismo en vez de guardarlo tal cual y dejar que
+    se le apile OTRO marcador más adelante, en build_site.py."""
     contenido_encoded = entry.get("content")
     texto_crudo = ""
     if contenido_encoded:
@@ -278,9 +286,7 @@ def extraer_contenido_ampliado(entry, extracto_ya_limpio: str) -> str:
     else:
         limpio = extracto_ya_limpio
 
-    if len(limpio) <= LIMITE_CONTENIDO_AMPLIADO:
-        return limpio
-    return limpio[:LIMITE_CONTENIDO_AMPLIADO].rsplit(" ", 1)[0] + "…"
+    return truncar(limpio, LIMITE_CONTENIDO_AMPLIADO)
 
 
 def extraer_imagen(entry) -> str | None:
