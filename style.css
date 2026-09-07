@@ -1,27 +1,54 @@
-/* Periódico de Ciberseguridad — CSS propio, sin frameworks ni dependencias externas. */
+/* Periódico de Ciberseguridad — CSS propio, sin frameworks ni dependencias
+   externas. Paleta e identidad tomadas de derenzin.com (mismo logo, mismo
+   color de marca #00B8D4, misma familia tipográfica de sistema). */
 
 :root {
-  --fondo: #0f1620;
-  --fondo-tarjeta: #16202c;
-  --texto: #e8edf2;
-  --texto-tenue: #9db0c2;
-  --acento: #4fd1c5;
-  --acento-suave: #2c3e4a;
-  --borde: #26333f;
-  --enlace: #6fd6ff;
-  --max-ancho: 800px;
+  /* Marca DERENZIN (idénticos a los --tokens de derenzin.com) */
+  --marca-primario: #0052cc;
+  --marca-primario-oscuro: #003d99;
+  --marca-acento: #00b8d4;      /* cian/turquesa de marca — acento principal */
+  --marca-acento-oscuro: #007a94;
+
+  --fondo: #f5f7fa;
+  --fondo-tarjeta: #ffffff;
+  --fondo-cabecera: rgba(255, 255, 255, 0.96);
+  --texto: #1a1a1a;
+  --texto-tenue: #4a4a4a;
+  --texto-suave: #757575;
+  --acento: var(--marca-acento);
+  --acento-suave: color-mix(in srgb, var(--marca-acento) 14%, white);
+  --borde: #e0e0e0;
+  /* Cian de marca oscurecido para que el texto de enlaces cumpla contraste
+     AA sobre fondo claro; el cian puro se reserva para títulos grandes,
+     bordes e íconos, donde el tamaño ya compensa el contraste. */
+  --enlace: var(--marca-acento-oscuro);
+  --sombra: 0 1px 3px rgba(26, 26, 26, 0.06);
+  --sombra-md: 0 6px 20px rgba(26, 26, 26, 0.08);
+  --max-ancho: 860px;
+  --fuente: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  /* Pie de página: siempre oscuro, igual que en derenzin.com, sin importar
+     el tema claro/oscuro del resto del sitio. */
+  --pie-fondo: #1a1a1a;
+  --pie-texto: #f5f5f5;
+  --pie-texto-tenue: #b5b5b5;
+  --pie-borde: #333333;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --fondo: #f5f7fa;
-    --fondo-tarjeta: #ffffff;
-    --texto: #1b2733;
-    --texto-tenue: #55697a;
-    --acento: #0f7a70;
-    --acento-suave: #dcecea;
-    --borde: #dde3e8;
-    --enlace: #0a6ebd;
+    --fondo: #0f1620;
+    --fondo-tarjeta: #16202c;
+    --fondo-cabecera: rgba(16, 23, 32, 0.92);
+    --texto: #e8edf2;
+    --texto-tenue: #a9bacb;
+    --texto-suave: #8195a8;
+    --acento: var(--marca-acento);
+    --acento-suave: color-mix(in srgb, var(--marca-acento) 20%, #0f1620);
+    --borde: #263442;
+    --enlace: #3fd6f0; /* sobre fondo oscuro el cian puro ya tiene contraste de sobra */
+    --sombra: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --sombra-md: 0 10px 28px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -29,23 +56,38 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: var(--fondo);
   color: var(--texto);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.55;
+  font-family: var(--fuente);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
   color: var(--enlace);
 }
 
+img {
+  max-width: 100%;
+}
+
+/* ---------- Cabecera / marca ---------- */
+
 .cabecera {
-  background: var(--fondo-tarjeta);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--fondo-cabecera);
+  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--borde);
-  padding: 1.5rem 1rem;
+  padding: 1.1rem 1rem;
 }
 
 .cabecera-contenido {
@@ -53,52 +95,156 @@ a {
   margin: 0 auto;
 }
 
-.cabecera h1 {
-  margin: 0 0 0.25rem 0;
-  font-size: 1.5rem;
+.marca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
-.cabecera h1 a {
+.marca-enlace {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.marca-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.marca-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.marca-titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--texto);
+}
+
+.marca-byline {
+  font-size: 0.72rem;
+  color: var(--texto-suave);
+  letter-spacing: 0.02em;
+}
+
+.marca-byline strong {
+  color: var(--acento);
+}
+
+.enlace-derenzin {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--enlace);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  white-space: nowrap;
+}
+
+.enlace-derenzin:hover {
+  border-color: var(--acento);
   text-decoration: none;
 }
 
 .subtitulo {
-  margin: 0 0 0.75rem 0;
-  color: var(--texto-tenue);
-  font-size: 0.95rem;
+  margin: 0.6rem 0 0.6rem 0;
+  color: var(--texto-suave);
+  font-size: 0.92rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.1rem;
 }
 
 .nav a {
-  margin-right: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  font-weight: 600;
   text-decoration: none;
-  color: var(--acento);
+  color: var(--texto-tenue);
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  color: var(--acento);
 }
+
+.nav a.activo {
+  color: var(--enlace);
+  border-bottom: 2px solid var(--acento);
+  padding-bottom: 2px;
+}
+
+/* ---------- Contenido ---------- */
 
 .contenido {
   max-width: var(--max-ancho);
-  margin: 1.5rem auto;
+  margin: 1.75rem auto;
   padding: 0 1rem;
 }
 
 .noticia {
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 10px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.25rem;
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.4rem;
   overflow: hidden;
+  box-shadow: var(--sombra);
+  transition: box-shadow 0.2s ease;
+}
+
+.noticia:hover {
+  box-shadow: var(--sombra-md);
+}
+
+/* Primera noticia de la portada: tratamiento "destacada" más grande, para
+   que el sitio se lea como una portada de periódico real. */
+.contenido.portada .noticia:first-of-type {
+  border-color: var(--acento);
+  border-width: 1.5px;
+}
+
+.contenido.portada .noticia:first-of-type .noticia-titulo {
+  font-size: 1.55rem;
+}
+
+.contenido.portada .noticia:first-of-type .noticia-imagen img,
+.contenido.portada .noticia:first-of-type .noticia-imagen .icono-generico {
+  aspect-ratio: 21 / 9;
+}
+
+.contenido.portada .noticia:first-of-type .noticia-resumen {
+  font-size: 1.02rem;
+}
+
+.eyebrow-destacada {
+  display: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--acento);
+  margin: 0 0 0.4rem 0;
+}
+
+.contenido.portada .noticia:first-of-type .eyebrow-destacada {
+  display: block;
 }
 
 /* Imagen destacada (real, del RSS) o ícono genérico por categoría cuando el
    RSS no trae imagen propia. Se estira hasta el borde de la tarjeta. */
 .noticia-imagen {
-  margin: -1.25rem -1.5rem 1rem -1.5rem;
+  margin: -1.4rem -1.6rem 1.1rem -1.6rem;
 }
 
 .noticia-imagen img {
@@ -114,8 +260,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-categoria, var(--texto-tenue));
-  background: color-mix(in srgb, var(--color-categoria, var(--texto-tenue)) 16%, var(--fondo-tarjeta));
+  color: var(--color-categoria, var(--texto-suave));
+  background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 16%, var(--fondo-tarjeta));
 }
 
 .noticia-imagen--generica .icono-generico svg {
@@ -124,9 +270,9 @@ a {
 }
 
 .noticia-imagen figcaption {
-  padding: 0.35rem 1.5rem 0;
+  padding: 0.35rem 1.6rem 0;
   font-size: 0.72rem;
-  color: var(--texto-tenue);
+  color: var(--texto-suave);
 }
 
 .noticia-meta {
@@ -135,13 +281,13 @@ a {
   gap: 0.6rem;
   align-items: center;
   font-size: 0.8rem;
-  color: var(--texto-tenue);
+  color: var(--texto-suave);
   margin-bottom: 0.5rem;
 }
 
 .noticia-meta .fuente {
-  font-weight: 600;
-  color: var(--acento);
+  font-weight: 700;
+  color: var(--enlace);
 }
 
 .noticia-meta .idioma-nota {
@@ -153,28 +299,32 @@ a {
 
 .noticia-titulo {
   margin: 0 0 0.5rem 0;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 1.35;
+  font-weight: 700;
 }
 
 .noticia-titulo a {
+  color: var(--texto);
   text-decoration: none;
 }
 
 .noticia-titulo a:hover {
+  color: var(--enlace);
   text-decoration: underline;
 }
 
 .noticia-resumen {
-  margin: 0 0 0.75rem 0;
-  color: var(--texto);
+  margin: 0 0 0.85rem 0;
+  color: var(--texto-tenue);
 }
 
 .noticia-enlace {
   display: inline-block;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
+  color: var(--enlace);
 }
 
 .noticia-enlace:hover {
@@ -188,28 +338,130 @@ a {
 }
 
 .lista-archivo li {
-  padding: 0.6rem 0;
+  padding: 0.7rem 0;
   border-bottom: 1px solid var(--borde);
 }
 
 .lista-archivo a {
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 600;
+  color: var(--texto);
 }
 
 .lista-archivo a:hover {
+  color: var(--enlace);
   text-decoration: underline;
 }
 
+/* ---------- Pie de página ---------- */
+
 .pie {
+  background: var(--pie-fondo);
+  color: var(--pie-texto-tenue);
+  margin-top: 2.5rem;
+  border-top: 3px solid var(--acento);
+}
+
+.pie-contenido {
   max-width: var(--max-ancho);
-  margin: 2rem auto 1rem auto;
-  padding: 1rem;
-  border-top: 1px solid var(--borde);
-  color: var(--texto-tenue);
+  margin: 0 auto;
+  padding: 2rem 1rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.pie-marca {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 320px;
+}
+
+.pie-marca-enlace {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.pie-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.pie-marca-nombre {
+  color: var(--pie-texto);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.pie-tagline {
   font-size: 0.8rem;
+  margin: 0;
+  color: var(--pie-texto-tenue);
+}
+
+.pie-tagline a {
+  color: var(--marca-acento);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pie-tagline a:hover {
+  text-decoration: underline;
+}
+
+.pie-legal {
+  flex: 1 1 320px;
+  min-width: 240px;
+  border-top: 1px solid var(--pie-borde);
+  padding-top: 1rem;
+}
+
+.pie-contenido .pie-marca {
+  border-top: none;
 }
 
 .pie p {
-  margin: 0.3rem 0;
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.pie-copyright {
+  color: var(--pie-texto-tenue);
+  font-size: 0.75rem !important;
+  margin-top: 0.8rem !important;
+}
+
+/* En pantallas anchas, separar visualmente marca vs. avisos legales con un
+   borde solo del lado de "legal". */
+@media (min-width: 640px) {
+  .pie-legal {
+    border-top: none;
+    border-left: 1px solid var(--pie-borde);
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 480px) {
+  .noticia {
+    padding: 1.1rem 1.1rem;
+  }
+  .noticia-imagen {
+    margin: -1.1rem -1.1rem 1rem -1.1rem;
+  }
+  .noticia-imagen figcaption {
+    padding: 0.35rem 1.1rem 0;
+  }
+  .contenido.portada .noticia:first-of-type .noticia-titulo {
+    font-size: 1.3rem;
+  }
 }

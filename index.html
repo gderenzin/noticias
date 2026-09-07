@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Periódico de Ciberseguridad — Portada</title>
-  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original.">
+  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <link rel="icon" href="assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="cabecera">
     <div class="cabecera-contenido">
-      <h1><a href="index.html">🛡️ Periódico de Ciberseguridad</a></h1>
+      <div class="marca">
+        <a href="index.html" class="marca-enlace">
+          <img src="assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
+          <div class="marca-texto">
+            <span class="marca-titulo">Periódico de Ciberseguridad</span>
+            <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
+          </div>
+        </a>
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="enlace-derenzin">derenzin.com ↗</a>
+      </div>
       <p class="subtitulo">Edición del 6 de septiembre de 2026 — 12 noticia(s) nueva(s)</p>
       <nav class="nav">
-        <a href="index.html">Portada</a>
+        <a href="index.html" class="activo">Portada</a>
         <a href="archivo/index.html">Archivo</a>
       </nav>
     </div>
   </header>
 
-  <main class="contenido">
+  <main class="contenido portada">
     <article class="noticia">
       <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: #475569">
         <div class="icono-generico" role="img" aria-label="Ilustración genérica de la categoría Ciberseguridad; no es una foto real del hecho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
@@ -192,8 +203,20 @@
   </main>
 
   <footer class="pie">
-    <p>Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; el contenido pertenece a sus autores originales. Consulta el enlace de cada fuente para leer el artículo completo.</p>
-    <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
+    <div class="pie-contenido">
+      <div class="pie-marca">
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="pie-marca-enlace">
+          <img src="assets/logo-derenzin.png" alt="DERENZIN" class="pie-logo">
+          <span class="pie-marca-nombre">DERENZIN S.A.S.</span>
+        </a>
+        <p class="pie-tagline">Un proyecto de DERENZIN S.A.S. — <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a></p>
+      </div>
+      <div class="pie-legal">
+        <p>Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; el contenido pertenece a sus autores originales. Consulta el enlace de cada fuente para leer el artículo completo.</p>
+        <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
+        <p class="pie-copyright">© 2026 DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
