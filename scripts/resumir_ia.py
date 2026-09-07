@@ -45,11 +45,14 @@ RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
 
 GEMINI_API_KEY = (os.environ.get("GEMINI_API_KEY") or "").strip()
-# "-lite" es la variante más barata/rápida de la familia 2.5 -- de sobra
-# para un resumen fiel de un artículo de noticias, y entra cómodo en la capa
+# "-lite" es la variante más barata/rápida disponible -- de sobra para un
+# resumen fiel de un artículo de noticias, y entra cómodo en la capa
 # gratuita de Gemini (a diferencia de Anthropic, que exige facturación desde
-# el primer request).
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+# el primer request). "gemini-2.5-flash-lite" dejó de estar disponible para
+# cuentas nuevas (confirmado en el primer run real: HTTP 404, "no longer
+# available to new users... use models/gemini-3.5-flash-lite") -- se pasó
+# a esa versión.
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 GEMINI_TIMEOUT_SEGUNDOS = 45
 GEMINI_MAX_OUTPUT_TOKENS = 1024
