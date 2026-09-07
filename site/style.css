@@ -92,6 +92,41 @@ a {
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+/* Imagen destacada (real, del RSS) o ícono genérico por categoría cuando el
+   RSS no trae imagen propia. Se estira hasta el borde de la tarjeta. */
+.noticia-imagen {
+  margin: -1.25rem -1.5rem 1rem -1.5rem;
+}
+
+.noticia-imagen img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--acento-suave);
+}
+
+.noticia-imagen--generica .icono-generico {
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-categoria, var(--texto-tenue));
+  background: color-mix(in srgb, var(--color-categoria, var(--texto-tenue)) 16%, var(--fondo-tarjeta));
+}
+
+.noticia-imagen--generica .icono-generico svg {
+  width: 44px;
+  height: 44px;
+}
+
+.noticia-imagen figcaption {
+  padding: 0.35rem 1.5rem 0;
+  font-size: 0.72rem;
+  color: var(--texto-tenue);
 }
 
 .noticia-meta {
@@ -109,12 +144,11 @@ a {
   color: var(--acento);
 }
 
-.noticia-meta .idioma {
+.noticia-meta .idioma-nota {
   border: 1px solid var(--borde);
   border-radius: 4px;
-  padding: 0 0.35rem;
-  font-size: 0.7rem;
-  letter-spacing: 0.03em;
+  padding: 0 0.4rem;
+  font-size: 0.72rem;
 }
 
 .noticia-titulo {

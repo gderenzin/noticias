@@ -40,6 +40,12 @@ jobs:
         run: python scripts/fetch_news.py
 
       - name: Generar el sitio (build_site.py)
+        env:
+          # Usada para traducir al español los títulos/resúmenes de fuentes en
+          # inglés (ver README: "Traducción de noticias"). Si el secreto no
+          # existe todavía, esta variable queda vacía y build_site.py cae en
+          # el modo seguro de "citar el original" en vez de fallar.
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: python scripts/build_site.py
 
       - name: Commitear cambios en main (si los hay)

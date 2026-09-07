@@ -21,15 +21,15 @@ DNS/Pages más abajo).
 3. El "resumen" de cada noticia se arma **únicamente** con el título y el
    extracto que trae el propio RSS — nunca se agregan cifras, nombres ni
    hechos que no estén en ese texto.
-4. **Sobre la traducción**: las fuentes en inglés no se traducen con ningún
-   modelo ni servicio automático. En vez de eso, el sitio muestra el
-   titular/extracto original entre comillas dentro de una frase en español,
-   dejando explícito que el contenido original está en inglés. Esto es
-   deliberado: traducir automáticamente introduce el riesgo de alterar el
-   significado, y evitar eso tiene prioridad sobre tener un resumen
-   "más natural" en español. Si más adelante quieres traducción real (por
-   ejemplo con una API de traducción o un modelo), es un cambio aparte que
-   requiere una clave — avísame y lo agregamos.
+4. **Sobre la traducción**: todo el sitio se muestra en español (títulos,
+   resúmenes y textos de interfaz), incluso cuando la fuente original está en
+   inglés. La traducción se hace con la API de DeepL y **solo traduce el
+   título y el extracto que ya vienen del RSS** — nunca agrega cifras,
+   nombres ni hechos nuevos. Si la traducción falla por cualquier motivo (sin
+   clave configurada, red caída, cuota agotada), esa noticia en particular
+   **no se inventa una traducción**: se muestra el título/extracto original
+   entre comillas con una nota aclaratoria en español. Ver la sección
+   "Traducción al español (DeepL)" más abajo para configurarlo.
 5. Cada noticia lleva siempre: título, fuente, fecha de publicación original y
    enlace directo al artículo. Al pie de cada página va el aviso legal fijo
    exigido por la especificación.
@@ -37,6 +37,11 @@ DNS/Pages más abajo).
    y se sigue con los demás — no se rompe la ejecución completa por un feed
    caído. Si ningún feed trae novedades, no se publica nada y el workflow
    igual termina en verde (no es un error).
+7. **Sobre las imágenes**: solo se usa una imagen si el propio ítem de RSS la
+   trae de forma estructurada (`<enclosure>` o `<media:content>`). Nunca se
+   genera ni se pide a una IA que invente una foto del hecho. Si el RSS no
+   trae imagen, se muestra un ícono ilustrativo genérico por categoría,
+   claramente etiquetado como tal. Ver la sección "Imágenes" más abajo.
 
 ---
 
@@ -97,13 +102,91 @@ site/archivo/index.html          Índice de todas las ediciones archivadas
 
 ---
 
+## Traducción al español (DeepL)
+
+Todo el sitio se muestra en español — títulos, resúmenes y textos de
+interfaz — aunque la fuente original esté en inglés (The Hacker News,
+BleepingComputer, Krebs on Security, Dark Reading). Esto se hace con la
+[API de DeepL](https://www.deepl.com/pro-api), llamada desde
+`scripts/build_site.py` con la librería estándar de Python (`urllib`), sin
+dependencias nuevas que instalar.
+
+**Solo se traduce el texto que ya viene del RSS** (título + extracto): la
+traducción nunca agrega cifras, nombres ni hechos que no estén en el
+original. Si la traducción falla (sin clave configurada, red caída, cuota
+mensual agotada, timeout), esa noticia en particular se muestra citando el
+título/extracto original entre comillas con una nota aclaratoria — nunca se
+fabrica una traducción alternativa.
+
+### Cómo obtener y configurar la clave
+
+1. Crea una cuenta gratuita en https://www.deepl.com/pro-api (el plan
+   "DeepL API Free" incluye 500 000 caracteres/mes gratis, de sobra para el
+   volumen diario de este sitio).
+2. Copia tu "Authentication Key" (termina en `:fx` si es del plan gratuito;
+   el script detecta esto solo y usa el endpoint correcto de DeepL).
+3. En GitHub, ve a **Settings → Secrets and variables → Actions → New
+   repository secret**.
+4. Nombre del secreto: `DEEPL_API_KEY`. Valor: pega tu clave. **Guardar**.
+
+No hace falta ningún otro cambio: el workflow ya está preparado para leer
+`secrets.DEEPL_API_KEY` (ver `.github/workflows/diario.yml`) y pasarla como
+variable de entorno a `build_site.py`.
+
+**Si no configuras este secreto**, el sitio sigue funcionando: las noticias en
+inglés se publican citando el título/extracto original entre comillas con la
+nota "No se pudo traducir automáticamente (se muestra el original)", en vez
+de fallar o inventar una traducción.
+
+---
+
+## Imágenes
+
+Cada noticia muestra una imagen, con estas reglas para no romper la regla de
+"solo contenido real":
+
+- **Si el ítem del RSS trae una imagen propia** (etiqueta `<enclosure>` o
+  `<media:content>`/`<media:thumbnail>`), se usa esa imagen tal cual, con
+  `alt` describiendo la noticia (el título ya traducido) y una atribución
+  visible "Imagen: [nombre de la fuente]" debajo. La imagen se sirve con
+  `loading="lazy"` y `decoding="async"` para no frenar la carga de la
+  página.
+  - A propósito, **no se exige que el dominio de la imagen coincida** con el
+    dominio declarado de la fuente en `feeds.yaml` (a diferencia del enlace
+    del artículo, que sí se valida estrictamente). Varios feeds legítimos
+    sirven sus imágenes desde un CDN distinto — por ejemplo, The Hacker News
+    enlaza sus imágenes desde `blogger.googleusercontent.com`, no desde
+    `thehackernews.com`. La imagen sigue atada al ítem de RSS ya verificado;
+    solo se exige que sea una URL `http`/`https` válida con tipo de imagen.
+  - No se re-codifican ni redimensionan las imágenes (para no depender de
+    una librería pesada como Pillow) — se usan tal cual las entrega la
+    fuente. Al ser un enlace directo ("hotlink") al CDN original, si la
+    fuente borra o mueve esa imagen más adelante, dejará de verse (esto es
+    aceptable y poco frecuente; no afecta el texto de la noticia).
+- **Si el RSS no trae ninguna imagen estructurada**, se muestra un ícono SVG
+  genérico (dibujado a mano, en línea en el HTML — no genera ninguna petición
+  de red) según la categoría de la noticia: `ransomware`, `phishing`,
+  `filtración de datos`, `vulnerabilidad`, `malware`, `ataque DDoS`, o un
+  ícono genérico de "ciberseguridad" si no coincide ninguna categoría. La
+  categoría se detecta por palabras clave en el título/extracto original (ver
+  `categorizar()` en `scripts/build_site.py`) — nunca se le pide a una IA que
+  genere ni imagine una foto del hecho. El ícono siempre lleva una leyenda
+  visible tipo "Ilustración genérica: Ransomware (no es una foto real del
+  hecho)", para que quede clarísimo que no es una fotografía del evento.
+  - Nota: los `<img>` incrustados dentro del cuerpo HTML de algunos RSS
+    (p.ej. INCIBE-CERT) se ignoran a propósito — al revisarlos, resultaron
+    ser botones de "compartir en redes sociales", no imágenes de la noticia.
+
+---
+
 ## Cómo funciona el workflow (.github/workflows/diario.yml)
 
 1. **Cron diario** a las `11:00 UTC` (≈ 06:00 America/Guayaquil, UTC-5 todo el
    año) + botón manual (`workflow_dispatch`) para probarlo cuando quieras desde
    la pestaña *Actions* de GitHub.
 2. Instala Python + las dos dependencias mínimas (`feedparser`, `PyYAML`).
-3. Corre `fetch_news.py` y luego `build_site.py`.
+3. Corre `fetch_news.py` y luego `build_site.py` (este último recibe
+   `DEEPL_API_KEY` desde los Secrets del repo, si lo configuraste).
 4. Si hubo noticias nuevas, commitea `site/` y `data/publicadas.json` a la
    rama `main` con el usuario `github-actions[bot]`.
 5. Publica el contenido de `site/` en la rama `gh-pages` (así GitHub Pages lo
@@ -115,7 +198,9 @@ site/archivo/index.html          Índice de todas las ediciones archivadas
 6. Si ningún feed trajo novedades, el job igual termina exitosamente (verde);
    simplemente no hay commit ese día.
 
-No se usa ninguna clave/API externa — funciona sin ningún secreto configurado.
+La única clave/API externa que usa el proyecto es `DEEPL_API_KEY`, exclusiva
+para traducir al español (ver arriba). Sin ella configurada, el sitio sigue
+funcionando en modo seguro (cita el original en vez de traducir).
 
 ---
 
@@ -127,7 +212,13 @@ sistema).
 ```bash
 pip install -r requirements.txt
 python scripts/fetch_news.py
+
+# Sin DEEPL_API_KEY: las noticias en inglés se publican citando el original.
 python scripts/build_site.py
+
+# Con traducción real (opcional, si ya tienes una clave de DeepL):
+#   macOS/Linux:  DEEPL_API_KEY="tu-clave:fx" python scripts/build_site.py
+#   Windows PowerShell:  $env:DEEPL_API_KEY="tu-clave:fx"; python scripts/build_site.py
 ```
 
 - `fetch_news.py` deja un log en pantalla de qué fuentes procesó, cuántos
@@ -150,8 +241,10 @@ python scripts/build_site.py
   `data/publicadas.json` como `{"urls": {}}` y borrar `data/nuevas_hoy.json`.
 
 Este flujo ya se probó de punta a punta (las 6 fuentes, filtro de dominio,
-deduplicación, y la lógica de publicar en la rama `gh-pages` con una rama
-huérfana simulada) antes de entregarte este repositorio.
+deduplicación, extracción de imágenes reales vs. ícono genérico por
+categoría, el modo seguro de traducción sin clave, el parseo de una
+respuesta simulada de DeepL, y la lógica de publicar en la rama `gh-pages`
+con una rama huérfana simulada) antes de entregarte este repositorio.
 
 ---
 
@@ -217,7 +310,15 @@ el job haya quedado en verde, y abre `https://noticias.derenzin.com` (o,
 mientras el DNS propaga, `https://gderenzin.github.io/noticias/`) para
 confirmar que salieron noticias reales con sus enlaces.
 
-### 5. Ajustar el horario del cron (opcional)
+### 5. (Opcional pero recomendado) Configurar la traducción al español
+
+Sin este paso el sitio ya funciona — solo que las noticias en inglés se
+muestran citando el original en vez de traducidas. Para traducción real, ve a
+la sección **"Traducción al español (DeepL)"** más arriba: crea una cuenta
+gratuita en DeepL y agrega tu clave como el secreto `DEEPL_API_KEY` en
+**Settings → Secrets and variables → Actions** del repo.
+
+### 6. Ajustar el horario del cron (opcional)
 
 El cron vive en `.github/workflows/diario.yml`, en la línea `- cron: "0 11 * * *"`,
 con comentarios al lado explicando la conversión a hora de Guayaquil. Está en

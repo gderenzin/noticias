@@ -4,26 +4,45 @@ build_site.py
 --------------
 Toma data/nuevas_hoy.json (generado por fetch_news.py) y:
 
-  1. Redacta un "resumen" corto por ítem, en español, basado ESTRICTAMENTE en
-     el título y el extracto que trae el propio RSS (nunca se inventa nada).
-  2. Genera/actualiza site/index.html (portada de hoy).
-  3. Crea site/archivo/AAAA-MM-DD.html con la edición del día.
-  4. Regenera site/archivo/index.html (listado de ediciones anteriores).
-  5. Actualiza data/publicadas.json (el ledger) con los enlaces publicados.
+  1. Traduce al español el título y el resumen de cada ítem (ver "Sobre la
+     traducción" abajo). Todo el sitio —títulos, resúmenes y textos de
+     interfaz— se muestra en español, incluso si la fuente original está en
+     inglés.
+  2. Elige una imagen para cada noticia: si el RSS trae una imagen propia
+     (<enclosure> o <media:content>, ya extraída por fetch_news.py), la usa;
+     si no, muestra un ícono genérico ilustrativo según la categoría de la
+     noticia (nunca se genera ni se inventa una foto).
+  3. Genera/actualiza site/index.html (portada de hoy).
+  4. Crea site/archivo/AAAA-MM-DD.html con la edición del día.
+  5. Regenera site/archivo/index.html (listado de ediciones anteriores).
+  6. Actualiza data/publicadas.json (el ledger) con los enlaces publicados.
 
-Nota sobre el "resumen en español": este script NO usa ningún servicio de
-traducción automática ni ninguna API externa (por diseño: la primera versión
-debe funcionar sin secretos configurados, y traducir con un modelo introduce
-riesgo de alterar el significado del RSS original). Para fuentes en español
-se usa el extracto del RSS tal cual. Para fuentes en inglés se arma un texto
-en español que ENVUELVE el título/extracto original entre comillas, sin
-traducirlo, dejando explícito que el contenido original está en otro idioma.
-Así se cumple la regla de oro de no inventar ni alterar contenido.
+Sobre la traducción (DeepL):
+  Se traduce con la API de DeepL usando la clave en la variable de entorno
+  DEEPL_API_KEY (configurada como Secret de GitHub Actions — ver README.md).
+  Si la clave no está configurada (p.ej. al correr en local sin ella) o la
+  llamada a la API falla por cualquier motivo (red, cuota agotada, timeout),
+  NUNCA se inventa una traducción: esa noticia en particular se muestra
+  citando el título/extracto original entre comillas con una nota aclaratoria
+  en español, en vez de fabricar un texto. La traducción nunca agrega cifras,
+  nombres ni hechos: solo traduce el título y el extracto tal cual vienen del
+  RSS (ver fetch_news.py).
+
+Sobre las imágenes:
+  No se re-codifican ni redimensionan (evita depender de librerías pesadas
+  como Pillow); se sirven con "loading=lazy" y "decoding=async" para no
+  frenar la carga de la página, confiando en que la fuente ya entrega un
+  tamaño razonable (varias ya traen miniaturas optimizadas). Los íconos
+  genéricos son SVG en línea: no generan ninguna petición de red.
 """
 
 from __future__ import annotations
 
 import json
+import os
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
@@ -47,6 +66,124 @@ MESES_ES = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
     "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
 ]
+
+DEEPL_API_KEY = (os.environ.get("DEEPL_API_KEY") or "").strip()
+DEEPL_TIMEOUT_SEGUNDOS = 15
+
+
+# ---------------------------------------------------------------------------
+# Categorías e íconos genéricos (solo se usan cuando el RSS NO trae imagen)
+# ---------------------------------------------------------------------------
+
+CATEGORIAS = {
+    "ransomware": {
+        "etiqueta": "Ransomware",
+        "color": "#c0392b",
+        "palabras": ["ransomware", "secuestro de datos"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<rect x="5" y="11" width="14" height="9" rx="2"/>'
+            '<path d="M8 11V7a4 4 0 0 1 8 0v4"/>'
+            '<circle cx="12" cy="15.2" r="1.3" fill="currentColor" stroke="none"/>'
+            "</svg>"
+        ),
+    },
+    "phishing": {
+        "etiqueta": "Phishing",
+        "color": "#d97706",
+        "palabras": ["phishing", "smishing", "vishing", "correo fraudulento", "suplantación", "suplantacion"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<rect x="3" y="6" width="18" height="13" rx="2"/>'
+            '<path d="M3 7.5l9 6 9-6"/>'
+            '<path d="M12 13.5v4a2 2 0 0 0 3.6 1.2"/>'
+            "</svg>"
+        ),
+    },
+    "filtracion_datos": {
+        "etiqueta": "Filtración de datos",
+        "color": "#0f766e",
+        "palabras": ["data breach", "breach", "leaked", " leak", "filtración", "filtracion", "brecha de datos", "expuestos", "expuesto"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<ellipse cx="12" cy="6" rx="7" ry="2.4"/>'
+            '<path d="M5 6v12c0 1.3 3.1 2.4 7 2.4s7-1.1 7-2.4V6"/>'
+            '<path d="M5 12c0 1.3 3.1 2.4 7 2.4"/>'
+            '<path d="M17.3 15.8c0 1.3-1.1 2.4-2.3 2.4s-2.3-1.1-2.3-2.4c0-1.5 2.3-3.8 2.3-3.8s2.3 2.3 2.3 3.8z" fill="currentColor" stroke="none"/>'
+            "</svg>"
+        ),
+    },
+    "vulnerabilidad": {
+        "etiqueta": "Vulnerabilidad",
+        "color": "#2563eb",
+        "palabras": ["vulnerab", "cve-", "exploit", "zero-day", "0-day", "día cero", "dia cero", "parche", "flaw"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/>'
+            '<path d="M12 8v5"/>'
+            '<circle cx="12" cy="16" r="0.9" fill="currentColor" stroke="none"/>'
+            "</svg>"
+        ),
+    },
+    "malware": {
+        "etiqueta": "Malware",
+        "color": "#7c3aed",
+        "palabras": ["malware", "trojan", "troyano", "spyware", "botnet", "gusano", "worm", "backdoor", "puerta trasera", "stealer", "cryptominer", "criptominero", " miner"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<ellipse cx="12" cy="13" rx="5" ry="6"/>'
+            '<path d="M9 8L7 6M15 8l2-2M7 13H3M21 13h-4M9 19l-2 2M15 19l2 2M12 7V4"/>'
+            "</svg>"
+        ),
+    },
+    "ddos": {
+        "etiqueta": "Ataque DDoS",
+        "color": "#be185d",
+        "palabras": ["ddos", "denegación de servicio", "denegacion de servicio", "denial of service"],
+        "svg": (
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<circle cx="12" cy="12" r="2.4"/>'
+            '<circle cx="4" cy="5" r="1.5"/><circle cx="20" cy="5" r="1.5"/>'
+            '<circle cx="4" cy="19" r="1.5"/><circle cx="20" cy="19" r="1.5"/>'
+            '<path d="M5.3 6.3L10 10.4M18.7 6.3L14 10.4M5.3 17.7L10 13.6M18.7 17.7L14 13.6"/>'
+            "</svg>"
+        ),
+    },
+}
+
+GENERICO = {
+    "etiqueta": "Ciberseguridad",
+    "color": "#475569",
+    "svg": (
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
+        'stroke-linecap="round" stroke-linejoin="round">'
+        '<path d="M12 3l7 3v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-3z"/>'
+        '<path d="M9 12l2 2 4-4"/>'
+        "</svg>"
+    ),
+}
+
+# Orden de prioridad al buscar coincidencias (las más específicas primero)
+ORDEN_CATEGORIAS = ["ransomware", "phishing", "filtracion_datos", "vulnerabilidad", "malware", "ddos"]
+
+
+def categorizar(item: dict) -> str:
+    """Clasifica la noticia por palabras clave en el texto ORIGINAL (sin
+    traducir) del título+extracto, para no depender de la calidad de la
+    traducción. Nunca inventa una categoría que no se deduzca del texto; si
+    no coincide ninguna, usa la categoría genérica."""
+    texto = f"{item.get('titulo', '')} {item.get('extracto_original', '')}".lower()
+    for cat in ORDEN_CATEGORIAS:
+        for palabra in CATEGORIAS[cat]["palabras"]:
+            if palabra in texto:
+                return cat
+    return "generico"
 
 
 def log(mensaje: str) -> None:
@@ -84,61 +221,161 @@ def truncar(texto: str, maximo: int) -> str:
     return cortado + "…"
 
 
-def generar_resumen(item: dict) -> str:
-    """Genera el resumen en español SIN traducir ni inventar contenido.
+# ---------------------------------------------------------------------------
+# Traducción (DeepL) — nunca inventa: si falla, devuelve None y quien la llama
+# decide el fallback seguro (citar el original).
+# ---------------------------------------------------------------------------
 
-    Se apoya únicamente en item['extracto_original'] e item['titulo'], tal
-    como llegaron del RSS (ver fetch_news.py). Nunca agrega cifras, nombres
-    ni hechos que no estén en ese texto.
+def _endpoint_deepl(api_key: str) -> str:
+    # Las claves del plan gratuito de DeepL terminan en ":fx" y usan un host distinto.
+    return "https://api-free.deepl.com/v2/translate" if api_key.endswith(":fx") else "https://api.deepl.com/v2/translate"
+
+
+def traducir_deepl(texto: str, idioma_origen: str) -> str | None:
+    """Traduce `texto` al español usando la API de DeepL. Devuelve None (sin
+    lanzar excepción) si no hay clave configurada o si la llamada falla por
+    cualquier motivo — nunca se fabrica una traducción alternativa."""
+    if not texto or not DEEPL_API_KEY:
+        return None
+
+    datos = urllib.parse.urlencode(
+        {
+            "auth_key": DEEPL_API_KEY,
+            "text": texto,
+            "source_lang": idioma_origen.upper(),
+            "target_lang": "ES",
+        }
+    ).encode("utf-8")
+
+    req = urllib.request.Request(_endpoint_deepl(DEEPL_API_KEY), data=datos, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=DEEPL_TIMEOUT_SEGUNDOS) as resp:
+            if resp.status != 200:
+                log(f"  AVISO: DeepL respondió HTTP {resp.status}; se usa el original citado para este ítem.")
+                return None
+            cuerpo = json.loads(resp.read().decode("utf-8"))
+        traducciones = cuerpo.get("translations") or []
+        if not traducciones:
+            return None
+        return traducciones[0].get("text") or None
+    except urllib.error.HTTPError as ex:
+        log(f"  AVISO: DeepL HTTPError {ex.code}; se usa el original citado para este ítem.")
+    except urllib.error.URLError as ex:
+        log(f"  AVISO: DeepL URLError ({ex.reason}); se usa el original citado para este ítem.")
+    except TimeoutError:
+        log("  AVISO: timeout llamando a DeepL; se usa el original citado para este ítem.")
+    except (json.JSONDecodeError, KeyError, IndexError) as ex:
+        log(f"  AVISO: respuesta inesperada de DeepL ({ex}); se usa el original citado para este ítem.")
+    except Exception as ex:  # noqa: BLE001 - una falla de traducción nunca debe tumbar el build
+        log(f"  AVISO: error inesperado traduciendo con DeepL ({type(ex).__name__}: {ex}); se usa el original citado.")
+    return None
+
+
+def preparar_texto_mostrado(item: dict) -> dict:
+    """Devuelve un dict con los campos ya listos para mostrar, siempre en
+    español, sin inventar contenido:
+      - titulo_mostrar
+      - resumen_mostrar
+      - nota_idioma: texto corto para la interfaz (o cadena vacía)
     """
-    titulo = item["titulo"]
+    titulo_original = item["titulo"].strip()
     idioma = item.get("idioma", "en")
-    extracto = (item.get("extracto_original") or "").strip()
-
-    # El extracto de RSS a veces solo repite el título; en ese caso no aporta nada.
-    aporta_info = bool(extracto) and extracto.lower() != titulo.strip().lower() and len(extracto) > 15
+    extracto_original = (item.get("extracto_original") or "").strip()
+    aporta_info = bool(extracto_original) and extracto_original.lower() != titulo_original.lower() and len(extracto_original) > 15
 
     if idioma == "es":
-        if aporta_info:
-            return truncar(extracto, 600)
-        return f'El RSS de la fuente no trae un extracto adicional; solo se dispone del titular: "{titulo}".'
+        resumen = truncar(extracto_original, 600) if aporta_info else "El RSS de la fuente no trae un extracto adicional; solo se dispone del titular."
+        return {"titulo_mostrar": titulo_original, "resumen_mostrar": resumen, "nota_idioma": ""}
 
-    # Fuente en idioma distinto al español: no se traduce, se cita el original.
-    partes = [f'Titular original: "{titulo}".']
+    # Fuente en idioma distinto al español: intentar traducir con DeepL.
+    if not DEEPL_API_KEY:
+        log(f"  AVISO: DEEPL_API_KEY no configurada; '{titulo_original[:60]}...' se muestra citando el original.")
+
+    titulo_traducido = traducir_deepl(titulo_original, idioma)
+    extracto_traducido = traducir_deepl(truncar(extracto_original, 700), idioma) if aporta_info else None
+
+    if titulo_traducido:
+        resumen = truncar(extracto_traducido, 600) if extracto_traducido else "El RSS de la fuente no trae un extracto adicional aparte del titular."
+        nota = "Traducido automáticamente del inglés (DeepL)." if idioma == "en" else f"Traducido automáticamente del {idioma} (DeepL)."
+        return {"titulo_mostrar": titulo_traducido, "resumen_mostrar": resumen, "nota_idioma": nota}
+
+    # Fallback seguro: no se pudo traducir (sin clave o falló la API). Nunca
+    # se inventa una traducción; se cita el original con una nota clara.
+    partes = [f'Título original: "{titulo_original}".']
     if aporta_info:
-        partes.append(f'Extracto original del RSS: "{truncar(extracto, 500)}"')
-    else:
-        partes.append("El RSS de la fuente no trae un extracto adicional aparte del titular.")
-    partes.append(
-        f"(Contenido original en {'inglés' if idioma == 'en' else idioma}; "
-        "no se tradujo automáticamente para evitar alterar el significado — "
-        "consulta el enlace de la fuente para leer el artículo completo.)"
-    )
-    return " ".join(partes)
+        partes.append(f'Extracto original: "{truncar(extracto_original, 500)}"')
+    partes.append("(No se pudo traducir automáticamente esta noticia; se muestra el texto original.)")
+    return {
+        "titulo_mostrar": titulo_original,
+        "resumen_mostrar": " ".join(partes),
+        "nota_idioma": "No se pudo traducir automáticamente (se muestra el original).",
+    }
 
 
 def fecha_legible(dt: datetime) -> str:
     return f"{dt.day} de {MESES_ES[dt.month - 1]} de {dt.year}"
 
 
-def render_item_html(item: dict, resumen: str) -> str:
-    titulo = escape(item["titulo"])
+def fecha_corta(iso_str: str) -> str:
+    """Formatea una fecha ISO como día/mes/año, sin nombres de días ni meses
+    en inglés (el RSS trae fechas tipo 'Sun, 06 Sep 2026 ...')."""
+    try:
+        dt = datetime.fromisoformat(iso_str)
+    except ValueError:
+        return iso_str
+    return f"{dt.day:02d}/{dt.month:02d}/{dt.year} · {dt.hour:02d}:{dt.minute:02d} UTC"
+
+
+def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str) -> str:
+    url_imagen = item.get("imagen_url")
+    fuente = escape(item["fuente"])
+
+    if url_imagen:
+        alt = escape(titulo_mostrar, quote=True)
+        src = escape(url_imagen, quote=True)
+        return f"""      <figure class="noticia-imagen">
+        <img src="{src}" alt="{alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        <figcaption>Imagen: {fuente}</figcaption>
+      </figure>
+"""
+
+    info = CATEGORIAS.get(categoria, GENERICO)
+    etiqueta = escape(info["etiqueta"])
+    color = info["color"]
+    alt_icono = escape(f"Ilustración genérica de la categoría {info['etiqueta']}; no es una foto real del hecho", quote=True)
+    return f"""      <figure class="noticia-imagen noticia-imagen--generica" style="--color-categoria: {color}">
+        <div class="icono-generico" role="img" aria-label="{alt_icono}">{info['svg']}</div>
+        <figcaption>Ilustración genérica: {etiqueta} (no es una foto real del hecho)</figcaption>
+      </figure>
+"""
+
+
+def render_item_html(item: dict) -> str:
+    mostrado = preparar_texto_mostrado(item)
+    titulo_mostrar = mostrado["titulo_mostrar"]
+    resumen_mostrar = mostrado["resumen_mostrar"]
+    nota_idioma = mostrado["nota_idioma"]
+
+    categoria = categorizar(item)
+    imagen_html = render_imagen_html(item, categoria, titulo_mostrar)
+
     fuente = escape(item["fuente"])
     enlace = escape(item["enlace"], quote=True)
-    fecha_original = escape(item.get("fecha_publicacion_original") or item["fecha_publicacion_iso"])
-    resumen_html = escape(resumen).replace("\n", "<br>")
-    idioma = item.get("idioma", "en")
-    etiqueta_idioma = "ES" if idioma == "es" else idioma.upper()
+    fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
+    resumen_html = escape(resumen_mostrar).replace("\n", "<br>")
+    titulo_html = escape(titulo_mostrar)
+
+    nota_html = f'<span class="idioma-nota">{escape(nota_idioma)}</span>' if nota_idioma else ""
 
     return f"""    <article class="noticia">
-      <div class="noticia-meta">
-        <span class="fuente">{fuente}</span>
-        <span class="idioma" title="Idioma del contenido original">{etiqueta_idioma}</span>
-        <span class="fecha">{fecha_original}</span>
+{imagen_html}      <div class="noticia-meta">
+        <span class="fuente">Fuente: {fuente}</span>
+        <span class="fecha">Publicado: {fecha_str}</span>
+        {nota_html}
       </div>
-      <h2 class="noticia-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo}</a></h2>
+      <h2 class="noticia-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h2>
       <p class="noticia-resumen">{resumen_html}</p>
-      <a class="noticia-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">Leer artículo original en {fuente} →</a>
+      <a class="noticia-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">Leer la noticia completa en {fuente} →</a>
     </article>
 """
 
@@ -262,14 +499,16 @@ def main() -> None:
         log("Sin novedades hoy: no se genera ninguna página nueva ni se toca el ledger.")
         return
 
+    if not DEEPL_API_KEY:
+        log("AVISO GENERAL: DEEPL_API_KEY no está configurada. Las noticias en inglés se publicarán citando el título/extracto original (sin traducir) en vez de fallar o inventar una traducción.")
+
     ahora_gye = datetime.now(ZONA_GUAYAQUIL)
     fecha_str = ahora_gye.strftime("%Y-%m-%d")
     subtitulo = f"Edición del {fecha_legible(ahora_gye)} — {len(nuevos)} noticia(s) nueva(s)"
 
     items_html = ""
     for item in nuevos:
-        resumen = generar_resumen(item)
-        items_html += render_item_html(item, resumen)
+        items_html += render_item_html(item)
 
     # 1. Portada (index.html)
     SITE_DIR.mkdir(parents=True, exist_ok=True)

@@ -121,6 +121,45 @@ def limpiar_html(texto: str) -> str:
     return sin_espacios
 
 
+EXTENSIONES_IMAGEN = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".avif")
+
+
+def extraer_imagen(entry) -> str | None:
+    """Devuelve la URL de la imagen propia del ítem si el RSS trae una
+    (etiqueta <enclosure> o <media:content>/<media:thumbnail>), o None si no
+    trae ninguna. Nunca se inventa una imagen: si no hay nada estructurado en
+    el RSS, build_site.py usará un ícono genérico por categoría en su lugar.
+
+    A propósito NO se exige que el dominio de la imagen coincida con el
+    dominio declarado de la fuente (a diferencia del enlace del artículo):
+    muchos feeds legítimos sirven sus imágenes desde un CDN o servicio de
+    imágenes distinto (p.ej. The Hacker News enlaza su imagen desde
+    blogger.googleusercontent.com). La procedencia de la imagen sigue estando
+    atada al ítem de RSS ya verificado; solo se exige que sea una URL
+    http/https válida.
+    """
+    candidatos = []
+
+    for enc in entry.get("enclosures", []) or []:
+        candidatos.append((enc.get("href") or enc.get("url") or "", (enc.get("type") or "").lower(), ""))
+
+    for campo in ("media_content", "media_thumbnail"):
+        for m in entry.get(campo, []) or []:
+            candidatos.append((m.get("url") or "", (m.get("type") or "").lower(), (m.get("medium") or "").lower()))
+
+    for url, tipo, medio in candidatos:
+        if not url:
+            continue
+        parsed = urlparse(url)
+        if parsed.scheme not in ("http", "https"):
+            continue
+        es_imagen = tipo.startswith("image/") or medio == "image" or url.lower().split("?")[0].endswith(EXTENSIONES_IMAGEN)
+        if es_imagen:
+            return url
+
+    return None
+
+
 def fecha_publicacion(entry) -> datetime | None:
     """Devuelve la fecha de publicación del ítem como datetime aware en UTC, o None si no se puede determinar."""
     for campo in ("published_parsed", "updated_parsed"):
@@ -197,6 +236,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
 
         extracto_crudo = entry.get("summary", "") or entry.get("description", "")
         extracto = limpiar_html(extracto_crudo)
+        imagen_url = extraer_imagen(entry)
 
         nuevos.append(
             {
@@ -210,6 +250,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
                 "fecha_publicacion_iso": fecha.isoformat(),
                 "fecha_publicacion_original": texto_fecha_original(entry),
                 "extracto_original": extracto,
+                "imagen_url": imagen_url,
             }
         )
 
