@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Una vulnerabilidad crítica en VMware Workstation y Fusion permite a los administradores de máquinas virtuales ejecutar código del host — Periódico de Ciberseguridad</title>
-  <meta name="description" content="Broadcom ha publicado actualizaciones de seguridad para dos vulnerabilidades que afectan a VMware Workstation y Fusion, incluida una vulnerabilidad crítica…">
+  <meta name="description" content="Broadcom ha publicado actualizaciones de seguridad para corregir dos fallos que afectan a VMware Workstation y Fusion, de los cuales uno ha sido catalogado…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-06-critical-vmware-workstation-and-fusion-flaw-lets-vm-admins-e-ca7ece09.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="Una vulnerabilidad crítica en VMware Workstation y Fusion permite a los administradores de máquinas virtuales ejecutar código del host — Periódico de Ciberseguridad">
-  <meta property="og:description" content="Broadcom ha publicado actualizaciones de seguridad para dos vulnerabilidades que afectan a VMware Workstation y Fusion, incluida una vulnerabilidad crítica…">
+  <meta property="og:description" content="Broadcom ha publicado actualizaciones de seguridad para corregir dos fallos que afectan a VMware Workstation y Fusion, de los cuales uno ha sido catalogado…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-06-critical-vmware-workstation-and-fusion-flaw-lets-vm-admins-e-ca7ece09.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-06/a27e6d11aceb031fb2bb.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Una vulnerabilidad crítica en VMware Workstation y Fusion permite a los administradores de máquinas virtuales ejecutar código del host — Periódico de Ciberseguridad">
-  <meta name="twitter:description" content="Broadcom ha publicado actualizaciones de seguridad para dos vulnerabilidades que afectan a VMware Workstation y Fusion, incluida una vulnerabilidad crítica…">
+  <meta name="twitter:description" content="Broadcom ha publicado actualizaciones de seguridad para corregir dos fallos que afectan a VMware Workstation y Fusion, de los cuales uno ha sido catalogado…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-06/a27e6d11aceb031fb2bb.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -41,7 +41,8 @@
       <p class="subtitulo">Detalle de la noticia</p>
       <nav class="nav">
         <a href="../index.html">Inicio</a>
-        <a href="index.html">Archivo</a>
+        <a href="/archivo/index.html">Archivo</a>
+        <a href="/proteccion-datos/index.html">Protección de Datos</a>
       </nav>
     </div>
   </header>
@@ -53,7 +54,7 @@
       <div class="noticia-meta">
         <span class="fuente">Fuente: The Hacker News</span>
         <span class="fecha">Publicado: 05/09/2026 · 16:05 UTC</span>
-        <span class="idioma-nota">Traducido automáticamente del inglés (DeepL).</span>
+        <span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto.</span>
       </div>
       <div class="compartir">
         <span class="compartir-etiqueta">Compartir:</span>
@@ -75,7 +76,10 @@
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>Broadcom ha publicado actualizaciones de seguridad para dos vulnerabilidades que afectan a VMware Workstation y Fusion, incluida una vulnerabilidad crítica que podría dar lugar a la ejecución de código arbitrario en determinadas condiciones. La vulnerabilidad, identificada como CVE-2026-59346 (puntuación CVSS: 9,3), es una vulnerabilidad de desbordamiento de enteros que un atacante local con privilegios elevados puede aprovechar para ejecutar código arbitrario. «Un…</p>
+        <p>Broadcom ha publicado actualizaciones de seguridad para corregir dos fallos que afectan a VMware Workstation y Fusion, de los cuales uno ha sido catalogado como crítico. Este problema principal consiste en un fallo de desbordamiento de enteros que permite la ejecución de código arbitrario bajo ciertas circunstancias.</p>
+        <p>La falla crítica permite que un atacante con privilegios administrativos locales en una máquina virtual que utilice un adaptador de red virtual VMXNET3 logre ejecutar código en el equipo principal. El segundo fallo corregido es una vulnerabilidad de desbordamiento de búfer basado en pila en HGFS, la cual también puede ser aprovechada por actores maliciosos con privilegios administrativos locales para ejecutar código como el proceso VMX de la máquina virtual que corre en el host.</p>
+        <p>Para que cualquiera de estas dos vulnerabilidades pueda ser explotada con éxito, es necesario que el atacante ya cuente con privilegios de administrador local, los cuales se pueden conseguir mediante otro tipo de compromiso previo, como el phishing o configuraciones de usuario débiles. Ambas fallas impactan a las versiones mencionadas de VMware Workstation y Fusion, y la compañía indicó que no existen soluciones alternativas de mitigación, por lo que se deben aplicar los parches correspondientes proporcionados por la empresa.</p>
+        <p>Aunque no existen indicios de que estas fallas hayan sido explotadas activamente en ataques reales, los fallos en herramientas de VMware suelen atraer a los ciberdelincuentes. El texto menciona como antecedente que el mes pasado se detectó la explotación activa de otras dos deficiencias en VMware vCenter, las cuales afectaron a numerosas direcciones IP únicas en distintos países alrededor del mundo.</p>
       </div>
       <div class="noticia-fuente-final">
         <p>Fuente: <a href="https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html" target="_blank" rel="noopener noreferrer">The Hacker News</a></p>
