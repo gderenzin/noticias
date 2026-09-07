@@ -378,6 +378,11 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
 
     categoria = categorizar(item)
     imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=es_destacada)
+    info_categoria = CATEGORIAS.get(categoria, GENERICO)
+    eyebrow_categoria = (
+        f'<span class="eyebrow-categoria" style="--color-categoria: {info_categoria["color"]}">'
+        f'{escape(info_categoria["etiqueta"])}</span>'
+    )
 
     fuente = escape(item["fuente"])
     enlace = escape(item["enlace"], quote=True)
@@ -392,6 +397,7 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
 {imagen_html}      </a>
       <div class="destacada-cuerpo">
         <span class="destacada-eyebrow">Lo más reciente</span>
+        {eyebrow_categoria}
         <h2 class="destacada-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h2>
         <p class="destacada-resumen">{resumen_html}</p>
         <div class="noticia-meta">
@@ -408,6 +414,7 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
         <a class="tarjeta-imagen-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">
 {imagen_html}        </a>
         <div class="tarjeta-cuerpo">
+          {eyebrow_categoria}
           <h3 class="tarjeta-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h3>
           <p class="tarjeta-resumen">{resumen_html}</p>
           <div class="noticia-meta">
@@ -576,14 +583,19 @@ def main() -> None:
 
     ahora_gye = datetime.now(ZONA_GUAYAQUIL)
     fecha_str = ahora_gye.strftime("%Y-%m-%d")
-    subtitulo = f"Edición del {fecha_legible(ahora_gye)} — {len(nuevos)} noticia(s) nueva(s)"
+    # Nota: a propósito NO se muestra el conteo de ítems en el HTML — ese
+    # número es información de diagnóstico del proceso, no algo para el
+    # lector; el conteo real ya queda en el log del workflow de GitHub Actions.
+    subtitulo = f"Edición del {fecha_legible(ahora_gye)}"
 
     # La noticia más reciente va destacada arriba en grande; el resto forma
     # la cuadrícula de tarjetas debajo (ver render_tarjeta_html).
     destacada_html = render_tarjeta_html(nuevos[0], es_destacada=True)
     tarjetas_html = "".join(render_tarjeta_html(item, es_destacada=False) for item in nuevos[1:])
+    titulo_seccion = '    <h2 class="seccion-titulo">Últimas noticias</h2>\n' if nuevos[1:] else ""
     items_html = (
         destacada_html
+        + titulo_seccion
         + f"""
     <div class="grid-noticias">
 {tarjetas_html}    </div>

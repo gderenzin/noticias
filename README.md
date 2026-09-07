@@ -239,37 +239,53 @@ visitó el sitio en vivo para extraerlos, no se inventaron):
   legal de agregación de noticias, y el copyright (`© AAAA DERENZIN S.A.S. —
   Feddor Derenzin Martínez...`, tomado del mismo texto que usa el sitio
   oficial, con el año calculado automáticamente en cada build).
-- **Modo oscuro/claro**: automático según la preferencia del sistema
-  operativo del visitante (`prefers-color-scheme`), sin necesidad de un
-  interruptor manual ni JavaScript adicional.
+- **Tema: siempre claro**, a propósito. El sitio NO cambia a modo oscuro según
+  el sistema del visitante — se decidió deliberadamente un fondo blanco/gris
+  muy claro (`#f7f8fa`) con texto casi negro (`#1c1f24`) para máxima
+  legibilidad editorial, con `#00B8D4` únicamente como acento (enlaces,
+  bordes, insignias, botones), nunca como color de fondo. La única excepción
+  es el pie de página, que se mantiene siempre oscuro a propósito (igual que
+  en derenzin.com), independientemente del tema del resto del sitio.
 
 ---
 
-## Diseño (portal de noticias profesional)
+## Diseño (portal de noticias profesional, inspirado en temas de revista)
+
+La estructura se inspiró en la jerarquía visual de temas de WordPress tipo
+revista/noticias (p.ej. MH Magazine) y portales como BleepingComputer/The
+Hacker News: destacada arriba + cuadrícula abajo, colores neutros con un solo
+acento, buena jerarquía tipográfica editorial — sin copiar su marca, sus
+assets ni su CSS.
 
 - **Tipografía**: [Inter](https://fonts.google.com/specimen/Inter) de Google
   Fonts (pesos 400 a 800), con la pila de sistema de derenzin.com como
-  respaldo si Google Fonts no carga (`"Segoe UI", -apple-system, ...`). Es
-  la única dependencia externa del sitio, aparte del logo (que ya es propio).
+  respaldo si Google Fonts no carga. Es la única dependencia externa del
+  sitio, aparte del logo (que ya es propio).
 - **Cabecera fija**: el header queda pegado arriba (`position: sticky`) con
   el logo, "Inicio" y "Archivo".
 - **Noticia destacada**: la más reciente del día se muestra arriba en
   grande — imagen ancha (proporción 21:9 en escritorio, 16:9 en celular),
-  título grande, resumen más largo y un botón de "Leer la noticia completa".
+  etiqueta de categoría, título grande, resumen más largo y un botón de
+  "Leer la noticia completa".
+- **Encabezado de sección** ("Últimas noticias") con un subrayado de color
+  de marca, separando visualmente la destacada de la cuadrícula — recurso
+  típico de temas de revista widgetizados.
 - **Cuadrícula de tarjetas**: el resto de noticias del día se muestra en un
   grid responsive (`repeat(auto-fill, minmax(270px, 1fr))`) — 3 columnas en
   escritorio, 2 en tablet, **1 columna en celular** (sin media queries
   manuales para esto: el propio `auto-fill` colapsa solo). Cada tarjeta
   tiene esquinas redondeadas, sombra sutil, y al pasar el mouse se eleva
   ligeramente y la imagen hace un zoom suave (`transform: scale()`).
-- **Insignia de categoría**: cada imagen (real o ícono) lleva una etiqueta
-  de color en la esquina superior (Ransomware, Phishing, Vulnerabilidad,
-  Malware, Filtración de datos, DDoS, o Ciberseguridad genérica).
+- **Categoría marcada dos veces**: una insignia de color sobre la imagen
+  (Ransomware, Phishing, Vulnerabilidad, Malware, Filtración de datos, DDoS,
+  o Ciberseguridad genérica) y una etiqueta de texto del mismo color junto
+  al título — refuerzo editorial típico de temas de revista.
 - **Resúmenes recortados visualmente**: con `-webkit-line-clamp` se cortan a
   3-4 líneas en pantalla, sin cortar el texto real en el HTML (accesible
   para lectores de pantalla y buscadores igual).
-- Inspirado en la jerarquía de portales como BleepingComputer/The Hacker
-  News (destacada arriba + grid abajo) — sin copiar su marca ni su CSS.
+- **Sin contadores de depuración en la página**: el número de noticias
+  nuevas de cada corrida es información de diagnóstico — queda solo en el
+  log del workflow de GitHub Actions, nunca en el texto que ve el visitante.
 
 ---
 

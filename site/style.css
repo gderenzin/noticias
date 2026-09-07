@@ -1,58 +1,43 @@
 /* Periódico de Ciberseguridad — CSS propio, sin frameworks ni dependencias
    externas (salvo la tipografía Inter de Google Fonts). Paleta e identidad
-   tomadas de derenzin.com (mismo logo, mismo color de marca #00B8D4). */
+   tomadas de derenzin.com (mismo logo, mismo color de marca #00B8D4).
+
+   Tema: siempre claro/editorial a propósito (fondo blanco/gris muy claro,
+   texto gris oscuro, el cian de marca solo como acento) — no hay modo
+   oscuro automático; es una decisión de legibilidad, no una omisión. */
 
 :root {
   /* Marca DERENZIN (idénticos a los --tokens de derenzin.com) */
   --marca-primario: #0052cc;
-  --marca-primario-oscuro: #003d99;
-  --marca-acento: #00b8d4;      /* cian/turquesa de marca — acento principal */
+  --marca-acento: #00b8d4;      /* cian/turquesa de marca — ÚNICO acento */
   --marca-acento-oscuro: #007a94;
 
-  --fondo: #f0f2f5;
+  --fondo: #f7f8fa;             /* gris muy claro, base de la página */
   --fondo-tarjeta: #ffffff;
   --fondo-cabecera: rgba(255, 255, 255, 0.96);
-  --texto: #1a1a1a;
-  --texto-tenue: #4a4a4a;
-  --texto-suave: #757575;
+  --texto: #1c1f24;             /* casi negro, para máxima legibilidad */
+  --texto-tenue: #4b5259;
+  --texto-suave: #767d85;
   --acento: var(--marca-acento);
-  --acento-suave: color-mix(in srgb, var(--marca-acento) 14%, white);
-  --borde: #e2e5ea;
+  --acento-suave: #e3f8fb;      /* tinte cian muy claro para fondos/badges */
+  --borde: #e4e7eb;
   /* Cian de marca oscurecido para que el texto de enlaces cumpla contraste
-     AA sobre fondo claro; el cian puro se reserva para títulos grandes,
-     insignias e íconos, donde el tamaño ya compensa el contraste. */
+     AA sobre fondo blanco; el cian puro se reserva para bordes, insignias
+     e íconos, donde el tamaño/grosor ya compensa el contraste. */
   --enlace: var(--marca-acento-oscuro);
-  --sombra: 0 1px 3px rgba(26, 26, 26, 0.07);
-  --sombra-md: 0 10px 24px rgba(26, 26, 26, 0.10);
-  --sombra-hover: 0 16px 32px rgba(26, 26, 26, 0.14);
+  --sombra: 0 1px 2px rgba(20, 22, 25, 0.05);
+  --sombra-md: 0 8px 20px rgba(20, 22, 25, 0.08);
+  --sombra-hover: 0 14px 28px rgba(20, 22, 25, 0.12);
   --max-ancho: 1180px;
-  --radio: 14px;
+  --radio: 10px;
   --fuente: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
   /* Pie de página: siempre oscuro, igual que en derenzin.com, sin importar
-     el tema claro/oscuro del resto del sitio. */
+     el tema del resto del sitio. */
   --pie-fondo: #1a1a1a;
   --pie-texto: #f5f5f5;
   --pie-texto-tenue: #b5b5b5;
   --pie-borde: #333333;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --fondo: #0c1218;
-    --fondo-tarjeta: #161f28;
-    --fondo-cabecera: rgba(12, 18, 24, 0.92);
-    --texto: #e8edf2;
-    --texto-tenue: #a9bacb;
-    --texto-suave: #8195a8;
-    --acento: var(--marca-acento);
-    --acento-suave: color-mix(in srgb, var(--marca-acento) 20%, #0c1218);
-    --borde: #253442;
-    --enlace: #3fd6f0; /* sobre fondo oscuro el cian puro ya tiene contraste de sobra */
-    --sombra: 0 1px 3px rgba(0, 0, 0, 0.35);
-    --sombra-md: 0 10px 24px rgba(0, 0, 0, 0.45);
-    --sombra-hover: 0 18px 36px rgba(0, 0, 0, 0.55);
-  }
 }
 
 * {
@@ -85,6 +70,7 @@ img {
 h1, h2, h3 {
   font-family: var(--fuente);
   letter-spacing: -0.01em;
+  color: var(--texto);
 }
 
 /* ---------- Cabecera / marca ---------- */
@@ -146,7 +132,7 @@ h1, h2, h3 {
 }
 
 .marca-byline strong {
-  color: var(--acento);
+  color: var(--marca-acento-oscuro);
 }
 
 .enlace-derenzin {
@@ -185,11 +171,11 @@ h1, h2, h3 {
 }
 
 .nav a:hover {
-  color: var(--acento);
+  color: var(--marca-acento-oscuro);
 }
 
 .nav a.activo {
-  color: var(--enlace);
+  color: var(--marca-acento-oscuro);
   border-bottom: 2px solid var(--acento);
 }
 
@@ -197,8 +183,20 @@ h1, h2, h3 {
 
 .contenido {
   max-width: var(--max-ancho);
-  margin: 2rem auto;
+  margin: 2.25rem auto;
   padding: 0 1.25rem;
+}
+
+.seccion-titulo {
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--texto);
+  margin: 0 0 1.1rem 0;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid var(--acento);
+  display: inline-block;
 }
 
 .noticia-meta {
@@ -222,6 +220,17 @@ h1, h2, h3 {
   font-size: 0.72rem;
 }
 
+/* Etiqueta de categoría junto al título (además de la insignia sobre la
+   imagen) — refuerzo editorial típico de temas de revista. */
+.eyebrow-categoria {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-categoria, var(--marca-acento-oscuro));
+}
+
 /* Imagen (real o ícono genérico) + insignia de categoría, compartidas por la
    noticia destacada y las tarjetas de la cuadrícula. */
 
@@ -229,6 +238,7 @@ h1, h2, h3 {
   position: relative;
   margin: 0;
   overflow: hidden;
+  background: var(--acento-suave);
 }
 
 .noticia-imagen img {
@@ -237,7 +247,6 @@ h1, h2, h3 {
   height: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  background: var(--acento-suave);
   transition: transform 0.35s ease;
 }
 
@@ -247,7 +256,7 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   color: var(--color-categoria, var(--texto-suave));
-  background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 16%, var(--fondo-tarjeta));
+  background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 12%, white);
 }
 
 .noticia-imagen--generica .icono-generico svg {
@@ -295,8 +304,8 @@ h1, h2, h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 0.3rem 0.65rem;
-  border-radius: 999px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* ---------- Noticia destacada ("lo más reciente") ---------- */
@@ -310,7 +319,7 @@ h1, h2, h3 {
   border-radius: var(--radio);
   overflow: hidden;
   box-shadow: var(--sombra-md);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
 }
 
 .destacada-imagen-enlace {
@@ -318,11 +327,11 @@ h1, h2, h3 {
 }
 
 .destacada-cuerpo {
-  padding: 1.75rem 2rem;
+  padding: 1.85rem 2.1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.85rem;
+  gap: 0.7rem;
 }
 
 .destacada-eyebrow {
@@ -330,13 +339,17 @@ h1, h2, h3 {
   font-weight: 800;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--acento);
+  color: var(--marca-acento-oscuro);
+}
+
+.destacada .eyebrow-categoria {
+  margin-top: -0.4rem;
 }
 
 .destacada-titulo {
   margin: 0;
-  font-size: 1.65rem;
-  line-height: 1.25;
+  font-size: 1.7rem;
+  line-height: 1.22;
   font-weight: 800;
 }
 
@@ -352,7 +365,7 @@ h1, h2, h3 {
 .destacada-resumen {
   margin: 0;
   color: var(--texto-tenue);
-  font-size: 1rem;
+  font-size: 1.02rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -367,14 +380,14 @@ h1, h2, h3 {
   font-size: 0.9rem;
   text-decoration: none;
   color: #fff;
-  background: var(--acento);
+  background: var(--marca-acento-oscuro);
   padding: 0.6rem 1.15rem;
   border-radius: 999px;
   transition: background 0.15s ease, transform 0.15s ease;
 }
 
 .destacada-cta:hover {
-  background: var(--marca-acento-oscuro);
+  background: #005a6b;
   transform: translateY(-1px);
 }
 
@@ -383,7 +396,7 @@ h1, h2, h3 {
 .grid-noticias {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 1.5rem;
+  gap: 1.6rem;
 }
 
 .tarjeta {
@@ -411,10 +424,10 @@ h1, h2, h3 {
 }
 
 .tarjeta-cuerpo {
-  padding: 1.15rem 1.25rem 1.35rem;
+  padding: 1.2rem 1.3rem 1.4rem;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.45rem;
   flex: 1;
 }
 
@@ -435,7 +448,7 @@ h1, h2, h3 {
 }
 
 .tarjeta-resumen {
-  margin: 0;
+  margin: 0.15rem 0 0;
   color: var(--texto-tenue);
   font-size: 0.88rem;
   display: -webkit-box;
@@ -447,7 +460,7 @@ h1, h2, h3 {
 
 .tarjeta .noticia-meta {
   margin-top: auto;
-  padding-top: 0.4rem;
+  padding-top: 0.6rem;
   border-top: 1px solid var(--borde);
 }
 
