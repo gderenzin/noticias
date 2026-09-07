@@ -22,6 +22,15 @@ respaldo — nunca se inventa ni se sustituye por otra imagen. Cada imagen ya
 descargada se registra en data/imagenes_descargadas.json (URL original ->
 ruta local) para no volver a descargarla si el mismo enlace reaparece.
 
+Contenido ampliado (para la página de detalle de cada noticia): se toma el
+texto más completo disponible del RSS — <content:encoded> si el feed lo trae
+(algunos, como Krebs on Security, incluyen ahí el artículo casi completo), o
+si no, el mismo resumen/descripción corto que ya se usa en las tarjetas. Este
+texto se guarda recortado a un máximo de caracteres (ver
+LIMITE_CONTENIDO_AMPLIADO) — nunca se guarda el artículo completo, ni
+siquiera cuando el RSS lo trae entero; build_site.py lo recorta todavía más
+al armar el resumen ampliado en español de cada página de detalle.
+
 Salida: data/nuevas_hoy.json -> lista de ítems nuevos, listos para que
 build_site.py los convierta en HTML.
 """
@@ -53,6 +62,7 @@ IMAGENES_DIR_NOMBRE = "imagenes"
 ZONA_GUAYAQUIL = timezone(timedelta(hours=-5))
 
 VENTANA_HORAS = 48  # tomamos ítems de las últimas 24-48h; usamos 48 para no dejar huecos
+LIMITE_CONTENIDO_AMPLIADO = 4000  # tope duro al guardar; build_site.py recorta aún más al mostrar
 TIMEOUT_SEGUNDOS = 20
 TIMEOUT_IMAGEN_SEGUNDOS = 12
 MAX_IMAGEN_BYTES = 5 * 1024 * 1024  # 5 MB: cualquier imagen más pesada se descarta
@@ -230,6 +240,49 @@ def limpiar_html(texto: str) -> str:
     return sin_espacios
 
 
+def limpiar_html_conservando_parrafos(texto: str) -> str:
+    """Como limpiar_html(), pero marca los saltos de párrafo (</p>, <br>)
+    como "\\n\\n" ANTES de quitar el resto de las etiquetas, para que
+    build_site.py pueda mostrar el contenido ampliado como varios párrafos
+    en vez de un solo bloque de texto corrido."""
+    import html
+    import re
+
+    if not texto:
+        return ""
+    marcado = re.sub(r"</p\s*>|<br\s*/?>", "\n\n", texto, flags=re.IGNORECASE)
+    sin_tags = re.sub(r"<[^>]+>", " ", marcado)
+    decodificado = html.unescape(sin_tags)
+    lineas = [re.sub(r"[ \t]+", " ", linea).strip() for linea in decodificado.split("\n")]
+    resultado = re.sub(r"\n{3,}", "\n\n", "\n".join(lineas)).strip()
+    return resultado
+
+
+def extraer_contenido_ampliado(entry, extracto_ya_limpio: str) -> str:
+    """Devuelve el texto más completo disponible del ítem para la página de
+    detalle: <content:encoded> si el feed lo trae (algunos, como Krebs on
+    Security, incluyen ahí el artículo casi completo), o si no, el mismo
+    extracto corto que ya se usa en la tarjeta. Se recorta a
+    LIMITE_CONTENIDO_AMPLIADO caracteres — nunca se guarda el artículo
+    completo tal cual, ni siquiera cuando el RSS lo trae entero."""
+    contenido_encoded = entry.get("content")
+    texto_crudo = ""
+    if contenido_encoded:
+        try:
+            texto_crudo = contenido_encoded[0].get("value", "") or ""
+        except (AttributeError, IndexError, KeyError):
+            texto_crudo = ""
+
+    if texto_crudo:
+        limpio = limpiar_html_conservando_parrafos(texto_crudo)
+    else:
+        limpio = extracto_ya_limpio
+
+    if len(limpio) <= LIMITE_CONTENIDO_AMPLIADO:
+        return limpio
+    return limpio[:LIMITE_CONTENIDO_AMPLIADO].rsplit(" ", 1)[0] + "…"
+
+
 def extraer_imagen(entry) -> str | None:
     """Devuelve la URL de la imagen propia del ítem si el RSS trae una
     (etiqueta <enclosure> o <media:content>/<media:thumbnail>), o None si no
@@ -342,6 +395,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
 
         extracto_crudo = entry.get("summary", "") or entry.get("description", "")
         extracto = limpiar_html(extracto_crudo)
+        contenido_ampliado = extraer_contenido_ampliado(entry, extracto)
         imagen_url = extraer_imagen(entry)
 
         nuevos.append(
@@ -356,6 +410,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
                 "fecha_publicacion_iso": fecha.isoformat(),
                 "fecha_publicacion_original": texto_fecha_original(entry),
                 "extracto_original": extracto,
+                "contenido_ampliado": contenido_ampliado,
                 "imagen_url": imagen_url,
             }
         )

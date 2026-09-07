@@ -43,8 +43,11 @@ Sobre las imágenes:
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
+import re
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -57,6 +60,10 @@ NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
 PUBLICADAS_JSON = RAIZ / "data" / "publicadas.json"
 SITE_DIR = RAIZ / "site"
 ARCHIVO_DIR = SITE_DIR / "archivo"
+NOTICIA_DIR = SITE_DIR / "noticia"
+
+LIMITE_RESUMEN_AMPLIADO = 2000  # caracteres; nunca se muestra el artículo completo
+MAX_PARRAFOS_AMPLIADO = 5
 
 # Guayaquil = UTC-5 todo el año (Ecuador no usa horario de verano)
 ZONA_GUAYAQUIL = timezone(timedelta(hours=-5))
@@ -224,6 +231,84 @@ def truncar(texto: str, maximo: int) -> str:
         return texto
     cortado = texto[:maximo].rsplit(" ", 1)[0]
     return cortado + "…"
+
+
+def slugificar(texto: str, maximo: int = 60) -> str:
+    """Convierte un título en un slug apto para URL: sin acentos, minúsculas,
+    solo [a-z0-9-]. Se usa únicamente para que la URL sea legible — la
+    identidad real del archivo la da el hash que se le agrega (ver
+    nombre_archivo_noticia)."""
+    sin_acentos = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    solo_alfanumerico = re.sub(r"[^a-z0-9]+", "-", sin_acentos.lower())
+    colapsado = re.sub(r"-{2,}", "-", solo_alfanumerico).strip("-")
+    return (colapsado[:maximo].rstrip("-")) or "noticia"
+
+
+def nombre_archivo_noticia(item: dict, fecha_carpeta: str) -> str:
+    """AAAA-MM-DD-slug-del-titulo-<hash8>.html — el hash (del enlace original,
+    ya verificado por fetch_news.py) garantiza que el archivo sea único aunque
+    dos titulares se parezcan; el slug es solo para que la URL sea legible."""
+    slug = slugificar(item["titulo"])
+    hash_corto = hashlib.sha1(item["enlace"].encode("utf-8")).hexdigest()[:8]
+    return f"{fecha_carpeta}-{slug}-{hash_corto}.html"
+
+
+def acotar_parrafos(parrafos: list[str], maximo_caracteres: int, maximo_parrafos: int) -> list[str]:
+    """Se queda con párrafos ENTEROS (nunca corta uno a la mitad) hasta llegar
+    al tope de caracteres o de cantidad de párrafos. Siempre devuelve al
+    menos un párrafo (aunque ese solo ya supere el tope)."""
+    resultado: list[str] = []
+    total = 0
+    for p in parrafos:
+        if resultado and (total + len(p) > maximo_caracteres or len(resultado) >= maximo_parrafos):
+            break
+        resultado.append(p)
+        total += len(p)
+    return resultado or parrafos[:1]
+
+
+def preparar_resumen_ampliado(item: dict) -> dict:
+    """Para la página de detalle de la noticia: un resumen más completo que
+    el de la tarjeta (2-3+ párrafos), basado en el texto más completo
+    disponible del RSS (ver fetch_news.py: contenido_ampliado). Se recorta a
+    LIMITE_RESUMEN_AMPLIADO caracteres y a MAX_PARRAFOS_AMPLIADO párrafos —
+    nunca se reproduce el artículo completo, incluso si el RSS lo trae
+    entero. Se traduce párrafo por párrafo (no todo el texto de una sola vez)
+    para no depender de que DeepL preserve los saltos de línea; si CUALQUIER
+    párrafo falla al traducir, se muestran TODOS en el idioma original (nunca
+    una mezcla de español e inglés) y se marca con la misma nota de siempre.
+    """
+    idioma = item.get("idioma", "en")
+    contenido_original = (item.get("contenido_ampliado") or item.get("extracto_original") or "").strip()
+
+    if not contenido_original:
+        return {
+            "parrafos": ["El RSS de esta fuente no incluye un extracto más amplio. Consulta el enlace a la fuente al final de esta página para leer el artículo completo."],
+            "nota_idioma": "",
+        }
+
+    parrafos_originales = [p.strip() for p in contenido_original.split("\n\n") if p.strip()] or [contenido_original]
+    parrafos_acotados = acotar_parrafos(parrafos_originales, LIMITE_RESUMEN_AMPLIADO, MAX_PARRAFOS_AMPLIADO)
+
+    if idioma == "es":
+        return {"parrafos": parrafos_acotados, "nota_idioma": ""}
+
+    if DEEPL_API_KEY:
+        parrafos_traducidos = []
+        for p in parrafos_acotados:
+            t = traducir_deepl(p, idioma)
+            if not t:
+                parrafos_traducidos = None
+                break
+            parrafos_traducidos.append(t)
+        if parrafos_traducidos:
+            nota = "Traducido automáticamente del inglés (DeepL)." if idioma == "en" else f"Traducido automáticamente del {idioma} (DeepL)."
+            return {"parrafos": parrafos_traducidos, "nota_idioma": nota}
+
+    return {
+        "parrafos": parrafos_acotados,
+        "nota_idioma": "No se pudo traducir automáticamente (se muestra el original).",
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -396,10 +481,12 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
 """
 
 
-def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
+def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = False) -> str:
     """Renderiza una noticia como tarjeta de grid (por defecto) o, si
     `es_destacada`, como el bloque grande de "lo más reciente" arriba de la
-    portada/edición del día."""
+    portada/edición del día. Todos los enlaces (imagen, título, botón) van a
+    la página de detalle propia del sitio (`ruta_noticia`) — nunca directo al
+    enlace externo; ese solo aparece al pie de la página de detalle."""
     mostrado = preparar_texto_mostrado(item)
     titulo_mostrar = mostrado["titulo_mostrar"]
     resumen_mostrar = mostrado["resumen_mostrar"]
@@ -414,7 +501,7 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
     )
 
     fuente = escape(item["fuente"])
-    enlace = escape(item["enlace"], quote=True)
+    enlace_noticia = escape(ruta_noticia, quote=True)
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     resumen_html = escape(resumen_mostrar).replace("\n", "<br>")
     titulo_html = escape(titulo_mostrar)
@@ -422,29 +509,29 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
 
     if es_destacada:
         return f"""    <section class="destacada">
-      <a class="destacada-imagen-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">
+      <a class="destacada-imagen-enlace" href="{enlace_noticia}">
 {imagen_html}      </a>
       <div class="destacada-cuerpo">
         <span class="destacada-eyebrow">Lo más reciente</span>
         {eyebrow_categoria}
-        <h2 class="destacada-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h2>
+        <h2 class="destacada-titulo"><a href="{enlace_noticia}">{titulo_html}</a></h2>
         <p class="destacada-resumen">{resumen_html}</p>
         <div class="noticia-meta">
           <span class="fuente">Fuente: {fuente}</span>
           <span class="fecha">Publicado: {fecha_str}</span>
           {nota_html}
         </div>
-        <a class="destacada-cta" href="{enlace}" rel="noopener noreferrer" target="_blank">Leer la noticia completa →</a>
+        <a class="destacada-cta" href="{enlace_noticia}">Leer la noticia completa →</a>
       </div>
     </section>
 """
 
     return f"""      <article class="tarjeta">
-        <a class="tarjeta-imagen-enlace" href="{enlace}" rel="noopener noreferrer" target="_blank">
+        <a class="tarjeta-imagen-enlace" href="{enlace_noticia}">
 {imagen_html}        </a>
         <div class="tarjeta-cuerpo">
           {eyebrow_categoria}
-          <h3 class="tarjeta-titulo"><a href="{enlace}" rel="noopener noreferrer" target="_blank">{titulo_html}</a></h3>
+          <h3 class="tarjeta-titulo"><a href="{enlace_noticia}">{titulo_html}</a></h3>
           <p class="tarjeta-resumen">{resumen_html}</p>
           <div class="noticia-meta">
             <span class="fuente">Fuente: {fuente}</span>
@@ -453,6 +540,77 @@ def render_tarjeta_html(item: dict, es_destacada: bool = False) -> str:
           </div>
         </div>
       </article>
+"""
+
+
+def render_pagina_noticia(item: dict, ruta_noticia_abs: str) -> str:
+    """Página de detalle propia del sitio para una noticia: resumen ampliado
+    en español (parafraseado a partir del texto más completo del RSS, nunca
+    el artículo completo — ver preparar_resumen_ampliado), imagen/ícono y
+    fuente visibles, y al final el enlace al artículo original (única salida
+    externa del sitio para esta noticia)."""
+    mostrado = preparar_texto_mostrado(item)
+    titulo_mostrar = mostrado["titulo_mostrar"]
+    nota_idioma_titulo = mostrado["nota_idioma"]
+
+    ampliado = preparar_resumen_ampliado(item)
+    nota_idioma_ampliado = ampliado["nota_idioma"]
+
+    categoria = categorizar(item)
+    info_categoria = CATEGORIAS.get(categoria, GENERICO)
+    imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=True)
+
+    fuente = escape(item["fuente"])
+    enlace_externo = escape(item["enlace"], quote=True)
+    fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
+    titulo_html = escape(titulo_mostrar)
+
+    parrafos_html = "\n".join(
+        f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
+    )
+
+    # Puede haber dos notas de idioma distintas: la del título (tarjeta) y la
+    # del resumen ampliado (traducciones independientes, cada una con su
+    # propio intento). Si coinciden en texto, se muestra una sola vez.
+    notas = [n for n in {nota_idioma_titulo, nota_idioma_ampliado} if n]
+    notas_html = "".join(f'<span class="idioma-nota">{escape(n)}</span>' for n in notas)
+
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{titulo_html} — Periódico de Ciberseguridad</title>
+  <meta name="description" content="Periódico digital de ciberseguridad: titulares diarios con enlace directo a la fuente original. Un proyecto de DERENZIN S.A.S.">
+  <link rel="icon" href="../assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+{render_cabecera("Detalle de la noticia", "../", "noticia")}
+  <main class="contenido pagina-noticia">
+    <article class="noticia-detalle">
+      <span class="eyebrow-categoria" style="--color-categoria: {info_categoria["color"]}">{escape(info_categoria["etiqueta"])}</span>
+      <h1 class="noticia-detalle-titulo">{titulo_html}</h1>
+      <div class="noticia-meta">
+        <span class="fuente">Fuente: {fuente}</span>
+        <span class="fecha">Publicado: {fecha_str}</span>
+        {notas_html}
+      </div>
+{imagen_html}      <div class="noticia-detalle-cuerpo">
+{parrafos_html}
+      </div>
+      <div class="noticia-fuente-final">
+        <p>Fuente: <a href="{enlace_externo}" target="_blank" rel="noopener noreferrer">{fuente}</a></p>
+        <a class="destacada-cta" href="{enlace_externo}" target="_blank" rel="noopener noreferrer">Leer el artículo original completo en {fuente} ↗</a>
+      </div>
+    </article>
+  </main>
+
+{render_pie("../")}
+</body>
+</html>
 """
 
 
@@ -617,10 +775,26 @@ def main() -> None:
     # lector; el conteo real ya queda en el log del workflow de GitHub Actions.
     subtitulo = f"Edición del {fecha_legible(ahora_gye)}"
 
+    # Cada noticia tiene su propia página de detalle dentro del sitio
+    # (site/noticia/AAAA-MM-DD-slug-hash.html); todos los enlaces de portada,
+    # cuadrícula y archivo apuntan ahí — no directo a la fuente externa (esa
+    # solo aparece al pie de la página de detalle).
+    NOTICIA_DIR.mkdir(parents=True, exist_ok=True)
+    rutas_noticia: dict[str, str] = {}
+    for item in nuevos:
+        nombre_archivo = nombre_archivo_noticia(item, fecha_str)
+        rutas_noticia[item["enlace"]] = f"/noticia/{nombre_archivo}"
+        pagina_noticia = render_pagina_noticia(item, rutas_noticia[item["enlace"]])
+        with open(NOTICIA_DIR / nombre_archivo, "w", encoding="utf-8") as f:
+            f.write(pagina_noticia)
+    log(f"Generadas {len(rutas_noticia)} página(s) de detalle en {NOTICIA_DIR}.")
+
     # La noticia más reciente va destacada arriba en grande; el resto forma
     # la cuadrícula de tarjetas debajo (ver render_tarjeta_html).
-    destacada_html = render_tarjeta_html(nuevos[0], es_destacada=True)
-    tarjetas_html = "".join(render_tarjeta_html(item, es_destacada=False) for item in nuevos[1:])
+    destacada_html = render_tarjeta_html(nuevos[0], rutas_noticia[nuevos[0]["enlace"]], es_destacada=True)
+    tarjetas_html = "".join(
+        render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos[1:]
+    )
     titulo_seccion = '    <h2 class="seccion-titulo">Últimas noticias</h2>\n' if nuevos[1:] else ""
     items_html = (
         destacada_html
@@ -651,7 +825,9 @@ def main() -> None:
         anterior = ruta_dia.read_text(encoding="utf-8")
         marcador_fin_grid = "    <!-- FIN-GRID -->\n"
         if marcador_fin_grid in anterior:
-            tarjetas_nuevas_html = "".join(render_tarjeta_html(item, es_destacada=False) for item in nuevos)
+            tarjetas_nuevas_html = "".join(
+                render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos
+            )
             anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
             ruta_dia.write_text(anterior, encoding="utf-8")
             log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos a la cuadrícula).")
@@ -678,6 +854,7 @@ def main() -> None:
             "titulo": item["titulo"],
             "fecha_publicacion_iso": item["fecha_publicacion_iso"],
             "fecha_agregada_iso": datetime.now(timezone.utc).isoformat(),
+            "ruta_noticia": rutas_noticia.get(item["enlace"], ""),
         }
     guardar_publicadas(publicadas)
     log(f"Ledger actualizado: {PUBLICADAS_JSON} ahora tiene {len(urls)} URL(s) registradas.")

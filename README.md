@@ -98,6 +98,7 @@ site/style.css                   CSS propio (sin frameworks ni CDNs, salvo Googl
 site/assets/logo-derenzin.png    Logo real de derenzin.com (mismo archivo, sin modificar)
 site/assets/favicon.png          Favicon (mismo archivo que usa derenzin.com)
 site/imagenes/AAAA-MM-DD/*.jpg   Imágenes de noticias descargadas y alojadas localmente
+site/noticia/AAAA-MM-DD-*.html   Página de detalle propia de cada noticia (resumen ampliado + fuente)
 site/CNAME                       Dominio personalizado para GitHub Pages
 site/archivo/AAAA-MM-DD.html     Una página por cada día publicado
 site/archivo/index.html          Índice de todas las ediciones archivadas
@@ -214,6 +215,49 @@ tiempo esto hace crecer el repositorio unos pocos MB por día — no se
 implementó limpieza automática de imágenes viejas; si en el futuro quieres
 una política de retención (p.ej. borrar imágenes de ediciones de más de N
 meses), es un cambio aparte, avísame.
+
+---
+
+## Página de detalle propia por noticia (site/noticia/)
+
+Ya no se enlaza directo a la fuente externa desde la portada, la cuadrícula
+ni el archivo. Cada noticia tiene su propia página dentro del sitio
+(`site/noticia/AAAA-MM-DD-slug-del-titulo-<hash>.html` — el hash viene del
+enlace original, para que el archivo sea único aunque dos titulares se
+parezcan) con un resumen más amplio, y **el enlace externo a la fuente
+aparece solo al final de esa página**, en un recuadro claro ("Fuente: [medio]"
++ botón "Leer el artículo original completo ↗", `target="_blank"`).
+
+### Sobre el "resumen ampliado" y el parafraseo — una limitación importante que debes conocer
+
+Pediste que el resumen ampliado **parafrasee/resuma** el contenido, no que
+copie el artículo palabra por palabra. Quiero ser completamente honesto sobre
+cómo se implementó esto, porque hay un límite real:
+
+- Este script es Python puro corriendo en GitHub Actions — **no llama a
+  ningún modelo de lenguaje** (ni Claude, ni GPT, ni nada) para reescribir o
+  resumir texto. Lo único "inteligente" que hace es traducir con DeepL, que
+  traduce fielmente, no resume ni parafrasea en el sentido de reescribir con
+  otras palabras.
+- Por eso, lo que implementé es esto: se toma el texto más completo
+  disponible del RSS (`<content:encoded>` si el feed lo trae — solo Krebs on
+  Security lo trae de los 6 feeds, y ahí sí es casi el artículo completo; el
+  resto de feeds solo traen un resumen corto igual al de la tarjeta), se
+  **recorta con un tope duro** (2000 caracteres y máximo 5 párrafos,
+  cortando siempre en un párrafo completo, nunca a la mitad) y se traduce.
+  Es decir: es un **extracto más largo y acotado**, nunca el artículo
+  completo — pero no es una reescritura/parafraseo real con otras palabras,
+  porque esta parte del pipeline no tiene esa capacidad.
+- Esto ya evita el problema principal que señalaste (nunca se reproduce el
+  artículo completo, ni siquiera cuando el RSS lo trae entero), pero si
+  quieres una reescritura genuina (no solo una traducción de un extracto más
+  largo), eso requiere llamar a un modelo de lenguaje generativo (p.ej. la
+  API de Claude) desde el script — un cambio aparte, que necesita una clave
+  de API nueva. Dímelo si lo quieres y lo agrego.
+- Para casi todas las fuentes (5 de 6), el resumen ampliado en la práctica
+  **es el mismo texto corto que ya se ve en la tarjeta** — no hay más
+  contenido disponible en el RSS para ampliarlo. Solo Krebs on Security se
+  beneficia de verdad de este cambio.
 
 ---
 

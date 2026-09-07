@@ -473,6 +473,66 @@ h1, h2, h3 {
   border-top: 1px solid var(--borde);
 }
 
+/* ---------- Página de detalle de una noticia ---------- */
+
+.contenido.pagina-noticia {
+  max-width: 760px;
+}
+
+.noticia-detalle > .eyebrow-categoria {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.noticia-detalle-titulo {
+  margin: 0 0 0.9rem 0;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.noticia-detalle > .noticia-meta {
+  margin-bottom: 1.5rem;
+}
+
+.noticia-detalle > .noticia-imagen {
+  border-radius: var(--radio);
+  margin-bottom: 1.75rem;
+}
+
+.noticia-detalle-cuerpo {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--texto-tenue);
+}
+
+.noticia-detalle-cuerpo p {
+  margin: 0 0 1.15rem 0;
+}
+
+.noticia-fuente-final {
+  margin-top: 2.25rem;
+  padding: 1.5rem;
+  background: var(--acento-suave);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.noticia-fuente-final p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--texto);
+}
+
+.noticia-fuente-final p a {
+  font-weight: 700;
+}
+
 /* ---------- Archivo (listado de ediciones) ---------- */
 
 .lista-archivo {
