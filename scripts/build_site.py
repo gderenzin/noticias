@@ -305,10 +305,40 @@ def guardar_publicadas(datos: dict) -> None:
 
 
 def truncar(texto: str, maximo: int) -> str:
+    """Recorta `texto` a `maximo` caracteres SIN cortar una oración a la
+    mitad: busca el último punto/¡!/¿? de cierre de oración dentro del
+    límite y corta ahí. Si no hay ninguno lo bastante adentro (una sola
+    oración más larga que el límite), cae al corte por palabra completa de
+    siempre — pero nunca deja el texto colgando sin puntuación: siempre
+    termina en una oración cerrada o en "…"."""
+    texto = texto.strip()
     if len(texto) <= maximo:
-        return texto
-    cortado = texto[:maximo].rsplit(" ", 1)[0]
+        return rematar_final(texto)
+
+    fragmento = texto[:maximo]
+    ultimo_punto = -1
+    for m in re.finditer(r"[.!?](?=\s|$)", fragmento):
+        ultimo_punto = m.end()
+    # Solo usar el corte por oración si no deja el resumen demasiado corto
+    # (p.ej. si la primera oración ya ocupa casi todo el límite, preferimos
+    # eso a un corte por palabra que deje un fragmento minúsculo).
+    if ultimo_punto >= maximo * 0.4:
+        return fragmento[:ultimo_punto].strip()
+
+    cortado = fragmento.rsplit(" ", 1)[0].rstrip(",;:")
     return cortado + "…"
+
+
+def rematar_final(texto: str) -> str:
+    """Si `texto` no termina en puntuación de cierre, es que el propio RSS de
+    origen lo entrega incompleto (algunos feeds recortan su descripción a
+    una cantidad fija de caracteres) — se agrega "…" para dejarlo claro en
+    vez de dejarlo colgado a media frase. Nunca inventa palabras, solo
+    marca visualmente que el texto sigue en la fuente."""
+    texto = texto.rstrip()
+    if not texto or texto[-1] in ".!?…\"'”)»":
+        return texto
+    return texto.rstrip(",;: ") + "…"
 
 
 def slugificar(texto: str, maximo: int = 60) -> str:
@@ -367,6 +397,14 @@ def preparar_resumen_ampliado(item: dict) -> dict:
 
     parrafos_originales = [p.strip() for p in contenido_original.split("\n\n") if p.strip()] or [contenido_original]
     parrafos_acotados = acotar_parrafos(parrafos_originales, LIMITE_RESUMEN_AMPLIADO, MAX_PARRAFOS_AMPLIADO)
+
+    # Si el propio párrafo viene incompleto del RSS de origen (o si tuvimos
+    # que descartar párrafos posteriores por el tope de caracteres/cantidad),
+    # se marca con "…" en vez de dejarlo colgado a media frase.
+    se_recorto_contenido = len(parrafos_acotados) < len(parrafos_originales)
+    parrafos_acotados = [rematar_final(p) for p in parrafos_acotados]
+    if se_recorto_contenido and parrafos_acotados and not parrafos_acotados[-1].endswith("…"):
+        parrafos_acotados[-1] = parrafos_acotados[-1].rstrip(".!?") + "…"
 
     if idioma == "es":
         return {"parrafos": parrafos_acotados, "nota_idioma": ""}
@@ -550,15 +588,18 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
 """
 
     info = CATEGORIAS.get(categoria, GENERICO)
-    # La transparencia de que es un ícono (no una foto real) se conserva para
-    # lectores de pantalla vía aria-label, y visualmente con una etiqueta
-    # pequeña y discreta ("Ilustrativo") en vez de una frase larga metida en
-    # el texto de la noticia.
+    # El ícono es un archivo SVG real en site/assets/iconos/ (no SVG en línea
+    # ni solo texto) — un <img> normal, más robusto y fácil de cachear. La
+    # transparencia de que es un ícono (no una foto real) se conserva para
+    # lectores de pantalla vía alt, y visualmente con una etiqueta pequeña y
+    # discreta ("Ilustrativo") en vez de una frase larga en el texto.
     alt_icono = escape(f"Ilustración genérica de la categoría {info['etiqueta']}; no es una foto real del hecho", quote=True)
     return f"""      <figure class="noticia-imagen noticia-imagen--generica{clase_extra}">
         {badge}
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
-        <div class="icono-generico" role="img" aria-label="{alt_icono}">{info['svg']}</div>
+        <div class="icono-generico-fondo">
+          <img class="icono-generico" src="/assets/iconos/{categoria}.svg" alt="{alt_icono}" loading="lazy" decoding="async">
+        </div>
       </figure>
 """
 

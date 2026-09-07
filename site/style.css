@@ -278,26 +278,35 @@ h1, h2, h3 {
   transition: transform 0.35s ease;
 }
 
-.noticia-imagen--generica .icono-generico {
+/* Ícono genérico: ahora es un <img> real (site/assets/iconos/*.svg), no SVG
+   en línea — el fondo con tinte de color va en un contenedor aparte
+   (.icono-generico-fondo) para no depender de aplicarle "color"/"background"
+   directamente a la imagen (un <img> no hereda "color" de todas formas). Se
+   declara un fondo sólido de respaldo ANTES del color-mix(): si el
+   navegador no soporta color-mix() (algunos navegadores más viejos), el
+   valor no reconocido se ignora y queda el respaldo — nunca se ve
+   transparente/roto. */
+.noticia-imagen--generica .icono-generico-fondo {
   aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-categoria, var(--texto-suave));
+  background: var(--acento-suave);
   background: color-mix(in srgb, var(--color-categoria, var(--texto-suave)) 12%, white);
 }
 
-.noticia-imagen--generica .icono-generico svg {
+.icono-generico {
   width: 42px;
   height: 42px;
+  display: block;
 }
 
 .noticia-imagen--destacada img,
-.noticia-imagen--destacada .icono-generico {
+.noticia-imagen--destacada .icono-generico-fondo {
   aspect-ratio: 21 / 9;
 }
 
-.noticia-imagen--destacada .icono-generico svg {
+.noticia-imagen--destacada .icono-generico {
   width: 60px;
   height: 60px;
 }
@@ -687,7 +696,7 @@ h1, h2, h3 {
   }
 
   .destacada-imagen-enlace .noticia-imagen--destacada img,
-  .destacada-imagen-enlace .noticia-imagen--destacada .icono-generico {
+  .destacada-imagen-enlace .noticia-imagen--destacada .icono-generico-fondo {
     aspect-ratio: 16 / 9;
   }
 
