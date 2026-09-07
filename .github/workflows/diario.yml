@@ -45,7 +45,7 @@ jobs:
           # resumir_ia.py se salta por completo (ver docstring del script):
           # build_site.py cae automáticamente al extracto de RSS de siempre
           # ("Plan B"), nunca falla el proceso por esto.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/resumir_ia.py
 
       - name: Generar el sitio (build_site.py)

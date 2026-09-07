@@ -89,7 +89,7 @@ coincidente".
 ```
 feeds.yaml                       Lista blanca de fuentes RSS (única fuente de verdad)
 scripts/fetch_news.py            Descarga feeds, filtra, deduplica -> data/nuevas_hoy.json
-scripts/resumir_ia.py            Extrae el artículo completo (trafilatura) y lo resume con Claude Haiku
+scripts/resumir_ia.py            Extrae el artículo completo (trafilatura) y lo resume con Gemini
 scripts/texto.py                 Recorte/remate de texto compartido por los scripts de arriba
 scripts/build_site.py            Genera el HTML a partir de data/nuevas_hoy.json
 site/assets/compartir.js         Botón "Copiar enlace" de los botones de compartir (único script del sitio)
@@ -247,16 +247,18 @@ caracteres sin avisar). El flujo real, en orden de preferencia:
    principal del artículo con [`trafilatura`](https://trafilatura.readthedocs.io/)
    (una librería de extracción de contenido, sin necesidad de reglas por
    sitio). Si la extracción da un texto razonable (≥200 caracteres), se lo
-   manda a **Claude Haiku** (API de Anthropic, clave en el secreto
-   `ANTHROPIC_API_KEY`) con instrucciones estrictas: resumen fiel de 3-4
-   párrafos, basado ÚNICAMENTE en ese texto, sin agregar cifras/nombres/
-   conclusiones que no estén ahí, parafraseado (no cita textual larga), y
-   que lo diga explícitamente si el artículo no da para un resumen completo
-   en vez de rellenar con contenido inventado.
+   manda a **Gemini 2.5 Flash-Lite** (API de Google, clave en el secreto
+   `GEMINI_API_KEY` — se eligió Gemini en vez de Anthropic/OpenAI porque
+   tiene una capa gratuita real, sin exigir facturación desde el inicio)
+   con instrucciones estrictas: resumen fiel de 3-4 párrafos, basado
+   ÚNICAMENTE en ese texto, sin agregar cifras/nombres/conclusiones que no
+   estén ahí, parafraseado (no cita textual larga), y que lo diga
+   explícitamente si el artículo no da para un resumen completo en vez de
+   rellenar con contenido inventado.
 2. Ese resumen (ya en español, no se vuelve a traducir) se usa como el
    cuerpo de la página de detalle, y las primeras 2-3 oraciones completas
    (nunca un corte a media palabra) como el resumen corto de la tarjeta.
-   La página muestra una nota visible: *"Resumen generado con IA (Claude) a
+   La página muestra una nota visible: *"Resumen generado con IA (Gemini) a
    partir del artículo completo — no es una cita textual; consulta la
    fuente para el texto exacto."*
 3. **Plan B** — si la extracción o la llamada a la IA fallan por cualquier
@@ -272,11 +274,13 @@ Como con DeepL, esto **nunca se reprocesa para noticias ya publicadas** — se
 aplica desde el momento en que se agrega el secreto en adelante, a las
 noticias genuinamente nuevas de cada corrida.
 
-**Nota de costo**: Claude Haiku es el modelo más económico de Anthropic; el
-texto que se le manda se recorta a 12 000 caracteres como tope defensivo. El
-volumen es bajo (solo las noticias nuevas de cada corrida diaria, típicamente
-unas pocas), así que el costo esperado es mínimo, pero depende de tu plan de
-Anthropic — revísalo si te preocupa.
+**Nota de costo**: Gemini 2.5 Flash-Lite es el modelo más económico/rápido
+de la familia Gemini y entra cómodo en la capa gratuita de Google AI Studio;
+el texto que se le manda se recorta a 12 000 caracteres como tope defensivo.
+El volumen es bajo (solo las noticias nuevas de cada corrida diaria,
+típicamente unas pocas), así que debería quedar dentro de la cuota gratuita
+— revisa los límites vigentes en [ai.google.dev/pricing](https://ai.google.dev/pricing)
+si te preocupa.
 
 ---
 
@@ -428,13 +432,13 @@ assets ni su CSS.
     que permita fijar headers HTTP de verdad (p.ej. un Cloudflare Worker
     delante de GitHub Pages), ahí sí valdría agregarlos.
 - **Ninguna clave llega al navegador**: `DEEPL_API_KEY` (en `build_site.py`)
-  y `ANTHROPIC_API_KEY` (en `resumir_ia.py`) se leen únicamente con
+  y `GEMINI_API_KEY` (en `resumir_ia.py`) se leen únicamente con
   `os.environ.get(...)`, del lado del workflow de GitHub Actions (Python
   puro, sin navegador de por medio). Se usan solo para construir el header
   de autenticación de cada API — nunca se escriben en ningún archivo HTML,
   ni se imprimen en los logs (los logs de error de ambas imprimen el
   endpoint/código HTTP, nunca la clave). Confirmé con
-  `grep -r "DEEPL_API_KEY\|ANTHROPIC_API_KEY\|auth_key\|DeepL-Auth-Key\|x-api-key" site/`
+  `grep -r "DEEPL_API_KEY\|GEMINI_API_KEY\|auth_key\|DeepL-Auth-Key\|x-goog-api-key" site/`
   sobre el sitio generado: cero coincidencias. El único JavaScript del lado
   del cliente es `site/assets/compartir.js` (el botón "Copiar enlace" de los
   botones de compartir) — no hace ninguna llamada a red ni usa clave alguna,
@@ -457,7 +461,7 @@ assets ni su CSS.
 2. Instala Python + las dependencias en `requirements.txt` (`feedparser`,
    `PyYAML`, `trafilatura`).
 3. Corre, en orden: `fetch_news.py` → `resumir_ia.py` (recibe
-   `ANTHROPIC_API_KEY` si lo configuraste — ver "Resumen ampliado" arriba) →
+   `GEMINI_API_KEY` si lo configuraste — ver "Resumen ampliado" arriba) →
    `build_site.py` (recibe `DEEPL_API_KEY` si lo configuraste).
 4. Si hubo noticias nuevas, commitea `site/` (incluidas las imágenes
    descargadas), `data/publicadas.json` y `data/imagenes_descargadas.json` a
@@ -472,7 +476,7 @@ assets ni su CSS.
    simplemente no hay commit ese día.
 
 Las claves/API externas que usa el proyecto son `DEEPL_API_KEY` (traducir al
-español) y `ANTHROPIC_API_KEY` (resumir el artículo completo con IA — ver
+español) y `GEMINI_API_KEY` (resumir el artículo completo con IA — ver
 arriba). Sin cualquiera de las dos configurada, el sitio sigue funcionando
 en modo seguro (cita/extracto original en vez de traducir o resumir).
 
@@ -487,10 +491,10 @@ sistema).
 pip install -r requirements.txt
 python scripts/fetch_news.py
 
-# Resumen con IA (opcional, si ya tienes una clave de Anthropic) -- si no,
+# Resumen con IA (opcional, si ya tienes una clave de Gemini) -- si no,
 # se salta solo y build_site.py usa el extracto de RSS (Plan B):
-#   macOS/Linux:  ANTHROPIC_API_KEY="tu-clave" python scripts/resumir_ia.py
-#   Windows PowerShell:  $env:ANTHROPIC_API_KEY="tu-clave"; python scripts/resumir_ia.py
+#   macOS/Linux:  GEMINI_API_KEY="tu-clave" python scripts/resumir_ia.py
+#   Windows PowerShell:  $env:GEMINI_API_KEY="tu-clave"; python scripts/resumir_ia.py
 python scripts/resumir_ia.py
 
 # Sin DEEPL_API_KEY: las noticias en inglés se publican citando el original.
@@ -508,7 +512,7 @@ python scripts/build_site.py
 - `resumir_ia.py` lee ese mismo archivo, intenta extraer+resumir cada ítem
   nuevo, y lo reescribe con los campos `resumen_ia`/`resumen_ia_ok` agregados
   (deja dicho en el log cuántos tuvieron éxito). Si no hay
-  `ANTHROPIC_API_KEY`, se salta sin tocar el archivo.
+  `GEMINI_API_KEY`, se salta sin tocar el archivo.
 - `build_site.py` lee ese archivo y genera `site/index.html`,
   `site/archivo/AAAA-MM-DD.html` y actualiza `data/publicadas.json`. Si
   `nuevas_hoy.json` está vacío, no toca nada y lo deja dicho en el log.
@@ -606,9 +610,9 @@ gratuita en DeepL y agrega tu clave como el secreto `DEEPL_API_KEY` en
 
 Sin este paso el sitio ya funciona — solo que el resumen ampliado usa el
 extracto corto del RSS de siempre (traducido con DeepL) en vez del resumen
-del artículo completo generado por Claude. Para activarlo: crea una clave en
+del artículo completo generado por Gemini. Para activarlo: crea una clave en
 [console.anthropic.com](https://console.anthropic.com/) y agrégala como el
-secreto `ANTHROPIC_API_KEY` en **Settings → Secrets and variables →
+secreto `GEMINI_API_KEY` en **Settings → Secrets and variables →
 Actions** del repo — ver la sección **"Resumen ampliado: extracción del
 artículo completo + resumen con IA"** más arriba para el detalle de cómo
 funciona y el Plan B si algo falla.

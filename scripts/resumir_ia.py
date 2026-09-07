@@ -6,7 +6,9 @@ Paso opcional entre fetch_news.py y build_site.py: para cada ítem nuevo en
 data/nuevas_hoy.json, entra a la URL ORIGINAL de la fuente (item["enlace"],
 ya verificado por fetch_news.py contra el dominio declarado), extrae el
 texto principal del artículo con trafilatura, y le pide a un modelo barato
-de Anthropic (Claude Haiku) que lo resuma en español, fiel y sin inventar.
+de Google (Gemini Flash/Flash-Lite -- capa gratuita real, a diferencia de
+Anthropic que exige facturación desde el inicio) que lo resuma en español,
+fiel y sin inventar.
 
 Por qué existe: el extracto que trae el RSS de algunas fuentes viene ya
 cortado por la propia fuente (WordPress agrega ".. [...]"; otras cortan su
@@ -24,10 +26,10 @@ cualquier motivo, este script no hace nada más (deja resumen_ia_ok=False) y
 build_site.py cae automáticamente al extracto de RSS de siempre (ver el
 "Plan B" documentado ahí).
 
-Si ANTHROPIC_API_KEY no está configurada, o el paquete `trafilatura` no
-está instalado, este script se salta por completo (no falla el proceso) y
-todos los ítems quedan con resumen_ia_ok=False -- el sitio sigue
-funcionando exactamente como antes de agregar este paso.
+Si GEMINI_API_KEY no está configurada, o el paquete `trafilatura` no está
+instalado, este script se salta por completo (no falla el proceso) y todos
+los ítems quedan con resumen_ia_ok=False -- el sitio sigue funcionando
+exactamente como antes de agregar este paso.
 """
 
 from __future__ import annotations
@@ -42,12 +44,15 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
 
-ANTHROPIC_API_KEY = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
-ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
-ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_VERSION = "2023-06-01"
-ANTHROPIC_TIMEOUT_SEGUNDOS = 45
-ANTHROPIC_MAX_TOKENS = 1024
+GEMINI_API_KEY = (os.environ.get("GEMINI_API_KEY") or "").strip()
+# "-lite" es la variante más barata/rápida de la familia 2.5 -- de sobra
+# para un resumen fiel de un artículo de noticias, y entra cómodo en la capa
+# gratuita de Gemini (a diferencia de Anthropic, que exige facturación desde
+# el primer request).
+GEMINI_MODEL = "gemini-2.5-flash-lite"
+GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+GEMINI_TIMEOUT_SEGUNDOS = 45
+GEMINI_MAX_OUTPUT_TOKENS = 1024
 
 # Tope al texto que se manda a la IA (caracteres) -- ningún artículo de
 # noticias legítimo necesita más que esto para un resumen fiel, y evita un
@@ -117,20 +122,23 @@ def extraer_texto_completo(url: str) -> str | None:
     return texto.strip()
 
 
-def _log_cuerpo_error_anthropic(cuerpo_bytes: bytes) -> None:
+def _log_cuerpo_error_gemini(cuerpo_bytes: bytes) -> None:
+    """Registra el cuerpo de una respuesta de error de Gemini para
+    diagnóstico -- la clave va en un header (x-goog-api-key), nunca en la
+    URL ni en el cuerpo, así que no hay riesgo de que este log la exponga."""
     try:
         texto = cuerpo_bytes.decode("utf-8", errors="replace")
     except Exception:
         texto = "<no se pudo decodificar el cuerpo de la respuesta>"
-    log(f"    Cuerpo de la respuesta de Anthropic: {texto[:500]}")
+    log(f"    Cuerpo de la respuesta de Gemini: {texto[:500]}")
 
 
 def resumir_con_ia(texto_completo: str, titulo: str) -> str | None:
-    """Le pide a Claude Haiku un resumen fiel en español del texto ya
-    extraído. Devuelve None (sin lanzar excepción) si no hay clave
+    """Le pide a Gemini (GEMINI_MODEL) un resumen fiel en español del texto
+    ya extraído. Devuelve None (sin lanzar excepción) si no hay clave
     configurada o si la llamada falla por cualquier motivo -- nunca se
     fabrica un resumen alternativo; quien llama cae al extracto de RSS."""
-    if not texto_completo or not ANTHROPIC_API_KEY:
+    if not texto_completo or not GEMINI_API_KEY:
         return None
 
     prompt_usuario = f"""Redacta un resumen en español, completo y fiel, de 3 a 4 párrafos, del siguiente artículo de noticias de ciberseguridad.
@@ -151,47 +159,65 @@ Texto del artículo:
 
     datos = json.dumps(
         {
-            "model": ANTHROPIC_MODEL,
-            "max_tokens": ANTHROPIC_MAX_TOKENS,
-            "system": PROMPT_SISTEMA,
-            "messages": [{"role": "user", "content": prompt_usuario}],
+            "system_instruction": {"parts": [{"text": PROMPT_SISTEMA}]},
+            "contents": [{"role": "user", "parts": [{"text": prompt_usuario}]}],
+            "generationConfig": {
+                "maxOutputTokens": GEMINI_MAX_OUTPUT_TOKENS,
+                "temperature": 0.2,
+            },
         }
     ).encode("utf-8")
 
+    # La clave va en el header x-goog-api-key (no en la URL como "?key=...")
+    # para que nunca quede expuesta en logs de proxies/servidores que
+    # registren URLs completas.
     req = urllib.request.Request(
-        ANTHROPIC_API_URL,
+        GEMINI_API_URL,
         data=datos,
         method="POST",
         headers={
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": ANTHROPIC_VERSION,
+            "x-goog-api-key": GEMINI_API_KEY,
             "Content-Type": "application/json",
         },
     )
     try:
-        with urllib.request.urlopen(req, timeout=ANTHROPIC_TIMEOUT_SEGUNDOS) as resp:
+        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT_SEGUNDOS) as resp:
             if resp.status != 200:
-                log(f"  AVISO: Anthropic respondió HTTP {resp.status}; se usa el extracto de RSS para este ítem.")
-                _log_cuerpo_error_anthropic(resp.read())
+                log(f"  AVISO: Gemini respondió HTTP {resp.status}; se usa el extracto de RSS para este ítem.")
+                _log_cuerpo_error_gemini(resp.read())
                 return None
             cuerpo = json.loads(resp.read().decode("utf-8"))
-        bloques = cuerpo.get("content") or []
-        texto = "".join(b.get("text", "") for b in bloques if isinstance(b, dict) and b.get("type") == "text").strip()
-        return texto or None
+
+        candidatos = cuerpo.get("candidates") or []
+        if not candidatos:
+            # Puede pasar si el filtro de seguridad de Gemini bloqueó la
+            # respuesta (promptFeedback.blockReason) -- no es un error de
+            # red, pero igual no hay resumen que usar.
+            motivo = (cuerpo.get("promptFeedback") or {}).get("blockReason")
+            log(f"  AVISO: Gemini no devolvió candidatos (blockReason={motivo}); se usa el extracto de RSS.")
+            return None
+
+        primero = candidatos[0]
+        partes = ((primero.get("content") or {}).get("parts")) or []
+        texto = "".join(p.get("text", "") for p in partes if isinstance(p, dict)).strip()
+        if not texto:
+            log(f"  AVISO: Gemini devolvió respuesta vacía (finishReason={primero.get('finishReason')}); se usa el extracto de RSS.")
+            return None
+        return texto
     except urllib.error.HTTPError as ex:
-        log(f"  AVISO: Anthropic HTTPError {ex.code}; se usa el extracto de RSS para este ítem.")
+        log(f"  AVISO: Gemini HTTPError {ex.code}; se usa el extracto de RSS para este ítem.")
         try:
-            _log_cuerpo_error_anthropic(ex.read())
+            _log_cuerpo_error_gemini(ex.read())
         except Exception:
             pass
     except urllib.error.URLError as ex:
-        log(f"  AVISO: Anthropic URLError ({ex.reason}); se usa el extracto de RSS para este ítem.")
+        log(f"  AVISO: Gemini URLError ({ex.reason}); se usa el extracto de RSS para este ítem.")
     except TimeoutError:
-        log("  AVISO: timeout llamando a Anthropic; se usa el extracto de RSS para este ítem.")
+        log("  AVISO: timeout llamando a Gemini; se usa el extracto de RSS para este ítem.")
     except (json.JSONDecodeError, KeyError, IndexError) as ex:
-        log(f"  AVISO: respuesta inesperada de Anthropic ({ex}); se usa el extracto de RSS para este ítem.")
+        log(f"  AVISO: respuesta inesperada de Gemini ({ex}); se usa el extracto de RSS para este ítem.")
     except Exception as ex:  # noqa: BLE001 - una falla de resumen nunca debe tumbar el build
-        log(f"  AVISO: error inesperado llamando a Anthropic ({type(ex).__name__}: {ex}); se usa el extracto de RSS.")
+        log(f"  AVISO: error inesperado llamando a Gemini ({type(ex).__name__}: {ex}); se usa el extracto de RSS.")
     return None
 
 
@@ -201,15 +227,15 @@ def main() -> None:
         log("Sin ítems nuevos; nada que resumir.")
         return
 
-    if not ANTHROPIC_API_KEY:
-        log("AVISO: ANTHROPIC_API_KEY no configurada; se omite el resumen con IA para todos los ítems (build_site.py usará el extracto de RSS como respaldo).")
+    if not GEMINI_API_KEY:
+        log("AVISO: GEMINI_API_KEY no configurada; se omite el resumen con IA para todos los ítems (build_site.py usará el extracto de RSS como respaldo).")
 
     exitosos = 0
     for item in items:
         item["resumen_ia"] = None
         item["resumen_ia_ok"] = False
 
-        if not ANTHROPIC_API_KEY:
+        if not GEMINI_API_KEY:
             continue
 
         enlace = item.get("enlace", "")

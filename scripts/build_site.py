@@ -334,7 +334,7 @@ def nombre_archivo_noticia(item: dict, fecha_carpeta: str) -> str:
 
 
 NOTA_RESUMEN_IA = (
-    "Resumen generado con IA (Claude) a partir del artículo completo — "
+    "Resumen generado con IA (Gemini) a partir del artículo completo — "
     "no es una cita textual; consulta la fuente para el texto exacto."
 )
 NOTA_RESUMEN_PARCIAL = (
@@ -349,7 +349,7 @@ def preparar_resumen_ampliado(item: dict) -> dict:
 
     Fuente del texto, en orden de preferencia:
     1. `resumen_ia`: si resumir_ia.py extrajo el artículo completo (con
-       trafilatura) y Claude lo resumió con éxito (ver ese script), ya viene
+       trafilatura) y Gemini lo resumió con éxito (ver ese script), ya viene
        en español y NO se vuelve a traducir — se usa tal cual, solo
        recortado a los mismos topes de siempre por seguridad.
     2. Si no, el extracto/contenido del RSS de siempre (`contenido_ampliado`
