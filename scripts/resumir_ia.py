@@ -27,19 +27,36 @@ build_site.py cae automáticamente al extracto de RSS de siempre (ver el
 "Plan B" documentado ahí).
 
 Si GEMINI_API_KEY no está configurada, o el paquete `trafilatura` no está
-instalado, este script se salta por completo (no falla el proceso) y todos
-los ítems quedan con resumen_ia_ok=False -- el sitio sigue funcionando
-exactamente como antes de agregar este paso.
+instalado, se omite el resumen con IA para todos los ítems (quedan con
+resumen_ia_ok=False) -- el sitio sigue funcionando exactamente como antes
+de agregar este paso.
+
+Además, ya que este script entra a la página original del artículo de
+todas formas (para extraer el texto), también se aprovecha esa misma
+descarga para buscar una imagen real cuando el RSS no trajo ninguna: si la
+página declara <meta property="og:image"> (o twitter:image como respaldo),
+se descarga esa imagen igual que se descargarían las del RSS (mismo
+`descargar_imagen()`/ledger de fetch_news.py) -- nunca se genera ni se
+inventa una imagen; si no se encuentra ninguna, build_site.py sigue
+usando el ícono de categoría de respaldo. Esta búsqueda de imagen corre
+SIEMPRE que se pueda descargar la página (incluso sin GEMINI_API_KEY),
+porque no depende de la IA.
 """
 
 from __future__ import annotations
 
+import html as html_lib
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
+from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import fetch_news as fn  # noqa: E402 - reusa descargar_imagen()/ledger, mismo directorio
 
 RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
@@ -118,49 +135,94 @@ def _config_trafilatura():
     return config
 
 
-def extraer_texto_completo(url: str) -> str | None:
-    """Descarga `url` y extrae el texto principal del artículo (sin menús,
-    publicidad, comentarios) con trafilatura. Devuelve None si trafilatura
-    no está disponible, si la descarga falla (incluso tras un reintento),
-    o si lo extraído es demasiado corto para ser el artículo real -- nunca
-    lanza excepción."""
+def descargar_pagina(url: str) -> str | None:
+    """Descarga el HTML crudo de `url` (con el User-Agent real de
+    _config_trafilatura, reintentando una vez). Devuelve None si
+    trafilatura no está disponible o si la descarga falla -- nunca lanza
+    excepción. Este HTML se reusa tanto para extraer el texto del artículo
+    (extraer_texto_de_pagina) como para buscar una imagen de respaldo
+    (buscar_imagen_pagina) -- una sola descarga sirve para ambas cosas."""
     try:
         import trafilatura
     except ImportError:
-        log("AVISO: el paquete 'trafilatura' no está instalado; se omite la extracción de texto completo.")
+        log("AVISO: el paquete 'trafilatura' no está instalado; se omite la descarga de la página.")
         return None
 
     config = _config_trafilatura()
-
-    descargado = None
-    try:
-        for intento in (1, 2):
+    for intento in (1, 2):
+        try:
             descargado = trafilatura.fetch_url(url, config=config)
-            if descargado:
-                break
-            if intento == 1:
-                log(f"  AVISO: no se pudo descargar {url} (intento 1/2); reintentando...")
-        if not descargado:
-            log(f"  AVISO: no se pudo descargar {url} para extraer el texto completo (2 intentos).")
-            return None
+        except Exception as ex:  # noqa: BLE001 - una falla de descarga nunca debe tumbar el proceso
+            log(f"  AVISO: error descargando {url} ({type(ex).__name__}: {ex}).")
+            descargado = None
+        if descargado:
+            return descargado
+        if intento == 1:
+            log(f"  AVISO: no se pudo descargar {url} (intento 1/2); reintentando...")
+    log(f"  AVISO: no se pudo descargar {url} (2 intentos).")
+    return None
+
+
+def extraer_texto_de_pagina(html_pagina: str) -> str | None:
+    """Extrae el texto principal del artículo (sin menús, publicidad,
+    comentarios) de un HTML ya descargado. Devuelve None si trafilatura no
+    está disponible o si lo extraído es demasiado corto para ser el
+    artículo real -- nunca lanza excepción."""
+    try:
+        import trafilatura
+    except ImportError:
+        return None
+    try:
         # Sin favor_precision=True: en modo estricto, trafilatura devolvió
         # vacío para páginas con poco cuerpo de artículo y mucho "molde"
         # de plantilla alrededor (confirmado en incibe.es); el modo por
         # defecto (balanceado) extrajo el mismo artículo sin problema.
         texto = trafilatura.extract(
-            descargado,
-            config=config,
+            html_pagina,
+            config=_config_trafilatura(),
             include_comments=False,
             include_tables=False,
         )
     except Exception as ex:  # noqa: BLE001 - una falla de extracción nunca debe tumbar el proceso
-        log(f"  AVISO: error extrayendo texto completo de {url} ({type(ex).__name__}: {ex}).")
+        log(f"  AVISO: error extrayendo texto de la página ({type(ex).__name__}: {ex}).")
         return None
 
     if not texto or len(texto.strip()) < MINIMO_TEXTO_EXTRAIDO:
-        log(f"  AVISO: texto extraído de {url} es insuficiente ({len(texto.strip()) if texto else 0} caracteres).")
+        log(f"  AVISO: texto extraído es insuficiente ({len(texto.strip()) if texto else 0} caracteres).")
         return None
     return texto.strip()
+
+
+# Busca el content de <meta property="og:image" content="..."> (o
+# name="twitter:image" como respaldo) sin importar el orden de los
+# atributos dentro de la etiqueta.
+_RE_OG_IMAGE = re.compile(
+    r'<meta[^>]*\bproperty=["\']og:image["\'][^>]*\bcontent=["\']([^"\']+)["\']'
+    r'|<meta[^>]*\bcontent=["\']([^"\']+)["\'][^>]*\bproperty=["\']og:image["\']',
+    re.IGNORECASE,
+)
+_RE_TWITTER_IMAGE = re.compile(
+    r'<meta[^>]*\bname=["\']twitter:image["\'][^>]*\bcontent=["\']([^"\']+)["\']'
+    r'|<meta[^>]*\bcontent=["\']([^"\']+)["\'][^>]*\bname=["\']twitter:image["\']',
+    re.IGNORECASE,
+)
+
+
+def buscar_imagen_pagina(html_pagina: str) -> str | None:
+    """Busca <meta property="og:image"> (o twitter:image como respaldo) en
+    el HTML de la página del artículo -- una imagen real que la propia
+    fuente ya publicó, para cuando el RSS no trae ninguna (algunas fuentes
+    sí tienen imagen destacada en la página aunque no la incluyan en su
+    feed). Nunca se genera ni se inventa una imagen: si no se encuentra
+    ninguna, devuelve None y quien llama sigue usando el ícono de
+    categoría de respaldo."""
+    for patron in (_RE_OG_IMAGE, _RE_TWITTER_IMAGE):
+        m = patron.search(html_pagina)
+        if m:
+            url = (m.group(1) or m.group(2) or "").strip()
+            if url:
+                return html_lib.unescape(url)
+    return None
 
 
 def _log_cuerpo_error_gemini(cuerpo_bytes: bytes) -> None:
@@ -269,35 +331,60 @@ def main() -> None:
         return
 
     if not GEMINI_API_KEY:
-        log("AVISO: GEMINI_API_KEY no configurada; se omite el resumen con IA para todos los ítems (build_site.py usará el extracto de RSS como respaldo).")
+        log("AVISO: GEMINI_API_KEY no configurada; se omite el resumen con IA (build_site.py usará el extracto de RSS como respaldo). Igual se busca imagen en la página si el RSS no trajo una.")
+
+    carpeta_fecha = datetime.now(fn.ZONA_GUAYAQUIL).strftime("%Y-%m-%d")
+    ledger_imagenes = fn.cargar_ledger_imagenes()
+    ledger_cambio = False
 
     exitosos = 0
+    con_imagen_extra = 0
     for item in items:
         item["resumen_ia"] = None
         item["resumen_ia_ok"] = False
 
-        if not GEMINI_API_KEY:
-            continue
-
         enlace = item.get("enlace", "")
         titulo = item.get("titulo", "")
+        necesita_imagen = not item.get("imagen_local")
+
+        if not GEMINI_API_KEY and not necesita_imagen:
+            continue  # nada que hacer para este ítem
+
         log(f"Procesando: {titulo[:70]}...")
-
-        texto_completo = extraer_texto_completo(enlace)
-        if not texto_completo:
+        html_pagina = descargar_pagina(enlace)
+        if not html_pagina:
             continue
 
-        resumen = resumir_con_ia(texto_completo, titulo)
-        if not resumen:
-            continue
+        if GEMINI_API_KEY:
+            texto_completo = extraer_texto_de_pagina(html_pagina)
+            if texto_completo:
+                resumen = resumir_con_ia(texto_completo, titulo)
+                if resumen:
+                    item["resumen_ia"] = resumen
+                    item["resumen_ia_ok"] = True
+                    exitosos += 1
+                    log(f"  OK: resumen con IA generado ({len(resumen)} caracteres).")
 
-        item["resumen_ia"] = resumen
-        item["resumen_ia_ok"] = True
-        exitosos += 1
-        log(f"  OK: resumen con IA generado ({len(resumen)} caracteres).")
+        if necesita_imagen:
+            url_imagen = buscar_imagen_pagina(html_pagina)
+            if url_imagen:
+                ruta_local = fn.descargar_imagen(url_imagen, carpeta_fecha, ledger_imagenes)
+                if ruta_local:
+                    item["imagen_local"] = ruta_local
+                    item["imagen_url"] = url_imagen
+                    ledger_cambio = True
+                    con_imagen_extra += 1
+                    log(f"  OK: imagen encontrada en la página y descargada ({ruta_local}).")
+
+    if ledger_cambio:
+        fn.guardar_ledger_imagenes(ledger_imagenes)
 
     guardar_nuevas(items)
-    log(f"Listo: {exitosos}/{len(items)} ítem(s) con resumen de IA; el resto usará el extracto de RSS (Plan B).")
+    log(
+        f"Listo: {exitosos}/{len(items)} ítem(s) con resumen de IA; "
+        f"{con_imagen_extra} con imagen encontrada en la página (el RSS no traía). "
+        "El resto usará el extracto de RSS / ícono de categoría (Plan B)."
+    )
 
 
 if __name__ == "__main__":
