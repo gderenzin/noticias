@@ -347,6 +347,18 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
     url = fuente.get("url", "")
     dominio_declarado = fuente.get("dominio", "")
     idioma = fuente.get("idioma", "en")
+    # Categoría fija (opcional): para fuentes de un solo tema (p.ej. la
+    # sección de Protección de Datos), en vez de inferir la categoría por
+    # palabras clave del título/extracto (ver categorizar() en
+    # build_site.py), se fija directamente acá. Si no se declara, el ítem
+    # no lleva "categoria" y build_site.py sigue infiriéndola como siempre.
+    categoria_fija = fuente.get("categoria")
+    # Filtro de palabras clave (opcional): para fuentes que cubren varios
+    # temas (p.ej. un despacho legal que también publica sobre protección
+    # de datos, pero no solo eso) -- si se declara, un ítem SOLO se
+    # publica si su título o extracto contiene alguna de estas palabras
+    # (sin distinguir mayúsculas/minúsculas); si no, se descarta.
+    filtro_palabras_clave = fuente.get("filtro_palabras_clave") or []
 
     log(f"Procesando fuente: {nombre} ({url})")
 
@@ -404,22 +416,29 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
         contenido_ampliado = extraer_contenido_ampliado(entry, extracto)
         imagen_url = extraer_imagen(entry)
 
-        nuevos.append(
-            {
-                "titulo": titulo.strip(),
-                "fuente": nombre,
-                "idioma": idioma,
-                "url_fuente_feed": url,
-                "dominio_fuente": dominio_declarado,
-                "enlace": link,
-                "guid": guid,
-                "fecha_publicacion_iso": fecha.isoformat(),
-                "fecha_publicacion_original": texto_fecha_original(entry),
-                "extracto_original": extracto,
-                "contenido_ampliado": contenido_ampliado,
-                "imagen_url": imagen_url,
-            }
-        )
+        if filtro_palabras_clave:
+            texto_para_filtro = f"{titulo} {extracto}".lower()
+            if not any(palabra.lower() in texto_para_filtro for palabra in filtro_palabras_clave):
+                log(f"  Descartado por no coincidir con el filtro de palabras clave de '{nombre}': {link}")
+                continue
+
+        item = {
+            "titulo": titulo.strip(),
+            "fuente": nombre,
+            "idioma": idioma,
+            "url_fuente_feed": url,
+            "dominio_fuente": dominio_declarado,
+            "enlace": link,
+            "guid": guid,
+            "fecha_publicacion_iso": fecha.isoformat(),
+            "fecha_publicacion_original": texto_fecha_original(entry),
+            "extracto_original": extracto,
+            "contenido_ampliado": contenido_ampliado,
+            "imagen_url": imagen_url,
+        }
+        if categoria_fija:
+            item["categoria"] = categoria_fija
+        nuevos.append(item)
 
     log(f"  -> {len(nuevos)} ítem(s) nuevo(s) dentro de la ventana de {VENTANA_HORAS}h desde '{nombre}'.")
     return nuevos

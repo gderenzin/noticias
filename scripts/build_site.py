@@ -60,9 +60,19 @@ from texto import acotar_parrafos, fuente_parece_incompleta, primeras_oraciones,
 RAIZ = Path(__file__).resolve().parent.parent
 NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
 PUBLICADAS_JSON = RAIZ / "data" / "publicadas.json"
+# Lista de los últimos N ítems de la sección "Protección de Datos" (ver
+# main() y render_pagina_seccion_proteccion_datos()): a diferencia de
+# site/index.html (que solo muestra la última edición del día), esta
+# sección tiene tan poco volumen que "solo lo de hoy" quedaría casi
+# siempre vacía -- por eso se mantiene esta lista propia, independiente
+# del ciclo diario de ciberseguridad, para que la portada de la sección
+# siempre muestre algo aunque hoy no haya habido ninguna novedad.
+PROTECCION_DATOS_JSON = RAIZ / "data" / "proteccion_datos_recientes.json"
+MAX_RECIENTES_PROTECCION_DATOS = 20
 SITE_DIR = RAIZ / "site"
 ARCHIVO_DIR = SITE_DIR / "archivo"
 NOTICIA_DIR = SITE_DIR / "noticia"
+PROTECCION_DATOS_DIR = SITE_DIR / "proteccion-datos"
 
 LIMITE_RESUMEN_AMPLIADO = 2000  # caracteres; nunca se muestra el artículo completo
 MAX_PARRAFOS_AMPLIADO = 5
@@ -254,6 +264,19 @@ CATEGORIAS = {
             "</svg>"
         ),
     },
+    # Categoría de la sección "Protección de Datos" (site/proteccion-datos/) --
+    # a propósito con "palabras": [] y SIN entrar en ORDEN_CATEGORIAS: nunca se
+    # asigna por coincidencia de palabras clave en una noticia de ciberseguridad
+    # (evitaría falsos positivos, p.ej. un artículo que solo MENCIONA "datos
+    # personales" de paso). Solo se asigna cuando el ítem ya trae
+    # item["categoria"] == "proteccion_datos" fijado por feeds.yaml (ver
+    # categorizar() más abajo) -- es decir, únicamente para las fuentes de esa
+    # sección (dpoec.com, CorralRosales, SPDP).
+    "proteccion_datos": {
+        "etiqueta": "Protección de Datos",
+        "color": "#0e7490",
+        "palabras": [],
+    },
 }
 
 GENERICO = {
@@ -273,10 +296,17 @@ ORDEN_CATEGORIAS = ["ransomware", "phishing", "filtracion_datos", "vulnerabilida
 
 
 def categorizar(item: dict) -> str:
-    """Clasifica la noticia por palabras clave en el texto ORIGINAL (sin
-    traducir) del título+extracto, para no depender de la calidad de la
-    traducción. Nunca inventa una categoría que no se deduzca del texto; si
-    no coincide ninguna, usa la categoría genérica."""
+    """Clasifica la noticia. Si el ítem ya trae una categoría FIJA (ver
+    feeds.yaml: campo "categoria", usado por fuentes de un solo tema como
+    la sección de Protección de Datos), se respeta tal cual -- nunca se
+    reemplaza por una inferida de palabras clave. Si no, se clasifica por
+    palabras clave en el texto ORIGINAL (sin traducir) del título+extracto,
+    para no depender de la calidad de la traducción; si no coincide
+    ninguna, usa la categoría genérica de ciberseguridad."""
+    categoria_fija = item.get("categoria")
+    if categoria_fija in CATEGORIAS:
+        return categoria_fija
+
     texto = f"{item.get('titulo', '')} {item.get('extracto_original', '')}".lower()
     for cat in ORDEN_CATEGORIAS:
         for palabra in CATEGORIAS[cat]["palabras"]:
@@ -311,6 +341,22 @@ def guardar_publicadas(datos: dict) -> None:
     PUBLICADAS_JSON.parent.mkdir(parents=True, exist_ok=True)
     with open(PUBLICADAS_JSON, "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False, indent=2)
+
+
+def cargar_recientes_proteccion_datos() -> list[dict]:
+    if not PROTECCION_DATOS_JSON.exists():
+        return []
+    try:
+        with open(PROTECCION_DATOS_JSON, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def guardar_recientes_proteccion_datos(items: list[dict]) -> None:
+    PROTECCION_DATOS_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with open(PROTECCION_DATOS_JSON, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
 
 
 def slugificar(texto: str, maximo: int = 60) -> str:
@@ -827,14 +873,21 @@ FUENTES_MONITOREADAS = "The Hacker News, BleepingComputer, Krebs on Security, Da
 
 
 def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
-    """`prefijo`: '' en site/index.html, '../' en site/archivo/*.html.
-    `pagina_actual`: 'portada' o 'archivo', para resaltar el link activo."""
+    """`prefijo`: '' en site/index.html, '../' en cualquier página un nivel
+    adentro (site/archivo/*.html, site/noticia/*.html,
+    site/proteccion-datos/index.html). `pagina_actual`: 'portada', 'archivo',
+    'noticia' o 'proteccion_datos', para resaltar el link activo.
+
+    Los links a "Archivo" y "Protección de Datos" usan ruta ABSOLUTA desde
+    la raíz del sitio (no relativa a `prefijo`), porque apuntan a un
+    directorio HERMANO del actual, no al padre -- con solo `prefijo` no hay
+    forma de distinguir "estoy en site/archivo/" de "estoy en
+    site/noticia/" (ambos tienen prefijo="../"). Antes de este cambio,
+    "Archivo" resolvía mal desde site/noticia/*.html (apuntaba a
+    site/noticia/index.html, que no existe -> 404)."""
     nav_portada_clase = ' class="activo"' if pagina_actual == "portada" else ""
     nav_archivo_clase = ' class="activo"' if pagina_actual == "archivo" else ""
-    # El link "Archivo" apunta a site/archivo/index.html. Desde site/index.html
-    # eso es "archivo/index.html"; desde dentro de site/archivo/ (donde viven
-    # tanto el índice de archivo como cada día) es simplemente "index.html".
-    href_archivo = "index.html" if prefijo == "../" else f"{prefijo}archivo/index.html"
+    nav_proteccion_clase = ' class="activo"' if pagina_actual == "proteccion_datos" else ""
     return f"""  <header class="cabecera">
     <div class="cabecera-contenido">
       <div class="marca">
@@ -850,7 +903,8 @@ def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
       <p class="subtitulo">{escape(subtitulo)}</p>
       <nav class="nav">
         <a href="{prefijo}index.html"{nav_portada_clase}>Inicio</a>
-        <a href="{href_archivo}"{nav_archivo_clase}>Archivo</a>
+        <a href="/archivo/index.html"{nav_archivo_clase}>Archivo</a>
+        <a href="/proteccion-datos/index.html"{nav_proteccion_clase}>Protección de Datos</a>
       </nav>
     </div>
   </header>
@@ -977,6 +1031,58 @@ def render_archivo_index(dias: list[str]) -> str:
 """
 
 
+BLOQUE_FUENTE_OFICIAL_SPDP = """    <aside class="fuente-oficial">
+      <h2 class="fuente-oficial-titulo">Fuente oficial</h2>
+      <p class="fuente-oficial-nombre">Superintendencia de Protección de Datos Personales (SPDP)</p>
+      <p class="fuente-oficial-texto">Ente rector de la Ley Orgánica de Protección de Datos Personales (LOPDP) en Ecuador. Consulta directamente sus boletines y resoluciones oficiales.</p>
+      <a class="fuente-oficial-cta" href="https://spdp.gob.ec/prensa/" target="_blank" rel="noopener noreferrer">Ver boletines de prensa de la SPDP ↗</a>
+    </aside>
+"""
+
+
+def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, imagen_og: str) -> str:
+    """Portada propia de la sección "Protección de Datos" (site/proteccion-datos/index.html).
+
+    A diferencia de site/index.html (que solo refleja la última edición del
+    día de ciberseguridad), esta página se reconstruye cada vez que corre
+    build_site.py a partir de data/proteccion_datos_recientes.json -- una
+    lista propia de los últimos ítems de esta sección, independiente del
+    ciclo diario -- para que siempre muestre contenido reciente aunque hoy
+    no haya habido ninguna noticia nueva de esta sección en particular.
+
+    Siempre incluye, además de las noticias, un bloque fijo "Fuente
+    oficial" con el enlace directo a la Superintendencia de Protección de
+    Datos Personales (SPDP) -- el ente rector de la LOPDP en Ecuador --
+    visible aunque su propio feed RSS todavía no aporte contenido (ver
+    feeds.yaml)."""
+    titulo_pagina = "Protección de Datos — Periódico de Ciberseguridad"
+    subtitulo = "Sección de Protección de Datos"
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{escape(titulo_pagina)}</title>
+{render_meta_seo(titulo_pagina, descripcion, "proteccion-datos/index.html", imagen_og)}
+  <link rel="icon" href="../assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+{render_cabecera(subtitulo, "../", "proteccion_datos")}
+  <main class="contenido portada">
+    <h1 class="sr-only">{escape(titulo_pagina)}</h1>
+{BLOQUE_FUENTE_OFICIAL_SPDP}{items_html}
+  </main>
+
+{render_pie("../")}
+</body>
+</html>
+"""
+
+
 def generar_sitemap() -> None:
     """Escanea site/ (no solo lo publicado hoy) y regenera sitemap.xml con
     todas las páginas: portada, índice de archivo, cada día archivado y cada
@@ -998,6 +1104,8 @@ def generar_sitemap() -> None:
     for p in sorted(ARCHIVO_DIR.glob("*.html")):
         if p.stem != "index":
             agregar(f"archivo/{p.name}", p)
+    if (PROTECCION_DATOS_DIR / "index.html").exists():
+        agregar("proteccion-datos/index.html", PROTECCION_DATOS_DIR / "index.html")
     for p in sorted(NOTICIA_DIR.glob("*.html")):
         agregar(f"noticia/{p.name}", p)
 
@@ -1013,6 +1121,34 @@ def generar_sitemap() -> None:
     with open(SITE_DIR / "sitemap.xml", "w", encoding="utf-8") as f:
         f.write(contenido)
     log(f"Escrito {SITE_DIR / 'sitemap.xml'} ({len(entradas)} URL(s)).")
+
+
+def _es_proteccion_datos(item: dict) -> bool:
+    return item.get("categoria") == "proteccion_datos"
+
+
+def _renderizar_grid(items: list[dict], rutas_noticia: dict[str, str]) -> str:
+    """Arma el HTML de una destacada + cuadrícula a partir de una lista de
+    ítems (ya ordenada, más reciente primero) -- usado tanto para la
+    edición de ciberseguridad del día como para la sección de Protección de
+    Datos. Devuelve cadena vacía si `items` está vacía (quien llama decide
+    qué mostrar en ese caso)."""
+    if not items:
+        return ""
+    destacada_html = render_tarjeta_html(items[0], rutas_noticia[items[0]["enlace"]], es_destacada=True)
+    tarjetas_html = "".join(
+        render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in items[1:]
+    )
+    titulo_seccion = '    <h2 class="seccion-titulo">Últimas noticias</h2>\n' if items[1:] else ""
+    return (
+        destacada_html
+        + titulo_seccion
+        + f"""
+    <div class="grid-noticias">
+{tarjetas_html}    </div>
+    <!-- FIN-GRID -->
+"""
+    )
 
 
 def main() -> None:
@@ -1035,7 +1171,9 @@ def main() -> None:
     # Cada noticia tiene su propia página de detalle dentro del sitio
     # (site/noticia/AAAA-MM-DD-slug-hash.html); todos los enlaces de portada,
     # cuadrícula y archivo apuntan ahí — no directo a la fuente externa (esa
-    # solo aparece al pie de la página de detalle).
+    # solo aparece al pie de la página de detalle). Esto aplica por igual a
+    # las dos secciones del sitio (ciberseguridad y Protección de Datos) --
+    # ambas comparten la misma plantilla/carpeta de detalle.
     NOTICIA_DIR.mkdir(parents=True, exist_ok=True)
     rutas_noticia: dict[str, str] = {}
     for item in nuevos:
@@ -1046,77 +1184,124 @@ def main() -> None:
             f.write(pagina_noticia)
     log(f"Generadas {len(rutas_noticia)} página(s) de detalle en {NOTICIA_DIR}.")
 
-    # La noticia más reciente va destacada arriba en grande; el resto forma
-    # la cuadrícula de tarjetas debajo (ver render_tarjeta_html).
-    destacada_html = render_tarjeta_html(nuevos[0], rutas_noticia[nuevos[0]["enlace"]], es_destacada=True)
-    tarjetas_html = "".join(
-        render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos[1:]
-    )
-    titulo_seccion = '    <h2 class="seccion-titulo">Últimas noticias</h2>\n' if nuevos[1:] else ""
-    items_html = (
-        destacada_html
-        + titulo_seccion
-        + f"""
-    <div class="grid-noticias">
-{tarjetas_html}    </div>
-    <!-- FIN-GRID -->
-"""
-    )
+    # A partir de acá, cada sección se procesa por separado: la portada y el
+    # archivo de ciberseguridad NUNCA mezclan noticias de Protección de
+    # Datos (y viceversa) -- son dos secciones del mismo sitio, no una lista
+    # única.
+    nuevos_ciber = [item for item in nuevos if not _es_proteccion_datos(item)]
+    nuevos_proteccion = [item for item in nuevos if _es_proteccion_datos(item)]
 
-    # Descripción/imagen para SEO y Open Graph de portada y archivo del día:
-    # se basan en la noticia destacada (la más reciente), o en el logo si esa
-    # noticia no tiene imagen propia.
-    descripcion_edicion = (
-        f"Titulares de ciberseguridad del {fecha_legible(ahora_gye)}, agregados de fuentes públicas "
-        "verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). "
-        "Un proyecto de DERENZIN S.A.S."
-    )
-    imagen_og_edicion = nuevos[0].get("imagen_local") or "/assets/logo-derenzin.png"
-
-    # 1. Portada (index.html)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
-    index_html = render_pagina_index(
-        "Periódico de Ciberseguridad — Portada", subtitulo, items_html, descripcion_edicion, imagen_og_edicion
-    )
-    with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
-        f.write(index_html)
-    log(f"Escrito {SITE_DIR / 'index.html'}")
 
-    # 2. Página de archivo del día
-    ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
-    pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html, descripcion_edicion, imagen_og_edicion)
-    ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
-    if ruta_dia.exists():
-        # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): la
-        # noticia destacada de esa primera edición se queda como está, y las
-        # nuevas se anexan como tarjetas adicionales al final de la
-        # cuadrícula existente — no se sobreescribe lo ya publicado.
-        anterior = ruta_dia.read_text(encoding="utf-8")
-        marcador_fin_grid = "    <!-- FIN-GRID -->\n"
-        if marcador_fin_grid in anterior:
-            tarjetas_nuevas_html = "".join(
-                render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos
-            )
-            anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
-            ruta_dia.write_text(anterior, encoding="utf-8")
-            log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos a la cuadrícula).")
+    if nuevos_ciber:
+        # La noticia más reciente va destacada arriba en grande; el resto
+        # forma la cuadrícula de tarjetas debajo.
+        items_html = _renderizar_grid(nuevos_ciber, rutas_noticia)
+
+        # Descripción/imagen para SEO y Open Graph de portada y archivo del
+        # día: se basan en la noticia destacada (la más reciente), o en el
+        # logo si esa noticia no tiene imagen propia.
+        descripcion_edicion = (
+            f"Titulares de ciberseguridad del {fecha_legible(ahora_gye)}, agregados de fuentes públicas "
+            "verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). "
+            "Un proyecto de DERENZIN S.A.S."
+        )
+        imagen_og_edicion = nuevos_ciber[0].get("imagen_local") or "/assets/logo-derenzin.png"
+
+        # 1. Portada (index.html)
+        index_html = render_pagina_index(
+            "Periódico de Ciberseguridad — Portada", subtitulo, items_html, descripcion_edicion, imagen_og_edicion
+        )
+        with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
+            f.write(index_html)
+        log(f"Escrito {SITE_DIR / 'index.html'}")
+
+        # 2. Página de archivo del día (solo ciberseguridad)
+        ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
+        pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html, descripcion_edicion, imagen_og_edicion)
+        ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
+        if ruta_dia.exists():
+            # Ya hubo una edición hoy (p.ej. se corrió manualmente dos veces): la
+            # noticia destacada de esa primera edición se queda como está, y las
+            # nuevas se anexan como tarjetas adicionales al final de la
+            # cuadrícula existente — no se sobreescribe lo ya publicado.
+            anterior = ruta_dia.read_text(encoding="utf-8")
+            marcador_fin_grid = "    <!-- FIN-GRID -->\n"
+            if marcador_fin_grid in anterior:
+                tarjetas_nuevas_html = "".join(
+                    render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos_ciber
+                )
+                anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
+                ruta_dia.write_text(anterior, encoding="utf-8")
+                log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos a la cuadrícula).")
+            else:
+                ruta_dia.write_text(pagina_dia, encoding="utf-8")
+                log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura; probablemente tenía el diseño anterior).")
         else:
             ruta_dia.write_text(pagina_dia, encoding="utf-8")
-            log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura; probablemente tenía el diseño anterior).")
+            log(f"Escrito {ruta_dia}")
     else:
-        ruta_dia.write_text(pagina_dia, encoding="utf-8")
-        log(f"Escrito {ruta_dia}")
+        log("Sin noticias nuevas de ciberseguridad hoy: index.html y el archivo del día no se tocan.")
 
-    # 3. Índice de archivo
+    # 3. Índice de archivo (siempre, es barato y solo escanea lo ya existente)
+    ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
     dias_existentes = sorted({p.stem for p in ARCHIVO_DIR.glob("*.html") if p.stem != "index"})
     with open(ARCHIVO_DIR / "index.html", "w", encoding="utf-8") as f:
         f.write(render_archivo_index(dias_existentes))
     log(f"Escrito {ARCHIVO_DIR / 'index.html'} ({len(dias_existentes)} edición/ediciones listadas)")
 
-    # 4. Sitemap (para buscadores) — se regenera completo cada vez que hay publicación
+    # 4. Sección "Protección de Datos": a diferencia de la portada de
+    # ciberseguridad, esta se reconstruye SIEMPRE (aunque hoy no haya
+    # novedades de esta sección) a partir de una lista propia de los
+    # últimos ítems -- ver PROTECCION_DATOS_JSON -- para que la página
+    # nunca quede vacía solo porque hoy no salió nada nuevo de esta
+    # sección en particular, y siempre muestre el bloque de la SPDP.
+    recientes_proteccion = cargar_recientes_proteccion_datos()
+    if nuevos_proteccion:
+        # Se guarda también la ruta de detalle ya asignada (rutas_noticia),
+        # para no tener que re-derivarla en runs futuros -- nombre_archivo_noticia()
+        # usa fecha_str (el día del RUN, no el de publicación del artículo),
+        # así que recalcularla más adelante con la fecha de publicación del
+        # ítem daría una ruta distinta a la que realmente se escribió.
+        for item in nuevos_proteccion:
+            item["ruta_noticia"] = rutas_noticia[item["enlace"]]
+        # Los nuevos van primero (más recientes), sin duplicar por enlace.
+        enlaces_nuevos = {item["enlace"] for item in nuevos_proteccion}
+        recientes_proteccion = nuevos_proteccion + [
+            item for item in recientes_proteccion if item["enlace"] not in enlaces_nuevos
+        ]
+        recientes_proteccion = recientes_proteccion[:MAX_RECIENTES_PROTECCION_DATOS]
+        guardar_recientes_proteccion_datos(recientes_proteccion)
+        log(f"{len(nuevos_proteccion)} noticia(s) nueva(s) de Protección de Datos; lista reciente ahora tiene {len(recientes_proteccion)}.")
+
+    PROTECCION_DATOS_DIR.mkdir(parents=True, exist_ok=True)
+    rutas_proteccion = {item["enlace"]: item["ruta_noticia"] for item in recientes_proteccion}
+
+    if recientes_proteccion:
+        items_html_proteccion = _renderizar_grid(recientes_proteccion, rutas_proteccion)
+        descripcion_proteccion = (
+            "Noticias y novedades sobre protección de datos personales y la LOPDP en "
+            "Ecuador, agregadas de fuentes públicas verificadas. Un proyecto de DERENZIN S.A.S."
+        )
+        imagen_og_proteccion = recientes_proteccion[0].get("imagen_local") or "/assets/logo-derenzin.png"
+    else:
+        items_html_proteccion = '    <p class="sin-noticias">Todavía no hay noticias publicadas en esta sección.</p>\n'
+        descripcion_proteccion = (
+            "Sección de protección de datos personales y la LOPDP en Ecuador. "
+            "Un proyecto de DERENZIN S.A.S."
+        )
+        imagen_og_proteccion = "/assets/logo-derenzin.png"
+
+    pagina_proteccion = render_pagina_seccion_proteccion_datos(items_html_proteccion, descripcion_proteccion, imagen_og_proteccion)
+    with open(PROTECCION_DATOS_DIR / "index.html", "w", encoding="utf-8") as f:
+        f.write(pagina_proteccion)
+    log(f"Escrito {PROTECCION_DATOS_DIR / 'index.html'} ({len(recientes_proteccion)} noticia(s) en la sección).")
+
+    # 5. Sitemap (para buscadores) — se regenera completo cada vez que hay publicación
     generar_sitemap()
 
-    # 5. Ledger de publicadas
+    # 6. Ledger de publicadas (unificado: ambas secciones comparten el mismo
+    # ledger, para no duplicar noticias en ninguna de las dos)
     publicadas = cargar_publicadas()
     urls = publicadas.setdefault("urls", {})
     for item in nuevos:
@@ -1131,7 +1316,7 @@ def main() -> None:
     guardar_publicadas(publicadas)
     log(f"Ledger actualizado: {PUBLICADAS_JSON} ahora tiene {len(urls)} URL(s) registradas.")
 
-    log(f"Listo: {len(nuevos)} noticia(s) publicada(s) en la edición del {fecha_str}.")
+    log(f"Listo: {len(nuevos)} noticia(s) publicada(s) el {fecha_str} ({len(nuevos_ciber)} ciberseguridad, {len(nuevos_proteccion)} protección de datos).")
 
 
 if __name__ == "__main__":

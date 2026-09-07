@@ -84,6 +84,61 @@ coincidente".
 
 ---
 
+## Segunda sección: Protección de Datos (site/proteccion-datos/)
+
+El mismo sitio tiene una segunda sección, independiente de ciberseguridad,
+sobre protección de datos personales y la LOPDP en Ecuador — reutiliza toda
+la infraestructura existente (plantillas, ledger de deduplicación, botones
+de compartir, traducción/no-traducción, SEO) en vez de ser un sitio aparte.
+
+**Fuentes** (`feeds.yaml`, con `categoria: proteccion_datos`):
+- **dpoec.com** — blog especializado en protección de datos en Ecuador.
+- **CorralRosales** — despacho legal generalista; como cubre muchos temas
+  (minería, laboral, tributario...), se declara `filtro_palabras_clave`
+  (protección de datos, LOPDP, DPD, DPO, etc.) y **solo se publican sus
+  ítems que mencionen alguna de esas palabras** — el resto se descarta en
+  `fetch_news.py`, nunca se publica contenido fuera de tema.
+- **Superintendencia de Protección de Datos Personales (SPDP)** — el ente
+  rector de la LOPDP en Ecuador. Su feed existe pero está vacío ahora mismo
+  (confirmado: 0 ítems); se declaró `opcional: true` para que se autoactive
+  sola el día que empiece a publicar, sin romper nada mientras tanto.
+  Mientras tanto, la sección siempre muestra un bloque fijo **"Fuente
+  oficial"** con su nombre, una descripción y el enlace directo a
+  `spdp.gob.ec/prensa/` — así el ente rector queda visible y accesible
+  aunque su RSS no aporte contenido todavía.
+
+**Cómo se integra** (todo en `scripts/build_site.py` salvo que se diga otra cosa):
+- `categorizar()` respeta la categoría fija que trae el ítem (`item["categoria"]`,
+  puesta por `fetch_news.py` según `feeds.yaml`) en vez de inferirla por
+  palabras clave — así nunca se confunde con ninguna de las 6 categorías de
+  ciberseguridad. Ícono propio: `site/assets/iconos/proteccion_datos.svg`
+  (escudo con candado), color `#0e7490`.
+- Como estas fuentes ya están en español (`idioma: es`), **no pasan por la
+  traducción de DeepL** — mismo mecanismo que ya usa WeLiveSecurity/INCIBE.
+- La sección tiene **su propia portada** (`site/proteccion-datos/index.html`)
+  con la misma plantilla de tarjetas/destacada que la portada de
+  ciberseguridad, y un link propio en la navegación de TODAS las páginas
+  del sitio. A diferencia de `site/index.html` (que solo refleja la última
+  edición del día), esta portada se reconstruye a partir de
+  `data/proteccion_datos_recientes.json` — una lista propia de los últimos
+  20 ítems, independiente del ciclo diario — para que nunca quede vacía
+  solo porque hoy no salió nada nuevo *de esta sección en particular*
+  (el volumen es bajo; puede pasar días sin novedades).
+- El archivo por día (`site/archivo/AAAA-MM-DD.html`) sigue siendo solo de
+  ciberseguridad — las noticias de Protección de Datos no se mezclan ahí,
+  solo viven en su propia portada + su propia página de detalle.
+- Ledger, sitemap.xml y robots.txt son compartidos (una sola lista de
+  deduplicación para todo el sitio; el sitemap incluye la nueva portada;
+  robots.txt ya permite todo el sitio sin cambios).
+- **Corrigió de paso un bug real** en la navegación: el link "Archivo" desde
+  cualquier página de detalle (`site/noticia/*.html`) apuntaba mal (a
+  `site/noticia/index.html`, que no existe → 404) porque se calculaba de
+  forma relativa a la carpeta actual; ahora "Archivo" y "Protección de
+  Datos" usan ruta absoluta desde la raíz del sitio, que funciona igual sin
+  importar desde qué carpeta se enlace.
+
+---
+
 ## Estructura del repositorio
 
 ```
@@ -96,7 +151,10 @@ site/assets/compartir.js         Botón "Copiar enlace" de los botones de compar
 data/publicadas.json             Ledger de URLs ya publicadas (para no duplicar)
 data/imagenes_descargadas.json   Ledger de imágenes ya descargadas (URL original -> ruta local)
 data/nuevas_hoy.json             Archivo transitorio (no se versiona, ver .gitignore)
+data/proteccion_datos_recientes.json  Últimos N ítems de la sección Protección de Datos (ver esa sección arriba)
 site/index.html                  Portada con la edición más reciente
+site/proteccion-datos/index.html Portada de la sección Protección de Datos (ver esa sección arriba)
+site/assets/iconos/proteccion_datos.svg  Ícono de esa sección (escudo con candado)
 site/style.css                   CSS propio (sin frameworks ni CDNs, salvo Google Fonts)
 site/assets/logo-derenzin.png    Logo real de derenzin.com (mismo archivo, sin modificar)
 site/assets/favicon.png          Favicon (mismo archivo que usa derenzin.com)

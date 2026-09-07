@@ -12,10 +12,23 @@
 #               para "The Hacker News" el feed se sirve vía Feedburner, pero los
 #               artículos enlazan a thehackernews.com — por eso el dominio de
 #               verificación es el del artículo, no el del feed.
-#   idioma   -> "en" o "es", solo informativo (se usa para avisar en el sitio
-#               cuando el contenido original no está en español)
+#   idioma   -> "en" o "es". Además de ser informativo, si es "es" el sitio
+#               NO manda el título/extracto a traducir con DeepL (ya está en
+#               español) -- ver preparar_texto_mostrado() en build_site.py.
 #   opcional -> si es "true" y el feed falla la validación, se elimina de esta
 #               lista y se documenta en README.md en vez de romper el proceso
+#   categoria -> (opcional) fija la categoría de TODOS los ítems de esta
+#               fuente directamente, en vez de inferirla por palabras clave
+#               del título/extracto (ver categorizar() en build_site.py).
+#               Se usa para fuentes de un solo tema, como la sección de
+#               Protección de Datos (categoria: proteccion_datos).
+#   filtro_palabras_clave -> (opcional) lista de palabras/frases; si se
+#               declara, un ítem de esta fuente SOLO se publica si su
+#               título o extracto contiene alguna de ellas (sin distinguir
+#               mayúsculas/minúsculas) -- para fuentes que cubren varios
+#               temas y de las que solo interesa una parte (p.ej. un
+#               despacho legal generalista del que solo se quiere lo
+#               referido a protección de datos).
 
 fuentes:
   - nombre: "The Hacker News"
@@ -48,3 +61,42 @@ fuentes:
     dominio: "incibe.es"
     idioma: es
     opcional: true
+
+  # --- Sección "Protección de Datos" (ver README: "Segunda sección...") ---
+
+  - nombre: "dpoec.com"
+    url: "https://dpoec.com/feed/"
+    dominio: "dpoec.com"
+    idioma: es
+    categoria: proteccion_datos
+
+  - nombre: "CorralRosales"
+    url: "https://corralrosales.com/feed/"
+    dominio: "corralrosales.com"
+    idioma: es
+    categoria: proteccion_datos
+    # CorralRosales es un despacho legal generalista (cubre minería, laboral,
+    # tributario, etc.) -- solo se publican sus ítems que mencionen protección
+    # de datos; el resto se descarta (ver filtro_palabras_clave en fetch_news.py).
+    filtro_palabras_clave:
+      - "protección de datos"
+      - "proteccion de datos"
+      - "datos personales"
+      - "LOPDP"
+      - "privacidad"
+      - "DPD"
+      - "DPO"
+
+  - nombre: "Superintendencia de Protección de Datos Personales (SPDP)"
+    url: "https://spdp.gob.ec/prensa/feed/"
+    dominio: "spdp.gob.ec"
+    idioma: es
+    categoria: proteccion_datos
+    opcional: true
+    # El ente rector de la LOPDP en Ecuador -- su feed existe pero está
+    # vacío por ahora (confirmado: 0 ítems). Se deja "opcional" para que se
+    # autoactive sola el día que empiece a publicar, sin romper nada
+    # mientras tanto. Mientras esté vacía, el sitio igual muestra un bloque
+    # fijo "Fuente oficial" con el enlace directo a su sitio de prensa (ver
+    # render_pagina_seccion_proteccion_datos() en build_site.py) -- así el
+    # ente rector queda siempre visible aunque su RSS no aporte contenido.
