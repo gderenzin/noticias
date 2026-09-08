@@ -678,13 +678,23 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
     fuente = escape(item["fuente"])
     badge = render_badge_categoria(categoria)
     clase_extra = " noticia-imagen--destacada" if destacada else ""
+    # La imagen destacada/principal (portada, cada archivo del día, y el
+    # hero de la propia página de detalle) es la primera imagen de la
+    # página -- above the fold. Con loading="lazy" el navegador demora en
+    # empezar a pintarla, dejando ver por un momento el fondo del
+    # contenedor con el texto "Imagen: X" encima (se veía como si la
+    # imagen no llenara el recuadro, pero era nada más una demora de
+    # carga, no un problema de CSS/object-fit). Las tarjetas del grid
+    # (fuera de la vista inicial) siguen con loading="lazy" -- ahí sí
+    # corresponde.
+    carga_imagen = 'loading="eager" fetchpriority="high"' if destacada else 'loading="lazy"'
 
     if ruta_imagen:
         alt = escape(titulo_mostrar, quote=True)
         src = escape(ruta_imagen, quote=True)
         return f"""      <figure class="noticia-imagen{clase_extra}">
         {badge}
-        <img src="{src}" alt="{alt}" loading="lazy" decoding="async">
+        <img src="{src}" alt="{alt}" {carga_imagen} decoding="async">
         <figcaption>Imagen: {fuente}</figcaption>
       </figure>
 """
@@ -700,7 +710,7 @@ def render_imagen_html(item: dict, categoria: str, titulo_mostrar: str, destacad
         {badge}
         <span class="badge-ilustrativo" title="Esta imagen es un ícono ilustrativo, no una foto real del hecho">Ilustrativo</span>
         <div class="icono-generico-fondo">
-          <img class="icono-generico" src="/assets/iconos/{categoria}.svg" alt="{alt_icono}" loading="lazy" decoding="async">
+          <img class="icono-generico" src="/assets/iconos/{categoria}.svg" alt="{alt_icono}" {carga_imagen} decoding="async">
         </div>
       </figure>
 """
