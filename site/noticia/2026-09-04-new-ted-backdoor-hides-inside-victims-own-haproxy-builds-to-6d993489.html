@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>New Ted Backdoor Hides Inside Victims&#x27; Own HAProxy Builds to Intercept Web Traffic — Periódico de Ciberseguridad</title>
-  <meta name="description" content="A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it…">
+  <meta name="description" content="Se ha descubierto un conjunto de herramientas para Linux que opera oculto dentro de versiones modificadas de los equilibradores de carga HAProxy en dos…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-04-new-ted-backdoor-hides-inside-victims-own-haproxy-builds-to-6d993489.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="New Ted Backdoor Hides Inside Victims&#x27; Own HAProxy Builds to Intercept Web Traffic — Periódico de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it…">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — Se ha descubierto un conjunto de herramientas para Linux que opera oculto dentro de versiones modificadas de los equilibradores de carga HAProxy en dos…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-04-new-ted-backdoor-hides-inside-victims-own-haproxy-builds-to-6d993489.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/724655551338baeae775.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="New Ted Backdoor Hides Inside Victims&#x27; Own HAProxy Builds to Intercept Web Traffic — Periódico de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it…">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Se ha descubierto un conjunto de herramientas para Linux que opera oculto dentro de versiones modificadas de los equilibradores de carga HAProxy en dos…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/724655551338baeae775.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -54,7 +54,7 @@
       <div class="noticia-meta">
         <span class="fuente">Fuente: <a href="https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html" target="_blank" rel="noopener noreferrer">The Hacker News</a></span>
         <span class="fecha">Publicado: 04/09/2026 · 14:51 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original). Resumen parcial: la fuente no incluye más detalle en su RSS; lee la noticia completa en la fuente.</span>
+        <span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto. No se pudo traducir el título automáticamente (se muestra el original).</span><span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto.</span>
       </div>
       <div class="compartir">
         <span class="compartir-etiqueta">Compartir:</span>
@@ -76,7 +76,9 @@
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors. The attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host…</p>
+        <p>Se ha descubierto un conjunto de herramientas para Linux que opera oculto dentro de versiones modificadas de los equilibradores de carga HAProxy en dos entidades de Corea del Sur, pertenecientes a los sectores de medios y automotriz. Esta amenaza, denominada &quot;ted&quot; por sus creadores en cadenas de depuración, no explota vulnerabilidades del propio software, sino que requiere que los atacantes tengan ejecución de código en el sistema afectado para reemplazar el binario en ejecución. Las comunicaciones de comando y control están diseñadas para no llegar a los servidores de backend ni dejar rastro en los contadores y registros de estadísticas del equilibrador.</p>
+        <p>El implante filtra las peticiones mediante una ruta específica de imagen y permite realizar diversas acciones como cargar y descargar archivos, ejecutar comandos de shell y actualizar su configuración, además de modificar el contenido y la longitud de las respuestas web enviadas a visitantes seleccionados. Las conexiones se ocultan manipulando los contadores del sistema y utilizando un encabezado estándar para simular tráfico web legítimo. Asimismo, el kit incluye componentes adicionales que recopilan contraseñas de manera cifrada, ocultan rastros eliminando palabras clave del historial de comandos y de registros del sistema, y operan junto a un troyano de acceso remoto que requiere la presencia de un entorno virtualizado.</p>
+        <p>Los investigadores atribuyen esta actividad con confianza media a actores financiados por el estado norcoreano, vinculando la infraestructura a través de distintas fuentes públicas y campañas previas observadas en la región. Dado que la técnica se basa en la sustitución de archivos binarios legítimos y no en fallas del software, las actualizaciones convencionales no eliminan la amenaza por sí solas, por lo que se aconseja implementar análisis de comportamiento en memoria, correlación de red y verificaciones de integridad.</p>
       </div>
     </article>
   </main>

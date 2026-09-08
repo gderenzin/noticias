@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coder&#x27;s registry infrastructure compromised to push malicious modules — Periódico de Ciberseguridad</title>
-  <meta name="description" content="Attackers compromised Coder&#x27;s Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing…">
+  <meta name="description" content="Un atacante logró vulnerar la infraestructura de Cloudflare perteneciente a Coder, introduciendo servidores de registro no autorizados que distribuyeron…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-03-coder-s-registry-infrastructure-compromised-to-push-maliciou-4db1e04a.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="Coder&#x27;s registry infrastructure compromised to push malicious modules — Periódico de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — Attackers compromised Coder&#x27;s Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing…">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — Un atacante logró vulnerar la infraestructura de Cloudflare perteneciente a Coder, introduciendo servidores de registro no autorizados que distribuyeron…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-03-coder-s-registry-infrastructure-compromised-to-push-maliciou-4db1e04a.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/7c0223189f0b267abc22.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Coder&#x27;s registry infrastructure compromised to push malicious modules — Periódico de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Attackers compromised Coder&#x27;s Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing…">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Un atacante logró vulnerar la infraestructura de Cloudflare perteneciente a Coder, introduciendo servidores de registro no autorizados que distribuyeron…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/7c0223189f0b267abc22.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -54,7 +54,7 @@
       <div class="noticia-meta">
         <span class="fuente">Fuente: <a href="https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/" target="_blank" rel="noopener noreferrer">BleepingComputer</a></span>
         <span class="fecha">Publicado: 03/09/2026 · 16:04 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original).</span>
+        <span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto. No se pudo traducir el título automáticamente (se muestra el original).</span><span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto.</span>
       </div>
       <div class="compartir">
         <span class="compartir-etiqueta">Compartir:</span>
@@ -76,7 +76,9 @@
         <figcaption>Imagen: BleepingComputer</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>Attackers compromised Coder&#x27;s Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code.</p>
+        <p>Un atacante logró vulnerar la infraestructura de Cloudflare perteneciente a Coder, introduciendo servidores de registro no autorizados que distribuyeron módulos de Terraform maliciosos equipados con código diseñado para robar credenciales. Coder ofrece entornos de desarrollo en la nube seguros y autoalojados que son utilizados por diversas entidades privadas y gubernamentales, entre las que se encuentran agencias de defensa de Estados Unidos, Dropbox, Palantir, Square, Mercedes-Benz, KKR y EnBW.</p>
+        <p>El incidente afectó específicamente al sitio de hospedaje de paquetes del proyecto, utilizado por los desarrolladores para obtener componentes destinados a sus plantillas de espacio de trabajo. A pesar de que el registro funciona detrás de Cloudflare, el responsable logró acceder a la infraestructura subyacente e integrar direcciones IP no autorizadas en el grupo del registro. Esto provocó que Cloudflare desviara ciertas solicitudes hacia los equipos controlados por el atacante en lugar de utilizar los servidores legítimos.</p>
+        <p>Los archivos peligrosos fueron distribuidos durante un intervalo determinado de un lunes, específicamente entre las horas iniciales y finales notificadas en el aviso oficial, y consistieron en versiones modificadas de módulos de Terraform. Una vez instalados en los equipos afectados, estos elementos operaron como ladrones de información para buscar y extraer datos sensibles como claves de API de herramientas de infraestructura en la nube e inteligencia artificial, credenciales de integración y despliegue continuo, variables de entorno, tokens, llaves SSH y secretos de configuración. La información recabada fue enviada a un dominio de apariencia similar.</p>
       </div>
     </article>
   </main>

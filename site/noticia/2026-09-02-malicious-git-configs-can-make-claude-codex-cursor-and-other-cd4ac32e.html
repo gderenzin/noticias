@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code — Periódico de Ciberseguridad</title>
-  <meta name="description" content="Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&#x27;s own Git configuration names a command…">
+  <meta name="description" content="Manifold Security reveló fallas de seguridad en múltiples agentes de programación de inteligencia artificial mediante las cuales la configuración de Git…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-02-malicious-git-configs-can-make-claude-codex-cursor-and-other-cd4ac32e.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code — Periódico de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&#x27;s own Git configuration names a command…">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — Manifold Security reveló fallas de seguridad en múltiples agentes de programación de inteligencia artificial mediante las cuales la configuración de Git…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-02-malicious-git-configs-can-make-claude-codex-cursor-and-other-cd4ac32e.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/ca78ab2d77c830ee2a2b.gif">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code — Periódico de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&#x27;s own Git configuration names a command…">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Manifold Security reveló fallas de seguridad en múltiples agentes de programación de inteligencia artificial mediante las cuales la configuración de Git…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/ca78ab2d77c830ee2a2b.gif">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -54,7 +54,7 @@
       <div class="noticia-meta">
         <span class="fuente">Fuente: <a href="https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html" target="_blank" rel="noopener noreferrer">The Hacker News</a></span>
         <span class="fecha">Publicado: 02/09/2026 · 14:06 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original). Resumen parcial: la fuente no incluye más detalle en su RSS; lee la noticia completa en la fuente.</span>
+        <span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto. No se pudo traducir el título automáticamente (se muestra el original).</span><span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto.</span>
       </div>
       <div class="compartir">
         <span class="compartir-etiqueta">Compartir:</span>
@@ -76,7 +76,10 @@
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&#x27;s own Git configuration names a command that the agent runs on the developer&#x27;s machine, four of them still unpatched at publication. The command executes as the user, outside the agent&#x27;s sandbox and without an approval prompt, and exploitation requires the repository to arrive…</p>
+        <p>Manifold Security reveló fallas de seguridad en múltiples agentes de programación de inteligencia artificial mediante las cuales la configuración de Git de un repositorio puede ordenar al agente que ejecute comandos en la computadora del desarrollador. El comando se procesa con los privilegios del usuario, sin requerir aprobación y fuera del entorno aislado del agente, requiriendo para su explotación que el repositorio se reciba como archivos con su directorio .git intacto a través de medios como unidades USB, carpetas de sincronización o archivos compartidos.</p>
+        <p>El problema radica en el uso de la configuración de rendimiento `core.fsmonitor` de Git, la cual indica un comando que se ejecuta de forma automática en segundo plano al actualizar el índice —por ejemplo, mediante `git status` o `git diff`— para identificar archivos modificados. Agentes como Claude Code, Hermes Agent, Qwen Code y Grok Build llegaron a ejecutar comandos definidos en el repositorio antes de que el usuario aceptara mensajes de confianza o completara la autenticación.</p>
+        <p>Se han implementado correcciones para herramientas como goose, Claude Code y Cursor, mientras que versiones de Hermes Agent, Qwen Code, Grok Build y una ruta secundaria en Claude Code continuaban ejecutando comandos en pruebas recientes. Por su parte, OpenAI emitió CVEs propios para cubrir esta misma categoría de vulnerabilidad en Codex, y otras organizaciones han documentado problemas similares en entornos de desarrollo anteriores.</p>
+        <p>El artículo original no aporta más detalle sobre las medidas de mitigación específicas implementadas por cada proveedor para todos los agentes mencionados, más allá de las recomendaciones generales de inspeccionar la configuración de Git y desactivar la función `core.fsmonitor` por defecto.</p>
       </div>
     </article>
   </main>
