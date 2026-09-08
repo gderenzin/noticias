@@ -105,3 +105,22 @@ jobs:
             git commit -m "Publicar sitio - $(date -u +%Y-%m-%d)"
             git push origin HEAD:gh-pages
           fi
+
+      - name: Generar afiche de la destacada (generar_afiche.py)
+        # Solo tiene sentido si hubo novedades hoy (si no, la portada no
+        # cambió y ya se mandó el mismo afiche un día anterior). No inventa
+        # nada: lee el título/fuente/imagen/link tal cual quedaron
+        # publicados en site/index.html (ver docstring del script).
+        if: steps.commit_main.outputs.sin_cambios == 'false'
+        run: python scripts/generar_afiche.py
+
+      - name: Enviar el afiche a Telegram (enviar_telegram.py)
+        # Paso opcional de notificación (para reenviar a mano al Estado de
+        # WhatsApp) -- si no existen los secretos todavía, o si Telegram
+        # falla, el script se lo salta con un aviso y nunca hace fallar el
+        # workflow (ver README: "Enviar el afiche diario a Telegram").
+        if: steps.commit_main.outputs.sin_cambios == 'false'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/enviar_telegram.py

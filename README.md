@@ -362,6 +362,72 @@ si te preocupa.
 
 ---
 
+## Afiche diario y envío a Telegram
+
+Último paso opcional del flujo diario: si hubo noticias nuevas hoy, se
+genera un afiche vertical (1080x1920, formato Historia/Estado) de la
+noticia **destacada** del día y se envía a un chat de Telegram propio, para
+poder reenviarlo a mano al Estado de WhatsApp desde el celular. Se eligió
+solo la destacada (no una por cada noticia nueva) para no saturar el chat.
+
+- **`scripts/generar_afiche.py`**: lee el título, la fuente, la imagen y el
+  link tal cual ya quedaron publicados en `site/index.html` — nunca inventa
+  ni recalcula texto nuevo. Usa la foto real de la noticia como fondo (con
+  un degradado oscuro superpuesto para que el texto se lea bien); si esa
+  noticia no tiene foto real (ícono de categoría), usa un fondo degradado
+  liso del color de esa categoría en vez de forzar o inventar una imagen.
+  Guarda el resultado en `data/afiches/<slug-de-la-noticia>.png` (carpeta
+  no versionada — se regenera cada corrida, igual que otros artefactos
+  diarios de este repo).
+- **`scripts/enviar_telegram.py`**: envía ese afiche vía la
+  [API oficial de bots de Telegram](https://core.telegram.org/bots/api#sendphoto)
+  (`sendPhoto`), con un caption corto (el mismo título + link reales). Si
+  faltan las credenciales o Telegram devuelve un error, el script lo
+  registra y se salta con código de salida 0 — **nunca hace fallar el
+  workflow** por esto, igual que con `DEEPL_API_KEY`/`GEMINI_API_KEY`.
+- En el workflow (`.github/workflows/diario.yml`) ambos pasos corren al
+  final, y solo si hubo cambios reales ese día
+  (`steps.commit_main.outputs.sin_cambios == 'false'`) — un día sin
+  noticias nuevas no genera ni envía nada.
+
+### Cómo obtener y configurar los dos secretos
+
+1. **Crear el bot**: en Telegram, abre una conversación con
+   [@BotFather](https://t.me/BotFather) y envía `/newbot`, elige un nombre
+   y un usuario (debe terminar en `bot`). BotFather te da un token con el
+   formato `123456789:AAExxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` — ese es tu
+   `TELEGRAM_BOT_TOKEN`.
+2. **Obtener tu `chat_id`**: abre una conversación con tu bot recién creado
+   y mándale cualquier mensaje (p.ej. "hola") para que quede registrado.
+   Luego visita en el navegador
+   `https://api.telegram.org/bot<TU_TOKEN>/getUpdates` (reemplazando
+   `<TU_TOKEN>` por el token real) y busca el campo `"chat":{"id":...}` en
+   la respuesta JSON — ese número (puede ser negativo si es un grupo) es tu
+   `TELEGRAM_CHAT_ID`.
+3. En GitHub, ve a **Settings → Secrets and variables → Actions → New
+   repository secret** y crea:
+   - `TELEGRAM_BOT_TOKEN` → el token de BotFather.
+   - `TELEGRAM_CHAT_ID` → el número obtenido en el paso 2.
+
+No hace falta ningún otro cambio: el workflow ya está preparado para leer
+ambos secretos y pasarlos como variables de entorno a `enviar_telegram.py`.
+
+**Si no configuras estos secretos**, el sitio y el resto del flujo siguen
+funcionando igual: el afiche se genera pero no se envía a ningún lado (el
+paso se salta con un aviso, sin fallar el workflow).
+
+Para probar de forma puntual sin esperar al cron:
+
+```bash
+python scripts/generar_afiche.py
+# macOS/Linux:
+TELEGRAM_BOT_TOKEN="tu-token" TELEGRAM_CHAT_ID="tu-chat-id" python scripts/enviar_telegram.py
+# Windows PowerShell:
+$env:TELEGRAM_BOT_TOKEN="tu-token"; $env:TELEGRAM_CHAT_ID="tu-chat-id"; python scripts/enviar_telegram.py
+```
+
+---
+
 ## Identidad visual (consistente con derenzin.com)
 
 El diseño toma la paleta y los activos reales de https://derenzin.com (se
@@ -509,14 +575,16 @@ assets ni su CSS.
     no de este sitio) — si en algún momento este sitio queda detrás de algo
     que permita fijar headers HTTP de verdad (p.ej. un Cloudflare Worker
     delante de GitHub Pages), ahí sí valdría agregarlos.
-- **Ninguna clave llega al navegador**: `DEEPL_API_KEY` (en `build_site.py`)
-  y `GEMINI_API_KEY` (en `resumir_ia.py`) se leen únicamente con
+- **Ninguna clave llega al navegador**: `DEEPL_API_KEY` (en `build_site.py`),
+  `GEMINI_API_KEY` (en `resumir_ia.py`) y `TELEGRAM_BOT_TOKEN`/
+  `TELEGRAM_CHAT_ID` (en `enviar_telegram.py`) se leen únicamente con
   `os.environ.get(...)`, del lado del workflow de GitHub Actions (Python
   puro, sin navegador de por medio). Se usan solo para construir el header
-  de autenticación de cada API — nunca se escriben en ningún archivo HTML,
-  ni se imprimen en los logs (los logs de error de ambas imprimen el
-  endpoint/código HTTP, nunca la clave). Confirmé con
-  `grep -r "DEEPL_API_KEY\|GEMINI_API_KEY\|auth_key\|DeepL-Auth-Key\|x-goog-api-key" site/`
+  de autenticación de cada API (o, en el caso de Telegram, la URL del propio
+  bot y el cuerpo del POST) — nunca se escriben en ningún archivo HTML, ni se
+  imprimen en los logs (los logs de error de las tres imprimen el
+  endpoint/código HTTP, nunca la clave/token). Confirmé con
+  `grep -r "DEEPL_API_KEY\|GEMINI_API_KEY\|auth_key\|DeepL-Auth-Key\|x-goog-api-key\|TELEGRAM_BOT_TOKEN" site/`
   sobre el sitio generado: cero coincidencias. El único JavaScript del lado
   del cliente es `site/assets/compartir.js` (el botón "Copiar enlace" de los
   botones de compartir) — no hace ninguna llamada a red ni usa clave alguna,
@@ -694,6 +762,15 @@ secreto `GEMINI_API_KEY` en **Settings → Secrets and variables →
 Actions** del repo — ver la sección **"Resumen ampliado: extracción del
 artículo completo + resumen con IA"** más arriba para el detalle de cómo
 funciona y el Plan B si algo falla.
+
+### 5c. (Opcional) Configurar el envío del afiche diario a Telegram
+
+Sin este paso el sitio y el resto del flujo siguen funcionando igual —
+simplemente no se genera/envía el afiche diario. Para activarlo, ve a la
+sección **"Afiche diario y envío a Telegram"** más arriba: crea un bot con
+@BotFather, obtén tu `chat_id`, y agrega ambos como los secretos
+`TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` en **Settings → Secrets and
+variables → Actions** del repo.
 
 ### 6. Ajustar el horario del cron (opcional)
 

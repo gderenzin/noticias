@@ -6,3 +6,7 @@ venv/
 # Archivo transitorio de intercambio entre fetch_news.py y build_site.py.
 # No se versiona porque se regenera en cada ejecución del workflow.
 data/nuevas_hoy.json
+
+# Afiches generados por generar_afiche.py para enviar a Telegram: son un
+# artefacto diario efímero (se regenera cada corrida), no contenido del sitio.
+data/afiches/
