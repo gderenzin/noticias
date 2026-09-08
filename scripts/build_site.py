@@ -120,26 +120,41 @@ def url_absoluta(ruta: str) -> str:
     return f"{SITIO_BASE_URL}/{ruta.lstrip('/')}"
 
 
-def render_meta_seo(titulo: str, descripcion: str, ruta_canonica: str, ruta_imagen: str, tipo_og: str = "website") -> str:
+def render_meta_seo(
+    titulo: str,
+    descripcion: str,
+    ruta_canonica: str,
+    ruta_imagen: str,
+    tipo_og: str = "website",
+    descripcion_social: str | None = None,
+) -> str:
     """Bloque de <meta> compartido por las 4 plantillas: description,
     canonical, Open Graph y Twitter Card. `ruta_canonica` y `ruta_imagen`
     pueden ser relativas a la raíz del sitio (se resuelven con
-    url_absoluta) o ya vernir absolutas."""
+    url_absoluta) o ya vernir absolutas.
+
+    `descripcion_social` (opcional): si se pasa, es el texto que usan
+    og:description/twitter:description en vez de `descripcion` -- para que
+    la vista previa de WhatsApp/Facebook/Telegram pueda diferir del
+    <meta name="description"> que ven los buscadores (ver
+    render_pagina_noticia, que le agrega "Fuente: noticias.derenzin.com"
+    adelante SOLO para redes sociales, sin tocar el description de SEO)."""
     url_canonica = url_absoluta(ruta_canonica)
     url_imagen = url_absoluta(ruta_imagen)
     desc = escape(descripcion, quote=True)
+    desc_social = escape(descripcion_social if descripcion_social is not None else descripcion, quote=True)
     tit = escape(titulo, quote=True)
     return f"""  <meta name="description" content="{desc}">
   <link rel="canonical" href="{escape(url_canonica, quote=True)}">
   <meta property="og:type" content="{tipo_og}">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="{tit}">
-  <meta property="og:description" content="{desc}">
+  <meta property="og:description" content="{desc_social}">
   <meta property="og:url" content="{escape(url_canonica, quote=True)}">
   <meta property="og:image" content="{escape(url_imagen, quote=True)}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{tit}">
-  <meta name="twitter:description" content="{desc}">
+  <meta name="twitter:description" content="{desc_social}">
   <meta name="twitter:image" content="{escape(url_imagen, quote=True)}">"""
 
 
@@ -843,6 +858,13 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     # un fondo sólido del color de la categoría) generada una sola vez para
     # este propósito -- ver /assets/og/README.md.
     imagen_pagina = item.get("imagen_local") or f"/assets/og/{categoria}.png"
+    # Solo para la vista previa de redes sociales (og:description/
+    # twitter:description) -- NO para el <meta name="description"> que usan
+    # los buscadores. No toca el "Fuente: {fuente real}" que ya se muestra
+    # visiblemente en el cuerpo de la página (ese sigue apuntando a la
+    # fuente original de siempre); esto es aparte, para que quien reciba el
+    # link en WhatsApp/Facebook/Telegram vea de entrada que viene de este sitio.
+    descripcion_social = f"Fuente: noticias.derenzin.com — {descripcion}"
 
     parrafos_html = "\n".join(
         f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
@@ -861,7 +883,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
   <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{titulo_html} — Periódico de Ciberseguridad</title>
-{render_meta_seo(f"{titulo_mostrar} — Periódico de Ciberseguridad", descripcion, ruta_noticia, imagen_pagina, tipo_og="article")}
+{render_meta_seo(f"{titulo_mostrar} — Periódico de Ciberseguridad", descripcion, ruta_noticia, imagen_pagina, tipo_og="article", descripcion_social=descripcion_social)}
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
