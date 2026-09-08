@@ -268,13 +268,18 @@ h1, h2, h3 {
   margin: 0;
   overflow: hidden;
   background: var(--acento-suave);
+  /* La proporción/altura del recuadro se define ACÁ, en el contenedor, no en
+     la imagen ni en el ícono -- así ambos (foto real o ícono de respaldo)
+     quedan con la misma altura sin importar sus dimensiones originales, y
+     "height: 100%" en la imagen (abajo) tiene una altura real y no
+     ambigua/circular contra la cual resolverse en todos los navegadores. */
+  aspect-ratio: 16 / 9;
 }
 
 .noticia-imagen img {
   display: block;
   width: 100%;
   height: 100%;
-  aspect-ratio: 16 / 9;
   object-fit: cover;
   transition: transform 0.35s ease;
 }
@@ -288,7 +293,8 @@ h1, h2, h3 {
    valor no reconocido se ignora y queda el respaldo — nunca se ve
    transparente/roto. */
 .noticia-imagen--generica .icono-generico-fondo {
-  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,8 +308,7 @@ h1, h2, h3 {
   display: block;
 }
 
-.noticia-imagen--destacada img,
-.noticia-imagen--destacada .icono-generico-fondo {
+.noticia-imagen--destacada {
   aspect-ratio: 21 / 9;
 }
 
@@ -874,8 +879,7 @@ h1, h2, h3 {
     grid-template-columns: 1fr;
   }
 
-  .destacada-imagen-enlace .noticia-imagen--destacada img,
-  .destacada-imagen-enlace .noticia-imagen--destacada .icono-generico-fondo {
+  .destacada-imagen-enlace .noticia-imagen--destacada {
     aspect-ratio: 16 / 9;
   }
 
