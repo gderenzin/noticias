@@ -48,6 +48,7 @@
   </header>
 
   <main class="contenido pagina-noticia">
+    <div class="pagina-noticia-layout">
     <article class="noticia-detalle cat-vulnerabilidad">
       <span class="eyebrow-categoria">Vulnerabilidad</span>
       <h1 class="noticia-detalle-titulo">Control de acceso incorrecto en PrestaShop</h1>
@@ -79,6 +80,45 @@
         <p>Control de acceso incorrecto en PrestaShop Lun, 07/09/2026 - 12:52 Aviso Recursos Afectados PrestaShop, versiones anteriores a la 9.1.5 y a la 8.2.8, según la rama. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad media que afecta a PrestaShop, un sistema de gestión de contenidos libre y de código abierto pensado para construir desde cero tiendas en línea de comercio electrónico. La vulnerabilidad ha sido descubierta por Pedro Gabaldón Juliá. A esta vulnerabilidad se le ha asignado el siguiente código, puntuación base CVSS v4.0, vector del CVSS y el tipo de vulnerabilidad CWE: CVE-2026-84186: CVSS v4.0: 6.9 | CVSS AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N | CWE-290 Identificador INCIBE-2026-607 Solución La vulnerabilidad ha sido solucionada por el equipo de PrestaShop en las versiones 9.1.5 y 8.2.8. Detalle CVE-2026-84186: vulnerabilidad de control de acceso incorrecto en la función Tools::getRemoteAddr() de PrestaShop que permite falsificar la dirección IP del cliente mediante el encabezado X-Forwarded-For cuando la aplicación se ejecuta detrás de un proxy inverso, balanceador de carga o CDN. La aplicación procesa incorrectamente la cadena de direcciones IP y utiliza la dirección controlada por el visitante en lugar de la añadida por la infraestructura de confianza, permitiendo a un atacante remoto no autenticado hacer que la aplicación interprete su conexión como procedente de una dirección IP arbitraria. Esta condición permite eludir controles basados en IP, como la lista de direcciones permitidas del modo de mantenimiento, además de posibilitar la falsificación de registros de seguridad y auditoría y la evasión de mecanismos de terceros que dependan de la dirección IP, como controles de geolocalización, detección de fraude o limitación de peticiones. 3 - Media Listado de referencias Create an online shop easily Client IP address can be spoofed through the X-Forwarded-For header Commit 5b379e3 Etiquetas 0day Actualización CNA Comercio electrónico + Control de acceso Fabricante de software Falsificación Vulnerabilidad - CVE Identificador CVE Severidad Explotación Fabricante CVE-2026-84186 Media No PrestaShop…</p>
       </div>
           </article>
+    <aside class="sidebar-noticia">
+      <section class="sidebar-bloque">
+        <h2 class="sidebar-titulo">Categorías</h2>
+        <ul class="sidebar-categorias">
+          <li><a class="sidebar-categoria-enlace cat-ransomware" href="/archivo/index.html">Ransomware</a></li>
+          <li><a class="sidebar-categoria-enlace cat-phishing" href="/archivo/index.html">Phishing</a></li>
+          <li><a class="sidebar-categoria-enlace cat-filtracion_datos" href="/archivo/index.html">Filtración de datos</a></li>
+          <li><a class="sidebar-categoria-enlace cat-vulnerabilidad" href="/archivo/index.html">Vulnerabilidad</a></li>
+          <li><a class="sidebar-categoria-enlace cat-malware" href="/archivo/index.html">Malware</a></li>
+          <li><a class="sidebar-categoria-enlace cat-ddos" href="/archivo/index.html">Ataque DDoS</a></li>
+        </ul>
+      </section>
+      <section class="sidebar-bloque">
+        <h2 class="sidebar-titulo">Últimas noticias</h2>
+        <ul class="sidebar-recientes">
+          <li>
+            <a href="/noticia/2026-09-07-peep-turns-chrome-and-edge-into-post-compromise-backdoors-fo-54217c49.html">PEEP convierte Chrome y Edge en puertas traseras tras un ataque para la ejecución de comandos en el sistema</a>
+            <span class="sidebar-recientes-fecha">07/09/2026 · 18:12 UTC</span>
+          </li>
+          <li>
+            <a href="/noticia/2026-09-07-magento-stylesmuggler-zero-day-exploited-to-deploy-linux-bac-b3511a5b.html">Se ha aprovechado una vulnerabilidad de día cero de StyleSmuggler de Magento para instalar una puerta trasera en Linux</a>
+            <span class="sidebar-recientes-fecha">07/09/2026 · 16:50 UTC</span>
+          </li>
+          <li>
+            <a href="/noticia/2026-09-07-fake-it-calls-target-executives-in-microsoft-365-data-theft-a48cf88b.html">Las llamadas falsas de soporte informático se dirigen a los directivos en los ataques de robo de datos y extorsión en Microsoft 365</a>
+            <span class="sidebar-recientes-fecha">07/09/2026 · 15:51 UTC</span>
+          </li>
+          <li>
+            <a href="/noticia/2026-09-07-bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-o-c34ce145.html">El servicio de phishing «BigBear Microsoft 365» eludió la autenticación de dos factores (MFA) en 258 organizaciones</a>
+            <span class="sidebar-recientes-fecha">07/09/2026 · 15:39 UTC</span>
+          </li>
+          <li>
+            <a href="/noticia/2026-09-07-weekly-recap-chrome-0-day-router-hijacks-coder-supply-chain-51e0fedb.html">⚡ Resumen semanal: vulnerabilidad «0-day» en Chrome, secuestros de routers, ataque a la cadena de suministro de Coder y más</a>
+            <span class="sidebar-recientes-fecha">07/09/2026 · 14:36 UTC</span>
+          </li>
+        </ul>
+      </section>
+    </aside>
+    </div>
   </main>
 
   <footer class="pie">

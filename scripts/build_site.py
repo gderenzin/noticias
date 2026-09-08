@@ -53,7 +53,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
-from html import escape
+from html import escape, unescape
 from pathlib import Path
 
 from texto import acotar_parrafos, fuente_parece_incompleta, primeras_oraciones, rematar_final, truncar
@@ -842,6 +842,90 @@ def render_botones_compartir(titulo_mostrar: str, ruta_noticia: str) -> str:
 """
 
 
+# ---------------------------------------------------------------------------
+# Sidebar de la página de detalle: lista de categorías (con el mismo color
+# de badge que el resto del sitio) y un bloque corto de "Últimas noticias".
+# Usa el espacio que antes quedaba vacío a los costados de la columna de
+# lectura en pantallas grandes -- ver .pagina-noticia-layout en style.css --
+# y se apila debajo del artículo en pantallas angostas.
+# ---------------------------------------------------------------------------
+
+RE_H1_NOTICIA_DETALLE = re.compile(r'<h1 class="noticia-detalle-titulo">(.*?)</h1>', re.DOTALL)
+
+
+def obtener_items_recientes(excluir_enlace: str | None, limite: int = 5) -> list[dict]:
+    """Las `limite` noticias más recientes YA PUBLICADAS (según
+    data/publicadas.json, el ledger real), para el bloque "Últimas
+    noticias" del sidebar -- nunca incluye la noticia que se está
+    mostrando. El título que se muestra es el que YA está en la propia
+    página de detalle de cada candidata (su <h1>), no el título crudo del
+    ledger -- así se respeta la traducción (o la nota de "no se pudo
+    traducir") que esa página ya tiene, sin re-traducir ni inventar nada
+    acá."""
+    publicadas = cargar_publicadas()
+    candidatos = [
+        info
+        for enlace, info in publicadas.get("urls", {}).items()
+        if enlace != excluir_enlace and info.get("ruta_noticia") and info.get("fecha_publicacion_iso")
+    ]
+    candidatos.sort(key=lambda x: x["fecha_publicacion_iso"], reverse=True)
+
+    resultado: list[dict] = []
+    for info in candidatos:
+        if len(resultado) >= limite:
+            break
+        archivo = NOTICIA_DIR / Path(info["ruta_noticia"]).name
+        if not archivo.exists():
+            continue
+        texto = archivo.read_text(encoding="utf-8")
+        m_titulo = RE_H1_NOTICIA_DETALLE.search(texto)
+        if not m_titulo:
+            continue
+        titulo_mostrado = unescape(re.sub(r"<[^>]*>", "", m_titulo.group(1))).strip()
+        resultado.append(
+            {
+                "titulo": titulo_mostrado,
+                "ruta_noticia": info["ruta_noticia"],
+                "fecha_publicacion_iso": info["fecha_publicacion_iso"],
+            }
+        )
+    return resultado
+
+
+def render_sidebar_noticia(items_recientes: list[dict]) -> str:
+    categorias_html = "".join(
+        f'          <li><a class="sidebar-categoria-enlace cat-{slug}" href="/archivo/index.html">{escape(CATEGORIAS[slug]["etiqueta"])}</a></li>\n'
+        for slug in ORDEN_CATEGORIAS
+    )
+
+    if items_recientes:
+        recientes_html = "".join(
+            f"""          <li>
+            <a href="{escape(it['ruta_noticia'], quote=True)}">{escape(it['titulo'])}</a>
+            <span class="sidebar-recientes-fecha">{escape(fecha_corta(it['fecha_publicacion_iso']))}</span>
+          </li>
+"""
+            for it in items_recientes
+        )
+        bloque_recientes = f"""      <section class="sidebar-bloque">
+        <h2 class="sidebar-titulo">Últimas noticias</h2>
+        <ul class="sidebar-recientes">
+{recientes_html}        </ul>
+      </section>
+"""
+    else:
+        bloque_recientes = ""
+
+    return f"""    <aside class="sidebar-noticia">
+      <section class="sidebar-bloque">
+        <h2 class="sidebar-titulo">Categorías</h2>
+        <ul class="sidebar-categorias">
+{categorias_html}        </ul>
+      </section>
+{bloque_recientes}    </aside>
+"""
+
+
 def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     """Página de detalle propia del sitio para una noticia: resumen ampliado
     en español (parafraseado a partir del texto más completo del RSS, nunca
@@ -902,6 +986,9 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     notas = [n for n in {nota_idioma_titulo, nota_idioma_ampliado} if n]
     notas_html = "".join(f'<span class="idioma-nota">{escape(n)}</span>' for n in notas)
 
+    items_recientes = obtener_items_recientes(item.get("enlace"))
+    sidebar_html = render_sidebar_noticia(items_recientes)
+
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -919,6 +1006,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 <body>
 {render_cabecera("Detalle de la noticia", "../", "noticia")}
   <main class="contenido pagina-noticia">
+    <div class="pagina-noticia-layout">
     <article class="noticia-detalle cat-{categoria}">
       <span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>
       <h1 class="noticia-detalle-titulo">{titulo_html}</h1>
@@ -931,6 +1019,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 {parrafos_html}
       </div>
     </article>
+{sidebar_html}    </div>
   </main>
 
 {render_pie("../")}
@@ -1065,15 +1154,61 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str, d
 """
 
 
+# La imagen destacada real de cada día se lee de la propia edición ya
+# publicada (site/archivo/AAAA-MM-DD.html) -- mismo patrón que el resto del
+# sitio usa para no depender de datos que ya se sobreescribieron: nunca
+# inventa una imagen, cae al logo si esa edición no tiene ninguna foto real
+# (igual criterio que el og:image de esa misma página).
+RE_IMG_DESTACADA_ARCHIVO = re.compile(
+    r'noticia-imagen--destacada">\s*<span class="categoria-badge">[^<]*</span>\s*<img src="(/imagenes/[^"]+)"'
+)
+RE_HREF_NOTICIA_ARCHIVO = re.compile(r'href="(/noticia/[^"]+)"')
+
+
+def _info_dia_archivo(fecha: str) -> dict:
+    ruta = ARCHIVO_DIR / f"{fecha}.html"
+    if not ruta.exists():
+        return {"imagen": "/assets/logo-derenzin.png", "cantidad": 0}
+    texto = ruta.read_text(encoding="utf-8")
+    m_img = RE_IMG_DESTACADA_ARCHIVO.search(texto)
+    imagen = m_img.group(1) if m_img else "/assets/logo-derenzin.png"
+    cantidad = len(set(RE_HREF_NOTICIA_ARCHIVO.findall(texto)))
+    return {"imagen": imagen, "cantidad": cantidad}
+
+
+def _render_tarjeta_dia(fecha: str, imagen: str, cantidad: int) -> str:
+    """Tarjeta de una edición diaria para archivo/index.html -- mismas
+    clases (.tarjeta/.noticia-imagen/.noticia-meta) que el resto del sitio,
+    para que se vea como parte del mismo sistema, no una sección aparte."""
+    fecha_dt = datetime.strptime(fecha, "%Y-%m-%d").replace(hour=12, tzinfo=ZONA_GUAYAQUIL)
+    texto_fecha = fecha_legible(fecha_dt)
+    alt = escape(f"Edición del {texto_fecha}", quote=True)
+    plural = "noticia" if cantidad == 1 else "noticias"
+    return f"""      <article class="tarjeta">
+        <a class="tarjeta-imagen-enlace" href="{fecha}.html">
+          <figure class="noticia-imagen">
+            <img src="{escape(imagen, quote=True)}" alt="{alt}" loading="lazy" decoding="async">
+          </figure>
+        </a>
+        <div class="tarjeta-cuerpo">
+          <h2 class="tarjeta-titulo"><a href="{fecha}.html">{escape(texto_fecha)}</a></h2>
+          <div class="noticia-meta">
+            <span class="fecha">{cantidad} {plural}</span>
+          </div>
+        </div>
+      </article>
+"""
+
+
 def render_archivo_index(dias: list[str]) -> str:
     if dias:
-        filas = "\n".join(
-            f'      <li><a href="{d}.html">{fecha_legible(datetime.strptime(d, "%Y-%m-%d"))}</a></li>'
-            for d in sorted(dias, reverse=True)
+        tarjetas_html = "".join(
+            _render_tarjeta_dia(d, **_info_dia_archivo(d)) for d in sorted(dias, reverse=True)
         )
-        lista = f"<ul class=\"lista-archivo\">\n{filas}\n    </ul>"
+        lista = f"""<div class="grid-noticias">
+{tarjetas_html}    </div>"""
     else:
-        lista = "<p>Todavía no hay ediciones archivadas.</p>"
+        lista = '<p class="sin-noticias">Todavía no hay ediciones archivadas.</p>'
 
     titulo_pagina = "Archivo — Periódico de Ciberseguridad"
     descripcion = "Índice de todas las ediciones diarias publicadas del Periódico de Ciberseguridad — un proyecto de DERENZIN S.A.S."
