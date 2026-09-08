@@ -285,6 +285,15 @@ def main() -> None:
         log(f"Ocurrencias de tarjeta/destacada sincronizadas: {total_sincronizadas}")
         if args.dry_run:
             log("(--dry-run: no se escribió nada realmente)")
+        else:
+            # sincronizar_tarjetas_grid() solo toca el bloque de imagen
+            # (con su categoria-badge); el <span class="eyebrow-categoria">
+            # vecino de cada tarjeta/destacada queda tal cual estaba -- lo
+            # normal es que ya coincida (viene del mismo `categoria` que se
+            # usa acá), pero si alguna tarjeta quedó desincronizada de una
+            # pasada anterior, este blindaje la corrige (ver
+            # build_site.py::reparar_badges_categoria_en_sitio()).
+            bs.reparar_badges_categoria_en_sitio()
         return
 
     candidatos = encontrar_candidatos()
@@ -327,6 +336,10 @@ def main() -> None:
     log(f"Errores (no se pudo procesar): {errores}")
     if args.dry_run:
         log("(--dry-run: no se descargó ni se escribió nada realmente)")
+    elif con_imagen:
+        # Ver el comentario equivalente en la rama --resync-grid: blindaje
+        # de categoria-badge/eyebrow-categoria tras tocar bloques de imagen.
+        bs.reparar_badges_categoria_en_sitio()
 
 
 if __name__ == "__main__":

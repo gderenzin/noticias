@@ -1230,6 +1230,87 @@ def _renderizar_grid(items: list[dict], rutas_noticia: dict[str, str]) -> str:
     )
 
 
+# ---------------------------------------------------------------------------
+# Reparación/blindaje de etiquetas de categoría (categoria-badge + eyebrow-
+# categoria): ambas SIEMPRE deben mostrar la misma categoría que la propia
+# noticia -- ver render_tarjeta_html()/render_pagina_noticia(), que ya las
+# arman a partir de una única variable `categoria` compartida, así que un
+# build normal nunca las desincroniza. El desajuste real viene de scripts de
+# backfill puntuales (p.ej. backfill_imagenes.py) que reescriben SOLO el
+# bloque de imagen (con su categoria-badge) de una tarjeta ya publicada --
+# usando la categoría que le corresponde a esa noticia en particular --, sin
+# tocar el <span class="eyebrow-categoria"> vecino, que queda con el valor
+# de cuando se publicó por primera vez. La clase `cat-<categoria>` del propio
+# <article> nunca se toca por separado (sale del mismo `categoria` que la
+# figura y el eyebrow en el momento del build), así que es la fuente de
+# verdad más confiable para reparar cualquier desajuste después del hecho.
+RE_ARTICLE_CATEGORIA = re.compile(
+    r'(<article class="(?:destacada|tarjeta|noticia-detalle) cat-([a-z_]+)">)(.*?)(\n\s*</article>)',
+    re.DOTALL,
+)
+RE_BADGE_SPAN = re.compile(r'<span class="categoria-badge">[^<]*</span>')
+RE_EYEBROW_SPAN = re.compile(r'<span class="eyebrow-categoria">[^<]*</span>')
+
+
+def sincronizar_badges_categoria(texto: str) -> tuple[str, int]:
+    """Recorre cada <article class="... cat-X"> de `texto` y fuerza que su
+    categoria-badge y su eyebrow-categoria muestren la etiqueta de X (la
+    categoría real de esa noticia, según la propia clase del <article>).
+    Devuelve el texto corregido y cuántas etiquetas se corrigieron (0 si ya
+    estaba todo consistente -- caso normal en un build recién hecho)."""
+    corregidas = 0
+
+    def _reparar_bloque(m: re.Match) -> str:
+        nonlocal corregidas
+        apertura, categoria, cuerpo, cierre = m.groups()
+        etiqueta_correcta = escape(CATEGORIAS.get(categoria, GENERICO)["etiqueta"])
+        badge_correcto = f'<span class="categoria-badge">{etiqueta_correcta}</span>'
+        eyebrow_correcto = f'<span class="eyebrow-categoria">{etiqueta_correcta}</span>'
+
+        def _contar_y_reemplazar(patron: re.Pattern, reemplazo: str, texto_local: str) -> str:
+            nonlocal corregidas
+            nuevo, n = patron.subn(reemplazo, texto_local, count=1)
+            if n and nuevo != texto_local:
+                corregidas += 1
+            return nuevo
+
+        cuerpo = _contar_y_reemplazar(RE_BADGE_SPAN, badge_correcto, cuerpo)
+        cuerpo = _contar_y_reemplazar(RE_EYEBROW_SPAN, eyebrow_correcto, cuerpo)
+        return apertura + cuerpo + cierre
+
+    texto_corregido = RE_ARTICLE_CATEGORIA.sub(_reparar_bloque, texto)
+    return texto_corregido, corregidas
+
+
+def reparar_badges_categoria_en_sitio() -> int:
+    """Aplica sincronizar_badges_categoria() a todo el HTML ya publicado
+    (portada, cada edición de archivo, Protección de Datos y cada página de
+    detalle), reescribiendo solo los archivos que de verdad cambian. Se
+    corre al final de cada build (blindaje permanente) y también puede
+    invocarse sola con `--reparar-badges` para corregir el sitio ya
+    publicado sin necesitar noticias nuevas."""
+    archivos = []
+    if (SITE_DIR / "index.html").exists():
+        archivos.append(SITE_DIR / "index.html")
+    archivos += sorted(p for p in ARCHIVO_DIR.glob("*.html") if p.stem != "index")
+    if (PROTECCION_DATOS_DIR / "index.html").exists():
+        archivos.append(PROTECCION_DATOS_DIR / "index.html")
+    archivos += sorted(NOTICIA_DIR.glob("*.html"))
+
+    total_corregidas = 0
+    archivos_tocados = 0
+    for archivo in archivos:
+        texto = archivo.read_text(encoding="utf-8")
+        texto_corregido, corregidas = sincronizar_badges_categoria(texto)
+        if corregidas:
+            archivo.write_text(texto_corregido, encoding="utf-8")
+            archivos_tocados += 1
+            total_corregidas += corregidas
+            log(f"  Corregidas {corregidas} etiqueta(s) de categoría en {archivo.relative_to(RAIZ)}.")
+    log(f"Blindaje de categoría: {total_corregidas} etiqueta(s) corregida(s) en {archivos_tocados} archivo(s).")
+    return total_corregidas
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Genera el sitio a partir de data/nuevas_hoy.json.")
     parser.add_argument(
@@ -1243,7 +1324,22 @@ def main() -> None:
             "no pasa este argumento, así que su comportamiento no cambia."
         ),
     )
+    parser.add_argument(
+        "--reparar-badges",
+        action="store_true",
+        help=(
+            "No genera nada nuevo: solo recorre el sitio ya publicado (portada, archivo, "
+            "Protección de Datos y páginas de detalle) y corrige cualquier categoria-badge/"
+            "eyebrow-categoria desincronizado de su propia noticia -- ver "
+            "sincronizar_badges_categoria(). Útil para reparar el sitio sin necesitar "
+            "noticias nuevas ni claves de API."
+        ),
+    )
     args = parser.parse_args()
+
+    if args.reparar_badges:
+        reparar_badges_categoria_en_sitio()
+        return
 
     nuevos = cargar_nuevas()
 
@@ -1413,6 +1509,14 @@ def main() -> None:
 
     # 5. Sitemap (para buscadores) — se regenera completo cada vez que hay publicación
     generar_sitemap()
+
+    # 5b. Blindaje de categoría: un build normal nunca desincroniza
+    # categoria-badge/eyebrow-categoria (ver sincronizar_badges_categoria()),
+    # pero scripts de backfill puntuales que tocan HTML ya publicado sí
+    # pueden hacerlo -- correrlo acá de forma incondicional deja el sitio
+    # siempre consistente sin depender de que alguien se acuerde de
+    # invocar --reparar-badges por separado.
+    reparar_badges_categoria_en_sitio()
 
     # 6. Ledger de publicadas (unificado: ambas secciones comparten el mismo
     # ledger, para no duplicar noticias en ninguna de las dos)
