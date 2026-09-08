@@ -660,6 +660,22 @@ def fecha_corta(iso_str: str) -> str:
     return f"{dt.day:02d}/{dt.month:02d}/{dt.year} · {dt.hour:02d}:{dt.minute:02d} UTC"
 
 
+def fecha_publicacion_gye(item: dict) -> str:
+    """Fecha calendario (Guayaquil) AAAA-MM-DD de la publicación REAL de un
+    ítem, a partir de item["fecha_publicacion_iso"] (que fetch_news.py
+    siempre guarda en UTC). Se usa para archivar cada noticia bajo su propio
+    día real -- no bajo el día en que corrió el workflow que la trajo (ver
+    main()). Cadena vacía si el ítem no trae una fecha válida (no debería
+    pasar: fetch_news.py descarta cualquier ítem sin fecha)."""
+    try:
+        fecha_utc = datetime.fromisoformat(item["fecha_publicacion_iso"])
+        if fecha_utc.tzinfo is None:
+            fecha_utc = fecha_utc.replace(tzinfo=timezone.utc)
+        return fecha_utc.astimezone(ZONA_GUAYAQUIL).strftime("%Y-%m-%d")
+    except (KeyError, ValueError, TypeError):
+        return ""
+
+
 def render_badge_categoria(categoria: str) -> str:
     info = CATEGORIAS.get(categoria, GENERICO)
     return f'<span class="categoria-badge">{escape(info["etiqueta"])}</span>'
@@ -1363,7 +1379,10 @@ def main() -> None:
     # Nota: a propósito NO se muestra el conteo de ítems en el HTML — ese
     # número es información de diagnóstico del proceso, no algo para el
     # lector; el conteo real ya queda en el log del workflow de GitHub Actions.
-    subtitulo = f"Edición del {fecha_legible(ahora_gye)}"
+    # (El subtítulo "Edición del ..." ya no se arma acá con fecha_str: cada
+    # archivo/edición del día usa el subtítulo de SU PROPIA fecha real de
+    # publicación -- ver el agrupamiento por fecha_publicacion_gye() más
+    # abajo.)
 
     # Cada noticia tiene su propia página de detalle dentro del sitio
     # (site/noticia/AAAA-MM-DD-slug-hash.html); todos los enlaces de portada,
@@ -1391,61 +1410,102 @@ def main() -> None:
     SITE_DIR.mkdir(parents=True, exist_ok=True)
 
     if nuevos_ciber:
-        # La noticia más reciente va destacada arriba en grande; el resto
-        # forma la cuadrícula de tarjetas debajo.
-        items_html = _renderizar_grid(nuevos_ciber, rutas_noticia)
+        # Cada noticia se archiva bajo la fecha calendario (Guayaquil) de su
+        # publicación REAL (fecha_publicacion_gye), NO bajo fecha_str (el
+        # día en que corrió este build) -- si no, un ítem publicado ayer
+        # pero recién detectado hoy (p.ej. llegó tarde a un feed) queda
+        # amontonado bajo "hoy" en vez de su propio día real. Con la
+        # ventana de 24-48h de fetch_news.py, en el flujo diario normal
+        # ambas fechas casi siempre coinciden -- esto solo cambia algo en
+        # el caso borde de un ítem con fecha de publicación real distinta a
+        # la de esta corrida (fue justo lo que le pasó a 8 noticias del 5
+        # de septiembre que quedaron archivadas bajo el 6; ver
+        # scripts/reorganizar_archivo_por_fecha_real.py para la
+        # reorganización puntual del histórico que ya estaba mal archivado
+        # antes de este fix).
+        grupos_por_fecha: dict[str, list[dict]] = {}
+        for item in nuevos_ciber:
+            clave_fecha = fecha_publicacion_gye(item) or fecha_str
+            grupos_por_fecha.setdefault(clave_fecha, []).append(item)
 
-        # Descripción/imagen para SEO y Open Graph de portada y archivo del
-        # día: se basan en la noticia destacada (la más reciente), o en el
-        # logo si esa noticia no tiene imagen propia.
-        descripcion_edicion = (
-            f"Titulares de ciberseguridad del {fecha_legible(ahora_gye)}, agregados de fuentes públicas "
-            "verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). "
-            "Un proyecto de DERENZIN S.A.S."
-        )
-        imagen_og_edicion = nuevos_ciber[0].get("imagen_local") or "/assets/logo-derenzin.png"
-
-        # 1. Página de archivo del día (solo ciberseguridad) -- se escribe
-        # PRIMERO, porque si ya hubo otra edición hoy (p.ej. varias corridas
-        # manuales) las noticias nuevas se ANEXAN a la cuadrícula existente
-        # en vez de reemplazarla; la destacada de la primera edición del día
-        # se queda como está, no cambia con cada corrida posterior.
         ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
-        pagina_dia = render_pagina_archivo_dia(fecha_str, subtitulo, items_html, descripcion_edicion, imagen_og_edicion)
-        ruta_dia = ARCHIVO_DIR / f"{fecha_str}.html"
-        if ruta_dia.exists():
-            anterior = ruta_dia.read_text(encoding="utf-8")
-            marcador_fin_grid = "    <!-- FIN-GRID -->\n"
-            if marcador_fin_grid in anterior:
-                tarjetas_nuevas_html = "".join(
-                    render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in nuevos_ciber
-                )
-                anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
-                ruta_dia.write_text(anterior, encoding="utf-8")
-                log(f"Actualizado {ruta_dia} (ya existía una edición de hoy; se anexaron los ítems nuevos a la cuadrícula).")
+
+        # Se procesa de la fecha más antigua a la más reciente -- así, al
+        # terminar el bucle, la última edición escrita es la más reciente, y
+        # la portada (armada después del bucle) refleja esa edición sin
+        # importar si coincide o no con fecha_str.
+        ruta_dia_mas_reciente: Path | None = None
+        subtitulo_mas_reciente = ""
+        descripcion_mas_reciente = ""
+        imagen_og_mas_reciente = ""
+
+        for clave_fecha in sorted(grupos_por_fecha.keys()):
+            items_del_dia = grupos_por_fecha[clave_fecha]
+            fecha_dia_dt = datetime.strptime(clave_fecha, "%Y-%m-%d").replace(hour=12, tzinfo=ZONA_GUAYAQUIL)
+            subtitulo_dia = f"Edición del {fecha_legible(fecha_dia_dt)}"
+
+            # La noticia más reciente de ESTE día va destacada arriba en
+            # grande; el resto forma la cuadrícula de tarjetas debajo.
+            items_html_dia = _renderizar_grid(items_del_dia, rutas_noticia)
+
+            # Descripción/imagen para SEO y Open Graph de esta edición: se
+            # basan en su noticia destacada (la más reciente de ese día), o
+            # en el logo si esa noticia no tiene imagen propia.
+            descripcion_dia = (
+                f"Titulares de ciberseguridad del {fecha_legible(fecha_dia_dt)}, agregados de fuentes públicas "
+                "verificadas (The Hacker News, BleepingComputer, Krebs on Security y más). "
+                "Un proyecto de DERENZIN S.A.S."
+            )
+            imagen_og_dia = items_del_dia[0].get("imagen_local") or "/assets/logo-derenzin.png"
+
+            # Página de archivo de este día -- se escribe PRIMERO, porque si
+            # ya existía una edición de ese mismo día (p.ej. varias corridas
+            # manuales, o un ítem atrasado que cae en un día que ya tenía
+            # noticias reales) las noticias nuevas se ANEXAN a la cuadrícula
+            # existente en vez de reemplazarla; la destacada de la primera
+            # edición de ese día se queda como está, no cambia con cada
+            # corrida posterior.
+            pagina_dia = render_pagina_archivo_dia(clave_fecha, subtitulo_dia, items_html_dia, descripcion_dia, imagen_og_dia)
+            ruta_dia = ARCHIVO_DIR / f"{clave_fecha}.html"
+            if ruta_dia.exists():
+                anterior = ruta_dia.read_text(encoding="utf-8")
+                marcador_fin_grid = "    <!-- FIN-GRID -->\n"
+                if marcador_fin_grid in anterior:
+                    tarjetas_nuevas_html = "".join(
+                        render_tarjeta_html(item, rutas_noticia[item["enlace"]], es_destacada=False) for item in items_del_dia
+                    )
+                    anterior = anterior.replace(marcador_fin_grid, tarjetas_nuevas_html + marcador_fin_grid, 1)
+                    ruta_dia.write_text(anterior, encoding="utf-8")
+                    log(f"Actualizado {ruta_dia} (ya existía una edición de ese día; se anexaron los ítems nuevos a la cuadrícula).")
+                else:
+                    ruta_dia.write_text(pagina_dia, encoding="utf-8")
+                    log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura; probablemente tenía el diseño anterior).")
             else:
                 ruta_dia.write_text(pagina_dia, encoding="utf-8")
-                log(f"Reescrito {ruta_dia} (no se pudo anexar de forma segura; probablemente tenía el diseño anterior).")
-        else:
-            ruta_dia.write_text(pagina_dia, encoding="utf-8")
-            log(f"Escrito {ruta_dia}")
+                log(f"Escrito {ruta_dia}")
 
-        # 2. Portada (index.html): SIEMPRE refleja el mismo contenido que
-        # acaba de quedar en el archivo del día -- no solo los ítems nuevos
-        # de ESTA corrida. Antes se escribía con `items_html` (solo lo nuevo
-        # de esta corrida), así que si hubo más de una corrida el mismo día
-        # (p.ej. varios workflow_dispatch manuales), la portada terminaba
-        # mostrando nada más que la última corrida, mientras el archivo del
-        # día ya tenía todo acumulado -- quedaban desincronizados. Ahora se
-        # relee el archivo del día recién escrito y se reusa su cuadrícula
+            ruta_dia_mas_reciente = ruta_dia
+            subtitulo_mas_reciente = subtitulo_dia
+            descripcion_mas_reciente = descripcion_dia
+            imagen_og_mas_reciente = imagen_og_dia
+
+        # Portada (index.html): SIEMPRE refleja el mismo contenido que acaba
+        # de quedar en el archivo de la edición MÁS RECIENTE (no solo los
+        # ítems nuevos de esta corrida, y no necesariamente la de fecha_str,
+        # si esta corrida solo trajo ítems atrasados de un día anterior).
+        # Se relee el archivo recién escrito y se reusa su cuadrícula
         # completa, para que portada y archivo sean siempre el mismo
-        # contenido.
-        contenido_dia = ruta_dia.read_text(encoding="utf-8")
+        # contenido -- así, si hubo más de una corrida el mismo día (p.ej.
+        # varios workflow_dispatch manuales), la portada nunca queda
+        # mostrando solo la última corrida mientras el archivo ya tiene todo
+        # acumulado.
+        assert ruta_dia_mas_reciente is not None  # nuevos_ciber no está vacío acá, así que el bucle corrió al menos una vez
+        contenido_dia = ruta_dia_mas_reciente.read_text(encoding="utf-8")
         m_items = re.search(r'<h1 class="sr-only">.*?</h1>\n(.*?)\n  </main>', contenido_dia, re.DOTALL)
-        items_html_portada = m_items.group(1) if m_items else items_html
+        items_html_portada = m_items.group(1) if m_items else ""
 
         index_html = render_pagina_index(
-            "Periódico de Ciberseguridad — Portada", subtitulo, items_html_portada, descripcion_edicion, imagen_og_edicion
+            "Periódico de Ciberseguridad — Portada", subtitulo_mas_reciente, items_html_portada, descripcion_mas_reciente, imagen_og_mas_reciente
         )
         with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
             f.write(index_html)
