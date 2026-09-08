@@ -43,6 +43,7 @@ Sobre las imágenes:
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import os
@@ -1172,6 +1173,20 @@ def _renderizar_grid(items: list[dict], rutas_noticia: dict[str, str]) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Genera el sitio a partir de data/nuevas_hoy.json.")
+    parser.add_argument(
+        "--fecha",
+        type=str,
+        default=None,
+        help=(
+            "AAAA-MM-DD: fuerza la fecha de la edición/archivo del día, en vez de la fecha "
+            "real actual -- para backfills puntuales que publican noticias con su fecha real "
+            "de publicación (ver scripts/backfill_septiembre.py). El workflow diario normal "
+            "no pasa este argumento, así que su comportamiento no cambia."
+        ),
+    )
+    args = parser.parse_args()
+
     nuevos = cargar_nuevas()
 
     if not nuevos:
@@ -1181,7 +1196,15 @@ def main() -> None:
     if not DEEPL_API_KEY:
         log("AVISO GENERAL: DEEPL_API_KEY no está configurada. Las noticias en inglés se publicarán citando el título/extracto original (sin traducir) en vez de fallar o inventar una traducción.")
 
-    ahora_gye = datetime.now(ZONA_GUAYAQUIL)
+    if args.fecha:
+        # Mediodía Guayaquil: no hay una "hora real de publicación de la
+        # edición" para un backfill, mediodía es una convención neutra (igual
+        # que en fetch_spdp.py para boletines sin hora exacta). fecha_legible()
+        # y fecha_str solo usan la parte de fecha, así que la hora no afecta
+        # nada visible.
+        ahora_gye = datetime.strptime(args.fecha, "%Y-%m-%d").replace(hour=12, tzinfo=ZONA_GUAYAQUIL)
+    else:
+        ahora_gye = datetime.now(ZONA_GUAYAQUIL)
     fecha_str = ahora_gye.strftime("%Y-%m-%d")
     # Nota: a propósito NO se muestra el conteo de ítems en el HTML — ese
     # número es información de diagnóstico del proceso, no algo para el

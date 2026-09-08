@@ -287,6 +287,718 @@
       "fecha_publicacion_iso": "2025-12-01T12:00:00-05:00",
       "fecha_agregada_iso": "2026-09-08T01:08:42.174784+00:00",
       "ruta_noticia": "/noticia/2026-09-07-spdp-emite-sus-primeras-sanciones-por-infracciones-graves-a-fdd909da.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+      "fuente": "BleepingComputer",
+      "titulo": "Sality botnet infrastructure dismantled in joint global takedown",
+      "fecha_publicacion_iso": "2026-09-02T04:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.780992+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-sality-botnet-infrastructure-dismantled-in-joint-global-take-71e1868c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+      "fecha_publicacion_iso": "2026-09-02T02:39:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781007+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws-56a0387e.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+      "fuente": "Dark Reading",
+      "titulo": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+      "fecha_publicacion_iso": "2026-09-02T01:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781011+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-old-unpatched-flaws-give-attackers-access-to-philippines-nuc-47af0e0e.html"
+    },
+    "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/": {
+      "guid": "https://krebsonsecurity.com/?p=74231",
+      "fuente": "Krebs on Security",
+      "titulo": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "fecha_publicacion_iso": "2026-09-01T22:40:28+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781014+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-fbi-probes-service-selling-153m-drivers-licenses-a0aed382.html"
+    },
+    "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure": {
+      "guid": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
+      "fecha_publicacion_iso": "2026-09-01T21:05:53+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781017+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-attackers-pounce-on-critical-artifactory-bug-following-discl-fabfffd6.html"
+    },
+    "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within": {
+      "guid": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+      "fuente": "Dark Reading",
+      "titulo": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+      "fecha_publicacion_iso": "2026-09-01T21:03:19+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781020+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-stronger-security-drives-ransomware-groups-to-recruit-from-w-0b3c9468.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+      "fuente": "Dark Reading",
+      "titulo": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
+      "fecha_publicacion_iso": "2026-09-01T20:48:52+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781025+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-critical-langflow-vulnerability-exploited-as-attacks-on-ai-p-5c77fd06.html"
+    },
+    "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing": {
+      "guid": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
+      "fuente": "Dark Reading",
+      "titulo": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+      "fecha_publicacion_iso": "2026-09-01T20:13:09+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781028+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-ai-model-evaluator-metr-hit-by-credential-theft-probing-fe1adca3.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "fecha_publicacion_iso": "2026-09-01T17:53:11+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781031+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-attackers-exploit-critical-jfrog-artifactory-flaw-to-mint-ad-79a53944.html"
+    },
+    "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html": {
+      "guid": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+      "fecha_publicacion_iso": "2026-09-01T17:19:24+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781033+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-breeze-comet-executes-hundreds-of-fraudulent-transactions-vi-56154d82.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+      "fecha_publicacion_iso": "2026-09-01T16:53:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781036+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-hackers-abuse-faronics-deploy-admin-tool-to-install-screenco-5c900589.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+      "fuente": "BleepingComputer",
+      "titulo": "Aesto Health says data breach affects over 9.5 million patients",
+      "fecha_publicacion_iso": "2026-09-01T15:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781040+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-aesto-health-says-data-breach-affects-over-9-5-million-patie-ce13150f.html"
+    },
+    "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html": {
+      "guid": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+      "fuente": "The Hacker News",
+      "titulo": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+      "fecha_publicacion_iso": "2026-09-01T14:07:20+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781042+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-13-malicious-packagist-packages-target-unpatched-iphones-to-42489679.html"
+    },
+    "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain": {
+      "guid": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+      "fuente": "Dark Reading",
+      "titulo": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+      "fecha_publicacion_iso": "2026-09-01T13:56:42+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781045+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-clickfix-campaign-compromises-31-orgs-abuses-polygon-blockch-e544e8b8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "fecha_publicacion_iso": "2026-09-01T13:54:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781047+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-critical-langflow-flaw-exploited-to-steal-openai-and-aws-key-55201139.html"
+    },
+    "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html": {
+      "guid": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+      "fecha_publicacion_iso": "2026-09-01T13:08:58+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781049+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-iranian-hackers-pose-as-recruiters-to-deliver-cross-platform-c6c20774.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+      "fecha_publicacion_iso": "2026-09-01T10:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781052+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-hackers-push-malicious-virtualizor-update-in-bgp-hijacking-a-2a070fc6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+      "fuente": "BleepingComputer",
+      "titulo": "Novocure data breach affects more than 1,400 cancer patients",
+      "fecha_publicacion_iso": "2026-09-01T10:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781054+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-novocure-data-breach-affects-more-than-1-400-cancer-patients-1b46f6fc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+      "fuente": "BleepingComputer",
+      "titulo": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+      "fecha_publicacion_iso": "2026-09-01T10:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781057+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-why-even-the-best-edge-security-still-misses-high-risk-sessi-9b4a9cd6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "fecha_publicacion_iso": "2026-09-01T08:38:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781059+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijac-fb80f08d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/falta-de-autorizacion-en-opennebula-de-opennebula-systems": {
+      "guid": "658196 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Falta de autorización en OpenNebula de OpenNebula Systems",
+      "fecha_publicacion_iso": "2026-09-01T07:54:31+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781061+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-falta-de-autorizacion-en-opennebula-de-opennebula-systems-9e400f52.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-en-el-core-de-lutece": {
+      "guid": "658193 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección de código en el Core de Lutece",
+      "fecha_publicacion_iso": "2026-09-01T07:28:42+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781064+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-inyeccion-de-codigo-en-el-core-de-lutece-496859c5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+      "fuente": "BleepingComputer",
+      "titulo": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+      "fecha_publicacion_iso": "2026-09-01T05:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:36.781066+00:00",
+      "ruta_noticia": "/noticia/2026-09-01-five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-53e4c2c0.html"
+    },
+    "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared": {
+      "guid": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+      "fuente": "Dark Reading",
+      "titulo": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
+      "fecha_publicacion_iso": "2026-09-02T21:14:06+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079617+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-ai-s-vulnerability-surge-may-be-more-manageable-than-first-f-0d0f16f9.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+      "fuente": "Dark Reading",
+      "titulo": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-09-02T20:43:59+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079632+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-sonicwall-sma-1000-zero-days-enable-unauthenticated-rce-a2c5bbd9.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage": {
+      "guid": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
+      "fuente": "Dark Reading",
+      "titulo": "AI Gives Cybercriminals a Dangerous Time Advantage",
+      "fecha_publicacion_iso": "2026-09-02T19:46:31+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079637+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-ai-gives-cybercriminals-a-dangerous-time-advantage-8f6b611d.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/infostealer-secuestra-sesiones-de-claude-y-consume-creditos-sin-autorizacion/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/infostealer-secuestra-sesiones-de-claude-y-consume-creditos-sin-autorizacion/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Infostealer secuestra sesiones de Claude y consume créditos sin autorización",
+      "fecha_publicacion_iso": "2026-09-02T18:43:43+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079640+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-infostealer-secuestra-sesiones-de-claude-y-consume-creditos-7b372323.html"
+    },
+    "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html": {
+      "guid": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "fecha_publicacion_iso": "2026-09-02T18:27:49+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079642+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-google-anthropic-and-openai-unveil-cyber-ai-models-safeguard-3eb6b752.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "fecha_publicacion_iso": "2026-09-02T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079645+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-she-b11a003c.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
+      "fuente": "Dark Reading",
+      "titulo": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+      "fecha_publicacion_iso": "2026-09-02T16:51:21+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079647+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-threat-gang-springs-vishing-attacks-on-microsoft-teams-users-551e76fd.html"
+    },
+    "https://thehackernews.com/2026/09/fake-software-installers-disable.html": {
+      "guid": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+      "fecha_publicacion_iso": "2026-09-02T16:41:06+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079652+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-fake-software-installers-disable-windows-update-and-weaken-m-3b410cf3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+      "fecha_publicacion_iso": "2026-09-02T15:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079655+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-ta-a7432d5a.html"
+    },
+    "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html": {
+      "guid": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "fecha_publicacion_iso": "2026-09-02T14:06:59+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079657+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-malicious-git-configs-can-make-claude-codex-cursor-and-other-cd4ac32e.html"
+    },
+    "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html": {
+      "guid": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "fecha_publicacion_iso": "2026-09-02T13:44:16+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079660+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-malicious-apache-modules-hijack-brazilian-government-site-tr-ffcf2210.html"
+    },
+    "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html": {
+      "guid": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "fuente": "The Hacker News",
+      "titulo": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "fecha_publicacion_iso": "2026-09-02T13:12:45+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079662+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-bgp-hijack-delivers-malicious-virtualizor-update-that-establ-caf7e586.html"
+    },
+    "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html": {
+      "guid": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "fuente": "The Hacker News",
+      "titulo": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "fecha_publicacion_iso": "2026-09-02T12:22:02+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079665+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-meta-ads-push-streamrat-android-trojan-that-can-gain-near-co-8332879a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+      "fecha_publicacion_iso": "2026-09-02T11:47:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079667+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-adm-1e441479.html"
+    },
+    "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html": {
+      "guid": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "fuente": "The Hacker News",
+      "titulo": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "fecha_publicacion_iso": "2026-09-02T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079669+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-how-to-secure-enterprise-ai-from-adoption-to-incident-readin-c09e61ef.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+      "fecha_publicacion_iso": "2026-09-02T10:53:49+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079673+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-attackers-exploit-two-sonicwall-sma-1000-zero-days-that-may-348588b4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "fecha_publicacion_iso": "2026-09-02T10:02:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079676+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-ransomware-protection-for-msps-a-6-point-checklist-for-faste-adfb78f2.html"
+    },
+    "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html": {
+      "guid": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+      "fecha_publicacion_iso": "2026-09-02T09:18:02+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079678+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-geonetwork-fixes-unauthenticated-rce-chain-affecting-governm-a7a11a80.html"
+    },
+    "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html": {
+      "guid": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+      "fuente": "The Hacker News",
+      "titulo": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+      "fecha_publicacion_iso": "2026-09-02T09:10:23+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079680+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-extradited-russian-hacker-faces-charges-over-excel-malware-c-5fa2181f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Dropbox accounts breached through Lenovo email verification flaw",
+      "fecha_publicacion_iso": "2026-09-02T08:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079682+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-dropbox-accounts-breached-through-lenovo-email-verification-a11ca85a.html"
+    },
+    "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html": {
+      "guid": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+      "fecha_publicacion_iso": "2026-09-02T07:47:13+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079685+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-researchers-use-claude-to-port-pre-auth-rce-exploit-from-one-152b1ab1.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+      "fecha_publicacion_iso": "2026-09-02T07:08:50+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079687+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-attackers-exploit-critical-switchvox-flaw-to-deploy-reverse-123b90c7.html"
+    },
+    "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html": {
+      "guid": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+      "fuente": "The Hacker News",
+      "titulo": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+      "fecha_publicacion_iso": "2026-09-02T06:56:30+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079689+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-authorities-turn-sality-s-p2p-network-against-itself-cutting-e1b0fe39.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Defender flags legitimate Google search links as malicious",
+      "fecha_publicacion_iso": "2026-09-02T06:29:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079692+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-microsoft-defender-flags-legitimate-google-search-links-as-m-a4b0ba36.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "US charges Russian for infecting 80,000 freelancers with malware",
+      "fecha_publicacion_iso": "2026-09-02T05:06:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.079694+00:00",
+      "ruta_noticia": "/noticia/2026-09-02-us-charges-russian-for-infecting-80-000-freelancers-with-mal-d321a447.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+      "fuente": "Dark Reading",
+      "titulo": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
+      "fecha_publicacion_iso": "2026-09-03T20:18:14+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366791+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-large-enterprises-targeted-in-fake-merger-amp-acquisition-sc-7ff01f20.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+      "fuente": "Dark Reading",
+      "titulo": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+      "fecha_publicacion_iso": "2026-09-03T19:42:39+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366805+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-what-we-missed-did-shinyhunters-breach-reliaquest-87ab989d.html"
+    },
+    "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html": {
+      "guid": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "fecha_publicacion_iso": "2026-09-03T18:02:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366811+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-threatsday-ceo-phishing-kits-5k-dropbox-account-hacks-oauth-517c6272.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+      "fuente": "BleepingComputer",
+      "titulo": "French hospital fined €500,000 after breach exposes data of 727,000",
+      "fecha_publicacion_iso": "2026-09-03T18:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366814+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-french-hospital-fined-500-000-after-breach-exposes-data-of-7-a955036c.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ai-warning-letter-missed-people": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ai-warning-letter-missed-people",
+      "fuente": "Dark Reading",
+      "titulo": "What the AI Warning Letter Completely Missed",
+      "fecha_publicacion_iso": "2026-09-03T17:23:14+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366817+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-what-the-ai-warning-letter-completely-missed-c8043b5c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+      "fuente": "BleepingComputer",
+      "titulo": "Coder's registry infrastructure compromised to push malicious modules",
+      "fecha_publicacion_iso": "2026-09-03T16:04:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366820+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-coder-s-registry-infrastructure-compromised-to-push-maliciou-4db1e04a.html"
+    },
+    "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+      "fecha_publicacion_iso": "2026-09-03T15:52:07+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366822+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-critical-cisco-nexus-9000-flaw-lets-unauthenticated-remote-a-45aa1b52.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/victima-deepfake-que-debo-hacer/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/victima-deepfake-que-debo-hacer/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Fui víctima de un deepfake: ¿qué debo hacer?",
+      "fecha_publicacion_iso": "2026-09-03T15:44:50+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366824+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-fui-victima-de-un-deepfake-que-debo-hacer-22140f85.html"
+    },
+    "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html": {
+      "guid": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+      "fuente": "The Hacker News",
+      "titulo": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+      "fecha_publicacion_iso": "2026-09-03T15:26:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366827+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-brazetsu-malware-turns-compromised-windows-hosts-into-crimin-78a35145.html"
+    },
+    "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html": {
+      "guid": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "fuente": "The Hacker News",
+      "titulo": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+      "fecha_publicacion_iso": "2026-09-03T14:39:05+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366829+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-thomson-reuters-court-software-breach-may-have-exposed-ssns-77c79351.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
+      "fuente": "Dark Reading",
+      "titulo": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+      "fecha_publicacion_iso": "2026-09-03T14:38:49+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366831+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-ai-machine-speed-cuts-2-week-attack-down-to-10-hours-39884b33.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "HPE patches critical ArubaOS-CX remote code execution flaw",
+      "fecha_publicacion_iso": "2026-09-03T14:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366833+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-hpe-patches-critical-arubaos-cx-remote-code-execution-flaw-ea175bca.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems": {
+      "guid": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
+      "fuente": "Dark Reading",
+      "titulo": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
+      "fecha_publicacion_iso": "2026-09-03T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366836+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-breeze-comet-tears-into-brazilian-amp-global-financial-syste-868b9303.html"
+    },
+    "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html": {
+      "guid": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+      "fuente": "The Hacker News",
+      "titulo": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+      "fecha_publicacion_iso": "2026-09-03T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366838+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-us-becomes-top-target-in-rmm-phishing-campaign-spanning-46-c-40a4e36b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+      "fecha_publicacion_iso": "2026-09-03T10:52:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366840+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-critical-elementor-pro-flaw-exploited-to-take-over-wordpress-7e67bf78.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-03T10:43:01+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366843+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-attackers-turn-trusted-node-js-runtime-into-malware-delivery-c637fcbf.html"
+    },
+    "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html": {
+      "guid": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+      "fuente": "The Hacker News",
+      "titulo": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+      "fecha_publicacion_iso": "2026-09-03T10:36:39+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366845+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-shai-hulud-s-reach-just-grew-to-469-credential-locations-her-9fc8e83d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "fuente": "BleepingComputer",
+      "titulo": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+      "fecha_publicacion_iso": "2026-09-03T09:50:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366847+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-your-employees-password-appeared-in-an-infostealer-log-now-w-59bf0262.html"
+    },
+    "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html": {
+      "guid": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+      "fuente": "The Hacker News",
+      "titulo": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+      "fecha_publicacion_iso": "2026-09-03T08:43:17+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366849+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-pegasus-zero-click-spyware-exploit-infects-serbian-student-m-1f896719.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-ocsreports-de-ocs-inventory-ng": {
+      "guid": "657413 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Ocsreports de OCS Inventory NG",
+      "fecha_publicacion_iso": "2026-09-03T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366852+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-multiples-vulnerabilidades-en-ocsreports-de-ocs-inventory-ng-71fc247c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-sonicwall": {
+      "guid": "658285 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de SonicWall",
+      "fecha_publicacion_iso": "2026-09-03T07:50:27+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366854+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-multiples-vulnerabilidades-en-productos-de-sonicwall-6e174bb6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+      "fuente": "BleepingComputer",
+      "titulo": "Plex warns users to patch security vulnerabilities immediately",
+      "fecha_publicacion_iso": "2026-09-03T07:02:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366856+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-plex-warns-users-to-patch-security-vulnerabilities-immediate-94df04e0.html"
+    },
+    "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html": {
+      "guid": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+      "fecha_publicacion_iso": "2026-09-03T06:26:59+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366859+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-researcher-releases-falconflank-poc-showing-privilege-escala-aa3ea3b2.html"
+    },
+    "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html": {
+      "guid": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+      "fecha_publicacion_iso": "2026-09-03T05:19:04+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.366861+00:00",
+      "ruta_noticia": "/noticia/2026-09-03-cisa-adds-seven-exploited-flaws-as-attackers-deploy-reverse-1cc3e73a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "fuente": "BleepingComputer",
+      "titulo": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "fecha_publicacion_iso": "2026-09-04T16:56:45+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707498+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-idscan-sued-over-alleged-data-breach-affecting-153-million-d-44430bc7.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
+      "fuente": "Dark Reading",
+      "titulo": "Companies Have 6 Months to Prepare for Automated Attacks",
+      "fecha_publicacion_iso": "2026-09-04T15:57:31+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707512+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-companies-have-6-months-to-prepare-for-automated-attacks-b80dc834.html"
+    },
+    "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html": {
+      "guid": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "fecha_publicacion_iso": "2026-09-04T15:57:15+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707517+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-phishing-campaign-sends-millions-of-emails-using-invisible-u-2546d098.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "fecha_publicacion_iso": "2026-09-04T15:25:59+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707520+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-critical-citrix-netscaler-auth-bypass-now-leveraged-in-attac-3c2121eb.html"
+    },
+    "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html": {
+      "guid": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "fuente": "The Hacker News",
+      "titulo": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "fecha_publicacion_iso": "2026-09-04T15:20:19+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707522+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-postgresql-fixes-12-year-old-logical-decoding-flaw-enabling-a42c4fcb.html"
+    },
+    "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html": {
+      "guid": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "fecha_publicacion_iso": "2026-09-04T14:51:13+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707525+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-new-ted-backdoor-hides-inside-victims-own-haproxy-builds-to-6d993489.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says some users can’t open the Teams desktop client",
+      "fecha_publicacion_iso": "2026-09-04T14:30:15+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707527+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-microsoft-says-some-users-cant-open-the-teams-desktop-client-20c1a887.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
+      "fuente": "Dark Reading",
+      "titulo": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
+      "fecha_publicacion_iso": "2026-09-04T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707530+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-ai-is-ending-the-era-of-hidden-vulnerabilities-are-vendors-r-9731c992.html"
+    },
+    "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai": {
+      "guid": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+      "fuente": "Dark Reading",
+      "titulo": "Insurers Search for Answers to Rein in Rogue AI",
+      "fecha_publicacion_iso": "2026-09-04T12:15:03+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707532+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-insurers-search-for-answers-to-rein-in-rogue-ai-e70d6fdd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "fuente": "BleepingComputer",
+      "titulo": "39 New Methods That Compromise Passkey Authentication",
+      "fecha_publicacion_iso": "2026-09-04T10:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707534+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-39-new-methods-that-compromise-passkey-authentication-984e9468.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "fecha_publicacion_iso": "2026-09-04T09:22:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707537+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-new-crowdstrike-falconflank-zero-day-grants-system-privilege-3dcb0984.html"
+    },
+    "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html": {
+      "guid": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+      "fuente": "The Hacker News",
+      "titulo": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+      "fecha_publicacion_iso": "2026-09-04T08:48:45+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707539+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-over-440-000-exploit-attempts-target-super-forms-and-element-de6679df.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-vmware-5": {
+      "guid": "658695 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de VMware",
+      "fecha_publicacion_iso": "2026-09-04T07:55:54+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707541+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-multiples-vulnerabilidades-en-productos-de-vmware-8c4fbcdf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google warns of new Chrome zero-day flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-04T07:48:00+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707543+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-google-warns-of-new-chrome-zero-day-flaw-exploited-in-attack-a8d102ce.html"
+    },
+    "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html": {
+      "guid": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+      "fecha_publicacion_iso": "2026-09-04T07:35:14+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707546+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-plex-urges-immediate-updates-after-patching-multiple-undiscl-d2d1ffe7.html"
+    },
+    "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html": {
+      "guid": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+      "fecha_publicacion_iso": "2026-09-04T07:18:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707548+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-google-releases-chrome-update-to-patch-actively-exploited-v8-c21f3d52.html"
+    },
+    "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html": {
+      "guid": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "fuente": "The Hacker News",
+      "titulo": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "fecha_publicacion_iso": "2026-09-04T06:47:52+00:00",
+      "fecha_agregada_iso": "2026-09-08T02:14:37.707550+00:00",
+      "ruta_noticia": "/noticia/2026-09-04-gpt-6-astra-scores-100-on-exploitbench-as-openai-blocks-poc-2d8294ff.html"
     }
   }
 }
