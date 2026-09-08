@@ -1022,9 +1022,9 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 {render_json_ld_noticia(item, titulo_mostrar, ruta_noticia, categoria)}
 </head>
 <body>
-{render_cabecera("Detalle de la noticia", "../", "noticia")}
+{render_cabecera("../", "noticia")}
   <main class="contenido pagina-noticia">
-    <div class="pagina-noticia-layout">
+{render_subtitulo_pagina("Detalle de la noticia")}    <div class="pagina-noticia-layout">
     <article class="noticia-detalle cat-{categoria}">
       <span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>
       <h1 class="noticia-detalle-titulo">{titulo_html}</h1>
@@ -1050,7 +1050,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 FUENTES_MONITOREADAS = "The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT."
 
 
-def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
+def render_cabecera(prefijo: str, pagina_actual: str) -> str:
     """`prefijo`: '' en site/index.html, '../' en cualquier página un nivel
     adentro (site/archivo/*.html, site/noticia/*.html,
     site/proteccion-datos/index.html). `pagina_actual`: 'portada', 'archivo',
@@ -1062,31 +1062,44 @@ def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
     forma de distinguir "estoy en site/archivo/" de "estoy en
     site/noticia/" (ambos tienen prefijo="../"). Antes de este cambio,
     "Archivo" resolvía mal desde site/noticia/*.html (apuntaba a
-    site/noticia/index.html, que no existe -> 404)."""
+    site/noticia/index.html, que no existe -> 404).
+
+    La cabecera ya NO lleva el subtítulo de cada página (antes "Edición
+    del ...", "Detalle de la noticia", etc.) -- eso ahora vive en el
+    propio contenido principal de cada página, ver
+    render_subtitulo_pagina(), para que la cabecera sticky quede más
+    compacta y esa información se mantenga con el contenido al que
+    describe, no fija arriba de la pantalla todo el scroll."""
     nav_portada_clase = ' class="activo"' if pagina_actual == "portada" else ""
     nav_archivo_clase = ' class="activo"' if pagina_actual == "archivo" else ""
     nav_proteccion_clase = ' class="activo"' if pagina_actual == "proteccion_datos" else ""
     return f"""  <header class="cabecera">
     <div class="cabecera-contenido">
-      <div class="marca">
-        <a href="{prefijo}index.html" class="marca-enlace">
-          <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
-          <div class="marca-texto">
-            <span class="marca-titulo">Noticias de Ciberseguridad</span>
-            <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
-          </div>
-        </a>
-        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer" class="enlace-derenzin">derenzin.com ↗</a>
-      </div>
-      <p class="subtitulo">{escape(subtitulo)}</p>
+      <a href="{prefijo}index.html" class="marca-enlace">
+        <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
+        <div class="marca-texto">
+          <span class="marca-titulo">Noticias de Ciberseguridad</span>
+          <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
+        </div>
+      </a>
       <nav class="nav">
         <a href="{prefijo}index.html"{nav_portada_clase}>Inicio</a>
         <a href="/archivo/index.html"{nav_archivo_clase}>Archivo</a>
         <a href="/proteccion-datos/index.html"{nav_proteccion_clase}>Protección de Datos</a>
+        <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a>
       </nav>
     </div>
   </header>
+  <script src="{prefijo}assets/cabecera-sticky.js" defer></script>
 """
+
+
+def render_subtitulo_pagina(subtitulo: str) -> str:
+    """Línea de contexto de la página (antes vivía en la cabecera sticky --
+    "Edición del ...", "Detalle de la noticia", "Archivo de ediciones
+    anteriores", etc.) -- ahora se muestra al principio del contenido
+    principal de cada página, justo antes de su primer bloque real."""
+    return f'    <p class="subtitulo-pagina">{escape(subtitulo)}</p>\n'
 
 
 # Google Fonts (Inter) — la misma fuente en las tres plantillas de página.
@@ -1132,10 +1145,10 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str, des
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-{render_cabecera(subtitulo, "", "portada")}
+{render_cabecera("", "portada")}
   <main class="contenido portada">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{items_html}
+{render_subtitulo_pagina(subtitulo)}{items_html}
   </main>
 
 {render_pie("")}
@@ -1160,10 +1173,10 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str, d
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-{render_cabecera(subtitulo, "../", "archivo")}
+{render_cabecera("../", "archivo")}
   <main class="contenido archivo-dia">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{items_html}
+{render_subtitulo_pagina(subtitulo)}{items_html}
   </main>
 
 {render_pie("../")}
@@ -1244,10 +1257,10 @@ def render_archivo_index(dias: list[str]) -> str:
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-{render_cabecera("Archivo de ediciones anteriores", "../", "archivo")}
+{render_cabecera("../", "archivo")}
   <main class="contenido">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-    {lista}
+{render_subtitulo_pagina("Archivo de ediciones anteriores")}    {lista}
   </main>
 
 {render_pie("../")}
@@ -1309,10 +1322,10 @@ def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, im
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-{render_cabecera(subtitulo, "../", "proteccion_datos")}
+{render_cabecera("../", "proteccion_datos")}
   <main class="contenido portada">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{BLOQUE_FUENTE_OFICIAL_SPDP}{BLOQUE_RECURSO_PROPIO_LOPDP}{items_html}
+{render_subtitulo_pagina(subtitulo)}{BLOQUE_FUENTE_OFICIAL_SPDP}{BLOQUE_RECURSO_PROPIO_LOPDP}{items_html}
   </main>
 
 {render_pie("../")}
