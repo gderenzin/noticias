@@ -1,0 +1,34 @@
+{
+  "boletines": {
+    "1": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.525104+00:00",
+      "fecha_publicacion_iso": "2026-02-23T17:13:38+00:00",
+      "titulo": "Ecuador se adhiere a Declaración Internacional sobre riesgos de imágenes generadas con IA sin consentimiento"
+    },
+    "2": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.525955+00:00",
+      "fecha_publicacion_iso": "2026-02-03T12:00:00-05:00",
+      "titulo": "La SPDP emite norma general para el tratamiento de datos personales en actividades familiares o domésticas"
+    },
+    "3": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.526564+00:00",
+      "fecha_publicacion_iso": "2026-01-20T12:00:00-05:00",
+      "titulo": "La SPDP sanciona a LIGAPRO por no haber implementado la protección de datos personales desde el diseño y por defecto en la aplicación FAN ID"
+    },
+    "4": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.527095+00:00",
+      "fecha_publicacion_iso": "2026-01-20T12:00:00-05:00",
+      "titulo": "La SPDP sanciona a la FEF por no utilizar metodologías de análisis y gestión de riesgos adecuadas"
+    },
+    "5": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.527493+00:00",
+      "fecha_publicacion_iso": "2025-12-04T12:00:00-05:00",
+      "titulo": "La SPDP Alerta sobre la difusión de un registro viral que vulnera datos personales en Ecuador"
+    },
+    "6": {
+      "fecha_agregada_iso": "2026-09-08T01:08:41.528149+00:00",
+      "fecha_publicacion_iso": "2025-12-01T12:00:00-05:00",
+      "titulo": "SPDP emite sus primeras sanciones por infracciones graves a la Ley de Protección de Datos Personales"
+    }
+  }
+}

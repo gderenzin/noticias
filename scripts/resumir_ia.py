@@ -343,8 +343,20 @@ def main() -> None:
         item["resumen_ia"] = None
         item["resumen_ia_ok"] = False
 
-        enlace = item.get("enlace", "")
         titulo = item.get("titulo", "")
+
+        # Ítems que declaran su propio enlace como no apto para este paso
+        # (p.ej. los boletines de la SPDP vía fetch_spdp.py: todos comparten
+        # la misma URL de la página de prensa, así que entrar ahí traería
+        # una mezcla de varios boletines, no el texto de este en
+        # particular -- ni un resumen de IA ni una búsqueda de imagen sobre
+        # eso serían fieles a ESTE ítem). Ya vienen con su propio texto
+        # completo (contenido_ampliado), sin necesidad de IA.
+        if item.get("omitir_resumen_ia"):
+            log(f"Omitido (fuente sin página propia por ítem, ver 'omitir_resumen_ia'): {titulo[:70]}...")
+            continue
+
+        enlace = item.get("enlace", "")
         necesita_imagen = not item.get("imagen_local")
 
         if not GEMINI_API_KEY and not necesita_imagen:

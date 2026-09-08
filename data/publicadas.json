@@ -239,6 +239,54 @@
       "fecha_publicacion_iso": "2026-09-07T08:37:01+00:00",
       "fecha_agregada_iso": "2026-09-07T20:52:04.126182+00:00",
       "ruta_noticia": "/noticia/2026-09-07-multiples-vulnerabilidades-en-productos-de-cisco-b56a1ebb.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-1": {
+      "guid": "spdp-boletin-1",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "Ecuador se adhiere a Declaración Internacional sobre riesgos de imágenes generadas con IA sin consentimiento",
+      "fecha_publicacion_iso": "2026-02-23T17:13:38+00:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174758+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-ecuador-se-adhiere-a-declaracion-internacional-sobre-riesgos-6b15d0f2.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-2": {
+      "guid": "spdp-boletin-2",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "La SPDP emite norma general para el tratamiento de datos personales en actividades familiares o domésticas",
+      "fecha_publicacion_iso": "2026-02-03T12:00:00-05:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174773+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-la-spdp-emite-norma-general-para-el-tratamiento-de-datos-per-c09757a0.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-3": {
+      "guid": "spdp-boletin-3",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "La SPDP sanciona a LIGAPRO por no haber implementado la protección de datos personales desde el diseño y por defecto en la aplicación FAN ID",
+      "fecha_publicacion_iso": "2026-01-20T12:00:00-05:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174777+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-la-spdp-sanciona-a-ligapro-por-no-haber-implementado-la-prot-08617c05.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-4": {
+      "guid": "spdp-boletin-4",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "La SPDP sanciona a la FEF por no utilizar metodologías de análisis y gestión de riesgos adecuadas",
+      "fecha_publicacion_iso": "2026-01-20T12:00:00-05:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174780+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-la-spdp-sanciona-a-la-fef-por-no-utilizar-metodologias-de-an-c42284ed.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-5": {
+      "guid": "spdp-boletin-5",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "La SPDP Alerta sobre la difusión de un registro viral que vulnera datos personales en Ecuador",
+      "fecha_publicacion_iso": "2025-12-04T12:00:00-05:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174782+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-la-spdp-alerta-sobre-la-difusion-de-un-registro-viral-que-vu-d61467e2.html"
+    },
+    "https://spdp.gob.ec/prensa/#boletin-6": {
+      "guid": "spdp-boletin-6",
+      "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
+      "titulo": "SPDP emite sus primeras sanciones por infracciones graves a la Ley de Protección de Datos Personales",
+      "fecha_publicacion_iso": "2025-12-01T12:00:00-05:00",
+      "fecha_agregada_iso": "2026-09-08T01:08:42.174784+00:00",
+      "ruta_noticia": "/noticia/2026-09-07-spdp-emite-sus-primeras-sanciones-por-infracciones-graves-a-fdd909da.html"
     }
   }
 }

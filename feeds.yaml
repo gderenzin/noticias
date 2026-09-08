@@ -87,16 +87,12 @@ fuentes:
       - "DPD"
       - "DPO"
 
-  - nombre: "Superintendencia de Protección de Datos Personales (SPDP)"
-    url: "https://spdp.gob.ec/prensa/feed/"
-    dominio: "spdp.gob.ec"
-    idioma: es
-    categoria: proteccion_datos
-    opcional: true
-    # El ente rector de la LOPDP en Ecuador -- su feed existe pero está
-    # vacío por ahora (confirmado: 0 ítems). Se deja "opcional" para que se
-    # autoactive sola el día que empiece a publicar, sin romper nada
-    # mientras tanto. Mientras esté vacía, el sitio igual muestra un bloque
-    # fijo "Fuente oficial" con el enlace directo a su sitio de prensa (ver
-    # render_pagina_seccion_proteccion_datos() en build_site.py) -- así el
-    # ente rector queda siempre visible aunque su RSS no aporte contenido.
+  # La Superintendencia de Protección de Datos Personales (SPDP, el ente
+  # rector de la LOPDP en Ecuador) NO tiene RSS funcional -- se confirmó
+  # que /feed/, /prensa/feed/ y los sitemaps están vacíos o son feeds de
+  # comentarios. Por eso no aparece acá como fuente RSS: sus boletines de
+  # prensa se traen aparte, vía scripts/fetch_spdp.py, que descarga el
+  # endpoint JSON oficial de WordPress de la página "Prensa"
+  # (https://spdp.gob.ec/wp-json/wp/v2/pages/4844) y separa cada "BOLETÍN
+  # DE PRENSA N°..." en un ítem individual. Ver ese script para el detalle;
+  # se corre como un paso aparte en el workflow, no a través de este archivo.

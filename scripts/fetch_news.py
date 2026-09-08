@@ -230,13 +230,21 @@ def dominio_coincide(link: str, dominio_declarado: str) -> bool:
 def limpiar_html(texto: str) -> str:
     """Quita etiquetas HTML y decodifica entidades (&nbsp;, &amp;, etc.) de un
     extracto de RSS, sin dependencias externas. El texto resultante queda en
-    texto plano; build_site.py se encarga de volver a escaparlo para HTML."""
+    texto plano; build_site.py se encarga de volver a escaparlo para HTML.
+
+    <style>/<script> se descartan ENTEROS (etiqueta y contenido) antes de
+    quitar el resto de las etiquetas -- si no, su texto interno (reglas CSS,
+    código JS) quedaría pegado al texto plano resultante (confirmado con el
+    HTML de WordPress/Elementor de la página de prensa de la SPDP, que
+    incrusta bloques <style> sueltos junto al texto de cada boletín)."""
     import html
     import re
 
     if not texto:
         return ""
-    sin_tags = re.sub(r"<[^>]+>", " ", texto)
+    sin_estilos = re.sub(r"<style[^>]*>.*?</style>", " ", texto, flags=re.IGNORECASE | re.DOTALL)
+    sin_estilos = re.sub(r"<script[^>]*>.*?</script>", " ", sin_estilos, flags=re.IGNORECASE | re.DOTALL)
+    sin_tags = re.sub(r"<[^>]+>", " ", sin_estilos)
     decodificado = html.unescape(sin_tags)
     sin_espacios = re.sub(r"\s+", " ", decodificado).strip()
     return sin_espacios
@@ -268,13 +276,18 @@ def limpiar_html_conservando_parrafos(texto: str) -> str:
     3. Se marca salto de párrafo en más bloques, no solo <p>/<br> (también
        <div>) -- por si una fuente arma sus párrafos con otro elemento en
        vez de <p>.
+    4. <style>/<script> se descartan ENTEROS (etiqueta y contenido), igual
+       que en limpiar_html() -- confirmado necesario con el HTML de
+       WordPress/Elementor de la página de prensa de la SPDP.
     """
     import html
     import re
 
     if not texto:
         return ""
-    sin_estructuras = re.sub(r"<table[^>]*>.*?</table>", " ", texto, flags=re.IGNORECASE | re.DOTALL)
+    sin_estructuras = re.sub(r"<style[^>]*>.*?</style>", " ", texto, flags=re.IGNORECASE | re.DOTALL)
+    sin_estructuras = re.sub(r"<script[^>]*>.*?</script>", " ", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
+    sin_estructuras = re.sub(r"<table[^>]*>.*?</table>", " ", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
     sin_estructuras = re.sub(r"<(ul|ol)[^>]*>.*?</\1>", " ", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
     sin_estructuras = re.sub(r"<h[1-6][^>]*>.*?</h[1-6]>", "\n\n", sin_estructuras, flags=re.IGNORECASE | re.DOTALL)
     marcado = re.sub(
@@ -285,6 +298,11 @@ def limpiar_html_conservando_parrafos(texto: str) -> str:
     )
     sin_tags = re.sub(r"<[^>]+>", " ", marcado)
     decodificado = html.unescape(sin_tags)
+    # Una etiqueta inline pegada justo antes de un signo de puntuación (p.ej.
+    # "<i>Quito, 20 de enero de 2026</i>.–") deja un espacio de sobra al
+    # quitarla ("2026 .–") -- se colapsa acá, después de decodificar
+    # entidades y antes de partir en líneas.
+    decodificado = re.sub(r"[ \t]+([.,;:!?])", r"\1", decodificado)
     lineas = [re.sub(r"[ \t]+", " ", linea).strip() for linea in decodificado.split("\n")]
     resultado = re.sub(r"\n{3,}", "\n\n", "\n".join(lineas)).strip()
     return resultado

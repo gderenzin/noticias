@@ -930,6 +930,7 @@ def render_pie(prefijo: str) -> str:
       <div class="pie-legal">
         <p>{escape(AVISO_LEGAL)}</p>
         <p class="pie-fuentes">Fuentes monitoreadas: {FUENTES_MONITOREADAS}</p>
+        <p class="pie-recurso">¿Tu organización necesita cumplir con la LOPDP? <a href="https://lopdp.derenzin.com" target="_blank" rel="noopener noreferrer">Metodología de cumplimiento LOPDP de DERENZIN ↗</a></p>
         <p class="pie-copyright">© {anio} DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
       </div>
     </div>
@@ -1038,6 +1039,17 @@ BLOQUE_FUENTE_OFICIAL_SPDP = """    <aside class="fuente-oficial">
     </aside>
 """
 
+# Enlace de referencia a un recurso propio de DERENZIN (no es una fuente de
+# noticias -- no se valida como RSS ni se procesa como ítem, es solo un
+# enlace fijo, igual de visible que el bloque de la SPDP pero claramente
+# distinguido como "recurso propio" en vez de "fuente oficial").
+BLOQUE_RECURSO_PROPIO_LOPDP = """    <aside class="recurso-propio">
+      <h2 class="recurso-propio-titulo">Recurso propio</h2>
+      <p class="recurso-propio-texto">¿Tu organización necesita cumplir con la LOPDP? Conoce la metodología de cumplimiento de DERENZIN S.A.S.</p>
+      <a class="recurso-propio-cta" href="https://lopdp.derenzin.com" target="_blank" rel="noopener noreferrer">Más sobre cumplimiento LOPDP: Metodología DERENZIN ↗</a>
+    </aside>
+"""
+
 
 def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, imagen_og: str) -> str:
     """Portada propia de la sección "Protección de Datos" (site/proteccion-datos/index.html).
@@ -1049,11 +1061,13 @@ def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, im
     ciclo diario -- para que siempre muestre contenido reciente aunque hoy
     no haya habido ninguna noticia nueva de esta sección en particular.
 
-    Siempre incluye, además de las noticias, un bloque fijo "Fuente
+    Siempre incluye, además de las noticias, dos bloques fijos: "Fuente
     oficial" con el enlace directo a la Superintendencia de Protección de
-    Datos Personales (SPDP) -- el ente rector de la LOPDP en Ecuador --
-    visible aunque su propio feed RSS todavía no aporte contenido (ver
-    feeds.yaml)."""
+    Datos Personales (SPDP) -- el ente rector de la LOPDP en Ecuador,
+    cuyos boletines de prensa se traen vía scripts/fetch_spdp.py -- y
+    "Recurso propio" con un enlace a la metodología de cumplimiento LOPDP
+    de DERENZIN (lopdp.derenzin.com) -- un recurso propio, claramente
+    distinguido del anterior, no una fuente de noticias."""
     titulo_pagina = "Protección de Datos — Periódico de Ciberseguridad"
     subtitulo = "Sección de Protección de Datos"
     return f"""<!DOCTYPE html>
@@ -1073,7 +1087,7 @@ def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, im
 {render_cabecera(subtitulo, "../", "proteccion_datos")}
   <main class="contenido portada">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{BLOQUE_FUENTE_OFICIAL_SPDP}{items_html}
+{BLOQUE_FUENTE_OFICIAL_SPDP}{BLOQUE_RECURSO_PROPIO_LOPDP}{items_html}
   </main>
 
 {render_pie("../")}

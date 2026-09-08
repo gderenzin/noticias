@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://noticias.derenzin.com/archivo/index.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/archivo/2026-09-06.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://noticias.derenzin.com/proteccion-datos/index.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-06-attackers-breached-jetbrains-cadence-via-unpatched-teamcity-21ba9ecf.html</loc>
@@ -85,6 +85,10 @@
     <lastmod>2026-09-07</lastmod>
   </url>
   <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-ecuador-se-adhiere-a-declaracion-internacional-sobre-riesgos-6b15d0f2.html</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-07-fake-it-calls-target-executives-in-microsoft-365-data-theft-a48cf88b.html</loc>
     <lastmod>2026-09-07</lastmod>
   </url>
@@ -95,6 +99,22 @@
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-07-jsceal-malware-can-bypass-google-authentication-using-stolen-de26b139.html</loc>
     <lastmod>2026-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-la-spdp-alerta-sobre-la-difusion-de-un-registro-viral-que-vu-d61467e2.html</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-la-spdp-emite-norma-general-para-el-tratamiento-de-datos-per-c09757a0.html</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-la-spdp-sanciona-a-la-fef-por-no-utilizar-metodologias-de-an-c42284ed.html</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-la-spdp-sanciona-a-ligapro-por-no-haber-implementado-la-prot-08617c05.html</loc>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-07-magento-stylesmuggler-zero-day-exploited-to-deploy-linux-bac-b3511a5b.html</loc>
@@ -123,6 +143,10 @@
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-07-rogue-screenconnect-clients-spread-four-stage-vbscript-chain-2e8001f9.html</loc>
     <lastmod>2026-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-09-07-spdp-emite-sus-primeras-sanciones-por-infracciones-graves-a-fdd909da.html</loc>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-07-telerik-ui-padding-oracle-bug-chained-to-unauthenticated-rce-99185531.html</loc>

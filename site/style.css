@@ -401,6 +401,49 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
+/* ---------- Sección "Protección de Datos": recurso propio (DERENZIN) ---------- */
+/* Mismo patrón visual que .fuente-oficial, pero con el azul de marca de
+   DERENZIN (--marca-primario) en vez del teal de la categoría/SPDP -- para
+   que quede claro de un vistazo que este bloque es un recurso propio, no
+   otra fuente de noticias ni el ente oficial. */
+
+.recurso-propio {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--marca-primario);
+  border-radius: var(--radio);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.recurso-propio-titulo {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--marca-primario);
+}
+
+.recurso-propio-texto {
+  margin: 0 0 0.85rem 0;
+  font-size: 0.92rem;
+  color: var(--texto-tenue);
+  line-height: 1.5;
+}
+
+.recurso-propio-cta {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--marca-primario);
+  text-decoration: none;
+}
+
+.recurso-propio-cta:hover {
+  text-decoration: underline;
+}
+
 .sin-noticias {
   color: var(--texto-suave);
   font-size: 0.95rem;
