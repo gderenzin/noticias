@@ -39,6 +39,14 @@ jobs:
       - name: Descargar y filtrar feeds (fetch_news.py)
         run: python scripts/fetch_news.py
 
+      - name: Boletines de la SPDP (fetch_spdp.py)
+        # Fuente aparte: spdp.gob.ec no tiene RSS funcional, así que esto no
+        # pasa por feeds.yaml/fetch_news.py -- descarga su endpoint JSON
+        # oficial de WordPress y agrega los boletines nuevos a
+        # data/nuevas_hoy.json (ver docstring del script). Si el endpoint
+        # falla, se salta esta fuente sin romper el workflow.
+        run: python scripts/fetch_spdp.py
+
       - name: Resumir con IA el artículo completo (resumir_ia.py)
         env:
           # Si no existe todavía este secreto, esta variable queda vacía y
@@ -63,7 +71,7 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site/ data/publicadas.json data/imagenes_descargadas.json
+          git add site/ data/publicadas.json data/imagenes_descargadas.json data/publicadas_spdp.json data/proteccion_datos_recientes.json
           if git diff --cached --quiet; then
             echo "sin_cambios=true" >> "$GITHUB_OUTPUT"
             echo "Sin novedades hoy: no hay cambios que commitear."

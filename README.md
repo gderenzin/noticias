@@ -99,13 +99,31 @@ de compartir, traducción/no-traducción, SEO) en vez de ser un sitio aparte.
   ítems que mencionen alguna de esas palabras** — el resto se descarta en
   `fetch_news.py`, nunca se publica contenido fuera de tema.
 - **Superintendencia de Protección de Datos Personales (SPDP)** — el ente
-  rector de la LOPDP en Ecuador. Su feed existe pero está vacío ahora mismo
-  (confirmado: 0 ítems); se declaró `opcional: true` para que se autoactive
-  sola el día que empiece a publicar, sin romper nada mientras tanto.
-  Mientras tanto, la sección siempre muestra un bloque fijo **"Fuente
-  oficial"** con su nombre, una descripción y el enlace directo a
-  `spdp.gob.ec/prensa/` — así el ente rector queda visible y accesible
-  aunque su RSS no aporte contenido todavía.
+  rector de la LOPDP en Ecuador. No tiene RSS funcional (confirmado:
+  `/feed/`, `/prensa/feed/` y los sitemaps están vacíos o son feeds de
+  comentarios), así que no pasa por `feeds.yaml`/`fetch_news.py`: se trae
+  aparte con **`scripts/fetch_spdp.py`**, que descarga el endpoint JSON
+  público y oficial de WordPress de la página "Prensa" completa
+  (`https://spdp.gob.ec/wp-json/wp/v2/pages/4844`) y separa cada "BOLETÍN
+  DE PRENSA N°..." en un ítem individual (título, fecha, texto — tal cual
+  lo publica la SPDP). Se corre como paso aparte en el workflow, entre
+  `fetch_news.py` y `resumir_ia.py`. Deduplica por número de boletín
+  (correlativo oficial) en `data/publicadas_spdp.json`, un ledger propio
+  separado del general — todos los boletines comparten la misma URL
+  (`spdp.gob.ec/prensa/`, no existe página individual por boletín), así
+  que cada ítem usa esa URL con un fragmento (`#boletin-N`) para tener
+  identidad propia dentro del sitio. Los ítems llevan `omitir_resumen_ia:
+  true`: `resumir_ia.py` nunca entra a esa URL para estos ítems, porque
+  traería una mezcla de todos los boletines, no el texto de uno en
+  particular. Además de los boletines reales, la sección siempre muestra
+  un bloque fijo **"Fuente oficial"** con su nombre, una descripción y el
+  enlace directo a `spdp.gob.ec/prensa/`.
+- **Recurso propio** — un bloque fijo (visualmente distinto del de la
+  SPDP) con un enlace a `lopdp.derenzin.com`, la metodología de
+  cumplimiento LOPDP de DERENZIN S.A.S. No es una fuente de noticias, no
+  se valida como RSS ni se procesa como ítem — es solo un enlace de
+  referencia. El mismo enlace aparece también en el pie de página general
+  del sitio.
 
 **Cómo se integra** (todo en `scripts/build_site.py` salvo que se diga otra cosa):
 - `categorizar()` respeta la categoría fija que trae el ítem (`item["categoria"]`,
@@ -289,8 +307,10 @@ ni el archivo. Cada noticia tiene su propia página dentro del sitio
 (`site/noticia/AAAA-MM-DD-slug-del-titulo-<hash>.html` — el hash viene del
 enlace original, para que el archivo sea único aunque dos titulares se
 parezcan) con un resumen más amplio, y **el enlace externo a la fuente
-aparece solo al final de esa página**, en un recuadro claro ("Fuente: [medio]"
-+ botón "Leer el artículo original completo ↗", `target="_blank"`).
+aparece solo al final de esa página**, en un recuadro claro: el nombre de
+la fuente ("Fuente: [medio]") es directamente el hipervínculo al artículo
+original (`target="_blank"`) — sin un botón grande aparte (se quitó: en
+algunas noticias se veía como publicidad).
 
 ### Sobre el "resumen ampliado": extracción del artículo completo + resumen con IA
 
