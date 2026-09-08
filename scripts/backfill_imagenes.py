@@ -27,19 +27,22 @@ publicado, vía el campo imagen_local que build_site.py resuelve al momento
 de renderizar). Por eso este script no lo toca: no hay nada que actualizar
 ahí, y agregarle un campo que ningún otro script lee no aportaría nada.
 
-Alcance: esta pasada actualiza SOLO la página de detalle propia de cada
-noticia (site/noticia/<archivo>.html), que es la fuente de verdad canónica.
-Las miniaturas de esa misma noticia en las tarjetas de portada/archivo
-(site/index.html, site/archivo/*.html, site/proteccion-datos/index.html)
-no se tocan en esta pasada -- seguirán mostrando el ícono ahí hasta que esas
-páginas se regeneren de cero. Es una decisión deliberada para no arriesgar
-los archivos históricos de portada/archivo en un script puntual; si hace
-falta parejarlas también, es un paso aparte.
+Alcance: además de la página de detalle propia de cada noticia
+(site/noticia/<archivo>.html), este script también sincroniza las
+miniaturas de esa misma noticia en las tarjetas de portada/archivo
+(site/index.html, site/archivo/*.html, site/proteccion-datos/index.html) --
+la página de detalle y esas tarjetas deben leer siempre el mismo dato
+(imagen_local), nunca quedar desincronizadas entre sí. (Antes esta pasada
+solo tocaba la página de detalle; se descubrió que eso dejaba las tarjetas
+de portada/archivo ya publicadas mostrando el ícono aunque la página de
+detalle de esa misma noticia ya tuviera la imagen real -- ver
+sincronizar_tarjetas_grid().)
 
 Uso:
-    py -3 scripts/backfill_imagenes.py               # corre en serio
-    py -3 scripts/backfill_imagenes.py --dry-run      # solo reporta qué haría, no descarga ni escribe
-    py -3 scripts/backfill_imagenes.py --limite 3      # prueba con los primeros 3 candidatos
+    py -3 scripts/backfill_imagenes.py                 # corre en serio: busca íconos genéricos y les intenta encontrar imagen
+    py -3 scripts/backfill_imagenes.py --dry-run        # solo reporta qué haría, no descarga ni escribe
+    py -3 scripts/backfill_imagenes.py --limite 3       # prueba con los primeros 3 candidatos
+    py -3 scripts/backfill_imagenes.py --resync-grid    # no busca imágenes nuevas: solo repareja portada/archivo con la imagen que YA tiene cada página de detalle
 """
 
 from __future__ import annotations
@@ -56,7 +59,9 @@ import fetch_news as fn  # noqa: E402 - reusa descargar_imagen()/ledger, mismo d
 import resumir_ia as ri  # noqa: E402 - reusa descargar_pagina()/buscar_imagen_pagina(), mismo directorio
 
 RAIZ = Path(__file__).resolve().parent.parent
-NOTICIA_DIR = RAIZ / "site" / "noticia"
+SITE_DIR = RAIZ / "site"
+NOTICIA_DIR = SITE_DIR / "noticia"
+ARCHIVO_DIR = SITE_DIR / "archivo"
 
 # El bloque generado por render_imagen_html() para el ícono de respaldo en
 # páginas de detalle (destacada=True siempre en render_pagina_noticia) --
@@ -67,6 +72,15 @@ RE_FIGURE_GENERICA = re.compile(
     r'.*?\n'
     r'      </figure>\n',
     re.DOTALL,
+)
+# La imagen REAL ya aplicada en una página de detalle (ver la rama "if
+# ruta_imagen:" de render_imagen_html) -- para leer, de una página de
+# detalle ya arreglada, qué imagen usa y así poder reparejar sus tarjetas.
+RE_IMG_REAL = re.compile(
+    r'<figure class="noticia-imagen noticia-imagen--destacada">\s*'
+    r'<span class="categoria-badge">[^<]*</span>\s*'
+    r'<img src="(/imagenes/[^"]+)"[^>]*>\s*'
+    r'<figcaption>Imagen: ([^<]*)</figcaption>',
 )
 RE_EYEBROW = re.compile(r'<span class="eyebrow-categoria">([^<]*)</span>')
 RE_TITULO = re.compile(r'<h1 class="noticia-detalle-titulo">(.*?)</h1>', re.DOTALL)
@@ -89,6 +103,56 @@ def encontrar_candidatos() -> list[Path]:
         if "noticia-imagen--generica" in texto:
             candidatos.append(archivo)
     return candidatos
+
+
+def _archivos_con_grid() -> list[Path]:
+    """Todos los archivos que pueden contener una tarjeta/destacada de
+    alguna noticia (portada, cada edición archivada, y la sección de
+    Protección de Datos) -- ver _renderizar_grid() en build_site.py, que
+    genera el mismo HTML para las tres."""
+    archivos = [SITE_DIR / "index.html", SITE_DIR / "proteccion-datos" / "index.html"]
+    archivos += sorted(p for p in ARCHIVO_DIR.glob("*.html") if p.stem != "index")
+    return [a for a in archivos if a.exists()]
+
+
+def sincronizar_tarjetas_grid(ruta_noticia: str, item: dict, categoria: str, titulo_mostrar: str) -> int:
+    """Reescribe, en todo archivo de portada/archivo/Protección de Datos que
+    incluya una tarjeta o destacada de esta noticia (identificada por su
+    `ruta_noticia`, único por artículo), el mismo bloque de imagen que ya
+    tiene su página de detalle -- ambos deben salir de la MISMA fuente de
+    verdad (item['imagen_local']), nunca quedar desincronizados.
+
+    No asume si la ocurrencia es tarjeta o destacada (la clase CSS y el
+    tamaño del ícono/imagen difieren entre ambas -- ver render_imagen_html):
+    lo detecta por el propio `<a class="...-imagen-enlace">` que envuelve el
+    bloque, y arma el reemplazo con ESE mismo dato -- nunca inventa cuál era.
+
+    Devuelve cuántas ocurrencias se actualizaron (puede ser 0 si esta
+    noticia no aparece en ninguna tarjeta ya generada, p.ej. si nunca llegó
+    a ser la más reciente del día)."""
+    patron = re.compile(
+        r'(<a class="(?:tarjeta|destacada)-imagen-enlace" href="' + re.escape(ruta_noticia) + r'">\n)'
+        r'(.*?)'
+        r'(\n[ \t]*</a>)',
+        re.DOTALL,
+    )
+
+    def _reemplazo(m: re.Match) -> str:
+        destacada = "destacada-imagen-enlace" in m.group(1)
+        nuevo_interior = bs.render_imagen_html(item, categoria, titulo_mostrar, destacada=destacada)
+        return m.group(1) + nuevo_interior + m.group(3)
+
+    actualizados = 0
+    for archivo in _archivos_con_grid():
+        texto = archivo.read_text(encoding="utf-8")
+        if ruta_noticia not in texto:
+            continue
+        nuevo_texto, cantidad = patron.subn(_reemplazo, texto)
+        if cantidad:
+            archivo.write_text(nuevo_texto, encoding="utf-8")
+            actualizados += cantidad
+            log(f"  Tarjeta sincronizada en {archivo.relative_to(RAIZ)} ({cantidad} ocurrencia(s)).")
+    return actualizados
 
 
 def procesar_articulo(archivo: Path, ledger_imagenes: dict, dry_run: bool) -> str:
@@ -146,14 +210,80 @@ def procesar_articulo(archivo: Path, ledger_imagenes: dict, dry_run: bool) -> st
 
     archivo.write_text(texto_actualizado, encoding="utf-8")
     log(f"  OK: imagen real encontrada y aplicada ({ruta_local}).")
+
+    ruta_noticia = f"/noticia/{archivo.name}"
+    sincronizar_tarjetas_grid(ruta_noticia, item, categoria, titulo_mostrar)
+
     return "con_imagen"
+
+
+def encontrar_articulos_con_imagen_real() -> list[Path]:
+    """Páginas de detalle ya publicadas que YA tienen una imagen real (no
+    ícono) -- para --resync-grid, que no busca imágenes nuevas, solo
+    repareja portada/archivo con lo que la página de detalle ya tiene."""
+    candidatos = []
+    for archivo in sorted(NOTICIA_DIR.glob("*.html")):
+        texto = archivo.read_text(encoding="utf-8")
+        if "noticia-imagen--generica" in texto:
+            continue
+        if RE_IMG_REAL.search(texto):
+            candidatos.append(archivo)
+    return candidatos
+
+
+def resync_grid(archivo: Path) -> int:
+    """Lee la imagen/fuente/categoría/título que YA tiene una página de
+    detalle (sin descargar ni buscar nada nuevo) y sincroniza sus tarjetas
+    de portada/archivo/Protección de Datos para que coincidan. Devuelve
+    cuántas ocurrencias se actualizaron."""
+    texto = archivo.read_text(encoding="utf-8")
+    m_img = RE_IMG_REAL.search(texto)
+    m_titulo = RE_TITULO.search(texto)
+    m_eyebrow = RE_EYEBROW.search(texto)
+    if not (m_img and m_titulo and m_eyebrow):
+        log(f"  AVISO: no se pudieron extraer todos los campos esperados de {archivo.name}; se omite.")
+        return 0
+
+    imagen_local, fuente_texto = m_img.groups()
+    fuente_texto = html_lib.unescape(fuente_texto).strip()
+    titulo_mostrar = html_lib.unescape(re.sub(r"<[^>]*>", "", m_titulo.group(1))).strip()
+    etiqueta = html_lib.unescape(m_eyebrow.group(1)).strip()
+    categoria = ETIQUETA_A_SLUG.get(etiqueta, "generico")
+
+    item = {"imagen_local": imagen_local, "fuente": fuente_texto}
+    ruta_noticia = f"/noticia/{archivo.name}"
+    return sincronizar_tarjetas_grid(ruta_noticia, item, categoria, titulo_mostrar)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="No descarga ni escribe nada; solo reporta qué encontraría.")
     parser.add_argument("--limite", type=int, default=None, help="Procesar como máximo N candidatos (para pruebas).")
+    parser.add_argument(
+        "--resync-grid",
+        action="store_true",
+        help="No busca imágenes nuevas: solo repareja las tarjetas de portada/archivo/Protección de Datos con la imagen que YA tiene cada página de detalle (repara desincronizaciones, p.ej. de backfills anteriores que solo tocaron la página de detalle).",
+    )
     args = parser.parse_args()
+
+    if args.resync_grid:
+        candidatos = encontrar_articulos_con_imagen_real()
+        if args.limite is not None:
+            candidatos = candidatos[: args.limite]
+        log(f"Páginas de detalle con imagen real a revisar: {len(candidatos)}.")
+        total_sincronizadas = 0
+        for archivo in candidatos:
+            if args.dry_run:
+                log(f"  [dry-run] Se revisaría: {archivo.name}")
+                continue
+            total_sincronizadas += resync_grid(archivo)
+        log("")
+        log("===== Resumen de --resync-grid =====")
+        log(f"Páginas de detalle revisadas: {len(candidatos)}")
+        log(f"Ocurrencias de tarjeta/destacada sincronizadas: {total_sincronizadas}")
+        if args.dry_run:
+            log("(--dry-run: no se escribió nada realmente)")
+        return
 
     candidatos = encontrar_candidatos()
     if args.limite is not None:
