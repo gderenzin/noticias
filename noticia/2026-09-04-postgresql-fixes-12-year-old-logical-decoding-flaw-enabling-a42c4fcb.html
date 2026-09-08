@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution — Periódico de Ciberseguridad</title>
-  <meta name="description" content="PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system…">
+  <meta name="description" content="PostgreSQL ha lanzado actualizaciones para corregir una vulnerabilidad de seguridad que permite a los usuarios con permisos de replicación ejecutar código…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-04-postgresql-fixes-12-year-old-logical-decoding-flaw-enabling-a42c4fcb.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Periódico de Ciberseguridad">
   <meta property="og:title" content="PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution — Periódico de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system…">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — PostgreSQL ha lanzado actualizaciones para corregir una vulnerabilidad de seguridad que permite a los usuarios con permisos de replicación ejecutar código…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-04-postgresql-fixes-12-year-old-logical-decoding-flaw-enabling-a42c4fcb.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/d2820301f73d699fa933.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution — Periódico de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system…">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — PostgreSQL ha lanzado actualizaciones para corregir una vulnerabilidad de seguridad que permite a los usuarios con permisos de replicación ejecutar código…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/d2820301f73d699fa933.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -54,7 +54,7 @@
       <div class="noticia-meta">
         <span class="fuente">Fuente: <a href="https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html" target="_blank" rel="noopener noreferrer">The Hacker News</a></span>
         <span class="fecha">Publicado: 04/09/2026 · 15:20 UTC</span>
-        <span class="idioma-nota">No se pudo traducir automáticamente (se muestra el original). Resumen parcial: la fuente no incluye más detalle en su RSS; lee la noticia completa en la fuente.</span>
+        <span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto. No se pudo traducir el título automáticamente (se muestra el original).</span><span class="idioma-nota">Resumen generado con IA (Gemini) a partir del artículo completo — no es una cita textual; consulta la fuente para el texto exacto.</span>
       </div>
       <div class="compartir">
         <span class="compartir-etiqueta">Compartir:</span>
@@ -76,7 +76,9 @@
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are…</p>
+        <p>PostgreSQL ha lanzado actualizaciones para corregir una vulnerabilidad de seguridad que permite a los usuarios con permisos de replicación ejecutar código arbitrario con los privilegios del sistema operativo del servidor de bases de datos. Este problema afecta a versiones anteriores a las especificadas en el aviso y requiere que el servidor opere con un nivel de registro lógico determinado, además de contar con credenciales que posean el atributo mencionado, el cual suele ser utilizado por herramientas de respaldo, sistemas de monitoreo y tuberías de captura de datos.</p>
+        <p>La solución implementada incorpora un parámetro en el servidor denominado para listar las bibliotecas permitidas como complementos de salida de decodificación lógica, estableciendo valores predeterminados. Tras aplicar las actualizaciones, cualquier instalación que emplee complementos distintos a los predeterminados experimentará bloqueos en la decodificación lógica hasta que el administrador agregue manualmente la biblioteca correspondiente a la lista de permitidos y recargue la configuración.</p>
+        <p>Para mitigar los riesgos antes de actualizar, se aconseja identificar los complementos en uso, eliminar el atributo de replicación en cuentas que no lo requieran, limitar las entradas de replicación a direcciones conocidas, bloquear el tráfico saliente de ciertos protocolos y desactivar montajes automáticos innecesarios. Asimismo, se señala que existe una limitación pendiente relacionada con una herramienta de creación de suscriptores que no verifica el nuevo parámetro antes de intentar conversiones.</p>
       </div>
     </article>
   </main>
