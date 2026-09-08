@@ -848,15 +848,12 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
       <span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>
       <h1 class="noticia-detalle-titulo">{titulo_html}</h1>
       <div class="noticia-meta">
-        <span class="fuente">Fuente: {fuente}</span>
+        <span class="fuente">Fuente: <a href="{enlace_externo}" target="_blank" rel="noopener noreferrer">{fuente}</a></span>
         <span class="fecha">Publicado: {fecha_str}</span>
         {notas_html}
       </div>
 {render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
 {parrafos_html}
-      </div>
-      <div class="noticia-fuente-final">
-        <p>Fuente: <a href="{enlace_externo}" target="_blank" rel="noopener noreferrer">{fuente}</a></p>
       </div>
     </article>
   </main>

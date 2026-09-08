@@ -52,7 +52,7 @@
       <span class="eyebrow-categoria">Vulnerabilidad</span>
       <h1 class="noticia-detalle-titulo">Control de acceso incorrecto en PrestaShop</h1>
       <div class="noticia-meta">
-        <span class="fuente">Fuente: INCIBE-CERT - Avisos</span>
+        <span class="fuente">Fuente: <a href="https://www.incibe.es/incibe-cert/alerta-temprana/avisos/control-de-acceso-incorrecto-en-prestashop" target="_blank" rel="noopener noreferrer">INCIBE-CERT - Avisos</a></span>
         <span class="fecha">Publicado: 07/09/2026 · 10:52 UTC</span>
         <span class="idioma-nota">Resumen parcial: la fuente no incluye más detalle en su RSS; lee la noticia completa en la fuente.</span>
       </div>
@@ -78,10 +78,7 @@
       <div class="noticia-detalle-cuerpo">
         <p>Control de acceso incorrecto en PrestaShop Lun, 07/09/2026 - 12:52 Aviso Recursos Afectados PrestaShop, versiones anteriores a la 9.1.5 y a la 8.2.8, según la rama. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad media que afecta a PrestaShop, un sistema de gestión de contenidos libre y de código abierto pensado para construir desde cero tiendas en línea de comercio electrónico. La vulnerabilidad ha sido descubierta por Pedro Gabaldón Juliá. A esta vulnerabilidad se le ha asignado el siguiente código, puntuación base CVSS v4.0, vector del CVSS y el tipo de vulnerabilidad CWE: CVE-2026-84186: CVSS v4.0: 6.9 | CVSS AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N | CWE-290 Identificador INCIBE-2026-607 Solución La vulnerabilidad ha sido solucionada por el equipo de PrestaShop en las versiones 9.1.5 y 8.2.8. Detalle CVE-2026-84186: vulnerabilidad de control de acceso incorrecto en la función Tools::getRemoteAddr() de PrestaShop que permite falsificar la dirección IP del cliente mediante el encabezado X-Forwarded-For cuando la aplicación se ejecuta detrás de un proxy inverso, balanceador de carga o CDN. La aplicación procesa incorrectamente la cadena de direcciones IP y utiliza la dirección controlada por el visitante en lugar de la añadida por la infraestructura de confianza, permitiendo a un atacante remoto no autenticado hacer que la aplicación interprete su conexión como procedente de una dirección IP arbitraria. Esta condición permite eludir controles basados en IP, como la lista de direcciones permitidas del modo de mantenimiento, además de posibilitar la falsificación de registros de seguridad y auditoría y la evasión de mecanismos de terceros que dependan de la dirección IP, como controles de geolocalización, detección de fraude o limitación de peticiones. 3 - Media Listado de referencias Create an online shop easily Client IP address can be spoofed through the X-Forwarded-For header Commit 5b379e3 Etiquetas 0day Actualización CNA Comercio electrónico + Control de acceso Fabricante de software Falsificación Vulnerabilidad - CVE Identificador CVE Severidad Explotación Fabricante CVE-2026-84186 Media No PrestaShop…</p>
       </div>
-      <div class="noticia-fuente-final">
-        <p>Fuente: <a href="https://www.incibe.es/incibe-cert/alerta-temprana/avisos/control-de-acceso-incorrecto-en-prestashop" target="_blank" rel="noopener noreferrer">INCIBE-CERT - Avisos</a></p>
-      </div>
-    </article>
+          </article>
   </main>
 
   <footer class="pie">

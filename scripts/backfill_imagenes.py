@@ -84,8 +84,11 @@ RE_IMG_REAL = re.compile(
 )
 RE_EYEBROW = re.compile(r'<span class="eyebrow-categoria">([^<]*)</span>')
 RE_TITULO = re.compile(r'<h1 class="noticia-detalle-titulo">(.*?)</h1>', re.DOTALL)
-RE_FUENTE = re.compile(r'<span class="fuente">Fuente: ([^<]*)</span>')
-RE_ENLACE = re.compile(r'<div class="noticia-fuente-final">\s*<p>Fuente: <a href="([^"]+)"')
+# El nombre de la fuente y el enlace externo viven juntos en un solo lugar
+# desde que se quitó la duplicación "Fuente: X" (arriba en texto plano +
+# abajo como enlace): ahora el <span class="fuente"> de arriba ES el
+# hipervínculo -- (1) captura el enlace, (2) el nombre mostrado.
+RE_FUENTE_ENLACE = re.compile(r'<span class="fuente">Fuente: <a href="([^"]+)"[^>]*>([^<]*)</a></span>')
 
 ETIQUETA_A_SLUG = {info["etiqueta"]: slug for slug, info in bs.CATEGORIAS.items()}
 ETIQUETA_A_SLUG[bs.GENERICO["etiqueta"]] = "generico"
@@ -161,17 +164,16 @@ def procesar_articulo(archivo: Path, ledger_imagenes: dict, dry_run: bool) -> st
     nunca lanza excepción hacia afuera, para no tumbar el resto del backfill)."""
     texto = archivo.read_text(encoding="utf-8")
 
-    m_enlace = RE_ENLACE.search(texto)
+    m_fuente_enlace = RE_FUENTE_ENLACE.search(texto)
     m_titulo = RE_TITULO.search(texto)
-    m_fuente = RE_FUENTE.search(texto)
     m_eyebrow = RE_EYEBROW.search(texto)
-    if not (m_enlace and m_titulo and m_fuente and m_eyebrow):
+    if not (m_fuente_enlace and m_titulo and m_eyebrow):
         log(f"  AVISO: no se pudieron extraer todos los campos esperados de {archivo.name}; se omite.")
         return "error"
 
-    enlace = html_lib.unescape(m_enlace.group(1))
+    enlace = html_lib.unescape(m_fuente_enlace.group(1))
     titulo_mostrar = html_lib.unescape(re.sub(r"<[^>]*>", "", m_titulo.group(1))).strip()
-    fuente_texto = html_lib.unescape(m_fuente.group(1)).strip()
+    fuente_texto = html_lib.unescape(m_fuente_enlace.group(2)).strip()
     etiqueta = html_lib.unescape(m_eyebrow.group(1)).strip()
     categoria = ETIQUETA_A_SLUG.get(etiqueta, "generico")
 
