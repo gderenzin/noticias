@@ -70,6 +70,19 @@
   --pie-texto: #f5f5f5;
   --pie-texto-tenue: #a8adb5;
   --pie-borde: #2b2e34;
+
+  /* ---------- Cabecera oscura (acento visual) ----------
+     La cabecera es la única zona oscura del sitio (además del pie) --
+     lleva su propia imagen de fondo (site/assets/fondo/cabecera-textura.svg,
+     un patrón abstracto de red/circuitos generado para este sitio, sin
+     fotos de terceros) con un overlay oscuro semitransparente encima para
+     legibilidad. Estos tokens son SOLO para texto sobre esa zona oscura
+     -- contraste verificado contra el tono más claro real del overlay
+     (7.4:1 a 17:1, AAA en todos los casos, ver commit). */
+  --cabecera-texto: #f5f7fa;
+  --cabecera-texto-suave: #aab2c0;
+  --cabecera-acento: #4dd8ec;
+  --cabecera-borde: rgba(255, 255, 255, 0.18);
 }
 
 * {
@@ -122,7 +135,23 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: var(--fondo);
+  /* Acento visual sutil: un degradado radial casi imperceptible (más claro
+     arriba, se funde con --fondo hacia abajo) más un patrón de circuitos
+     de muy baja opacidad (3-8%, ya horneada en el propio SVG -- ver
+     site/assets/fondo/patron-sutil.svg), generado por nosotros, no una
+     imagen de terceros. Vive SOLO en esta capa de fondo general: cada
+     card/artículo/sidebar tiene su propio fondo sólido opaco por encima
+     (ver .noticia-detalle, .tarjeta, .destacada, .sidebar-bloque), así
+     que esta textura únicamente se asoma en los espacios entre secciones
+     -- nunca detrás de texto de lectura. */
+  /* El patrón va PRIMERO (capa de encima): su fondo es transparente, así
+     que el degradado de abajo se sigue viendo en los espacios entre sus
+     trazos -- al revés (degradado encima), al ser de colores opacos,
+     tapaba el patrón por completo. */
+  background:
+    url("/assets/fondo/patron-sutil.svg"),
+    radial-gradient(ellipse 1400px 640px at 50% -8%, #eef1f6 0%, var(--fondo) 62%);
+  background-repeat: repeat, no-repeat;
   color: var(--texto);
   font-family: var(--fuente);
   font-size: var(--fs-base);
@@ -152,9 +181,18 @@ h1, h2, h3 {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--fondo-cabecera);
+  /* Imagen propia (patrón abstracto de red/circuitos, generada para este
+     sitio -- ver site/assets/fondo/cabecera-textura.svg) con un overlay
+     oscuro semitransparente encima para que el texto siempre quede en
+     alto contraste, sin importar qué parte de la imagen quede detrás. */
+  background:
+    linear-gradient(180deg, rgba(6, 9, 15, 0.82), rgba(6, 9, 15, 0.88)),
+    url("/assets/fondo/cabecera-textura.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--borde);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: var(--sp-4) var(--sp-3);
 }
 
@@ -192,41 +230,45 @@ h1, h2, h3 {
   line-height: 1.25;
 }
 
+/* Toda la cabecera es una zona oscura (ver .cabecera) -- estos colores de
+   texto son los tokens --cabecera-* pensados para esa zona, nunca los
+   tokens de texto del resto del sitio (que son oscuros, pensados para
+   fondo claro). */
 .marca-titulo {
   font-size: var(--fs-md);
   font-weight: 800;
-  color: var(--texto);
+  color: var(--cabecera-texto);
 }
 
 .marca-byline {
   font-size: var(--fs-xs);
-  color: var(--texto-suave);
+  color: var(--cabecera-texto-suave);
   letter-spacing: 0.01em;
 }
 
 .marca-byline strong {
-  color: var(--marca-acento-oscuro);
+  color: var(--cabecera-acento);
 }
 
 .enlace-derenzin {
   font-size: var(--fs-xs);
   font-weight: 600;
   text-decoration: none;
-  color: var(--enlace);
-  border: 1px solid var(--borde-fuerte);
+  color: var(--cabecera-acento);
+  border: 1px solid var(--cabecera-borde);
   border-radius: var(--radio);
   padding: var(--sp-1) var(--sp-3);
   white-space: nowrap;
 }
 
 .enlace-derenzin:hover {
-  border-color: var(--acento);
+  border-color: var(--cabecera-acento);
   text-decoration: none;
 }
 
 .subtitulo {
   margin: var(--sp-3) 0 var(--sp-2) 0;
-  color: var(--texto-suave);
+  color: var(--cabecera-texto-suave);
   font-size: var(--fs-sm);
 }
 
@@ -241,18 +283,18 @@ h1, h2, h3 {
   font-size: var(--fs-sm);
   font-weight: 600;
   text-decoration: none;
-  color: var(--texto-tenue);
+  color: var(--cabecera-texto-suave);
   padding-bottom: var(--sp-1);
   border-bottom: 2px solid transparent;
 }
 
 .nav a:hover {
-  color: var(--marca-acento-oscuro);
+  color: var(--cabecera-acento);
 }
 
 .nav a.activo {
-  color: var(--marca-acento-oscuro);
-  border-bottom-color: var(--acento);
+  color: var(--cabecera-acento);
+  border-bottom-color: var(--cabecera-acento);
 }
 
 /* ---------- Contenido general ---------- */
@@ -837,6 +879,17 @@ h1, h2, h3 {
   color: var(--texto-suave);
 }
 
+/* Regla dura del fondo del sitio: cualquier contenedor donde vive texto de
+   lectura tiene SIEMPRE su propio fondo sólido opaco por encima del
+   degradado/patrón general de body -- igual criterio que .tarjeta,
+   .destacada y .sidebar-bloque, que ya lo tenían. */
+.noticia-detalle {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: var(--sp-5);
+}
+
 .noticia-detalle > .eyebrow-categoria {
   display: inline-block;
   margin-bottom: var(--sp-3);
@@ -1133,6 +1186,10 @@ h1, h2, h3 {
 
   .noticia-detalle-titulo {
     font-size: var(--fs-lg);
+  }
+
+  .noticia-detalle {
+    padding: var(--sp-4);
   }
 
   .contenido {
