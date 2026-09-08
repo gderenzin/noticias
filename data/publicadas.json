@@ -999,6 +999,134 @@
       "fecha_publicacion_iso": "2026-09-04T06:47:52+00:00",
       "fecha_agregada_iso": "2026-09-08T02:14:37.707550+00:00",
       "ruta_noticia": "/noticia/2026-09-04-gpt-6-astra-scores-100-on-exploitbench-as-openai-blocks-poc-2d8294ff.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+      "fecha_publicacion_iso": "2026-09-08T14:40:32+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817645+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harde-6685156b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+      "fecha_publicacion_iso": "2026-09-08T13:34:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817662+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-4be459e8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+      "fecha_publicacion_iso": "2026-09-08T12:40:48+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817666+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-webinar-the-forgotten-google-workspace-access-that-can-lead-70b3093f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers build AI frameworks for widescale credential theft",
+      "fecha_publicacion_iso": "2026-09-08T12:03:03+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817668+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-hackers-build-ai-frameworks-for-widescale-credential-theft-a393c75d.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Windows Server 2025 changes causing app crashes",
+      "fecha_publicacion_iso": "2026-09-08T11:57:51+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817670+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-microsoft-windows-server-2025-changes-causing-app-crashes-2610462f.html"
+    },
+    "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html": {
+      "guid": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "fuente": "The Hacker News",
+      "titulo": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
+      "fecha_publicacion_iso": "2026-09-08T11:54:29+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817672+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-wechat-zero-click-worm-took-over-accounts-on-iphone-and-andr-c3df05a4.html"
+    },
+    "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html": {
+      "guid": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+      "fuente": "The Hacker News",
+      "titulo": "What It Took to Reach 1 Billion Build Manifests",
+      "fecha_publicacion_iso": "2026-09-08T11:49:02+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817675+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-what-it-took-to-reach-1-billion-build-manifests-f76ad714.html"
+    },
+    "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html": {
+      "guid": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "fuente": "The Hacker News",
+      "titulo": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+      "fecha_publicacion_iso": "2026-09-08T11:22:07+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817677+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-freeipa-flaw-chain-lets-anonymous-clients-create-reusable-ad-1ae8c3c5.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-estatico-en-n-central-de-n-able": {
+      "guid": "660725 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección de código estático en N-central de N-able",
+      "fecha_publicacion_iso": "2026-09-08T09:54:18+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817679+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-inyeccion-de-codigo-estatico-en-n-central-de-n-able-94c7d28b.html"
+    },
+    "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html": {
+      "guid": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+      "fuente": "The Hacker News",
+      "titulo": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+      "fecha_publicacion_iso": "2026-09-08T09:13:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817680+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-adobe-patches-magento-zero-day-exploited-to-deploy-rust-back-a4ca8803.html"
+    },
+    "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html": {
+      "guid": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+      "fuente": "The Hacker News",
+      "titulo": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "fecha_publicacion_iso": "2026-09-08T08:43:51+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817682+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-bengalseo-poisons-bing-search-results-to-deliver-mayabot-and-4b631344.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/autenticacion-inadecuada-en-artifactory-de-jfrog": {
+      "guid": "660724 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Autenticación inadecuada en Artifactory de JFrog",
+      "fecha_publicacion_iso": "2026-09-08T08:32:06+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817684+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-autenticacion-inadecuada-en-artifactory-de-jfrog-3e1e1494.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/actualizacion-de-seguridad-de-sap-de-septiembre-de-2026": {
+      "guid": "660722 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Actualización de seguridad de SAP de septiembre de 2026",
+      "fecha_publicacion_iso": "2026-09-08T08:02:04+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817686+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-actualizacion-de-seguridad-de-sap-de-septiembre-de-2026-0aa5f845.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-routeros-de-mikrotik": {
+      "guid": "660723 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en RouterOS de MikroTik",
+      "fecha_publicacion_iso": "2026-09-08T07:55:47+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817687+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-multiples-vulnerabilidades-en-routeros-de-mikrotik-fd05eb4c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+      "fuente": "BleepingComputer",
+      "titulo": "220 million traveler records exposed in Vietnam-linked APIS leak",
+      "fecha_publicacion_iso": "2026-09-08T07:35:50+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817689+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-220-million-traveler-records-exposed-in-vietnam-linked-apis-e19d6880.html"
+    },
+    "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html": {
+      "guid": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+      "fuente": "The Hacker News",
+      "titulo": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+      "fecha_publicacion_iso": "2026-09-08T07:00:43+00:00",
+      "fecha_agregada_iso": "2026-09-08T14:51:45.817691+00:00",
+      "ruta_noticia": "/noticia/2026-09-08-grindr-to-pay-26-million-to-settle-u-k-claims-over-hiv-statu-67cd47c0.html"
     }
   }
 }
