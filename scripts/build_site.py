@@ -147,8 +147,15 @@ def render_json_ld_noticia(item: dict, titulo_mostrar: str, ruta_noticia: str, c
     """Datos estructurados schema.org/NewsArticle para la página de detalle.
     Todos los campos salen tal cual de los datos ya verificados del RSS —
     nada inventado. "author" es la fuente original (no tenemos el nombre de
-    un periodista individual en el RSS); "publisher" es este sitio."""
-    ruta_imagen = item.get("imagen_local") or "/assets/logo-derenzin.png"
+    un periodista individual en el RSS); "publisher" es este sitio.
+
+    El campo "image" (la imagen DEL ARTÍCULO) sigue la misma regla que el
+    og:image de más arriba: imagen real, o si no, el ícono de categoría --
+    nunca el logo de la empresa. Distinto de "publisher.logo" (más abajo),
+    que SÍ debe ser siempre el logo de la empresa -- ese es el logo de la
+    organización que publica, no una imagen del artículo; no tiene el bug
+    reportado y no cambia."""
+    ruta_imagen = item.get("imagen_local") or f"/assets/og/{categoria}.png"
     datos = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
@@ -816,7 +823,26 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     titulo_html = escape(titulo_mostrar)
     descripcion = mostrado["resumen_meta"]
-    imagen_pagina = item.get("imagen_local") or "/assets/logo-derenzin.png"
+    # El og:image de la página de detalle debe ser SIEMPRE la misma imagen
+    # que ya se ve en esa página (imagen_html arriba): la imagen real del
+    # artículo (o el logo de la SPDP, que también vive en imagen_local para
+    # sus boletines) si existe, o si no, el ícono de categoría -- nunca el
+    # logo de la empresa, que quedaba usándose por error como respaldo acá
+    # (bug: WhatsApp/redes mostraban el logo de DERENZIN en vez del ícono de
+    # categoría en cualquier noticia sin imagen real). El logo de la empresa
+    # sigue siendo el respaldo correcto para la portada general del sitio
+    # (index.html) y para ediciones sin ninguna noticia con imagen, pero no
+    # para una página de detalle individual, que siempre tiene al menos un
+    # ícono de categoría que mostrar.
+    #
+    # Nota: NO se usa el .svg de /assets/iconos/ acá -- WhatsApp/Facebook no
+    # renderizan SVG como og:image (su crawler solo soporta formatos
+    # rasterizados), así que un og:image en SVG hubiera mostrado la vista
+    # previa en blanco en vez de arreglar nada. /assets/og/{categoria}.png es
+    # una versión rasterizada de cada ícono (mismo dibujo, en blanco, sobre
+    # un fondo sólido del color de la categoría) generada una sola vez para
+    # este propósito -- ver /assets/og/README.md.
+    imagen_pagina = item.get("imagen_local") or f"/assets/og/{categoria}.png"
 
     parrafos_html = "\n".join(
         f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
