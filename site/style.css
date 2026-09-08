@@ -39,6 +39,7 @@
   /* ---------- Layout ---------- */
   --max-ancho: 1240px;
   --ancho-lectura: 700px;        /* columna del cuerpo de una noticia: ~68-70ch a 18px */
+  --cabecera-alto-desktop: 173px; /* alto real medido de .cabecera en escritorio (1024-1440px+); usado para el top del sidebar sticky de la página de detalle */
   --radio: 8px;                  /* único valor de radio en todo el sitio: cards, badges, imágenes, botones */
   --radio-chico: 5px;
   --fuente: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -708,7 +709,14 @@ h1, h2, h3 {
   display: grid;
   grid-template-columns: minmax(0, var(--ancho-lectura)) 1fr;
   gap: var(--sp-5);
-  align-items: start;
+  /* SIN align-items: start -- el valor por defecto (stretch) le da a la
+     celda del sidebar la altura completa de la fila (la del artículo, que
+     normalmente es la columna más alta). Esa celda es el contenedor real
+     del sticky de abajo: sin esa altura extra, el sticky no tendría
+     recorrido para despegarse solo al llegar al final (ver
+     .sidebar-noticia-sticky). Ninguna de las dos columnas tiene borde o
+     fondo propio, así que estirar su caja más allá de su contenido no
+     deja ningún hueco visible. */
 }
 
 @media (max-width: 1023px) {
@@ -720,10 +728,35 @@ h1, h2, h3 {
 /* ---------- Sidebar de la página de detalle ---------- */
 
 .sidebar-noticia {
+  min-width: 0;
+}
+
+/* El sticky vive en un envoltorio ADENTRO de .sidebar-noticia (no en la
+   propia celda del grid): position: sticky necesita que su propio
+   contenedor sea más alto que él mismo para tener margen de scroll donde
+   "pegarse" y luego soltarse -- si el elemento sticky y su contenedor
+   fueran la misma caja (ya estirada a la altura del artículo), no
+   quedaría ese margen y nunca se vería pegado. --cabecera-alto-desktop
+   es la altura real medida de la cabecera sticky (mismo valor en todo el
+   rango de escritorio, 1024-1440px+, verificado) más un margen de
+   var(--sp-4) para que el sidebar no quede pegado justo debajo de ella. */
+.sidebar-noticia-sticky {
   display: flex;
   flex-direction: column;
   gap: var(--sp-4);
-  min-width: 0;
+  position: sticky;
+  top: calc(var(--cabecera-alto-desktop) + var(--sp-4));
+}
+
+@media (max-width: 1023px) {
+  /* En mobile el sidebar se apila DEBAJO del artículo (una sola columna,
+     ver el media query de .pagina-noticia-layout arriba) -- ahí el sticky
+     no tiene sentido (no hay una columna más alta al lado con la que
+     "acompañar" el scroll) y se desactiva. */
+  .sidebar-noticia-sticky {
+    position: static;
+    top: auto;
+  }
 }
 
 .sidebar-bloque {
@@ -818,14 +851,14 @@ h1, h2, h3 {
 }
 
 .noticia-detalle > .noticia-meta {
-  margin-bottom: var(--sp-4);
+  margin-bottom: var(--sp-3);
 }
 
 /* Cuando fetch_news.py detectó que más de una fuente cubrió el mismo
    hecho (ver fusionar_mismo_hecho() ahí) -- atribución honesta a cada
    fuente real, nunca inventada. */
 .fuentes-adicionales {
-  margin: 0 0 var(--sp-4) 0;
+  margin: 0 0 var(--sp-3) 0;
   font-size: var(--fs-xs);
   color: var(--texto-suave);
 }
@@ -849,7 +882,7 @@ h1, h2, h3 {
   flex-wrap: wrap;
   align-items: center;
   gap: var(--sp-2);
-  margin-bottom: var(--sp-4);
+  margin-bottom: var(--sp-3);
 }
 
 .compartir-etiqueta {

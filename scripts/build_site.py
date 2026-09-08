@@ -853,7 +853,7 @@ def render_botones_compartir(titulo_mostrar: str, ruta_noticia: str) -> str:
 RE_H1_NOTICIA_DETALLE = re.compile(r'<h1 class="noticia-detalle-titulo">(.*?)</h1>', re.DOTALL)
 
 
-def obtener_items_recientes(excluir_enlace: str | None, limite: int = 5) -> list[dict]:
+def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list[dict]:
     """Las `limite` noticias más recientes YA PUBLICADAS (según
     data/publicadas.json, el ledger real), para el bloque "Últimas
     noticias" del sidebar -- nunca incluye la noticia que se está
@@ -917,12 +917,14 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
         bloque_recientes = ""
 
     return f"""    <aside class="sidebar-noticia">
+      <div class="sidebar-noticia-sticky">
       <section class="sidebar-bloque">
         <h2 class="sidebar-titulo">Categorías</h2>
         <ul class="sidebar-categorias">
 {categorias_html}        </ul>
       </section>
-{bloque_recientes}    </aside>
+{bloque_recientes}      </div>
+    </aside>
 """
 
 
