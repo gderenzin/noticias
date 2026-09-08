@@ -821,6 +821,25 @@ h1, h2, h3 {
   margin-bottom: var(--sp-4);
 }
 
+/* Cuando fetch_news.py detectó que más de una fuente cubrió el mismo
+   hecho (ver fusionar_mismo_hecho() ahí) -- atribución honesta a cada
+   fuente real, nunca inventada. */
+.fuentes-adicionales {
+  margin: 0 0 var(--sp-4) 0;
+  font-size: var(--fs-xs);
+  color: var(--texto-suave);
+}
+
+.fuentes-adicionales a {
+  color: var(--enlace);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fuentes-adicionales a:hover {
+  text-decoration: underline;
+}
+
 /* Botones de compartir: bajo la fecha/fuente, antes de la imagen. Los
    enlaces a redes son <a href target=_blank> normales (no requieren JS);
    "Copiar enlace" es el único <button> real, con navigator.clipboard

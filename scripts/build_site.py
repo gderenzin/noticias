@@ -147,7 +147,7 @@ def render_meta_seo(
     return f"""  <meta name="description" content="{desc}">
   <link rel="canonical" href="{escape(url_canonica, quote=True)}">
   <meta property="og:type" content="{tipo_og}">
-  <meta property="og:site_name" content="Periódico de Ciberseguridad">
+  <meta property="og:site_name" content="Noticias de Ciberseguridad">
   <meta property="og:title" content="{tit}">
   <meta property="og:description" content="{desc_social}">
   <meta property="og:url" content="{escape(url_canonica, quote=True)}">
@@ -181,7 +181,7 @@ def render_json_ld_noticia(item: dict, titulo_mostrar: str, ruta_noticia: str, c
         "author": {"@type": "Organization", "name": item["fuente"]},
         "publisher": {
             "@type": "Organization",
-            "name": "Periódico de Ciberseguridad — DERENZIN S.A.S.",
+            "name": "Noticias de Ciberseguridad — DERENZIN S.A.S.",
             "logo": {"@type": "ImageObject", "url": url_absoluta("/assets/logo-derenzin.png")},
         },
         "mainEntityOfPage": {"@type": "WebPage", "@id": url_absoluta(ruta_noticia)},
@@ -926,6 +926,21 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
 """
 
 
+def render_fuentes_adicionales(fuentes_adicionales: list[dict] | None) -> str:
+    """Cuando fetch_news.py detectó que más de una fuente cubrió el MISMO
+    hecho (ver fusionar_mismo_hecho() ahí), item["fuentes_adicionales"]
+    trae el nombre real y el enlace real de cada fuente adicional -- nunca
+    inventado. Se muestra como "También cubierto por: X, Y" con cada
+    nombre como hipervínculo directo a esa fuente."""
+    if not fuentes_adicionales:
+        return ""
+    enlaces_html = ", ".join(
+        f'<a href="{escape(f["enlace"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(f["nombre"])}</a>'
+        for f in fuentes_adicionales
+    )
+    return f'      <p class="fuentes-adicionales">También cubierto por: {enlaces_html}</p>\n'
+
+
 def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     """Página de detalle propia del sitio para una noticia: resumen ampliado
     en español (parafraseado a partir del texto más completo del RSS, nunca
@@ -988,6 +1003,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 
     items_recientes = obtener_items_recientes(item.get("enlace"))
     sidebar_html = render_sidebar_noticia(items_recientes)
+    fuentes_adicionales_html = render_fuentes_adicionales(item.get("fuentes_adicionales"))
 
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -995,8 +1011,8 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
   <meta charset="UTF-8">
   <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{titulo_html} — Periódico de Ciberseguridad</title>
-{render_meta_seo(f"{titulo_mostrar} — Periódico de Ciberseguridad", descripcion, ruta_noticia, imagen_pagina, tipo_og="article", descripcion_social=descripcion_social)}
+  <title>{titulo_html} — Noticias de Ciberseguridad</title>
+{render_meta_seo(f"{titulo_mostrar} — Noticias de Ciberseguridad", descripcion, ruta_noticia, imagen_pagina, tipo_og="article", descripcion_social=descripcion_social)}
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
 {ENLACES_FUENTE}
@@ -1015,7 +1031,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
         <span class="fecha">Publicado: {fecha_str}</span>
         {notas_html}
       </div>
-{render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
+{fuentes_adicionales_html}{render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
 {parrafos_html}
       </div>
     </article>
@@ -1054,7 +1070,7 @@ def render_cabecera(subtitulo: str, prefijo: str, pagina_actual: str) -> str:
         <a href="{prefijo}index.html" class="marca-enlace">
           <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
           <div class="marca-texto">
-            <span class="marca-titulo">Periódico de Ciberseguridad</span>
+            <span class="marca-titulo">Noticias de Ciberseguridad</span>
             <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
           </div>
         </a>
@@ -1210,8 +1226,8 @@ def render_archivo_index(dias: list[str]) -> str:
     else:
         lista = '<p class="sin-noticias">Todavía no hay ediciones archivadas.</p>'
 
-    titulo_pagina = "Archivo — Periódico de Ciberseguridad"
-    descripcion = "Índice de todas las ediciones diarias publicadas del Periódico de Ciberseguridad — un proyecto de DERENZIN S.A.S."
+    titulo_pagina = "Archivo — Noticias de Ciberseguridad"
+    descripcion = "Índice de todas las ediciones diarias publicadas del Noticias de Ciberseguridad — un proyecto de DERENZIN S.A.S."
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1275,7 +1291,7 @@ def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, im
     "Recurso propio" con un enlace a la metodología de cumplimiento LOPDP
     de DERENZIN (lopdp.derenzin.com) -- un recurso propio, claramente
     distinguido del anterior, no una fuente de noticias."""
-    titulo_pagina = "Protección de Datos — Periódico de Ciberseguridad"
+    titulo_pagina = "Protección de Datos — Noticias de Ciberseguridad"
     subtitulo = "Sección de Protección de Datos"
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -1640,7 +1656,7 @@ def main() -> None:
         items_html_portada = m_items.group(1) if m_items else ""
 
         index_html = render_pagina_index(
-            "Periódico de Ciberseguridad — Portada", subtitulo_mas_reciente, items_html_portada, descripcion_mas_reciente, imagen_og_mas_reciente
+            "Noticias de Ciberseguridad — Portada", subtitulo_mas_reciente, items_html_portada, descripcion_mas_reciente, imagen_og_mas_reciente
         )
         with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
             f.write(index_html)
@@ -1717,15 +1733,31 @@ def main() -> None:
     # ledger, para no duplicar noticias en ninguna de las dos)
     publicadas = cargar_publicadas()
     urls = publicadas.setdefault("urls", {})
+    ahora_iso = datetime.now(timezone.utc).isoformat()
     for item in nuevos:
+        ruta = rutas_noticia.get(item["enlace"], "")
         urls[item["enlace"]] = {
             "guid": item["guid"],
             "fuente": item["fuente"],
             "titulo": item["titulo"],
             "fecha_publicacion_iso": item["fecha_publicacion_iso"],
-            "fecha_agregada_iso": datetime.now(timezone.utc).isoformat(),
-            "ruta_noticia": rutas_noticia.get(item["enlace"], ""),
+            "fecha_agregada_iso": ahora_iso,
+            "ruta_noticia": ruta,
         }
+        # Si fetch_news.py fusionó este ítem con otras fuentes que cubrían
+        # el mismo hecho (ver fusionar_mismo_hecho()), esas fuentes
+        # "absorbidas" también quedan registradas en el ledger -- apuntando
+        # a la MISMA página de detalle -- para que un run futuro las
+        # reconozca como ya publicadas y no las vuelva a traer sueltas.
+        for extra in item.get("fuentes_adicionales") or []:
+            urls[extra["enlace"]] = {
+                "guid": extra["enlace"],
+                "fuente": extra["nombre"],
+                "titulo": item["titulo"],
+                "fecha_publicacion_iso": item["fecha_publicacion_iso"],
+                "fecha_agregada_iso": ahora_iso,
+                "ruta_noticia": ruta,
+            }
     guardar_publicadas(publicadas)
     log(f"Ledger actualizado: {PUBLICADAS_JSON} ahora tiene {len(urls)} URL(s) registradas.")
 

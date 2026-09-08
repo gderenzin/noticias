@@ -37,8 +37,10 @@ build_site.py los convierta en HTML.
 
 from __future__ import annotations
 
+import difflib
 import hashlib
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -492,6 +494,176 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
     return nuevos
 
 
+# ---------------------------------------------------------------------------
+# Detección de "mismo hecho" cubierto por fuentes distintas (p.ej. la misma
+# vulnerabilidad/ataque/filtración que The Hacker News y BleepingComputer
+# publican el mismo día con títulos y URLs distintos). No usa IA -- solo
+# similitud de texto determinística (difflib) y señales objetivas (CVE
+# compartido, palabra clave de producto/marca compartida). Se corre una sola
+# vez por corrida, sobre el lote de ítems NUEVOS de esta corrida (todos ya
+# filtrados por ventana de 24-48h y por no estar publicados todavía) -- nunca
+# compara contra el histórico ya publicado.
+# ---------------------------------------------------------------------------
+
+UMBRAL_SIMILITUD_TITULO = 0.62  # 0.6-0.7 sugerido; ver pruebas en el propio repo
+# Piso de similitud cuando la única señal adicional es una palabra clave
+# compartida (ver más abajo) -- probado contra 125 noticias reales ya
+# publicadas. Varios pares genuinos (MikroTik, ScreenConnect, ClickFix,
+# FalconFlank) tienen ratio de solo 0.38-0.48, así que el piso no puede ser
+# demasiado alto sin perderlos; la defensa real contra falsos positivos es
+# la lista PALABRAS_CLAVE_GENERICAS de abajo (ver su comentario), no este
+# número.
+UMBRAL_SIMILITUD_TITULO_CON_CLAVE = 0.4
+
+RE_CVE = re.compile(r"CVE-\d{4}-\d+", re.IGNORECASE)
+# Candidatos a "palabra clave principal" (marca/producto): tokens con
+# mayúscula intercalada (VMware, ChatGPT) o un prefijo de 2-4 mayúsculas
+# seguido de minúsculas (JFrog, ESXi) o acrónimos puros en mayúsculas de
+# 2-6 letras (SMA1000). Deliberadamente NO cualquier palabra con mayúscula
+# inicial sola, porque los títulos en inglés suelen venir en Title Case
+# (todas las palabras importantes capitalizadas), así que eso solo
+# generaría falsos positivos entre artículos no relacionados que comparten
+# una palabra común como "Critical" o "New".
+RE_PALABRA_CLAVE = re.compile(r"\b(?:[A-Za-z]*[a-z][A-Z][A-Za-z]*|[A-Z]{2,4}[a-z][A-Za-z]*|[A-Z0-9]{2,6})\b")
+# Acrónimos/jargon genérico de ciberseguridad y empresas mencionadas TAN
+# seguido (de paso, no como protagonista del hecho) que compartirlas no es
+# evidencia confiable de que dos artículos hablen del mismo hecho -- nunca
+# cuentan como "palabra clave" distintiva por sí solas. Casos reales
+# encontrados al probar esto contra las 125 noticias ya publicadas:
+# - "N-able Issues Fourth N-central Hotfix... RCE Flaw" se emparejaba por
+#   error con "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE"
+#   solo por compartir el acrónimo genérico "RCE".
+# - "GPT-6 Astra Scores 100%... as OpenAI Blocks PoC Exploit Requests" (un
+#   hecho de IA sin relación) se emparejaba por error con "Critical
+#   Langflow flaw exploited to steal OpenAI and AWS keys" solo por
+#   mencionar "OpenAI" de paso los dos -- a diferencia de un título donde
+#   OpenAI es el propio protagonista del hecho (esos casos, sin otra
+#   palabra clave en común, quedan sin fusionar bajo este ajuste; se
+#   prefiere ese falso negativo ocasional a arriesgar una fusión errónea).
+PALABRAS_CLAVE_GENERICAS = {
+    "RCE", "CVE", "CVES", "API", "APIS", "VPN", "VPNS", "DDOS", "IOT", "SDK",
+    "URL", "SQL", "XSS", "SSRF", "MFA", "2FA", "POC", "AI", "ML", "US", "UK",
+    "EU", "CEO", "CTO", "CISO", "FBI", "NSA", "GDPR", "PDF", "IOS", "APP",
+    "OS", "ID", "KEV", "IT", "OPENAI", "CHATGPT",
+}
+
+
+def _normalizar_titulo(titulo: str) -> str:
+    return re.sub(r"[^a-z0-9 ]+", " ", titulo.lower()).strip()
+
+
+def _extraer_cves(texto: str) -> set[str]:
+    return {m.upper() for m in RE_CVE.findall(texto)}
+
+
+def _extraer_palabras_clave(titulo: str) -> set[str]:
+    return {
+        p
+        for p in RE_PALABRA_CLAVE.findall(titulo)
+        if len(p) >= 3 and p.upper() not in PALABRAS_CLAVE_GENERICAS
+    }
+
+
+def _es_mismo_hecho(a: dict, b: dict) -> bool:
+    """True si `a` y `b` (de fuentes DISTINTAS) parecen cubrir el mismo
+    hecho de ciberseguridad. Nunca compara ítems de la misma fuente (esos
+    ya se deduplican antes, por enlace exacto)."""
+    if a["fuente"] == b["fuente"]:
+        return False
+
+    ratio = difflib.SequenceMatcher(
+        None, _normalizar_titulo(a["titulo"]), _normalizar_titulo(b["titulo"])
+    ).ratio()
+    if ratio >= UMBRAL_SIMILITUD_TITULO:
+        return True
+
+    texto_a = f"{a['titulo']} {a.get('extracto_original', '')}"
+    texto_b = f"{b['titulo']} {b.get('extracto_original', '')}"
+    if _extraer_cves(texto_a) & _extraer_cves(texto_b):
+        return True
+
+    # Palabra clave de producto/marca compartida: señal más débil sola (dos
+    # artículos no relacionados podrían mencionar la misma marca de paso),
+    # así que exige además un piso mínimo de similitud de título.
+    claves_compartidas = _extraer_palabras_clave(a["titulo"]) & _extraer_palabras_clave(b["titulo"])
+    if claves_compartidas and ratio >= UMBRAL_SIMILITUD_TITULO_CON_CLAVE:
+        return True
+
+    return False
+
+
+def agrupar_mismo_hecho(items: list[dict]) -> list[list[dict]]:
+    """Agrupa `items` en clusters de "mismo hecho" (unión de pares
+    conectados por _es_mismo_hecho -- si A~B y B~C quedan los tres juntos
+    aunque A y C no coincidan directo entre sí). Un ítem sin ningún par
+    conectado queda solo en su propio grupo de 1."""
+    n = len(items)
+    padre = list(range(n))
+
+    def encontrar(x: int) -> int:
+        while padre[x] != x:
+            padre[x] = padre[padre[x]]
+            x = padre[x]
+        return x
+
+    def unir(x: int, y: int) -> None:
+        rx, ry = encontrar(x), encontrar(y)
+        if rx != ry:
+            padre[rx] = ry
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _es_mismo_hecho(items[i], items[j]):
+                unir(i, j)
+
+    grupos: dict[int, list[dict]] = {}
+    for i, item in enumerate(items):
+        grupos.setdefault(encontrar(i), []).append(item)
+    return list(grupos.values())
+
+
+def fusionar_grupo(grupo: list[dict]) -> dict:
+    """Fusiona un grupo de ítems del MISMO hecho (fuentes distintas) en un
+    solo ítem publicado: usa título/resumen/fecha de la fuente que lo
+    publicó PRIMERO (fecha_publicacion_iso más antigua real -- nunca se
+    inventa cuál "llegó primero"), y agrega fuentes_adicionales (nombre real
+    + enlace real de cada una de las demás -- build_site.py las muestra como
+    "También cubierto por: ..." en la página de detalle). Si la fuente
+    principal no tiene imagen propia pero alguna de las fusionadas sí, usa
+    esa en vez de perder la oportunidad de imagen real."""
+    if len(grupo) == 1:
+        return grupo[0]
+
+    ordenado = sorted(grupo, key=lambda x: x["fecha_publicacion_iso"])
+    principal = dict(ordenado[0])
+    otras = ordenado[1:]
+    principal["fuentes_adicionales"] = [
+        {"nombre": it["fuente"], "enlace": it["enlace"]} for it in otras
+    ]
+    if not principal.get("imagen_url"):
+        for it in ordenado:
+            if it.get("imagen_url"):
+                principal["imagen_url"] = it["imagen_url"]
+                break
+    return principal
+
+
+def fusionar_mismo_hecho(items: list[dict]) -> list[dict]:
+    """Punto de entrada: agrupa y fusiona. Devuelve una lista más corta o
+    igual que `items` -- un ítem por hecho real, cada uno con
+    fuentes_adicionales si más de una fuente lo cubrió."""
+    grupos = agrupar_mismo_hecho(items)
+    fusionados = [fusionar_grupo(g) for g in grupos]
+    n_fusiones = sum(1 for g in grupos if len(g) > 1)
+    if n_fusiones:
+        log(f"Detectados {n_fusiones} hecho(s) cubiertos por más de una fuente -- fusionados en un solo ítem cada uno.")
+        for g in grupos:
+            if len(g) > 1:
+                nombres = ", ".join(it["fuente"] for it in g)
+                log(f"  Mismo hecho ({nombres}): {g[0]['titulo'][:80]}")
+    return fusionados
+
+
 def main() -> None:
     ahora_utc = datetime.now(timezone.utc)
     log(f"Inicio de ejecución: {ahora_utc.isoformat()}")
@@ -510,6 +682,13 @@ def main() -> None:
                 continue  # por si dos feeds distintos referencian el mismo artículo
             vistos_en_este_run.add(clave)
             todos_los_nuevos.append(item)
+
+    # Fusionar ítems de FUENTES DISTINTAS que cubren el mismo hecho (misma
+    # vulnerabilidad/ataque/filtración con título y URL distintos) -- ver
+    # fusionar_mismo_hecho(). Se corre acá, sobre el lote completo de esta
+    # corrida, antes de descargar imágenes (para no descargar de más) y
+    # antes de ordenar.
+    todos_los_nuevos = fusionar_mismo_hecho(todos_los_nuevos)
 
     # Orden: más reciente primero
     todos_los_nuevos.sort(key=lambda x: x["fecha_publicacion_iso"], reverse=True)
