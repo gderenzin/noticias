@@ -697,8 +697,111 @@ h1, h2, h3 {
 
 /* ---------- Página de detalle de una noticia ---------- */
 
+/* La columna de lectura mantiene siempre --ancho-lectura (no se achica al
+   agregar el sidebar); el contenedor crece para usar el espacio que antes
+   quedaba vacío a los costados en pantallas grandes. */
 .contenido.pagina-noticia {
-  max-width: var(--ancho-lectura);
+  max-width: calc(var(--ancho-lectura) + var(--sp-5) + 300px);
+}
+
+.pagina-noticia-layout {
+  display: grid;
+  grid-template-columns: minmax(0, var(--ancho-lectura)) 1fr;
+  gap: var(--sp-5);
+  align-items: start;
+}
+
+@media (max-width: 1023px) {
+  .pagina-noticia-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Sidebar de la página de detalle ---------- */
+
+.sidebar-noticia {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  min-width: 0;
+}
+
+.sidebar-bloque {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: var(--sp-4);
+}
+
+.sidebar-titulo {
+  margin: 0 0 var(--sp-3) 0;
+  font-size: var(--fs-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--texto-suave);
+}
+
+.sidebar-categorias,
+.sidebar-recientes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-categorias {
+  gap: var(--sp-2);
+}
+
+.sidebar-categoria-enlace {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-categoria-texto, var(--texto-tenue));
+  background: var(--color-categoria-bg, var(--fondo));
+  padding: 0.45rem var(--sp-3);
+  border-radius: var(--radio-chico);
+  text-decoration: none;
+  /* Área táctil mínima recomendada en mobile (44px) sin agrandar el
+     padding visual -- el line-height compensa el alto real del enlace. */
+  line-height: 1.6;
+}
+
+.sidebar-categoria-enlace:hover {
+  filter: brightness(0.95);
+}
+
+.sidebar-recientes {
+  gap: var(--sp-3);
+}
+
+.sidebar-recientes li + li {
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--borde);
+}
+
+.sidebar-recientes a {
+  display: block;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--texto);
+  text-decoration: none;
+}
+
+.sidebar-recientes a:hover {
+  color: var(--enlace);
+}
+
+.sidebar-recientes-fecha {
+  display: block;
+  margin-top: var(--sp-1);
+  font-size: 0.75rem;
+  color: var(--texto-suave);
 }
 
 .noticia-detalle > .eyebrow-categoria {
@@ -831,31 +934,6 @@ h1, h2, h3 {
 
 .noticia-fuente-final p a {
   font-weight: 700;
-}
-
-/* ---------- Archivo (listado de ediciones) ---------- */
-
-.lista-archivo {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.lista-archivo li {
-  padding: var(--sp-3) 0;
-  border-bottom: 1px solid var(--borde);
-}
-
-.lista-archivo a {
-  text-decoration: none;
-  font-size: var(--fs-md);
-  font-weight: 600;
-  color: var(--texto);
-}
-
-.lista-archivo a:hover {
-  color: var(--enlace);
-  text-decoration: underline;
 }
 
 /* ---------- Pie de página ---------- */
