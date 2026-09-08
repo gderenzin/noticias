@@ -857,7 +857,6 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
       </div>
       <div class="noticia-fuente-final">
         <p>Fuente: <a href="{enlace_externo}" target="_blank" rel="noopener noreferrer">{fuente}</a></p>
-        <a class="destacada-cta" href="{enlace_externo}" target="_blank" rel="noopener noreferrer">Leer el artículo original completo en {fuente} ↗</a>
       </div>
     </article>
   </main>
