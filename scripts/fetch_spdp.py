@@ -82,6 +82,23 @@ SPDP_NOMBRE_FUENTE = "Superintendencia de Protección de Datos Personales (SPDP)
 SPDP_DOMINIO = "spdp.gob.ec"
 SPDP_CATEGORIA = "proteccion_datos"
 
+# Logo oficial de la SPDP -- se usa como imagen fija para TODOS los
+# boletines de esta fuente (no vienen de una noticia con og:image propia:
+# son comunicados de texto, no hay foto real del hecho que mostrar).
+# Verificado con una petición real (HTTP 200, Content-Type image/png) que
+# ambas URLs responden antes de usarlas acá. Se prueba primero el logo
+# cuadrado (972x971 -- mejor proporción para tarjeta que el rectangular
+# del header); si no respondiera, se cae al rectangular; si ninguno de
+# los dos responde, construir_item() deja imagen_local=None y
+# build_site.py usa el ícono de categoría de respaldo, igual que para
+# cualquier otra fuente sin imagen -- nunca se inventa una.
+SPDP_LOGO_URL = "https://spdp.gob.ec/wp-content/uploads/2026/04/logospdp2.png"
+SPDP_LOGO_URL_RESPALDO = "https://spdp.gob.ec/wp-content/uploads/2025/08/3-1-e1754067758126.png"
+# No es una carpeta de fecha (como para las imágenes de artículos
+# normales) -- es una imagen fija reutilizada por todos los boletines de
+# esta fuente, así que se guarda en su propia carpeta con nombre fijo.
+SPDP_LOGO_CARPETA = "spdp"
+
 TIMEOUT_SEGUNDOS = 20
 LIMITE_CONTENIDO_AMPLIADO = 4000  # mismo tope que fetch_news.py, por consistencia
 USER_AGENT = (
@@ -258,7 +275,23 @@ def parsear_fecha_boletin(cuerpo_limpio: str) -> datetime | None:
         return None
 
 
-def construir_item(numero: int, titulo_html: str, cuerpo_html: str, modified_gmt: str) -> dict | None:
+def obtener_logo_spdp(ledger_imagenes: dict) -> tuple[str, str] | None:
+    """Descarga (o reusa del ledger, si ya se descargó antes) el logo
+    oficial de la SPDP para usarlo como imagen de todos los boletines.
+    Prueba primero SPDP_LOGO_URL; si falla, SPDP_LOGO_URL_RESPALDO.
+    Devuelve (ruta_local, url_usada), o None si ninguna de las dos
+    responde -- nunca lanza excepción."""
+    for url in (SPDP_LOGO_URL, SPDP_LOGO_URL_RESPALDO):
+        ruta_local = fn.descargar_imagen(url, SPDP_LOGO_CARPETA, ledger_imagenes)
+        if ruta_local:
+            return ruta_local, url
+    log("AVISO: no se pudo descargar ninguno de los dos logos conocidos de la SPDP; los boletines usarán el ícono de categoría.")
+    return None
+
+
+def construir_item(
+    numero: int, titulo_html: str, cuerpo_html: str, modified_gmt: str, logo_spdp: tuple[str, str] | None
+) -> dict | None:
     titulo = limpiar_titulo(titulo_html)
     cuerpo_limpio = _quitar_pie_boilerplate(fn.limpiar_html_conservando_parrafos(cuerpo_html))
     if not titulo or not cuerpo_limpio:
@@ -286,6 +319,7 @@ def construir_item(numero: int, titulo_html: str, cuerpo_html: str, modified_gmt
     extracto_original = re.sub(r"\s+", " ", cuerpo_limpio).strip()
     contenido_ampliado = truncar(cuerpo_limpio, LIMITE_CONTENIDO_AMPLIADO)
     enlace = f"{SPDP_PRENSA_URL}#boletin-{numero}"
+    imagen_local, imagen_url = logo_spdp if logo_spdp else (None, None)
 
     return {
         "titulo": titulo,
@@ -300,8 +334,8 @@ def construir_item(numero: int, titulo_html: str, cuerpo_html: str, modified_gmt
         "fecha_aproximada": fecha_aproximada,
         "extracto_original": extracto_original,
         "contenido_ampliado": contenido_ampliado,
-        "imagen_url": None,
-        "imagen_local": None,
+        "imagen_url": imagen_url,
+        "imagen_local": imagen_local,
         "categoria": SPDP_CATEGORIA,
         # No tiene sentido que resumir_ia.py entre a SPDP_PRENSA_URL: esa
         # página trae TODOS los boletines juntos, no solo este, así que
@@ -333,11 +367,24 @@ def main() -> None:
     publicadas = cargar_publicadas_spdp()
     ya_vistos = publicadas["boletines"]
 
+    pendientes = [b for b in boletines_crudos if str(b[0]) not in ya_vistos]
+    if not pendientes:
+        log("Sin boletines nuevos (todos los presentes en la página ya estaban en el registro). Fin de ejecución.")
+        return
+
+    # El logo es una imagen fija reutilizada por todos los boletines de
+    # esta fuente (no una por boletín) -- se descarga (o se reusa del
+    # ledger) una sola vez por corrida, solo si hay algo nuevo que
+    # publicar.
+    ledger_imagenes = fn.cargar_ledger_imagenes()
+    ledger_antes = dict(ledger_imagenes)
+    logo_spdp = obtener_logo_spdp(ledger_imagenes)
+    if ledger_imagenes != ledger_antes:
+        fn.guardar_ledger_imagenes(ledger_imagenes)
+
     nuevos: list[dict] = []
-    for numero, titulo_html, cuerpo_html in boletines_crudos:
-        if str(numero) in ya_vistos:
-            continue  # ya publicado en un run anterior
-        item = construir_item(numero, titulo_html, cuerpo_html, modified_gmt)
+    for numero, titulo_html, cuerpo_html in pendientes:
+        item = construir_item(numero, titulo_html, cuerpo_html, modified_gmt, logo_spdp)
         if item is None:
             continue
         nuevos.append(item)
@@ -348,7 +395,7 @@ def main() -> None:
         }
 
     if not nuevos:
-        log("Sin boletines nuevos (todos los presentes en la página ya estaban en el registro). Fin de ejecución.")
+        log("Ningún boletín pendiente se pudo procesar (ver avisos arriba). Fin de ejecución.")
         return
 
     existentes = cargar_nuevas_existentes()
