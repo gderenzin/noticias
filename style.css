@@ -1047,6 +1047,19 @@ h1, h2, h3 {
   hyphens: auto;
 }
 
+/* Aviso de transparencia sobre el resumen generado con IA -- debajo del
+   cuerpo del artículo, en la página de detalle (ver render_pagina_noticia
+   en build_site.py). Nunca en tarjetas/portada/archivo/sidebar -- ese texto
+   ni siquiera se genera ahí. Texto secundario, sin protagonismo visual pero
+   con contraste AA (--texto-suave sobre --fondo-tarjeta ya da ~4.8:1). */
+.aviso-transparencia-ia {
+  margin: var(--sp-3) 0 0 0;
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--borde);
+  font-size: var(--fs-xs);
+  color: var(--texto-suave);
+}
+
 .noticia-fuente-final {
   margin-top: var(--sp-5);
   padding: var(--sp-4);
