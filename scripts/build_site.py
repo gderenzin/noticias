@@ -74,6 +74,7 @@ SITE_DIR = RAIZ / "site"
 ARCHIVO_DIR = SITE_DIR / "archivo"
 NOTICIA_DIR = SITE_DIR / "noticia"
 PROTECCION_DATOS_DIR = SITE_DIR / "proteccion-datos"
+CATEGORIA_DIR = SITE_DIR / "categoria"
 
 LIMITE_RESUMEN_AMPLIADO = 2000  # caracteres; nunca se muestra el artículo completo
 MAX_PARRAFOS_AMPLIADO = 5
@@ -316,6 +317,16 @@ GENERICO = {
 
 # Orden de prioridad al buscar coincidencias (las más específicas primero)
 ORDEN_CATEGORIAS = ["ransomware", "phishing", "filtracion_datos", "vulnerabilidad", "malware", "ddos"]
+
+# Categorías del sidebar "Categorías" y de site/categoria/<slug>.html: las 6
+# de ORDEN_CATEGORIAS + "generico" (etiqueta "Ciberseguridad", el respaldo
+# que categorizar() devuelve cuando ninguna palabra clave coincide -- NO es
+# una categoría marginal: al revisar los datos reales tiene más noticias que
+# ransomware, phishing o filtración de datos juntas). Protección de Datos NO
+# entra acá a propósito -- ya tiene su propia sección separada en la
+# navegación principal (site/proteccion-datos/); agregarla también acá sería
+# redundante (decisión confirmada con el dueño del sitio).
+CATEGORIAS_SIDEBAR = ORDEN_CATEGORIAS + ["generico"]
 
 
 def categorizar(item: dict) -> str:
@@ -749,19 +760,52 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
     `es_destacada`, como el bloque grande de "lo más reciente" arriba de la
     portada/edición del día. Todos los enlaces (imagen, título, botón) van a
     la página de detalle propia del sitio (`ruta_noticia`) — nunca directo al
-    enlace externo; ese solo aparece al pie de la página de detalle."""
-    mostrado = preparar_texto_mostrado(item)
-    titulo_mostrar = mostrado["titulo_mostrar"]
-    resumen_mostrar = mostrado["resumen_mostrar"]
+    enlace externo; ese solo aparece al pie de la página de detalle.
 
+    Espera un ítem CRUDO (recién bajado del RSS -- título original, extracto
+    original, etc.) y llama a preparar_texto_mostrado()/categorizar() para
+    resolverlo. Para tarjetas armadas a partir de noticias YA PUBLICADAS
+    (p.ej. site/categoria/<slug>.html, que junta noticias de muchos días
+    distintos) usa _render_tarjeta_desde_datos() en su lugar -- esos datos ya
+    están resueltos (traducidos, categorizados) y no hay que -- ni se puede,
+    falta el ítem crudo -- volver a pasarlos por preparar_texto_mostrado()."""
+    mostrado = preparar_texto_mostrado(item)
     categoria = categorizar(item)
-    imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=es_destacada)
+    return _render_tarjeta_desde_datos(
+        titulo_mostrar=mostrado["titulo_mostrar"],
+        resumen_mostrar=mostrado["resumen_mostrar"],
+        fuente_nombre=item["fuente"],
+        fecha_publicacion_iso=item["fecha_publicacion_iso"],
+        imagen_local=item.get("imagen_local"),
+        categoria=categoria,
+        ruta_noticia=ruta_noticia,
+        es_destacada=es_destacada,
+    )
+
+
+def _render_tarjeta_desde_datos(
+    *,
+    titulo_mostrar: str,
+    resumen_mostrar: str,
+    fuente_nombre: str,
+    fecha_publicacion_iso: str,
+    imagen_local: str | None,
+    categoria: str,
+    ruta_noticia: str,
+    es_destacada: bool = False,
+) -> str:
+    """Núcleo de render_tarjeta_html(), separado para poder reusarlo con
+    datos YA RESUELTOS (ver docstring de render_tarjeta_html) -- mismo HTML
+    exacto, solo cambia de dónde salen los valores."""
+    imagen_html = render_imagen_html(
+        {"imagen_local": imagen_local, "fuente": fuente_nombre}, categoria, titulo_mostrar, destacada=es_destacada
+    )
     info_categoria = CATEGORIAS.get(categoria, GENERICO)
     eyebrow_categoria = f'<span class="eyebrow-categoria">{escape(info_categoria["etiqueta"])}</span>'
 
-    fuente = escape(item["fuente"])
+    fuente = escape(fuente_nombre)
     enlace_noticia = escape(ruta_noticia, quote=True)
-    fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
+    fecha_str = escape(fecha_corta(fecha_publicacion_iso))
     resumen_html = escape(resumen_mostrar).replace("\n", "<br>")
     titulo_html = escape(titulo_mostrar)
 
@@ -908,8 +952,8 @@ def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list
 
 def render_sidebar_noticia(items_recientes: list[dict]) -> str:
     categorias_html = "".join(
-        f'          <li><a class="sidebar-categoria-enlace cat-{slug}" href="/archivo/index.html">{escape(CATEGORIAS[slug]["etiqueta"])}</a></li>\n'
-        for slug in ORDEN_CATEGORIAS
+        f'          <li><a class="sidebar-categoria-enlace cat-{slug}" href="/categoria/{slug}.html">{escape(CATEGORIAS.get(slug, GENERICO)["etiqueta"])}</a></li>\n'
+        for slug in CATEGORIAS_SIDEBAR
     )
 
     if items_recientes:
@@ -940,6 +984,183 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
 {bloque_recientes}      </div>
     </aside>
 """
+
+
+def _envolver_con_sidebar(contenido_html: str, sidebar_html: str) -> str:
+    """Envuelve `contenido_html` (una cuadrícula de tarjetas, o el mensaje de
+    "sin noticias") + el sidebar de Categorías/Últimas noticias en el mismo
+    layout de dos columnas de la página de detalle -- ver
+    .layout-grid-sidebar en style.css. A diferencia de
+    .pagina-noticia-layout (columna de LECTURA, ancho fijo de ~700px,
+    pensada para prosa), acá la columna principal es flexible: sigue
+    ocupando el mismo ancho que tenía SIN sidebar (--max-ancho), para no
+    angostar la cuadrícula de tarjetas existente -- el sidebar se agrega
+    usando el espacio extra, no le resta espacio al grid.
+
+    Los marcadores HTML de acá adentro (nunca visibles: comentarios) son a
+    propósito, para que main() pueda extraer `contenido_html` tal cual de
+    site/archivo/<fecha>.html y reusarlo en la portada (ver más abajo) sin
+    ambigüedad -- una tarjeta "destacada" cierra su propio
+    <div class="destacada-cuerpo"> con la MISMA indentación (6 espacios)
+    que ".contenido-principal" cierra el suyo, así que delimitar por
+    indentación (en vez de por un marcador único) cortaba el contenido
+    real en el primer </div> de la destacada -- bug real encontrado al
+    escribir esto, no solo una precaución teórica."""
+    return f"""    <div class="layout-grid-sidebar">
+      <div class="contenido-principal">
+<!-- INICIO-CONTENIDO-PRINCIPAL -->
+{contenido_html}<!-- FIN-CONTENIDO-PRINCIPAL -->
+      </div>
+{sidebar_html}    </div>
+"""
+
+
+# ---------------------------------------------------------------------------
+# Páginas de categoría (site/categoria/<slug>.html): todas las noticias YA
+# PUBLICADAS de una categoría, de cualquier fecha, más reciente primero. Se
+# regeneran por completo en cada build (barato: solo escanea site/noticia/,
+# nunca reprocesa traducciones ni vuelve a llamar a ninguna API) -- así nunca
+# quedan desactualizadas, ni hace falta ningún índice/JSON adicional que
+# mantener sincronizado.
+# ---------------------------------------------------------------------------
+
+RE_FUENTE_DETALLE = re.compile(r'<span class="fuente">Fuente: <a[^>]*>(.*?)</a></span>')
+RE_CATEGORIA_DETALLE = re.compile(r'<article class="noticia-detalle cat-([a-z_]+)">')
+RE_IMG_DETALLE = re.compile(r'<img src="(/imagenes/[^"]+)"')
+RE_FECHA_PUBLICACION_JSONLD = re.compile(r'"datePublished":\s*"([^"]+)"')
+RE_CUERPO_PARRAFOS_DETALLE = re.compile(r'<div class="noticia-detalle-cuerpo">\s*(.*?)\s*</div>', re.DOTALL)
+RE_P_DETALLE = re.compile(r"<p>(.*?)</p>", re.DOTALL)
+
+
+def recolectar_indice_categorias() -> dict[str, list[dict]]:
+    """Recorre TODAS las páginas de detalle ya publicadas (site/noticia/) y
+    arma, para cada categoría real de CATEGORIAS_SIDEBAR, la lista de sus
+    noticias (más reciente primero) -- leyendo cada dato tal cual YA está
+    publicado (título, fuente, imagen, fecha, categoría), nunca
+    re-traduciendo ni re-categorizando nada. El resumen corto de cada
+    tarjeta sale de las primeras 2-3 oraciones del cuerpo YA publicado (el
+    mismo criterio que preparar_texto_mostrado() usa para el resumen de IA),
+    no del resumen corto original de portada/archivo (no queda guardado en
+    ningún lado aparte una vez publicado) -- sigue siendo texto real de esa
+    misma página, nunca inventado."""
+    indice: dict[str, list[dict]] = {slug: [] for slug in CATEGORIAS_SIDEBAR}
+    for archivo in sorted(NOTICIA_DIR.glob("*.html")):
+        texto = archivo.read_text(encoding="utf-8")
+        m_titulo = RE_H1_NOTICIA_DETALLE.search(texto)
+        m_fuente = RE_FUENTE_DETALLE.search(texto)
+        m_categoria = RE_CATEGORIA_DETALLE.search(texto)
+        m_fecha = RE_FECHA_PUBLICACION_JSONLD.search(texto)
+        if not (m_titulo and m_fuente and m_categoria and m_fecha):
+            continue
+        categoria = m_categoria.group(1)
+        if categoria not in indice:
+            continue  # proteccion_datos u otra categoría fuera del sidebar -- a propósito no entra acá
+
+        m_img = RE_IMG_DETALLE.search(texto)
+        m_cuerpo = RE_CUERPO_PARRAFOS_DETALLE.search(texto)
+        resumen_mostrar = SIN_EXTRACTO_ADICIONAL
+        if m_cuerpo:
+            primer_parrafo = RE_P_DETALLE.search(m_cuerpo.group(1))
+            if primer_parrafo:
+                texto_plano = unescape(re.sub(r"<[^>]*>", "", primer_parrafo.group(1))).strip()
+                resumen_mostrar = truncar(primeras_oraciones(texto_plano, 3), 600)
+
+        indice[categoria].append(
+            {
+                "titulo_mostrar": unescape(re.sub(r"<[^>]*>", "", m_titulo.group(1))).strip(),
+                "resumen_mostrar": resumen_mostrar,
+                "fuente_nombre": unescape(re.sub(r"<[^>]*>", "", m_fuente.group(1))).strip(),
+                "fecha_publicacion_iso": m_fecha.group(1),
+                "imagen_local": m_img.group(1) if m_img else None,
+                "categoria": categoria,
+                "ruta_noticia": f"/noticia/{archivo.name}",
+            }
+        )
+
+    for lista in indice.values():
+        lista.sort(key=lambda d: d["fecha_publicacion_iso"], reverse=True)
+    return indice
+
+
+def render_pagina_categoria(categoria: str, items: list[dict], sidebar_html: str) -> str:
+    info_categoria = CATEGORIAS.get(categoria, GENERICO)
+    etiqueta = info_categoria["etiqueta"]
+    titulo_pagina = f"{etiqueta} — Noticias de Ciberseguridad"
+    descripcion = (
+        f"Todas las noticias de la categoría «{etiqueta}» publicadas en Noticias de "
+        "Ciberseguridad, agregadas de fuentes públicas verificadas. Un proyecto de DERENZIN S.A.S."
+    )
+
+    if items:
+        destacada_html = _render_tarjeta_desde_datos(
+            titulo_mostrar=items[0]["titulo_mostrar"],
+            resumen_mostrar=items[0]["resumen_mostrar"],
+            fuente_nombre=items[0]["fuente_nombre"],
+            fecha_publicacion_iso=items[0]["fecha_publicacion_iso"],
+            imagen_local=items[0]["imagen_local"],
+            categoria=items[0]["categoria"],
+            ruta_noticia=items[0]["ruta_noticia"],
+            es_destacada=True,
+        )
+        tarjetas_html = "".join(
+            _render_tarjeta_desde_datos(
+                titulo_mostrar=it["titulo_mostrar"],
+                resumen_mostrar=it["resumen_mostrar"],
+                fuente_nombre=it["fuente_nombre"],
+                fecha_publicacion_iso=it["fecha_publicacion_iso"],
+                imagen_local=it["imagen_local"],
+                categoria=it["categoria"],
+                ruta_noticia=it["ruta_noticia"],
+                es_destacada=False,
+            )
+            for it in items[1:]
+        )
+        titulo_seccion = '    <h2 class="seccion-titulo">Más noticias de esta categoría</h2>\n' if items[1:] else ""
+        items_html = destacada_html + titulo_seccion + f"""
+    <div class="grid-noticias">
+{tarjetas_html}    </div>
+"""
+        imagen_og = items[0]["imagen_local"] or "/assets/logo-derenzin.png"
+    else:
+        items_html = '    <p class="sin-noticias">Todavía no hay noticias en esta categoría.</p>\n'
+        imagen_og = "/assets/logo-derenzin.png"
+
+    contenido_con_sidebar = _envolver_con_sidebar(items_html, sidebar_html)
+
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="{POLITICA_SEGURIDAD_CONTENIDO}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{escape(titulo_pagina)}</title>
+{render_meta_seo(titulo_pagina, descripcion, f"categoria/{categoria}.html", imagen_og)}
+  <link rel="icon" href="../assets/favicon.png">
+  <meta name="theme-color" content="#00b8d4">
+{ENLACES_FUENTE}
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+{render_cabecera("../", "categoria")}
+  <main class="contenido con-sidebar-grid">
+    <h1 class="sr-only">{escape(titulo_pagina)}</h1>
+{render_subtitulo_pagina(f"Categoría: {etiqueta}")}{contenido_con_sidebar}
+  </main>
+
+{render_pie("../")}
+</body>
+</html>
+"""
+
+
+def generar_paginas_categoria(sidebar_html: str) -> None:
+    CATEGORIA_DIR.mkdir(parents=True, exist_ok=True)
+    indice = recolectar_indice_categorias()
+    for categoria in CATEGORIAS_SIDEBAR:
+        pagina = render_pagina_categoria(categoria, indice[categoria], sidebar_html)
+        with open(CATEGORIA_DIR / f"{categoria}.html", "w", encoding="utf-8") as f:
+            f.write(pagina)
+    log(f"Escritas {len(CATEGORIAS_SIDEBAR)} página(s) de categoría en {CATEGORIA_DIR} ({', '.join(f'{c}: {len(indice[c])}' for c in CATEGORIAS_SIDEBAR)}).")
 
 
 def render_fuentes_adicionales(fuentes_adicionales: list[dict] | None) -> str:
@@ -1143,7 +1364,9 @@ def render_pie(prefijo: str) -> str:
 """
 
 
-def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str) -> str:
+def render_pagina_index(
+    titulo_pagina: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str, sidebar_html: str
+) -> str:
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1159,9 +1382,9 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str, des
 </head>
 <body>
 {render_cabecera("", "portada")}
-  <main class="contenido portada">
+  <main class="contenido portada con-sidebar-grid">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{render_subtitulo_pagina(subtitulo)}{items_html}
+{render_subtitulo_pagina(subtitulo)}{_envolver_con_sidebar(items_html, sidebar_html)}
   </main>
 
 {render_pie("")}
@@ -1170,7 +1393,9 @@ def render_pagina_index(titulo_pagina: str, subtitulo: str, items_html: str, des
 """
 
 
-def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str) -> str:
+def render_pagina_archivo_dia(
+    fecha_str: str, subtitulo: str, items_html: str, descripcion: str, imagen_og: str, sidebar_html: str
+) -> str:
     titulo_pagina = f"Ciberseguridad — edición del {fecha_str}"
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -1187,9 +1412,9 @@ def render_pagina_archivo_dia(fecha_str: str, subtitulo: str, items_html: str, d
 </head>
 <body>
 {render_cabecera("../", "archivo")}
-  <main class="contenido archivo-dia">
+  <main class="contenido archivo-dia con-sidebar-grid">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{render_subtitulo_pagina(subtitulo)}{items_html}
+{render_subtitulo_pagina(subtitulo)}{_envolver_con_sidebar(items_html, sidebar_html)}
   </main>
 
 {render_pie("../")}
@@ -1244,15 +1469,16 @@ def _render_tarjeta_dia(fecha: str, imagen: str, cantidad: int) -> str:
 """
 
 
-def render_archivo_index(dias: list[str]) -> str:
+def render_archivo_index(dias: list[str], sidebar_html: str) -> str:
     if dias:
         tarjetas_html = "".join(
             _render_tarjeta_dia(d, **_info_dia_archivo(d)) for d in sorted(dias, reverse=True)
         )
-        lista = f"""<div class="grid-noticias">
-{tarjetas_html}    </div>"""
+        lista = f"""    <div class="grid-noticias">
+{tarjetas_html}    </div>
+"""
     else:
-        lista = '<p class="sin-noticias">Todavía no hay ediciones archivadas.</p>'
+        lista = '    <p class="sin-noticias">Todavía no hay ediciones archivadas.</p>\n'
 
     titulo_pagina = "Archivo — Noticias de Ciberseguridad"
     descripcion = "Índice de todas las ediciones diarias publicadas del Noticias de Ciberseguridad — un proyecto de DERENZIN S.A.S."
@@ -1271,9 +1497,9 @@ def render_archivo_index(dias: list[str]) -> str:
 </head>
 <body>
 {render_cabecera("../", "archivo")}
-  <main class="contenido">
+  <main class="contenido con-sidebar-grid">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{render_subtitulo_pagina("Archivo de ediciones anteriores")}    {lista}
+{render_subtitulo_pagina("Archivo de ediciones anteriores")}{_envolver_con_sidebar(lista, sidebar_html)}
   </main>
 
 {render_pie("../")}
@@ -1302,7 +1528,7 @@ BLOQUE_RECURSO_PROPIO_LOPDP = """    <aside class="recurso-propio">
 """
 
 
-def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, imagen_og: str) -> str:
+def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, imagen_og: str, sidebar_html: str) -> str:
     """Portada propia de la sección "Protección de Datos" (site/proteccion-datos/index.html).
 
     A diferencia de site/index.html (que solo refleja la última edición del
@@ -1336,9 +1562,9 @@ def render_pagina_seccion_proteccion_datos(items_html: str, descripcion: str, im
 </head>
 <body>
 {render_cabecera("../", "proteccion_datos")}
-  <main class="contenido portada">
+  <main class="contenido portada con-sidebar-grid">
     <h1 class="sr-only">{escape(titulo_pagina)}</h1>
-{render_subtitulo_pagina(subtitulo)}{BLOQUE_FUENTE_OFICIAL_SPDP}{BLOQUE_RECURSO_PROPIO_LOPDP}{items_html}
+{render_subtitulo_pagina(subtitulo)}{_envolver_con_sidebar(BLOQUE_FUENTE_OFICIAL_SPDP + BLOQUE_RECURSO_PROPIO_LOPDP + items_html, sidebar_html)}
   </main>
 
 {render_pie("../")}
@@ -1370,6 +1596,8 @@ def generar_sitemap() -> None:
             agregar(f"archivo/{p.name}", p)
     if (PROTECCION_DATOS_DIR / "index.html").exists():
         agregar("proteccion-datos/index.html", PROTECCION_DATOS_DIR / "index.html")
+    for p in sorted(CATEGORIA_DIR.glob("*.html")):
+        agregar(f"categoria/{p.name}", p)
     for p in sorted(NOTICIA_DIR.glob("*.html")):
         agregar(f"noticia/{p.name}", p)
 
@@ -1530,10 +1758,26 @@ def main() -> None:
             "noticias nuevas ni claves de API."
         ),
     )
+    parser.add_argument(
+        "--regenerar-categorias",
+        action="store_true",
+        help=(
+            "No genera nada nuevo: solo re-escanea site/noticia/ ya publicado y regenera "
+            "site/categoria/*.html (una página por categoría, todas las fechas) -- ver "
+            "generar_paginas_categoria(). Útil para el backfill inicial o para regenerarlas "
+            "sin necesitar noticias nuevas ni claves de API; un build normal ya las "
+            "regenera solo al final."
+        ),
+    )
     args = parser.parse_args()
 
     if args.reparar_badges:
         reparar_badges_categoria_en_sitio()
+        return
+
+    if args.regenerar_categorias:
+        sidebar_html_general = render_sidebar_noticia(obtener_items_recientes(None))
+        generar_paginas_categoria(sidebar_html_general)
         return
 
     nuevos = cargar_nuevas()
@@ -1578,6 +1822,19 @@ def main() -> None:
         with open(NOTICIA_DIR / nombre_archivo, "w", encoding="utf-8") as f:
             f.write(pagina_noticia)
     log(f"Generadas {len(rutas_noticia)} página(s) de detalle en {NOTICIA_DIR}.")
+
+    # Mismo sidebar (Categorías + Últimas noticias) en TODAS las páginas del
+    # sitio -- portada, archivo (índice y cada día), Protección de Datos y
+    # cada página de categoría -- no solo en el detalle de noticia. Se
+    # calcula UNA vez acá y se reusa en todos los templates de abajo:
+    # "Últimas noticias" nunca se filtra por categoría ni por sección, así
+    # que no hay razón para recalcularlo por página. (Mismo comportamiento
+    # ya existente para el detalle de noticia: el ledger de esta corrida
+    # recién se actualiza al final -- ver el paso "6." más abajo -- así que,
+    # igual que en cada página de detalle ya generada arriba, las noticias
+    # nuevas de esta misma corrida todavía no aparecen en "Últimas
+    # noticias" hasta la corrida siguiente.)
+    sidebar_html_general = render_sidebar_noticia(obtener_items_recientes(None))
 
     # A partir de acá, cada sección se procesa por separado: la portada y el
     # archivo de ciberseguridad NUNCA mezclan noticias de Protección de
@@ -1644,7 +1901,9 @@ def main() -> None:
             # existente en vez de reemplazarla; la destacada de la primera
             # edición de ese día se queda como está, no cambia con cada
             # corrida posterior.
-            pagina_dia = render_pagina_archivo_dia(clave_fecha, subtitulo_dia, items_html_dia, descripcion_dia, imagen_og_dia)
+            pagina_dia = render_pagina_archivo_dia(
+                clave_fecha, subtitulo_dia, items_html_dia, descripcion_dia, imagen_og_dia, sidebar_html_general
+            )
             ruta_dia = ARCHIVO_DIR / f"{clave_fecha}.html"
             if ruta_dia.exists():
                 anterior = ruta_dia.read_text(encoding="utf-8")
@@ -1680,11 +1939,23 @@ def main() -> None:
         # acumulado.
         assert ruta_dia_mas_reciente is not None  # nuevos_ciber no está vacío acá, así que el bucle corrió al menos una vez
         contenido_dia = ruta_dia_mas_reciente.read_text(encoding="utf-8")
-        m_items = re.search(r'<h1 class="sr-only">.*?</h1>\n(.*?)\n  </main>', contenido_dia, re.DOTALL)
+        # Se extrae SOLO el contenido real (la destacada + cuadrícula, sin
+        # el subtítulo ni el sidebar de esa página de archivo) -- desde que
+        # el archivo del día también lleva sidebar (ver
+        # _envolver_con_sidebar), capturar todo el <main> como antes hubiera
+        # anidado un sidebar dentro de otro en la portada.
+        m_items = re.search(
+            r"<!-- INICIO-CONTENIDO-PRINCIPAL -->\n(.*?)<!-- FIN-CONTENIDO-PRINCIPAL -->", contenido_dia, re.DOTALL
+        )
         items_html_portada = m_items.group(1) if m_items else ""
 
         index_html = render_pagina_index(
-            "Noticias de Ciberseguridad — Portada", subtitulo_mas_reciente, items_html_portada, descripcion_mas_reciente, imagen_og_mas_reciente
+            "Noticias de Ciberseguridad — Portada",
+            subtitulo_mas_reciente,
+            items_html_portada,
+            descripcion_mas_reciente,
+            imagen_og_mas_reciente,
+            sidebar_html_general,
         )
         with open(SITE_DIR / "index.html", "w", encoding="utf-8") as f:
             f.write(index_html)
@@ -1696,7 +1967,7 @@ def main() -> None:
     ARCHIVO_DIR.mkdir(parents=True, exist_ok=True)
     dias_existentes = sorted({p.stem for p in ARCHIVO_DIR.glob("*.html") if p.stem != "index"})
     with open(ARCHIVO_DIR / "index.html", "w", encoding="utf-8") as f:
-        f.write(render_archivo_index(dias_existentes))
+        f.write(render_archivo_index(dias_existentes, sidebar_html_general))
     log(f"Escrito {ARCHIVO_DIR / 'index.html'} ({len(dias_existentes)} edición/ediciones listadas)")
 
     # 4. Sección "Protección de Datos": a diferencia de la portada de
@@ -1741,10 +2012,17 @@ def main() -> None:
         )
         imagen_og_proteccion = "/assets/logo-derenzin.png"
 
-    pagina_proteccion = render_pagina_seccion_proteccion_datos(items_html_proteccion, descripcion_proteccion, imagen_og_proteccion)
+    pagina_proteccion = render_pagina_seccion_proteccion_datos(
+        items_html_proteccion, descripcion_proteccion, imagen_og_proteccion, sidebar_html_general
+    )
     with open(PROTECCION_DATOS_DIR / "index.html", "w", encoding="utf-8") as f:
         f.write(pagina_proteccion)
     log(f"Escrito {PROTECCION_DATOS_DIR / 'index.html'} ({len(recientes_proteccion)} noticia(s) en la sección).")
+
+    # 4b. Páginas de categoría (siempre, es barato -- solo re-escanea
+    # site/noticia/ ya publicado, nunca vuelve a traducir ni a categorizar
+    # nada -- ver recolectar_indice_categorias()).
+    generar_paginas_categoria(sidebar_html_general)
 
     # 5. Sitemap (para buscadores) — se regenera completo cada vez que hay publicación
     generar_sitemap()
