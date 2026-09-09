@@ -433,6 +433,11 @@ AVISO_TRANSPARENCIA_IA = (
     "Resumen generado con IA (Gemini) a partir del artículo original. "
     "No es una cita textual — consultá la fuente para el texto exacto."
 )
+AVISO_ANALISIS_ORIGINAL = (
+    "Este artículo es un análisis original de DERENZIN S.A.S. que compara varias "
+    "fuentes citadas arriba y al pie de esta página -- no es un resumen automático "
+    "de una sola fuente RSS, a diferencia del resto del contenido de este sitio."
+)
 
 
 def preparar_resumen_ampliado(item: dict) -> dict:
@@ -1163,19 +1168,24 @@ def generar_paginas_categoria(sidebar_html: str) -> None:
     log(f"Escritas {len(CATEGORIAS_SIDEBAR)} página(s) de categoría en {CATEGORIA_DIR} ({', '.join(f'{c}: {len(indice[c])}' for c in CATEGORIAS_SIDEBAR)}).")
 
 
-def render_fuentes_adicionales(fuentes_adicionales: list[dict] | None) -> str:
+def render_fuentes_adicionales(fuentes_adicionales: list[dict] | None, etiqueta: str = "También cubierto por:") -> str:
     """Cuando fetch_news.py detectó que más de una fuente cubrió el MISMO
     hecho (ver fusionar_mismo_hecho() ahí), item["fuentes_adicionales"]
     trae el nombre real y el enlace real de cada fuente adicional -- nunca
     inventado. Se muestra como "También cubierto por: X, Y" con cada
-    nombre como hipervínculo directo a esa fuente."""
+    nombre como hipervínculo directo a esa fuente.
+
+    `etiqueta` permite reusar este mismo bloque para un caso distinto: un
+    análisis original (item["es_analisis"]) que cita varias fuentes reales
+    en vez de una sola noticia cubierta por varios medios -- ver
+    render_pagina_noticia, que pasa una etiqueta distinta en ese caso."""
     if not fuentes_adicionales:
         return ""
     enlaces_html = ", ".join(
         f'<a href="{escape(f["enlace"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(f["nombre"])}</a>'
         for f in fuentes_adicionales
     )
-    return f'      <p class="fuentes-adicionales">También cubierto por: {enlaces_html}</p>\n'
+    return f'      <p class="fuentes-adicionales">{escape(etiqueta)} {enlaces_html}</p>\n'
 
 
 def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
@@ -1232,14 +1242,21 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 
     items_recientes = obtener_items_recientes(item.get("enlace"))
     sidebar_html = render_sidebar_noticia(items_recientes)
-    fuentes_adicionales_html = render_fuentes_adicionales(item.get("fuentes_adicionales"))
+    fuentes_adicionales_html = render_fuentes_adicionales(
+        item.get("fuentes_adicionales"),
+        etiqueta="Fuentes consultadas para este análisis:" if item.get("es_analisis") else "También cubierto por:",
+    )
 
     # Solo si Gemini generó de verdad este resumen (nunca en Protección de
     # Datos / Plan B de RSS -- ver AVISO_TRANSPARENCIA_IA arriba).
     aviso_transparencia_html = (
         f'      <p class="aviso-transparencia-ia">{escape(AVISO_TRANSPARENCIA_IA)}</p>\n'
         if item.get("resumen_ia_ok") and item.get("resumen_ia")
-        else ""
+        else (
+            f'      <p class="aviso-transparencia-ia">{escape(AVISO_ANALISIS_ORIGINAL)}</p>\n'
+            if item.get("es_analisis")
+            else ""
+        )
     )
 
     return f"""<!DOCTYPE html>
