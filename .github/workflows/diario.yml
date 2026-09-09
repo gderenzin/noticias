@@ -80,7 +80,6 @@ jobs:
             git commit -m "Actualización automática de noticias - $(date -u +%Y-%m-%d)"
             git push
           fi
-
       - name: Publicar site/ en la rama gh-pages
         # OJO: este paso corre SIEMPRE (no depende de si commit_main encontró
         # noticias nuevas ese día), porque site/ en main puede haber cambiado
@@ -93,16 +92,13 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
             git worktree add gh-pages-deploy origin/gh-pages
           else
             git worktree add --detach gh-pages-deploy
             (cd gh-pages-deploy && git checkout --orphan gh-pages && git rm -rf . > /dev/null 2>&1 || true)
           fi
-
           rsync -a --delete --exclude ".git" site/ gh-pages-deploy/
-
           cd gh-pages-deploy
           git add -A
           if git diff --cached --quiet; then
@@ -114,12 +110,12 @@ jobs:
             echo "publicado=true" >> "$GITHUB_OUTPUT"
           fi
 
-  - name: Generar afiche de la destacada (generar_afiche.py)
+      - name: Generar afiche de la destacada (generar_afiche.py)
         # Solo tiene sentido si gh-pages realmente cambió (si no, la portada
         # no cambió y ya se mandó el mismo afiche antes). No inventa nada:
         # lee el título/fuente/imagen/link tal cual quedaron publicados en
         # site/index.html (ver docstring del script).
-          if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        if: steps.publicar_gh_pages.outputs.publicado == 'true'
         run: python scripts/generar_afiche.py
 
       - name: Enviar el afiche a Telegram (enviar_telegram.py)
@@ -127,8 +123,8 @@ jobs:
         # WhatsApp) -- si no existen los secretos todavía, o si Telegram
         # falla, el script se lo salta con un aviso y nunca hace fallar el
         # workflow (ver README: "Enviar el afiche diario a Telegram").
-          if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        if: steps.publicar_gh_pages.outputs.publicado == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-    run: python scripts/enviar_telegram.py
+        run: python scripts/enviar_telegram.py
