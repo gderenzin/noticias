@@ -1519,6 +1519,22 @@
       "fecha_publicacion_iso": "2026-09-09T18:12:00+00:00",
       "fecha_agregada_iso": "2026-09-09T18:13:34.427026+00:00",
       "ruta_noticia": "/noticia/2026-09-09-ecuador-regula-la-ia-en-proteccion-de-datos-como-se-ubica-fr-fbb03dea.html"
+    },
+    "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html": {
+      "guid": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+      "fecha_publicacion_iso": "2026-09-09T18:26:05+00:00",
+      "fecha_agregada_iso": "2026-09-09T19:56:27.066950+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-u-s-disrupts-xinbi-guarantee-scam-marketplace-freezes-52-8-m-097219ea.html"
+    },
+    "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html": {
+      "guid": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "fecha_publicacion_iso": "2026-09-09T16:34:05+00:00",
+      "fecha_agregada_iso": "2026-09-09T19:56:27.066950+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-four-spy-groups-used-the-same-chrome-and-windows-exploit-kit-99723030.html"
     }
   }
 }
