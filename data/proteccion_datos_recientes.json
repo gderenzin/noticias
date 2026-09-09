@@ -1,5 +1,37 @@
 [
   {
+    "titulo": "Ecuador regula la IA en protección de datos: cómo se ubica frente a Perú, Colombia y Europa",
+    "fuente": "Análisis original — DERENZIN S.A.S.",
+    "idioma": "es",
+    "dominio_fuente": "derenzin.com",
+    "enlace": "https://derenzin.com/#analisis-ecuador-ia-proteccion-datos-2026-09-09",
+    "guid": "analisis-ia-lopdp-2026-09-09",
+    "fecha_publicacion_iso": "2026-09-09T18:12:00+00:00",
+    "categoria": "proteccion_datos",
+    "es_analisis": true,
+    "omitir_resumen_ia": true,
+    "extracto_original": "El 12 de febrero de 2026, la Superintendencia de Protección de Datos Personales (SPDP) emitió la Resolución N.º SPDP-SPD-2026-0009-R: la Norma General para la Garantía del Derecho de Protección de Datos Personales en el Uso de Sistemas de Inteligencia Artificial. Aplica a cualquier sistema de IA que trate datos de titulares ecuatorianos, sin importar dónde esté el proveedor.\n\nLa norma exige transparencia frente al tratamiento automatizado, evaluación de riesgos e impacto, medidas de seguridad administrativas, técnicas, físicas, organizativas y jurídicas, registro en el Registro de Actividades de Tratamiento, auditoría proporcional al nivel de riesgo, y garantiza el derecho a no ser objeto de decisiones automatizadas únicas y el derecho de oposición.\n\nEn la región, el panorama es desigual. Perú aprobó el Reglamento de la Ley que promueve el uso de la Inteligencia Artificial, que entra en vigor en 2026 — un enfoque centrado más en fomentar el uso de IA que en proteger datos personales específicamente, aunque incorpora lineamientos de riesgo. Colombia, en cambio, todavía no tiene una norma vigente específica: hay un proyecto de ley (P.L. 025-2026) en trámite en el Congreso, y mientras tanto la Superintendencia de Industria y Comercio exige que el uso de IA se ajuste a la Ley 1581 de habeas data ya existente. Ecuador es, por ahora, el único de los tres con una norma específica y ya exigible sobre IA y protección de datos.\n\nEn Europa, el EDPB —junto al Supervisor Europeo de Protección de Datos— emitió su Opinión Conjunta 1/2026 sobre la propuesta \"Digital Omnibus on AI\", evaluando cómo simplificar las reglas armonizadas de IA sin debilitar las garantías del RGPD, y ha venido publicando guías más específicas sobre anonimización y web scraping aplicados a IA. La diferencia de fondo con Ecuador: Europa construye una arquitectura de directrices técnicas por caso de uso; Ecuador optó por una norma general única de aplicación inmediata.\n\nPara una organización que opere en más de uno de estos países, la asimetría importa: en Ecuador el cumplimiento ya es exigible, en Colombia depende todavía de una ley que no existe, y en Perú el eje regulatorio está más en el fomento que en la protección de datos como tal. Mirar las guías del EDPB da el nivel de detalle técnico que ninguna norma de la región especifica todavía.\n\nLa brecha entre tener una norma y aplicarla bien se cierra con esos detalles — y ahí vale la pena mirar hacia dónde ya caminó Europa.",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Resolución N.º SPDP-SPD-2026-0009-R (Bustamante Fabara)",
+        "enlace": "https://bustamantefabara.com/nueva-resolucion-emitida-por-la-superintendencia-de-proteccion-de-datos-personales-norma-general-para-la-proteccion-de-datos-personales-en-el-uso-de-sistemas-de-inteligencia-artificial/"
+      },
+      {
+        "nombre": "Perú: Reglamento de la Ley que promueve el uso de la IA (EY Perú)",
+        "enlace": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial"
+      },
+      {
+        "nombre": "Colombia: Proyecto de Ley 025-2026 sobre IA (Congreso)",
+        "enlace": "https://www.camara.gov.co/wp-content/uploads/2026/07/proyectos-ley/documentos/proyecto-36127/P.L.025-2026SC-INTELIGENCIA-ARTIFICIAL.pdf"
+      },
+      {
+        "nombre": "EDPB-EDPS Joint Opinion 1/2026 (AI Omnibus)",
+        "enlace": "https://www.edpb.europa.eu/documents/legislative-opinion/edpb-edps-joint-opinion-12026-on-the-proposal-for-a-regulation-as_en"
+      }
+    ],
+    "ruta_noticia": "/noticia/2026-09-09-ecuador-regula-la-ia-en-proteccion-de-datos-como-se-ubica-fr-fbb03dea.html"
+  },
+  {
     "titulo": "Ecuador se adhiere a Declaración Internacional sobre riesgos de imágenes generadas con IA sin consentimiento",
     "fuente": "Superintendencia de Protección de Datos Personales (SPDP)",
     "idioma": "es",
