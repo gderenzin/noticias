@@ -753,7 +753,6 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
     mostrado = preparar_texto_mostrado(item)
     titulo_mostrar = mostrado["titulo_mostrar"]
     resumen_mostrar = mostrado["resumen_mostrar"]
-    nota_idioma = mostrado["nota_idioma"]
 
     categoria = categorizar(item)
     imagen_html = render_imagen_html(item, categoria, titulo_mostrar, destacada=es_destacada)
@@ -765,8 +764,13 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
     fecha_str = escape(fecha_corta(item["fecha_publicacion_iso"]))
     resumen_html = escape(resumen_mostrar).replace("\n", "<br>")
     titulo_html = escape(titulo_mostrar)
-    nota_html = f'<span class="idioma-nota">{escape(nota_idioma)}</span>' if nota_idioma else ""
 
+    # Nota: la tarjeta ya NO muestra ningún "idioma-nota" (traducción/IA) --
+    # esa plantilla de metadatos es compartida con la cabecera de la página
+    # de detalle, y mostrarla acá duplicaba el aviso de transparencia de IA
+    # en cada cuadrito de portada/archivo/sidebar (ver
+    # AVISO_TRANSPARENCIA_IA / render_pagina_noticia, el único lugar donde
+    # corresponde ese aviso).
     if es_destacada:
         return f"""    <article class="destacada cat-{categoria}">
       <a class="destacada-imagen-enlace" href="{enlace_noticia}">
@@ -779,7 +783,6 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
         <div class="noticia-meta">
           <span class="fuente">Fuente: {fuente}</span>
           <span class="fecha">Publicado: {fecha_str}</span>
-          {nota_html}
         </div>
         <a class="destacada-cta" href="{enlace_noticia}">Leer la noticia completa →</a>
       </div>
@@ -796,7 +799,6 @@ def render_tarjeta_html(item: dict, ruta_noticia: str, es_destacada: bool = Fals
           <div class="noticia-meta">
             <span class="fuente">Fuente: {fuente}</span>
             <span class="fecha">Publicado: {fecha_str}</span>
-            {nota_html}
           </div>
         </div>
       </article>
@@ -963,10 +965,8 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     externa del sitio para esta noticia)."""
     mostrado = preparar_texto_mostrado(item)
     titulo_mostrar = mostrado["titulo_mostrar"]
-    nota_idioma_titulo = mostrado["nota_idioma"]
 
     ampliado = preparar_resumen_ampliado(item)
-    nota_idioma_ampliado = ampliado["nota_idioma"]
 
     categoria = categorizar(item)
     info_categoria = CATEGORIAS.get(categoria, GENERICO)
@@ -1009,12 +1009,6 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
         f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
     )
 
-    # Puede haber dos notas de idioma distintas: la del título (tarjeta) y la
-    # del resumen ampliado (traducciones independientes, cada una con su
-    # propio intento). Si coinciden en texto, se muestra una sola vez.
-    notas = [n for n in {nota_idioma_titulo, nota_idioma_ampliado} if n]
-    notas_html = "".join(f'<span class="idioma-nota">{escape(n)}</span>' for n in notas)
-
     items_recientes = obtener_items_recientes(item.get("enlace"))
     sidebar_html = render_sidebar_noticia(items_recientes)
     fuentes_adicionales_html = render_fuentes_adicionales(item.get("fuentes_adicionales"))
@@ -1051,7 +1045,6 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
       <div class="noticia-meta">
         <span class="fuente">Fuente: <a href="{enlace_externo}" target="_blank" rel="noopener noreferrer">{fuente}</a></span>
         <span class="fecha">Publicado: {fecha_str}</span>
-        {notas_html}
       </div>
 {fuentes_adicionales_html}{render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
 {parrafos_html}

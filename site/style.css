@@ -355,14 +355,6 @@ h1, h2, h3 {
   color: var(--enlace);
 }
 
-.noticia-meta .idioma-nota {
-  border: 1px solid var(--borde);
-  border-radius: var(--radio-chico);
-  padding: 0.1rem var(--sp-2);
-  font-size: 0.72rem;
-  color: var(--texto-suave);
-}
-
 /* Insignia editorial de categoría, junto al título -- fondo claro + texto
    oscuro del mismo tono (ver bloque de categorías arriba), NUNCA un color
    plano con texto blanco: esto es una etiqueta de lectura, no una alarma. */
