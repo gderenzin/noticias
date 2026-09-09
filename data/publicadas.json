@@ -1127,6 +1127,334 @@
       "fecha_publicacion_iso": "2026-09-08T07:00:43+00:00",
       "fecha_agregada_iso": "2026-09-08T14:51:45.817691+00:00",
       "ruta_noticia": "/noticia/2026-09-08-grindr-to-pay-26-million-to-settle-u-k-claims-over-hiv-statu-67cd47c0.html"
+    },
+    "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html": {
+      "guid": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "fecha_publicacion_iso": "2026-09-09T14:23:55+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-infostealer-logs-expose-replayable-ai-tokens-that-can-bypass-2c0350c3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+      "fuente": "BleepingComputer",
+      "titulo": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+      "fecha_publicacion_iso": "2026-09-09T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-mfa-s-weakest-link-account-recovery-is-the-new-attack-path-0deaadf3.html"
+    },
+    "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html": {
+      "guid": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+      "fuente": "The Hacker News",
+      "titulo": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+      "fecha_publicacion_iso": "2026-09-09T11:57:36+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-webinar-learn-how-to-answer-are-we-exposed-faster-after-a-ne-1cdee31e.html"
+    },
+    "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html": {
+      "guid": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+      "fuente": "The Hacker News",
+      "titulo": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+      "fecha_publicacion_iso": "2026-09-09T11:17:07+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-deepseek-harness-flaw-let-ai-agents-disable-their-own-file-s-6546338a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-microsoft-septiembre-de-2026": {
+      "guid": "662506 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Microsoft: septiembre de 2026",
+      "fecha_publicacion_iso": "2026-09-09T10:57:14+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-boletin-de-seguridad-de-microsoft-septiembre-de-2026-2e02dc48.html"
+    },
+    "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html": {
+      "guid": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+      "fecha_publicacion_iso": "2026-09-09T10:43:04+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-alby-hub-critical-flaw-could-let-attackers-take-over-interne-b4d6dd69.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "fecha_publicacion_iso": "2026-09-09T10:11:29+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-over-36-000-exposed-plex-servers-vulnerable-to-recent-flaws-022a3d11.html"
+    },
+    "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html": {
+      "guid": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "fecha_publicacion_iso": "2026-09-09T09:32:26+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-u-s-agencies-accuse-china-ai-firms-of-distilling-claude-gpt-38ccf506.html"
+    },
+    "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html": {
+      "guid": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "fuente": "The Hacker News",
+      "titulo": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "fecha_publicacion_iso": "2026-09-09T09:11:03+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-chrome-v8-zero-day-exploited-in-the-wild-enables-code-execut-78d2d3e1.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-nextjs-en-vercel": {
+      "guid": "662502 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Next.js en Vercel",
+      "fecha_publicacion_iso": "2026-09-09T09:05:20+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-multiples-vulnerabilidades-en-next-js-en-vercel-7babe8b5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "fuente": "BleepingComputer",
+      "titulo": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "fecha_publicacion_iso": "2026-09-09T08:44:22+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-man-gets-15-years-for-extorting-women-with-ai-generated-porn-7b4bbc78.html"
+    },
+    "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html": {
+      "guid": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "fuente": "The Hacker News",
+      "titulo": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "fecha_publicacion_iso": "2026-09-09T08:19:32+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-new-cpanel-flaw-lets-a-hosting-account-with-mail-privileges-83e14819.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-fortinet-2": {
+      "guid": "662501 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Fortinet",
+      "fecha_publicacion_iso": "2026-09-09T08:06:07+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-multiples-vulnerabilidades-en-productos-de-fortinet-b61500b0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "fecha_publicacion_iso": "2026-09-09T07:30:15+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-new-microsoft-defender-shieldcrash-zero-day-grants-system-ac-ee705fb9.html"
+    },
+    "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html": {
+      "guid": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "fecha_publicacion_iso": "2026-09-09T06:47:27+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-researcher-drops-new-microsoft-defender-poc-showing-shieldbr-1c575186.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-09T06:25:48+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-google-warns-of-new-chrome-zero-day-bug-exploited-in-attacks-fa10c233.html"
+    },
+    "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "fecha_publicacion_iso": "2026-09-09T06:25:45+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-sap-patches-cvss-10-0-kernel-flaw-enabling-unauthenticated-r-8b6f5de4.html"
+    },
+    "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html": {
+      "guid": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+      "fecha_publicacion_iso": "2026-09-09T04:41:29+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-microsoft-patches-record-974-flaws-including-two-exploited-w-0e5d9e72.html"
+    },
+    "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-09-09T04:27:51+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-n-able-n-central-pre-auth-rce-flaw-exploited-in-the-wild-23a085d6.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+      "fecha_publicacion_iso": "2026-09-09T01:16:27+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-137c0501.html"
+    },
+    "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/": {
+      "guid": "https://krebsonsecurity.com/?p=74277",
+      "fuente": "Krebs on Security",
+      "titulo": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "fecha_publicacion_iso": "2026-09-08T21:44:22+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-microsoft-plugs-nearly-1-000-security-holes-c7e7ad60.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
+      "fuente": "Dark Reading",
+      "titulo": "Patch Tuesday Sets Another Record With 974 CVEs",
+      "fecha_publicacion_iso": "2026-09-08T21:26:02+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-patch-tuesday-sets-another-record-with-974-cves-7af7024d.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+      "fecha_publicacion_iso": "2026-09-08T21:03:46+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-attackers-use-multi-hop-google-redirects-for-phishing-campai-224e1ddd.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
+      "fuente": "Dark Reading",
+      "titulo": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
+      "fecha_publicacion_iso": "2026-09-08T20:36:15+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-openai-agents-took-over-wiki-site-before-hugging-face-attack-bf2dd02a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+      "fuente": "BleepingComputer",
+      "titulo": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+      "fecha_publicacion_iso": "2026-09-08T20:35:14+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-cr-0c20ebb1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
+      "fuente": "BleepingComputer",
+      "titulo": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+      "fecha_publicacion_iso": "2026-09-08T20:24:16+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-the-eu-cra-s-real-question-what-shipped-and-when-did-you-kno-02ffb96a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+      "fecha_publicacion_iso": "2026-09-08T20:08:55+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit-c4daab28.html"
+    },
+    "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html": {
+      "guid": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+      "fecha_publicacion_iso": "2026-09-08T20:08:55+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit-c4daab28.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft releases Windows 10 KB5122878 extended security update",
+      "fecha_publicacion_iso": "2026-09-08T18:49:19+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-microsoft-releases-windows-10-kb5122878-extended-security-up-5dd5a30a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+      "fecha_publicacion_iso": "2026-09-08T18:18:05+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zer-ce167f88.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
+      "fecha_publicacion_iso": "2026-09-08T17:57:03+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-windows-11-cumulative-updates-kb5124008-kb5122880-released-0b399e9f.html"
+    },
+    "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access": {
+      "guid": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
+      "fuente": "Dark Reading",
+      "titulo": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+      "fecha_publicacion_iso": "2026-09-08T17:25:37+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-clickfix-campaigns-abuse-legitimate-services-for-persistent-47727fe2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+      "fecha_publicacion_iso": "2026-09-08T16:35:47+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-shinyhunters-hackers-claim-breach-of-florida-david-dmv-datab-c295d772.html"
+    },
+    "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/": {
+      "guid": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI says ChatGPT outage causes image generation errors",
+      "fecha_publicacion_iso": "2026-09-08T16:28:42+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-openai-says-chatgpt-outage-causes-image-generation-errors-7c5e5449.html"
+    },
+    "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html": {
+      "guid": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+      "fuente": "The Hacker News",
+      "titulo": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+      "fecha_publicacion_iso": "2026-09-08T16:20:23+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-slim-spider-steals-crypto-custody-secrets-from-brazilian-fin-3125e434.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
+      "fuente": "BleepingComputer",
+      "titulo": "August updates trigger 0xc0000409 errors on Windows Server 2016",
+      "fecha_publicacion_iso": "2026-09-08T15:22:33+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-august-updates-trigger-0xc0000409-errors-on-windows-server-2-1aa878aa.html"
+    },
+    "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html": {
+      "guid": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
+      "fuente": "The Hacker News",
+      "titulo": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+      "fecha_publicacion_iso": "2026-09-08T14:54:30+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-liquid-hackers-return-3-400-bitcoin-taken-via-elements-bug-s-88af699f.html"
+    },
+    "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html": {
+      "guid": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "fuente": "The Hacker News",
+      "titulo": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "fecha_publicacion_iso": "2026-09-08T14:19:17+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-chatgpt-flaw-let-a-planted-prompt-send-a-victim-s-gmail-data-4a565ed2.html"
+    },
+    "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html": {
+      "guid": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "fuente": "The Hacker News",
+      "titulo": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "fecha_publicacion_iso": "2026-09-08T13:48:16+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-autonomous-ai-agents-compromise-thousands-of-credentials-in-345980d0.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/que-es-spoofing-de-email/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/que-es-spoofing-de-email/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "¿Qué es el spoofing de email? Cómo funciona y cómo proteger tu dominio",
+      "fecha_publicacion_iso": "2026-09-08T13:10:31+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-que-es-el-spoofing-de-email-como-funciona-y-como-proteger-tu-5e3cefe3.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites": {
+      "guid": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
+      "fuente": "Dark Reading",
+      "titulo": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
+      "fecha_publicacion_iso": "2026-09-08T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-cybercriminals-hack-brazilian-government-servers-to-host-phi-090e598c.html"
     }
   }
 }
