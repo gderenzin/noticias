@@ -1471,6 +1471,14 @@
       "fecha_publicacion_iso": "2026-09-09T14:39:44+00:00",
       "fecha_agregada_iso": "2026-09-09T16:42:07.165191+00:00",
       "ruta_noticia": "/noticia/2026-09-09-identity-based-ai-attack-threatens-security-of-enterprise-da-e9fa9dea.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+      "fuente": "BleepingComputer",
+      "titulo": "US says Chinese firms extracted billions of tokens from frontier AI models",
+      "fecha_publicacion_iso": "2026-09-09T16:48:33+00:00",
+      "fecha_agregada_iso": "2026-09-09T17:48:54.807386+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-us-says-chinese-firms-extracted-billions-of-tokens-from-fron-daf385fc.html"
     }
   }
 }
