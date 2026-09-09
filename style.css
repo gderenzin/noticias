@@ -783,6 +783,30 @@ h1, h2, h3 {
   }
 }
 
+/* ---------- Mismo sidebar (Categorías + Últimas noticias) en el resto del
+   sitio -- portada, archivo (índice y cada día), páginas de categoría y
+   Protección de Datos -- reusando .sidebar-noticia/.sidebar-noticia-sticky
+   tal cual. A diferencia de .pagina-noticia-layout (columna de LECTURA, un
+   ancho fijo pensado para prosa), acá la columna principal es FLEXIBLE:
+   sigue midiendo lo mismo que medía sin sidebar (--max-ancho), así que la
+   cuadrícula de tarjetas no se angosta -- el sidebar se agrega usando el
+   espacio extra a los costados, nunca a costa del grid existente. ---------- */
+.contenido.con-sidebar-grid {
+  max-width: calc(var(--max-ancho) + var(--sp-5) + 300px);
+}
+
+.layout-grid-sidebar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: var(--sp-5);
+}
+
+@media (max-width: 1023px) {
+  .layout-grid-sidebar {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- Sidebar de la página de detalle ---------- */
 
 .sidebar-noticia {
