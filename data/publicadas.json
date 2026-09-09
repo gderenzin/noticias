@@ -1455,6 +1455,22 @@
       "fecha_publicacion_iso": "2026-09-08T12:00:00+00:00",
       "fecha_agregada_iso": "2026-09-09T15:12:27.177137+00:00",
       "ruta_noticia": "/noticia/2026-09-09-cybercriminals-hack-brazilian-government-servers-to-host-phi-090e598c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Veradigm warns of patient data breach after ransomware gang claims attack",
+      "fecha_publicacion_iso": "2026-09-09T15:31:23+00:00",
+      "fecha_agregada_iso": "2026-09-09T16:42:07.165191+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-veradigm-warns-of-patient-data-breach-after-ransomware-gang-8b764ec7.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data": {
+      "guid": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
+      "fuente": "Dark Reading",
+      "titulo": "Identity-Based AI Attack Threatens Security of Enterprise Data",
+      "fecha_publicacion_iso": "2026-09-09T14:39:44+00:00",
+      "fecha_agregada_iso": "2026-09-09T16:42:07.165191+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-identity-based-ai-attack-threatens-security-of-enterprise-da-e9fa9dea.html"
     }
   }
 }
