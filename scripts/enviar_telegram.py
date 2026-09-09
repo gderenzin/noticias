@@ -3,14 +3,15 @@
 """
 enviar_telegram.py
 ---------------------
-Último paso opcional del flujo diario: envía el afiche que generó
-generar_afiche.py al chat de Telegram del dueño del sitio, vía la API
-oficial de bots de Telegram (método sendPhoto) -- para reenviarlo a mano
-al Estado de WhatsApp desde el celular.
+Último paso opcional del flujo diario: envía TODOS los afiches que generó
+generar_afiche.py (uno por cada noticia nueva del día) al chat de Telegram
+del dueño del sitio, vía la API oficial de bots de Telegram (método
+sendPhoto) -- para reenviarlos a mano al Estado de WhatsApp desde el
+celular.
 
-Nunca inventa nada nuevo: el caption sale del mismo título y link reales
+Nunca inventa nada nuevo: cada caption sale del mismo título y link reales
 que generar_afiche.py ya usó para el propio afiche (ver
-data/afiches/ultimo_afiche.txt).
+data/afiches/afiches_hoy.txt).
 
 Credenciales: TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID vienen SIEMPRE de
 variables de entorno (GitHub Actions secrets en el workflow diario) --
@@ -21,13 +22,16 @@ Diseño a propósito tolerante a fallos: si faltan las credenciales, o si
 la propia API de Telegram devuelve un error, este script LOGUEA el
 problema con claridad pero nunca termina con código de error -- es un
 paso opcional (notificación), nunca debe tumbar el workflow que publica
-el sitio real.
+el sitio real. Si el envío de UN afiche falla, se sigue intentando con
+los demás (un error puntual de Telegram no debe cortar el resto del
+lote).
 
 Uso:
     py -3 scripts/enviar_telegram.py
-        # usa data/afiches/ultimo_afiche.txt (lo que dejó generar_afiche.py)
+        # usa data/afiches/afiches_hoy.txt (lo que dejó generar_afiche.py)
     py -3 scripts/enviar_telegram.py --afiche ruta.png --titulo "..." --link "https://..."
         # para pruebas puntuales con un afiche/título/link específicos
+        # (ignora afiches_hoy.txt; manda solo este uno)
 """
 
 from __future__ import annotations
@@ -36,6 +40,7 @@ import argparse
 import mimetypes
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 import uuid
@@ -43,35 +48,45 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 AFICHES_DIR = RAIZ / "data" / "afiches"
-ULTIMO_AFICHE_TXT = AFICHES_DIR / "ultimo_afiche.txt"
+AFICHES_HOY_TXT = AFICHES_DIR / "afiches_hoy.txt"
 
 TELEGRAM_BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
 
 LIMITE_CAPTION = 1024  # límite real de Telegram para el caption de sendPhoto
 
+# Pausa entre envíos consecutivos cuando hay varios afiches -- Telegram
+# limita la tasa de mensajes por chat; con esta pausa no se acerca ni de
+# lejos al límite, y no hay apuro (es un envío en segundo plano del
+# workflow, no una respuesta interactiva).
+PAUSA_ENTRE_ENVIOS_SEG = 2.0
+
 
 def log(mensaje: str) -> None:
     print(f"[enviar_telegram] {mensaje}", flush=True)
 
 
-def _leer_ultimo_afiche() -> tuple[Path, str, str] | None:
-    """Lee data/afiches/ultimo_afiche.txt (3 líneas: ruta del PNG, título
-    real, link real) -- lo que generar_afiche.py acaba de escribir. None
-    si no existe o no tiene el formato esperado (nunca inventa un
-    afiche/título/link alternativo)."""
-    if not ULTIMO_AFICHE_TXT.exists():
-        log(f"AVISO: no existe {ULTIMO_AFICHE_TXT} (¿corriste generar_afiche.py antes?); nada que enviar.")
-        return None
-    lineas = ULTIMO_AFICHE_TXT.read_text(encoding="utf-8").splitlines()
-    if len(lineas) < 3:
-        log(f"AVISO: {ULTIMO_AFICHE_TXT} no tiene el formato esperado; nada que enviar.")
-        return None
-    ruta_afiche, titulo, link = Path(lineas[0]), lineas[1], lineas[2]
-    if not ruta_afiche.exists():
-        log(f"AVISO: el afiche {ruta_afiche} ya no existe; nada que enviar.")
-        return None
-    return ruta_afiche, titulo, link
+def _leer_afiches_hoy() -> list[tuple[Path, str, str]]:
+    """Lee data/afiches/afiches_hoy.txt (grupos de 3 líneas: ruta del PNG,
+    título real, link real) -- lo que generar_afiche.py acaba de escribir,
+    uno por cada noticia nueva del día. [] si no existe o no tiene el
+    formato esperado (nunca inventa un afiche/título/link alternativo)."""
+    if not AFICHES_HOY_TXT.exists():
+        log(f"AVISO: no existe {AFICHES_HOY_TXT} (¿corriste generar_afiche.py antes?); nada que enviar.")
+        return []
+    lineas = AFICHES_HOY_TXT.read_text(encoding="utf-8").splitlines()
+    if len(lineas) % 3 != 0:
+        log(f"AVISO: {AFICHES_HOY_TXT} no tiene un múltiplo de 3 líneas (formato inesperado); nada que enviar.")
+        return []
+
+    afiches: list[tuple[Path, str, str]] = []
+    for i in range(0, len(lineas), 3):
+        ruta_afiche, titulo, link = Path(lineas[i]), lineas[i + 1], lineas[i + 2]
+        if not ruta_afiche.exists():
+            log(f"AVISO: el afiche {ruta_afiche} ya no existe; se omite.")
+            continue
+        afiches.append((ruta_afiche, titulo, link))
+    return afiches
 
 
 def _codificar_multipart(campos: dict[str, str], nombre_campo_archivo: str, ruta_archivo: Path) -> tuple[bytes, str]:
@@ -147,20 +162,29 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.afiche and args.titulo and args.link:
-        ruta_afiche, titulo, link = Path(args.afiche), args.titulo, args.link
+        ruta_afiche = Path(args.afiche)
         if not ruta_afiche.exists():
             log(f"ERROR: no existe el afiche indicado: {ruta_afiche}")
             sys.exit(0)
+        afiches = [(ruta_afiche, args.titulo, args.link)]
     else:
-        datos = _leer_ultimo_afiche()
-        if datos is None:
+        afiches = _leer_afiches_hoy()
+        if not afiches:
             sys.exit(0)  # nunca es un error -- simplemente no hay nada que enviar todavía
-        ruta_afiche, titulo, link = datos
 
-    caption = f"{titulo}\n\n{link}"
-    enviar_foto(ruta_afiche, caption)
+    log(f"Enviando {len(afiches)} afiche(s) a Telegram...")
+    enviados = 0
+    for i, (ruta_afiche, titulo, link) in enumerate(afiches):
+        if i > 0:
+            time.sleep(PAUSA_ENTRE_ENVIOS_SEG)
+        caption = f"{titulo}\n\n{link}"
+        if enviar_foto(ruta_afiche, caption):
+            enviados += 1
+    log(f"Listo: {enviados}/{len(afiches)} afiche(s) enviado(s) correctamente.")
+
     # Paso opcional (notificación): nunca termina con código de error, ni
-    # siquiera si Telegram rechazó el envío -- ver docstring del módulo.
+    # siquiera si Telegram rechazó alguno de los envíos -- ver docstring
+    # del módulo.
     sys.exit(0)
 
 
