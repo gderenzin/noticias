@@ -110,19 +110,23 @@ jobs:
             echo "publicado=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Generar afiche de la destacada (generar_afiche.py)
-        # Solo tiene sentido si gh-pages realmente cambió (si no, la portada
-        # no cambió y ya se mandó el mismo afiche antes). No inventa nada:
-        # lee el título/fuente/imagen/link tal cual quedaron publicados en
-        # site/index.html (ver docstring del script).
+      - name: Generar afiches de las noticias nuevas (generar_afiche.py)
+        # Un afiche por cada noticia nueva de hoy (data/nuevas_hoy.json --
+        # el mismo archivo que ya consumió build_site.py). No inventa
+        # nada: lee título/fuente/imagen/link tal cual quedaron publicados
+        # en la página de detalle de cada noticia (ver docstring del
+        # script). Si gh-pages no cambió, este paso no corre -- no hay
+        # nada nuevo que generar.
         if: steps.publicar_gh_pages.outputs.publicado == 'true'
         run: python scripts/generar_afiche.py
 
-      - name: Enviar el afiche a Telegram (enviar_telegram.py)
+      - name: Enviar los afiches a Telegram (enviar_telegram.py)
         # Paso opcional de notificación (para reenviar a mano al Estado de
-        # WhatsApp) -- si no existen los secretos todavía, o si Telegram
-        # falla, el script se lo salta con un aviso y nunca hace fallar el
-        # workflow (ver README: "Enviar el afiche diario a Telegram").
+        # WhatsApp) -- envía TODOS los afiches que dejó el paso anterior,
+        # uno por noticia nueva. Si no existen los secretos todavía, o si
+        # Telegram falla con alguno, el script lo loguea y sigue con los
+        # demás sin nunca hacer fallar el workflow (ver README: "Enviar el
+        # afiche diario a Telegram").
         if: steps.publicar_gh_pages.outputs.publicado == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
