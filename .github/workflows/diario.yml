@@ -119,7 +119,7 @@ jobs:
         # no cambió y ya se mandó el mismo afiche antes). No inventa nada:
         # lee el título/fuente/imagen/link tal cual quedaron publicados en
         # site/index.html (ver docstring del script).
-        if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        if: true # FORZADO TEMPORAL - revertir
         run: python scripts/generar_afiche.py
 
       - name: Enviar el afiche a Telegram (enviar_telegram.py)
@@ -127,7 +127,7 @@ jobs:
         # WhatsApp) -- si no existen los secretos todavía, o si Telegram
         # falla, el script se lo salta con un aviso y nunca hace fallar el
         # workflow (ver README: "Enviar el afiche diario a Telegram").
-        if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        if: true # FORZADO TEMPORAL - revertir
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
