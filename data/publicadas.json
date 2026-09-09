@@ -1535,6 +1535,14 @@
       "fecha_publicacion_iso": "2026-09-09T16:34:05+00:00",
       "fecha_agregada_iso": "2026-09-09T19:56:27.066950+00:00",
       "ruta_noticia": "/noticia/2026-09-09-four-spy-groups-used-the-same-chrome-and-windows-exploit-kit-99723030.html"
+    },
+    "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models": {
+      "guid": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+      "fuente": "Dark Reading",
+      "titulo": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+      "fecha_publicacion_iso": "2026-09-09T19:47:50+00:00",
+      "fecha_agregada_iso": "2026-09-09T20:32:50.748070+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-us-government-accuses-chinese-ai-firms-of-distilling-frontie-272c95de.html"
     }
   }
 }
