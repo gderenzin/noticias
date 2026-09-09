@@ -1,5 +1,48 @@
 [
   {
+    "guid": "https://derenzin.com/#analisis-ghosteo-lopdp-2026-09-09",
+    "fuente": "Análisis original — DERENZIN S.A.S.",
+    "idioma": "es",
+    "enlace": "https://derenzin.com/#analisis-ghosteo-lopdp-2026-09-09",
+    "titulo": "El ghosteo en selección de personal también es un problema de datos: qué exige la LOPDP frente a Perú, Colombia y Europa",
+    "fecha_publicacion_iso": "2026-09-09T20:08:15+00:00",
+    "categoria": "proteccion_datos",
+    "es_analisis": true,
+    "omitir_resumen_ia": true,
+    "extracto_original": "El ghosteo en selección de personal no es solo un problema de cultura laboral: también es un problema de datos personales que la mayoría de empresas en Ecuador no está resolviendo. El candidato envía su hoja de vida, pasa una o dos entrevistas y después no vuelve a saber nada del proceso -- y casi nadie pregunta qué pasa legalmente con sus datos cuando ese proceso nunca se cierra.\n\nLa LOPDP es clara en dos artículos. El artículo 10 fija el principio de limitación del periodo de conservación: los datos solo pueden guardarse el tiempo necesario para la finalidad que justificó recabarlos. Si un proceso de selección queda abierto indefinidamente sin decisión ni cierre, esa finalidad ya no existe. El artículo 15 da al titular una herramienta concreta: el derecho de eliminación, que el responsable debe atender en máximo quince días, gratis.\n\nComparado con la región, ese derecho ecuatoriano es directo. En Colombia, la Ley 1581 de 2012 contempla la supresión en su artículo 8, pero la condiciona a que se determine primero una infracción; sus plazos son de 10 y 15 días hábiles. En Perú, la Ley 29733 incluye la cancelación dentro del esquema ARCO, con hasta veinte días hábiles para resolver -- más margen que Ecuador.\n\nEn Europa, el RGPD reconoce en su artículo 17 el derecho de supresión, con un mes de plazo ampliable hasta dos más. La AEPD ha precisado que un currículum solo puede conservarse mientras exista una finalidad activa -- un proceso abierto o el consentimiento del candidato para futuros procesos --; cuando esa finalidad desaparece, corresponde eliminarlo.\n\nEl patrón se repite pese a los distintos plazos: la conservación nunca es indefinida ni queda a discreción de quien contrata. El ghosteo -- dejar un proceso abierto sin cerrarlo -- no es solo mala práctica: es señal de que la finalidad que justificaba esos datos probablemente ya no existe. ¿Su empresa sabe cuántas hojas de vida de procesos cerrados sigue conservando sin una finalidad activa que lo justifique?",
+    "fuentes_adicionales": [
+      {
+        "nombre": "LOPDP Ecuador — texto oficial (arts. 10 y 15)",
+        "enlace": "https://procuraduria.utpl.edu.ec/sitios/documentos/NormativasPublicas/Ley%20de%20Org%C3%A1nica%20de%20Protecci%C3%B3n%20de%20Datos.pdf"
+      },
+      {
+        "nombre": "Colombia: Ley 1581 de 2012, texto oficial (art. 8 y 15)",
+        "enlace": "https://gestornormativo.creg.gov.co/gestor/entorno/docs/ley_1581_2012.htm"
+      },
+      {
+        "nombre": "Perú: Ley 29733, texto oficial",
+        "enlace": "https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf"
+      },
+      {
+        "nombre": "Perú: guía de plazos ARCO bajo la Ley 29733 (Resguard Solutions)",
+        "enlace": "https://resguard-solutions.com/blog/en/peru-law-29733-data-protection-guide/"
+      },
+      {
+        "nombre": "RGPD — artículo 17, derecho de supresión (gdpr-info.eu)",
+        "enlace": "https://gdpr-info.eu/art-17-gdpr/"
+      },
+      {
+        "nombre": "AEPD — criterio sobre currículums de candidatos no seleccionados (Iberley)",
+        "enlace": "https://www.iberley.es/revista/recomienda-aepd-tratamientos-datos-proceso-seleccion-572"
+      },
+      {
+        "nombre": "Publicación original que motivó este análisis — Christian Vélez (LinkedIn)",
+        "enlace": "https://www.linkedin.com/in/christian-velez-cybersecurity/recent-activity/all/"
+      }
+    ],
+    "ruta_noticia": "/noticia/2026-09-09-el-ghosteo-en-seleccion-de-personal-tambien-es-un-problema-d-7d031430.html"
+  },
+  {
     "titulo": "Ecuador regula la IA en protección de datos: cómo se ubica frente a Perú, Colombia y Europa",
     "fuente": "Análisis original — DERENZIN S.A.S.",
     "idioma": "es",
