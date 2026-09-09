@@ -411,6 +411,18 @@ NOTA_RESUMEN_PARCIAL = (
     "lee la noticia completa en la fuente."
 )
 
+# Aviso de transparencia, debajo del cuerpo de la página de detalle (ver
+# render_pagina_noticia): SOLO se muestra si resumir_ia.py realmente generó
+# este resumen con Gemini (item["resumen_ia_ok"]) -- nunca en las noticias de
+# Protección de Datos (SPDP), que llevan `omitir_resumen_ia: true` porque su
+# texto se copia/parafrasea directo de los boletines oficiales, sin IA de por
+# medio (ver fetch_spdp.py). Mostrar este aviso en esas noticias sería afirmar
+# algo que no pasó.
+AVISO_TRANSPARENCIA_IA = (
+    "Resumen generado con IA (Gemini) a partir del artículo original. "
+    "No es una cita textual — consultá la fuente para el texto exacto."
+)
+
 
 def preparar_resumen_ampliado(item: dict) -> dict:
     """Para la página de detalle de la noticia: un resumen más completo que
@@ -1007,6 +1019,14 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     sidebar_html = render_sidebar_noticia(items_recientes)
     fuentes_adicionales_html = render_fuentes_adicionales(item.get("fuentes_adicionales"))
 
+    # Solo si Gemini generó de verdad este resumen (nunca en Protección de
+    # Datos / Plan B de RSS -- ver AVISO_TRANSPARENCIA_IA arriba).
+    aviso_transparencia_html = (
+        f'      <p class="aviso-transparencia-ia">{escape(AVISO_TRANSPARENCIA_IA)}</p>\n'
+        if item.get("resumen_ia_ok") and item.get("resumen_ia")
+        else ""
+    )
+
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1036,7 +1056,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 {fuentes_adicionales_html}{render_botones_compartir(titulo_mostrar, ruta_noticia)}{imagen_html}      <div class="noticia-detalle-cuerpo">
 {parrafos_html}
       </div>
-    </article>
+{aviso_transparencia_html}    </article>
 {sidebar_html}    </div>
   </main>
 
