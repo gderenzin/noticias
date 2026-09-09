@@ -1,0 +1,46 @@
+name: Retraducir títulos históricos (puntual)
+
+# Migración puntual, NUNCA automática: solo se dispara a mano desde la
+# pestaña Actions (Run workflow). Reintenta con DeepL el título de las
+# noticias ya publicadas que quedaron en inglés porque la traducción
+# falló en su momento (ver scripts/retraducir_titulos_historicos.py).
+# Es seguro correrlo más de una vez -- las noticias que ya se tradujeron
+# ya no tienen la nota que este script busca, así que se saltan solas.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  retraducir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias mínimas
+        run: pip install -r requirements.txt
+
+      - name: Re-traducir títulos con DeepL
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: python scripts/retraducir_titulos_historicos.py
+
+      - name: Commitear cambios (si los hay)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/
+          if git diff --cached --quiet; then
+            echo "Sin títulos nuevos traducidos (o ninguno pendiente)."
+          else
+            git commit -m "Re-traducir títulos históricos que habían fallado con DeepL"
+            git push
+          fi
