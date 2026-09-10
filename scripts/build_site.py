@@ -934,9 +934,16 @@ def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list
     candidatos.sort(key=lambda x: x["fecha_publicacion_iso"], reverse=True)
 
     resultado: list[dict] = []
+    rutas_ya_incluidas: set[str] = set()
     for info in candidatos:
         if len(resultado) >= limite:
             break
+        # Un análisis original con varias fuentes citadas (fuentes_adicionales)
+        # registra una entrada por cada URL citada en el ledger, pero todas
+        # apuntan a la MISMA ruta_noticia -- sin este filtro, esa única
+        # noticia aparecía repetida varias veces en "Últimas noticias".
+        if info["ruta_noticia"] in rutas_ya_incluidas:
+            continue
         archivo = NOTICIA_DIR / Path(info["ruta_noticia"]).name
         if not archivo.exists():
             continue
@@ -945,6 +952,7 @@ def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list
         if not m_titulo:
             continue
         titulo_mostrado = unescape(re.sub(r"<[^>]*>", "", m_titulo.group(1))).strip()
+        rutas_ya_incluidas.add(info["ruta_noticia"])
         resultado.append(
             {
                 "titulo": titulo_mostrado,
