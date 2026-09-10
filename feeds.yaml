@@ -29,6 +29,17 @@
 #               temas y de las que solo interesa una parte (p.ej. un
 #               despacho legal generalista del que solo se quiere lo
 #               referido a protección de datos).
+#   ventana_horas -> (opcional) reemplaza, solo para esta fuente, la
+#               ventana de antigüedad de 48h con la que se descartan
+#               ítems "viejos" (ver VENTANA_HORAS en fetch_news.py). Pensada
+#               para fuentes de baja frecuencia (p.ej. blogs jurídicos de
+#               protección de datos que publican cada varias semanas, no
+#               varias veces al día como las de ciberseguridad): sin esto,
+#               un ítem publicado hace más de 48h nunca se toma como
+#               "nuevo", aunque nunca se haya publicado en el sitio. No
+#               reintroduce nada ya publicado (el chequeo contra el ledger
+#               sigue aplicando igual), así que es seguro dejarlo puesto de
+#               forma permanente, no solo para un backfill puntual.
 
 fuentes:
   - nombre: "The Hacker News"
@@ -69,12 +80,14 @@ fuentes:
     dominio: "dpoec.com"
     idioma: es
     categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días: blog especializado, publica con poca frecuencia
 
   - nombre: "CorralRosales"
     url: "https://corralrosales.com/feed/"
     dominio: "corralrosales.com"
     idioma: es
     categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días: publica con poca frecuencia
     # CorralRosales es un despacho legal generalista (cubre minería, laboral,
     # tributario, etc.) -- solo se publican sus ítems que mencionen protección
     # de datos; el resto se descarta (ver filtro_palabras_clave en fetch_news.py).
@@ -86,6 +99,59 @@ fuentes:
       - "privacidad"
       - "DPD"
       - "DPO"
+
+  # --- Cobertura regional/europea sumada para ampliar la sección más allá
+  # de los análisis propios de DERENZIN y los boletines de la SPDP (ver
+  # README) -- las cuatro fuentes de abajo se probaron y confirmaron con
+  # feed RSS 2.0 válido y actividad reciente antes de agregarlas. ---
+
+  - nombre: "European Data Protection Board (EDPB) - News"
+    url: "https://www.edpb.europa.eu/feed/news_en"
+    dominio: "edpb.europa.eu"
+    idioma: en
+    categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días
+
+  - nombre: "AEPD (España) - Notas de prensa"
+    url: "https://www.aepd.es/noticias/feed.xml"
+    dominio: "aepd.es"
+    idioma: es
+    categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días
+
+  - nombre: "OlarteMoure (Colombia)"
+    url: "https://www.olartemoure.com/feed/"
+    dominio: "olartemoure.com"
+    idioma: es
+    categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días
+    # OlarteMoure es una firma de propiedad intelectual y competencia que
+    # también cubre protección de datos, pero no es su único tema -- mismo
+    # patrón de filtro que CorralRosales, arriba.
+    filtro_palabras_clave:
+      - "protección de datos"
+      - "proteccion de datos"
+      - "datos personales"
+      - "habeas data"
+      - "privacidad"
+      - "SIC"
+
+  - nombre: "Hiperderecho (Perú)"
+    url: "https://www.hiperderecho.org/feed/"
+    dominio: "hiperderecho.org"
+    idioma: es
+    categoria: proteccion_datos
+    ventana_horas: 720  # ~30 días
+    # Hiperderecho es una ONG de derechos digitales que cubre varios temas
+    # (libertad de expresión, IA, ciberseguridad) además de protección de
+    # datos -- mismo patrón de filtro que CorralRosales, arriba.
+    filtro_palabras_clave:
+      - "protección de datos"
+      - "proteccion de datos"
+      - "datos personales"
+      - "privacidad"
+      - "ARCO"
+      - "ANPD"
 
   # La Superintendencia de Protección de Datos Personales (SPDP, el ente
   # rector de la LOPDP en Ecuador) NO tiene RSS funcional -- se confirmó
