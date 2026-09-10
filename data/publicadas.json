@@ -1679,6 +1679,22 @@
       "fecha_publicacion_iso": "2026-09-09T14:17:14+00:00",
       "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
       "ruta_noticia": "/noticia/2026-09-10-palabra-de-seguridad-la-forma-mas-simple-de-detectar-estafas-1989056f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "fecha_publicacion_iso": "2026-09-10T14:11:34+00:00",
+      "fecha_agregada_iso": "2026-09-10T14:41:18.572481+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws-2992f75a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+      "fuente": "BleepingComputer",
+      "titulo": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+      "fecha_publicacion_iso": "2026-09-10T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-09-10T14:41:18.572481+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-the-top-4-threats-we-found-by-investigating-every-alert-for-82870bf6.html"
     }
   }
 }
