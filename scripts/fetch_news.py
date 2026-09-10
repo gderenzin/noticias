@@ -409,6 +409,16 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
     # publica si su título o extracto contiene alguna de estas palabras
     # (sin distinguir mayúsculas/minúsculas); si no, se descarta.
     filtro_palabras_clave = fuente.get("filtro_palabras_clave") or []
+    # Ventana de antigüedad (opcional, en horas): por defecto se usa
+    # VENTANA_HORAS (pensada para fuentes de alta frecuencia, como
+    # ciberseguridad, que publican varias veces al día). Fuentes de menor
+    # frecuencia (p.ej. blogs jurídicos de protección de datos, que
+    # publican cada varias semanas) pueden fijar acá una ventana propia
+    # más amplia para no perderse ítems que salieron hace más de 48h pero
+    # siguen siendo "nuevos" para nuestro ledger -- la comprobación contra
+    # ya_publicadas de más abajo sigue aplicando igual, así que ampliar la
+    # ventana nunca reintroduce algo ya publicado.
+    ventana_horas_fuente = fuente.get("ventana_horas", VENTANA_HORAS)
 
     log(f"Procesando fuente: {nombre} ({url})")
 
@@ -430,7 +440,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
     if parsed.bozo:
         log(f"  AVISO: '{nombre}' marcó bozo=True ({getattr(parsed, 'bozo_exception', '')}) pero sí trae ítems; se continúa con precaución.")
 
-    limite = ahora_utc - timedelta(hours=VENTANA_HORAS)
+    limite = ahora_utc - timedelta(hours=ventana_horas_fuente)
     nuevos = []
 
     for entry in parsed.entries:
@@ -490,7 +500,7 @@ def procesar_fuente(fuente: dict, ahora_utc: datetime, ya_publicadas: dict) -> l
             item["categoria"] = categoria_fija
         nuevos.append(item)
 
-    log(f"  -> {len(nuevos)} ítem(s) nuevo(s) dentro de la ventana de {VENTANA_HORAS}h desde '{nombre}'.")
+    log(f"  -> {len(nuevos)} ítem(s) nuevo(s) dentro de la ventana de {ventana_horas_fuente}h desde '{nombre}'.")
     return nuevos
 
 
