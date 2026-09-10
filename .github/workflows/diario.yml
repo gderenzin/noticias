@@ -56,6 +56,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/resumir_ia.py
 
+      - name: Generar portadas dinamicas para noticias sin imagen (generar_portadas_fallback.py)
+        run: python scripts/generar_portadas_fallback.py
+
       - name: Generar el sitio (build_site.py)
         env:
           # Usada para traducir al español los títulos/resúmenes de fuentes en

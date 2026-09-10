@@ -1,5 +1,39 @@
 [
   {
+    "titulo": "Ecuador regula la IA en protección de datos: cómo se ubica frente a Perú, Colombia y Europa",
+    "fuente": "Análisis original — DERENZIN S.A.S.",
+    "idioma": "es",
+    "dominio_fuente": "derenzin.com",
+    "enlace": "https://derenzin.com/#analisis-ecuador-ia-proteccion-datos-2026-09-09",
+    "guid": "analisis-ia-lopdp-2026-09-09",
+    "fecha_publicacion_iso": "2026-09-09T18:12:00+00:00",
+    "categoria": "proteccion_datos",
+    "es_analisis": true,
+    "omitir_resumen_ia": true,
+    "extracto_original": "El 12 de febrero de 2026, la Superintendencia de Protección de Datos Personales (SPDP) emitió la Resolución N.º SPDP-SPD-2026-0009-R: la Norma General para la Garantía del Derecho de Protección de Datos Personales en el Uso de Sistemas de Inteligencia Artificial. Aplica a cualquier sistema de IA que trate datos de titulares ecuatorianos, sin importar dónde esté el proveedor.\n\nLa norma exige transparencia frente al tratamiento automatizado, evaluación de riesgos e impacto, medidas de seguridad administrativas, técnicas, físicas, organizativas y jurídicas, registro en el Registro de Actividades de Tratamiento, auditoría proporcional al nivel de riesgo, y garantiza el derecho a no ser objeto de decisiones automatizadas únicas y el derecho de oposición.\n\nEn la región, el panorama es desigual. Perú aprobó el Reglamento de la Ley que promueve el uso de la Inteligencia Artificial, que entra en vigor en 2026 — un enfoque centrado más en fomentar el uso de IA que en proteger datos personales específicamente, aunque incorpora lineamientos de riesgo. Colombia, en cambio, todavía no tiene una norma vigente específica: hay un proyecto de ley (P.L. 025-2026) en trámite en el Congreso, y mientras tanto la Superintendencia de Industria y Comercio exige que el uso de IA se ajuste a la Ley 1581 de habeas data ya existente. Ecuador es, por ahora, el único de los tres con una norma específica y ya exigible sobre IA y protección de datos.\n\nEn Europa, el EDPB —junto al Supervisor Europeo de Protección de Datos— emitió su Opinión Conjunta 1/2026 sobre la propuesta \"Digital Omnibus on AI\", evaluando cómo simplificar las reglas armonizadas de IA sin debilitar las garantías del RGPD, y ha venido publicando guías más específicas sobre anonimización y web scraping aplicados a IA. La diferencia de fondo con Ecuador: Europa construye una arquitectura de directrices técnicas por caso de uso; Ecuador optó por una norma general única de aplicación inmediata.\n\nPara una organización que opere en más de uno de estos países, la asimetría importa: en Ecuador el cumplimiento ya es exigible, en Colombia depende todavía de una ley que no existe, y en Perú el eje regulatorio está más en el fomento que en la protección de datos como tal. Mirar las guías del EDPB da el nivel de detalle técnico que ninguna norma de la región especifica todavía.\n\nLa brecha entre tener una norma y aplicarla bien se cierra con esos detalles — y ahí vale la pena mirar hacia dónde ya caminó Europa.",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Resolución N.º SPDP-SPD-2026-0009-R (Bustamante Fabara)",
+        "enlace": "https://bustamantefabara.com/nueva-resolucion-emitida-por-la-superintendencia-de-proteccion-de-datos-personales-norma-general-para-la-proteccion-de-datos-personales-en-el-uso-de-sistemas-de-inteligencia-artificial/"
+      },
+      {
+        "nombre": "Perú: Reglamento de la Ley que promueve el uso de la IA (EY Perú)",
+        "enlace": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial"
+      },
+      {
+        "nombre": "Colombia: Proyecto de Ley 025-2026 sobre IA (Congreso)",
+        "enlace": "https://www.camara.gov.co/wp-content/uploads/2026/07/proyectos-ley/documentos/proyecto-36127/P.L.025-2026SC-INTELIGENCIA-ARTIFICIAL.pdf"
+      },
+      {
+        "nombre": "EDPB-EDPS Joint Opinion 1/2026 (AI Omnibus)",
+        "enlace": "https://www.edpb.europa.eu/documents/legislative-opinion/edpb-edps-joint-opinion-12026-on-the-proposal-for-a-regulation-as_en"
+      }
+    ],
+    "imagen_local": "/imagenes/2026-09-10/card_e522b9038c.jpg",
+    "imagen_es_generica": true,
+    "ruta_noticia": "/noticia/2026-09-10-ecuador-regula-la-ia-en-proteccion-de-datos-como-se-ubica-fr-fbb03dea.html"
+  },
+  {
     "titulo": "Nota informativa de la AEPD",
     "fuente": "AEPD (España) - Notas de prensa",
     "idioma": "es",
@@ -13,10 +47,11 @@
     "contenido_ampliado": "Nota informativa de la AEPD AEPD Mié, 09/09/2026…",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_0c4efd0954.jpg",
     "resumen_ia": "La Agencia Española de Protección de Datos (AEPD) ha emitido una nota informativa a raíz de la publicación de informaciones sobre un informe del Ministerio del Interior que contiene nombres de periodistas y comentarios acerca de su posible ideología o inclinación política.\n\nComo respuesta a esta situación, la AEPD ha optado por abrir una investigación de oficio con el fin de examinar la utilización, el alcance, la naturaleza y la base jurídica de dicho manejo de información personal, aclarando que esta apertura no supone prejuzgar que se haya cometido alguna infracción.\n\nAsimismo, la Agencia señala que cualquier manejo de información personal debe ajustarse a lo dispuesto en los artículos 5 y 6 del Reglamento General de Protección de Datos, lo que incluye respetar la limitación de la finalidad y contar con una base de licitud. Adicionalmente, recuerda que al tratarse de datos especialmente sensibles, como las opiniones políticas o la ideología, se requiere una causa específica que permita levantar la prohibición general de tratamiento señalada en el normativa.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-nota-informativa-de-la-aepd-a767834a.html"
+    "ruta_noticia": "/noticia/2026-09-10-nota-informativa-de-la-aepd-a767834a.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "Health data breach: the CNIL fined Hôpital Privé de la Loire 500 000 EUR",
@@ -32,10 +67,11 @@
     "contenido_ampliado": "Background information Date of final decision: 3 September 2026 National case Controller: Hôpital Privé de la Loire Legal Reference: Article 32 (Security of processing), Article 34 (Communication of a personal data breach to the data subject), Decision: Administrative fine Keywords: Cybersecurity, Personal data breaches, Health and research Summary of the Decision Origin of the case In summer 2025, an attacker managed to connect to the Computerised Patient Summary (DPI) of the Hôpital Privé de la Loire (Loire’s private hospital), which centralises all the data of the individuals under care. It thus accessed the data of 524 867 patients (some of them health data) and 202 246 persons designated as “trusted third parties”. As a result of this data breach, the French Data Protection Authority (CNIL) carried out a check that identified several failures of the Hôpital Privé de la Loire to comply with the obligations laid down in the General Data Protection Regulation (GDPR). Key findings Failure to ensure the security of personal data (Article 32 GDPR) The authentication procedure to connect to the hospital’s e-Health Patient Summary, used by users outside the hospital, in particular doctors not affiliated with the hospital, was not sufficiently robust, due to the lack of VPNs and multifactor authentication means. The attacker took advantage of this vulnerability to access the data. Moreover, the access control policy was inadequate: it did not take account of the concept of care team, so that only professionals actually involved in the care of a patient had access to the information covered by medical confidentiality. This lack of access limitation allowed the attacker, using the credentials of a single user account, to access the data of all hospital patients. Finally, the hospital had not taken measures to detect suspicious activity within the e-Health Patient Summary in real time or in the very short term, and to trigger an alert mechanism if necessary. In those circumstances, the attacker was able to explore the hospital’s e-Health Patient Summary for several days and extract a very large volume of data, without that abnormal activity being detected. This vulnerability has contributed to exacerbating the scale of the data breach. Failure to inform data subjects about the data breach (Article 34 GDPR) Finally, the restricted committee found that only the patients of the Hôpital Privé de la Loire concerned by the data breach had been informed, but that no direct information had been provided to the 202 246 individuals designated by patients as trusted third parties, even though their personal data had also been stolen by the attacker. Decision The restricted committee – the body of the CNIL responsible for issuing sanctions – imposed a fine of 500 000 EUR on the Hôpital Privé de la Loire, taking into account, inter alia, the lack of awareness of essential security principles, the number of persons concerned, the nature of the data compromised and its financial capacities. Further information: Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE Health data breach: EUR 500,000 fine against HÔPITAL PRIVÉ DE LA LOIRE…",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_8ba5623697.jpg",
     "resumen_ia": "La autoridad de protección de datos de Francia impuso una sanción económica al Hôpital Privé de la Loire tras un incidente de seguridad ocurrido cuando un atacante logró conectarse al sistema informático del centro. Dicho sistema centraliza la información de los pacientes bajo cuidado, permitiendo que el agresor accediera a los datos de una gran cantidad de pacientes y de personas señaladas como terceros de confianza.\n\nTras una inspección posterior, se determinó que la institución incumplió varias normativas sobre el tratamiento de la información. Entre las fallas detectadas destaca un mecanismo de autenticación débil para usuarios externos que no utilizaba redes privadas virtuales ni doble factor de autenticación, además de una política de control de accesos deficiente que permitía consultar los registros de todos los pacientes mediante una sola cuenta. Asimismo, el hospital carecía de herramientas para detectar actividades sospechosas de manera oportuna, lo que permitió que el acceso no autorizado se prolongara durante varios días sin ser advertido.\n\nOtra de las infracciones señaladas fue la omisión en el aviso sobre la vulneración a los afectados, ya que la institución notificó únicamente a los pacientes cuyos registros se vieron comprometidos, pero omitió informar de manera directa a los cientos de miles de individuos designados como terceros de confianza, a pesar de que sus datos también fueron sustraídos.\n\nDebido a estos incumplimientos, que incluyeron la falta de aplicación de normas esenciales de seguridad, la cantidad de personas afectadas, la sensibilidad de los datos comprometidos y la capacidad financiera de la entidad, el comité restringido de la autoridad francesa decidió aplicar una multa económica al hospital.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-360275fa.html"
+    "ruta_noticia": "/noticia/2026-09-10-health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-360275fa.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes",
@@ -51,10 +87,11 @@
     "contenido_ampliado": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes AEPD Mar, 08/09/2026 El primer episodio, dedicado a ‘Neurotecnologías y neurodatos’, se celebrará el 6 de octubre a las 17:00 horas y podrá seguirse en directo a través de streaming El presidente de la Agencia, Lorenzo Cotino, charlará con Luis Miguel González de la Garza, catedrático de Derecho Constitucional de la UNED ‘Las claves de…’ se integra en ‘Diálogos de privacidad’, la sección del Laboratorio de la AEPD que aborda cuestiones de actualidad relacionadas con la protección de datos y las tecnologías emergentes La emisión en directo podrá seguirse en este enlace .",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_c4a87d9edb.jpg",
     "resumen_ia": "La Agencia Española de Protección de Datos ha presentado un nuevo programa audiovisual enfocado en debatir sobre la protección de datos y las innovaciones tecnológicas mediante conversaciones entre expertos. Este espacio pretende combinar la divulgación con la rigurosidad técnica para examinar los desafíos del entorno digital actual y venidero, ofreciendo emisiones en directo donde los espectadores tienen la oportunidad de plantear dudas que se resuelven al finalizar cada entrega.\n\nLa primera emisión de este proyecto estará centrada en el ámbito de las neurotecnologías y la gestión de la información cerebral. En esta sesión inaugural participarán el dirigente de la mencionada Agencia y un catedrático de Derecho Constitucional, quienes examinarán las repercusiones jurídicas, las garantías legales y la salvaguarda de los derechos fundamentales ante los avances que permiten intervenir o vigilar la actividad cerebral.\n\nEste ciclo de charlas forma parte de una sección específica del Laboratorio de la entidad enfocada en analizar asuntos de actualidad digital desde múltiples puntos de vista. Adicionalmente, el texto menciona que un organismo internacional adoptó previamente un documento sobre los retos normativos de los neurodatos, tras el impulso de un grupo de trabajo coordinado por la propia Agencia.\n\nEl artículo original no aporta más detalle sobre el contenido restante del ciclo de conferencias mencionado al final.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-la-aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-co-76672821.html"
+    "ruta_noticia": "/noticia/2026-09-10-la-aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-co-76672821.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "SIC refuerza control de precios y derechos tras el sismo",
@@ -70,10 +107,11 @@
     "contenido_ampliado": "La entrada SIC refuerza control de precios y derechos tras el sismo se publicó primero en OlarteMoure.",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_66613710d8.jpg",
     "resumen_ia": "El Tribunal de Justicia de la Comunidad Andina determinó que Colombia incumplió la normativa andina relacionada con los derechos de autor y conexos. El incumplimiento se debió a ciertas medidas que obligaban a los operadores de televisión por suscripción a retransmitir señales de televisión abierta sin contar con la autorización de las organizaciones de radiodifusión ni permitirles exigir compensación económica alguna.\n\nLa decisión del Tribunal recordó que la normativa vigente otorga a las organizaciones de radiodifusión la facultad exclusiva de aprobar o prohibir la retransmisión de sus emisiones. Aunque el gobierno colombiano argumentó que estas exigencias buscaban garantizar el pluralismo y el acceso a la información, la instancia judicial resolvió que dichos propósitos no pueden anular los derechos de los radiodifusores.\n\nA pesar de lo anterior, el fallo especificó que los Estados tienen la facultad de establecer obligaciones de retransmisión obligatoria, siempre y cuando lo hagan mediante procedimientos compatibles con el régimen andino y asegurando, cuando corresponda, una remuneración justa. Por consiguiente, Colombia quedó emplazada a implementar acciones que garanticen estos derechos de manera efectiva en un plazo determinado tras la notificación de la sentencia.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-sic-refuerza-control-de-precios-y-derechos-tras-el-sismo-4fd4fb8f.html"
+    "ruta_noticia": "/noticia/2026-09-10-sic-refuerza-control-de-precios-y-derechos-tras-el-sismo-4fd4fb8f.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
@@ -89,10 +127,11 @@
     "contenido_ampliado": "Background information Date of final decision: 28 August 2026 National case Legal Reference(s): Article 5 (Principles relating to processing of personal data), Article 32 (Security of processing), Article 33 (Notification of a personal data breach to the supervisory authority), Article 34 (Communication of a personal data breach to the data subject) Decision: Administrative fine, Compliance order, Communication order personal data breach Key words: GDPR enforcement, Data subjects rights, Fines, Health and research Summary of the Decision Origin of the case This Inquiry commenced on 24 May 2024 as a result of two personal data breaches notified to the Data Protection Commission (DPC) in October 2023 and November 2023. In both cases, individuals gained unauthorised access to paper records stored and retained in both St. Loman’s Hospital (Mullingar, County Westmeath) and St Conal’s Hospital (Letterkenny, County Donegal). Both locations are former disused psychiatric hospitals.Videos uploaded to social media by intruders highlighted that medical records were stored and retained in both facilities. Key Findings The Data Protection Commission (DPC) has announced its final decision following an inquiry into the HSE’s processing of personal data contained in paper records, which are stored and retained in the HSE’s external storage facilities. The DPC’s findings identified data protection failings concerning the physical conditions of HSE document storage facilities and the integrity of the documents held within those facilities. Decision The DPC issued fines totalling €645 000, a reprimand and made a number of compliance orders. For further information: Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_ec3e4c0997.jpg",
     "resumen_ia": "La Comisión de Protección de Datos comunicó su resolución final tras llevar a cabo una investigación dirigida al Servicio Ejecutivo de Salud. Este procedimiento se originó a partir de dos notificaciones sobre vulneraciones de datos personales recibidas en el otoño del periodo mencionado en el expediente, las cuales motivaron el inicio formal de las pesquisas a mediados del año correspondiente.\n\nLas indagaciones revelaron que terceros lograron acceder sin autorización a expedientes en formato físico que se encontraban guardados en dos hospitales psiquiátricos que ya no se encuentran en funcionamiento, situados en diferentes localidades. Dicha situación salió a la luz debido a registros audiovisuales compartidos en redes sociales por intrusos, los cuales evidenciaban la presencia de expedientes médicos en las instalaciones mencionadas.\n\nComo conclusión del análisis, se determinaron irregularidades vinculadas con la seguridad y las condiciones físicas de los espacios externos utilizados por la entidad para conservar su documentación, así como con la protección de los propios archivos. En consecuencia, la autoridad impuso sanciones económicas, una amonestación y diversas órdenes de cumplimiento orientadas a corregir las deficiencias detectadas.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-data-protection-commission-announces-final-decision-followin-f5a3cb0f.html"
+    "ruta_noticia": "/noticia/2026-09-10-data-protection-commission-announces-final-decision-followin-f5a3cb0f.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos",
@@ -108,10 +147,11 @@
     "contenido_ampliado": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos AEPD Mié, 02/09/2026 La Agencia contará el 24 de noviembre con un espacio propio en un encuentro que celebra veinte años reuniendo a los principales actores públicos y privados del ecosistema de la ciberseguridad Las Jornadas están organizadas por el Centro Criptológico Nacional del Centro Nacional de Inteligencia, el Mando Conjunto del Ciberespacio y RootedCON Este año celebran su vigésima edición bajo el lema ‘IA ofensiva y amenaza cuántica: hacia una nueva ciberseguridad’…",
     "imagen_url": null,
     "categoria": "proteccion_datos",
-    "imagen_local": null,
+    "imagen_local": "/imagenes/2026-09-10/card_90c4c75e5a.jpg",
     "resumen_ia": "La Agencia Española de Protección de Datos formará parte de la vigésima edición de las Jornadas STIC, disponiendo de un espacio propio durante el primer día del evento para centrarse en la privacidad. Este acontecimiento convoca a diversos sectores incluyendo administraciones, fuerzas de seguridad, ámbito académico, industria tecnológica y expertos.\n\nEl evento está bajo la organización conjunta del Centro Criptológico Nacional del Centro Nacional de Inteligencia, el Mando Conjunto del Ciberespacio y RootedCON, teniendo como lema central los desafíos de la inteligencia artificial ofensiva y la amenaza cuántica frente al panorama actual de la ciberseguridad.\n\nLa intervención de la Agencia busca integrar la salvaguarda de la información personal dentro de los retos que traen consigo la transformación tecnológica y la evolución de las amenazas, resaltando la necesidad de incorporar la privacidad desde el diseño inicial en los sistemas y servicios.",
     "resumen_ia_ok": true,
-    "ruta_noticia": "/noticia/2026-09-10-la-aepd-participara-en-las-xx-jornadas-stic-con-una-jornada-34189648.html"
+    "ruta_noticia": "/noticia/2026-09-10-la-aepd-participara-en-las-xx-jornadas-stic-con-una-jornada-34189648.html",
+    "imagen_es_generica": true
   },
   {
     "titulo": "¿Quién decide sobre nuestra vida digital? Soberanía, poder y privacidad desde la CPDP LatAm 2026",
@@ -173,39 +213,9 @@
         "enlace": "https://www.linkedin.com/in/christian-velez-cybersecurity/recent-activity/all/"
       }
     ],
-    "ruta_noticia": "/noticia/2026-09-09-el-ghosteo-en-seleccion-de-personal-tambien-es-un-problema-d-7d031430.html"
-  },
-  {
-    "titulo": "Ecuador regula la IA en protección de datos: cómo se ubica frente a Perú, Colombia y Europa",
-    "fuente": "Análisis original — DERENZIN S.A.S.",
-    "idioma": "es",
-    "dominio_fuente": "derenzin.com",
-    "enlace": "https://derenzin.com/#analisis-ecuador-ia-proteccion-datos-2026-09-09",
-    "guid": "analisis-ia-lopdp-2026-09-09",
-    "fecha_publicacion_iso": "2026-09-09T18:12:00+00:00",
-    "categoria": "proteccion_datos",
-    "es_analisis": true,
-    "omitir_resumen_ia": true,
-    "extracto_original": "El 12 de febrero de 2026, la Superintendencia de Protección de Datos Personales (SPDP) emitió la Resolución N.º SPDP-SPD-2026-0009-R: la Norma General para la Garantía del Derecho de Protección de Datos Personales en el Uso de Sistemas de Inteligencia Artificial. Aplica a cualquier sistema de IA que trate datos de titulares ecuatorianos, sin importar dónde esté el proveedor.\n\nLa norma exige transparencia frente al tratamiento automatizado, evaluación de riesgos e impacto, medidas de seguridad administrativas, técnicas, físicas, organizativas y jurídicas, registro en el Registro de Actividades de Tratamiento, auditoría proporcional al nivel de riesgo, y garantiza el derecho a no ser objeto de decisiones automatizadas únicas y el derecho de oposición.\n\nEn la región, el panorama es desigual. Perú aprobó el Reglamento de la Ley que promueve el uso de la Inteligencia Artificial, que entra en vigor en 2026 — un enfoque centrado más en fomentar el uso de IA que en proteger datos personales específicamente, aunque incorpora lineamientos de riesgo. Colombia, en cambio, todavía no tiene una norma vigente específica: hay un proyecto de ley (P.L. 025-2026) en trámite en el Congreso, y mientras tanto la Superintendencia de Industria y Comercio exige que el uso de IA se ajuste a la Ley 1581 de habeas data ya existente. Ecuador es, por ahora, el único de los tres con una norma específica y ya exigible sobre IA y protección de datos.\n\nEn Europa, el EDPB —junto al Supervisor Europeo de Protección de Datos— emitió su Opinión Conjunta 1/2026 sobre la propuesta \"Digital Omnibus on AI\", evaluando cómo simplificar las reglas armonizadas de IA sin debilitar las garantías del RGPD, y ha venido publicando guías más específicas sobre anonimización y web scraping aplicados a IA. La diferencia de fondo con Ecuador: Europa construye una arquitectura de directrices técnicas por caso de uso; Ecuador optó por una norma general única de aplicación inmediata.\n\nPara una organización que opere en más de uno de estos países, la asimetría importa: en Ecuador el cumplimiento ya es exigible, en Colombia depende todavía de una ley que no existe, y en Perú el eje regulatorio está más en el fomento que en la protección de datos como tal. Mirar las guías del EDPB da el nivel de detalle técnico que ninguna norma de la región especifica todavía.\n\nLa brecha entre tener una norma y aplicarla bien se cierra con esos detalles — y ahí vale la pena mirar hacia dónde ya caminó Europa.",
-    "fuentes_adicionales": [
-      {
-        "nombre": "Resolución N.º SPDP-SPD-2026-0009-R (Bustamante Fabara)",
-        "enlace": "https://bustamantefabara.com/nueva-resolucion-emitida-por-la-superintendencia-de-proteccion-de-datos-personales-norma-general-para-la-proteccion-de-datos-personales-en-el-uso-de-sistemas-de-inteligencia-artificial/"
-      },
-      {
-        "nombre": "Perú: Reglamento de la Ley que promueve el uso de la IA (EY Perú)",
-        "enlace": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial"
-      },
-      {
-        "nombre": "Colombia: Proyecto de Ley 025-2026 sobre IA (Congreso)",
-        "enlace": "https://www.camara.gov.co/wp-content/uploads/2026/07/proyectos-ley/documentos/proyecto-36127/P.L.025-2026SC-INTELIGENCIA-ARTIFICIAL.pdf"
-      },
-      {
-        "nombre": "EDPB-EDPS Joint Opinion 1/2026 (AI Omnibus)",
-        "enlace": "https://www.edpb.europa.eu/documents/legislative-opinion/edpb-edps-joint-opinion-12026-on-the-proposal-for-a-regulation-as_en"
-      }
-    ],
-    "ruta_noticia": "/noticia/2026-09-09-ecuador-regula-la-ia-en-proteccion-de-datos-como-se-ubica-fr-fbb03dea.html"
+    "ruta_noticia": "/noticia/2026-09-09-el-ghosteo-en-seleccion-de-personal-tambien-es-un-problema-d-7d031430.html",
+    "imagen_local": "/imagenes/2026-09-10/card_38e88e83cf.jpg",
+    "imagen_es_generica": true
   },
   {
     "titulo": "Ecuador se adhiere a Declaración Internacional sobre riesgos de imágenes generadas con IA sin consentimiento",
