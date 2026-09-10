@@ -73,6 +73,12 @@ fuentes:
     idioma: es
     opcional: true
 
+  - nombre: "Segu-Info"
+    url: "https://feeds.feedburner.com/NoticiasSeguridadInformatica"
+    dominio: "blog.segu-info.com.ar"
+    idioma: es
+    opcional: true
+
   # --- Sección "Protección de Datos" (ver README: "Segunda sección...") ---
 
   - nombre: "dpoec.com"
