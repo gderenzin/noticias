@@ -1599,6 +1599,166 @@
       "fecha_publicacion_iso": "2026-09-09T20:08:15+00:00",
       "fecha_agregada_iso": "2026-09-09T20:34:47.023507+00:00",
       "ruta_noticia": "/noticia/2026-09-09-el-ghosteo-en-seleccion-de-personal-tambien-es-un-problema-d-7d031430.html"
+    },
+    "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models": {
+      "guid": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+      "fuente": "Dark Reading",
+      "titulo": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+      "fecha_publicacion_iso": "2026-09-09T19:47:50+00:00",
+      "fecha_agregada_iso": "2026-09-09T20:32:50.748070+00:00",
+      "ruta_noticia": "/noticia/2026-09-09-us-government-accuses-chinese-ai-firms-of-distilling-frontie-272c95de.html"
+    },
+    "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html": {
+      "guid": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+      "fuente": "The Hacker News",
+      "titulo": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-09-10T11:45:05+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-check-point-discloses-two-9-8-rated-vpn-certificate-flaws-en-1895b8cf.html"
+    },
+    "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html": {
+      "guid": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+      "fecha_publicacion_iso": "2026-09-10T11:41:53+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-papercut-attacker-uses-hundreds-of-ai-agents-to-compromise-4-d24d93b5.html"
+    },
+    "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html": {
+      "guid": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+      "fuente": "The Hacker News",
+      "titulo": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+      "fecha_publicacion_iso": "2026-09-10T11:33:43+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-gigabud-creates-android-work-profiles-to-hide-from-banking-a-808a5125.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says September updates fix mouse settings reset issues",
+      "fecha_publicacion_iso": "2026-09-10T11:14:28+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-microsoft-says-september-updates-fix-mouse-settings-reset-is-99415e29.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+      "fecha_publicacion_iso": "2026-09-10T09:10:20+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks-bbb939ab.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-ivanti-3": {
+      "guid": "662511 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-09-10T09:06:04+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-multiples-vulnerabilidades-en-productos-de-ivanti-cc186852.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes bug that wiped Windows desktop settings",
+      "fecha_publicacion_iso": "2026-09-10T08:08:16+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-microsoft-fixes-bug-that-wiped-windows-desktop-settings-bcb8ea4e.html"
+    },
+    "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html": {
+      "guid": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+      "fuente": "The Hacker News",
+      "titulo": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "fecha_publicacion_iso": "2026-09-10T07:12:55+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-nearly-1-in-10-exposed-litellm-gateways-accepted-the-example-640cdf46.html"
+    },
+    "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html": {
+      "guid": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "fecha_publicacion_iso": "2026-09-10T07:04:01+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-anthropic-discloses-fourth-ai-hacking-incident-involving-cla-9bc437ba.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
+      "fuente": "Dark Reading",
+      "titulo": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+      "fecha_publicacion_iso": "2026-09-10T07:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-eu-cyber-resilience-act-to-enforce-new-reporting-requirement-b2068d48.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Trezor warns users of email provider breach, phishing attacks",
+      "fecha_publicacion_iso": "2026-09-10T06:56:33+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-trezor-warns-users-of-email-provider-breach-phishing-attacks-8128cce9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-09T21:40:44+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-a-0174d74b.html"
+    },
+    "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html": {
+      "guid": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-09T21:40:44+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-a-0174d74b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+      "fecha_publicacion_iso": "2026-09-09T21:30:36+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-adapthealth-confirms-4-1-million-people-exposed-in-july-cybe-56efd949.html"
+    },
+    "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck": {
+      "guid": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+      "fuente": "Dark Reading",
+      "titulo": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+      "fecha_publicacion_iso": "2026-09-09T21:19:55+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-mythos-vulnerability-firehose-hits-a-human-bottleneck-b7c0dd10.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+      "fuente": "BleepingComputer",
+      "titulo": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+      "fecha_publicacion_iso": "2026-09-09T21:02:14+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijackin-2797a83a.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/palabra-seguridad-evitar-estafas-voces-deepfake/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/palabra-seguridad-evitar-estafas-voces-deepfake/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Palabra de seguridad: la forma más simple de detectar estafas con voces deepfake",
+      "fecha_publicacion_iso": "2026-09-09T14:17:14+00:00",
+      "fecha_agregada_iso": "2026-09-10T13:53:25.771949+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-palabra-de-seguridad-la-forma-mas-simple-de-detectar-estafas-1989056f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "fecha_publicacion_iso": "2026-09-10T14:11:34+00:00",
+      "fecha_agregada_iso": "2026-09-10T14:41:18.572481+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws-2992f75a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+      "fuente": "BleepingComputer",
+      "titulo": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+      "fecha_publicacion_iso": "2026-09-10T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-09-10T14:41:18.572481+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-the-top-4-threats-we-found-by-investigating-every-alert-for-82870bf6.html"
     }
   }
 }

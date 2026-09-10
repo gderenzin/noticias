@@ -4,33 +4,34 @@
 generar_afiche.py
 -------------------
 Último paso opcional del flujo diario: genera un afiche vertical (1080x1920,
-formato Historia/Estado) de la noticia DESTACADA del día -- la que ya
-build_site.py dejó como "Lo más reciente" en site/index.html -- para
-reenviar a mano al Estado de WhatsApp (ver enviar_telegram.py, que lo manda
-al chat de Telegram del dueño del sitio vía la API de bots).
+formato Historia/Estado) de CADA noticia nueva del día -- las mismas que
+fetch_news.py/fetch_spdp.py dejaron en data/nuevas_hoy.json y que
+build_site.py acaba de publicar como páginas de detalle en
+site/noticia/ -- para reenviar a mano al Estado de WhatsApp (ver
+enviar_telegram.py, que las manda al chat de Telegram del dueño del sitio
+vía la API de bots, una foto por noticia).
 
-Por qué solo la destacada y no cada noticia nueva: para no saturar -- una
-sola imagen por día, la que el propio sitio ya eligió como la más
-relevante/reciente del día (nunca una elección propia de este script).
-
-Nunca inventa nada: todo el texto (título, fuente, link) sale leyendo
-directo site/index.html YA PUBLICADO -- el mismo mecanismo de "leer de la
-página ya publicada" usado en otros scripts puntuales de este repo. Si el
-título no se pudo traducir, el afiche muestra exactamente lo que ya
-muestra el sitio (nunca traduce ni resume por su cuenta). Si la destacada
-no tiene imagen real (ícono de categoría / SVG), el afiche usa un fondo
-degradado de la marca en vez de inventar o forzar una imagen -- Pillow no
-puede abrir SVG de todas formas.
+Nunca inventa nada: todo el texto (título, fuente, imagen, link) sale
+leyendo directo la página de detalle YA PUBLICADA de cada noticia en
+site/noticia/ -- el mismo mecanismo de "leer de la página ya publicada"
+usado en otros scripts puntuales de este repo. El nombre de archivo de esa
+página se recalcula con la MISMA función que usó build_site.py
+(bs.nombre_archivo_noticia) para no tener que adivinar ni volver a
+parsear site/index.html. Si el título no se pudo traducir, el afiche
+muestra exactamente lo que ya muestra el sitio (nunca traduce ni resume
+por su cuenta). Si una noticia no tiene imagen real (ícono de categoría /
+SVG), su afiche usa un fondo degradado de la marca en vez de inventar o
+forzar una imagen -- Pillow no puede abrir SVG de todas formas.
 
 Uso:
     py -3 scripts/generar_afiche.py
-    py -3 scripts/generar_afiche.py --salida ruta/personalizada.png
 """
 
 from __future__ import annotations
 
 import argparse
 import html as html_lib
+import json
 import re
 import sys
 import textwrap
@@ -39,19 +40,30 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import build_site as bs  # noqa: E402  (reusa CATEGORIAS/GENERICO/SITIO_BASE_URL, fuente única de verdad)
+import build_site as bs  # noqa: E402  (reusa CATEGORIAS/GENERICO/SITIO_BASE_URL/nombre_archivo_noticia, fuente única de verdad)
 
 RAIZ = Path(__file__).resolve().parent.parent
 SITE_DIR = RAIZ / "site"
+NOTICIA_DIR = SITE_DIR / "noticia"
 AFICHES_DIR = RAIZ / "data" / "afiches"
+NUEVAS_JSON = RAIZ / "data" / "nuevas_hoy.json"
+AFICHES_HOY_TXT = AFICHES_DIR / "afiches_hoy.txt"
 
 ANCHO, ALTO = 1080, 1920
 MARGEN = 64
 
-RE_ARTICLE_DESTACADA = re.compile(r'<article class="destacada cat-([a-z_]+)">.*?</article>', re.DOTALL)
+# Extraídos de la página de detalle de cada noticia (site/noticia/*.html,
+# plantilla render_pagina_noticia() de build_site.py) -- NO de site/index.html,
+# para no depender de cuántas tarjetas entran en la portada ni de si una
+# noticia quedó o no como "destacada": cada noticia nueva SIEMPRE tiene su
+# propia página de detalle, generada incondicionalmente por build_site.py.
+RE_ARTICLE_DETALLE = re.compile(r'<article class="noticia-detalle cat-([a-z_]+)">(.*?)</article>', re.DOTALL)
+RE_TITULO_DETALLE = re.compile(r'<h1 class="noticia-detalle-titulo">(.*?)</h1>', re.DOTALL)
+# "Fuente: NombreFuente" o "Fuente: <a href=...>NombreFuente</a>" (los
+# análisis originales envuelven la fuente en un link; las demás noticias no).
+RE_FUENTE_DETALLE = re.compile(r'<span class="fuente">Fuente: (?:<a[^>]*>)?([^<]+)')
+RE_FIGURA_DETALLE = re.compile(r'<figure class="noticia-imagen[^"]*">(.*?)</figure>', re.DOTALL)
 RE_IMG = re.compile(r'<img[^>]*\bsrc="([^"]+)"')
-RE_TITULO = re.compile(r'<h2 class="destacada-titulo"><a href="([^"]+)">(.*?)</a></h2>', re.DOTALL)
-RE_FUENTE = re.compile(r'<span class="fuente">Fuente: ([^<]*)</span>')
 
 
 def log(mensaje: str) -> None:
@@ -62,41 +74,66 @@ def _texto_plano(fragmento: str) -> str:
     return html_lib.unescape(re.sub(r"<[^>]*>", "", fragmento)).strip()
 
 
-def extraer_destacada_portada() -> dict | None:
-    """Lee site/index.html YA PUBLICADO y extrae los datos reales de la
-    noticia destacada -- título, ruta interna, imagen y fuente, tal cual
-    ya se están mostrando ahí. None si la portada no existe o no tiene
-    destacada (p.ej. sitio recién inicializado, sin noticias todavía)."""
-    ruta_index = SITE_DIR / "index.html"
-    if not ruta_index.exists():
-        log(f"AVISO: no existe {ruta_index}; nada que generar.")
-        return None
-    texto = ruta_index.read_text(encoding="utf-8")
+def cargar_items_nuevos_hoy() -> list[dict]:
+    """Lee data/nuevas_hoy.json -- el mismo archivo transitorio que
+    fetch_news.py/fetch_spdp.py llenaron y que build_site.py acaba de
+    consumir en esta misma corrida. [] (nunca un error) si no existe o
+    viene vacío -- un día sin noticias nuevas no genera ningún afiche."""
+    if not NUEVAS_JSON.exists():
+        log(f"AVISO: no existe {NUEVAS_JSON}; nada que generar.")
+        return []
+    try:
+        with open(NUEVAS_JSON, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as exc:
+        log(f"AVISO: no se pudo leer {NUEVAS_JSON} ({exc}); nada que generar.")
+        return []
 
-    m_article = RE_ARTICLE_DESTACADA.search(texto)
+
+def extraer_item_publicado(item_nuevo: dict, fecha_str: str) -> dict | None:
+    """Dado un ítem de data/nuevas_hoy.json, ubica y lee la página de
+    detalle que build_site.py YA publicó para él en esta misma corrida
+    (mismo cálculo de nombre de archivo que usó build_site.py -- ver
+    bs.nombre_archivo_noticia) y devuelve el título/fuente/imagen/categoría
+    reales tal cual quedaron publicados ahí. None (con aviso, nunca un
+    error) si la página esperada no existe o no tiene el formato
+    esperado -- nunca inventa un reemplazo."""
+    nombre_archivo = bs.nombre_archivo_noticia(item_nuevo, fecha_str)
+    ruta_archivo = NOTICIA_DIR / nombre_archivo
+    if not ruta_archivo.exists():
+        log(f"AVISO: no existe {ruta_archivo} (¿build_site.py corrió antes?); se omite esta noticia.")
+        return None
+    texto = ruta_archivo.read_text(encoding="utf-8")
+
+    m_article = RE_ARTICLE_DETALLE.search(texto)
     if not m_article:
-        log("AVISO: no se encontró ninguna noticia destacada en la portada; nada que generar.")
+        log(f"AVISO: {ruta_archivo} no tiene el formato esperado; se omite esta noticia.")
         return None
-    bloque = m_article.group(0)
     categoria = m_article.group(1)
+    bloque = m_article.group(2)
 
-    m_titulo = RE_TITULO.search(bloque)
-    m_fuente = RE_FUENTE.search(bloque)
-    m_img = RE_IMG.search(bloque)
+    m_titulo = RE_TITULO_DETALLE.search(bloque)
+    m_fuente = RE_FUENTE_DETALLE.search(bloque)
     if not (m_titulo and m_fuente):
-        log("AVISO: la destacada no tiene el formato esperado (falta título o fuente); se omite.")
+        log(f"AVISO: {ruta_archivo} no tiene título o fuente reconocibles; se omite esta noticia.")
         return None
 
-    ruta_noticia = m_titulo.group(1)
-    titulo = _texto_plano(m_titulo.group(2))
+    titulo = _texto_plano(m_titulo.group(1))
     fuente = _texto_plano(m_fuente.group(1))
-    imagen_local = m_img.group(1) if m_img else None
+
+    imagen_local = None
+    m_figura = RE_FIGURA_DETALLE.search(bloque)
+    if m_figura:
+        m_img = RE_IMG.search(m_figura.group(1))
+        if m_img:
+            imagen_local = m_img.group(1)
     # El ícono de respaldo es SVG -- Pillow no lo puede abrir como foto de
     # fondo, así que se trata igual que "sin imagen real" (fondo degradado
     # de marca, ver componer_fondo()).
     if imagen_local and imagen_local.lower().endswith(".svg"):
         imagen_local = None
 
+    ruta_noticia = f"/noticia/{nombre_archivo}"
     return {
         "titulo": titulo,
         "fuente": fuente,
@@ -315,33 +352,43 @@ def _slug_desde_ruta(ruta_noticia: str) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--salida", type=str, default=None, help="Ruta de salida personalizada (por defecto: data/afiches/<slug>.png).")
-    args = parser.parse_args()
+    parser.parse_args()
 
-    item = extraer_destacada_portada()
-    if item is None:
+    items_nuevos = cargar_items_nuevos_hoy()
+    if not items_nuevos:
         # Nunca es un error -- simplemente no hay nada que generar todavía
-        # (p.ej. sitio recién inicializado). El workflow no debe fallar por
-        # esto.
+        # (p.ej. día sin noticias nuevas, o sitio recién inicializado). El
+        # workflow no debe fallar por esto.
         sys.exit(0)
 
-    if args.salida:
-        ruta_salida = Path(args.salida)
-    else:
-        ruta_salida = AFICHES_DIR / f"{_slug_desde_ruta(item['ruta_noticia'])}.png"
+    fecha_str = bs.datetime.now(bs.ZONA_GUAYAQUIL).strftime("%Y-%m-%d")
 
-    ruta_final = generar_afiche(item, ruta_salida)
-    log(f"Afiche generado: {ruta_final}")
-    log(f"  Título: {item['titulo'][:80]}")
-    log(f"  Fuente: {item['fuente']}")
-    log(f"  Link: {item['url_completa']}")
+    generados: list[tuple[Path, str, str]] = []
+    for item_nuevo in items_nuevos:
+        item = extraer_item_publicado(item_nuevo, fecha_str)
+        if item is None:
+            continue
+        ruta_salida = AFICHES_DIR / f"{_slug_desde_ruta(item['ruta_noticia'])}.png"
+        ruta_final = generar_afiche(item, ruta_salida)
+        log(f"Afiche generado: {ruta_final}")
+        log(f"  Título: {item['titulo'][:80]}")
+        log(f"  Fuente: {item['fuente']}")
+        log(f"  Link: {item['url_completa']}")
+        generados.append((ruta_final, item["titulo"], item["url_completa"]))
+
+    if not generados:
+        sys.exit(0)
+
+    log(f"Total de afiches generados hoy: {len(generados)}.")
 
     # Para que enviar_telegram.py (paso siguiente del workflow) sepa qué
-    # mandar sin tener que re-parsear la portada -- un archivo de texto
-    # simple, no JSON, para no acoplar ambos scripts a un esquema.
-    (AFICHES_DIR / "ultimo_afiche.txt").write_text(
-        f"{ruta_final}\n{item['titulo']}\n{item['url_completa']}\n", encoding="utf-8"
-    )
+    # mandar sin tener que re-parsear nada -- un archivo de texto simple (3
+    # líneas por afiche: ruta del PNG, título, link), no JSON, para no
+    # acoplar ambos scripts a un esquema.
+    AFICHES_DIR.mkdir(parents=True, exist_ok=True)
+    with open(AFICHES_HOY_TXT, "w", encoding="utf-8") as f:
+        for ruta_final, titulo, url_completa in generados:
+            f.write(f"{ruta_final}\n{titulo}\n{url_completa}\n")
 
 
 if __name__ == "__main__":
