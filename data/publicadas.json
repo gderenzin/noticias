@@ -1831,6 +1831,70 @@
       "fecha_publicacion_iso": "2026-08-25T22:37:11+00:00",
       "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
       "ruta_noticia": "/noticia/2026-09-10-quien-decide-sobre-nuestra-vida-digital-soberania-poder-y-pr-1a431ddc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "fuente": "BleepingComputer",
+      "titulo": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "fecha_publicacion_iso": "2026-09-10T15:55:56+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-ai-powered-attack-exploited-papercut-flaws-to-hack-395-organ-99e4f04e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "fecha_publicacion_iso": "2026-09-10T15:43:58+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-72164e67.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+      "fuente": "Dark Reading",
+      "titulo": "Nightmare-Eclipse Strikes Again with 'ShieldCrash' Windows Exploit",
+      "fecha_publicacion_iso": "2026-09-10T15:29:12+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-nightmare-eclipse-strikes-again-with-shieldcrash-windows-exp-4ff373cc.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/argentina-lng-fraude-financiero-y-fake.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4939356619795341383",
+      "fuente": "Segu-Info",
+      "titulo": "\"Argentina LNG\": fraude financiero y fake news mediante campañas publicitarias de políticos, periodistas, famosos y diarios",
+      "fecha_publicacion_iso": "2026-09-10T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-argentina-lng-fraude-financiero-y-fake-news-mediante-campana-6a91600b.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/actualizaciones-de-seguridad-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2258843287238677778",
+      "fuente": "Segu-Info",
+      "titulo": "Actualizaciones de seguridad de SEPTIEMBRE para todas las empresas (casi 1000)",
+      "fecha_publicacion_iso": "2026-09-09T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-actualizaciones-de-seguridad-de-septiembre-para-todas-las-em-5f19ca31.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/rootkit-php-web-server-para-f5-big-ip.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6516419332349923754",
+      "fuente": "Segu-Info",
+      "titulo": "Rootkit PHP web server para F5 BIG-IP",
+      "fecha_publicacion_iso": "2026-09-09T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-rootkit-php-web-server-para-f5-big-ip-2d3cf739.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/evento-gratis-hacking-day-2026-parana.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6799126146931865977",
+      "fuente": "Segu-Info",
+      "titulo": "Evento GRATIS: Hacking Day 2026 - Paraná - 2/10",
+      "fecha_publicacion_iso": "2026-09-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-evento-gratis-hacking-day-2026-parana-2-10-f31b22ca.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/las-empresas-tienen-6-meses-para.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8990345389467027877",
+      "fuente": "Segu-Info",
+      "titulo": "Las empresas tienen 6 meses para prepararse para los ataques automatizados (modelo CWI)",
+      "fecha_publicacion_iso": "2026-09-08T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-las-empresas-tienen-6-meses-para-prepararse-para-los-ataques-b5504fa9.html"
     }
   }
 }
