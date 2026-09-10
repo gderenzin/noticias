@@ -365,29 +365,34 @@ si te preocupa.
 ## Afiche diario y envío a Telegram
 
 Último paso opcional del flujo diario: si hubo noticias nuevas hoy, se
-genera un afiche vertical (1080x1920, formato Historia/Estado) de la
-noticia **destacada** del día y se envía a un chat de Telegram propio, para
-poder reenviarlo a mano al Estado de WhatsApp desde el celular. Se eligió
-solo la destacada (no una por cada noticia nueva) para no saturar el chat.
+genera un afiche vertical (1080x1920, formato Historia/Estado) por cada
+noticia nueva del día, y se envían todos a un chat de Telegram propio,
+para poder reenviarlos a mano al Estado de WhatsApp desde el celular.
 
-- **`scripts/generar_afiche.py`**: lee el título, la fuente, la imagen y el
-  link tal cual ya quedaron publicados en `site/index.html` — nunca inventa
-  ni recalcula texto nuevo. Usa la foto real de la noticia como fondo (con
-  un degradado oscuro superpuesto para que el texto se lea bien); si esa
-  noticia no tiene foto real (ícono de categoría), usa un fondo degradado
-  liso del color de esa categoría en vez de forzar o inventar una imagen.
-  Guarda el resultado en `data/afiches/<slug-de-la-noticia>.png` (carpeta
-  no versionada — se regenera cada corrida, igual que otros artefactos
-  diarios de este repo).
-- **`scripts/enviar_telegram.py`**: envía ese afiche vía la
+- **`scripts/generar_afiche.py`**: por cada noticia nueva del día
+  (`data/nuevas_hoy.json` -- el mismo archivo que ya consumió
+  `build_site.py`), lee el título, la fuente, la imagen y el link tal
+  cual ya quedaron publicados en la página de detalle de esa noticia
+  (`site/noticia/...`) -- nunca inventa ni recalcula texto nuevo. Usa la
+  foto real de la noticia como fondo (con un degradado oscuro superpuesto
+  para que el texto se lea bien); si esa noticia no tiene foto real
+  (ícono de categoría), usa un fondo degradado liso del color de esa
+  categoría en vez de forzar o inventar una imagen. Guarda cada resultado
+  en `data/afiches/<slug-de-la-noticia>.png` (carpeta no versionada -- se
+  regenera cada corrida, igual que otros artefactos diarios de este
+  repo).
+- **`scripts/enviar_telegram.py`**: envía todos esos afiches vía la
   [API oficial de bots de Telegram](https://core.telegram.org/bots/api#sendphoto)
-  (`sendPhoto`), con un caption corto (el mismo título + link reales). Si
-  faltan las credenciales o Telegram devuelve un error, el script lo
-  registra y se salta con código de salida 0 — **nunca hace fallar el
-  workflow** por esto, igual que con `DEEPL_API_KEY`/`GEMINI_API_KEY`.
+  (`sendPhoto`), uno por mensaje con una pausa corta de 2 segundos entre
+  cada envío (para no acercarse al límite de tasa de Telegram), cada uno
+  con un caption corto (el mismo título + link reales). Si faltan las
+  credenciales, o si Telegram devuelve un error con alguno de los
+  afiches, el script lo registra y sigue con los demás -- **nunca hace
+  fallar el workflow** por esto, igual que con
+  `DEEPL_API_KEY`/`GEMINI_API_KEY`.
 - En el workflow (`.github/workflows/diario.yml`) ambos pasos corren al
-  final, y solo si hubo cambios reales ese día
-  (`steps.commit_main.outputs.sin_cambios == 'false'`) — un día sin
+  final, y solo si gh-pages realmente cambió
+  (`steps.publicar_gh_pages.outputs.publicado == 'true'`) -- un día sin
   noticias nuevas no genera ni envía nada.
 
 ### Cómo obtener y configurar los dos secretos
