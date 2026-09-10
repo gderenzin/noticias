@@ -1759,6 +1759,78 @@
       "fecha_publicacion_iso": "2026-09-10T14:00:10+00:00",
       "fecha_agregada_iso": "2026-09-10T14:41:18.572481+00:00",
       "ruta_noticia": "/noticia/2026-09-10-the-top-4-threats-we-found-by-investigating-every-alert-for-82870bf6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+      "fuente": "BleepingComputer",
+      "titulo": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+      "fecha_publicacion_iso": "2026-09-10T14:55:33+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-idscan-confirms-breach-tied-to-153-million-stolen-drivers-li-0e50822d.html"
+    },
+    "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html": {
+      "guid": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+      "fecha_publicacion_iso": "2026-09-10T14:36:47+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-google-play-early-access-abused-to-push-thousands-of-decepti-0f9f58c1.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/nota-informativa-de-la-aepd": {
+      "guid": "d8921d40-bec8-4fe7-b23c-32891057c040",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "Nota informativa de la AEPD",
+      "fecha_publicacion_iso": "2026-09-09T12:39:01+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-nota-informativa-de-la-aepd-a767834a.html"
+    },
+    "https://www.edpb.europa.eu/news/health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-500-000-eur_en": {
+      "guid": "a7b37093-b10c-4b07-9c01-53bf9f90e6bf",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Health data breach: the CNIL fined Hôpital Privé de la Loire 500 000 EUR",
+      "fecha_publicacion_iso": "2026-09-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-360275fa.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-con-especialistas": {
+      "guid": "53407f28-79d5-43ba-976f-e03e3a18f49e",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes",
+      "fecha_publicacion_iso": "2026-09-08T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-la-aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-co-76672821.html"
+    },
+    "https://olartemoure.com/sic-refuerza-control-de-precios-y-derechos-tras-el-sismo/": {
+      "guid": "https://olartemoure.com/?p=4430164",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "SIC refuerza control de precios y derechos tras el sismo",
+      "fecha_publicacion_iso": "2026-09-04T18:27:29+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-sic-refuerza-control-de-precios-y-derechos-tras-el-sismo-4fd4fb8f.html"
+    },
+    "https://www.edpb.europa.eu/news/data-protection-commission-announces-final-decision-following-inquiry-into-the-health-service_en": {
+      "guid": "e893707f-0581-4be2-bef5-b03c6ff45831",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
+      "fecha_publicacion_iso": "2026-09-03T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-data-protection-commission-announces-final-decision-followin-f5a3cb0f.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-participara-xx-jornadas-stic": {
+      "guid": "54a537d0-c870-47e4-8e59-80024fef4319",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos",
+      "fecha_publicacion_iso": "2026-09-02T07:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-la-aepd-participara-en-las-xx-jornadas-stic-con-una-jornada-34189648.html"
+    },
+    "https://hiperderecho.org/2026/08/quien-decide-sobre-nuestra-vida-digital-soberania-poder-y-privacidad-desde-la-cpdp-latam-2026/?pk_campaign=feed&pk_kwd=quien-decide-sobre-nuestra-vida-digital-soberania-poder-y-privacidad-desde-la-cpdp-latam-2026": {
+      "guid": "https://hiperderecho.org/?p=12767",
+      "fuente": "Hiperderecho (Perú)",
+      "titulo": "¿Quién decide sobre nuestra vida digital? Soberanía, poder y privacidad desde la CPDP LatAm 2026",
+      "fecha_publicacion_iso": "2026-08-25T22:37:11+00:00",
+      "fecha_agregada_iso": "2026-09-10T15:17:11.595187+00:00",
+      "ruta_noticia": "/noticia/2026-09-10-quien-decide-sobre-nuestra-vida-digital-soberania-poder-y-pr-1a431ddc.html"
     }
   }
 }
