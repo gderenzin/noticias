@@ -240,16 +240,16 @@ h1, h2, h3 {
 }
 
 .marca-logo {
-  width: 52px;
-  height: 52px;
+  width: 68px;
+  height: 68px;
   object-fit: contain;
   flex-shrink: 0;
   transition: width 0.2s ease, height 0.2s ease;
 }
 
 .cabecera--compacta .marca-logo {
-  width: 36px;
-  height: 36px;
+  width: 46px;
+  height: 46px;
 }
 
 .marca-texto {
@@ -1128,8 +1128,8 @@ h1, h2, h3 {
 }
 
 .pie-logo {
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
 }
 
