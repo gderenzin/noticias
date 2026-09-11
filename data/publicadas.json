@@ -1895,6 +1895,174 @@
       "fecha_publicacion_iso": "2026-09-08T17:00:00+00:00",
       "fecha_agregada_iso": "2026-09-10T16:19:20.507069+00:00",
       "ruta_noticia": "/noticia/2026-09-10-las-empresas-tienen-6-meses-para-prepararse-para-los-ataques-b5504fa9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "fuente": "BleepingComputer",
+      "titulo": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "fecha_publicacion_iso": "2026-09-11T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-a-297d870d.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/smart-tvs-escanean-redes-y-graban-audio.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-838458481339155926",
+      "fuente": "Segu-Info",
+      "titulo": "Smart TVs escanean redes y graban audio (que sorpresa!)",
+      "fecha_publicacion_iso": "2026-09-11T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-smart-tvs-escanean-redes-y-graban-audio-que-sorpresa-5294bb33.html"
+    },
+    "https://www.edpb.europa.eu/news/failure-to-respect-the-rights-of-individuals-the-cnil-fined-extia-300-000-eur_en": {
+      "guid": "9cce9bb5-3b4a-441b-a006-9f0ca73ef17f",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Failure to respect the rights of individuals: The CNIL fined EXTIA 300 000 EUR",
+      "fecha_publicacion_iso": "2026-09-11T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-failure-to-respect-the-rights-of-individuals-the-cnil-fined-80efa04c.html"
+    },
+    "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html": {
+      "guid": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "fuente": "The Hacker News",
+      "titulo": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "fecha_publicacion_iso": "2026-09-11T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-your-critical-vulnerabilities-might-not-be-your-biggest-risk-d46374ed.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "GitLab urges users to patch max severity path traversal flaw",
+      "fecha_publicacion_iso": "2026-09-11T11:15:22+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-gitlab-urges-users-to-patch-max-severity-path-traversal-flaw-4e654ce0.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
+      "fecha_publicacion_iso": "2026-09-11T09:39:37+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-bbf674a0.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/validacion-incorrecta-de-certificado-en-productos-de-check-point": {
+      "guid": "662516 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Validación incorrecta de certificado en productos de Check Point",
+      "fecha_publicacion_iso": "2026-09-11T08:50:46+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-validacion-incorrecta-de-certificado-en-productos-de-check-p-1d0d6376.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+      "fecha_publicacion_iso": "2026-09-11T07:55:15+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-trezor-347-000-users-targeted-in-phishing-attacks-after-brev-8c4dc6c7.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+      "fecha_publicacion_iso": "2026-09-11T07:31:05+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-attackers-chain-jfrog-artifactory-flaws-to-gain-admin-contro-e86c593f.html"
+    },
+    "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html": {
+      "guid": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+      "fecha_publicacion_iso": "2026-09-11T07:14:09+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-china-linked-unc3569-exploited-sogou-input-method-flaw-to-de-795b9e4a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "Conti ransomware gang member sentenced to 4 years in prison",
+      "fecha_publicacion_iso": "2026-09-11T06:48:37+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-conti-ransomware-gang-member-sentenced-to-4-years-in-prison-4e6e80ec.html"
+    },
+    "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html": {
+      "guid": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+      "fuente": "The Hacker News",
+      "titulo": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "fecha_publicacion_iso": "2026-09-11T06:46:18+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-papercut-replaces-emergency-patches-with-fixes-for-two-activ-f804c4ca.html"
+    },
+    "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html": {
+      "guid": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+      "fecha_publicacion_iso": "2026-09-11T06:19:59+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-cisco-fmc-flaws-exploited-to-steal-credentials-and-deploy-qi-2c47337c.html"
+    },
+    "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign": {
+      "guid": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
+      "fuente": "Dark Reading",
+      "titulo": "Indonesia Hit by Android Banking App-Cloning Campaign",
+      "fecha_publicacion_iso": "2026-09-11T01:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-indonesia-hit-by-android-banking-app-cloning-campaign-2c66a930.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Android malware encrypts files, steals data, and harasses victims",
+      "fecha_publicacion_iso": "2026-09-10T21:40:43+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-new-android-malware-encrypts-files-steals-data-and-harasses-fe542af9.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data": {
+      "guid": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
+      "fuente": "Dark Reading",
+      "titulo": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
+      "fecha_publicacion_iso": "2026-09-10T20:36:03+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-voice-callers-exploit-byod-to-reach-microsoft-365-corporate-b0193944.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+      "fuente": "BleepingComputer",
+      "titulo": "September Windows Server updates break Remote Desktop Services",
+      "fecha_publicacion_iso": "2026-09-10T20:34:37+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-september-windows-server-updates-break-remote-desktop-servic-baa64802.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "fecha_publicacion_iso": "2026-09-10T19:15:07+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-surfshark-vpn-says-hackers-breached-internal-testing-proxy-s-674bef06.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+      "fecha_publicacion_iso": "2026-09-10T19:07:33+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-s-9414623a.html"
+    },
+    "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html": {
+      "guid": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "fecha_publicacion_iso": "2026-09-10T17:47:38+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-threatsday-200-android-flaws-browser-built-phishing-119k-sca-96788d5a.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/guardbreaker-ia-analisis-malware/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/guardbreaker-ia-analisis-malware/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "GuardBreaker: cómo un simple comentario de código puede confundir a la IA en el análisis de malware",
+      "fecha_publicacion_iso": "2026-09-10T12:21:13+00:00",
+      "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
+      "ruta_noticia": "/noticia/2026-09-11-guardbreaker-como-un-simple-comentario-de-codigo-puede-confu-be67f126.html"
     }
   }
 }
