@@ -2063,6 +2063,142 @@
       "fecha_publicacion_iso": "2026-09-10T12:21:13+00:00",
       "fecha_agregada_iso": "2026-09-11T14:45:36.150317+00:00",
       "ruta_noticia": "/noticia/2026-09-11-guardbreaker-como-un-simple-comentario-de-codigo-puede-confu-be67f126.html"
+    },
+    "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html": {
+      "guid": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "fecha_publicacion_iso": "2026-09-12T10:24:44+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-when-the-whole-company-adopts-ai-what-it-does-to-your-soc-07d94811.html"
+    },
+    "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html": {
+      "guid": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "fecha_publicacion_iso": "2026-09-12T09:07:56+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-openai-agents-linked-to-rubygems-campaign-that-gained-rce-on-8a8c14f1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "fecha_publicacion_iso": "2026-09-11T20:19:09+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-hackers-abused-claude-to-extract-secrets-from-1-8m-android-a-c22ddbfe.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
+      "fuente": "Dark Reading",
+      "titulo": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+      "fecha_publicacion_iso": "2026-09-11T19:21:08+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-threat-actor-generates-1m-personalized-fraud-emails-in-3-day-8fa80bf6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "fuente": "BleepingComputer",
+      "titulo": "Florida confirms DMV database breached via stolen police account",
+      "fecha_publicacion_iso": "2026-09-11T19:00:29+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-florida-confirms-dmv-database-breached-via-stolen-police-acc-2d3040fe.html"
+    },
+    "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate": {
+      "guid": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
+      "fuente": "Dark Reading",
+      "titulo": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
+      "fecha_publicacion_iso": "2026-09-11T18:44:03+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-cisa-calls-for-more-guidance-less-spin-as-cyber-outages-esca-64db0bc2.html"
+    },
+    "https://www.darkreading.com/cyber-risk/ai-scamming-humans": {
+      "guid": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
+      "fuente": "Dark Reading",
+      "titulo": "Why AI Is So Good at Scamming Humans",
+      "fecha_publicacion_iso": "2026-09-11T18:14:06+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-why-ai-is-so-good-at-scamming-humans-965fe78c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "fecha_publicacion_iso": "2026-09-11T17:26:50+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-passkey-themed-phishing-attacks-lead-to-microsoft-365-data-t-8f5f5019.html"
+    },
+    "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait": {
+      "guid": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
+      "fuente": "Dark Reading",
+      "titulo": "AI Governance Can't Wait",
+      "fecha_publicacion_iso": "2026-09-11T17:10:56+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-ai-governance-can-t-wait-36a0e7fd.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/70-de-tus-configuraciones-en-la-nube.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6045408582517082996",
+      "fuente": "Segu-Info",
+      "titulo": "~70% de tus configuraciones en la nube son incorrectas",
+      "fecha_publicacion_iso": "2026-09-11T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-70-de-tus-configuraciones-en-la-nube-son-incorrectas-31795915.html"
+    },
+    "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html": {
+      "guid": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "fecha_publicacion_iso": "2026-09-11T16:30:18+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-gitlab-cvss-10-file-read-flaw-draws-in-the-wild-probes-after-2a6fb06b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "fecha_publicacion_iso": "2026-09-11T16:29:44+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-artifactory-flaws-chained-in-attacks-deploying-backdoor-malw-3055121a.html"
+    },
+    "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html": {
+      "guid": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "fecha_publicacion_iso": "2026-09-11T16:15:29+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-anthropic-says-seven-china-based-ai-labs-ran-industrial-scal-394b762a.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
+      "fuente": "Dark Reading",
+      "titulo": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
+      "fecha_publicacion_iso": "2026-09-11T15:48:27+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-papercut-ai-swarm-attack-heralds-changes-for-cyber-kill-chai-88dd12e2.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/falsas-colaboraciones-creadores-youtube/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/falsas-colaboraciones-creadores-youtube/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Una campaña de falsas propuestas de colaboración busca comprometer cuentas de creadores de YouTube",
+      "fecha_publicacion_iso": "2026-09-11T15:28:20+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-una-campana-de-falsas-propuestas-de-colaboracion-busca-compr-170c1b7d.html"
+    },
+    "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html": {
+      "guid": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "fuente": "The Hacker News",
+      "titulo": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "fecha_publicacion_iso": "2026-09-11T14:29:47+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-claude-used-to-automate-exploitation-and-data-theft-across-m-7d9c766e.html"
+    },
+    "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html": {
+      "guid": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "fecha_publicacion_iso": "2026-09-11T14:10:20+00:00",
+      "fecha_agregada_iso": "2026-09-12T13:50:33.338609+00:00",
+      "ruta_noticia": "/noticia/2026-09-12-russian-state-sponsored-hackers-use-claude-to-rebuild-malwar-46970004.html"
     }
   }
 }
