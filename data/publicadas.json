@@ -2319,6 +2319,142 @@
       "fecha_publicacion_iso": "2026-09-12T01:50:30+00:00",
       "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
       "ruta_noticia": "/noticia/2026-09-13-researchers-say-openai-agents-were-behind-may-hacking-campai-a4d7aa20.html"
+    },
+    "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/": {
+      "guid": "https://www.securityweek.com/?p=49285",
+      "fuente": "SecurityWeek",
+      "titulo": "Three JFrog Artifactory Flaws Exploited for Backdoor Deployment",
+      "fecha_publicacion_iso": "2026-09-14T09:27:29+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-three-jfrog-artifactory-flaws-exploited-for-backdoor-deploym-70a6380a.html"
+    },
+    "https://www.theregister.com/security/2026/09/14/ukgov-begins-killing-off-passwords-for-23-million-users/5296088": {
+      "guid": "https://www.theregister.com/a/5296088",
+      "fuente": "The Register - Security",
+      "titulo": "UK.gov begins killing off passwords for 23 million users",
+      "fecha_publicacion_iso": "2026-09-14T09:16:11+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-uk-gov-begins-killing-off-passwords-for-23-million-users-6f2ecf2f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "fuente": "BleepingComputer",
+      "titulo": "Revolut discloses data breach exposing financial info, passports",
+      "fecha_publicacion_iso": "2026-09-14T08:48:24+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-revolut-discloses-data-breach-exposing-financial-info-passpo-12626361.html"
+    },
+    "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49283",
+      "fuente": "SecurityWeek",
+      "titulo": "ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks",
+      "fecha_publicacion_iso": "2026-09-14T08:25:14+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-connectwise-patches-screenconnect-vulnerability-exploited-in-4c252b58.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: September updates break audio on some Windows PCs",
+      "fecha_publicacion_iso": "2026-09-14T08:08:16+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-microsoft-september-updates-break-audio-on-some-windows-pcs-77e7cf6e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/whatsapp-restricted-chat-feature/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384441",
+      "fuente": "Help Net Security",
+      "titulo": "WhatsApp Restricted Chat locks a conversation to your primary phone",
+      "fecha_publicacion_iso": "2026-09-14T08:08:04+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-whatsapp-restricted-chat-locks-a-conversation-to-your-primar-4f012b68.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-gitlab": {
+      "guid": "662522 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Path Traversal en GitLab",
+      "fecha_publicacion_iso": "2026-09-14T07:56:24+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-path-traversal-en-gitlab-8bc742e4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/debian-13-7-point-release/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384433",
+      "fuente": "Help Net Security",
+      "titulo": "Debian 13.7 ships the fixes behind 92 security advisories, updates 106 packages",
+      "fecha_publicacion_iso": "2026-09-14T07:40:52+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-debian-13-7-ships-the-fixes-behind-92-security-advisories-up-8239e031.html"
+    },
+    "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html": {
+      "guid": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "fecha_publicacion_iso": "2026-09-14T07:24:39+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-malicious-twitch-browser-extension-leaks-oauth-tokens-from-n-e8aa65d8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "fecha_publicacion_iso": "2026-09-14T07:06:27+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks-9cc2276f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384423",
+      "fuente": "Help Net Security",
+      "titulo": "What we know about the Revolut data breach so far",
+      "fecha_publicacion_iso": "2026-09-14T07:02:51+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-what-we-know-about-the-revolut-data-breach-so-far-5b8637ac.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/ot-intrusion-response-agent/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384191",
+      "fuente": "Help Net Security",
+      "titulo": "Turn it off and on again, but for critical infrastructure",
+      "fecha_publicacion_iso": "2026-09-14T06:00:04+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-turn-it-off-and-on-again-but-for-critical-infrastructure-3bea8200.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/permify-open-source-authorization-as-a-service/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384283",
+      "fuente": "Help Net Security",
+      "titulo": "Permify: Open-source authorization as a service",
+      "fecha_publicacion_iso": "2026-09-14T05:30:58+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-permify-open-source-authorization-as-a-service-3bc4ba94.html"
+    },
+    "http://www.elladodelmal.com/2026/09/vuelta-al-cole-de-ipv6-con-2.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-790283987327709268",
+      "fuente": "El Lado del Mal",
+      "titulo": "Vuelta al cole de IPv6 con 2 formaciones gratuitas imprescindibles en Madrid",
+      "fecha_publicacion_iso": "2026-09-14T05:14:09+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-vuelta-al-cole-de-ipv6-con-2-formaciones-gratuitas-imprescin-e43eddac.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/manageengine-cybersecurity-breach-confidence-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384391",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity attention fades within months after a breach",
+      "fecha_publicacion_iso": "2026-09-14T05:00:57+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-cybersecurity-attention-fades-within-months-after-a-breach-6e87c003.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384381",
+      "fuente": "Help Net Security",
+      "titulo": "Certificate failures can cost firms over $250,000",
+      "fecha_publicacion_iso": "2026-09-14T04:30:38+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-certificate-failures-can-cost-firms-over-250-000-2761c20f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384356",
+      "fuente": "Help Net Security",
+      "titulo": "AWS puts AI vulnerability detection to the test, and false positives pile up",
+      "fecha_publicacion_iso": "2026-09-14T04:00:14+00:00",
+      "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-aws-puts-ai-vulnerability-detection-to-the-test-and-false-po-46468edf.html"
     }
   }
 }
