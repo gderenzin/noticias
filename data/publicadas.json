@@ -2455,6 +2455,262 @@
       "fecha_publicacion_iso": "2026-09-14T04:00:14+00:00",
       "fecha_agregada_iso": "2026-09-14T09:53:57.406707+00:00",
       "ruta_noticia": "/noticia/2026-09-14-aws-puts-ai-vulnerability-detection-to-the-test-and-false-po-46468edf.html"
+    },
+    "https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356": {
+      "guid": "https://www.theregister.com/a/5296356",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI's malicious bot swarm attacked RubyGems",
+      "fecha_publicacion_iso": "2026-09-14T18:03:58+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-openai-s-malicious-bot-swarm-attacked-rubygems-00396e44.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/solo-138-de-las-vulnerabilidad-de-2026.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6561081642104616015",
+      "fuente": "Segu-Info",
+      "titulo": "Sólo 1,38% de las vulnerabilidad de 2026 han sido explotadas. ¿Qué y cómo parchear?",
+      "fecha_publicacion_iso": "2026-09-14T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-solo-1-38-de-las-vulnerabilidad-de-2026-han-sido-explotadas-753ad918.html"
+    },
+    "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html": {
+      "guid": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "fecha_publicacion_iso": "2026-09-14T16:58:42+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-new-ddrop-attack-breaks-intel-tdx-and-amd-sev-snp-confidenti-2b09b943.html"
+    },
+    "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html": {
+      "guid": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "fecha_publicacion_iso": "2026-09-14T16:56:30+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-red-heron-exploits-gitea-rce-to-compromise-13-organizations-8cbdb005.html"
+    },
+    "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/": {
+      "guid": "6aa7fa05ee6aa1b9c0aa69d0",
+      "fuente": "Wired - Security",
+      "titulo": "New York Seizes a Dozen Celebrity Deepfake Websites",
+      "fecha_publicacion_iso": "2026-09-14T16:50:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-new-york-seizes-a-dozen-celebrity-deepfake-websites-74f50cac.html"
+    },
+    "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai": {
+      "guid": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
+      "fuente": "Dark Reading",
+      "titulo": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
+      "fecha_publicacion_iso": "2026-09-14T16:41:10+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-anthropic-ceo-time-to-shift-from-improving-to-controlling-ai-f0e2e2dd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "fecha_publicacion_iso": "2026-09-14T16:15:58+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-s-baf34217.html"
+    },
+    "https://therecord.media/ukraine-malware-russia-ransomware": {
+      "guid": "https://therecord.media/ukraine-malware-russia-ransomware",
+      "fuente": "The Record",
+      "titulo": "Pro-Ukraine Hacking Cat group deploying new malware against Russian targets",
+      "fecha_publicacion_iso": "2026-09-14T16:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-pro-ukraine-hacking-cat-group-deploying-new-malware-against-01e2f2e2.html"
+    },
+    "https://therecord.media/hundreds-of-fake-gov-websites-central-asia-scam": {
+      "guid": "https://therecord.media/hundreds-of-fake-gov-websites-central-asia-scam",
+      "fuente": "The Record",
+      "titulo": "Hundreds of fake government websites target users in Central Asia",
+      "fecha_publicacion_iso": "2026-09-14T16:02:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-hundreds-of-fake-government-websites-target-users-in-central-e164a3a1.html"
+    },
+    "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html": {
+      "guid": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "fuente": "The Hacker News",
+      "titulo": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "fecha_publicacion_iso": "2026-09-14T16:00:04+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-wordpress-adds-automated-plugin-reviews-to-block-high-risk-u-c993406f.html"
+    },
+    "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html": {
+      "guid": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "fecha_publicacion_iso": "2026-09-14T14:40:34+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-weekly-recap-rogue-ai-agents-wechat-worm-papercut-attacks-ai-a229e9d7.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/bluemoon-actores-maliciosos-estatales.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6189317552733983351",
+      "fuente": "Segu-Info",
+      "titulo": "BlueMoon: actores maliciosos estatales adoptan una novedosa cadena de exploits utilizando vulnerabilidades de día cero en Chrome y Windows",
+      "fecha_publicacion_iso": "2026-09-14T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-bluemoon-actores-maliciosos-estatales-adoptan-una-novedosa-c-0f090ff0.html"
+    },
+    "https://www.theregister.com/security/2026/09/14/perfect-10-gitlab-bug-under-attack-days-after-patch-lands/5296176": {
+      "guid": "https://www.theregister.com/a/5296176",
+      "fuente": "The Register - Security",
+      "titulo": "Perfect-10 GitLab bug under attack days after patch lands",
+      "fecha_publicacion_iso": "2026-09-14T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-perfect-10-gitlab-bug-under-attack-days-after-patch-lands-f0fd013b.html"
+    },
+    "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/": {
+      "guid": "https://www.securityweek.com/?p=49306",
+      "fuente": "SecurityWeek",
+      "titulo": "Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development",
+      "fecha_publicacion_iso": "2026-09-14T14:28:26+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-d-d847dc5b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "fuente": "BleepingComputer",
+      "titulo": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "fecha_publicacion_iso": "2026-09-14T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-why-patch-automation-needs-brakes-not-just-an-accelerator-e09b5317.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/entrust-cbom-capabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384536",
+      "fuente": "Help Net Security",
+      "titulo": "Entrust turns cryptographic inventory data into security action",
+      "fecha_publicacion_iso": "2026-09-14T13:54:15+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-entrust-turns-cryptographic-inventory-data-into-security-act-e6d2e954.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/bitsight-beacon/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384531",
+      "fuente": "Help Net Security",
+      "titulo": "Bitsight connects threat intelligence and exposure monitoring across the supply chain",
+      "fecha_publicacion_iso": "2026-09-14T13:42:56+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-bitsight-connects-threat-intelligence-and-exposure-monitorin-3b075fc9.html"
+    },
+    "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/": {
+      "guid": "https://www.securityweek.com/?p=49304",
+      "fuente": "SecurityWeek",
+      "titulo": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
+      "fecha_publicacion_iso": "2026-09-14T13:31:15+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-cbd0c52a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/dataminr-uses-agentic-ai-to-predict-and-verify-security-threats/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384520",
+      "fuente": "Help Net Security",
+      "titulo": "Dataminr uses agentic AI to predict and verify security threats",
+      "fecha_publicacion_iso": "2026-09-14T13:25:25+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-dataminr-uses-agentic-ai-to-predict-and-verify-security-thre-ab475458.html"
+    },
+    "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=49297",
+      "fuente": "SecurityWeek",
+      "titulo": "Personal, Financial Info Exposed in Revolut Data Breach",
+      "fecha_publicacion_iso": "2026-09-14T13:03:35+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-personal-financial-info-exposed-in-revolut-data-breach-425b2e10.html"
+    },
+    "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/": {
+      "guid": "https://www.securityweek.com/?p=49296",
+      "fuente": "SecurityWeek",
+      "titulo": "The Race to Control AI and Protect What Makes Us Human",
+      "fecha_publicacion_iso": "2026-09-14T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-the-race-to-control-ai-and-protect-what-makes-us-human-e6a264e7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/enisa-cra-single-reporting-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384510",
+      "fuente": "Help Net Security",
+      "titulo": "ENISA launched the CRA Single Reporting Platform for actively exploited vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-14T12:23:42+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-enisa-launched-the-cra-single-reporting-platform-for-activel-d352b001.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+      "fuente": "BleepingComputer",
+      "titulo": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "fecha_publicacion_iso": "2026-09-14T12:15:23+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-webinar-how-malicious-oauth-apps-can-lead-to-google-workspac-448797c0.html"
+    },
+    "https://therecord.media/revolut-scam-crypto-impersonation": {
+      "guid": "https://therecord.media/revolut-scam-crypto-impersonation",
+      "fuente": "The Record",
+      "titulo": "Revolut handed customer data to fraudsters using government email account",
+      "fecha_publicacion_iso": "2026-09-14T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-revolut-handed-customer-data-to-fraudsters-using-government-6eeff636.html"
+    },
+    "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html": {
+      "guid": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "fecha_publicacion_iso": "2026-09-14T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-ai-changed-the-exposure-problem-validation-needs-to-change-w-d7383da9.html"
+    },
+    "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/": {
+      "guid": "https://www.securityweek.com/?p=49294",
+      "fuente": "SecurityWeek",
+      "titulo": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
+      "fecha_publicacion_iso": "2026-09-14T11:51:29+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-chinese-hackers-exploit-critical-tencent-software-flaw-for-o-c14a0b6c.html"
+    },
+    "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/": {
+      "guid": "6aa2cc3ca59cde6c55448869",
+      "fuente": "Wired - Security",
+      "titulo": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+      "fecha_publicacion_iso": "2026-09-14T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-sexually-explicit-deepfake-sites-target-100-plus-politicians-8e13836c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/14/airrived-agentic-observability-expansion/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384499",
+      "fuente": "Help Net Security",
+      "titulo": "Airrived adds Agentic Observability to track AI agent actions and risks",
+      "fecha_publicacion_iso": "2026-09-14T10:51:32+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-airrived-adds-agentic-observability-to-track-ai-agent-action-edba6adb.html"
+    },
+    "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/": {
+      "guid": "https://www.securityweek.com/?p=49291",
+      "fuente": "SecurityWeek",
+      "titulo": "CISOs Race to Control AI Agents Without Destroying Their Value",
+      "fecha_publicacion_iso": "2026-09-14T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-cisos-race-to-control-ai-agents-without-destroying-their-val-93f6130c.html"
+    },
+    "https://www.securityweek.com/telus-warns-customers-of-account-breaches/": {
+      "guid": "https://www.securityweek.com/?p=49287",
+      "fuente": "SecurityWeek",
+      "titulo": "Telus Warns Customers of Account Breaches",
+      "fecha_publicacion_iso": "2026-09-14T09:56:57+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-telus-warns-customers-of-account-breaches-66cb64d3.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: September updates cause RDS failures on Windows Server",
+      "fecha_publicacion_iso": "2026-09-14T09:50:25+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-microsoft-september-updates-cause-rds-failures-on-windows-se-9320ab73.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/control-de-acceso-inadecuado-en-la-api-rest-de-hiperdino": {
+      "guid": "662525 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Control de acceso inadecuado en la API REST de Hiperdino",
+      "fecha_publicacion_iso": "2026-09-14T09:20:40+00:00",
+      "fecha_agregada_iso": "2026-09-14T18:08:44.571599+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-control-de-acceso-inadecuado-en-la-api-rest-de-hiperdino-8c82eabf.html"
     }
   }
 }
