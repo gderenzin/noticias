@@ -79,6 +79,52 @@ fuentes:
     idioma: es
     opcional: true
 
+  # --- Agregadas 2026-09-13 para subir el volumen diario (ver README:
+  # "2026-09-13 - más fuentes + fetch cada 4h" en "Estado de las fuentes").
+  # Cada una se probó con una petición HTTP real usando el mismo
+  # USER_AGENT que fetch_news.py (no el default de feedparser) antes de
+  # agregarla acá. Se descartaron por no responder ese día, aunque se
+  # investigaron: CISA Advisories y CCN-CERT (ambas devuelven 403 al
+  # bot, parece bloqueo de WAF), Hispasec/una-al-dia (404, el feed se
+  # movió o dejó de existir), MuySeguridad/Globb Security/Telefonica
+  # Tech/Hackplayers/CSIRT Ecuador/EcuCERT (error de red o TLS al
+  # probarlas) -- si en el futuro alguna vuelve a responder, se puede
+  # reintentar agregarla.
+  - nombre: "SecurityWeek"
+    url: "https://www.securityweek.com/feed/"
+    dominio: "securityweek.com"
+    idioma: en
+
+  - nombre: "The Register - Security"
+    url: "https://www.theregister.com/security/headlines.atom"
+    dominio: "theregister.com"
+    idioma: en
+
+  - nombre: "Help Net Security"
+    url: "https://www.helpnetsecurity.com/feed/"
+    dominio: "helpnetsecurity.com"
+    idioma: en
+
+  - nombre: "CyberScoop"
+    url: "https://cyberscoop.com/feed/"
+    dominio: "cyberscoop.com"
+    idioma: en
+
+  - nombre: "The Record"
+    url: "https://therecord.media/feed"
+    dominio: "therecord.media"
+    idioma: en
+
+  - nombre: "Wired - Security"
+    url: "https://www.wired.com/feed/category/security/latest/rss"
+    dominio: "wired.com"
+    idioma: en
+
+  - nombre: "El Lado del Mal"
+    url: "https://www.elladodelmal.com/feeds/posts/default?alt=rss"
+    dominio: "elladodelmal.com"
+    idioma: es
+
   # --- Sección "Protección de Datos" (ver README: "Segunda sección...") ---
 
   - nombre: "dpoec.com"

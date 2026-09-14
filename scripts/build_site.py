@@ -1306,7 +1306,11 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 """
 
 
-FUENTES_MONITOREADAS = "The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT."
+FUENTES_MONITOREADAS = (
+    "The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), "
+    "INCIBE-CERT, Segu-Info, SecurityWeek, The Register, Help Net Security, CyberScoop, The Record, "
+    "Wired, El Lado del Mal."
+)
 
 
 def render_cabecera(prefijo: str, pagina_actual: str) -> str:

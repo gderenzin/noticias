@@ -1,13 +1,18 @@
 name: Diario - Noticias de ciberseguridad
 
-# Se dispara solo (cron) una vez al día + se puede lanzar a mano.
+# Se dispara solo (cron) cada 4 horas + se puede lanzar a mano. Antes del
+# 2026-09-13 corría una sola vez al día (11:00 UTC); con solo 7 fuentes RSS y
+# ventana de 48h, una corrida diaria dejaba la edición del día con muy pocas
+# noticias si la mayoría de lo nuevo salía después de esa hora (se acumulaba
+# recién al día siguiente). Correr cada 4h no trae nada de más -- sigue
+# dedupicando contra data/publicadas.json igual que siempre -- solo reparte
+# a lo largo del día lo que antes esperaba hasta la corrida de mañana.
 on:
   schedule:
-    # 11:00 UTC = 06:00 America/Guayaquil (UTC-5; Ecuador no usa horario de
-    # verano, así que este offset es fijo todo el año).
-    # Si quieres otra hora, cambia el cron de abajo. Formato: min hora dia mes diasemana (UTC).
-    # Ejemplos: '0 12 * * *' -> 07:00 Guayaquil | '30 10 * * *' -> 05:30 Guayaquil
-    - cron: "0 11 * * *"
+    # 6 corridas por día, cada 4h, en punto (UTC): 00, 04, 08, 12, 16, 20.
+    # En America/Guayaquil (UTC-5, sin horario de verano): 19:00, 23:00,
+    # 03:00, 07:00, 11:00, 15:00. Formato: min hora dia mes diasemana (UTC).
+    - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
 # Permisos mínimos: solo necesitamos poder commitear/pushear al propio repo.

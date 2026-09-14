@@ -1,6 +1,6 @@
 # Periódico Digital de Ciberseguridad
 
-Sitio estático que se actualiza **solo, una vez al día**, con titulares reales de
+Sitio estático que se actualiza **solo, cada 4 horas**, con titulares reales de
 ciberseguridad tomados de una lista fija de feeds RSS verificados. Nunca se
 publica una noticia sin que exista un ítem real de RSS que la respalde, ni sin
 un enlace directo a la fuente original.
@@ -64,6 +64,41 @@ válido** y quedaron activas en `feeds.yaml`:
 tiempo alguna deja de responder, el proceso la salta sola (ver "Lógica de
 fetch_news.py" en la especificación); revisa los logs del workflow en GitHub
 Actions para verlo.
+
+### 2026-09-13 — más fuentes + fetch cada 4h
+
+El 12 y 13 de septiembre el volumen diario real cayó a 5 y 2 noticias (contra
+27-40/día del 8 al 11, que en realidad venían de un backfill puntual de
+`scripts/backfill_septiembre.py`, no del ritmo normal). Con el cron corriendo
+una sola vez al día y solo 7 fuentes de bajo/mediano volumen, ese era el
+comportamiento esperado, no una falla. Dos cambios para subir el volumen:
+
+1. **El cron pasó de 1x/día a cada 4 horas** (ver `.github/workflows/diario.yml`)
+   — reparte a lo largo del día lo que antes se acumulaba hasta la corrida de
+   mañana; sigue dedupicando contra `data/publicadas.json`, así que nunca
+   duplica una noticia ya publicada.
+2. **Se agregaron 7 fuentes nuevas a `feeds.yaml`**, cada una probada con una
+   petición HTTP real usando el `USER_AGENT` real de `fetch_news.py` (no el
+   default de `feedparser`, que algunos sitios bloquean aunque el bot real
+   sí pase):
+
+| Fuente | Estado | Nota |
+|---|---|---|
+| Segu-Info | ✅ activa (`opcional: true`) | Ya estaba en `feeds.yaml` desde antes; faltaba en esta tabla y en el pie de página del sitio (`FUENTES_MONITOREADAS` en `build_site.py`) — corregido de paso. |
+| SecurityWeek | ✅ activa | La de mejor volumen de las nuevas (~3 ítems nuevos/48h al probarla). |
+| The Register - Security | ✅ activa | — |
+| Help Net Security | ✅ activa | — |
+| CyberScoop | ✅ activa | — |
+| The Record | ✅ activa | Feed pequeño (solo expone los ~5 más recientes), pero de calidad (redacción propia de Recorded Future). |
+| Wired - Security | ✅ activa | Feed de la categoría de seguridad, no de todo Wired. |
+| El Lado del Mal | ✅ activa | Blog de Chema Alonso (ElevenPaths/Telefónica), en español — hasta ahora la única fuente en español fuera de WeLiveSecurity/INCIBE-CERT/Segu-Info. |
+
+Se investigaron y **descartaron por no responder** el día de la prueba (si
+alguna vuelve a andar, se puede reintentar): CISA Advisories y CCN-CERT
+(devuelven 403 al bot — parece bloqueo de WAF, no algo que dependa del
+User-Agent), Hispasec/una-al-día (404, el feed parece haberse movido o
+dejado de existir), y MuySeguridad, Globb Security, Telefónica Tech,
+Hackplayers y los CERT de Ecuador (CSIRT/EcuCERT) por errores de red o TLS.
 
 ### Cómo agregar o quitar una fuente
 
@@ -606,9 +641,11 @@ assets ni su CSS.
 
 ## Cómo funciona el workflow (.github/workflows/diario.yml)
 
-1. **Cron diario** a las `11:00 UTC` (≈ 06:00 America/Guayaquil, UTC-5 todo el
-   año) + botón manual (`workflow_dispatch`) para probarlo cuando quieras desde
-   la pestaña *Actions* de GitHub.
+1. **Cron cada 4 horas** (`00, 04, 08, 12, 16, 20 UTC` ≈ `19:00, 23:00, 03:00,
+   07:00, 11:00, 15:00` America/Guayaquil, UTC-5 todo el año) + botón manual
+   (`workflow_dispatch`) para probarlo cuando quieras desde la pestaña
+   *Actions* de GitHub. Hasta el 2026-09-13 corría una sola vez al día (ver
+   "Estado de las fuentes" arriba, sección "2026-09-13").
 2. Instala Python + las dependencias en `requirements.txt` (`feedparser`,
    `PyYAML`, `trafilatura`).
 3. Corre, en orden: `fetch_news.py` → `resumir_ia.py` (recibe
@@ -777,12 +814,17 @@ sección **"Afiche diario y envío a Telegram"** más arriba: crea un bot con
 `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` en **Settings → Secrets and
 variables → Actions** del repo.
 
-### 6. Ajustar el horario del cron (opcional)
+### 6. Ajustar el horario/frecuencia del cron (opcional)
 
-El cron vive en `.github/workflows/diario.yml`, en la línea `- cron: "0 11 * * *"`,
-con comentarios al lado explicando la conversión a hora de Guayaquil. Está en
-UTC porque así lo interpreta GitHub Actions siempre — ajusta ese valor si
-quieres otra hora.
+El cron vive en `.github/workflows/diario.yml`, en la línea `- cron: "0 */4 * * *"`
+(cada 4 horas), con comentarios al lado explicando la conversión a hora de
+Guayaquil. Está en UTC porque así lo interpreta GitHub Actions siempre —
+ajusta ese valor si quieres otra frecuencia (por ejemplo `"0 */6 * * *"` para
+cada 6 horas, o volver a `"0 11 * * *"` para una sola corrida diaria).
+Correrlo más seguido también reparte a lo largo del día el envío de afiches a
+Telegram (paso 5c) en vez de mandarlos todos juntos una vez al día — si
+preferís el envío en un solo lote diario, avisá y se ajusta ese paso aparte
+en vez de tocar el cron general.
 
 ---
 
