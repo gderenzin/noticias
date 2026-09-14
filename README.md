@@ -100,6 +100,13 @@ User-Agent), Hispasec/una-al-día (404, el feed parece haberse movido o
 dejado de existir), y MuySeguridad, Globb Security, Telefónica Tech,
 Hackplayers y los CERT de Ecuador (CSIRT/EcuCERT) por errores de red o TLS.
 
+**Corrección del 2026-09-14**: el cron original de este cambio quedó "en
+punto" (`0 */4 * * *`). La corrida de las 20:00 UTC del 13/09 nunca apareció
+en el historial de Actions — GitHub documenta que el minuto 0 de cada hora es
+el de mayor congestión de su infraestructura y que ahí puede demorar o saltar
+una corrida programada entera. Se movió a `17 */4 * * *` (minuto 17) para
+evitarlo.
+
 ### Cómo agregar o quitar una fuente
 
 Edita `feeds.yaml` y agrega/quita un bloque como:
@@ -641,11 +648,15 @@ assets ni su CSS.
 
 ## Cómo funciona el workflow (.github/workflows/diario.yml)
 
-1. **Cron cada 4 horas** (`00, 04, 08, 12, 16, 20 UTC` ≈ `19:00, 23:00, 03:00,
-   07:00, 11:00, 15:00` America/Guayaquil, UTC-5 todo el año) + botón manual
-   (`workflow_dispatch`) para probarlo cuando quieras desde la pestaña
-   *Actions* de GitHub. Hasta el 2026-09-13 corría una sola vez al día (ver
-   "Estado de las fuentes" arriba, sección "2026-09-13").
+1. **Cron cada 4 horas, en el minuto 17** (`00:17, 04:17, 08:17, 12:17, 16:17,
+   20:17 UTC` ≈ `19:17, 23:17, 03:17, 07:17, 11:17, 15:17` America/Guayaquil,
+   UTC-5 todo el año) + botón manual (`workflow_dispatch`) para probarlo
+   cuando quieras desde la pestaña *Actions* de GitHub. No es "en punto"
+   a propósito: GitHub demora o directamente salta corridas programadas
+   justo al minuto 0 de cada hora (es el momento de mayor carga en su
+   infraestructura) — le pasó a la primera versión de este cron, que sí
+   estaba "en punto" (ver "2026-09-13" en "Estado de las fuentes" arriba).
+   Hasta el 2026-09-13 corría una sola vez al día.
 2. Instala Python + las dependencias en `requirements.txt` (`feedparser`,
    `PyYAML`, `trafilatura`).
 3. Corre, en orden: `fetch_news.py` → `resumir_ia.py` (recibe
@@ -816,8 +827,9 @@ variables → Actions** del repo.
 
 ### 6. Ajustar el horario/frecuencia del cron (opcional)
 
-El cron vive en `.github/workflows/diario.yml`, en la línea `- cron: "0 */4 * * *"`
-(cada 4 horas), con comentarios al lado explicando la conversión a hora de
+El cron vive en `.github/workflows/diario.yml`, en la línea `- cron: "17 */4 * * *"`
+(cada 4 horas, minuto 17 -- no en punto, ver nota arriba sobre la congestión
+de GitHub en el minuto 0), con comentarios al lado explicando la conversión a hora de
 Guayaquil. Está en UTC porque así lo interpreta GitHub Actions siempre —
 ajusta ese valor si quieres otra frecuencia (por ejemplo `"0 */6 * * *"` para
 cada 6 horas, o volver a `"0 11 * * *"` para una sola corrida diaria).

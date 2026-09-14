@@ -9,10 +9,17 @@ name: Diario - Noticias de ciberseguridad
 # a lo largo del día lo que antes esperaba hasta la corrida de mañana.
 on:
   schedule:
-    # 6 corridas por día, cada 4h, en punto (UTC): 00, 04, 08, 12, 16, 20.
-    # En America/Guayaquil (UTC-5, sin horario de verano): 19:00, 23:00,
-    # 03:00, 07:00, 11:00, 15:00. Formato: min hora dia mes diasemana (UTC).
-    - cron: "0 */4 * * *"
+    # 6 corridas por día, cada 4h, EN EL MINUTO 17 (no en punto): GitHub avisa
+    # en su propia documentación que el minuto 0 de cada hora es el de mayor
+    # congestión (todo el mundo programa ahí), así que un cron "en punto"
+    # puede demorarse mucho o directamente saltarse una corrida entera bajo
+    # carga alta -- justo lo que pasó la primera vez que se probó esto con
+    # "0 */4 * * *" (la corrida de las 20:00 UTC del 2026-09-13 nunca
+    # apareció en el historial de Actions). Horarios (UTC): 00:17, 04:17,
+    # 08:17, 12:17, 16:17, 20:17. En America/Guayaquil (UTC-5, sin horario de
+    # verano): 19:17, 23:17, 03:17, 07:17, 11:17, 15:17. Formato: min hora
+    # dia mes diasemana (UTC).
+    - cron: "17 */4 * * *"
   workflow_dispatch: {}
 
 # Permisos mínimos: solo necesitamos poder commitear/pushear al propio repo.
