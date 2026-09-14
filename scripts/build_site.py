@@ -1461,6 +1461,17 @@ RE_IMG_DESTACADA_ARCHIVO = re.compile(
     r'noticia-imagen--destacada">\s*<span class="categoria-badge">[^<]*</span>\s*<img src="(/imagenes/[^"]+)"'
 )
 RE_HREF_NOTICIA_ARCHIVO = re.compile(r'href="(/noticia/[^"]+)"')
+# Desde que cada archivo/AAAA-MM-DD.html también lleva el sidebar de
+# "Últimas noticias" (ver _envolver_con_sidebar), esa página YA NO tiene solo
+# links a las noticias de ese día -- también trae ~7 links a lo más reciente
+# del sitio en general, que puede ser de otro día cualquiera. Contar
+# "/noticia/" en toda la página duplica ese conteo (una edición con 7
+# noticias reales aparecía como "14 noticias" en archivo/index.html). Por
+# eso acá se recorta primero al contenido principal (mismo marcador que ya
+# usa la portada para lo mismo, ver más abajo) antes de contar.
+RE_CONTENIDO_PRINCIPAL = re.compile(
+    r"<!-- INICIO-CONTENIDO-PRINCIPAL -->\n(.*?)<!-- FIN-CONTENIDO-PRINCIPAL -->", re.DOTALL
+)
 
 
 def _info_dia_archivo(fecha: str) -> dict:
@@ -1470,7 +1481,9 @@ def _info_dia_archivo(fecha: str) -> dict:
     texto = ruta.read_text(encoding="utf-8")
     m_img = RE_IMG_DESTACADA_ARCHIVO.search(texto)
     imagen = m_img.group(1) if m_img else "/assets/logo-derenzin.png"
-    cantidad = len(set(RE_HREF_NOTICIA_ARCHIVO.findall(texto)))
+    m_contenido = RE_CONTENIDO_PRINCIPAL.search(texto)
+    contenido_dia = m_contenido.group(1) if m_contenido else texto
+    cantidad = len(set(RE_HREF_NOTICIA_ARCHIVO.findall(contenido_dia)))
     return {"imagen": imagen, "cantidad": cantidad}
 
 
@@ -1973,9 +1986,7 @@ def main() -> None:
         # el archivo del día también lleva sidebar (ver
         # _envolver_con_sidebar), capturar todo el <main> como antes hubiera
         # anidado un sidebar dentro de otro en la portada.
-        m_items = re.search(
-            r"<!-- INICIO-CONTENIDO-PRINCIPAL -->\n(.*?)<!-- FIN-CONTENIDO-PRINCIPAL -->", contenido_dia, re.DOTALL
-        )
+        m_items = RE_CONTENIDO_PRINCIPAL.search(contenido_dia)
         items_html_portada = m_items.group(1) if m_items else ""
 
         index_html = render_pagina_index(
