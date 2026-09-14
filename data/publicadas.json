@@ -2239,6 +2239,86 @@
       "fecha_publicacion_iso": "2026-09-12T14:00:00+00:00",
       "fecha_agregada_iso": "2026-09-13T14:43:56.037684+00:00",
       "ruta_noticia": "/noticia/2026-09-13-broadcom-prohibe-descargar-imagenes-de-vmware-vddk-para-migr-fcc06db0.html"
+    },
+    "https://therecord.media/nsa-reorganization-five-mission-centers": {
+      "guid": "https://therecord.media/nsa-reorganization-five-mission-centers",
+      "fuente": "The Record",
+      "titulo": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
+      "fecha_publicacion_iso": "2026-09-13T21:36:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-thorough-reorganization-at-nsa-will-create-five-mission-cent-57da8d07.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/malos-usos-de-claude-informe-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4633510485074170811",
+      "fuente": "Segu-Info",
+      "titulo": "Malos usos de Claude [informe de Anthropic]",
+      "fecha_publicacion_iso": "2026-09-13T18:34:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-malos-usos-de-claude-informe-de-anthropic-fb12c965.html"
+    },
+    "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/": {
+      "guid": "https://www.securityweek.com/?p=49281",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+      "fecha_publicacion_iso": "2026-09-13T13:27:25+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-sa-39200ce3.html"
+    },
+    "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000": {
+      "guid": "https://www.theregister.com/a/5296000",
+      "fuente": "The Register - Security",
+      "titulo": "Security through obscurity is dead, and AI delivered the fatal blow",
+      "fecha_publicacion_iso": "2026-09-13T11:21:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-security-through-obscurity-is-dead-and-ai-delivered-the-fata-a51cde05.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/?p=383905",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited",
+      "fecha_publicacion_iso": "2026-09-13T08:00:57+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devic-2727d125.html"
+    },
+    "http://www.elladodelmal.com/2026/09/1-de-octubre-hello-world-grupo-de.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5937636016943757791",
+      "fuente": "El Lado del Mal",
+      "titulo": "1 de Octubre: Hello World! Grupo de Usuarios de Cloudflare en Madrid.",
+      "fecha_publicacion_iso": "2026-09-12T23:44:28+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-1-de-octubre-hello-world-grupo-de-usuarios-de-cloudflare-en-c6d77719.html"
+    },
+    "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/": {
+      "guid": "https://www.securityweek.com/?p=49264",
+      "fuente": "SecurityWeek",
+      "titulo": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+      "fecha_publicacion_iso": "2026-09-12T11:10:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days-a40c11f8.html"
+    },
+    "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/": {
+      "guid": "6aa461bc4de88ba2f8bc1d47",
+      "fuente": "Wired - Security",
+      "titulo": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+      "fecha_publicacion_iso": "2026-09-12T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere-9d12233e.html"
+    },
+    "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/": {
+      "guid": "https://www.securityweek.com/?p=49277",
+      "fuente": "SecurityWeek",
+      "titulo": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
+      "fecha_publicacion_iso": "2026-09-12T01:50:53+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-62cd06ab.html"
+    },
+    "https://cyberscoop.com/openai-agents-malicious-rubygems-packages/": {
+      "guid": "https://cyberscoop.com/?p=90664",
+      "fuente": "CyberScoop",
+      "titulo": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
+      "fecha_publicacion_iso": "2026-09-12T01:50:30+00:00",
+      "fecha_agregada_iso": "2026-09-14T00:21:48.756724+00:00",
+      "ruta_noticia": "/noticia/2026-09-13-researchers-say-openai-agents-were-behind-may-hacking-campai-a4d7aa20.html"
     }
   }
 }
