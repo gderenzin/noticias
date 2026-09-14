@@ -322,11 +322,25 @@ ORDEN_CATEGORIAS = ["ransomware", "phishing", "filtracion_datos", "vulnerabilida
 # de ORDEN_CATEGORIAS + "generico" (etiqueta "Ciberseguridad", el respaldo
 # que categorizar() devuelve cuando ninguna palabra clave coincide -- NO es
 # una categoría marginal: al revisar los datos reales tiene más noticias que
-# ransomware, phishing o filtración de datos juntas). Protección de Datos NO
-# entra acá a propósito -- ya tiene su propia sección separada en la
-# navegación principal (site/proteccion-datos/); agregarla también acá sería
-# redundante (decisión confirmada con el dueño del sitio).
-CATEGORIAS_SIDEBAR = ORDEN_CATEGORIAS + ["generico"]
+# ransomware, phishing o filtración de datos juntas) + "proteccion_datos".
+#
+# Protección de Datos SÍ entra acá (agregada 2026-09-14, a pedido explícito
+# del dueño del sitio) -- antes se excluía a propósito porque ya tenía su
+# propia sección en la navegación principal (site/proteccion-datos/) y se
+# consideró redundante; esa sección sigue existiendo tal cual (muestra las
+# últimas MAX_RECIENTES_PROTECCION_DATOS, ver render_pagina_seccion_
+# proteccion_datos), pero ahora ADEMÁS aparece como categoría en el sidebar
+# de cualquier página del sitio, con su propia site/categoria/
+# proteccion_datos.html listando TODAS sus noticias publicadas (mismo
+# mecanismo que las demás -- ver generar_paginas_categoria()).
+#
+# OJO: esto NO toca ORDEN_CATEGORIAS (la lista que usa categorizar() para
+# clasificar por palabras clave) -- "proteccion_datos" sigue con
+# "palabras": [] y sigue asignándose ÚNICAMENTE cuando el ítem ya trae
+# item["categoria"] == "proteccion_datos" fijado por feeds.yaml, nunca por
+# coincidencia de texto. Un artículo de ciberseguridad que solo MENCIONA
+# "datos personales" de paso sigue sin poder terminar mal-clasificado acá.
+CATEGORIAS_SIDEBAR = ORDEN_CATEGORIAS + ["generico", "proteccion_datos"]
 
 
 def categorizar(item: dict) -> str:
@@ -1067,7 +1081,7 @@ def recolectar_indice_categorias() -> dict[str, list[dict]]:
             continue
         categoria = m_categoria.group(1)
         if categoria not in indice:
-            continue  # proteccion_datos u otra categoría fuera del sidebar -- a propósito no entra acá
+            continue  # categoría fuera de CATEGORIAS_SIDEBAR (ninguna hoy, pero por si se agrega una futura sin página de categoría propia)
 
         m_img = RE_IMG_DETALLE.search(texto)
         m_cuerpo = RE_CUERPO_PARRAFOS_DETALLE.search(texto)

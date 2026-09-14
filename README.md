@@ -197,6 +197,33 @@ de compartir, traducción/no-traducción, SEO) en vez de ser un sitio aparte.
   Datos" usan ruta absoluta desde la raíz del sitio, que funciona igual sin
   importar desde qué carpeta se enlace.
 
+### 2026-09-14 — "Protección de Datos" también como categoría del sidebar
+
+Hasta acá, Protección de Datos vivía SOLO en su propia sección de
+navegación (arriba) — a propósito no era una de las categorías del sidebar
+"Categorías" (se consideró redundante). A pedido explícito del dueño del
+sitio, ahora TAMBIÉN es la 8va categoría de `CATEGORIAS_SIDEBAR` en
+`build_site.py`: aparece en el sidebar de Categorías de cualquier página del
+sitio, y tiene su propia `site/categoria/proteccion_datos.html` con TODAS
+sus noticias publicadas (mismo mecanismo que las otras 7 — ver
+`generar_paginas_categoria()`). La sección de navegación propia no cambió
+en nada; ahora son dos formas de llegar al mismo contenido, no una
+reemplaza a la otra.
+
+Este cambio NO toca `ORDEN_CATEGORIAS` (la lista que usa `categorizar()`
+para clasificar por palabras clave) — "proteccion_datos" sigue con
+`"palabras": []` y solo se asigna cuando el ítem ya trae `categoria:
+proteccion_datos` fijado en `feeds.yaml`, nunca por coincidencia de texto.
+Un artículo de ciberseguridad que solo menciona "datos personales" de paso
+sigue sin poder terminar clasificado ahí por error.
+
+Como el sidebar vive horneado en cada página ya publicada (no es un include
+en tiempo de request), agregar la categoría no actualizaba solas las ~300
+páginas ya publicadas — se corrió una migración puntual,
+`scripts/agregar_categoria_proteccion_datos.py` (mismo patrón que
+`agregar_sidebar_paginas_existentes.py`), para reescribir el bloque
+`<ul class="sidebar-categorias">` de cada una.
+
 ---
 
 ## Estructura del repositorio
