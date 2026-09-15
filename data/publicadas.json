@@ -2831,6 +2831,38 @@
       "fecha_publicacion_iso": "2026-09-14T17:58:16+00:00",
       "fecha_agregada_iso": "2026-09-14T23:09:26.049433+00:00",
       "ruta_noticia": "/noticia/2026-09-14-telegram-desktop-flaw-lets-hidden-javascript-exfiltrate-mess-65cd3528.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/gartner-ai-in-internal-audit/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384449",
+      "fuente": "Help Net Security",
+      "titulo": "Most chief audit executives can’t tell you what AI is worth yet",
+      "fecha_publicacion_iso": "2026-09-15T04:30:42+00:00",
+      "fecha_agregada_iso": "2026-09-15T04:55:17.001198+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-most-chief-audit-executives-cant-tell-you-what-ai-is-worth-y-712b5a00.html"
+    },
+    "http://www.elladodelmal.com/2026/09/cloudflare-el-exoesqueleto-de-seguridad.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6868824292643920355",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cloudflare: El \"exoesqueleto\" de seguridad y aceleración en Internet para el 25.7% de los dominios de Internet mundiales",
+      "fecha_publicacion_iso": "2026-09-15T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T04:55:17.001198+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-cloudflare-el-exoesqueleto-de-seguridad-y-aceleracion-en-int-02a02b0c.html"
+    },
+    "https://cyberscoop.com/supreme-court-denies-trump-usps-mail-ballot-changes/": {
+      "guid": "https://cyberscoop.com/?p=90673",
+      "fuente": "CyberScoop",
+      "titulo": "Supreme Court denies Trump request to allow USPS mail ballot changes",
+      "fecha_publicacion_iso": "2026-09-15T02:15:47+00:00",
+      "fecha_agregada_iso": "2026-09-15T04:55:17.001198+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-supreme-court-denies-trump-request-to-allow-usps-mail-ballot-715e810d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384572",
+      "fuente": "Help Net Security",
+      "titulo": "Homebrew 7.0.0 is out, here’s what changed for security",
+      "fecha_publicacion_iso": "2026-09-15T00:47:06+00:00",
+      "fecha_agregada_iso": "2026-09-15T04:55:17.001198+00:00",
+      "ruta_noticia": "/noticia/2026-09-14-homebrew-7-0-0-is-out-heres-what-changed-for-security-66e6c3ca.html"
     }
   }
 }
