@@ -3127,6 +3127,206 @@
       "fecha_publicacion_iso": "2026-09-15T04:56:09+00:00",
       "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
       "ruta_noticia": "/noticia/2026-09-15-the-latest-ai-doomsayer-is-chinas-intelligence-boss-bc479d98.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/low-quality-casino-sites-conceal-highly-dangerous-threat-actors/5296652": {
+      "guid": "https://www.theregister.com/a/5296652",
+      "fuente": "The Register - Security",
+      "titulo": "Low-quality casino sites conceal highly dangerous threat actors",
+      "fecha_publicacion_iso": "2026-09-15T19:38:58+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-low-quality-casino-sites-conceal-highly-dangerous-threat-act-e05c91be.html"
+    },
+    "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/": {
+      "guid": "https://www.securityweek.com/?p=49348",
+      "fuente": "SecurityWeek",
+      "titulo": "“We Think the Security Control Is Working” Is No Longer Good Enough",
+      "fecha_publicacion_iso": "2026-09-15T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-we-think-the-security-control-is-working-is-no-longer-good-e-341d2d73.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
+      "fuente": "Dark Reading",
+      "titulo": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+      "fecha_publicacion_iso": "2026-09-15T19:27:19+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-black-hat-usa-2026-the-breaking-news-the-openaihugging-face-3f06b0b0.html"
+    },
+    "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html": {
+      "guid": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "fuente": "The Hacker News",
+      "titulo": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+      "fecha_publicacion_iso": "2026-09-15T18:54:14+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-kremlin-banking-malware-hijacks-chrome-and-edge-to-steal-cre-72927b78.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646": {
+      "guid": "https://www.theregister.com/a/5296646",
+      "fuente": "The Register - Security",
+      "titulo": "Iranian spies hit Windows machines with Chosen Brick data-stealing malware",
+      "fecha_publicacion_iso": "2026-09-15T18:01:57+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-iranian-spies-hit-windows-machines-with-chosen-brick-data-st-047d99bb.html"
+    },
+    "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises": {
+      "guid": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
+      "fuente": "Dark Reading",
+      "titulo": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+      "fecha_publicacion_iso": "2026-09-15T16:45:37+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-vectrarat-can-hack-windows-enterprises-for-250-per-month-44d4cd64.html"
+    },
+    "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html": {
+      "guid": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+      "fuente": "The Hacker News",
+      "titulo": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+      "fecha_publicacion_iso": "2026-09-15T16:29:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-iranian-hackers-use-telegram-controlled-malware-to-spy-on-di-b3a741b2.html"
+    },
+    "https://therecord.media/iran-cyber-spies-use-fake-mri-scans-as-lure": {
+      "guid": "https://therecord.media/iran-cyber-spies-use-fake-mri-scans-as-lure",
+      "fuente": "The Record",
+      "titulo": "Iranian cyber spies used fake MRI scan results to hack ‘enemy of regime’",
+      "fecha_publicacion_iso": "2026-09-15T16:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-iranian-cyber-spies-used-fake-mri-scan-results-to-hack-enemy-19fccc48.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/cisco-email-security-boxes-can-be-rooted-by-an-email/5296604": {
+      "guid": "https://www.theregister.com/a/5296604",
+      "fuente": "The Register - Security",
+      "titulo": "Cisco email security boxes can be rooted by... an email",
+      "fecha_publicacion_iso": "2026-09-15T16:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-cisco-email-security-boxes-can-be-rooted-by-an-email-1c819a00.html"
+    },
+    "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/": {
+      "guid": "https://www.securityweek.com/?p=49330",
+      "fuente": "SecurityWeek",
+      "titulo": "$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws",
+      "fecha_publicacion_iso": "2026-09-15T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-1-million-sandbox-challenge-uncovers-linux-kernel-flaws-99c72abd.html"
+    },
+    "https://www.securityweek.com/exein-secures-270m-at-1-7b-valuation-for-physical-ai-security/": {
+      "guid": "https://www.securityweek.com/?p=49342",
+      "fuente": "SecurityWeek",
+      "titulo": "Exein Secures $270M at $1.7B Valuation for Physical AI Security",
+      "fecha_publicacion_iso": "2026-09-15T15:45:13+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-exein-secures-270m-at-1-7b-valuation-for-physical-ai-securit-80910b3d.html"
+    },
+    "https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/": {
+      "guid": "https://cyberscoop.com/?p=90678",
+      "fuente": "CyberScoop",
+      "titulo": "Cisco warns customers of actively exploited zero-day in email gateways",
+      "fecha_publicacion_iso": "2026-09-15T15:44:41+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-cisco-warns-customers-of-actively-exploited-zero-day-in-emai-945dfd46.html"
+    },
+    "https://therecord.media/ukraine-cyber-coordination-center-ihor-klymenko": {
+      "guid": "https://therecord.media/ukraine-cyber-coordination-center-ihor-klymenko",
+      "fuente": "The Record",
+      "titulo": "Zelensky appoints former police chief to lead Ukraine’s cyber coordination center",
+      "fecha_publicacion_iso": "2026-09-15T15:09:23+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-zelensky-appoints-former-police-chief-to-lead-ukraines-cyber-79dcd809.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+      "fuente": "BleepingComputer",
+      "titulo": "BambooToken malware controls Windows and Linux systems via MQTT",
+      "fecha_publicacion_iso": "2026-09-15T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-bambootoken-malware-controls-windows-and-linux-systems-via-m-6263a1c1.html"
+    },
+    "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html": {
+      "guid": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "BambooToken malware controls Windows and Linux systems via MQTT",
+      "fecha_publicacion_iso": "2026-09-15T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-bambootoken-malware-controls-windows-and-linux-systems-via-m-6263a1c1.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/sponsored-whos-governing-your-ai-a-trust-framework-for-enterprise-agents-and-models/5294237": {
+      "guid": "https://www.theregister.com/a/5294237",
+      "fuente": "The Register - Security",
+      "titulo": "Who's governing your AI? A trust framework for enterprise agents and models",
+      "fecha_publicacion_iso": "2026-09-15T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-who-s-governing-your-ai-a-trust-framework-for-enterprise-age-5a0300c8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers target WordPress sites via third-party WooCommerce plugin",
+      "fecha_publicacion_iso": "2026-09-15T14:45:10+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-hackers-target-wordpress-sites-via-third-party-woocommerce-p-7b737579.html"
+    },
+    "https://therecord.media/centerpoint-energy-data-breach": {
+      "guid": "https://therecord.media/centerpoint-energy-data-breach",
+      "fuente": "The Record",
+      "titulo": "Electric and gas utility CenterPoint Energy warns of data breach after dark web post",
+      "fecha_publicacion_iso": "2026-09-15T14:22:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-electric-and-gas-utility-centerpoint-energy-warns-of-data-br-a0b1400d.html"
+    },
+    "https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/": {
+      "guid": "https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/",
+      "fuente": "SecurityWeek",
+      "titulo": "Electric and gas utility CenterPoint Energy warns of data breach after dark web post",
+      "fecha_publicacion_iso": "2026-09-15T14:22:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-electric-and-gas-utility-centerpoint-energy-warns-of-data-br-a0b1400d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Electric and gas utility CenterPoint Energy warns of data breach after dark web post",
+      "fecha_publicacion_iso": "2026-09-15T14:22:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-electric-and-gas-utility-centerpoint-energy-warns-of-data-br-a0b1400d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/f5-distributed-cloud-bot-defense-enhancements/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384686",
+      "fuente": "Help Net Security",
+      "titulo": "F5 Bot Defense uses real-time risk scoring to detect fraud and abuse",
+      "fecha_publicacion_iso": "2026-09-15T13:55:44+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-f5-bot-defense-uses-real-time-risk-scoring-to-detect-fraud-a-e6ea0d35.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+      "fuente": "BleepingComputer",
+      "titulo": "What Zero-Day Response Should Be in the Post-Mythos Era",
+      "fecha_publicacion_iso": "2026-09-15T13:45:54+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-what-zero-day-response-should-be-in-the-post-mythos-era-dd7745fe.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/postman-passport/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384682",
+      "fuente": "Help Net Security",
+      "titulo": "Postman Passport controls API access without exposing credentials",
+      "fecha_publicacion_iso": "2026-09-15T13:40:57+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-postman-passport-controls-api-access-without-exposing-creden-6a1ce0fb.html"
+    },
+    "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=49333",
+      "fuente": "SecurityWeek",
+      "titulo": "Thai Broadband Provider Hacked via Fortinet Vulnerability",
+      "fecha_publicacion_iso": "2026-09-15T13:33:58+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-thai-broadband-provider-hacked-via-fortinet-vulnerability-93b75292.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/ultraviolet-cyber-equinox/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384678",
+      "fuente": "Help Net Security",
+      "titulo": "UltraViolet Cyber Equinox measures detection coverage against MITRE frameworks",
+      "fecha_publicacion_iso": "2026-09-15T13:33:58+00:00",
+      "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-ultraviolet-cyber-equinox-measures-detection-coverage-agains-30501c6a.html"
     }
   }
 }
