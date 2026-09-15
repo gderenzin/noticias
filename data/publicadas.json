@@ -3327,6 +3327,62 @@
       "fecha_publicacion_iso": "2026-09-15T13:33:58+00:00",
       "fecha_agregada_iso": "2026-09-15T19:47:42.385222+00:00",
       "ruta_noticia": "/noticia/2026-09-15-ultraviolet-cyber-equinox-measures-detection-coverage-agains-30501c6a.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-setting-number-of-patches/5296679": {
+      "guid": "https://www.theregister.com/a/5296679",
+      "fuente": "The Register - Security",
+      "titulo": "The vulnpocalypse rains iBugs down on Apple with record-setting number of patches",
+      "fecha_publicacion_iso": "2026-09-15T21:38:31+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-sett-abbfd892.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+      "fuente": "BleepingComputer",
+      "titulo": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+      "fecha_publicacion_iso": "2026-09-15T21:37:35+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backu-f3463d1e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+      "fecha_publicacion_iso": "2026-09-15T20:34:15+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpr-d97cf7bf.html"
+    },
+    "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/": {
+      "guid": "https://www.securityweek.com/?p=49345",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+      "fecha_publicacion_iso": "2026-09-15T20:24:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-microsoft-commits-to-sweeping-ai-privacy-rules-for-students-e43bafca.html"
+    },
+    "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday": {
+      "guid": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
+      "fuente": "Dark Reading",
+      "titulo": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
+      "fecha_publicacion_iso": "2026-09-15T20:16:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-microsoft-issues-emergency-fixes-after-massive-patch-tuesday-693dfdf4.html"
+    },
+    "https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime": {
+      "guid": "https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime",
+      "fuente": "The Record",
+      "titulo": "Norway announces investigations into telecom Telenor’s work with Myanmar junta",
+      "fecha_publicacion_iso": "2026-09-15T20:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-norway-announces-investigations-into-telecom-telenors-work-w-45aed984.html"
+    },
+    "https://cyberscoop.com/whats-next-for-cisas-cdm-program-that-gives-cybersecurity-tools-to-federal-agencies/": {
+      "guid": "https://cyberscoop.com/?p=90680",
+      "fuente": "CyberScoop",
+      "titulo": "What’s next for CISA’s CDM program that gives cybersecurity tools to federal agencies",
+      "fecha_publicacion_iso": "2026-09-15T19:45:35+00:00",
+      "fecha_agregada_iso": "2026-09-15T22:54:48.422434+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-whats-next-for-cisas-cdm-program-that-gives-cybersecurity-to-48a7332e.html"
     }
   }
 }
