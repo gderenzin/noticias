@@ -2863,6 +2863,270 @@
       "fecha_publicacion_iso": "2026-09-15T00:47:06+00:00",
       "fecha_agregada_iso": "2026-09-15T04:55:17.001198+00:00",
       "ruta_noticia": "/noticia/2026-09-14-homebrew-7-0-0-is-out-heres-what-changed-for-security-66e6c3ca.html"
+    },
+    "https://www.theregister.com/security/2026/09/15/swiss-court-sentences-52-year-old-ukrainian-ransomware-dev-to-nearly-13-years-in-the-cooler/5296482": {
+      "guid": "https://www.theregister.com/a/5296482",
+      "fuente": "The Register - Security",
+      "titulo": "Swiss court sentences 52-year-old Ukrainian ransomware dev to nearly 13 years in the cooler",
+      "fecha_publicacion_iso": "2026-09-15T13:32:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-swiss-court-sentences-52-year-old-ukrainian-ransomware-dev-t-c67bfaf1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/globalgig-expands-managed-security-with-ai-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384674",
+      "fuente": "Help Net Security",
+      "titulo": "Globalgig expands managed security portfolio to protect enterprise AI",
+      "fecha_publicacion_iso": "2026-09-15T13:21:28+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-globalgig-expands-managed-security-portfolio-to-protect-ente-9dcff157.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/enzoic-ebook-identity-first-threat-intelligence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384412",
+      "fuente": "Help Net Security",
+      "titulo": "eBook: Identity-First Threat Intelligence",
+      "fecha_publicacion_iso": "2026-09-15T13:00:09+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-ebook-identity-first-threat-intelligence-100228f0.html"
+    },
+    "https://therecord.media/china-spy-chief-warns-of-us-ai-models": {
+      "guid": "https://therecord.media/china-spy-chief-warns-of-us-ai-models",
+      "fuente": "The Record",
+      "titulo": "China spy chief points at US AI models in cyber threat warning",
+      "fecha_publicacion_iso": "2026-09-15T12:54:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-china-spy-chief-points-at-us-ai-models-in-cyber-threat-warni-4db4c39c.html"
+    },
+    "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/": {
+      "guid": "https://www.securityweek.com/?p=49327",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
+      "fecha_publicacion_iso": "2026-09-15T12:42:32+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-openai-investigates-report-linking-ai-agents-to-rubygems-att-24074aa2.html"
+    },
+    "https://therecord.media/manhattan-da-takes-down-12-ai-deepfake-porn-sites": {
+      "guid": "https://therecord.media/manhattan-da-takes-down-12-ai-deepfake-porn-sites",
+      "fuente": "The Record",
+      "titulo": "Manhattan DA takes down 12 AI deepfake porn sites",
+      "fecha_publicacion_iso": "2026-09-15T12:42:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-manhattan-da-takes-down-12-ai-deepfake-porn-sites-323c311c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/luciferus-uncensored-ai-service-hacking-forum/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384649",
+      "fuente": "Help Net Security",
+      "titulo": "Uncensored AI sold on hacking forum as alternative to ChatGPT and Claude jailbreaks",
+      "fecha_publicacion_iso": "2026-09-15T12:32:29+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-uncensored-ai-sold-on-hacking-forum-as-alternative-to-chatgp-93432d5a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+      "fecha_publicacion_iso": "2026-09-15T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-cisa-critical-vmware-rce-flaw-now-exploited-by-ransomware-ga-90bf31e0.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/guia-para-la-mitigacion-de-amenazas.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5540319500019835376",
+      "fuente": "Segu-Info",
+      "titulo": "Guía para la mitigación de amenazas internas (insider)",
+      "fecha_publicacion_iso": "2026-09-15T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-guia-para-la-mitigacion-de-amenazas-internas-insider-a8b8eb9a.html"
+    },
+    "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html": {
+      "guid": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+      "fecha_publicacion_iso": "2026-09-15T11:52:28+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-human-attacker-exploits-marimo-rce-reaches-ssh-bastion-in-ei-cb508cd6.html"
+    },
+    "https://www.securityweek.com/240000-hit-by-data-breach-at-japans-digital-agency/": {
+      "guid": "https://www.securityweek.com/?p=49324",
+      "fuente": "SecurityWeek",
+      "titulo": "240,000 Hit by Data Breach at Japan’s Digital Agency",
+      "fecha_publicacion_iso": "2026-09-15T11:45:31+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-240-000-hit-by-data-breach-at-japans-digital-agency-c2ec6954.html"
+    },
+    "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html": {
+      "guid": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+      "fecha_publicacion_iso": "2026-09-15T11:26:36+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-attack-chains-not-just-attack-surfaces-why-testing-individua-a56a1c9d.html"
+    },
+    "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html": {
+      "guid": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+      "fuente": "The Hacker News",
+      "titulo": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+      "fecha_publicacion_iso": "2026-09-15T11:12:32+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-mass-scanning-campaign-exploits-vite-flaw-to-extract-cloud-c-2863f9a0.html"
+    },
+    "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/": {
+      "guid": "https://www.securityweek.com/?p=49319",
+      "fuente": "SecurityWeek",
+      "titulo": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
+      "fecha_publicacion_iso": "2026-09-15T11:06:11+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-apple-patches-200-vulnerabilities-with-new-ios-27-macos-gold-0532d7c1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/microsoft-ai-safety-rules-humanist-ai-code-of-conduct/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384632",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft sets security and safety rules for its AI models",
+      "fecha_publicacion_iso": "2026-09-15T10:50:36+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-microsoft-sets-security-and-safety-rules-for-its-ai-models-f6bed5d3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+      "fuente": "BleepingComputer",
+      "titulo": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+      "fecha_publicacion_iso": "2026-09-15T09:50:25+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-suspected-black-axe-gang-leaders-face-cybercrime-charges-in-82c4d7ab.html"
+    },
+    "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/": {
+      "guid": "https://www.securityweek.com/?p=49315",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
+      "fecha_publicacion_iso": "2026-09-15T09:40:25+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-cha-7444a0a8.html"
+    },
+    "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/": {
+      "guid": "https://www.securityweek.com/?p=49312",
+      "fuente": "SecurityWeek",
+      "titulo": "Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack",
+      "fecha_publicacion_iso": "2026-09-15T09:09:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-hacked-hbo-max-reddit-account-used-for-malware-delivery-via-1041d1a0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/",
+      "fuente": "Help Net Security",
+      "titulo": "Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack",
+      "fecha_publicacion_iso": "2026-09-15T09:09:00+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-hacked-hbo-max-reddit-account-used-for-malware-delivery-via-1041d1a0.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+      "fecha_publicacion_iso": "2026-09-15T08:40:20+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-microsoft-confirms-kb5002914-excel-update-breaks-copy-and-pa-50ab0029.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/akuity-agentic-control-plane/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384601",
+      "fuente": "Help Net Security",
+      "titulo": "Akuity gives AI agents operational context to safely ship software",
+      "fecha_publicacion_iso": "2026-09-15T08:37:15+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-akuity-gives-ai-agents-operational-context-to-safely-ship-so-bcbf98ad.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/traefik-labs-sovereign-trust-plane/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384596",
+      "fuente": "Help Net Security",
+      "titulo": "Traefik Labs brings independent verification to AI agent governance",
+      "fecha_publicacion_iso": "2026-09-15T08:20:11+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-traefik-labs-brings-independent-verification-to-ai-agent-gov-c5b8f459.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-android-septiembre-2026": {
+      "guid": "662530 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Android: septiembre 2026",
+      "fecha_publicacion_iso": "2026-09-15T07:31:12+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-boletin-de-seguridad-de-android-septiembre-2026-8720789d.html"
+    },
+    "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html": {
+      "guid": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+      "fuente": "The Hacker News",
+      "titulo": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+      "fecha_publicacion_iso": "2026-09-15T06:52:16+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-litespeed-enterprise-flaw-could-let-one-hosting-account-gain-6fecc4da.html"
+    },
+    "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html": {
+      "guid": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "fecha_publicacion_iso": "2026-09-15T05:31:05+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-china-linked-hackers-exploit-chrome-windows-zero-day-chain-t-ed5aa7d7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/product-showcase-msecure-password-manager/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384503",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: mSecure makes one vault do more than remember passwords",
+      "fecha_publicacion_iso": "2026-09-15T05:30:02+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-product-showcase-msecure-makes-one-vault-do-more-than-rememb-f676f491.html"
+    },
+    "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/": {
+      "guid": "https://www.securityweek.com/?p=49310",
+      "fuente": "SecurityWeek",
+      "titulo": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-15T05:18:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-root-rce-zero-day-in-cisco-secure-email-gateway-under-active-503d9e83.html"
+    },
+    "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-15T05:18:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-root-rce-zero-day-in-cisco-secure-email-gateway-under-active-503d9e83.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-14": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-14",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-15T05:18:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-root-rce-zero-day-in-cisco-secure-email-gateway-under-active-503d9e83.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+      "fuente": "BleepingComputer",
+      "titulo": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-15T05:18:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-root-rce-zero-day-in-cisco-secure-email-gateway-under-active-503d9e83.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/",
+      "fuente": "Help Net Security",
+      "titulo": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-15T05:18:51+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-root-rce-zero-day-in-cisco-secure-email-gateway-under-active-503d9e83.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/15/onetrust-enterprise-ai-governance-trends-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384450",
+      "fuente": "Help Net Security",
+      "titulo": "Your employees are already using AI tools you never approved",
+      "fecha_publicacion_iso": "2026-09-15T05:00:19+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-your-employees-are-already-using-ai-tools-you-never-approved-da518578.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/15/the-latest-ai-doomsayer-is-chinas-intelligence-boss/5296451": {
+      "guid": "https://www.theregister.com/a/5296451",
+      "fuente": "The Register - Security",
+      "titulo": "The latest AI doomsayer is China’s intelligence boss",
+      "fecha_publicacion_iso": "2026-09-15T04:56:09+00:00",
+      "fecha_agregada_iso": "2026-09-15T13:36:07.237623+00:00",
+      "ruta_noticia": "/noticia/2026-09-15-the-latest-ai-doomsayer-is-chinas-intelligence-boss-bc479d98.html"
     }
   }
 }
