@@ -15,11 +15,23 @@ on:
     # puede demorarse mucho o directamente saltarse una corrida entera bajo
     # carga alta -- justo lo que pasó la primera vez que se probó esto con
     # "0 */4 * * *" (la corrida de las 20:00 UTC del 2026-09-13 nunca
-    # apareció en el historial de Actions). Horarios (UTC): 00:17, 04:17,
-    # 08:17, 12:17, 16:17, 20:17. En America/Guayaquil (UTC-5, sin horario de
-    # verano): 19:17, 23:17, 03:17, 07:17, 11:17, 15:17. Formato: min hora
-    # dia mes diasemana (UTC).
-    - cron: "17 */4 * * *"
+    # apareció en el historial de Actions).
+    #
+    # Los horarios están corridos a propósito para que una corrida caiga
+    # apenas después de la medianoche de Guayaquil (00:17), en vez de horas
+    # antes de esa medianoche como pasaba con "*/4" a secas (una corrida a
+    # las 23:17 Guayaquil y la siguiente recién a las 03:17). Cada noticia
+    # se archiva bajo su fecha de publicación REAL en Guayaquil, no bajo el
+    # día de la corrida que la trajo (ver fecha_publicacion_gye() en
+    # build_site.py) -- con la corrida vieja, una noticia publicada poco
+    # antes de medianoche podía quedar sin buscarse hasta 4h después de
+    # cruzado el día, lo que se nota como "noticias de hoy archivadas ayer"
+    # en el sitio. Corriendo apenas 17 minutos después de medianoche, ese
+    # margen casi desaparece. Horarios (UTC): 01:17, 05:17, 09:17, 13:17,
+    # 17:17, 21:17. En America/Guayaquil (UTC-5, sin horario de verano):
+    # 20:17 (día anterior), 00:17, 04:17, 08:17, 12:17, 16:17. Formato: min
+    # hora dia mes diasemana (UTC).
+    - cron: "17 1,5,9,13,17,21 * * *"
   workflow_dispatch: {}
 
 # Permisos mínimos: solo necesitamos poder commitear/pushear al propio repo.
@@ -147,3 +159,17 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/enviar_telegram.py
+
+      - name: Publicar los afiches en Facebook (enviar_facebook.py)
+        # Mismo criterio que el paso de Telegram, de arriba: paso opcional
+        # de difusión (publica en la Página de Facebook del sitio) -- envía
+        # TODOS los afiches que dejó generar_afiche.py, uno por noticia
+        # nueva. Si no existen los secretos todavía, o si la Graph API de
+        # Meta falla con alguno, el script lo loguea y sigue con los demás
+        # sin nunca hacer fallar el workflow (ver README: "Afiche diario y
+        # envío a Telegram y Facebook").
+        if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        env:
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python scripts/enviar_facebook.py
