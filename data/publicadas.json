@@ -3879,6 +3879,110 @@
       "fecha_publicacion_iso": "2026-09-16T09:56:19+00:00",
       "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
       "ruta_noticia": "/noticia/2026-09-16-boletin-de-seguridad-de-atlassian-septiembre-de-2026-88cc5ee9.html"
+    },
+    "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991": {
+      "guid": "https://www.theregister.com/a/5296991",
+      "fuente": "The Register - Security",
+      "titulo": "AI agents can modify themselves without humans telling them to do so",
+      "fecha_publicacion_iso": "2026-09-16T22:10:24+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-ai-agents-can-modify-themselves-without-humans-telling-them-f217395f.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
+      "fuente": "Dark Reading",
+      "titulo": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
+      "fecha_publicacion_iso": "2026-09-16T21:26:55+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-ai-security-spending-jumps-as-fear-outpaces-proof-of-value-2399ff8c.html"
+    },
+    "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie": {
+      "guid": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
+      "fuente": "The Record",
+      "titulo": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
+      "fecha_publicacion_iso": "2026-09-16T21:07:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-key-lawmaker-suggests-action-on-ai-safety-legislation-will-w-721b02aa.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 KB5124008 update breaks domain trust for some users",
+      "fecha_publicacion_iso": "2026-09-16T20:39:29+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-windows-11-kb5124008-update-breaks-domain-trust-for-some-use-5a488cdb.html"
+    },
+    "https://www.theregister.com/security/2026/09/16/cisa-decides-weekly-vulnerability-bulletin-isnt-necessary-anymore/5296968": {
+      "guid": "https://www.theregister.com/a/5296968",
+      "fuente": "The Register - Security",
+      "titulo": "CISA decides weekly vulnerability bulletin isn't necessary anymore",
+      "fecha_publicacion_iso": "2026-09-16T20:33:48+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-cisa-decides-weekly-vulnerability-bulletin-isn-t-necessary-a-663833ce.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+      "fecha_publicacion_iso": "2026-09-16T20:24:55+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-t-fdd18745.html"
+    },
+    "https://cyberscoop.com/cisa-guidance-cyber-decoys-critical-infrastructure/": {
+      "guid": "https://cyberscoop.com/?p=90695",
+      "fuente": "CyberScoop",
+      "titulo": "CISA promotes a fresh way to deter cyberattackers: Lie to them",
+      "fecha_publicacion_iso": "2026-09-16T20:22:03+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-cisa-promotes-a-fresh-way-to-deter-cyberattackers-lie-to-the-5bdc965b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+      "fuente": "BleepingComputer",
+      "titulo": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+      "fecha_publicacion_iso": "2026-09-16T18:50:53+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-malware-bypasses-browser-checks-to-force-install-chrome-edge-014df6df.html"
+    },
+    "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi": {
+      "guid": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
+      "fuente": "The Record",
+      "titulo": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+      "fecha_publicacion_iso": "2026-09-16T18:46:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-coast-guard-fbi-boarded-tanker-after-attack-by-foreign-cyber-196e7767.html"
+    },
+    "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams": {
+      "guid": "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams",
+      "fuente": "The Record",
+      "titulo": "House passes bill to equip local law enforcement with scam-fighting tools",
+      "fecha_publicacion_iso": "2026-09-16T18:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-house-passes-bill-to-equip-local-law-enforcement-with-scam-f-cd6c9e5a.html"
+    },
+    "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/": {
+      "guid": "https://krebsonsecurity.com/?p=74300",
+      "fuente": "Krebs on Security",
+      "titulo": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "fecha_publicacion_iso": "2026-09-16T18:14:22+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-data-broker-radaris-loses-domains-in-privacy-fight-d6535337.html"
+    },
+    "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market": {
+      "guid": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market",
+      "fuente": "Dark Reading",
+      "titulo": "Fighting Your Dragons Through Tough Tech Times",
+      "fecha_publicacion_iso": "2026-09-16T18:00:54+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-fighting-your-dragons-through-tough-tech-times-6ed28c0f.html"
+    },
+    "https://www.theregister.com/security/2026/09/16/google-pixel-phones-pwned-in-zero-click-attacks/5296936": {
+      "guid": "https://www.theregister.com/a/5296936",
+      "fuente": "The Register - Security",
+      "titulo": "Google Pixel phones pwned in zero-click attacks",
+      "fecha_publicacion_iso": "2026-09-16T17:56:31+00:00",
+      "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-google-pixel-phones-pwned-in-zero-click-attacks-df9a56eb.html"
     }
   }
 }
