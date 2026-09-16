@@ -107,13 +107,45 @@ jobs:
             git commit -m "Actualización automática de noticias - $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Generar afiches de las noticias nuevas (generar_afiche.py)
+        # Un afiche por cada noticia nueva de hoy (data/nuevas_hoy.json --
+        # el mismo archivo que ya consumió build_site.py). No inventa
+        # nada: lee título/fuente/imagen/link tal cual quedaron publicados
+        # en la página de detalle de cada noticia (ver docstring del
+        # script). El propio script no hace nada si data/nuevas_hoy.json
+        # viene vacío, así que no hace falta condicionarlo a nada más --
+        # y tiene que correr ANTES de publicar site/ en gh-pages (paso de
+        # abajo) para que sus PNG alcancen a copiarse al sitio, ver el
+        # paso siguiente.
+        run: python scripts/generar_afiche.py
+
+      - name: Copiar los afiches al sitio para que tengan URL pública
+        # Los pasos de Telegram y Facebook mandan el PNG directo (subida
+        # de archivo), pero la API de publicación de contenido de
+        # Instagram NO acepta subir el archivo: exige una URL pública de
+        # la imagen. Por eso, antes de publicar site/ en gh-pages, se
+        # copian los afiches nuevos de hoy a site/imagenes/afiches/, para
+        # que noticias.derenzin.com/imagenes/afiches/<archivo>.png quede
+        # disponible para cuando corra enviar_instagram.py. No afecta a
+        # Telegram/Facebook, que siguen usando el PNG local en
+        # data/afiches/ como hasta ahora. Si no se generó ningún afiche
+        # nuevo en el paso anterior, este paso no copia nada (no es un
+        # error).
+        run: |
+          mkdir -p site/imagenes/afiches
+          if compgen -G "data/afiches/*.png" > /dev/null; then
+            cp data/afiches/*.png site/imagenes/afiches/
+          fi
+
       - name: Publicar site/ en la rama gh-pages
         # OJO: este paso corre SIEMPRE (no depende de si commit_main encontró
         # noticias nuevas ese día), porque site/ en main puede haber cambiado
         # por otro motivo el mismo día (p.ej. un merge manual de un análisis
         # original vía PR). La comparación real pasa acá abajo: si el site/
-        # recién generado es idéntico al que ya está en gh-pages, este paso
-        # no commitea ni pushea nada (ver "publicado" en el output).
+        # recién generado (ya con los afiches nuevos copiados adentro) es
+        # idéntico al que ya está en gh-pages, este paso no commitea ni
+        # pushea nada (ver "publicado" en el output).
         id: publicar_gh_pages
         run: |
           set -e
@@ -137,19 +169,9 @@ jobs:
             echo "publicado=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Generar afiches de las noticias nuevas (generar_afiche.py)
-        # Un afiche por cada noticia nueva de hoy (data/nuevas_hoy.json --
-        # el mismo archivo que ya consumió build_site.py). No inventa
-        # nada: lee título/fuente/imagen/link tal cual quedaron publicados
-        # en la página de detalle de cada noticia (ver docstring del
-        # script). Si gh-pages no cambió, este paso no corre -- no hay
-        # nada nuevo que generar.
-        if: steps.publicar_gh_pages.outputs.publicado == 'true'
-        run: python scripts/generar_afiche.py
-
       - name: Enviar los afiches a Telegram (enviar_telegram.py)
         # Paso opcional de notificación (para reenviar a mano al Estado de
-        # WhatsApp) -- envía TODOS los afiches que dejó el paso anterior,
+        # WhatsApp) -- envía TODOS los afiches que dejó generar_afiche.py,
         # uno por noticia nueva. Si no existen los secretos todavía, o si
         # Telegram falla con alguno, el script lo loguea y sigue con los
         # demás sin nunca hacer fallar el workflow (ver README: "Enviar el
@@ -167,9 +189,25 @@ jobs:
         # nueva. Si no existen los secretos todavía, o si la Graph API de
         # Meta falla con alguno, el script lo loguea y sigue con los demás
         # sin nunca hacer fallar el workflow (ver README: "Afiche diario y
-        # envío a Telegram y Facebook").
+        # envío a Telegram, Facebook e Instagram").
         if: steps.publicar_gh_pages.outputs.publicado == 'true'
         env:
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
         run: python scripts/enviar_facebook.py
+
+      - name: Publicar los afiches en Instagram (enviar_instagram.py)
+        # Mismo criterio que Telegram y Facebook, de arriba -- pero a
+        # diferencia de esos dos, este paso necesita que el afiche YA esté
+        # publicado en gh-pages con URL pública (ver el paso "Copiar los
+        # afiches al sitio", más arriba), porque la API de Instagram no
+        # acepta subir el archivo directo. Reusa el mismo token de la
+        # Página de Facebook (debe tener además los permisos
+        # instagram_basic e instagram_content_publish -- ver README). Si
+        # no existen los secretos todavía, o si la Graph API falla con
+        # alguno, el script lo loguea y sigue sin hacer fallar el workflow.
+        if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        env:
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python scripts/enviar_instagram.py
