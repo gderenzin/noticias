@@ -1,0 +1,57 @@
+name: Publicar backfill de hoy en Facebook
+
+# Workflow SOLO manual (no tiene "schedule"), pensado para un uso puntual:
+# el día en que se activó enviar_facebook.py, las corridas de la mañana ya
+# habían publicado noticias en el sitio (y en Telegram) sin poder mandarlas
+# a Facebook todavía porque faltaban los secretos. Este workflow corre
+# scripts/publicar_hoy_facebook.py, que publica en la Página, una por una,
+# TODAS las noticias ya publicadas ese día en el sitio (por defecto "hoy"
+# en America/Guayaquil) -- a diferencia de prueba_facebook.yml, que publica
+# una sola imagen puntual de prueba.
+#
+# Es idempotente: si se corta a mitad de camino o se corre dos veces, no
+# duplica publicaciones (ver data/afiches/enviados_facebook_<fecha>.json
+# en el propio script).
+#
+# Para lanzarlo: pestaña "Actions" del repo -> "Publicar backfill de hoy en
+# Facebook" -> "Run workflow". Los campos son opcionales -- vacíos, publica
+# todas las noticias de hoy.
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha puntual AAAA-MM-DD a publicar (vacío = hoy en Guayaquil)"
+        required: false
+        type: string
+      limite:
+        description: "Máximo de noticias a publicar en esta corrida (vacío = todas)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publicar_backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias mínimas
+        run: pip install -r requirements.txt
+
+      - name: Publicar el backfill (publicar_hoy_facebook.py)
+        env:
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: |
+          python scripts/publicar_hoy_facebook.py \
+            ${{ inputs.fecha && format('--fecha {0}', inputs.fecha) || '' }} \
+            ${{ inputs.limite && format('--limite {0}', inputs.limite) || '' }}
