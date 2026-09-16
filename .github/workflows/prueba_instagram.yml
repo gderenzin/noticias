@@ -1,0 +1,56 @@
+name: Prueba puntual - Publicar en Instagram
+
+# Workflow SOLO manual (no tiene "schedule"), pensado para probar el envío
+# a Instagram (scripts/enviar_instagram.py) sin esperar a que haya
+# noticias nuevas ni depender del flujo diario completo. Publica UNA
+# imagen -- que YA debe estar en una URL pública, la API de Instagram no
+# acepta subir el archivo -- con el título y link que le pases, usando
+# los secretos INSTAGRAM_BUSINESS_ACCOUNT_ID / FACEBOOK_PAGE_ACCESS_TOKEN
+# (ver README, sección de Instagram, para cómo se obtienen).
+#
+# Para lanzarlo: pestaña "Actions" del repo -> "Prueba puntual - Publicar
+# en Instagram" -> "Run workflow", completar los 3 campos y confirmar.
+# Para el campo "imagen_url" podés usar, por ejemplo, la foto real de
+# cualquier noticia ya publicada (se ve en el código fuente de su página
+# de detalle, o cualquier imagen bajo noticias.derenzin.com/imagenes/).
+
+on:
+  workflow_dispatch:
+    inputs:
+      titulo:
+        description: "Título de la noticia (va en el caption de la publicación)"
+        required: true
+        type: string
+      link:
+        description: "Link completo a la noticia en noticias.derenzin.com"
+        required: true
+        type: string
+      imagen_url:
+        description: "URL PÚBLICA de la imagen a publicar (obligatorio: Instagram no acepta subir archivos)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publicar_prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publicar la imagen de prueba (enviar_instagram.py --url)
+        env:
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: |
+          python scripts/enviar_instagram.py \
+            --url "${{ inputs.imagen_url }}" \
+            --titulo "${{ inputs.titulo }}" \
+            --link "${{ inputs.link }}"
