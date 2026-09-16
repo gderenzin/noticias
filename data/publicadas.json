@@ -3535,6 +3535,350 @@
       "fecha_publicacion_iso": "2026-09-16T01:00:00+00:00",
       "fecha_agregada_iso": "2026-09-16T09:58:40.597687+00:00",
       "ruta_noticia": "/noticia/2026-09-16-cyber-op-targets-south-korean-media-amp-automotive-sectors-eca7935e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Spain's data agency gets first report of AI-powered data breach",
+      "fecha_publicacion_iso": "2026-09-16T17:26:41+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-spain-s-data-agency-gets-first-report-of-ai-powered-data-bre-07b4c21d.html"
+    },
+    "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai": {
+      "guid": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
+      "fuente": "Dark Reading",
+      "titulo": "BragJack Attack Can Turn a Browser's Agentic AI Against It",
+      "fecha_publicacion_iso": "2026-09-16T16:43:37+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-bragjack-attack-can-turn-a-browser-s-agentic-ai-against-it-7c3e7bc9.html"
+    },
+    "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/": {
+      "guid": "https://www.securityweek.com/?p=49387",
+      "fuente": "SecurityWeek",
+      "titulo": "First Agentic AI Data Breach Reported to Spanish Regulator",
+      "fecha_publicacion_iso": "2026-09-16T16:39:19+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-first-agentic-ai-data-breach-reported-to-spanish-regulator-f04df0b7.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+      "fecha_publicacion_iso": "2026-09-16T15:50:59+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-attackers-exploit-issabel-framework-flaw-enabling-unauthenti-08d89903.html"
+    },
+    "https://therecord.media/international-meteor-organization-cyberattack": {
+      "guid": "https://therecord.media/international-meteor-organization-cyberattack",
+      "fuente": "The Record",
+      "titulo": "International Meteor Organization says cyberattack dealt ‘critical blow’ to website",
+      "fecha_publicacion_iso": "2026-09-16T15:47:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-international-meteor-organization-says-cyberattack-dealt-cri-a109b537.html"
+    },
+    "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html": {
+      "guid": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "fuente": "The Hacker News",
+      "titulo": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "fecha_publicacion_iso": "2026-09-16T15:27:49+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-three-threat-groups-target-russian-enterprises-with-backdoor-1bdc2ec5.html"
+    },
+    "https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/": {
+      "guid": "https://cyberscoop.com/?p=90689",
+      "fuente": "CyberScoop",
+      "titulo": "Coast Guard, FBI board US-bound foreign ships in order to probe for cyberattacks",
+      "fecha_publicacion_iso": "2026-09-16T14:48:07+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-coast-guard-fbi-board-us-bound-foreign-ships-in-order-to-pro-c1a87027.html"
+    },
+    "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html": {
+      "guid": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "fecha_publicacion_iso": "2026-09-16T14:36:44+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-one-extension-could-hijack-ai-assistants-across-chrome-comet-4bb4405e.html"
+    },
+    "https://www.securityweek.com/virtual-event-today-attack-surface-management-summit-2/": {
+      "guid": "https://www.securityweek.com/?p=49383",
+      "fuente": "SecurityWeek",
+      "titulo": "Virtual Event Today: Attack Surface Management Summit",
+      "fecha_publicacion_iso": "2026-09-16T14:35:04+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-virtual-event-today-attack-surface-management-summit-c6d07e88.html"
+    },
+    "https://therecord.media/ukraine-roblox-hacker-arrested": {
+      "guid": "https://therecord.media/ukraine-roblox-hacker-arrested",
+      "fuente": "The Record",
+      "titulo": "Three Ukrainians to face charges for alleged hack of 610,000 Roblox accounts",
+      "fecha_publicacion_iso": "2026-09-16T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-three-ukrainians-to-face-charges-for-alleged-hack-of-610-000-728c7c68.html"
+    },
+    "https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media/": {
+      "guid": "https://www.securityweek.com/?p=49380",
+      "fuente": "SecurityWeek",
+      "titulo": "EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media",
+      "fecha_publicacion_iso": "2026-09-16T14:15:18+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-4e35b8ae.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+      "fuente": "BleepingComputer",
+      "titulo": "The true cost of a ransomware attack, with and without BCDR",
+      "fecha_publicacion_iso": "2026-09-16T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-the-true-cost-of-a-ransomware-attack-with-and-without-bcdr-1f941db8.html"
+    },
+    "https://therecord.media/dc-police-union-opposes-flock-camera-use-probing-officers": {
+      "guid": "https://therecord.media/dc-police-union-opposes-flock-camera-use-probing-officers",
+      "fuente": "The Record",
+      "titulo": "Flock camera use by internal affairs unit puts DC police at odds with officers’ union",
+      "fecha_publicacion_iso": "2026-09-16T13:41:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-flock-camera-use-by-internal-affairs-unit-puts-dc-police-at-9b480dcd.html"
+    },
+    "https://www.securityweek.com/aiuc-raises-40-million-to-certify-enterprise-ai-agents/": {
+      "guid": "https://www.securityweek.com/?p=49378",
+      "fuente": "SecurityWeek",
+      "titulo": "AIUC Raises $40 Million to Certify Enterprise AI Agents",
+      "fecha_publicacion_iso": "2026-09-16T13:38:36+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-aiuc-raises-40-million-to-certify-enterprise-ai-agents-d5037dfb.html"
+    },
+    "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html": {
+      "guid": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+      "fecha_publicacion_iso": "2026-09-16T13:37:07+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-attacker-hijacks-ai-coding-assistant-session-spreads-shai-hu-c14e0be3.html"
+    },
+    "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html": {
+      "guid": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+      "fuente": "The Hacker News",
+      "titulo": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+      "fecha_publicacion_iso": "2026-09-16T13:14:05+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-parallels-desktop-flaw-lets-non-admin-mac-users-gain-root-bu-139b0b83.html"
+    },
+    "https://therecord.media/eu-chief-wants-joint-response-to-cyberattacks": {
+      "guid": "https://therecord.media/eu-chief-wants-joint-response-to-cyberattacks",
+      "fuente": "The Record",
+      "titulo": "EU chief wants joint response to cyberattacks, sabotage",
+      "fecha_publicacion_iso": "2026-09-16T13:14:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-eu-chief-wants-joint-response-to-cyberattacks-sabotage-123459f4.html"
+    },
+    "https://therecord.media/ukraine-call-center-scam-crackdown": {
+      "guid": "https://therecord.media/ukraine-call-center-scam-crackdown",
+      "fuente": "The Record",
+      "titulo": "Ukraine moves to crack down on scam call centers after corruption scandal",
+      "fecha_publicacion_iso": "2026-09-16T12:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-ukraine-moves-to-crack-down-on-scam-call-centers-after-corru-24accdd1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384842",
+      "fuente": "Help Net Security",
+      "titulo": "Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894)",
+      "fecha_publicacion_iso": "2026-09-16T12:36:30+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-parallels-desktop-flaw-hands-any-local-user-root-on-a-mac-cv-03abceb5.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/revolut-sufre-ciberataque-un-tercero.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-562061352994542681",
+      "fuente": "Segu-Info",
+      "titulo": "Revolut sufre ciberataque: un tercero accedió a información personal de clientes",
+      "fecha_publicacion_iso": "2026-09-16T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-revolut-sufre-ciberataque-un-tercero-accedio-a-informacion-p-927383ec.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says Copilot buttons still missing in classic Outlook",
+      "fecha_publicacion_iso": "2026-09-16T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-microsoft-says-copilot-buttons-still-missing-in-classic-outl-a3b2204d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Webinar: What happens in the first hours of a Google Workspace breach",
+      "fecha_publicacion_iso": "2026-09-16T12:11:19+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-webinar-what-happens-in-the-first-hours-of-a-google-workspac-89f13888.html"
+    },
+    "https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware/": {
+      "guid": "https://www.securityweek.com/?p=49369",
+      "fuente": "SecurityWeek",
+      "titulo": "US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware",
+      "fecha_publicacion_iso": "2026-09-16T12:00:14+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillanc-e20ea668.html"
+    },
+    "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html": {
+      "guid": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+      "fuente": "The Hacker News",
+      "titulo": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "fecha_publicacion_iso": "2026-09-16T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-n0va-phishkit-targets-us-and-eu-businesses-a-new-challenge-f-e8602ec2.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844": {
+      "guid": "https://www.theregister.com/a/5296844",
+      "fuente": "The Register - Security",
+      "titulo": "Spain gets its first taste of AI-aided cyber attack",
+      "fecha_publicacion_iso": "2026-09-16T11:56:55+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-spain-gets-its-first-taste-of-ai-aided-cyber-attack-7db6a5d7.html"
+    },
+    "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/": {
+      "guid": "https://www.securityweek.com/?p=49366",
+      "fuente": "SecurityWeek",
+      "titulo": "Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover",
+      "fecha_publicacion_iso": "2026-09-16T11:32:53+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-unauthenticated-rce-flaws-could-expose-200-000-wordpress-sit-6960b9c8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384829",
+      "fuente": "Help Net Security",
+      "titulo": "Self-improving AI should slow down, von der Leyen tells EU lawmakers",
+      "fecha_publicacion_iso": "2026-09-16T11:28:45+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-self-improving-ai-should-slow-down-von-der-leyen-tells-eu-la-8e7bcf7d.html"
+    },
+    "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html": {
+      "guid": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "fuente": "The Hacker News",
+      "titulo": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "fecha_publicacion_iso": "2026-09-16T11:15:48+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-threat-intelligence-alone-won-t-close-the-exploitation-gap-4f0274b0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical ScreenConnect flaw now actively exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-16T11:14:28+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-critical-screenconnect-flaw-now-actively-exploited-in-attack-95c0c12b.html"
+    },
+    "https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/": {
+      "guid": "https://www.securityweek.com/?p=49362",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackuity Raises $19 Million for AI-Powered Vulnerability Management",
+      "fecha_publicacion_iso": "2026-09-16T11:11:23+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-hackuity-raises-19-million-for-ai-powered-vulnerability-mana-140d281d.html"
+    },
+    "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html": {
+      "guid": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "fuente": "The Hacker News",
+      "titulo": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-16T11:08:54+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-acronis-cpanel-backup-plugin-vulnerability-exploited-in-targ-1c14f354.html"
+    },
+    "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html": {
+      "guid": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "fuente": "The Hacker News",
+      "titulo": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-16T11:08:54+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-acronis-cpanel-backup-plugin-vulnerability-exploited-in-targ-1c14f354.html"
+    },
+    "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/": {
+      "guid": "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/",
+      "fuente": "SecurityWeek",
+      "titulo": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-16T11:08:54+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-acronis-cpanel-backup-plugin-vulnerability-exploited-in-targ-1c14f354.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/cohesity-agent-resilience-capability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384822",
+      "fuente": "Help Net Security",
+      "titulo": "Cohesity adds recovery capabilities for AI agents and the data they manage",
+      "fecha_publicacion_iso": "2026-09-16T10:58:56+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-cohesity-adds-recovery-capabilities-for-ai-agents-and-the-da-da3b4154.html"
+    },
+    "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=49360",
+      "fuente": "SecurityWeek",
+      "titulo": "280,000 Impacted by Premier Medical Group Data Breach",
+      "fecha_publicacion_iso": "2026-09-16T10:47:18+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-280-000-impacted-by-premier-medical-group-data-breach-705cc1c6.html"
+    },
+    "https://www.theregister.com/security/2026/09/16/ministry-of-justice-apologizes-after-court-staff-accessed-southport-victims-files/5296808": {
+      "guid": "https://www.theregister.com/a/5296808",
+      "fuente": "The Register - Security",
+      "titulo": "Ministry of Justice apologizes after court staff accessed Southport victims' files",
+      "fecha_publicacion_iso": "2026-09-16T10:42:28+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-ministry-of-justice-apologizes-after-court-staff-accessed-so-ddb10017.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/rubrik-mcp/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384816",
+      "fuente": "Help Net Security",
+      "titulo": "Rubrik MCP gives AI agents controlled access to security intelligence",
+      "fecha_publicacion_iso": "2026-09-16T10:41:44+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-rubrik-mcp-gives-ai-agents-controlled-access-to-security-int-82fda10b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/centerpoint-energy-data-breach-hacker-claims/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384792",
+      "fuente": "Help Net Security",
+      "titulo": "CenterPoint Energy confirms data breach following claims on hacking forum",
+      "fecha_publicacion_iso": "2026-09-16T10:35:02+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-centerpoint-energy-confirms-data-breach-following-claims-on-681224ba.html"
+    },
+    "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/": {
+      "guid": "6aa940d47410d0aed42be023",
+      "fuente": "Wired - Security",
+      "titulo": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Really Works",
+      "fecha_publicacion_iso": "2026-09-16T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-hackers-got-inside-a-flock-camera-its-data-shows-how-the-sys-5b40dc3d.html"
+    },
+    "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49358",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-16T10:28:36+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-chrome-firefox-updates-patch-115-vulnerabilities-7971124e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/nozomi-networks-compass/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384802",
+      "fuente": "Help Net Security",
+      "titulo": "Nozomi Compass helps industrial teams manage OT assets and vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-16T10:27:44+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-nozomi-compass-helps-industrial-teams-manage-ot-assets-and-v-5bea6366.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/16/citrix-session-insights-capability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384791",
+      "fuente": "Help Net Security",
+      "titulo": "Citrix adds AI-powered browser activity analysis to SecurAccess",
+      "fecha_publicacion_iso": "2026-09-16T10:14:29+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-citrix-adds-ai-powered-browser-activity-analysis-to-securacc-0ad06869.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-atlassian-septiembre-de-2026": {
+      "guid": "662543 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Atlassian: septiembre de 2026",
+      "fecha_publicacion_iso": "2026-09-16T09:56:19+00:00",
+      "fecha_agregada_iso": "2026-09-16T17:41:57.983600+00:00",
+      "ruta_noticia": "/noticia/2026-09-16-boletin-de-seguridad-de-atlassian-septiembre-de-2026-88cc5ee9.html"
     }
   }
 }
