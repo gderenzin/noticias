@@ -1271,14 +1271,10 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
 
     # Solo si Gemini generó de verdad este resumen (nunca en Protección de
     # Datos / Plan B de RSS -- ver AVISO_TRANSPARENCIA_IA arriba).
-    aviso_transparencia_html = (
-        f'      <p class="aviso-transparencia-ia">{escape(AVISO_TRANSPARENCIA_IA)}</p>\n'
-        if item.get("resumen_ia_ok") and item.get("resumen_ia")
-        else (
-            f'      <p class="aviso-transparencia-ia">{escape(AVISO_ANALISIS_ORIGINAL)}</p>\n'
-            if item.get("es_analisis")
-            else ""
-        )
+     aviso_transparencia_html = (
+        f'      <p class="aviso-transparencia-ia">{escape(AVISO_ANALISIS_ORIGINAL)}</p>\n'
+        if item.get("es_analisis")
+        else ""
     )
 
     return f"""<!DOCTYPE html>
