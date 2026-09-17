@@ -5,8 +5,9 @@ name: Prueba puntual - Publicar en Instagram
 # noticias nuevas ni depender del flujo diario completo. Publica UNA
 # imagen -- que YA debe estar en una URL pública, la API de Instagram no
 # acepta subir el archivo -- con el título y link que le pases, usando
-# los secretos INSTAGRAM_BUSINESS_ACCOUNT_ID / FACEBOOK_PAGE_ACCESS_TOKEN
-# (ver README, sección de Instagram, para cómo se obtienen).
+# los secretos INSTAGRAM_USER_ID / INSTAGRAM_ACCESS_TOKEN (propios de la
+# "Instagram API with Instagram Login", ver README, sección de Instagram,
+# para cómo se obtienen).
 #
 # Para lanzarlo: pestaña "Actions" del repo -> "Prueba puntual - Publicar
 # en Instagram" -> "Run workflow", completar los 3 campos y confirmar.
@@ -47,8 +48,8 @@ jobs:
 
       - name: Publicar la imagen de prueba (enviar_instagram.py --url)
         env:
-          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
-          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
         run: |
           python scripts/enviar_instagram.py \
             --url "${{ inputs.imagen_url }}" \
