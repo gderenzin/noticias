@@ -1269,9 +1269,13 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
         etiqueta="Fuentes consultadas para este análisis:" if item.get("es_analisis") else "También cubierto por:",
     )
 
-    # Solo si Gemini generó de verdad este resumen (nunca en Protección de
-    # Datos / Plan B de RSS -- ver AVISO_TRANSPARENCIA_IA arriba).
-     aviso_transparencia_html = (
+    # El aviso de transparencia de IA (AVISO_TRANSPARENCIA_IA, arriba) se
+    # sacó de la plantilla a pedido explícito -- las noticias nuevas ya no
+    # lo llevan (ver scripts/quitar_aviso_transparencia_ia.py para las que
+    # ya estaban publicadas con el aviso). El de "análisis original" sigue
+    # igual que siempre: es un aviso distinto, no tiene que ver con el
+    # resumen por IA, así que no se toca.
+    aviso_transparencia_html = (
         f'      <p class="aviso-transparencia-ia">{escape(AVISO_ANALISIS_ORIGINAL)}</p>\n'
         if item.get("es_analisis")
         else ""
