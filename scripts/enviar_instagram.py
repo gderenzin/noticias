@@ -5,10 +5,17 @@ enviar_instagram.py
 ----------------------
 Paso opcional del flujo diario (igual criterio que enviar_telegram.py y
 enviar_facebook.py): publica en la cuenta de Instagram (debe ser una
-cuenta Profesional -- Empresa o Creador de contenido -- vinculada a la
-misma Página de Facebook ya configurada) cada afiche nuevo que dejó
-generar_afiche.py, leyendo data/afiches/afiches_hoy.txt (3 líneas por
-afiche: ruta del PNG local, título, link) -- nunca inventa texto nuevo.
+cuenta Profesional -- Empresa o Creador de contenido) cada afiche nuevo
+que dejó generar_afiche.py, leyendo data/afiches/afiches_hoy.txt (3
+líneas por afiche: ruta del PNG local, título, link) -- nunca inventa
+texto nuevo.
+
+Usa la "Instagram API with Instagram Login" (el flujo directo que Meta
+lanzó en julio de 2024, ver README) -- a diferencia de la API de
+Facebook, esta NO depende de que la cuenta esté vinculada a una Página
+de Facebook, y usa su PROPIO token (INSTAGRAM_ACCESS_TOKEN) contra
+graph.instagram.com, no graph.facebook.com. Por eso este script no
+reusa FACEBOOK_PAGE_ACCESS_TOKEN.
 
 A diferencia de Facebook, la API de publicación de contenido de
 Instagram NO acepta subir el archivo directamente: exige una URL
@@ -19,20 +26,14 @@ site/imagenes/afiches/ ANTES de publicar site/ en gh-pages, así ya
 están disponibles en noticias.derenzin.com/imagenes/afiches/ para
 cuando corre este script).
 
-Flujo de dos pasos de la Graph API (así funciona para toda cuenta
-Business/Creator vinculada a una Página):
-  1. POST /{ig-user-id}/media          (image_url, caption) -> creation_id
-  2. POST /{ig-user-id}/media_publish  (creation_id)         -> media_id
+Flujo de dos pasos de la Graph API (documentado por Meta para esta API):
+  1. POST https://graph.instagram.com/{ig-user-id}/media
+     (image_url, caption) -> creation_id
+  2. POST https://graph.instagram.com/{ig-user-id}/media_publish
+     (creation_id) -> media_id
 Entre los dos pasos se consulta el estado del contenedor
 (status_code) hasta que quede "FINISHED", con un puñado de reintentos
 cortos -- publicar antes de que esté listo devuelve error.
-
-Reusa el mismo token de la Página de Facebook (FACEBOOK_PAGE_ACCESS_TOKEN)
--- así funciona la API de Instagram para cuentas vinculadas a esa
-Página, siempre que ese token tenga además los permisos
-instagram_basic e instagram_content_publish (ver README). Si en algún
-momento hiciera falta un token distinto, alcanza con definir
-INSTAGRAM_ACCESS_TOKEN aparte -- tiene prioridad si está presente.
 
 Nunca hace fallar el workflow: si faltan credenciales o la Graph API
 devuelve error, lo loguea y sigue (o termina con código 0).
@@ -63,13 +64,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 AFICHES_DIR = RAIZ / "data" / "afiches"
 AFICHES_HOY_TXT = AFICHES_DIR / "afiches_hoy.txt"
 
-GRAPH_API_VERSION = "v26.0"
-INSTAGRAM_BUSINESS_ACCOUNT_ID = os.environ.get("INSTAGRAM_BUSINESS_ACCOUNT_ID", "").strip()
-# Mismo token de Página que usa enviar_facebook.py -- ver docstring.
-INSTAGRAM_ACCESS_TOKEN = (
-    os.environ.get("INSTAGRAM_ACCESS_TOKEN", "").strip()
-    or os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
-)
+GRAPH_INSTAGRAM_BASE = "https://graph.instagram.com"
+INSTAGRAM_USER_ID = os.environ.get("INSTAGRAM_USER_ID", "").strip()
+INSTAGRAM_ACCESS_TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "").strip()
 
 LIMITE_CAPTION = 2200  # límite real de Instagram (bastante menor que el de Facebook)
 PAUSA_ENTRE_ENVIOS_SEG = 3.0
@@ -102,10 +99,10 @@ def _leer_afiches_hoy() -> list[tuple[Path, str, str]]:
 
 
 def _llamar_graph_api(endpoint: str, datos: dict) -> tuple[bool, dict | str]:
-    """POST genérico a la Graph API vía form-urlencoded (esta API no
-    necesita multipart -- nunca se sube un archivo, solo texto/URLs).
+    """POST genérico a graph.instagram.com vía form-urlencoded (esta API
+    no necesita multipart -- nunca se sube un archivo, solo texto/URLs).
     Nunca lanza excepción: (False, texto_error) en cualquier falla."""
-    url = f"https://graph.facebook.com/{GRAPH_API_VERSION}/{endpoint}"
+    url = f"{GRAPH_INSTAGRAM_BASE}/{endpoint}"
     cuerpo = urllib.parse.urlencode(datos).encode("utf-8")
     peticion = urllib.request.Request(url, data=cuerpo, method="POST")
     try:
@@ -122,7 +119,7 @@ def _consultar_estado(creation_id: str) -> str | None:
     si la consulta falla -- el bucle que llama a esto simplemente
     reintenta hasta agotar los intentos."""
     url = (
-        f"https://graph.facebook.com/{GRAPH_API_VERSION}/{creation_id}"
+        f"{GRAPH_INSTAGRAM_BASE}/{creation_id}"
         f"?fields=status_code&access_token={urllib.parse.quote(INSTAGRAM_ACCESS_TOKEN)}"
     )
     try:
@@ -139,7 +136,7 @@ def publicar_foto_url(url_imagen: str, caption: str) -> bool:
     caption = caption[:LIMITE_CAPTION]
 
     ok, resultado = _llamar_graph_api(
-        f"{INSTAGRAM_BUSINESS_ACCOUNT_ID}/media",
+        f"{INSTAGRAM_USER_ID}/media",
         {"image_url": url_imagen, "caption": caption, "access_token": INSTAGRAM_ACCESS_TOKEN},
     )
     if not ok or not isinstance(resultado, dict) or "id" not in resultado:
@@ -159,7 +156,7 @@ def publicar_foto_url(url_imagen: str, caption: str) -> bool:
         log(f"AVISO: el contenedor {creation_id} no llegó a FINISHED tras {INTENTOS_STATUS} intentos; se intenta publicar igual.")
 
     ok, resultado = _llamar_graph_api(
-        f"{INSTAGRAM_BUSINESS_ACCOUNT_ID}/media_publish",
+        f"{INSTAGRAM_USER_ID}/media_publish",
         {"creation_id": creation_id, "access_token": INSTAGRAM_ACCESS_TOKEN},
     )
     if not ok or not isinstance(resultado, dict) or "id" not in resultado:
@@ -177,9 +174,9 @@ def main() -> None:
     parser.add_argument("--link", default="", help="Link de prueba (usar junto con --url).")
     args = parser.parse_args()
 
-    if not INSTAGRAM_BUSINESS_ACCOUNT_ID or not INSTAGRAM_ACCESS_TOKEN:
+    if not INSTAGRAM_USER_ID or not INSTAGRAM_ACCESS_TOKEN:
         log(
-            "AVISO: INSTAGRAM_BUSINESS_ACCOUNT_ID y/o el token de acceso no están configurados; "
+            "AVISO: INSTAGRAM_USER_ID y/o INSTAGRAM_ACCESS_TOKEN no están configurados; "
             "no se publica nada en Instagram (ver README, sección de Instagram)."
         )
         sys.exit(0)
