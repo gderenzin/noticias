@@ -4519,6 +4519,30 @@
       "fecha_publicacion_iso": "2026-09-17T14:28:00+00:00",
       "fecha_agregada_iso": "2026-09-17T19:12:44.571363+00:00",
       "ruta_noticia": "/noticia/2026-09-17-cisa-retires-weekly-vulnerability-bulletin-in-risk-based-piv-2779d67f.html"
+    },
+    "https://www.theregister.com/security/2026/09/17/researchers-find-way-to-listen-in-on-headphones-from-afar/5297303": {
+      "guid": "https://www.theregister.com/a/5297303",
+      "fuente": "The Register - Security",
+      "titulo": "Researchers find way to listen in on headphones from afar",
+      "fecha_publicacion_iso": "2026-09-17T19:36:10+00:00",
+      "fecha_agregada_iso": "2026-09-17T20:20:41.363282+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-researchers-find-way-to-listen-in-on-headphones-from-afar-e158f7fa.html"
+    },
+    "https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/": {
+      "guid": "https://cyberscoop.com/?p=90713",
+      "fuente": "CyberScoop",
+      "titulo": "The AI hacking apocalypse is not inevitable",
+      "fecha_publicacion_iso": "2026-09-17T19:18:07+00:00",
+      "fecha_agregada_iso": "2026-09-17T20:20:41.363282+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-the-ai-hacking-apocalypse-is-not-inevitable-0cf43ae8.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
+      "fuente": "Dark Reading",
+      "titulo": "China's FamousSparrow APT Spies on US Politics in Latin America",
+      "fecha_publicacion_iso": "2026-09-17T19:15:38+00:00",
+      "fecha_agregada_iso": "2026-09-17T20:20:41.363282+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-china-s-famoussparrow-apt-spies-on-us-politics-in-latin-amer-3ca3c4b1.html"
     }
   }
 }
