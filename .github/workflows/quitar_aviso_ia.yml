@@ -1,0 +1,71 @@
+name: Quitar aviso de transparencia de IA (backfill puntual)
+
+# Workflow SOLO manual (no tiene "schedule"), de uso puntual: corre
+# scripts/quitar_aviso_transparencia_ia.py sobre todas las páginas de
+# detalle ya publicadas en site/noticia/, commitea el cambio en main y
+# republica site/ en gh-pages -- para que el aviso "Resumen generado con
+# IA (Gemini)..." desaparezca también de lo ya publicado, no solo de las
+# noticias nuevas (build_site.py ya no lo genera desde este cambio).
+#
+# Es idempotente y seguro de correr más de una vez: las páginas que ya no
+# tienen el aviso simplemente se omiten (ver el log del script).
+#
+# Para lanzarlo: pestaña "Actions" del repo -> "Quitar aviso de
+# transparencia de IA (backfill puntual)" -> "Run workflow".
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  quitar_aviso:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Quitar el aviso de las páginas ya publicadas (quitar_aviso_transparencia_ia.py)
+        run: python scripts/quitar_aviso_transparencia_ia.py
+
+      - name: Commitear el cambio en main (si lo hay)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear (ninguna página tenía el aviso)."
+          else
+            git commit -m "Quitar aviso de transparencia de IA de las noticias ya publicadas"
+            git push
+          fi
+
+      - name: Publicar site/ en la rama gh-pages
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            git worktree add gh-pages-deploy origin/gh-pages
+          else
+            git worktree add --detach gh-pages-deploy
+            (cd gh-pages-deploy && git checkout --orphan gh-pages && git rm -rf . > /dev/null 2>&1 || true)
+          fi
+          rsync -a --delete --exclude ".git" site/ gh-pages-deploy/
+          cd gh-pages-deploy
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios que publicar en gh-pages."
+          else
+            git commit -m "Quitar aviso de transparencia de IA - $(date -u +%Y-%m-%d)"
+            git push origin HEAD:gh-pages
+          fi
