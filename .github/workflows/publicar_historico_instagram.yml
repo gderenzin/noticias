@@ -86,11 +86,39 @@ jobs:
           cd gh-pages-deploy
           git add -A
           if git diff --cached --quiet; then
+            echo "publicado=false" >> "$GITHUB_OUTPUT"
             echo "Sin cambios que publicar en gh-pages."
           else
             git commit -m "Publicar afiches históricos - $(date -u +%Y-%m-%d)"
             git push origin HEAD:gh-pages
+            echo "publicado=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Esperar a que gh-pages termine de propagar (solo si se publicó algo nuevo)
+        # gh-pages no queda disponible al instante después del push -- puede
+        # tardar hasta un par de minutos en propagarse, sobre todo en un push
+        # grande como el primero de este backfill (460+ imágenes nuevas de
+        # una vez). Si el paso de Instagram corriera justo después sin
+        # esperar, la Graph API intenta descargar la imagen y falla con
+        # "Media download has failed" porque gh-pages todavía sirve la
+        # versión vieja (o un 404). Este paso sondea una de las imágenes
+        # recién publicadas hasta que responda 200, con un tope de 3
+        # minutos -- si para entonces sigue sin estar lista, se sigue igual
+        # (el paso de Instagram ya maneja el fallo sin romper el workflow, y
+        # la próxima corrida reintenta).
+        if: steps.publicar_gh_pages.outputs.publicado == 'true'
+        run: |
+          url_prueba="$(ls site/imagenes/afiches/*.png | sort | tail -1 | sed 's#^site/#https://noticias.derenzin.com/#')"
+          echo "Esperando a que $url_prueba esté disponible..."
+          for i in $(seq 1 18); do
+            codigo=$(curl -s -o /dev/null -w '%{http_code}' "$url_prueba" || echo "000")
+            if [ "$codigo" = "200" ]; then
+              echo "Listo -- gh-pages ya sirve el contenido nuevo (intento $i/18)."
+              break
+            fi
+            echo "Todavía no (HTTP $codigo), intento $i/18 -- esperando 10s..."
+            sleep 10
+          done
 
       - name: Publicar el próximo lote en Instagram (enviar_instagram_historico.py)
         env:
