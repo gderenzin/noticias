@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Una vulnerabilidad de lectura de archivos en GitLab con puntuación CVSS 10 atrae ataques reales tras su divulgación — Noticias de Ciberseguridad</title>
-  <meta name="description" content="GitLab ha lanzado actualizaciones para solucionar diversos fallos de seguridad, entre los que destaca una vulnerabilidad de gravedad máxima que ha comenzado…">
+  <meta name="description" content="GitLab ha lanzado correcciones para solucionar varios fallos de seguridad, incluyendo un problema de gravedad máxima que ha comenzado a recibir ataques reales…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-12-gitlab-cvss-10-file-read-flaw-draws-in-the-wild-probes-after-2a6fb06b.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Noticias de Ciberseguridad">
   <meta property="og:title" content="Una vulnerabilidad de lectura de archivos en GitLab con puntuación CVSS 10 atrae ataques reales tras su divulgación — Noticias de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — GitLab ha lanzado actualizaciones para solucionar diversos fallos de seguridad, entre los que destaca una vulnerabilidad de gravedad máxima que ha comenzado…">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — GitLab ha lanzado correcciones para solucionar varios fallos de seguridad, incluyendo un problema de gravedad máxima que ha comenzado a recibir ataques reales…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-12-gitlab-cvss-10-file-read-flaw-draws-in-the-wild-probes-after-2a6fb06b.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-12/73558094d312293aa08f.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Una vulnerabilidad de lectura de archivos en GitLab con puntuación CVSS 10 atrae ataques reales tras su divulgación — Noticias de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — GitLab ha lanzado actualizaciones para solucionar diversos fallos de seguridad, entre los que destaca una vulnerabilidad de gravedad máxima que ha comenzado…">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — GitLab ha lanzado correcciones para solucionar varios fallos de seguridad, incluyendo un problema de gravedad máxima que ha comenzado a recibir ataques reales…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-12/73558094d312293aa08f.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -75,8 +75,9 @@
         <figcaption>Imagen: The Hacker News</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>GitLab ha lanzado actualizaciones para solucionar diversos fallos de seguridad, entre los que destaca una vulnerabilidad de gravedad máxima que ha comenzado a ser explorada de forma activa poco después de que se hiciera pública. El problema, identificado mediante un código y una puntuación específica de severidad máxima, consiste en una deficiencia de desplazamiento de ruta en la API de confirmaciones de repositorios. Esto podría permitir que usuarios sin autenticación lean archivos arbitrarios directamente desde el servidor bajo determinadas circunstancias concretas, debido a una limitación de rutas inadecuada y a la ausencia de cumplimiento en la autenticación.</p>
-        <p>Las versiones afectadas de las ediciones Community y Enterprise de GitLab abarcan determinados rangos específicos dentro de las versiones anteriores a los parches publicados, permitiendo que atacantes externos accedan a archivos de registro y de configuración para extraer credenciales, secretos y datos confidenciales. Según los expertos, la explotación de este fallo requiere únicamente que exista un proyecto público y representa el segundo caso crítico en pocas semanas tras otro incidente previo relacionado con inyecciones de código. La relevancia de este sistema para los atacantes radica en la posibilidad de obtener acceso no autorizado a códigos fuente y secretos, además de manipular canales de compilación.</p>
+        <p>GitLab ha lanzado correcciones para solucionar varios fallos de seguridad, incluyendo un problema de gravedad máxima que ha comenzado a recibir ataques reales poco después de hacerse público. Esta vulnerabilidad, catalogada con la puntuación de gravedad más alta posible, consiste en un fallo de salto de directorio dentro de la API de confirmaciones de repositorios. Esto podría permitir que usuarios sin autenticación logren leer archivos arbitrarios desde el servidor bajo ciertas condiciones específicas, debido a una falta de confinamiento de rutas y de control de autenticación.</p>
+        <p>Las versiones afectadas de las ediciones comunitaria y empresarial de la plataforma abarcan diversos rangos específicos lanzados recientemente, por lo que la compañía ha instado a aplicar los parches correspondientes. Diversas fuentes de inteligencia de amenazas advirtieron que la falla comenzó a ser sondeada y explotada activamente poco después de su divulgación pública. Los atacantes aprovechan esta brecha para acceder a archivos de registro y configuraciones del sistema, obteniendo credenciales, secretos e información confidencial, lo que representa un atractivo peligroso al poder comprometer código fuente, secretos de integración y despliegue continuo, o permitir la inyección de código.</p>
+        <p>Adicionalmente, se corrigió otro fallo crítico de deserialización inseguridad en la edición empresarial que podía derivar en la divulgación de información. Esta segunda vulnerabilidad permitía que usuarios autenticados con acceso a una herramienta de chat obtuvieran configuraciones avanzadas y credenciales mediante peticiones manipuladas. Ante el riesgo de ataques masivos, las autoridades competentes han añadido la falla principal a sus catálogos de vulnerabilidades explotadas, exigiendo la aplicación urgente de los parches y la revisión de registros de actividad en busca de solicitudes sospechosas.</p>
       </div>
     </article>
     <aside class="sidebar-noticia">
@@ -98,32 +99,32 @@
         <h2 class="sidebar-titulo">Últimas noticias</h2>
         <ul class="sidebar-recientes">
           <li>
-            <a href="/noticia/2026-09-11-how-threat-actors-are-turning-trusted-ai-platforms-into-an-a-297d870d.html">Cómo los actores maliciosos están convirtiendo las plataformas de IA de confianza en una superficie de ataque</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 14:01 UTC</span>
+            <a href="/noticia/2026-09-17-what-recent-ai-powered-attacks-mean-for-your-identity-securi-e4a86801.html">Qué implican los recientes ataques basados en la inteligencia artificial para la seguridad de tu identidad</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 14:01 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-smart-tvs-escanean-redes-y-graban-audio-que-sorpresa-5294bb33.html">Smart TVs escanean redes y graban audio (que sorpresa!)</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 12:30 UTC</span>
+            <a href="/noticia/2026-09-17-revolut-data-breach-5-months-680-high-profile-accounts-3m-ra-bf76fe78.html">Fuga de datos en Revolut: 5 meses, 680 cuentas de alto perfil, 3 millones de dólares de rescate</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:57 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-failure-to-respect-the-rights-of-individuals-the-cnil-fined-80efa04c.html">Incumplimiento de los derechos de las personas: la CNIL ha impuesto a EXTIA una multa de 300 000 EUR</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 12:00 UTC</span>
+            <a href="/noticia/2026-09-17-hackers-claim-breach-of-russian-election-systems-days-before-bcec2451.html">Unos hackers afirman haber pirateado los sistemas electorales rusos a pocos días de las elecciones parlamentarias</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:45 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-your-critical-vulnerabilities-might-not-be-your-biggest-risk-d46374ed.html">Puede que tus vulnerabilidades críticas no sean tu mayor riesgo</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 11:30 UTC</span>
+            <a href="/noticia/2026-09-17-congress-eyes-new-support-for-cyber-command-after-recent-sui-9d124113.html">El Congreso baraja nuevas medidas de apoyo para el Comando Cibernético tras los recientes suicidios</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:32 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-gitlab-urges-users-to-patch-max-severity-path-traversal-flaw-4e654ce0.html">GitLab insta a los usuarios a aplicar el parche para la vulnerabilidad de recorrido de ruta de máxima gravedad</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 11:15 UTC</span>
+            <a href="/noticia/2026-09-17-iranian-strikes-on-aws-facilities-left-customer-data-beyond-43429be0.html">Los ataques iraníes contra las instalaciones de AWS dejaron los datos de los clientes irrecuperables en Baréin y los Emiratos Árabes Unidos</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:12 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-bbf674a0.html">Microsoft soluciona los errores de inicio de Teams y Outlook en ordenadores con Windows ARM</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 09:39 UTC</span>
+            <a href="/noticia/2026-09-17-windows-11-24h2-home-and-pro-reach-end-of-support-in-october-78e50d62.html">El soporte técnico para Windows 11 24H2 Home y Pro finaliza en octubre</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:09 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-11-validacion-incorrecta-de-certificado-en-productos-de-check-p-1d0d6376.html">Validación incorrecta de certificado en productos de Check Point</a>
-            <span class="sidebar-recientes-fecha">11/09/2026 · 08:50 UTC</span>
+            <a href="/noticia/2026-09-17-a-fake-chatgpt-billing-email-is-after-your-openai-password-8dd0b6a6.html">Un correo electrónico falso de facturación de ChatGPT intenta robarte la contraseña de OpenAI</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:01 UTC</span>
           </li>
         </ul>
       </section>
@@ -143,7 +144,7 @@
       </div>
       <div class="pie-legal">
         <p>Este sitio agrega titulares y resúmenes de fuentes públicas verificadas; el contenido pertenece a sus autores originales. Consulta el enlace de cada fuente para leer el artículo completo.</p>
-        <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT.</p>
+        <p class="pie-fuentes">Fuentes monitoreadas: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, WeLiveSecurity (ESET), INCIBE-CERT, Segu-Info, SecurityWeek, The Register, Help Net Security, CyberScoop, The Record, Wired, El Lado del Mal.</p>
         <p class="pie-recurso">¿Tu organización necesita cumplir con la LOPDP? <a href="https://lopdp.derenzin.com" target="_blank" rel="noopener noreferrer">Metodología de cumplimiento LOPDP de DERENZIN ↗</a></p>
         <p class="pie-copyright">© 2026 DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
       </div>

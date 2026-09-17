@@ -5,17 +5,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Control de acceso inadecuado en la API REST de Hiperdino — Noticias de Ciberseguridad</title>
-  <meta name="description" content="Control de acceso inadecuado en la API REST de Hiperdino Lun, 14/09/2026 - 11:20 Aviso Recursos Afectados Hiperdino REST API v1.0.">
+  <meta name="description" content="Se ha coordinado la divulgación de una falla de seguridad de carácter crítico que impacta la interfaz de programación de aplicaciones REST de Hiperdino…">
   <link rel="canonical" href="https://noticias.derenzin.com/noticia/2026-09-14-control-de-acceso-inadecuado-en-la-api-rest-de-hiperdino-8c82eabf.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Noticias de Ciberseguridad">
   <meta property="og:title" content="Control de acceso inadecuado en la API REST de Hiperdino — Noticias de Ciberseguridad">
-  <meta property="og:description" content="Fuente: noticias.derenzin.com — Control de acceso inadecuado en la API REST de Hiperdino Lun, 14/09/2026 - 11:20 Aviso Recursos Afectados Hiperdino REST API v1.0.">
+  <meta property="og:description" content="Fuente: noticias.derenzin.com — Se ha coordinado la divulgación de una falla de seguridad de carácter crítico que impacta la interfaz de programación de aplicaciones REST de Hiperdino…">
   <meta property="og:url" content="https://noticias.derenzin.com/noticia/2026-09-14-control-de-acceso-inadecuado-en-la-api-rest-de-hiperdino-8c82eabf.html">
   <meta property="og:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/e1b77170f41e1b6a90ec.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Control de acceso inadecuado en la API REST de Hiperdino — Noticias de Ciberseguridad">
-  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Control de acceso inadecuado en la API REST de Hiperdino Lun, 14/09/2026 - 11:20 Aviso Recursos Afectados Hiperdino REST API v1.0.">
+  <meta name="twitter:description" content="Fuente: noticias.derenzin.com — Se ha coordinado la divulgación de una falla de seguridad de carácter crítico que impacta la interfaz de programación de aplicaciones REST de Hiperdino…">
   <meta name="twitter:image" content="https://noticias.derenzin.com/imagenes/2026-09-07/e1b77170f41e1b6a90ec.jpg">
   <link rel="icon" href="../assets/favicon.png">
   <meta name="theme-color" content="#00b8d4">
@@ -75,7 +75,9 @@
         <figcaption>Imagen: INCIBE-CERT - Avisos</figcaption>
       </figure>
       <div class="noticia-detalle-cuerpo">
-        <p>Control de acceso inadecuado en la API REST de Hiperdino Lun, 14/09/2026 - 11:20 Aviso Recursos Afectados Hiperdino REST API v1.0. Descripción INCIBE ha coordinado la publicación de una vulnerabilidad de severidad crítica, que afecta en la API REST de Hiperdino, puente para realizar acciones de forma automática y en tiempo real. La vulnerabilidad ha sido descubierta por Jorge Ramos Santana. A esta vulnerabilidad se le ha asignado el siguiente código, puntuación base CVSS v4.0, vector del CVSS y el tipo de vulnerabilidad CWE: CVE-2026-12258: CVSS v4.0: 9.2 | CVSS AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N | CWE-284 Identificador INCIBE-2026-628 Solución No hay solución reportada por el momento. Detalle CVE-2026-12258 : control de acceso inadecuado en la API REST v1.0 de Hiperdino. El endpoint público ‘ customer/check ’ podría permitir a un atacante autenticado introducir un número de teléfono o una dirección de correo electrónico. Cuando el valor introducido pertenece a un cliente registrado, el servicio devuelve la información asociada (correo electrónico y número de teléfono). No se requiere ninguna autenticación más allá de un token de portador estático y no existe limitación de velocidad ni gestión genérica de errores. La explotación exitosa de esta vulnerabilidad podría permitir a un atacante remoto enumerar los datos de contacto del usuario, aunque esto requeriría obtener un token de portador estático válido, lo que constituye una vulnerabilidad de divulgación de información. 5 - Crítica Listado de referencias Web Hiperdino Etiquetas 0day CNA Vulnerabilidad CVE Identificador CVE Severidad Explotación Fabricante CVE-2026-12258 Crítica No Hiperdino…</p>
+        <p>Se ha coordinado la divulgación de una falla de seguridad de carácter crítico que impacta la interfaz de programación de aplicaciones REST de Hiperdino, específicamente en su versión inicial, la cual funciona como un enlace para ejecutar operaciones automatizadas y simultáneas. Este fallo fue identificado por Jorge Ramos Santana y catalogado oficialmente bajo los identificadores y métricas correspondientes, señalando un problema de control de acceso indebido sin que exista hasta el momento un parche o solución disponible.</p>
+        <p>El fallo radica en el punto de acceso público designado para la comprobación de clientes, el cual podría posibilitar que un usuario con acceso introduzca un correo electrónico o un número telefónico para verificar si corresponde a un cliente registrado en la plataforma. Al cumplirse esta condición, el sistema expone los datos vinculados, requiriendo únicamente un token estático de portador, sin implementar restricciones en la velocidad de las peticiones ni un manejo general de errores.</p>
+        <p>La correcta explotación de este problema de divulgación informativa daría la oportunidad a un atacante que actúe de forma remota de recopilar los datos de contacto de los usuarios, para lo cual es necesario conseguir previamente un token estático de portador que sea válido.</p>
       </div>
     </article>
     <aside class="sidebar-noticia">
@@ -97,32 +99,32 @@
         <h2 class="sidebar-titulo">Últimas noticias</h2>
         <ul class="sidebar-recientes">
           <li>
-            <a href="/noticia/2026-09-14-three-jfrog-artifactory-flaws-exploited-for-backdoor-deploym-70a6380a.html">Tres vulnerabilidades de JFrog Artifactory aprovechadas para la instalación de puertas traseras</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 09:27 UTC</span>
+            <a href="/noticia/2026-09-17-what-recent-ai-powered-attacks-mean-for-your-identity-securi-e4a86801.html">Qué implican los recientes ataques basados en la inteligencia artificial para la seguridad de tu identidad</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 14:01 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-uk-gov-begins-killing-off-passwords-for-23-million-users-6f2ecf2f.html">UK.gov empieza a eliminar las contraseñas de 23 millones de usuarios</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 09:16 UTC</span>
+            <a href="/noticia/2026-09-17-revolut-data-breach-5-months-680-high-profile-accounts-3m-ra-bf76fe78.html">Fuga de datos en Revolut: 5 meses, 680 cuentas de alto perfil, 3 millones de dólares de rescate</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:57 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-revolut-discloses-data-breach-exposing-financial-info-passpo-12626361.html">Revolut revela una filtración de datos que ha dejado al descubierto información financiera y pasaportes</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 08:48 UTC</span>
+            <a href="/noticia/2026-09-17-hackers-claim-breach-of-russian-election-systems-days-before-bcec2451.html">Unos hackers afirman haber pirateado los sistemas electorales rusos a pocos días de las elecciones parlamentarias</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:45 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-connectwise-patches-screenconnect-vulnerability-exploited-in-4c252b58.html">ConnectWise corrige una vulnerabilidad de ScreenConnect que se ha aprovechado en ataques similares a los de un gusano</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 08:25 UTC</span>
+            <a href="/noticia/2026-09-17-congress-eyes-new-support-for-cyber-command-after-recent-sui-9d124113.html">El Congreso baraja nuevas medidas de apoyo para el Comando Cibernético tras los recientes suicidios</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:32 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-microsoft-september-updates-break-audio-on-some-windows-pcs-77e7cf6e.html">Microsoft: Las actualizaciones de septiembre provocan fallos de audio en algunos ordenadores con Windows</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 08:08 UTC</span>
+            <a href="/noticia/2026-09-17-iranian-strikes-on-aws-facilities-left-customer-data-beyond-43429be0.html">Los ataques iraníes contra las instalaciones de AWS dejaron los datos de los clientes irrecuperables en Baréin y los Emiratos Árabes Unidos</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:12 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-whatsapp-restricted-chat-locks-a-conversation-to-your-primar-4f012b68.html">La función «Chat restringido» de WhatsApp vincula una conversación a tu teléfono principal</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 08:08 UTC</span>
+            <a href="/noticia/2026-09-17-windows-11-24h2-home-and-pro-reach-end-of-support-in-october-78e50d62.html">El soporte técnico para Windows 11 24H2 Home y Pro finaliza en octubre</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:09 UTC</span>
           </li>
           <li>
-            <a href="/noticia/2026-09-14-path-traversal-en-gitlab-8bc742e4.html">Path Traversal en GitLab</a>
-            <span class="sidebar-recientes-fecha">14/09/2026 · 07:56 UTC</span>
+            <a href="/noticia/2026-09-17-a-fake-chatgpt-billing-email-is-after-your-openai-password-8dd0b6a6.html">Un correo electrónico falso de facturación de ChatGPT intenta robarte la contraseña de OpenAI</a>
+            <span class="sidebar-recientes-fecha">17/09/2026 · 13:01 UTC</span>
           </li>
         </ul>
       </section>
