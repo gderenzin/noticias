@@ -3983,6 +3983,78 @@
       "fecha_publicacion_iso": "2026-09-16T17:56:31+00:00",
       "fecha_agregada_iso": "2026-09-16T23:40:23.122726+00:00",
       "ruta_noticia": "/noticia/2026-09-16-google-pixel-phones-pwned-in-zero-click-attacks-df9a56eb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/tuskira-vector-autonomous-red-teaming/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384913",
+      "fuente": "Help Net Security",
+      "titulo": "Tuskira Vector brings autonomous red teaming to attack surface validation",
+      "fecha_publicacion_iso": "2026-09-17T06:01:47+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-tuskira-vector-brings-autonomous-red-teaming-to-attack-surfa-f22bb3ea.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/frederic-bull-gremlin-ai-in-cybersecurity-gap/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384700",
+      "fuente": "Help Net Security",
+      "titulo": "The AI security question leaders should be asking instead",
+      "fecha_publicacion_iso": "2026-09-17T05:30:48+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-the-ai-security-question-leaders-should-be-asking-instead-67a1be35.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/flat-cybersecurity-budget-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384486",
+      "fuente": "Help Net Security",
+      "titulo": "A flat cybersecurity budget doesn’t have to mean weaker coverage",
+      "fecha_publicacion_iso": "2026-09-17T05:00:57+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-a-flat-cybersecurity-budget-doesnt-have-to-mean-weaker-cover-7bb5e3d5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384889",
+      "fuente": "Help Net Security",
+      "titulo": "AWS’s new sign-up gives accounts spend caps, email invites, and agent-set permissions",
+      "fecha_publicacion_iso": "2026-09-17T04:51:04+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-awss-new-sign-up-gives-accounts-spend-caps-email-invites-and-07101acc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384882",
+      "fuente": "Help Net Security",
+      "titulo": "GNOME 51 adds passkey logins, offline maps and drawn PDF signatures",
+      "fecha_publicacion_iso": "2026-09-17T04:36:56+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-gnome-51-adds-passkey-logins-offline-maps-and-drawn-pdf-sign-215c0601.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/ai-and-open-source-projects/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384731",
+      "fuente": "Help Net Security",
+      "titulo": "AI is adding to the review load on open-source projects, many of them thinly funded",
+      "fecha_publicacion_iso": "2026-09-17T04:30:21+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ai-is-adding-to-the-review-load-on-open-source-projects-many-77412c2e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/autonomous-ai-weapons-future/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384752",
+      "fuente": "Help Net Security",
+      "titulo": "The world must establish red lines for autonomous AI weapons",
+      "fecha_publicacion_iso": "2026-09-17T04:00:36+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-the-world-must-establish-red-lines-for-autonomous-ai-weapons-4c2b6a1e.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic wants Claude to analyze your bank account and financial data",
+      "fecha_publicacion_iso": "2026-09-17T00:35:48+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-anthropic-wants-claude-to-analyze-your-bank-account-and-fina-d1d8144f.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-avanzan-mas-rapido-que-las-pymes/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-avanzan-mas-rapido-que-las-pymes/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Las ciberamenazas avanzan más rápido que las pymes: cómo actuar",
+      "fecha_publicacion_iso": "2026-09-16T18:44:54+00:00",
+      "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-las-ciberamenazas-avanzan-mas-rapido-que-las-pymes-como-actu-bbb8d2e6.html"
     }
   }
 }
