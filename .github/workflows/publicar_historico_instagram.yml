@@ -1,0 +1,101 @@
+name: Publicar backfill histórico en Instagram
+
+# Workflow SOLO manual (no tiene "schedule"), pensado para un uso puntual:
+# vaciar de a poco, en varias corridas, el backlog de noticias que el sitio
+# ya tenía publicadas ANTES de que existiera enviar_instagram.py (473
+# noticias al momento de crear este workflow, desde el 2026-09-01).
+#
+# A diferencia de publicar_hoy_facebook.yml (que publica solo "hoy"),
+# este cubre TODO el histórico -- pero Instagram limita la Graph API a
+# ~25 publicaciones cada 24h por cuenta, así que cada corrida manda como
+# máximo "limite" noticias (20 por defecto, con margen) y hay que volver
+# a correrlo (una vez por día alcanza) hasta que el log diga "0
+# pendiente(s)".
+#
+# Cada corrida hace, en orden:
+#   1. Generar los afiches que todavía falten (generar_afiches_historicos.py
+#      -- idempotente, salta los que ya existen).
+#   2. Copiarlos a site/imagenes/afiches/ y publicarlos en gh-pages, para
+#      que tengan URL pública (igual que hace diario.yml con los afiches
+#      del día -- la API de Instagram no acepta subir el archivo directo).
+#   3. Publicar en Instagram, uno por uno, el próximo lote de noticias
+#      pendientes (enviar_instagram_historico.py), en orden cronológico
+#      (las más antiguas primero).
+#
+# Es idempotente y seguro de repetir: los pasos 1-2 no duplican nada (ya
+# existente se omite/no cambia), y el paso 3 registra cada envío exitoso
+# en data/afiches/enviados_instagram_historico.json -- si se corta a
+# mitad de camino (red, límite diario de Instagram), la próxima corrida
+# retoma justo donde quedó.
+#
+# Para lanzarlo: pestaña "Actions" del repo -> "Publicar backfill
+# histórico en Instagram" -> "Run workflow". El campo "limite" es
+# opcional (vacío = 20).
+
+on:
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Máximo de noticias a publicar en esta corrida (vacío = 20, margen seguro bajo el límite de Instagram)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publicar_backfill_instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias mínimas
+        run: pip install -r requirements.txt
+
+      - name: Generar los afiches históricos que falten (generar_afiches_historicos.py)
+        run: python scripts/generar_afiches_historicos.py
+
+      - name: Copiar los afiches al sitio para que tengan URL pública
+        run: |
+          mkdir -p site/imagenes/afiches
+          if compgen -G "data/afiches/*.png" > /dev/null; then
+            cp data/afiches/*.png site/imagenes/afiches/
+          fi
+
+      - name: Publicar site/ en la rama gh-pages (para que los afiches queden públicos)
+        id: publicar_gh_pages
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            git worktree add gh-pages-deploy origin/gh-pages
+          else
+            git worktree add --detach gh-pages-deploy
+            (cd gh-pages-deploy && git checkout --orphan gh-pages && git rm -rf . > /dev/null 2>&1 || true)
+          fi
+          rsync -a --delete --exclude ".git" site/ gh-pages-deploy/
+          cd gh-pages-deploy
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios que publicar en gh-pages."
+          else
+            git commit -m "Publicar afiches históricos - $(date -u +%Y-%m-%d)"
+            git push origin HEAD:gh-pages
+          fi
+
+      - name: Publicar el próximo lote en Instagram (enviar_instagram_historico.py)
+        env:
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          python scripts/enviar_instagram_historico.py \
+            ${{ inputs.limite && format('--limite {0}', inputs.limite) || '' }}
