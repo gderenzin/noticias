@@ -4055,6 +4055,398 @@
       "fecha_publicacion_iso": "2026-09-16T18:44:54+00:00",
       "fecha_agregada_iso": "2026-09-17T06:12:24.179284+00:00",
       "ruta_noticia": "/noticia/2026-09-17-las-ciberamenazas-avanzan-mas-rapido-que-las-pymes-como-actu-bbb8d2e6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+      "fuente": "BleepingComputer",
+      "titulo": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+      "fecha_publicacion_iso": "2026-09-17T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-what-recent-ai-powered-attacks-mean-for-your-identity-securi-e4a86801.html"
+    },
+    "https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/": {
+      "guid": "https://www.securityweek.com/?p=49409",
+      "fuente": "SecurityWeek",
+      "titulo": "Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom",
+      "fecha_publicacion_iso": "2026-09-17T13:57:41+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-revolut-data-breach-5-months-680-high-profile-accounts-3m-ra-bf76fe78.html"
+    },
+    "https://therecord.media/russia-election-hackers-breach": {
+      "guid": "https://therecord.media/russia-election-hackers-breach",
+      "fuente": "The Record",
+      "titulo": "Hackers claim breach of Russian election systems days before parliamentary vote",
+      "fecha_publicacion_iso": "2026-09-17T13:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-hackers-claim-breach-of-russian-election-systems-days-before-bcec2451.html"
+    },
+    "https://therecord.media/congress-eyes-support-for-cyber-command-suicide-deaths": {
+      "guid": "https://therecord.media/congress-eyes-support-for-cyber-command-suicide-deaths",
+      "fuente": "The Record",
+      "titulo": "Congress eyes new support for Cyber Command after recent suicide deaths",
+      "fecha_publicacion_iso": "2026-09-17T13:32:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-congress-eyes-new-support-for-cyber-command-after-recent-sui-9d124113.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385035",
+      "fuente": "Help Net Security",
+      "titulo": "Iranian strikes on AWS facilities left customer data beyond recovery in Bahrain, UAE",
+      "fecha_publicacion_iso": "2026-09-17T13:12:47+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-iranian-strikes-on-aws-facilities-left-customer-data-beyond-43429be0.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 24H2 Home and Pro reach end of support in October",
+      "fecha_publicacion_iso": "2026-09-17T13:09:09+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-windows-11-24h2-home-and-pro-reach-end-of-support-in-october-78e50d62.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/chatgpt-phishing-email-openai-password/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384741",
+      "fuente": "Help Net Security",
+      "titulo": "A fake ChatGPT billing email is after your OpenAI password",
+      "fecha_publicacion_iso": "2026-09-17T13:01:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-a-fake-chatgpt-billing-email-is-after-your-openai-password-8dd0b6a6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/tines-ai-code-sprawl-guide/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384590",
+      "fuente": "Help Net Security",
+      "titulo": "Download: The IT leader’s guide to AI code sprawl",
+      "fecha_publicacion_iso": "2026-09-17T13:00:28+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-download-the-it-leaders-guide-to-ai-code-sprawl-e7e80c63.html"
+    },
+    "https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/": {
+      "guid": "https://www.securityweek.com/?p=49407",
+      "fuente": "SecurityWeek",
+      "titulo": "Comp AI Raises $34 Million for AI-Native Compliance and Security",
+      "fecha_publicacion_iso": "2026-09-17T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-comp-ai-raises-34-million-for-ai-native-compliance-and-secur-4767d2d9.html"
+    },
+    "https://www.theregister.com/security/2026/09/17/cisco-drops-another-exploited-zero-day-this-time-a-perfect-10/5297180": {
+      "guid": "https://www.theregister.com/a/5297180",
+      "fuente": "The Register - Security",
+      "titulo": "Cisco drops another exploited zero-day, this time a perfect 10",
+      "fecha_publicacion_iso": "2026-09-17T12:40:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-drops-another-exploited-zero-day-this-time-a-perfect-1-a58825c1.html"
+    },
+    "https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update/": {
+      "guid": "https://www.securityweek.com/?p=49405",
+      "fuente": "SecurityWeek",
+      "titulo": "ISC Patches 14 Vulnerabilities in BIND 9 Security Update",
+      "fecha_publicacion_iso": "2026-09-17T12:39:28+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-isc-patches-14-vulnerabilities-in-bind-9-security-update-2526dc9e.html"
+    },
+    "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+      "fecha_publicacion_iso": "2026-09-17T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-critical-unbound-dnssec-validator-flaw-could-allow-rce-via-a-84bff623.html"
+    },
+    "https://www.securityweek.com/ransomware-attacks-on-manufacturers-surge-as-supply-chain-risk-grows/": {
+      "guid": "https://www.securityweek.com/?p=49401",
+      "fuente": "SecurityWeek",
+      "titulo": "Ransomware Attacks on Manufacturers Surge as Supply Chain Risk Grows",
+      "fecha_publicacion_iso": "2026-09-17T12:29:53+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ransomware-attacks-on-manufacturers-surge-as-supply-chain-ri-3a012cfd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/druva-identity-resilience-ransomware-detection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385026",
+      "fuente": "Help Net Security",
+      "titulo": "Druva expands identity resilience with ransomware detection",
+      "fecha_publicacion_iso": "2026-09-17T12:29:26+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-druva-expands-identity-resilience-with-ransomware-detection-9f76e7ae.html"
+    },
+    "https://therecord.media/angola-israel-influence-operations-blackcore": {
+      "guid": "https://therecord.media/angola-israel-influence-operations-blackcore",
+      "fuente": "The Record",
+      "titulo": "Israeli contractor BlackCore trained Angolan officials in online influence operations",
+      "fecha_publicacion_iso": "2026-09-17T12:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-israeli-contractor-blackcore-trained-angolan-officials-in-on-9091ab0a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/mecanismo-deficiente-de-recuperacion-de-contrasenas-olvidadas-en-mobiapparc": {
+      "guid": "662528 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Mecanismo deficiente de recuperación de contraseñas olvidadas en MobiAPParc",
+      "fecha_publicacion_iso": "2026-09-17T12:13:58+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-mecanismo-deficiente-de-recuperacion-de-contrasenas-olvidada-be7885e0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/google-agent-anomaly-detection-audit-layer/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384985",
+      "fuente": "Help Net Security",
+      "titulo": "Google’s new agent security system detects tool misuse, loops and rogue behavior",
+      "fecha_publicacion_iso": "2026-09-17T11:57:31+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-googles-new-agent-security-system-detects-tool-misuse-loops-e339e2e1.html"
+    },
+    "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html": {
+      "guid": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "fuente": "The Hacker News",
+      "titulo": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "fecha_publicacion_iso": "2026-09-17T11:50:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-can-you-prove-a-new-cve-is-exploitable-before-attackers-do-l-7d7f9cff.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/fbi-nightmarestresser-ddos-for-hire-service-seized/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384995",
+      "fuente": "Help Net Security",
+      "titulo": "FBI takes down one of the longest-running DDoS-for-hire services",
+      "fecha_publicacion_iso": "2026-09-17T11:40:11+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-fbi-takes-down-one-of-the-longest-running-ddos-for-hire-serv-32010430.html"
+    },
+    "https://cyberscoop.com/fbi-seizes-nightmarestresser-ddos-for-hire-domains/": {
+      "guid": "https://cyberscoop.com/fbi-seizes-nightmarestresser-ddos-for-hire-domains/",
+      "fuente": "CyberScoop",
+      "titulo": "FBI takes down one of the longest-running DDoS-for-hire services",
+      "fecha_publicacion_iso": "2026-09-17T11:40:11+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-fbi-takes-down-one-of-the-longest-running-ddos-for-hire-serv-32010430.html"
+    },
+    "https://www.theregister.com/security/2026/09/17/test-environment-let-anyone-access-live-customer-data/5296977": {
+      "guid": "https://www.theregister.com/a/5296977",
+      "fuente": "The Register - Security",
+      "titulo": "Test environment let anyone access live customer data",
+      "fecha_publicacion_iso": "2026-09-17T11:28:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-test-environment-let-anyone-access-live-customer-data-9321dd4e.html"
+    },
+    "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html": {
+      "guid": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "fecha_publicacion_iso": "2026-09-17T10:50:53+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ciso-s-expert-guide-to-agentic-pentesting-for-websites-788e8401.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384953",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers leave AI fingerprints all over fake antivirus renewal page",
+      "fecha_publicacion_iso": "2026-09-17T10:10:31+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-scammers-leave-ai-fingerprints-all-over-fake-antivirus-renew-5af1bdef.html"
+    },
+    "https://www.theregister.com/security/2026/09/17/ofcom-discovers-issuing-online-safety-act-fines-is-easier-than-collecting-them/5297110": {
+      "guid": "https://www.theregister.com/a/5297110",
+      "fuente": "The Register - Security",
+      "titulo": "Ofcom discovers issuing Online Safety Act fines is easier than collecting them",
+      "fecha_publicacion_iso": "2026-09-17T10:08:04+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ofcom-discovers-issuing-online-safety-act-fines-is-easier-th-3bf6be97.html"
+    },
+    "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html": {
+      "guid": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+      "fecha_publicacion_iso": "2026-09-17T10:05:45+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-china-aligned-famoussparrow-deploys-sparrowocky-backdoor-acr-b3052f3a.html"
+    },
+    "https://cyberscoop.com/us-cyber-strategy-iranian-threats-infrastructure-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=90702",
+      "fuente": "CyberScoop",
+      "titulo": "America’s cyber strategy overlooks the infrastructure that actually keeps the military moving",
+      "fecha_publicacion_iso": "2026-09-17T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-americas-cyber-strategy-overlooks-the-infrastructure-that-ac-729e0e1a.html"
+    },
+    "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html": {
+      "guid": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+      "fecha_publicacion_iso": "2026-09-17T09:53:38+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-openai-reveals-six-model-incidents-involving-hidden-failures-a9b1fe27.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-edgeconnect-sd-wan-de-hpe": {
+      "guid": "662552 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en EdgeConnect SD-WAN de HPE",
+      "fecha_publicacion_iso": "2026-09-17T09:15:08+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-multiples-vulnerabilidades-en-edgeconnect-sd-wan-de-hpe-3fe9f831.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+      "fecha_publicacion_iso": "2026-09-17T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-chinese-hackers-use-sparrowocky-malware-in-govt-espionage-at-0c9ce14b.html"
+    },
+    "https://www.wired.com/story/flock-once-touted-its-cameras-as-made-in-the-usa-now-its-not-so-clear/": {
+      "guid": "6aa3a9905d0d801ae4244d9b",
+      "fuente": "Wired - Security",
+      "titulo": "Flock Once Touted Its Cameras as ‘Made in the USA.’ Now It’s Not So Clear",
+      "fecha_publicacion_iso": "2026-09-17T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-flock-once-touted-its-cameras-as-made-in-the-usa-now-its-not-44eed70f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384929",
+      "fuente": "Help Net Security",
+      "titulo": "Spain reports first data breach involving autonomous AI agent",
+      "fecha_publicacion_iso": "2026-09-17T08:39:44+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-spain-reports-first-data-breach-involving-autonomous-ai-agen-0512804c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-pila-en-security-management-y-log-servers-de": {
+      "guid": "662550 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de búfer basado en pila en Security Management y Log Servers de Check Point",
+      "fecha_publicacion_iso": "2026-09-17T08:25:06+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-desbordamiento-de-bufer-basado-en-pila-en-security-managemen-c1ee0014.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft shares workaround for Windows domain login issues",
+      "fecha_publicacion_iso": "2026-09-17T08:24:48+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-microsoft-shares-workaround-for-windows-domain-login-issues-9efac17a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hp": {
+      "guid": "662549 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de HP",
+      "fecha_publicacion_iso": "2026-09-17T08:09:23+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-multiples-vulnerabilidades-en-productos-de-hp-fcc0beb9.html"
+    },
+    "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html": {
+      "guid": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+      "fuente": "The Hacker News",
+      "titulo": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+      "fecha_publicacion_iso": "2026-09-17T08:00:29+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-bind-9-update-fixes-14-flaws-including-an-unauthenticated-cr-d2f4589d.html"
+    },
+    "https://www.securityweek.com/cisa-releases-guidance-on-deploying-cyber-decoys/": {
+      "guid": "https://www.securityweek.com/?p=49398",
+      "fuente": "SecurityWeek",
+      "titulo": "CISA Releases Cyber Decoy Guidance to Strengthen Critical Infrastructure Defenses",
+      "fecha_publicacion_iso": "2026-09-17T07:53:43+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisa-releases-cyber-decoy-guidance-to-strengthen-critical-in-8ebe7329.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/cisa-guidance-for-implementing-cyber-decoys/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/17/cisa-guidance-for-implementing-cyber-decoys/",
+      "fuente": "Help Net Security",
+      "titulo": "CISA Releases Cyber Decoy Guidance to Strengthen Critical Infrastructure Defenses",
+      "fecha_publicacion_iso": "2026-09-17T07:53:43+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisa-releases-cyber-decoy-guidance-to-strengthen-critical-in-8ebe7329.html"
+    },
+    "https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/": {
+      "guid": "https://www.securityweek.com/?p=49396",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals",
+      "fecha_publicacion_iso": "2026-09-17T07:41:29+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ai-agents-can-retrain-own-models-mid-task-leaking-secrets-an-f117f2c0.html"
+    },
+    "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html": {
+      "guid": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "fuente": "The Hacker News",
+      "titulo": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "fecha_publicacion_iso": "2026-09-17T07:30:01+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-gyazo-breach-exposes-23-62-million-user-records-and-490-mill-f5f1e8a4.html"
+    },
+    "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html": {
+      "guid": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-15": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-15",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/",
+      "fuente": "Help Net Security",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "https://www.securityweek.com/cisco-fixes-dozens-of-flaws-across-fmc-ise-and-nexus-dashboard/": {
+      "guid": "https://www.securityweek.com/cisco-fixes-dozens-of-flaws-across-fmc-ise-and-nexus-dashboard/",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/nueva-vulnerabilidad-zero-day-en-cisco.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/09/nueva-vulnerabilidad-zero-day-en-cisco.html",
+      "fuente": "Segu-Info",
+      "titulo": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "fecha_publicacion_iso": "2026-09-17T06:39:40+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-warns-of-new-zero-day-ise-auth-bypass-cvss-10-0-exploi-fafd9a90.html"
+    },
+    "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day/": {
+      "guid": "https://www.securityweek.com/?p=49394",
+      "fuente": "SecurityWeek",
+      "titulo": "Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day",
+      "fecha_publicacion_iso": "2026-09-17T06:19:52+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-active-exploitation-triggers-emergency-patch-for-cisco-ise-z-234fa2f4.html"
+    },
+    "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html": {
+      "guid": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+      "fecha_publicacion_iso": "2026-09-17T05:13:46+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-u-s-seizes-nightmarestresser-domains-linked-to-hundreds-of-t-7d690b6e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+      "fecha_publicacion_iso": "2026-09-17T05:13:46+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-u-s-seizes-nightmarestresser-domains-linked-to-hundreds-of-t-7d690b6e.html"
+    },
+    "http://www.elladodelmal.com/2026/09/que-hacer-con-tu-dinero-cuando-el.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5488027497225129971",
+      "fuente": "El Lado del Mal",
+      "titulo": "Qué hacer con tu dinero cuando el futuro ya ha empezado por Pablo Gil",
+      "fecha_publicacion_iso": "2026-09-17T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T14:21:15.182263+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-que-hacer-con-tu-dinero-cuando-el-futuro-ya-ha-empezado-por-357cfc0d.html"
     }
   }
 }
