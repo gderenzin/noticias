@@ -4543,6 +4543,46 @@
       "fecha_publicacion_iso": "2026-09-17T19:15:38+00:00",
       "fecha_agregada_iso": "2026-09-17T20:20:41.363282+00:00",
       "ruta_noticia": "/noticia/2026-09-17-china-s-famoussparrow-apt-spies-on-us-politics-in-latin-amer-3ca3c4b1.html"
+    },
+    "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335": {
+      "guid": "https://www.theregister.com/a/5297335",
+      "fuente": "The Register - Security",
+      "titulo": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+      "fecha_publicacion_iso": "2026-09-17T22:42:29+00:00",
+      "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-84259df9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+      "fuente": "BleepingComputer",
+      "titulo": "New RatHat Android malware uses AI to automate device control",
+      "fecha_publicacion_iso": "2026-09-17T21:50:26+00:00",
+      "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-new-rathat-android-malware-uses-ai-to-automate-device-contro-f07e8957.html"
+    },
+    "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus": {
+      "guid": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
+      "fuente": "Dark Reading",
+      "titulo": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+      "fecha_publicacion_iso": "2026-09-17T21:23:50+00:00",
+      "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisa-ditches-weekly-vulnerability-roundups-for-risk-based-fo-c4d1050d.html"
+    },
+    "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/": {
+      "guid": "https://cyberscoop.com/?p=90730",
+      "fuente": "CyberScoop",
+      "titulo": "Cisco alerts customers to second actively exploited zero-day in as many days",
+      "fecha_publicacion_iso": "2026-09-17T21:03:42+00:00",
+      "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-cisco-alerts-customers-to-second-actively-exploited-zero-day-85e1e2df.html"
+    },
+    "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law": {
+      "guid": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
+      "fuente": "The Record",
+      "titulo": "European Commission set to push social media restrictions, safety requirements into law",
+      "fecha_publicacion_iso": "2026-09-17T20:36:00+00:00",
+      "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
+      "ruta_noticia": "/noticia/2026-09-17-european-commission-set-to-push-social-media-restrictions-sa-9595e8c4.html"
     }
   }
 }
