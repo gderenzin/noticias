@@ -56,6 +56,7 @@ from datetime import datetime, timedelta, timezone
 from html import escape, unescape
 from pathlib import Path
 
+from hifenar import hifenar_texto
 from texto import acotar_parrafos, fuente_parece_incompleta, primeras_oraciones, rematar_final, truncar
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -1147,7 +1148,9 @@ def recolectar_indice_categorias() -> dict[str, list[dict]]:
         if m_cuerpo:
             primer_parrafo = RE_P_DETALLE.search(m_cuerpo.group(1))
             if primer_parrafo:
-                texto_plano = unescape(re.sub(r"<[^>]*>", "", primer_parrafo.group(1))).strip()
+                # Sin guiones blandos (hifenar.py los mete solo en el cuerpo del
+                # detalle): el resumen de las tarjetas de categoría no los lleva.
+                texto_plano = unescape(re.sub(r"<[^>]*>", "", primer_parrafo.group(1))).replace("­", "").strip()
                 resumen_mostrar = truncar(primeras_oraciones(texto_plano, 3), 600)
 
         indice[categoria].append(
@@ -1317,7 +1320,7 @@ def render_pagina_noticia(item: dict, ruta_noticia: str) -> str:
     descripcion_social = f"Fuente: noticias.derenzin.com — {descripcion}"
 
     parrafos_html = "\n".join(
-        f"        <p>{escape(p)}</p>" for p in ampliado["parrafos"]
+        f"        <p>{escape(hifenar_texto(p))}</p>" for p in ampliado["parrafos"]
     )
 
     items_recientes = obtener_items_recientes(item.get("enlace"))
