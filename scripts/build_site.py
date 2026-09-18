@@ -990,6 +990,22 @@ SIDEBAR_PROMO_LOPDP = """      <section class="sidebar-promo" aria-label="Public
       </section>
 """
 
+# Segunda cuña (Tecnológico Universitario EuroAmericano), apilada justo debajo
+# de la de lopdp y con exactamente el mismo formato. El texto NO es de
+# redacción propia: es la frase de la meta description de
+# https://euroamericano.edu.ec/ ("Instituto Tecnológico Universitario
+# EuroAmericano. Carreras tecnológicas y universitarias presenciales y
+# virtuales. Estudia y obtén tu título en poco tiempo.") -- se usa solo su
+# 2da oración, textual. Sin línea "Un proyecto de ..." a propósito: no se
+# afirma ninguna relación con DERENZIN que la propia institución no declare.
+SIDEBAR_PROMO_EUROAMERICANO = """      <section class="sidebar-promo" aria-label="Publicidad">
+        <p class="sidebar-promo-label">Publicidad</p>
+        <h2 class="sidebar-promo-titulo">Tecnológico Universitario EuroAmericano</h2>
+        <p class="sidebar-promo-texto">Carreras tecnológicas y universitarias presenciales y virtuales.</p>
+        <a class="sidebar-promo-cta" href="https://euroamericano.edu.ec/" target="_blank" rel="noopener noreferrer">Conocer más ↗</a>
+      </section>
+"""
+
 
 def render_sidebar_noticia(items_recientes: list[dict]) -> str:
     categorias_html = "".join(
@@ -1017,7 +1033,7 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
 
     return f"""    <aside class="sidebar-noticia">
       <div class="sidebar-noticia-sticky">
-{SIDEBAR_PROMO_LOPDP}      <section class="sidebar-bloque">
+{SIDEBAR_PROMO_LOPDP}{SIDEBAR_PROMO_EUROAMERICANO}      <section class="sidebar-bloque">
         <h2 class="sidebar-titulo">Categorías</h2>
         <ul class="sidebar-categorias">
 {categorias_html}        </ul>
