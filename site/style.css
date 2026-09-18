@@ -39,6 +39,13 @@
   /* ---------- Layout ---------- */
   --max-ancho: 1180px;
   --ancho-lectura: 700px;        /* columna del cuerpo de una noticia: ~68-70ch a 18px */
+  /* Layout de 2 columnas (contenido + sidebar), COMPARTIDO por TODAS las
+     páginas con sidebar -- portada, archivo, categorías, Protección de Datos
+     y detalle de noticia. Una sola fuente de verdad: si se cambia acá, todas
+     se mueven juntas (antes el detalle tenía su propio max-width y quedaba
+     más angosto que el resto). */
+  --ancho-sidebar: 300px;
+  --ancho-contenido: calc(var(--max-ancho) + var(--sp-5) + var(--ancho-sidebar));
   --cabecera-alto-desktop: 149px; /* alto real medido de .cabecera en escritorio (1024-1440px+); usado para el top del sidebar sticky de la página de detalle */
   --radio: 8px;                  /* único valor de radio en todo el sitio: cards, badges, imágenes, botones */
   --radio-chico: 5px;
@@ -774,16 +781,16 @@ h1, h2, h3 {
 
 /* ---------- Página de detalle de una noticia ---------- */
 
-/* La columna de lectura mantiene siempre --ancho-lectura (no se achica al
-   agregar el sidebar); el contenedor crece para usar el espacio que antes
-   quedaba vacío a los costados en pantallas grandes. */
-.contenido.pagina-noticia {
-  max-width: calc(var(--ancho-lectura) + var(--sp-5) + 300px);
-}
-
+/* El contenedor y el grid de 2 columnas del detalle son EXACTAMENTE los del
+   resto del sitio (ver .contenido.con-sidebar-grid / .layout-grid-sidebar
+   más abajo, que comparten estas mismas reglas): mismo --ancho-contenido y
+   misma columna de --ancho-sidebar. Lo único propio del detalle es que el
+   TEXTO de lectura se limita a --ancho-lectura dentro de la tarjeta del
+   artículo (ver .noticia-detalle > *), para no tener líneas de ~140
+   caracteres. */
 .pagina-noticia-layout {
   display: grid;
-  grid-template-columns: minmax(0, var(--ancho-lectura)) 1fr;
+  grid-template-columns: minmax(0, 1fr) var(--ancho-sidebar);
   gap: var(--sp-5);
   /* SIN align-items: start -- el valor por defecto (stretch) le da a la
      celda del sidebar la altura completa de la fila (la del artículo, que
@@ -795,12 +802,6 @@ h1, h2, h3 {
      deja ningún hueco visible. */
 }
 
-@media (max-width: 1023px) {
-  .pagina-noticia-layout {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ---------- Mismo sidebar (Categorías + Últimas noticias) en el resto del
    sitio -- portada, archivo (índice y cada día), páginas de categoría y
    Protección de Datos -- reusando .sidebar-noticia/.sidebar-noticia-sticky
@@ -809,18 +810,20 @@ h1, h2, h3 {
    sigue midiendo lo mismo que medía sin sidebar (--max-ancho), así que la
    cuadrícula de tarjetas no se angosta -- el sidebar se agrega usando el
    espacio extra a los costados, nunca a costa del grid existente. ---------- */
-.contenido.con-sidebar-grid {
-  max-width: calc(var(--max-ancho) + var(--sp-5) + 300px);
+.contenido.con-sidebar-grid,
+.contenido.pagina-noticia {
+  max-width: var(--ancho-contenido);
 }
 
 .layout-grid-sidebar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
+  grid-template-columns: minmax(0, 1fr) var(--ancho-sidebar);
   gap: var(--sp-5);
 }
 
 @media (max-width: 1023px) {
-  .layout-grid-sidebar {
+  .layout-grid-sidebar,
+  .pagina-noticia-layout {
     grid-template-columns: 1fr;
   }
 }
@@ -1061,6 +1064,14 @@ h1, h2, h3 {
   border: 1px solid var(--borde);
   border-radius: var(--radio);
   padding: var(--sp-5);
+}
+
+/* Columna de lectura: la tarjeta del artículo ocupa TODA la columna principal
+   (igual ancho que en portada/archivo/categoría), pero su contenido se limita
+   a --ancho-lectura y se centra dentro de ella. */
+.noticia-detalle {
+  padding-left: max(var(--sp-5), calc((100% - var(--ancho-lectura)) / 2));
+  padding-right: max(var(--sp-5), calc((100% - var(--ancho-lectura)) / 2));
 }
 
 .noticia-detalle > .eyebrow-categoria {
