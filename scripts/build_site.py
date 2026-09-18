@@ -1416,7 +1416,7 @@ def render_pie(prefijo: str) -> str:
         <p>{escape(AVISO_LEGAL)}</p>
         <p class="pie-fuentes">Fuentes monitoreadas: {FUENTES_MONITOREADAS}</p>
         <p class="pie-recurso">¿Tu organización necesita cumplir con la LOPDP? <a href="https://lopdp.derenzin.com" target="_blank" rel="noopener noreferrer">Metodología de cumplimiento LOPDP de DERENZIN ↗</a></p>
-        <p class="pie-copyright">© {anio} DERENZIN S.A.S. — Feddor Derenzin Martínez. Todos los derechos reservados.</p>
+        <p class="pie-copyright">© {anio} DERENZIN S.A.S. — <a href="https://derenzin.com/curriculum.html" target="_blank" rel="noopener noreferrer">Ing. Feddor Derenzin Martínez</a>. Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>
