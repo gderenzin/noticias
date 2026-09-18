@@ -784,22 +784,18 @@ h1, h2, h3 {
 /* El contenedor y el grid de 2 columnas del detalle son EXACTAMENTE los del
    resto del sitio (ver .contenido.con-sidebar-grid / .layout-grid-sidebar
    más abajo, que comparten estas mismas reglas): mismo --ancho-contenido y
-   misma columna de --ancho-sidebar. Lo único propio del detalle es que el
-   TEXTO de lectura se limita a --ancho-lectura dentro de la tarjeta del
-   artículo (ver .noticia-detalle > *), para no tener líneas de ~140
-   caracteres. */
+   misma columna de --ancho-sidebar.
+
+   align-items: start (2026-09-18): cada columna mide SOLO lo que mide su
+   propio contenido. Con el default (stretch) la tarjeta del artículo -- que
+   sí tiene fondo y borde -- se estiraba hasta igualar la altura del sidebar
+   (2 cuñas + Categorías + Últimas noticias, ~2300px), dejando >1600px de
+   aire blanco bajo el último párrafo en las noticias de cuerpo corto. */
 .pagina-noticia-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--ancho-sidebar);
   gap: var(--sp-5);
-  /* SIN align-items: start -- el valor por defecto (stretch) le da a la
-     celda del sidebar la altura completa de la fila (la del artículo, que
-     normalmente es la columna más alta). Esa celda es el contenedor real
-     del sticky de abajo: sin esa altura extra, el sticky no tendría
-     recorrido para despegarse solo al llegar al final (ver
-     .sidebar-noticia-sticky). Ninguna de las dos columnas tiene borde o
-     fondo propio, así que estirar su caja más allá de su contenido no
-     deja ningún hueco visible. */
+  align-items: start;
 }
 
 /* ---------- Mismo sidebar (Categorías + Últimas noticias) en el resto del
@@ -819,6 +815,7 @@ h1, h2, h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--ancho-sidebar);
   gap: var(--sp-5);
+  align-items: start; /* mismo criterio que .pagina-noticia-layout: cada columna con su altura */
 }
 
 @media (max-width: 1023px) {
@@ -1066,14 +1063,6 @@ h1, h2, h3 {
   padding: var(--sp-5);
 }
 
-/* Columna de lectura: la tarjeta del artículo ocupa TODA la columna principal
-   (igual ancho que en portada/archivo/categoría), pero su contenido se limita
-   a --ancho-lectura y se centra dentro de ella. */
-.noticia-detalle {
-  padding-left: max(var(--sp-5), calc((100% - var(--ancho-lectura)) / 2));
-  padding-right: max(var(--sp-5), calc((100% - var(--ancho-lectura)) / 2));
-}
-
 .noticia-detalle > .eyebrow-categoria {
   display: inline-block;
   margin-bottom: var(--sp-3);
@@ -1216,8 +1205,15 @@ h1, h2, h3 {
    en build_site.py). Nunca en tarjetas/portada/archivo/sidebar -- ese texto
    ni siquiera se genera ahí. Texto secundario, sin protagonismo visual pero
    con contraste AA (--texto-suave sobre --fondo-tarjeta ya da ~4.8:1). */
+/* El último párrafo del cuerpo no deja margen inferior propio (así el aire
+   bajo el texto es solo el padding de la tarjeta); el aviso de abajo pone la
+   separación de --sp-4 que antes ponía ese margen. */
+.noticia-detalle-cuerpo p:last-child {
+  margin-bottom: 0;
+}
+
 .aviso-transparencia-ia {
-  margin: var(--sp-3) 0 0 0;
+  margin: var(--sp-4) 0 0 0;
   padding-top: var(--sp-3);
   border-top: 1px solid var(--borde);
   font-size: var(--fs-xs);
