@@ -1017,6 +1017,23 @@ SIDEBAR_PROMO_EUROAMERICANO = """      <section class="sidebar-promo sidebar-pro
       </section>
 """
 
+# Tercera cuña (CRIEEL), apilada bajo la de EuroAmericano. Mismo criterio
+# anti-fabricación: el texto sale de cómo se describe en https://crieel.ec/
+# ("EL COLEGIO REGIONAL DE INGENIEROS ELECTRICOS Y ELECTRONICOS DEL LITORAL.
+# Es un organismo gremial ... sin fines de lucro, fundada el 14 de Enero de
+# 1967") -- solo se normalizó mayúsculas/tildes. Logo: assets/logo-crieel.png
+# (copia local, reducida, de su logoweb.png); color: el verde del logo #106944.
+SIDEBAR_PROMO_CRIEEL = """      <section class="sidebar-promo sidebar-promo--crieel" aria-label="Publicidad">
+        <div class="sidebar-promo-cabecera">
+          <p class="sidebar-promo-label">Publicidad</p>
+          <span class="sidebar-promo-logo"><img src="/assets/logo-crieel.png" alt="" width="148" height="160" loading="lazy"></span>
+        </div>
+        <h2 class="sidebar-promo-titulo">Colegio Regional de Ingenieros Eléctricos y Electrónicos del Litoral</h2>
+        <p class="sidebar-promo-texto">Organismo gremial sin fines de lucro, fundado el 14 de enero de 1967.</p>
+        <a class="sidebar-promo-cta" href="https://crieel.ec/" target="_blank" rel="noopener noreferrer">Conocer más ↗</a>
+      </section>
+"""
+
 
 def render_sidebar_noticia(items_recientes: list[dict]) -> str:
     categorias_html = "".join(
@@ -1044,7 +1061,7 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
 
     return f"""    <aside class="sidebar-noticia">
       <div class="sidebar-noticia-sticky">
-{SIDEBAR_PROMO_LOPDP}{SIDEBAR_PROMO_EUROAMERICANO}      <section class="sidebar-bloque">
+{SIDEBAR_PROMO_LOPDP}{SIDEBAR_PROMO_EUROAMERICANO}{SIDEBAR_PROMO_CRIEEL}      <section class="sidebar-bloque">
         <h2 class="sidebar-titulo">Categorías</h2>
         <ul class="sidebar-categorias">
 {categorias_html}        </ul>
