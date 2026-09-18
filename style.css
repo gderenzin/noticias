@@ -286,6 +286,24 @@ h1, h2, h3 {
   color: var(--cabecera-acento);
 }
 
+/* El logo y el título llevan a la portada; el byline queda FUERA de esos
+   links y solo "DERENZIN S.A.S." enlaza a derenzin.com (sin <a> anidados). */
+.marca-logo-enlace {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.marca-titulo-enlace,
+.marca-byline-enlace {
+  color: inherit;
+  text-decoration: none;
+}
+
+.marca-byline-enlace:hover,
+.marca-byline-enlace:focus-visible {
+  text-decoration: underline;
+}
+
 .subtitulo-pagina {
   margin: 0 0 var(--sp-4) 0;
   color: var(--texto-suave);
