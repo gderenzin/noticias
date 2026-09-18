@@ -1197,15 +1197,18 @@ h1, h2, h3 {
 
 .noticia-detalle-cuerpo p {
   margin: 0 0 var(--sp-4) 0;
-  /* Alineado a la IZQUIERDA (ya no justificado, 2026-09-18). Se probó
-     justificado + hyphens:auto con <html lang="es"> ya declarado, y aun así
-     se veía mal: medido sobre 14 noticias, en la columna de 700px el 35% de
-     las líneas tenía huecos >2x el espacio natural (máx. 20px vs 4.8px), y
-     en móvil (~293px de columna) el 69% >2x y hasta 128px de hueco -- la
-     hifenación automática no es confiable entre navegadores/dispositivos y
-     una columna angosta no da margen para justificar. Alineado a la
-     izquierda el espaciado es uniforme en todos los anchos. */
-  text-align: left;
+  /* Justificado solo acá (cuerpo del resumen completo en la página de
+     detalle) -- NO en las tarjetas de portada/grid, que quedan alineadas
+     a la izquierda como siempre. El <html lang="es"> ya declarado activa el
+     diccionario de guiones del navegador cuando lo tiene (hyphens:auto);
+     como muchos navegadores NO lo tienen (comprobado: Chromium/Electron no
+     hifena ni en es ni en en), build_site.py además inserta guiones blandos
+     (&shy;) en las palabras largas (scripts/hifenar.py), que TODOS los
+     navegadores respetan -- así el justificado puede cortar palabras y no
+     abre huecos enormes entre palabras. */
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 /* Aviso de transparencia sobre el resumen generado con IA -- debajo del
