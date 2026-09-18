@@ -848,6 +848,66 @@ h1, h2, h3 {
   padding: var(--sp-4);
 }
 
+/* Cuña de publicidad propia (lopdp.derenzin.com), primera del sidebar.
+   Se distingue de .sidebar-bloque (navegación) por el fondo tintado de
+   marca, el borde azul y el label "Publicidad"; mismos tokens de radio,
+   espaciado y tipografía que el resto. */
+.sidebar-promo {
+  background: var(--acento-suave);
+  border: 1px solid var(--marca-acento);
+  border-top: 3px solid var(--marca-primario);
+  border-radius: var(--radio);
+  padding: var(--sp-3) var(--sp-4) var(--sp-4);
+  min-width: 0;
+}
+
+.sidebar-promo-label {
+  margin: 0 0 var(--sp-2) 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--texto-suave);
+}
+
+.sidebar-promo-origen {
+  margin: 0 0 var(--sp-1) 0;
+  font-size: var(--fs-xs);
+  color: var(--texto-tenue);
+}
+
+.sidebar-promo-titulo {
+  margin: 0 0 var(--sp-2) 0;
+  font-size: var(--fs-md);
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--texto);
+  overflow-wrap: anywhere;
+}
+
+.sidebar-promo-texto {
+  margin: 0 0 var(--sp-3) 0;
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  color: var(--texto-tenue);
+}
+
+.sidebar-promo-cta {
+  display: inline-block;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--marca-primario);
+  color: #fff;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: var(--radio);
+}
+
+.sidebar-promo-cta:hover,
+.sidebar-promo-cta:focus-visible {
+  background: #0747a6;
+}
+
 .sidebar-titulo {
   margin: 0 0 var(--sp-3) 0;
   font-size: var(--fs-xs);
