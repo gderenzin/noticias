@@ -4655,6 +4655,230 @@
       "fecha_publicacion_iso": "2026-09-17T14:03:13+00:00",
       "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
       "ruta_noticia": "/noticia/2026-09-18-iran-linked-handala-hack-tied-to-heavygram-telegram-backdoor-16c199c0.html"
+    },
+    "https://therecord.media/hacking-group-nighteagle-expands-russia-china": {
+      "guid": "https://therecord.media/hacking-group-nighteagle-expands-russia-china",
+      "fuente": "The Record",
+      "titulo": "Hacking group ‘NightEagle’ targeting China’s high-tech sector expands operations to Russia",
+      "fecha_publicacion_iso": "2026-09-18T13:24:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-hacking-group-nighteagle-targeting-chinas-high-tech-sector-e-ff37aa70.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+      "fuente": "BleepingComputer",
+      "titulo": "Webinar: Which Google Workspace security controls actually matter?",
+      "fecha_publicacion_iso": "2026-09-18T13:10:19+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-webinar-which-google-workspace-security-controls-actually-ma-5b3ebf43.html"
+    },
+    "https://www.wired.com/story/metas-copyright-system-is-being-weaponized-against-albanian-protesters/": {
+      "guid": "6aaa81bbad72b2e7397f2a4e",
+      "fuente": "Wired - Security",
+      "titulo": "Meta’s Copyright System Is Being Weaponized Against Albanian Protesters",
+      "fecha_publicacion_iso": "2026-09-18T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-metas-copyright-system-is-being-weaponized-against-albanian-da2f550f.html"
+    },
+    "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/": {
+      "guid": "https://www.securityweek.com/?p=49438",
+      "fuente": "SecurityWeek",
+      "titulo": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
+      "fecha_publicacion_iso": "2026-09-18T12:45:24+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-op-e7c456c3.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/la-ia-acelera-los-adversarios-y.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8005668682995897706",
+      "fuente": "Segu-Info",
+      "titulo": "La IA acelera a los adversarios y transforma la superficie de ataque  [Informes de CrowdStrike y Mandiant 2026]",
+      "fecha_publicacion_iso": "2026-09-18T12:39:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-la-ia-acelera-a-los-adversarios-y-transforma-la-superficie-d-b9e68ae4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
+      "fecha_publicacion_iso": "2026-09-18T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-b56e8f4d.html"
+    },
+    "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=49433",
+      "fuente": "SecurityWeek",
+      "titulo": "23 Million User Records Compromised in Gyazo Data Breach",
+      "fecha_publicacion_iso": "2026-09-18T11:38:40+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-23-million-user-records-compromised-in-gyazo-data-breach-d7f28bbb.html"
+    },
+    "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/": {
+      "guid": "https://www.securityweek.com/?p=49431",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
+      "fecha_publicacion_iso": "2026-09-18T10:57:03+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-microsoft-patches-18-vulnerabilities-in-ai-cloud-products-cb9d75a3.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-oracle-septiembre-de-2026": {
+      "guid": "662566 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Oracle: septiembre de 2026",
+      "fecha_publicacion_iso": "2026-09-18T10:56:33+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-boletin-de-seguridad-de-oracle-septiembre-de-2026-7de5f344.html"
+    },
+    "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html": {
+      "guid": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "fuente": "The Hacker News",
+      "titulo": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "fecha_publicacion_iso": "2026-09-18T10:40:06+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-weaselbiscuit-stealer-spreads-via-13-npm-packages-to-harvest-a4aa43a6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385109",
+      "fuente": "Help Net Security",
+      "titulo": "Bots with good manners are better at fooling people on social media",
+      "fecha_publicacion_iso": "2026-09-18T10:15:12+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-bots-with-good-manners-are-better-at-fooling-people-on-socia-44a5f59a.html"
+    },
+    "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/": {
+      "guid": "https://www.securityweek.com/?p=49428",
+      "fuente": "SecurityWeek",
+      "titulo": "NightmareStresser DDoS Service Disrupted in International Operation",
+      "fecha_publicacion_iso": "2026-09-18T10:12:33+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-nightmarestresser-ddos-service-disrupted-in-international-op-66f04d58.html"
+    },
+    "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/": {
+      "guid": "https://www.securityweek.com/?p=49426",
+      "fuente": "SecurityWeek",
+      "titulo": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+      "fecha_publicacion_iso": "2026-09-18T09:46:57+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-brevo-supply-chain-attack-injects-malware-into-100-000-websi-408ef5d6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Check Point flaw lets hackers execute code with root privileges",
+      "fecha_publicacion_iso": "2026-09-18T09:34:33+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-new-check-point-flaw-lets-hackers-execute-code-with-root-pri-46d085b9.html"
+    },
+    "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html": {
+      "guid": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "fuente": "The Hacker News",
+      "titulo": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "fecha_publicacion_iso": "2026-09-18T09:18:03+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-claimed-bug-bounty-hunter-likely-used-llm-to-build-phantomra-9be6eecf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385100",
+      "fuente": "Help Net Security",
+      "titulo": "Arcjet brings security controls and audit trails to AI agents",
+      "fecha_publicacion_iso": "2026-09-18T08:55:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-arcjet-brings-security-controls-and-audit-trails-to-ai-agent-d653c791.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385068",
+      "fuente": "Help Net Security",
+      "titulo": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
+      "fecha_publicacion_iso": "2026-09-18T08:49:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-zero-click-rce-vulnerability-hit-four-major-ai-coding-agents-96f5f817.html"
+    },
+    "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49424",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-09-18T08:42:18+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-critical-orkes-conductor-vulnerability-exploited-in-attacks-b9492fd2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385071",
+      "fuente": "Help Net Security",
+      "titulo": "Android apps can now check security patches down to individual device components",
+      "fecha_publicacion_iso": "2026-09-18T08:38:42+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-android-apps-can-now-check-security-patches-down-to-individu-b10a8f36.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes broken copy and paste for Excel 2016 users",
+      "fecha_publicacion_iso": "2026-09-18T07:35:31+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-microsoft-fixes-broken-copy-and-paste-for-excel-2016-users-b195acf0.html"
+    },
+    "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/": {
+      "guid": "https://www.securityweek.com/?p=49421",
+      "fuente": "SecurityWeek",
+      "titulo": "MIND Secures $72 Million for AI-Powered DLP",
+      "fecha_publicacion_iso": "2026-09-18T07:25:27+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-mind-secures-72-million-for-ai-powered-dlp-6ce2b4a2.html"
+    },
+    "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49419",
+      "fuente": "SecurityWeek",
+      "titulo": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-18T07:14:04+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-check-point-kaspersky-tanium-patch-product-vulnerabilities-7a1a9d30.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-xss-almacenado-en-tao-20-de-t-systems": {
+      "guid": "662561 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting (XSS) almacenado en TAO 2.0 de T-Systems",
+      "fecha_publicacion_iso": "2026-09-18T07:09:54+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-cross-site-scripting-xss-almacenado-en-tao-2-0-de-t-systems-05d4dfc5.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
+      "fuente": "Dark Reading",
+      "titulo": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+      "fecha_publicacion_iso": "2026-09-18T07:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-ai-agent-breaches-spanish-organization-modifies-personal-dat-06d4854d.html"
+    },
+    "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html": {
+      "guid": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "fecha_publicacion_iso": "2026-09-18T06:17:25+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-rathat-android-malware-abuses-adb-to-retain-shell-access-aft-09d722e7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384849",
+      "fuente": "Help Net Security",
+      "titulo": "Abandoned IoT apps keep sending sensitive data to broken servers",
+      "fecha_publicacion_iso": "2026-09-18T06:00:45+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-abandoned-iot-apps-keep-sending-sensitive-data-to-broken-ser-6051b245.html"
+    },
+    "http://www.elladodelmal.com/2026/09/el-lenguaje-irreal-poetico-y-metaforico.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-7715261466560095227",
+      "fuente": "El Lado del Mal",
+      "titulo": "El lenguaje irreal, poético y metafórico, esteganográfico, criptográfico y Air Gapped que dificulta la obervabilidad de la IA ... si se vuelve maligna",
+      "fecha_publicacion_iso": "2026-09-18T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-el-lenguaje-irreal-poetico-y-metaforico-esteganografico-crip-aed8ca94.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/famoussparrow-america-latina-sparrowocky/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/famoussparrow-america-latina-sparrowocky/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "FamousSparrow centra sus operaciones en América Latina y despliega el nuevo backdoor SparroWocky",
+      "fecha_publicacion_iso": "2026-09-17T14:10:43+00:00",
+      "fecha_agregada_iso": "2026-09-18T13:38:21.175051+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-famoussparrow-centra-sus-operaciones-en-america-latina-y-des-897cb498.html"
     }
   }
 }
