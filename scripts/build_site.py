@@ -977,6 +977,20 @@ def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list
     return resultado
 
 
+# Cuña de publicidad propia (DERENZIN -> lopdp.derenzin.com), fija arriba de
+# todo en el sidebar, ANTES de "Categorías". Es un <section> (no una noticia
+# ni un bloque de navegación): el label "Publicidad" + el borde/fondo de marca
+# (.sidebar-promo en style.css) la distinguen del contenido periodístico.
+SIDEBAR_PROMO_LOPDP = """      <section class="sidebar-promo" aria-label="Publicidad">
+        <p class="sidebar-promo-label">Publicidad</p>
+        <p class="sidebar-promo-origen">Un proyecto de DERENZIN S.A.S.</p>
+        <h2 class="sidebar-promo-titulo">Metodología de cumplimiento LOPDP</h2>
+        <p class="sidebar-promo-texto">Cómo preparar a tu organización para cumplir con la Ley Orgánica de Protección de Datos Personales.</p>
+        <a class="sidebar-promo-cta" href="https://lopdp.derenzin.com/" target="_blank" rel="noopener noreferrer">Conocer más ↗</a>
+      </section>
+"""
+
+
 def render_sidebar_noticia(items_recientes: list[dict]) -> str:
     categorias_html = "".join(
         f'          <li><a class="sidebar-categoria-enlace cat-{slug}" href="/categoria/{slug}.html">{escape(CATEGORIAS.get(slug, GENERICO)["etiqueta"])}</a></li>\n'
@@ -1003,7 +1017,7 @@ def render_sidebar_noticia(items_recientes: list[dict]) -> str:
 
     return f"""    <aside class="sidebar-noticia">
       <div class="sidebar-noticia-sticky">
-      <section class="sidebar-bloque">
+{SIDEBAR_PROMO_LOPDP}      <section class="sidebar-bloque">
         <h2 class="sidebar-titulo">Categorías</h2>
         <ul class="sidebar-categorias">
 {categorias_html}        </ul>
