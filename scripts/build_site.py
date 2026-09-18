@@ -1428,6 +1428,19 @@ ENLACES_FUENTE = """  <link rel="preconnect" href="https://fonts.googleapis.com"
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">"""
 
 
+# Bloque izquierdo del pie bajo el logo: tagline + las dos páginas oficiales
+# (sitio corporativo y plataforma LOPDP), cada una en su línea.
+PIE_PAGINAS_OFICIALES = """        <p class="pie-tagline">Un proyecto de DERENZIN S.A.S.</p>
+        <div class="pie-oficiales">
+          <p class="pie-oficiales-label">Páginas oficiales:</p>
+          <ul class="pie-oficiales-lista">
+            <li><a href="https://derenzin.com/" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a></li>
+            <li><a href="https://lopdp.derenzin.com/" target="_blank" rel="noopener noreferrer">lopdp.derenzin.com ↗</a></li>
+          </ul>
+        </div>
+"""
+
+
 def render_pie(prefijo: str) -> str:
     anio = datetime.now(ZONA_GUAYAQUIL).year
     return f"""  <footer class="pie">
@@ -1437,8 +1450,7 @@ def render_pie(prefijo: str) -> str:
           <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="pie-logo">
           <span class="pie-marca-nombre">DERENZIN S.A.S.</span>
         </a>
-        <p class="pie-tagline">Un proyecto de DERENZIN S.A.S. — <a href="https://derenzin.com" target="_blank" rel="noopener noreferrer">derenzin.com ↗</a></p>
-      </div>
+{PIE_PAGINAS_OFICIALES}      </div>
       <div class="pie-legal">
         <p>{escape(AVISO_LEGAL)}</p>
         <p class="pie-fuentes">Fuentes monitoreadas: {FUENTES_MONITOREADAS}</p>
