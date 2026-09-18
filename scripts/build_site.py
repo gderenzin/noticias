@@ -981,8 +981,13 @@ def obtener_items_recientes(excluir_enlace: str | None, limite: int = 7) -> list
 # todo en el sidebar, ANTES de "Categorías". Es un <section> (no una noticia
 # ni un bloque de navegación): el label "Publicidad" + el borde/fondo de marca
 # (.sidebar-promo en style.css) la distinguen del contenido periodístico.
-SIDEBAR_PROMO_LOPDP = """      <section class="sidebar-promo" aria-label="Publicidad">
-        <p class="sidebar-promo-label">Publicidad</p>
+# Marca: logo real (el MISMO archivo que usa lopdp.derenzin.com, verificado por
+# hash: es assets/logo-derenzin.png) + su theme-color oficial #0052CC.
+SIDEBAR_PROMO_LOPDP = """      <section class="sidebar-promo sidebar-promo--lopdp" aria-label="Publicidad">
+        <div class="sidebar-promo-cabecera">
+          <p class="sidebar-promo-label">Publicidad</p>
+          <span class="sidebar-promo-logo"><img src="/assets/logo-derenzin.png" alt="" width="410" height="330" loading="lazy"></span>
+        </div>
         <p class="sidebar-promo-origen">Un proyecto de DERENZIN S.A.S.</p>
         <h2 class="sidebar-promo-titulo">Metodología de cumplimiento LOPDP</h2>
         <p class="sidebar-promo-texto">Cómo preparar a tu organización para cumplir con la Ley Orgánica de Protección de Datos Personales.</p>
@@ -998,8 +1003,14 @@ SIDEBAR_PROMO_LOPDP = """      <section class="sidebar-promo" aria-label="Public
 # virtuales. Estudia y obtén tu título en poco tiempo.") -- se usa solo su
 # 2da oración, textual. Sin línea "Un proyecto de ..." a propósito: no se
 # afirma ninguna relación con DERENZIN que la propia institución no declare.
-SIDEBAR_PROMO_EUROAMERICANO = """      <section class="sidebar-promo" aria-label="Publicidad">
-        <p class="sidebar-promo-label">Publicidad</p>
+# Marca: logo oficial copiado a assets/logo-euroamericano.png (de
+# euroamericano.edu.ec/images/logoeurogrande.png) y los colores reales del
+# logo -- azul #023e84 (dominante; el mismo que usa su HTML) y naranja #ea5b0c.
+SIDEBAR_PROMO_EUROAMERICANO = """      <section class="sidebar-promo sidebar-promo--euroamericano" aria-label="Publicidad">
+        <div class="sidebar-promo-cabecera">
+          <p class="sidebar-promo-label">Publicidad</p>
+          <span class="sidebar-promo-logo"><img src="/assets/logo-euroamericano.png" alt="" width="375" height="95" loading="lazy"></span>
+        </div>
         <h2 class="sidebar-promo-titulo">Tecnológico Universitario EuroAmericano</h2>
         <p class="sidebar-promo-texto">Carreras tecnológicas y universitarias presenciales y virtuales.</p>
         <a class="sidebar-promo-cta" href="https://euroamericano.edu.ec/" target="_blank" rel="noopener noreferrer">Conocer más ↗</a>

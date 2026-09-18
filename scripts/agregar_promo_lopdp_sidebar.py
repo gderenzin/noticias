@@ -37,7 +37,7 @@ def main() -> None:
     conteo = {"actualizado": 0, "ya_tenia": 0, "omitido": 0}
     for ruta in sorted(SITE_DIR.rglob("*.html")):
         texto = ruta.read_text(encoding="utf-8")
-        if 'class="sidebar-promo"' in texto:
+        if 'class="sidebar-promo' in texto:
             conteo["ya_tenia"] += 1
         elif ANCLA not in texto:
             conteo["omitido"] += 1
