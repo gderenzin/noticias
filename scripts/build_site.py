@@ -1366,13 +1366,15 @@ def render_cabecera(prefijo: str, pagina_actual: str) -> str:
     nav_proteccion_clase = ' class="activo"' if pagina_actual == "proteccion_datos" else ""
     return f"""  <header class="cabecera">
     <div class="cabecera-contenido">
-      <a href="{prefijo}index.html" class="marca-enlace">
-        <img src="{prefijo}assets/logo-derenzin.png" alt="DERENZIN" class="marca-logo">
+      <div class="marca-enlace">
+        <a href="{prefijo}index.html" class="marca-logo-enlace" tabindex="-1" aria-hidden="true">
+          <img src="{prefijo}assets/logo-derenzin.png" alt="" class="marca-logo">
+        </a>
         <div class="marca-texto">
-          <span class="marca-titulo">Noticias de Ciberseguridad</span>
-          <span class="marca-byline">Un proyecto de <strong>DERENZIN S.A.S.</strong></span>
+          <a href="{prefijo}index.html" class="marca-titulo-enlace"><span class="marca-titulo">Noticias de Ciberseguridad</span></a>
+          <span class="marca-byline">Un proyecto de <a href="https://derenzin.com/" target="_blank" rel="noopener noreferrer" class="marca-byline-enlace"><strong>DERENZIN S.A.S.</strong></a></span>
         </div>
-      </a>
+      </div>
       <nav class="nav">
         <a href="{prefijo}index.html"{nav_portada_clase}>Inicio</a>
         <a href="/archivo/index.html"{nav_archivo_clase}>Archivo</a>
