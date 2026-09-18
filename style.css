@@ -844,19 +844,12 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   gap: var(--sp-4);
-  position: sticky;
-  top: calc(var(--cabecera-alto-desktop) + var(--sp-4));
-}
-
-@media (max-width: 1023px) {
-  /* En mobile el sidebar se apila DEBAJO del artículo (una sola columna,
-     ver el media query de .pagina-noticia-layout arriba) -- ahí el sticky
-     no tiene sentido (no hay una columna más alta al lado con la que
-     "acompañar" el scroll) y se desactiva. */
-  .sidebar-noticia-sticky {
-    position: static;
-    top: auto;
-  }
+  /* Ya NO es sticky (decisión del dueño, 2026-09-18): con 3 cuñas + Categorías
+     + Últimas noticias el sidebar es más alto que la pantalla, y un sidebar
+     fijo dejaba lo de abajo inalcanzable hasta llegar al final de la página.
+     Ahora fluye con el scroll normal. El nombre de la clase se conserva
+     solo porque está horneado en el HTML de todas las páginas. */
+  position: static;
 }
 
 .sidebar-bloque {
@@ -902,6 +895,14 @@ h1, h2, h3 {
   --promo-fondo: #fff3ea;
   --promo-boton: #023e84;
   --promo-boton-hover: #012b5c;
+}
+
+/* CRIEEL: verde del propio logo (#106944). Blanco sobre él = 6.7:1 (AA). */
+.sidebar-promo--crieel {
+  --promo-acento: #106944;
+  --promo-fondo: #e9f5ef;
+  --promo-boton: #106944;
+  --promo-boton-hover: #0b4a2f;
 }
 
 .sidebar-promo-cabecera {
