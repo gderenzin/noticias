@@ -871,21 +871,75 @@ h1, h2, h3 {
    marca, el borde azul y el label "Publicidad"; mismos tokens de radio,
    espaciado y tipografía que el resto. */
 .sidebar-promo {
-  background: var(--acento-suave);
-  border: 1px solid var(--marca-acento);
-  border-top: 3px solid var(--marca-primario);
+  /* Variables de marca: cada cuña las redefine (ver --lopdp / --euroamericano
+     abajo). Layout, espaciado y tipografía son comunes a todas. */
+  --promo-acento: var(--marca-primario);
+  --promo-fondo: var(--acento-suave);
+  --promo-boton: var(--marca-primario);
+  --promo-boton-hover: #0747a6;
+  background: var(--promo-fondo);
+  border: 1px solid var(--promo-acento);
+  border-top: 3px solid var(--promo-acento);
   border-radius: var(--radio);
   padding: var(--sp-3) var(--sp-4) var(--sp-4);
   min-width: 0;
 }
 
-.sidebar-promo-label {
+/* lopdp.derenzin.com: theme-color oficial de su sitio (#0052CC); el logo es
+   el mismo de DERENZIN. Blanco sobre #0052CC = 6.8:1 (AA). */
+.sidebar-promo--lopdp {
+  --promo-acento: #0052cc;
+  --promo-fondo: #e8f0fc;
+  --promo-boton: #0052cc;
+  --promo-boton-hover: #003d99;
+}
+
+/* EuroAmericano: colores tomados del propio logo -- azul #023e84 (botón:
+   blanco sobre él = 11:1) y naranja #ea5b0c (solo decorativo: borde/franja,
+   nunca texto, porque blanco sobre ese naranja no llega a AA). */
+.sidebar-promo--euroamericano {
+  --promo-acento: #ea5b0c;
+  --promo-fondo: #fff3ea;
+  --promo-boton: #023e84;
+  --promo-boton-hover: #012b5c;
+}
+
+.sidebar-promo-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2);
   margin: 0 0 var(--sp-2) 0;
+}
+
+/* Placa blanca para que el logo conserve sus colores reales sin importar el
+   tinte de la cuña. */
+.sidebar-promo-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: var(--sp-1) var(--sp-2);
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.sidebar-promo-logo img {
+  display: block;
+  height: 32px;
+  width: auto;
+  max-width: 100%;
+}
+
+.sidebar-promo-label {
+  margin: 0;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--texto-suave);
+  /* --texto-tenue (no --texto-suave): 7.5:1 sobre las tintas de las cuñas; el
+     gris suave daba 4.2:1, debajo de AA para texto chico. */
+  color: var(--texto-tenue);
 }
 
 .sidebar-promo-origen {
@@ -913,7 +967,7 @@ h1, h2, h3 {
 .sidebar-promo-cta {
   display: inline-block;
   padding: var(--sp-2) var(--sp-3);
-  background: var(--marca-primario);
+  background: var(--promo-boton);
   color: #fff;
   font-size: var(--fs-sm);
   font-weight: 700;
@@ -923,7 +977,7 @@ h1, h2, h3 {
 
 .sidebar-promo-cta:hover,
 .sidebar-promo-cta:focus-visible {
-  background: #0747a6;
+  background: var(--promo-boton-hover);
 }
 
 .sidebar-titulo {
