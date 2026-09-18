@@ -4583,6 +4583,78 @@
       "fecha_publicacion_iso": "2026-09-17T20:36:00+00:00",
       "fecha_agregada_iso": "2026-09-17T23:34:21.875738+00:00",
       "ruta_noticia": "/noticia/2026-09-17-european-commission-set-to-push-social-media-restrictions-sa-9595e8c4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384952",
+      "fuente": "Help Net Security",
+      "titulo": "Hardcoded MCP credentials found in public GitHub files",
+      "fecha_publicacion_iso": "2026-09-18T05:30:26+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-hardcoded-mcp-credentials-found-in-public-github-files-afcd0d79.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384925",
+      "fuente": "Help Net Security",
+      "titulo": "98% of fraudulent hires have company credentials by the time they’re caught",
+      "fecha_publicacion_iso": "2026-09-18T05:00:51+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-98-of-fraudulent-hires-have-company-credentials-by-the-time-1d0739d2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384789",
+      "fuente": "Help Net Security",
+      "titulo": "Most WordPress pros still lack a breach recovery plan",
+      "fecha_publicacion_iso": "2026-09-18T04:30:56+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-most-wordpress-pros-still-lack-a-breach-recovery-plan-8ca3922d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/18/new-infosec-products-of-the-week-september-18-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384607",
+      "fuente": "Help Net Security",
+      "titulo": "New infosec products of the week: September 18, 2026",
+      "fecha_publicacion_iso": "2026-09-18T04:00:53+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-new-infosec-products-of-the-week-september-18-2026-35f4d792.html"
+    },
+    "https://www.theregister.com/security/2026/09/18/usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-ai-surveillance-tech/5297357": {
+      "guid": "https://www.theregister.com/a/5297357",
+      "fuente": "The Register - Security",
+      "titulo": "USA’s Venezuela takeover comes with bonus exposure to Chinese AI surveillance tech",
+      "fecha_publicacion_iso": "2026-09-18T02:28:30+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-09f06c84.html"
+    },
+    "https://thehackernews.com/2026/09/critical-check-point-management-server.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "fecha_publicacion_iso": "2026-09-17T18:08:28+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-critical-check-point-management-flaw-lets-unauthenticated-at-1e55db8f.html"
+    },
+    "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html": {
+      "guid": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "fecha_publicacion_iso": "2026-09-17T17:32:22+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-threatsday-self-rewriting-agents-800-flaws-patched-insider-s-b8d74fa7.html"
+    },
+    "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+      "fecha_publicacion_iso": "2026-09-17T15:37:56+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-critical-docker-sandboxes-flaw-lets-malicious-guest-code-rea-79854553.html"
+    },
+    "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html": {
+      "guid": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+      "fecha_publicacion_iso": "2026-09-17T14:03:13+00:00",
+      "fecha_agregada_iso": "2026-09-18T05:55:42.781765+00:00",
+      "ruta_noticia": "/noticia/2026-09-18-iran-linked-handala-hack-tied-to-heavygram-telegram-backdoor-16c199c0.html"
     }
   }
 }
