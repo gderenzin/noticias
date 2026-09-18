@@ -1259,16 +1259,71 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
+.pie-marca-enlace {
+  gap: var(--sp-3);
+}
+
 .pie-logo {
-  width: 42px;
-  height: 42px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .pie-marca-nombre {
   color: var(--pie-texto);
   font-weight: 700;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-md);
+  line-height: 1.2;
+}
+
+/* Páginas oficiales (bajo el tagline): label + un link por línea. */
+.pie-oficiales-label {
+  margin: var(--sp-1) 0 var(--sp-1) 0;
+  font-size: var(--fs-xs);
+  color: var(--pie-texto-tenue);
+}
+
+.pie-oficiales-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.pie-oficiales-lista a {
+  color: var(--marca-acento);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pie-oficiales-lista a:hover,
+.pie-oficiales-lista a:focus-visible {
+  text-decoration: underline;
+}
+
+/* Bloque derecho: aviso legal y fuentes justificados (mismo criterio que el
+   cuerpo de las noticias); hyphens:auto evita los espacios raros. Ni el
+   párrafo del recurso LOPDP ni el copyright se justifican: son cortos y
+   llevan links. */
+.pie-legal > p:first-child {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* "Fuentes monitoreadas" es una lista de nombres propios (sin guiones
+   posibles): en una columna angosta de móvil la justificación abre huecos
+   grandes, así que solo se justifica desde 640px. */
+@media (min-width: 640px) {
+  .pie-fuentes {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
 }
 
 .pie-tagline {
