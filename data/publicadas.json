@@ -5183,6 +5183,70 @@
       "fecha_publicacion_iso": "2026-09-19T06:24:10+00:00",
       "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
       "ruta_noticia": "/noticia/2026-09-19-cisa-flags-three-linux-kernel-vulnerabilities-exploited-in-t-9de6b003.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+      "fuente": "BleepingComputer",
+      "titulo": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "fecha_publicacion_iso": "2026-09-19T14:56:31+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-bragjack-attacks-hijack-ai-browser-agents-through-malicious-f8afd406.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/pivot-pruebas-para-evaluar-la-eficacia.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2134325388225900097",
+      "fuente": "Segu-Info",
+      "titulo": "PIVOT: pruebas para evaluar la eficacia de los proveedores de ciberseguridad",
+      "fecha_publicacion_iso": "2026-09-19T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-pivot-pruebas-para-evaluar-la-eficacia-de-los-proveedores-de-d44936ca.html"
+    },
+    "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/": {
+      "guid": "https://www.securityweek.com/?p=49444",
+      "fuente": "SecurityWeek",
+      "titulo": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
+      "fecha_publicacion_iso": "2026-09-19T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-tigerbyte-cyber-emerges-from-stealth-with-3-million-in-fundi-b7b0f8d9.html"
+    },
+    "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546": {
+      "guid": "https://www.theregister.com/a/5297546",
+      "fuente": "The Register - Security",
+      "titulo": "Agentic security is the billion-dollar challenge for some clever startup to solve",
+      "fecha_publicacion_iso": "2026-09-19T14:25:00+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-agentic-security-is-the-billion-dollar-challenge-for-some-cl-663f5a6a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+      "fuente": "BleepingComputer",
+      "titulo": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "fecha_publicacion_iso": "2026-09-19T14:05:15+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-north-korean-waterplum-hackers-infected-30-000-devices-world-cfe7f416.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "fecha_publicacion_iso": "2026-09-19T13:48:32+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransom-c1d5bcc8.html"
+    },
+    "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html": {
+      "guid": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "fuente": "The Hacker News",
+      "titulo": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "fecha_publicacion_iso": "2026-09-19T13:28:41+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-identity-visibility-in-2026-the-foundation-of-identity-secur-b2876269.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
+      "fuente": "BleepingComputer",
+      "titulo": "Viral AI actress' hotline face-scans every caller, watches their mood",
+      "fecha_publicacion_iso": "2026-09-19T11:38:20+00:00",
+      "fecha_agregada_iso": "2026-09-19T16:30:23.868813+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-viral-ai-actress-hotline-face-scans-every-caller-watches-the-f3c57bf9.html"
     }
   }
 }
