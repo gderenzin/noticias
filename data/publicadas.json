@@ -5111,6 +5111,78 @@
       "fecha_publicacion_iso": "2026-09-18T14:32:42+00:00",
       "fecha_agregada_iso": "2026-09-19T05:53:29.581243+00:00",
       "ruta_noticia": "/noticia/2026-09-19-te-preocupan-las-aplicaciones-que-crean-desnudos-falsos-con-aecb94ec.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+      "fuente": "BleepingComputer",
+      "titulo": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
+      "fecha_publicacion_iso": "2026-09-19T11:38:20+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-1aa8b634.html"
+    },
+    "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/": {
+      "guid": "6aaaaa164e40ce71797f8e63",
+      "fuente": "Wired - Security",
+      "titulo": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+      "fecha_publicacion_iso": "2026-09-19T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-forget-the-ai-slowdownthe-vulnerability-explosion-is-already-0e616293.html"
+    },
+    "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html": {
+      "guid": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "fuente": "The Hacker News",
+      "titulo": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "fecha_publicacion_iso": "2026-09-19T10:01:10+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-claude-opus-5-helped-researchers-take-over-openai-staff-acco-cc2fd48c.html"
+    },
+    "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html": {
+      "guid": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "fuente": "The Hacker News",
+      "titulo": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-09-19T09:31:17+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-solarwinds-patches-arm-hard-coded-key-flaw-enabling-unauthen-c8019563.html"
+    },
+    "https://www.wired.com/gallery/best-vpn/": {
+      "guid": "68af63e252be2b76ffa4c01a",
+      "fuente": "Wired - Security",
+      "titulo": "6 Best VPN Services (2026), Tested and Reviewed",
+      "fecha_publicacion_iso": "2026-09-19T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-6-best-vpn-services-2026-tested-and-reviewed-fed7de72.html"
+    },
+    "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-09-19T08:18:54+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-critical-pre-auth-rce-in-orkes-conductor-workflow-platform-e-d36262dc.html"
+    },
+    "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html": {
+      "guid": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "fecha_publicacion_iso": "2026-09-19T07:51:34+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-google-gemini-broke-into-real-company-systems-after-security-71746d07.html"
+    },
+    "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html": {
+      "guid": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "fuente": "The Hacker News",
+      "titulo": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "fecha_publicacion_iso": "2026-09-19T07:14:54+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-crowdsec-says-tanstack-npm-attack-led-to-copy-of-170-private-bf0f679d.html"
+    },
+    "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html": {
+      "guid": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-09-19T06:24:10+00:00",
+      "fecha_agregada_iso": "2026-09-19T13:10:42.134208+00:00",
+      "ruta_noticia": "/noticia/2026-09-19-cisa-flags-three-linux-kernel-vulnerabilities-exploited-in-t-9de6b003.html"
     }
   }
 }
