@@ -5255,6 +5255,22 @@
       "fecha_publicacion_iso": "2026-09-20T05:01:00+00:00",
       "fecha_agregada_iso": "2026-09-20T06:15:33.287593+00:00",
       "ruta_noticia": "/noticia/2026-09-20-vibe-exploiting-discourse-para-hackear-openai-con-claude-opu-d1b38185.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+      "fuente": "BleepingComputer",
+      "titulo": "Researchers escape OpenAI Codex sandbox to run commands on host",
+      "fecha_publicacion_iso": "2026-09-20T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-20T13:35:27.627899+00:00",
+      "ruta_noticia": "/noticia/2026-09-20-researchers-escape-openai-codex-sandbox-to-run-commands-on-h-533b089b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384599",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Cisco patches exploited email gateway 0-day, Revolut breach",
+      "fecha_publicacion_iso": "2026-09-20T08:00:21+00:00",
+      "fecha_agregada_iso": "2026-09-20T13:35:27.627899+00:00",
+      "ruta_noticia": "/noticia/2026-09-20-week-in-review-cisco-patches-exploited-email-gateway-0-day-r-34ab39d6.html"
     }
   }
 }
