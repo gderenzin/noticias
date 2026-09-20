@@ -5271,6 +5271,22 @@
       "fecha_publicacion_iso": "2026-09-20T08:00:21+00:00",
       "fecha_agregada_iso": "2026-09-20T13:35:27.627899+00:00",
       "ruta_noticia": "/noticia/2026-09-20-week-in-review-cisco-patches-exploited-email-gateway-0-day-r-34ab39d6.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/aws-confirma-que-no-lograra-restablecer.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6964071014102709103",
+      "fuente": "Segu-Info",
+      "titulo": "AWS admite pérdida permanente de datos de clientes tras los ataques iraníes a sus centros de datos",
+      "fecha_publicacion_iso": "2026-09-20T16:29:00+00:00",
+      "fecha_agregada_iso": "2026-09-20T19:27:26.255663+00:00",
+      "ruta_noticia": "/noticia/2026-09-20-aws-admite-perdida-permanente-de-datos-de-clientes-tras-los-a825dee2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+      "fuente": "BleepingComputer",
+      "titulo": "Malicious npm packages evade install-script defenses at runtime",
+      "fecha_publicacion_iso": "2026-09-20T14:11:21+00:00",
+      "fecha_agregada_iso": "2026-09-20T19:27:26.255663+00:00",
+      "ruta_noticia": "/noticia/2026-09-20-malicious-npm-packages-evade-install-script-defenses-at-runt-5abf59fe.html"
     }
   }
 }
