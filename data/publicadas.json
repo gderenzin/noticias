@@ -5343,6 +5343,302 @@
       "fecha_publicacion_iso": "2026-09-21T04:00:31+00:00",
       "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
       "ruta_noticia": "/noticia/2026-09-21-ai-compliance-issues-hit-2-in-5-large-companies-and-legacy-w-848e409f.html"
+    },
+    "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/": {
+      "guid": "https://www.securityweek.com/?p=49462",
+      "fuente": "SecurityWeek",
+      "titulo": "Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer",
+      "fecha_publicacion_iso": "2026-09-21T15:46:58+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-fake-lastpass-installers-push-kernel-level-edr-killer-rapunc-d046944d.html"
+    },
+    "https://therecord.media/belgium-table-tennis-cyberattack": {
+      "guid": "https://therecord.media/belgium-table-tennis-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Belgian table tennis, gymnastics federations hit by cyberattacks",
+      "fecha_publicacion_iso": "2026-09-21T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-belgian-table-tennis-gymnastics-federations-hit-by-cyberatta-293e5198.html"
+    },
+    "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents": {
+      "guid": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
+      "fuente": "Dark Reading",
+      "titulo": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
+      "fecha_publicacion_iso": "2026-09-21T14:47:19+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-rogue-behavior-openai-reveals-more-model-misalignment-incide-7ad1c982.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes broken Excel copy and paste for all Office users",
+      "fecha_publicacion_iso": "2026-09-21T14:42:37+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-microsoft-fixes-broken-excel-copy-and-paste-for-all-office-u-81a65014.html"
+    },
+    "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/": {
+      "guid": "https://www.securityweek.com/?p=49389",
+      "fuente": "SecurityWeek",
+      "titulo": "CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast",
+      "fecha_publicacion_iso": "2026-09-21T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-ciso-conversations-noopur-davis-the-accidental-global-ciso-a-317d6d1a.html"
+    },
+    "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html": {
+      "guid": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "fecha_publicacion_iso": "2026-09-21T14:24:13+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-weekly-recap-cisco-0-day-ai-agent-rce-clickfix-attacks-click-5997c3e8.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/actriz-de-ia-viral-escanea-el-rostro-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8292087699440240710",
+      "fuente": "Segu-Info",
+      "titulo": "Actriz de IA viral escanea el rostro de quien llama y observa su estado de ánimo",
+      "fecha_publicacion_iso": "2026-09-21T14:19:46+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-actriz-de-ia-viral-escanea-el-rostro-de-quien-llama-y-observ-7ed717c7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "fecha_publicacion_iso": "2026-09-21T14:02:12+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-fbi-s-cjis-v6-1-what-security-teams-need-to-know-10a0c012.html"
+    },
+    "https://therecord.media/cyberattack-hits-university-of-munich-potentially-exposing-data": {
+      "guid": "https://therecord.media/cyberattack-hits-university-of-munich-potentially-exposing-data",
+      "fuente": "The Record",
+      "titulo": "Cyberattack hits University of Munich, potentially exposing student financial data",
+      "fecha_publicacion_iso": "2026-09-21T14:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-cyberattack-hits-university-of-munich-potentially-exposing-s-4aab1985.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385149",
+      "fuente": "Help Net Security",
+      "titulo": "The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files",
+      "fecha_publicacion_iso": "2026-09-21T14:00:18+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-the-task-stomp-windows-backdoor-takes-wi-fi-passwords-screen-6c3cc809.html"
+    },
+    "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html": {
+      "guid": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "fuente": "The Hacker News",
+      "titulo": "The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files",
+      "fecha_publicacion_iso": "2026-09-21T14:00:18+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-the-task-stomp-windows-backdoor-takes-wi-fi-passwords-screen-6c3cc809.html"
+    },
+    "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/": {
+      "guid": "https://www.securityweek.com/?p=49460",
+      "fuente": "SecurityWeek",
+      "titulo": "Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal",
+      "fecha_publicacion_iso": "2026-09-21T14:00:13+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-dragos-completes-netrise-and-runzero-acquisitions-following-23c34b62.html"
+    },
+    "https://therecord.media/shinyhunters-clop-cyberattack-website": {
+      "guid": "https://therecord.media/shinyhunters-clop-cyberattack-website",
+      "fuente": "The Record",
+      "titulo": "ShinyHunters cybercrime gang takes over Cl0p ransomware site, demands extortion payment",
+      "fecha_publicacion_iso": "2026-09-21T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-shinyhunters-cybercrime-gang-takes-over-cl0p-ransomware-site-003fbe3c.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "fecha_publicacion_iso": "2026-09-21T13:16:20+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-microsoft-reminds-admins-to-migrate-entra-id-users-to-passke-6ccedc5e.html"
+    },
+    "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping": {
+      "guid": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping",
+      "fuente": "The Record",
+      "titulo": "LinkedIn wins court order blocking mass scraping of user data",
+      "fecha_publicacion_iso": "2026-09-21T12:55:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-linkedin-wins-court-order-blocking-mass-scraping-of-user-dat-836b8875.html"
+    },
+    "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/": {
+      "guid": "https://www.securityweek.com/?p=49458",
+      "fuente": "SecurityWeek",
+      "titulo": "RatHat Android Trojan Uses AI for Automation",
+      "fecha_publicacion_iso": "2026-09-21T12:51:41+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-rathat-android-trojan-uses-ai-for-automation-c64188f5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385239",
+      "fuente": "Help Net Security",
+      "titulo": "Fastly gives enterprises real-time control over AI models and agents",
+      "fecha_publicacion_iso": "2026-09-21T12:49:01+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-fastly-gives-enterprises-real-time-control-over-ai-models-an-29d0af56.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/09/21/clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hijack-leak-site/5297702": {
+      "guid": "https://www.theregister.com/a/5297702",
+      "fuente": "The Register - Security",
+      "titulo": "Clop gets a taste of its own medicine after ShinyHunters hijack leak site",
+      "fecha_publicacion_iso": "2026-09-21T12:46:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hij-f5705f34.html"
+    },
+    "https://therecord.media/gemini-google-cyber-breach": {
+      "guid": "https://therecord.media/gemini-google-cyber-breach",
+      "fuente": "The Record",
+      "titulo": "Google says Gemini breached three companies during security test",
+      "fecha_publicacion_iso": "2026-09-21T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-says-gemini-breached-three-companies-during-security-6352d4f0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385229",
+      "fuente": "Help Net Security",
+      "titulo": "North Korea’s job interview scam runs both ways",
+      "fecha_publicacion_iso": "2026-09-21T12:27:05+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-north-koreas-job-interview-scam-runs-both-ways-e8a3b2ed.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/ireland-google-users-location-data-processing-fine/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385221",
+      "fuente": "Help Net Security",
+      "titulo": "Google hit with €403 million GDPR fine over location tracking",
+      "fecha_publicacion_iso": "2026-09-21T12:23:19+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-hit-with-403-million-gdpr-fine-over-location-tracking-f24c4afb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google hit with €403 million GDPR fine over location tracking",
+      "fecha_publicacion_iso": "2026-09-21T12:23:19+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-hit-with-403-million-gdpr-fine-over-location-tracking-f24c4afb.html"
+    },
+    "https://www.edpb.europa.eu/news/edpb-harmonises-fining-methodology-and-adopts-final-dsa-gdpr-guidelines_en": {
+      "guid": "f3b54281-c7c0-4e72-949b-5681fc373458",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines",
+      "fecha_publicacion_iso": "2026-09-21T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-edpb-harmonises-fining-methodology-and-adopts-final-dsa-gdpr-635da126.html"
+    },
+    "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/": {
+      "guid": "https://www.securityweek.com/?p=49456",
+      "fuente": "SecurityWeek",
+      "titulo": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
+      "fecha_publicacion_iso": "2026-09-21T11:57:35+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-rust-team-members-and-popular-crate-owners-targeted-via-vide-1d5de0af.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: September updates break File History backup feature",
+      "fecha_publicacion_iso": "2026-09-21T11:45:54+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-microsoft-september-updates-break-file-history-backup-featur-408c2d26.html"
+    },
+    "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=49454",
+      "fuente": "SecurityWeek",
+      "titulo": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-09-21T10:55:46+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-crowdsec-confirms-source-code-stolen-in-supply-chain-attack-235c3bfe.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/fake-police-federal-agents-scams/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385202",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers impersonate cops, use arrest threats to extort victims",
+      "fecha_publicacion_iso": "2026-09-21T10:53:24+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-scammers-impersonate-cops-use-arrest-threats-to-extort-victi-a7208949.html"
+    },
+    "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/": {
+      "guid": "6ab0f60f6263408dc102430f",
+      "fuente": "Wired - Security",
+      "titulo": "US and China Discuss Alerting Each Other to AI National Security Threats",
+      "fecha_publicacion_iso": "2026-09-21T10:34:43+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-us-and-china-discuss-alerting-each-other-to-ai-national-secu-bfcae31e.html"
+    },
+    "https://www.theregister.com/security/2026/09/21/rustaceans-warned-of-job-interviews-with-a-malicious-payload/5297690": {
+      "guid": "https://www.theregister.com/a/5297690",
+      "fuente": "The Register - Security",
+      "titulo": "Rustaceans warned of job interviews with a malicious payload",
+      "fecha_publicacion_iso": "2026-09-21T10:33:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-rustaceans-warned-of-job-interviews-with-a-malicious-payload-63aa8c53.html"
+    },
+    "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/": {
+      "guid": "https://www.securityweek.com/?p=49452",
+      "fuente": "SecurityWeek",
+      "titulo": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
+      "fecha_publicacion_iso": "2026-09-21T10:03:44+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-colorado-water-utilities-hit-by-cyberattacks-targeting-ot-sy-eead72d7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385193",
+      "fuente": "Help Net Security",
+      "titulo": "Siemba brings continuous IDOR testing to production APIs",
+      "fecha_publicacion_iso": "2026-09-21T09:39:44+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-siemba-brings-continuous-idor-testing-to-production-apis-b9f82995.html"
+    },
+    "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49450",
+      "fuente": "SecurityWeek",
+      "titulo": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-21T09:31:12+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-organizations-warned-of-3-exploited-linux-kernel-vulnerabili-05bda913.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385169",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers exploit Gyazo server flaw to steal 23.6 million user records",
+      "fecha_publicacion_iso": "2026-09-21T08:57:26+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-hackers-exploit-gyazo-server-flaw-to-steal-23-6-million-user-248e2049.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-xss-en-ai-chatbot-platform-de-1millionbot": {
+      "guid": "662575 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting (XSS) en AI Chatbot Platform de 1millionbot",
+      "fecha_publicacion_iso": "2026-09-21T08:40:01+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-cross-site-scripting-xss-en-ai-chatbot-platform-de-1millionb-b3633319.html"
+    },
+    "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html": {
+      "guid": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "fuente": "The Hacker News",
+      "titulo": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "fecha_publicacion_iso": "2026-09-21T08:39:38+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-clickfix-lures-deploy-chainscript-rat-using-polygon-to-rotat-466b4f51.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dsm-de-synology": {
+      "guid": "662571 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en DSM de Synology",
+      "fecha_publicacion_iso": "2026-09-21T07:41:25+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-multiples-vulnerabilidades-en-dsm-de-synology-c3450ce1.html"
+    },
+    "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/": {
+      "guid": "https://www.securityweek.com/?p=49448",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Confirms Gemini AI Breached Three Firms",
+      "fecha_publicacion_iso": "2026-09-21T07:20:46+00:00",
+      "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-confirms-gemini-ai-breached-three-firms-f5aa1e45.html"
     }
   }
 }
