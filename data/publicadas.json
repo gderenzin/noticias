@@ -5639,6 +5639,118 @@
       "fecha_publicacion_iso": "2026-09-21T07:20:46+00:00",
       "fecha_agregada_iso": "2026-09-21T15:58:12.214142+00:00",
       "ruta_noticia": "/noticia/2026-09-21-google-confirms-gemini-ai-breached-three-firms-f5aa1e45.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "fecha_publicacion_iso": "2026-09-21T20:12:17+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-cisa-alerts-of-active-exploitation-of-three-linux-kernel-fla-26767520.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+      "fuente": "Dark Reading",
+      "titulo": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+      "fecha_publicacion_iso": "2026-09-21T20:07:56+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-shinyhunters-hacked-clop-now-what-about-clop-s-victims-556946de.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980": {
+      "guid": "https://www.theregister.com/a/5297980",
+      "fuente": "The Register - Security",
+      "titulo": "Meta Muse AI app flaw lets local malware redirect dictation traffic",
+      "fecha_publicacion_iso": "2026-09-21T19:59:52+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-12555d18.html"
+    },
+    "https://therecord.media/google-europe-location-data-fine": {
+      "guid": "https://therecord.media/google-europe-location-data-fine",
+      "fuente": "The Record",
+      "titulo": "EU data regulator fines Google more than $460 million for location data violations",
+      "fecha_publicacion_iso": "2026-09-21T19:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-eu-data-regulator-fines-google-more-than-460-million-for-loc-8a5e1ae3.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
+      "fuente": "Dark Reading",
+      "titulo": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
+      "fecha_publicacion_iso": "2026-09-21T19:11:26+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-cybercriminals-are-hiding-new-malware-in-torrents-for-popula-f7abe72a.html"
+    },
+    "https://www.theregister.com/security/2026/09/21/treasury-chief-says-ai-bosses-not-their-bots-will-carry-the-can-for-criminal-acts/5297965": {
+      "guid": "https://www.theregister.com/a/5297965",
+      "fuente": "The Register - Security",
+      "titulo": "Treasury chief says AI bosses, not their bots, will carry the can for criminal acts",
+      "fecha_publicacion_iso": "2026-09-21T19:10:53+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-treasury-chief-says-ai-bosses-not-their-bots-will-carry-the-3705922b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "fuente": "BleepingComputer",
+      "titulo": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "fecha_publicacion_iso": "2026-09-21T18:23:11+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-s-d7973e79.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "fecha_publicacion_iso": "2026-09-21T17:54:49+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-microsoft-to-retire-microsoft-365-companion-apps-in-december-3729eed0.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/publican-exploits-para-cuatro-fallos.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5430175412634254149",
+      "fuente": "Segu-Info",
+      "titulo": "Publican exploits para cuatro fallos del kernel de Linux que permiten obtener acceso root local",
+      "fecha_publicacion_iso": "2026-09-21T17:40:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-publican-exploits-para-cuatro-fallos-del-kernel-de-linux-que-341455ad.html"
+    },
+    "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html": {
+      "guid": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "fecha_publicacion_iso": "2026-09-21T17:31:01+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-fake-lastpass-authenticator-installer-abuses-microsoft-signe-98fe946d.html"
+    },
+    "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/": {
+      "guid": "https://www.securityweek.com/?p=49464",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Hit With $463 Million Fine for EU Location Data Rule Breach",
+      "fecha_publicacion_iso": "2026-09-21T17:19:53+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-hit-with-463-million-fine-for-eu-location-data-rule-b-d3707272.html"
+    },
+    "https://thehackernews.com/2026/09/contagious-interview-campaign.html": {
+      "guid": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "fuente": "The Hacker News",
+      "titulo": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "fecha_publicacion_iso": "2026-09-21T17:19:00+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-contagious-interview-campaign-compromises-30-000-devices-ste-1dcb430b.html"
+    },
+    "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html": {
+      "guid": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "fecha_publicacion_iso": "2026-09-21T16:57:31+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-google-fined-403-million-over-gdpr-violations-tied-to-locati-2a6260ae.html"
+    },
+    "https://cyberscoop.com/house-democrats-cisa-force-structure-assessment-act/": {
+      "guid": "https://cyberscoop.com/?p=90753",
+      "fuente": "CyberScoop",
+      "titulo": "Dems seek top-to-bottom assessment of CISA workforce",
+      "fecha_publicacion_iso": "2026-09-21T16:05:51+00:00",
+      "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-dems-seek-top-to-bottom-assessment-of-cisa-workforce-f099ae53.html"
     }
   }
 }
