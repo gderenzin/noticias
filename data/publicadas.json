@@ -5287,6 +5287,62 @@
       "fecha_publicacion_iso": "2026-09-20T14:11:21+00:00",
       "fecha_agregada_iso": "2026-09-20T19:27:26.255663+00:00",
       "ruta_noticia": "/noticia/2026-09-20-malicious-npm-packages-evade-install-script-defenses-at-runt-5abf59fe.html"
+    },
+    "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html": {
+      "guid": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "fuente": "The Hacker News",
+      "titulo": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "fecha_publicacion_iso": "2026-09-21T06:06:44+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-jade-sleet-linked-to-indian-it-provider-breach-with-flatroof-d657c58d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384903",
+      "fuente": "Help Net Security",
+      "titulo": "Know what was tested before your SAP ECC migration goes live",
+      "fecha_publicacion_iso": "2026-09-21T06:00:31+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-know-what-was-tested-before-your-sap-ecc-migration-goes-live-33687b74.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/product-showcase-helmit-parental-controls/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385108",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Helmit alerts parents when online conversations show signs of trouble",
+      "fecha_publicacion_iso": "2026-09-21T05:30:34+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-product-showcase-helmit-alerts-parents-when-online-conversat-4d6aa8e6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384868",
+      "fuente": "Help Net Security",
+      "titulo": "Gopass: Open-source command-line password manager for teams",
+      "fecha_publicacion_iso": "2026-09-21T05:00:32+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-gopass-open-source-command-line-password-manager-for-teams-b6555507.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384852",
+      "fuente": "Help Net Security",
+      "titulo": "Intent injection attacks are a new worry for AI-native 6G networks",
+      "fecha_publicacion_iso": "2026-09-21T04:30:55+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-intent-injection-attacks-are-a-new-worry-for-ai-native-6g-ne-f1c1bad1.html"
+    },
+    "http://www.elladodelmal.com/2026/09/ciberseguridad-amenazas-y-desafios-para.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3508473587117246398",
+      "fuente": "El Lado del Mal",
+      "titulo": "Ciberseguridad: Amenazas y desafíos para empresas y ciudadanos. Evento Online Gratis el 24 de Septiembre",
+      "fecha_publicacion_iso": "2026-09-21T04:14:27+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-ciberseguridad-amenazas-y-desafios-para-empresas-y-ciudadano-ab1ee696.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384978",
+      "fuente": "Help Net Security",
+      "titulo": "AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor",
+      "fecha_publicacion_iso": "2026-09-21T04:00:31+00:00",
+      "fecha_agregada_iso": "2026-09-21T06:20:17.303144+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-ai-compliance-issues-hit-2-in-5-large-companies-and-legacy-w-848e409f.html"
     }
   }
 }
