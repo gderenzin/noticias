@@ -6119,6 +6119,174 @@
       "fecha_publicacion_iso": "2026-09-21T23:00:00+00:00",
       "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
       "ruta_noticia": "/noticia/2026-09-22-russia-s-internet-shutdowns-disrupt-warnings-about-incoming-0c5be474.html"
+    },
+    "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach": {
+      "guid": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
+      "fuente": "The Record",
+      "titulo": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
+      "fecha_publicacion_iso": "2026-09-22T19:52:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-canadian-regulator-opens-probe-of-idscan-for-allegedly-viola-0061c7d1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "fecha_publicacion_iso": "2026-09-22T19:13:29+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-d-69879410.html"
+    },
+    "https://cyberscoop.com/volexity-uta0565-china-exploit-chain-chrome-microsoft/": {
+      "guid": "https://cyberscoop.com/?p=90778",
+      "fuente": "CyberScoop",
+      "titulo": "Volexity spots another China-aligned threat group exploiting Chrome and Microsoft defects",
+      "fecha_publicacion_iso": "2026-09-22T18:47:07+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-volexity-spots-another-china-aligned-threat-group-exploiting-0d2cb588.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/apple-reference-image-funcion-de-apple.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-288414125293886384",
+      "fuente": "Segu-Info",
+      "titulo": "Apple Reference Image: función de Apple para detectar manipulación con IA",
+      "fecha_publicacion_iso": "2026-09-22T18:16:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-apple-reference-image-funcion-de-apple-para-detectar-manipul-f2848716.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+      "fuente": "BleepingComputer",
+      "titulo": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "fecha_publicacion_iso": "2026-09-22T18:04:39+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-new-closedquorum-windows-malware-uses-ai-for-attack-decision-e30c0cff.html"
+    },
+    "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html": {
+      "guid": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "fuente": "The Hacker News",
+      "titulo": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "fecha_publicacion_iso": "2026-09-22T18:03:10+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-wordpress-issues-patch-for-critical-flaw-that-can-enable-cod-ddea315e.html"
+    },
+    "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html": {
+      "guid": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "fecha_publicacion_iso": "2026-09-22T17:58:15+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-malicious-npm-package-poses-as-twilio-bug-bounty-probe-can-e-4c497500.html"
+    },
+    "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/": {
+      "guid": "https://www.securityweek.com/?p=49496",
+      "fuente": "SecurityWeek",
+      "titulo": "BigCommerce Data Stolen via Ribon Apps Hack",
+      "fecha_publicacion_iso": "2026-09-22T17:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-bigcommerce-data-stolen-via-ribon-apps-hack-dace937c.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+      "fuente": "Dark Reading",
+      "titulo": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+      "fecha_publicacion_iso": "2026-09-22T17:32:49+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-shai-hulud-attack-nips-cyber-firm-crowdsec-s-github-data-8c4e4ffe.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
+      "fuente": "BleepingComputer",
+      "titulo": "Reducing shadow IT visibility gaps with Wazuh",
+      "fecha_publicacion_iso": "2026-09-22T17:17:41+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-reducing-shadow-it-visibility-gaps-with-wazuh-4e315a00.html"
+    },
+    "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real": {
+      "guid": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
+      "fuente": "Dark Reading",
+      "titulo": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
+      "fecha_publicacion_iso": "2026-09-22T17:12:26+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-amid-ongoing-rogue-incidents-debate-over-ai-safety-gets-real-a089dce2.html"
+    },
+    "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "fecha_publicacion_iso": "2026-09-22T16:41:12+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-critical-bifrost-ai-gateway-flaw-lets-attackers-run-commands-375f4910.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Check Point warns of Management Server zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-22T16:32:47+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-check-point-warns-of-management-server-zero-day-exploited-in-4bf76d62.html"
+    },
+    "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html": {
+      "guid": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "fuente": "The Hacker News",
+      "titulo": "Check Point warns of Management Server zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-22T16:32:47+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-check-point-warns-of-management-server-zero-day-exploited-in-4bf76d62.html"
+    },
+    "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html": {
+      "guid": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "fecha_publicacion_iso": "2026-09-22T16:14:04+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-researcher-drops-bigdiskbuster-zero-day-poc-that-blocks-micr-d1d540cc.html"
+    },
+    "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens": {
+      "guid": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
+      "fuente": "The Record",
+      "titulo": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
+      "fecha_publicacion_iso": "2026-09-22T15:51:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-two-arrested-in-uk-after-microsoft-takedown-of-eviltokens-ai-9b54948e.html"
+    },
+    "https://cyberscoop.com/trump-hands-off-ai-regulation-china-race/": {
+      "guid": "https://cyberscoop.com/?p=90768",
+      "fuente": "CyberScoop",
+      "titulo": "Citing China, President Trump doubles down on hands-off approach to AI regulation",
+      "fecha_publicacion_iso": "2026-09-22T15:16:35+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-citing-china-president-trump-doubles-down-on-hands-off-appro-cc66422b.html"
+    },
+    "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/": {
+      "guid": "https://cyberscoop.com/?p=90761",
+      "fuente": "CyberScoop",
+      "titulo": "Microsoft and partners disrupt EvilTokens, a comprehensive cybercrime service for financial fraud",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-microsoft-and-partners-disrupt-eviltokens-a-comprehensive-cy-4a80e1cf.html"
+    },
+    "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html": {
+      "guid": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft and partners disrupt EvilTokens, a comprehensive cybercrime service for financial fraud",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-microsoft-and-partners-disrupt-eviltokens-a-comprehensive-cy-4a80e1cf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-eviltokens-phaas-disrupted-after-compromising-12-000-microso-bbe00974.html"
+    },
+    "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/": {
+      "guid": "https://www.securityweek.com/?p=49494",
+      "fuente": "SecurityWeek",
+      "titulo": "Cyera Raises $400 Million at $12+ Billion Valuation",
+      "fecha_publicacion_iso": "2026-09-22T14:29:34+00:00",
+      "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-cyera-raises-400-million-at-12-billion-valuation-580018f7.html"
     }
   }
 }
