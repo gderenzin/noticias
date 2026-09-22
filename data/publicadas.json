@@ -5823,6 +5823,302 @@
       "fecha_publicacion_iso": "2026-09-22T02:01:24+00:00",
       "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
       "ruta_noticia": "/noticia/2026-09-22-us-proposes-ai-incident-alert-system-in-talks-with-china-bes-108d12ca.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385350",
+      "fuente": "Help Net Security",
+      "titulo": "Researchers uncover malware that uses AI to choose its next move",
+      "fecha_publicacion_iso": "2026-09-22T13:56:55+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-researchers-uncover-malware-that-uses-ai-to-choose-its-next-2a3b1d15.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/elsevier-domains-hijack-lapsus/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385362",
+      "fuente": "Help Net Security",
+      "titulo": "Brief hijack makes Elsevier domains redirect to LAPSUS$ “Chapter II” page",
+      "fecha_publicacion_iso": "2026-09-22T13:46:45+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-brief-hijack-makes-elsevier-domains-redirect-to-lapsus-chapt-4d89fd0a.html"
+    },
+    "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/": {
+      "guid": "https://www.securityweek.com/?p=49492",
+      "fuente": "SecurityWeek",
+      "titulo": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
+      "fecha_publicacion_iso": "2026-09-22T13:26:51+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-nightmare-eclipse-drops-new-microsoft-defender-exploit-after-2a3a5d2a.html"
+    },
+    "https://therecord.media/ai-set-to-help-attackers-more-than-defenders": {
+      "guid": "https://therecord.media/ai-set-to-help-attackers-more-than-defenders",
+      "fuente": "The Record",
+      "titulo": "AI is set to help cyber attackers much more than defenders, says UK official",
+      "fecha_publicacion_iso": "2026-09-22T13:05:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-ai-is-set-to-help-cyber-attackers-much-more-than-defenders-s-c641469e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+      "fuente": "BleepingComputer",
+      "titulo": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+      "fecha_publicacion_iso": "2026-09-22T12:57:07+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-webinar-tomorrow-inside-real-world-google-workspace-breaches-b4fae05d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+      "fuente": "BleepingComputer",
+      "titulo": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+      "fecha_publicacion_iso": "2026-09-22T12:48:06+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-router-161a8fed.html"
+    },
+    "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html": {
+      "guid": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "fecha_publicacion_iso": "2026-09-22T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-ai-agents-are-rewriting-the-rules-of-lateral-movement-a831b8ff.html"
+    },
+    "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html": {
+      "guid": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "fuente": "The Hacker News",
+      "titulo": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "fecha_publicacion_iso": "2026-09-22T12:29:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-new-cvss-10-0-velocloud-orchestrator-flaw-actively-exploited-f9ade19d.html"
+    },
+    "https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/": {
+      "guid": "https://www.securityweek.com/?p=49485",
+      "fuente": "SecurityWeek",
+      "titulo": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
+      "fecha_publicacion_iso": "2026-09-22T12:24:30+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-only-13-of-ot-network-segments-are-fully-isolated-analysis-2bb6ac3f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/cisos-deepfake-incidents-social-engineering-survey/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385326",
+      "fuente": "Help Net Security",
+      "titulo": "The latest deepfake numbers give CISOs plenty to worry about",
+      "fecha_publicacion_iso": "2026-09-22T12:05:36+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-the-latest-deepfake-numbers-give-cisos-plenty-to-worry-about-cf2c79a7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/csc-online-intellectual-property-risk-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385289",
+      "fuente": "Help Net Security",
+      "titulo": "The next intellectual property thief may sound like your CEO",
+      "fecha_publicacion_iso": "2026-09-22T12:00:05+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-the-next-intellectual-property-thief-may-sound-like-your-ceo-38c2112f.html"
+    },
+    "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle": {
+      "guid": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
+      "fuente": "Dark Reading",
+      "titulo": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+      "fecha_publicacion_iso": "2026-09-22T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-more-than-a-third-of-industrial-orgs-see-cybersecurity-risk-ce85fbca.html"
+    },
+    "https://www.edpb.europa.eu/news/the-spanish-dpa-fined-securitas-direct-100-000-eur-for-making-the-exercise-of-data-subject_en": {
+      "guid": "688d1f26-1e12-479b-b01c-1dfe4a9559f0",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "The Spanish DPA fined Securitas Direct 100 000 EUR for making the exercise of data subject rights more difficult by directing individuals to a chargeable telephone number",
+      "fecha_publicacion_iso": "2026-09-22T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-the-spanish-dpa-fined-securitas-direct-100-000-eur-for-makin-af5d9808.html"
+    },
+    "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/": {
+      "guid": "https://www.securityweek.com/?p=49482",
+      "fuente": "SecurityWeek",
+      "titulo": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
+      "fecha_publicacion_iso": "2026-09-22T11:55:20+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-recent-zyxel-switch-vulnerability-exploited-by-chinese-hacke-21e9d048.html"
+    },
+    "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html": {
+      "guid": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "fuente": "The Hacker News",
+      "titulo": "DORA Year Two: Can Your SOC Actually See the Attack?",
+      "fecha_publicacion_iso": "2026-09-22T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-dora-year-two-can-your-soc-actually-see-the-attack-6c563afa.html"
+    },
+    "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html": {
+      "guid": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+      "fecha_publicacion_iso": "2026-09-22T11:38:40+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-new-linux-kernel-flaw-gives-arm64-kvm-guests-read-write-acce-abcb75e4.html"
+    },
+    "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/": {
+      "guid": "https://www.securityweek.com/?p=49480",
+      "fuente": "SecurityWeek",
+      "titulo": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
+      "fecha_publicacion_iso": "2026-09-22T11:33:59+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-malicious-b-tree-npm-package-accumulates-millions-of-downloa-55a3a0ff.html"
+    },
+    "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html": {
+      "guid": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "fecha_publicacion_iso": "2026-09-22T11:17:41+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-sharepoint-flaw-initially-listed-as-spoofing-by-microsoft-en-9015ee31.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/ai-crawler-traffic-online-stores/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385270",
+      "fuente": "Help Net Security",
+      "titulo": "Somewhere in your traffic logs, a bot is doing more than looking",
+      "fecha_publicacion_iso": "2026-09-22T10:30:31+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-somewhere-in-your-traffic-logs-a-bot-is-doing-more-than-look-715e782d.html"
+    },
+    "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=49478",
+      "fuente": "SecurityWeek",
+      "titulo": "WordPress Patches ‘Click2Shell’ Vulnerability",
+      "fecha_publicacion_iso": "2026-09-22T10:22:27+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-wordpress-patches-click2shell-vulnerability-1be24efe.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/referencia-directa-objetos-inseguros-idor-en-tankuam-places-de-kompini": {
+      "guid": "662577 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Referencia directa a objetos inseguros (IDOR) en Tankuam Places de Kompini",
+      "fecha_publicacion_iso": "2026-09-22T10:07:16+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-referencia-directa-a-objetos-inseguros-idor-en-tankuam-place-0d4591a3.html"
+    },
+    "https://cyberscoop.com/spycloud-study-water-utilities-infostealer-exposure/": {
+      "guid": "https://cyberscoop.com/?p=90758",
+      "fuente": "CyberScoop",
+      "titulo": "Another worry for water systems: infostealer exposure",
+      "fecha_publicacion_iso": "2026-09-22T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-another-worry-for-water-systems-infostealer-exposure-cb847e4a.html"
+    },
+    "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/": {
+      "guid": "6ab161185108d82b5616e173",
+      "fuente": "Wired - Security",
+      "titulo": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "fecha_publicacion_iso": "2026-09-22T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-a-new-tool-found-malware-thats-guided-by-an-ai-hive-mindno-h-11d91986.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "fecha_publicacion_iso": "2026-09-22T09:55:11+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-new-windows-defender-zero-day-blocks-microsoft-antivirus-upd-9ec5079f.html"
+    },
+    "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html": {
+      "guid": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "fecha_publicacion_iso": "2026-09-22T09:38:18+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-malicious-npm-package-indexed-btree-hid-its-loader-in-runtim-b8f1171f.html"
+    },
+    "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/": {
+      "guid": "6aa1dbdf9388f7e1078211d6",
+      "fuente": "Wired - Security",
+      "titulo": "How to Use AI With Your Privacy Intact",
+      "fecha_publicacion_iso": "2026-09-22T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-how-to-use-ai-with-your-privacy-intact-cbc14f8b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385287",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers use genuine Google sign-ins to sell costly, unverified AI subscriptions",
+      "fecha_publicacion_iso": "2026-09-22T08:54:30+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-scammers-use-genuine-google-sign-ins-to-sell-costly-unverifi-871655bd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "fecha_publicacion_iso": "2026-09-22T08:53:09+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-cisa-orders-feds-to-patch-zyxel-flaw-exploited-for-data-thef-3ddf58e8.html"
+    },
+    "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/": {
+      "guid": "https://www.securityweek.com/?p=49475",
+      "fuente": "SecurityWeek",
+      "titulo": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+      "fecha_publicacion_iso": "2026-09-22T08:37:06+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-japan-dismantles-first-north-korean-laptop-farm-as-us-and-al-a51bfa53.html"
+    },
+    "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html": {
+      "guid": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "fecha_publicacion_iso": "2026-09-22T07:52:03+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-sidecopy-broadens-india-targeting-to-academia-with-reversera-8ccc97a0.html"
+    },
+    "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html": {
+      "guid": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "fecha_publicacion_iso": "2026-09-22T06:33:57+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-one-hidden-meta-muse-setting-could-let-attackers-turn-the-ai-29d5f155.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385264",
+      "fuente": "Help Net Security",
+      "titulo": "A cheap fake base station can still track 5G subscribers",
+      "fecha_publicacion_iso": "2026-09-22T06:30:21+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-a-cheap-fake-base-station-can-still-track-5g-subscribers-aec1e00c.html"
+    },
+    "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html": {
+      "guid": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "fuente": "The Hacker News",
+      "titulo": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "fecha_publicacion_iso": "2026-09-22T06:03:14+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-wordpress-comment2shell-flaw-can-turn-anonymous-comment-xss-55802aa5.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-comment2shell-en.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-comment2shell-en.html",
+      "fuente": "Segu-Info",
+      "titulo": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "fecha_publicacion_iso": "2026-09-22T06:03:14+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-wordpress-comment2shell-flaw-can-turn-anonymous-comment-xss-55802aa5.html"
+    },
+    "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html": {
+      "guid": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "fuente": "The Hacker News",
+      "titulo": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "fecha_publicacion_iso": "2026-09-22T05:31:59+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-zyxel-and-veeam-flaws-under-active-exploitation-with-command-27cf32c8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/",
+      "fuente": "Help Net Security",
+      "titulo": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "fecha_publicacion_iso": "2026-09-22T05:31:59+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-zyxel-and-veeam-flaws-under-active-exploitation-with-command-27cf32c8.html"
+    },
+    "https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks": {
+      "guid": "https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks",
+      "fuente": "The Record",
+      "titulo": "Russia's internet shutdowns disrupt warnings about incoming drone attacks",
+      "fecha_publicacion_iso": "2026-09-21T23:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T14:28:03.881990+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-russia-s-internet-shutdowns-disrupt-warnings-about-incoming-0c5be474.html"
     }
   }
 }
