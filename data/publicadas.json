@@ -5751,6 +5751,30 @@
       "fecha_publicacion_iso": "2026-09-21T16:05:51+00:00",
       "fecha_agregada_iso": "2026-09-21T21:05:00.268323+00:00",
       "ruta_noticia": "/noticia/2026-09-21-dems-seek-top-to-bottom-assessment-of-cisa-workforce-f099ae53.html"
+    },
+    "https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018": {
+      "guid": "https://www.theregister.com/a/5298018",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic-linked CVEs pile up, attackers mostly shrug",
+      "fecha_publicacion_iso": "2026-09-21T22:32:51+00:00",
+      "fecha_agregada_iso": "2026-09-22T00:07:05.043580+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-anthropic-linked-cves-pile-up-attackers-mostly-shrug-4c094eab.html"
+    },
+    "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs": {
+      "guid": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
+      "fuente": "Dark Reading",
+      "titulo": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+      "fecha_publicacion_iso": "2026-09-21T21:39:59+00:00",
+      "fecha_agregada_iso": "2026-09-22T00:07:05.043580+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-how-ai-agents-can-trigger-runaway-costs-for-enterprises-961e3a5a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "fuente": "BleepingComputer",
+      "titulo": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "fecha_publicacion_iso": "2026-09-21T21:18:49+00:00",
+      "fecha_agregada_iso": "2026-09-22T00:07:05.043580+00:00",
+      "ruta_noticia": "/noticia/2026-09-21-bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-1a49f462.html"
     }
   }
 }
