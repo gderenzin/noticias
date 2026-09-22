@@ -6287,6 +6287,102 @@
       "fecha_publicacion_iso": "2026-09-22T14:29:34+00:00",
       "fecha_agregada_iso": "2026-09-22T20:13:52.568013+00:00",
       "ruta_noticia": "/noticia/2026-09-22-cyera-raises-400-million-at-12-billion-valuation-580018f7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rogue external MFA providers can steal passwords during logins",
+      "fecha_publicacion_iso": "2026-09-22T21:45:45+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-rogue-external-mfa-providers-can-steal-passwords-during-logi-e37c24c0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+      "fuente": "BleepingComputer",
+      "titulo": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+      "fecha_publicacion_iso": "2026-09-22T21:40:37+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-sweden-fines-miljodata-183-000-over-breach-affecting-2-2-mil-d9492125.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435": {
+      "guid": "https://www.theregister.com/a/5298435",
+      "fuente": "The Register - Security",
+      "titulo": "Windows CLOSEDQUORUM malware uses AI models to autonomously select post-compromise actions",
+      "fecha_publicacion_iso": "2026-09-22T21:33:29+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-windows-closedquorum-malware-uses-ai-models-to-autonomously-bdc6b949.html"
+    },
+    "https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/": {
+      "guid": "https://cyberscoop.com/?p=90780",
+      "fuente": "CyberScoop",
+      "titulo": "After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program",
+      "fecha_publicacion_iso": "2026-09-22T21:14:32+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-after-water-attacks-capitol-hill-offers-its-own-proposal-for-c5b87480.html"
+    },
+    "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models": {
+      "guid": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+      "fuente": "Dark Reading",
+      "titulo": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+      "fecha_publicacion_iso": "2026-09-22T21:12:37+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-relays-are-masking-chinese-access-to-frontier-ai-models-in-t-f75ef529.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+      "fecha_publicacion_iso": "2026-09-22T20:35:24+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-chinese-hackers-exploit-wordpress-zyxel-flaws-to-steal-govt-6a783479.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385": {
+      "guid": "https://www.theregister.com/a/5298385",
+      "fuente": "The Register - Security",
+      "titulo": "ShinyHunters claims FBI hack: 'This is NOT financially motivated'",
+      "fecha_publicacion_iso": "2026-09-22T17:24:13+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-shinyhunters-claims-fbi-hack-this-is-not-financially-motivat-86731cd9.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/nightmareeclipses-latest-zero-day-leaves-microsoft-defender-stuck-in-the-past/5298320": {
+      "guid": "https://www.theregister.com/a/5298320",
+      "fuente": "The Register - Security",
+      "titulo": "NightmareEclipse's latest zero-day leaves Microsoft Defender stuck in the past",
+      "fecha_publicacion_iso": "2026-09-22T16:36:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-nightmareeclipse-s-latest-zero-day-leaves-microsoft-defender-60ade2ea.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/zai-says-sorry-for-slurping-up-your-code-open-sources-zcode/5298300": {
+      "guid": "https://www.theregister.com/a/5298300",
+      "fuente": "The Register - Security",
+      "titulo": "Z.ai says sorry for slurping up your code, open sources ZCode",
+      "fecha_publicacion_iso": "2026-09-22T15:59:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-z-ai-says-sorry-for-slurping-up-your-code-open-sources-zcode-92471988.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phishing-kit-websites/5298317": {
+      "guid": "https://www.theregister.com/a/5298317",
+      "fuente": "The Register - Security",
+      "titulo": "UK cops arrest 2 EvilTokens suspects, Microsoft seizes 50 phishing kit websites",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phi-b548e590.html"
+    },
+    "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service": {
+      "guid": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+      "fuente": "Dark Reading",
+      "titulo": "UK cops arrest 2 EvilTokens suspects, Microsoft seizes 50 phishing kit websites",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phi-b548e590.html"
+    },
+    "https://www.theregister.com/security/2026/09/22/sponsored/5297693": {
+      "guid": "https://www.theregister.com/a/5297693",
+      "fuente": "The Register - Security",
+      "titulo": "Who signed off on that AI agent? Nobody? Thought so.",
+      "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-who-signed-off-on-that-ai-agent-nobody-thought-so-045144bc.html"
     }
   }
 }
