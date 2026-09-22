@@ -5775,6 +5775,54 @@
       "fecha_publicacion_iso": "2026-09-21T21:18:49+00:00",
       "fecha_agregada_iso": "2026-09-22T00:07:05.043580+00:00",
       "ruta_noticia": "/noticia/2026-09-21-bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-1a49f462.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385140",
+      "fuente": "Help Net Security",
+      "titulo": "Passwork NIS2 efficiency guide: Save your team hours before the 2026 audit",
+      "fecha_publicacion_iso": "2026-09-22T05:00:49+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-passwork-nis2-efficiency-guide-save-your-team-hours-before-t-83bb45dc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/idc-european-ai-spending/": {
+      "guid": "https://www.helpnetsecurity.com/?p=384993",
+      "fuente": "Help Net Security",
+      "titulo": "European AI spending is on track to reach nearly $470 billion by 2030",
+      "fecha_publicacion_iso": "2026-09-22T04:30:28+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-european-ai-spending-is-on-track-to-reach-nearly-470-billion-47901901.html"
+    },
+    "http://www.elladodelmal.com/2026/09/inyectado-y-espiado-como-escuchar-tus.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3066616181584181708",
+      "fuente": "El Lado del Mal",
+      "titulo": "Inyectado y Espiado: Cómo escuchar tus audios a distancia inyectando señales portadoras.",
+      "fecha_publicacion_iso": "2026-09-22T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-inyectado-y-espiado-como-escuchar-tus-audios-a-distancia-iny-6dfe999b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/cybersecurity-jobs-available-right-now-september-22-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385163",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: September 22, 2026",
+      "fecha_publicacion_iso": "2026-09-22T04:00:23+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-cybersecurity-jobs-available-right-now-september-22-2026-a455472c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385247",
+      "fuente": "Help Net Security",
+      "titulo": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
+      "fecha_publicacion_iso": "2026-09-22T03:48:17+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-davmail-7-0-0-puts-most-of-its-work-into-microsoft-graph-731c4c5c.html"
+    },
+    "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/": {
+      "guid": "https://www.securityweek.com/?p=49471",
+      "fuente": "SecurityWeek",
+      "titulo": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
+      "fecha_publicacion_iso": "2026-09-22T02:01:24+00:00",
+      "fecha_agregada_iso": "2026-09-22T06:13:45.247618+00:00",
+      "ruta_noticia": "/noticia/2026-09-22-us-proposes-ai-incident-alert-system-in-talks-with-china-bes-108d12ca.html"
     }
   }
 }
