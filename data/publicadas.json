@@ -6879,6 +6879,198 @@
       "fecha_publicacion_iso": "2026-09-22T19:59:24+00:00",
       "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
       "ruta_noticia": "/noticia/2026-09-23-deception-by-design-cisa-s-guide-to-tricking-cybercriminals-3a533d2b.html"
+    },
+    "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy": {
+      "guid": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
+      "fuente": "The Record",
+      "titulo": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
+      "fecha_publicacion_iso": "2026-09-23T20:07:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-uk-regulator-to-investigate-pornhub-parent-company-for-alleg-7ba3a75c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "fecha_publicacion_iso": "2026-09-23T19:53:54+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-check-point-warns-of-hackers-exploiting-security-gateway-vpn-9dbdfda0.html"
+    },
+    "https://cyberscoop.com/dhs-ig-report-federal-agencies-fail-cisa-cloud-security-directives/": {
+      "guid": "https://cyberscoop.com/?p=90818",
+      "fuente": "CyberScoop",
+      "titulo": "Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack",
+      "fecha_publicacion_iso": "2026-09-23T19:40:53+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-watchdog-finds-most-agencies-failed-to-meet-cisa-cloud-secur-23b23f99.html"
+    },
+    "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/": {
+      "guid": "https://www.securityweek.com/?p=49532",
+      "fuente": "SecurityWeek",
+      "titulo": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+      "fecha_publicacion_iso": "2026-09-23T19:32:49+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ionq-targets-quantum-error-correction-bottleneck-with-single-828d13f4.html"
+    },
+    "https://therecord.media/trump-harris-election-meddling-russia": {
+      "guid": "https://therecord.media/trump-harris-election-meddling-russia",
+      "fuente": "The Record",
+      "titulo": "No evidence of successful foreign meddling in 2024 election, spy agencies found",
+      "fecha_publicacion_iso": "2026-09-23T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-no-evidence-of-successful-foreign-meddling-in-2024-election-ab051f2d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers start exploiting critical WordPress flaw for code execution",
+      "fecha_publicacion_iso": "2026-09-23T18:31:22+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-hackers-start-exploiting-critical-wordpress-flaw-for-code-ex-f57d6338.html"
+    },
+    "https://cyberscoop.com/pentagon-cyber-operations-demand-exceeds-supply-defensetalks-2026/": {
+      "guid": "https://cyberscoop.com/?p=90814",
+      "fuente": "CyberScoop",
+      "titulo": "Pentagon cyber chief: The demand far exceeds supply",
+      "fecha_publicacion_iso": "2026-09-23T18:10:42+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-pentagon-cyber-chief-the-demand-far-exceeds-supply-102b8316.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/someones-attacking-a-critical-0-day-rce-in-f5-big-ip-apm/5298659": {
+      "guid": "https://www.theregister.com/a/5298659",
+      "fuente": "The Register - Security",
+      "titulo": "Someone's attacking a critical 0-day RCE in F5 BIG-IP APM",
+      "fecha_publicacion_iso": "2026-09-23T18:09:28+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-someone-s-attacking-a-critical-0-day-rce-in-f5-big-ip-apm-6a91aaa7.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "fecha_publicacion_iso": "2026-09-23T18:06:30+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-attackers-use-malicious-terraform-providers-to-deliver-go-ma-94586560.html"
+    },
+    "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/": {
+      "guid": "https://www.securityweek.com/?p=49530",
+      "fuente": "SecurityWeek",
+      "titulo": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+      "fecha_publicacion_iso": "2026-09-23T18:05:58+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-worries-about-an-ai-internet-takeover-gain-new-urgency-among-25dd9c18.html"
+    },
+    "https://cyberscoop.com/ryuk-ransomware-operator-karen-vardanyan-sentenced/": {
+      "guid": "https://cyberscoop.com/?p=90812",
+      "fuente": "CyberScoop",
+      "titulo": "Ryuk ransomware operator sentenced to 2 years in prison",
+      "fecha_publicacion_iso": "2026-09-23T17:10:19+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ryuk-ransomware-operator-sentenced-to-2-years-in-prison-caa79f06.html"
+    },
+    "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html": {
+      "guid": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "fuente": "The Hacker News",
+      "titulo": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "fecha_publicacion_iso": "2026-09-23T16:53:10+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-a-leaked-gitlab-issue-email-address-lets-anyone-push-code-an-246d3ca3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "fecha_publicacion_iso": "2026-09-23T16:20:54+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-malicious-ai-agents-steal-600k-credit-cards-infect-100-sites-3aebaca0.html"
+    },
+    "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html": {
+      "guid": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "fuente": "The Hacker News",
+      "titulo": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "fecha_publicacion_iso": "2026-09-23T16:06:41+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-mikrotrick-chain-let-attackers-take-over-mikrotik-routers-wi-4ed75692.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/mikrotrick-detalles-tecnicos-de.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/09/mikrotrick-detalles-tecnicos-de.html",
+      "fuente": "Segu-Info",
+      "titulo": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "fecha_publicacion_iso": "2026-09-23T16:06:41+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-mikrotrick-chain-let-attackers-take-over-mikrotik-routers-wi-4ed75692.html"
+    },
+    "https://cyberscoop.com/openai-ukraine-cybersecurity-critical-infrastructure/": {
+      "guid": "https://cyberscoop.com/?p=90806",
+      "fuente": "CyberScoop",
+      "titulo": "OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems",
+      "fecha_publicacion_iso": "2026-09-23T15:37:18+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-openai-ukraine-partner-on-daybreak-program-to-protect-power-7f25fcd8.html"
+    },
+    "https://therecord.media/ransomware-ryuk-sentenced-doj": {
+      "guid": "https://therecord.media/ransomware-ryuk-sentenced-doj",
+      "fuente": "The Record",
+      "titulo": "Ryuk ransomware operator gets 2-year sentence after extorting victims for $1.2 million",
+      "fecha_publicacion_iso": "2026-09-23T15:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ryuk-ransomware-operator-gets-2-year-sentence-after-extortin-3aeaf062.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/academic-publisher-elsevier-hit-by-lapsus-redirect-attack/5298592": {
+      "guid": "https://www.theregister.com/a/5298592",
+      "fuente": "The Register - Security",
+      "titulo": "Academic publisher Elsevier hit by LAPSUS$ redirect attack",
+      "fecha_publicacion_iso": "2026-09-23T15:08:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-academic-publisher-elsevier-hit-by-lapsus-redirect-attack-8926d0f5.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/sponsored-closing-the-observability-gap-for-the-ai-ready-enterprise/5298070": {
+      "guid": "https://www.theregister.com/a/5298070",
+      "fuente": "The Register - Security",
+      "titulo": "Closing the observability gap for the AI-ready enterprise",
+      "fecha_publicacion_iso": "2026-09-23T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-closing-the-observability-gap-for-the-ai-ready-enterprise-0a9baa87.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign": {
+      "guid": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+      "fecha_publicacion_iso": "2026-09-23T14:47:09+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-attackers-manipulate-ai-chatbots-in-mass-disinformation-phis-7bde49b5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "InfraTrust report warns network management systems under attack",
+      "fecha_publicacion_iso": "2026-09-23T14:35:26+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-infratrust-report-warns-network-management-systems-under-att-5b292a46.html"
+    },
+    "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach": {
+      "guid": "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach",
+      "fuente": "The Record",
+      "titulo": "FBI investigating alleged ShinyHunters breach of its jobs site",
+      "fecha_publicacion_iso": "2026-09-23T14:22:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-fbi-investigating-alleged-shinyhunters-breach-of-its-jobs-si-3ffb124e.html"
+    },
+    "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html": {
+      "guid": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "fecha_publicacion_iso": "2026-09-23T14:17:58+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-this-windows-malware-is-built-to-let-up-to-four-ai-models-vo-19134da9.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/british-regulator-takes-a-hard-look-at-pornhubs-apple-powered-age-checks/5298558": {
+      "guid": "https://www.theregister.com/a/5298558",
+      "fuente": "The Register - Security",
+      "titulo": "British regulator takes a hard look at Pornhub's Apple-powered age checks",
+      "fecha_publicacion_iso": "2026-09-23T11:53:37+00:00",
+      "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-british-regulator-takes-a-hard-look-at-pornhub-s-apple-power-047a899d.html"
     }
   }
 }
