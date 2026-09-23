@@ -6383,6 +6383,78 @@
       "fecha_publicacion_iso": "2026-09-22T15:00:00+00:00",
       "fecha_agregada_iso": "2026-09-22T23:37:47.953095+00:00",
       "ruta_noticia": "/noticia/2026-09-22-who-signed-off-on-that-ai-agent-nobody-thought-so-045144bc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/prismor-open-source-ai-agent-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385279",
+      "fuente": "Help Net Security",
+      "titulo": "Prismor: Open-source runtime control plane for AI agents",
+      "fecha_publicacion_iso": "2026-09-23T05:30:31+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-prismor-open-source-runtime-control-plane-for-ai-agents-ccb4c662.html"
+    },
+    "http://www.elladodelmal.com/2026/09/ia-aplicada-al-ciclo-completo-del.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-7290903079898654670",
+      "fuente": "El Lado del Mal",
+      "titulo": "IA aplicada al ciclo completo del desarrollo de software",
+      "fecha_publicacion_iso": "2026-09-23T05:06:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ia-aplicada-al-ciclo-completo-del-desarrollo-de-software-469d3ed9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/product-showcase-savi-scamwise/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385320",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Scamwise checks the red flags before you take the bait",
+      "fecha_publicacion_iso": "2026-09-23T05:00:48+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-product-showcase-scamwise-checks-the-red-flags-before-you-ta-5d2663e0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/datadome-growing-bad-bot-traffic-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385337",
+      "fuente": "Help Net Security",
+      "titulo": "Nearly two-thirds of tested websites fail every bot test",
+      "fecha_publicacion_iso": "2026-09-23T04:30:37+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-nearly-two-thirds-of-tested-websites-fail-every-bot-test-1e4487c4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/rabbit-os3-ai-agent-now-available/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385383",
+      "fuente": "Help Net Security",
+      "titulo": "Rabbit’s new OS lives in the cloud and borrows your laptop to get things done",
+      "fecha_publicacion_iso": "2026-09-23T03:38:05+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-rabbits-new-os-lives-in-the-cloud-and-borrows-your-laptop-to-ec10e6cb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/netbsd-10-2-security-fixes-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385376",
+      "fuente": "Help Net Security",
+      "titulo": "NetBSD 10.2 security fixes close a remote kernel bug in ipfilter",
+      "fecha_publicacion_iso": "2026-09-23T03:16:17+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-netbsd-10-2-security-fixes-close-a-remote-kernel-bug-in-ipfi-d1459acb.html"
+    },
+    "https://hiperderecho.org/2026/09/hiperderecho-busca-consultora-para-desarrollo-organizacional/?pk_campaign=feed&pk_kwd=hiperderecho-busca-consultora-para-desarrollo-organizacional": {
+      "guid": "https://hiperderecho.org/?p=12802",
+      "fuente": "Hiperderecho (Perú)",
+      "titulo": "Hiperderecho busca consultor(a) para desarrollo organizacional",
+      "fecha_publicacion_iso": "2026-09-23T00:12:06+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-hiperderecho-busca-consultor-a-para-desarrollo-organizaciona-a33ad412.html"
+    },
+    "https://cyberscoop.com/shinyhunters-claims-fbi-attack/": {
+      "guid": "https://cyberscoop.com/?p=90788",
+      "fuente": "CyberScoop",
+      "titulo": "ShinyHunters claims attack on FBI exposes almost all agents",
+      "fecha_publicacion_iso": "2026-09-22T23:47:43+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-shinyhunters-claims-attack-on-fbi-exposes-almost-all-agents-33008d6f.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-menores/robux-gratis-estafas-roblox/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-menores/robux-gratis-estafas-roblox/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "¿Existen los Robux gratis en Roblox? Qué es verdad y qué es una estafa",
+      "fecha_publicacion_iso": "2026-09-22T14:15:50+00:00",
+      "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-existen-los-robux-gratis-en-roblox-que-es-verdad-y-que-es-un-9ec88c53.html"
     }
   }
 }
