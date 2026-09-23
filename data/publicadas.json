@@ -6455,6 +6455,430 @@
       "fecha_publicacion_iso": "2026-09-22T14:15:50+00:00",
       "fecha_agregada_iso": "2026-09-23T05:59:38.184829+00:00",
       "ruta_noticia": "/noticia/2026-09-23-existen-los-robux-gratis-en-roblox-que-es-verdad-y-que-es-un-9ec88c53.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks": {
+      "guid": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
+      "fuente": "Dark Reading",
+      "titulo": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
+      "fecha_publicacion_iso": "2026-09-23T16:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-uae-saudi-arabia-face-onslaught-of-increasingly-complex-cybe-affa1185.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-recuerda-garantias-para-utilizar-ia-en-analisis-curriculums": {
+      "guid": "09d6d109-af48-4abd-9189-172fe39e8721",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La Agencia recuerda las garantías para utilizar IA en el análisis de currículums",
+      "fecha_publicacion_iso": "2026-09-23T15:59:57+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-la-agencia-recuerda-las-garantias-para-utilizar-ia-en-el-ana-58350b3c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/cofense-command-center/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385561",
+      "fuente": "Help Net Security",
+      "titulo": "Cofense measures employee readiness against real-world phishing threats",
+      "fecha_publicacion_iso": "2026-09-23T14:01:12+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-cofense-measures-employee-readiness-against-real-world-phish-5df94459.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "fuente": "BleepingComputer",
+      "titulo": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+      "fecha_publicacion_iso": "2026-09-23T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-how-one-kubernetes-yaml-can-hand-over-a-gcp-organization-aa96d284.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/china-ai-relay-frontier-model-abuse/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385528",
+      "fuente": "Help Net Security",
+      "titulo": "80,000 relay servers help users in China slip past U.S. AI region bans",
+      "fecha_publicacion_iso": "2026-09-23T13:57:25+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-80-000-relay-servers-help-users-in-china-slip-past-u-s-ai-re-08c5e76c.html"
+    },
+    "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html": {
+      "guid": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "fuente": "The Hacker News",
+      "titulo": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "fecha_publicacion_iso": "2026-09-23T13:52:46+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-compromised-memtensor-packages-deliver-sckit-credential-stea-44afbf71.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385550",
+      "fuente": "Help Net Security",
+      "titulo": "Portnox detects and removes unauthorized AI applications from managed devices",
+      "fecha_publicacion_iso": "2026-09-23T13:49:39+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-portnox-detects-and-removes-unauthorized-ai-applications-fro-371db99d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/network-solutions-dark-web-monitoring/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385534",
+      "fuente": "Help Net Security",
+      "titulo": "Network Solutions Dark Web Monitoring alerts small businesses to domain-linked data exposure",
+      "fecha_publicacion_iso": "2026-09-23T13:40:14+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-network-solutions-dark-web-monitoring-alerts-small-businesse-cae497a9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/darkme-rat-phishing-email-hits-corporate-targets/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385519",
+      "fuente": "Help Net Security",
+      "titulo": "DarkMe RAT trades zero-days for plain phishing emails",
+      "fecha_publicacion_iso": "2026-09-23T13:24:17+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-darkme-rat-trades-zero-days-for-plain-phishing-emails-14beda0f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/barracuda-ai-data-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385520",
+      "fuente": "Help Net Security",
+      "titulo": "Barracuda brings AI security and governance within reach of smaller organizations",
+      "fecha_publicacion_iso": "2026-09-23T13:20:45+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-barracuda-brings-ai-security-and-governance-within-reach-of-3f777f77.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/lookout-unveils-social-engineering-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385514",
+      "fuente": "Help Net Security",
+      "titulo": "Lookout targets smishing, voice cloning, and vishing with real-time mobile protection",
+      "fecha_publicacion_iso": "2026-09-23T13:06:02+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-lookout-targets-smishing-voice-cloning-and-vishing-with-real-536935a3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/fake-claude-max-giveaway-phishing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385482",
+      "fuente": "Help Net Security",
+      "titulo": "Fake Claude Max giveaway tricks users into handing over their Google account credentials",
+      "fecha_publicacion_iso": "2026-09-23T13:03:15+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-fake-claude-max-giveaway-tricks-users-into-handing-over-thei-aa910a8d.html"
+    },
+    "https://www.wired.com/story/metas-muse-ai-agent-zero-day/": {
+      "guid": "6ab2afc756b93c0e50ac09dc",
+      "fuente": "Wired - Security",
+      "titulo": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+      "fecha_publicacion_iso": "2026-09-23T12:54:58+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-metas-muse-ai-assistant-rolled-out-with-a-serious-security-f-efa67800.html"
+    },
+    "https://therecord.media/latvia-hacker-arrest-cyberattack": {
+      "guid": "https://therecord.media/latvia-hacker-arrest-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Latvia arrests suspected hacker for electronics repair company breach",
+      "fecha_publicacion_iso": "2026-09-23T12:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-latvia-arrests-suspected-hacker-for-electronics-repair-compa-d22560ff.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/bigdiskbuster-poc-zero-day-que-bloquea.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7522779903367162074",
+      "fuente": "Segu-Info",
+      "titulo": "BigDiskBuster: PoC Zero Day que bloquea las actualizaciones de Microsoft Defender",
+      "fecha_publicacion_iso": "2026-09-23T12:34:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-bigdiskbuster-poc-zero-day-que-bloquea-las-actualizaciones-d-3288cb72.html"
+    },
+    "https://therecord.media/uk-disinformation-russia-center": {
+      "guid": "https://therecord.media/uk-disinformation-russia-center",
+      "fuente": "The Record",
+      "titulo": "Burnham announces plan for new UK center to fight disinformation",
+      "fecha_publicacion_iso": "2026-09-23T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-burnham-announces-plan-for-new-uk-center-to-fight-disinforma-2b4387de.html"
+    },
+    "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/": {
+      "guid": "https://www.securityweek.com/?p=49527",
+      "fuente": "SecurityWeek",
+      "titulo": "Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare",
+      "fecha_publicacion_iso": "2026-09-23T12:17:28+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-honeywell-ot-security-teams-embrace-ai-but-autonomy-still-ra-a8bb4d88.html"
+    },
+    "https://cyberscoop.com/president-ai-leadership-mission-critical-infrastructure-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=90797",
+      "fuente": "CyberScoop",
+      "titulo": "The president has called for AI leadership. Here’s the mission.",
+      "fecha_publicacion_iso": "2026-09-23T12:17:20+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-the-president-has-called-for-ai-leadership-heres-the-mission-36e0a99c.html"
+    },
+    "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html": {
+      "guid": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "fuente": "The Hacker News",
+      "titulo": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "fecha_publicacion_iso": "2026-09-23T12:16:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-new-cpanel-flaw-lets-a-hosting-account-run-code-as-root-take-8e0ee533.html"
+    },
+    "https://www.edpb.europa.eu/news/the-irish-data-protection-commission-fines-google-403-000-000-eur-following-inquiry_en": {
+      "guid": "c59ebadc-0f84-4277-a932-82327b3b947f",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "The Irish Data Protection Commission fines Google 403 000 000 EUR following Inquiry into Google’s processing of location data",
+      "fecha_publicacion_iso": "2026-09-23T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-the-irish-data-protection-commission-fines-google-403-000-00-0328807e.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/ofcom-takes-a-hard-look-at-pornhubs-apple-powered-age-checks/5298558": {
+      "guid": "https://www.theregister.com/a/5298558",
+      "fuente": "The Register - Security",
+      "titulo": "Ofcom takes a hard look at Pornhub's Apple-powered age checks",
+      "fecha_publicacion_iso": "2026-09-23T11:53:37+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ofcom-takes-a-hard-look-at-pornhub-s-apple-powered-age-check-65165f82.html"
+    },
+    "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html": {
+      "guid": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "fuente": "The Hacker News",
+      "titulo": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "fecha_publicacion_iso": "2026-09-23T11:47:19+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-545-hackers-tested-it-first-now-xranges-for-ai-scores-your-s-38682840.html"
+    },
+    "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html": {
+      "guid": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "fecha_publicacion_iso": "2026-09-23T11:47:13+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-anthropic-and-openai-models-still-attempt-restricted-actions-3c9fd6ef.html"
+    },
+    "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/": {
+      "guid": "https://www.securityweek.com/?p=49524",
+      "fuente": "SecurityWeek",
+      "titulo": "Adobe Patches Critical Flaws in Connect, AEM Forms",
+      "fecha_publicacion_iso": "2026-09-23T11:40:59+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-adobe-patches-critical-flaws-in-connect-aem-forms-b72a7a65.html"
+    },
+    "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/": {
+      "guid": "https://www.securityweek.com/?p=49520",
+      "fuente": "SecurityWeek",
+      "titulo": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
+      "fecha_publicacion_iso": "2026-09-23T11:23:30+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ai-powered-phishing-platform-eviltokens-disrupted-by-microso-cb696b28.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: September Windows updates break Always On VPN connections",
+      "fecha_publicacion_iso": "2026-09-23T11:18:13+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-microsoft-september-windows-updates-break-always-on-vpn-conn-d45632f4.html"
+    },
+    "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html": {
+      "guid": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "fuente": "The Hacker News",
+      "titulo": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+      "fecha_publicacion_iso": "2026-09-23T11:12:18+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-exploit-released-for-unpatched-ubuntu-linux-flaw-enabling-ho-969ad1b2.html"
+    },
+    "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49518",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome 154 Patches 108 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-23T10:36:07+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-chrome-154-patches-108-vulnerabilities-8135bfc3.html"
+    },
+    "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/": {
+      "guid": "https://www.securityweek.com/?p=49515",
+      "fuente": "SecurityWeek",
+      "titulo": "A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk",
+      "fecha_publicacion_iso": "2026-09-23T10:20:36+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-a-look-at-ai-doomsday-scenarios-that-researchers-say-could-p-c3ccd899.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/gpt-6-sol-luna-lower-api-prices/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385451",
+      "fuente": "Help Net Security",
+      "titulo": "GPT-6 Sol and Luna arrive with 50% lower API prices",
+      "fecha_publicacion_iso": "2026-09-23T10:08:26+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-gpt-6-sol-and-luna-arrive-with-50-lower-api-prices-cceb9244.html"
+    },
+    "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/": {
+      "guid": "https://www.securityweek.com/?p=49513",
+      "fuente": "SecurityWeek",
+      "titulo": "Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm",
+      "fecha_publicacion_iso": "2026-09-23T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-ca-c9cb3283.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-analytics-and-location-engine-de-hpe": {
+      "guid": "662590 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Analytics and Location Engine de HPE",
+      "fecha_publicacion_iso": "2026-09-23T09:08:58+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-multiples-vulnerabilidades-en-analytics-and-location-engine-063adb5d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inclusion-de-archivos-php-en-wordpress": {
+      "guid": "662589 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inclusión de archivos PHP en WordPress",
+      "fecha_publicacion_iso": "2026-09-23T09:04:17+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-inclusion-de-archivos-php-en-wordpress-791a681e.html"
+    },
+    "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/": {
+      "guid": "https://www.securityweek.com/?p=49510",
+      "fuente": "SecurityWeek",
+      "titulo": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+      "fecha_publicacion_iso": "2026-09-23T08:33:06+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-arista-urges-immediate-patching-of-exploited-vco-zero-day-4df0ab3a.html"
+    },
+    "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html": {
+      "guid": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "fuente": "The Hacker News",
+      "titulo": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "fecha_publicacion_iso": "2026-09-23T08:29:24+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-chinese-hackers-exploit-chrome-windows-zero-day-chain-to-dep-19cb6802.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ryuk ransomware member sentenced to 24 months in prison",
+      "fecha_publicacion_iso": "2026-09-23T08:20:05+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-ryuk-ransomware-member-sentenced-to-24-months-in-prison-036d2849.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-observability-self-hosted-de-solarwinds": {
+      "guid": "662587 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Observability Self-Hosted de SolarWinds",
+      "fecha_publicacion_iso": "2026-09-23T08:18:40+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-multiples-vulnerabilidades-en-observability-self-hosted-de-s-5940ac93.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-el-panel-de-administracion-de-microweber": {
+      "guid": "616902 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en el panel de administración de Microweber",
+      "fecha_publicacion_iso": "2026-09-23T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-multiples-vulnerabilidades-en-el-panel-de-administracion-de-4750f030.html"
+    },
+    "https://www.theregister.com/security/2026/09/23/sponsored-why-security-belongs-in-the-network/5296790": {
+      "guid": "https://www.theregister.com/a/5296790",
+      "fuente": "The Register - Security",
+      "titulo": "Why security belongs in the network",
+      "fecha_publicacion_iso": "2026-09-23T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-why-security-belongs-in-the-network-265b1bb1.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-productos-de-check-point": {
+      "guid": "662586 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Path traversal en productos de Check Point",
+      "fecha_publicacion_iso": "2026-09-23T07:54:17+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-path-traversal-en-productos-de-check-point-d244d6ae.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/",
+      "fuente": "Help Net Security",
+      "titulo": "Path traversal en productos de Check Point",
+      "fecha_publicacion_iso": "2026-09-23T07:54:17+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-path-traversal-en-productos-de-check-point-d244d6ae.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/validacion-incorrecta-de-datos-de-entrada-en-velocloud-orchestrator-de-arista": {
+      "guid": "662585 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Validación incorrecta de datos de entrada en VeloCloud Orchestrator de Arista",
+      "fecha_publicacion_iso": "2026-09-23T07:38:50+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-validacion-incorrecta-de-datos-de-entrada-en-velocloud-orche-4ce1857b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "fuente": "BleepingComputer",
+      "titulo": "Validación incorrecta de datos de entrada en VeloCloud Orchestrator de Arista",
+      "fecha_publicacion_iso": "2026-09-23T07:38:50+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-validacion-incorrecta-de-datos-de-entrada-en-velocloud-orche-4ce1857b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "fecha_publicacion_iso": "2026-09-23T07:17:23+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-f5-patches-big-ip-apm-zero-day-flaw-exploited-in-rce-attacks-d14c028c.html"
+    },
+    "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/": {
+      "guid": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+      "fuente": "SecurityWeek",
+      "titulo": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "fecha_publicacion_iso": "2026-09-23T07:17:23+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-f5-patches-big-ip-apm-zero-day-flaw-exploited-in-rce-attacks-d14c028c.html"
+    },
+    "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html": {
+      "guid": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "fuente": "The Hacker News",
+      "titulo": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "fecha_publicacion_iso": "2026-09-23T07:17:23+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-f5-patches-big-ip-apm-zero-day-flaw-exploited-in-rce-attacks-d14c028c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-monticulo-en-big-ip-apm-de-f5": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-monticulo-en-big-ip-apm-de-f5",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "fecha_publicacion_iso": "2026-09-23T07:17:23+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-f5-patches-big-ip-apm-zero-day-flaw-exploited-in-rce-attacks-d14c028c.html"
+    },
+    "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html": {
+      "guid": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+      "fecha_publicacion_iso": "2026-09-23T07:04:40+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-critical-next-js-imageresponse-flaw-can-lead-to-server-code-620a8bfc.html"
+    },
+    "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/": {
+      "guid": "https://www.securityweek.com/?p=49502",
+      "fuente": "SecurityWeek",
+      "titulo": "Check Point Patches Exploited Management Server Zero-Day",
+      "fecha_publicacion_iso": "2026-09-23T06:14:03+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-check-point-patches-exploited-management-server-zero-day-ad10d124.html"
+    },
+    "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html": {
+      "guid": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+      "fecha_publicacion_iso": "2026-09-23T05:30:09+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-shinyhunters-claims-fbi-breach-says-it-stole-data-on-agents-16cbe675.html"
+    },
+    "https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/": {
+      "guid": "https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/",
+      "fuente": "SecurityWeek",
+      "titulo": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+      "fecha_publicacion_iso": "2026-09-23T05:30:09+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-shinyhunters-claims-fbi-breach-says-it-stole-data-on-agents-16cbe675.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
+      "fuente": "Dark Reading",
+      "titulo": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
+      "fecha_publicacion_iso": "2026-09-22T20:55:53+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-how-the-ciso-cmo-alliance-builds-trust-before-crisis-strikes-dbbc7e7d.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
+      "fuente": "Dark Reading",
+      "titulo": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
+      "fecha_publicacion_iso": "2026-09-22T19:59:24+00:00",
+      "fecha_agregada_iso": "2026-09-23T14:42:09.511501+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-deception-by-design-cisa-s-guide-to-tricking-cybercriminals-3a533d2b.html"
     }
   }
 }
