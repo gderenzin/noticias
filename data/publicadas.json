@@ -7071,6 +7071,38 @@
       "fecha_publicacion_iso": "2026-09-23T11:53:37+00:00",
       "fecha_agregada_iso": "2026-09-23T20:23:30.123927+00:00",
       "ruta_noticia": "/noticia/2026-09-23-british-regulator-takes-a-hard-look-at-pornhub-s-apple-power-047a899d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "fecha_publicacion_iso": "2026-09-23T22:46:01+00:00",
+      "fecha_agregada_iso": "2026-09-23T23:42:10.987840+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-placeholder-domain-used-in-dev-docs-now-serves-clickfix-atta-29c26824.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "fuente": "BleepingComputer",
+      "titulo": "New RemControl Android banking malware targets users in Europe and Canada",
+      "fecha_publicacion_iso": "2026-09-23T21:25:13+00:00",
+      "fecha_agregada_iso": "2026-09-23T23:42:10.987840+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-new-remcontrol-android-banking-malware-targets-users-in-euro-696656cd.html"
+    },
+    "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses": {
+      "guid": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+      "fuente": "Dark Reading",
+      "titulo": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+      "fecha_publicacion_iso": "2026-09-23T21:03:01+00:00",
+      "fecha_agregada_iso": "2026-09-23T23:42:10.987840+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-edr-evasion-stack-helps-process-injection-slip-past-defenses-3b13360f.html"
+    },
+    "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks": {
+      "guid": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+      "fuente": "Dark Reading",
+      "titulo": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+      "fecha_publicacion_iso": "2026-09-23T20:53:38+00:00",
+      "fecha_agregada_iso": "2026-09-23T23:42:10.987840+00:00",
+      "ruta_noticia": "/noticia/2026-09-23-gitlab-email-addresses-can-be-weaponized-for-supply-chain-at-3a5e2fec.html"
     }
   }
 }
