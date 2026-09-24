@@ -7103,6 +7103,70 @@
       "fecha_publicacion_iso": "2026-09-23T20:53:38+00:00",
       "fecha_agregada_iso": "2026-09-23T23:42:10.987840+00:00",
       "ruta_noticia": "/noticia/2026-09-23-gitlab-email-addresses-can-be-weaponized-for-supply-chain-at-3a5e2fec.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/kelly-herrell-nol8-ai-agent-data-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385415",
+      "fuente": "Help Net Security",
+      "titulo": "What to do first when you get 90 days to secure AI agent data",
+      "fecha_publicacion_iso": "2026-09-24T05:00:41+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-what-to-do-first-when-you-get-90-days-to-secure-ai-agent-dat-5d852910.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385405",
+      "fuente": "Help Net Security",
+      "titulo": "Your security program knows about the firewall, but does it know about the elevator?",
+      "fecha_publicacion_iso": "2026-09-24T04:30:14+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-your-security-program-knows-about-the-firewall-but-does-it-k-9df47e68.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385568",
+      "fuente": "Help Net Security",
+      "titulo": "Ubuntu kernel CVE fixes are moving to a weekly release schedule",
+      "fecha_publicacion_iso": "2026-09-24T04:27:02+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-ubuntu-kernel-cve-fixes-are-moving-to-a-weekly-release-sched-1a252b1f.html"
+    },
+    "http://www.elladodelmal.com/2026/09/deadlock-in-lockers-por-un-bug-de-ux-en.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5055958147407922340",
+      "fuente": "El Lado del Mal",
+      "titulo": "\"Deadlock in the Lockers\" por un bug de UX en el mundo físico",
+      "fecha_publicacion_iso": "2026-09-24T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-deadlock-in-the-lockers-por-un-bug-de-ux-en-el-mundo-fisico-dd1a5ee2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385503",
+      "fuente": "Help Net Security",
+      "titulo": "Europe’s technology backbone is becoming a cyber target",
+      "fecha_publicacion_iso": "2026-09-24T04:00:02+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-europes-technology-backbone-is-becoming-a-cyber-target-8a4e895f.html"
+    },
+    "https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/": {
+      "guid": "https://cyberscoop.com/?p=90835",
+      "fuente": "CyberScoop",
+      "titulo": "CISA outlines improvement plan for CVE program",
+      "fecha_publicacion_iso": "2026-09-24T00:31:36+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-cisa-outlines-improvement-plan-for-cve-program-5e57def3.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/openai-agents-infiltrated-australian-government-website/5298702": {
+      "guid": "https://www.theregister.com/a/5298702",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI agents ‘infiltrated Australian government website’",
+      "fecha_publicacion_iso": "2026-09-24T00:03:03+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-agents-infiltrated-australian-government-website-331ed22c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385475",
+      "fuente": "Help Net Security",
+      "titulo": "Americans’ views on data centers have turned more negative",
+      "fecha_publicacion_iso": "2026-09-23T22:15:08+00:00",
+      "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-americans-views-on-data-centers-have-turned-more-negative-90c53e33.html"
     }
   }
 }
