@@ -7527,6 +7527,150 @@
       "fecha_publicacion_iso": "2026-09-23T22:29:10+00:00",
       "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
       "ruta_noticia": "/noticia/2026-09-24-sase-converges-network-amp-security-into-one-cloud-solution-f16ecfe7.html"
+    },
+    "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules": {
+      "guid": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+      "fuente": "The Record",
+      "titulo": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+      "fecha_publicacion_iso": "2026-09-24T20:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules-a-c8649afd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "fecha_publicacion_iso": "2026-09-24T20:10:48+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docke-81ef64c0.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958": {
+      "guid": "https://www.theregister.com/a/5298958",
+      "fuente": "The Register - Security",
+      "titulo": "Salesforce Agentforce vulns allowed 0-click CRM data theft, anonymous phishing",
+      "fecha_publicacion_iso": "2026-09-24T19:01:15+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-a-48a24a49.html"
+    },
+    "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty": {
+      "guid": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
+      "fuente": "The Record",
+      "titulo": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
+      "fecha_publicacion_iso": "2026-09-24T18:57:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-rydox-cybercriminal-marketplace-operator-pleads-guilty-follo-c911831f.html"
+    },
+    "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html": {
+      "guid": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "fecha_publicacion_iso": "2026-09-24T18:10:18+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-unpatched-oneplus-flaws-let-installed-android-apps-gain-root-80b6e80c.html"
+    },
+    "https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/": {
+      "guid": "https://cyberscoop.com/?p=90846",
+      "fuente": "CyberScoop",
+      "titulo": "New bill would create federal investigative body for AI-driven hacks",
+      "fecha_publicacion_iso": "2026-09-24T18:07:31+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-new-bill-would-create-federal-investigative-body-for-ai-driv-069523fe.html"
+    },
+    "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html": {
+      "guid": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "fecha_publicacion_iso": "2026-09-24T17:52:43+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-threatsday-ai-search-poisoning-ai-coding-tool-leaking-repos-134d6f39.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+      "fuente": "BleepingComputer",
+      "titulo": "Exposed GitLab project email addresses let attackers push code",
+      "fecha_publicacion_iso": "2026-09-24T17:47:44+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-exposed-gitlab-project-email-addresses-let-attackers-push-co-bfbf7cb5.html"
+    },
+    "https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/": {
+      "guid": "https://cyberscoop.com/?p=90842",
+      "fuente": "CyberScoop",
+      "titulo": "Phone-hacking company that won U.S. security agency contracts hid Russian ownership, DOJ alleges",
+      "fecha_publicacion_iso": "2026-09-24T17:07:31+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-phone-hacking-company-that-won-u-s-security-agency-contracts-c57134fb.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/decades-old-file-security-flaws-found-in-android-linux-macos-and-windows/5298672": {
+      "guid": "https://www.theregister.com/a/5298672",
+      "fuente": "The Register - Security",
+      "titulo": "Decades-old file security flaws found in Android, Linux, macOS, and Windows",
+      "fecha_publicacion_iso": "2026-09-24T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-decades-old-file-security-flaws-found-in-android-linux-macos-47f5fabf.html"
+    },
+    "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912": {
+      "guid": "https://www.theregister.com/a/5298912",
+      "fuente": "The Register - Security",
+      "titulo": "CVE flood pushes Ubuntu onto weekly kernel release cycle",
+      "fecha_publicacion_iso": "2026-09-24T16:33:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle-84b7313c.html"
+    },
+    "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/": {
+      "guid": "https://www.securityweek.com/?p=49558",
+      "fuente": "SecurityWeek",
+      "titulo": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
+      "fecha_publicacion_iso": "2026-09-24T15:52:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-kontext-security-emerges-with-4-million-for-ai-agent-runtime-d3a63d20.html"
+    },
+    "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html": {
+      "guid": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "fuente": "The Hacker News",
+      "titulo": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "fecha_publicacion_iso": "2026-09-24T15:27:32+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-placeholder-third-party-com-referenced-across-1-700-reposito-5229719d.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/someone-went-shopping-in-asuss-eshop-for-customer-data/5298860": {
+      "guid": "https://www.theregister.com/a/5298860",
+      "fuente": "The Register - Security",
+      "titulo": "Someone went shopping in ASUS's eShop – for customer data",
+      "fecha_publicacion_iso": "2026-09-24T15:13:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-someone-went-shopping-in-asus-s-eshop-for-customer-data-cf6699ad.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026",
+      "fuente": "Dark Reading",
+      "titulo": "3 Cyber Threats That Defined the Summer of 2026",
+      "fecha_publicacion_iso": "2026-09-24T14:44:12+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-3-cyber-threats-that-defined-the-summer-of-2026-f6b5e79f.html"
+    },
+    "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/": {
+      "guid": "https://www.securityweek.com/?p=49555",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+      "fecha_publicacion_iso": "2026-09-24T14:43:13+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-agents-probed-websites-for-vulnerabilities-while-fetc-8cb1291a.html"
+    },
+    "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html": {
+      "guid": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "fecha_publicacion_iso": "2026-09-24T14:29:06+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-hacked-ukrainian-sites-serve-fake-cloudflare-clickfix-lures-f08eddd0.html"
+    },
+    "https://www.darkreading.com/cloud-security/how-to-build-sase-framework": {
+      "guid": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
+      "fuente": "Dark Reading",
+      "titulo": "How to Build A SASE Framework for Modern Cybersecurity",
+      "fecha_publicacion_iso": "2026-09-24T14:02:43+00:00",
+      "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-how-to-build-a-sase-framework-for-modern-cybersecurity-30aaeec2.html"
     }
   }
 }
