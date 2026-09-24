@@ -7671,6 +7671,54 @@
       "fecha_publicacion_iso": "2026-09-24T14:02:43+00:00",
       "fecha_agregada_iso": "2026-09-24T20:31:53.987044+00:00",
       "ruta_noticia": "/noticia/2026-09-24-how-to-build-a-sase-framework-for-modern-cybersecurity-30aaeec2.html"
+    },
+    "https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/": {
+      "guid": "https://cyberscoop.com/?p=90855",
+      "fuente": "CyberScoop",
+      "titulo": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
+      "fecha_publicacion_iso": "2026-09-24T21:23:40+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-house-and-senate-members-propose-legislation-for-cisa-to-ste-a116ccea.html"
+    },
+    "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing": {
+      "guid": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+      "fuente": "Dark Reading",
+      "titulo": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
+      "fecha_publicacion_iso": "2026-09-24T21:04:03+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-salesbleed-exploits-salesforce-agents-to-enable-slack-phishi-84fafbac.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "fuente": "BleepingComputer",
+      "titulo": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "fecha_publicacion_iso": "2026-09-24T20:53:35+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-macsync-malware-uses-public-icloud-calendars-to-deliver-new-39bdbafb.html"
+    },
+    "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/": {
+      "guid": "https://www.securityweek.com/?p=49560",
+      "fuente": "SecurityWeek",
+      "titulo": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
+      "fecha_publicacion_iso": "2026-09-24T20:35:21+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-autonomous-ai-hacks-raise-thorny-questions-of-legal-accounta-f0696e11.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+      "fuente": "Dark Reading",
+      "titulo": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+      "fecha_publicacion_iso": "2026-09-24T20:32:50+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-sectoprat-returns-hiding-inside-a-legitimate-application-29307ba5.html"
+    },
+    "https://therecord.media/russia-forensics-technology-doj": {
+      "guid": "https://therecord.media/russia-forensics-technology-doj",
+      "fuente": "The Record",
+      "titulo": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
+      "fecha_publicacion_iso": "2026-09-24T20:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-digital-forensics-firm-with-us-federal-contracts-covered-up-855eba47.html"
     }
   }
 }
