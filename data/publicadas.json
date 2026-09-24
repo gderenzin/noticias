@@ -7167,6 +7167,366 @@
       "fecha_publicacion_iso": "2026-09-23T22:15:08+00:00",
       "fecha_agregada_iso": "2026-09-24T06:11:27.374310+00:00",
       "ruta_noticia": "/noticia/2026-09-24-americans-views-on-data-centers-have-turned-more-negative-90c53e33.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+      "fuente": "BleepingComputer",
+      "titulo": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+      "fecha_publicacion_iso": "2026-09-24T14:02:12+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-fedramp-vdr-ver-daily-scans-are-only-the-beginning-65df89b2.html"
+    },
+    "https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/": {
+      "guid": "https://cyberscoop.com/?p=90839",
+      "fuente": "CyberScoop",
+      "titulo": "Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks",
+      "fecha_publicacion_iso": "2026-09-24T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-bipartisan-senate-leaders-introduce-bill-to-bolster-telecom-d6db99ee.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/symphonyai-risk-intelligence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385712",
+      "fuente": "Help Net Security",
+      "titulo": "Symphony Risk Intelligence uses AI agents to streamline financial crime investigations",
+      "fecha_publicacion_iso": "2026-09-24T13:46:32+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-symphony-risk-intelligence-uses-ai-agents-to-streamline-fina-5acabbca.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
+      "fuente": "Dark Reading",
+      "titulo": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+      "fecha_publicacion_iso": "2026-09-24T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-ghost-service-accounts-enable-m365-data-theft-in-chile-8e4e4844.html"
+    },
+    "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes": {
+      "guid": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
+      "fuente": "The Record",
+      "titulo": "Kyiv internet providers report major outages after Russian attacks damage data centers",
+      "fecha_publicacion_iso": "2026-09-24T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-kyiv-internet-providers-report-major-outages-after-russian-a-54c12060.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+      "fecha_publicacion_iso": "2026-09-24T13:27:57+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-hackers-now-exploit-critical-roundcube-flaw-in-code-injectio-8ae4194e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-wtf-en-f5-big-ip-manda.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4142166770525625667",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad WTF en F5 BIG-IP... Manda Authorization: \"AAAA...\" 😖",
+      "fecha_publicacion_iso": "2026-09-24T13:27:02+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-vulnerabilidad-wtf-en-f5-big-ip-manda-authorization-aaaa-fb5d8993.html"
+    },
+    "https://therecord.media/astrana-cyberattack-sec-ransomware": {
+      "guid": "https://therecord.media/astrana-cyberattack-sec-ransomware",
+      "fuente": "The Record",
+      "titulo": "Astrana latest healthcare tech firm to report data breach to SEC",
+      "fecha_publicacion_iso": "2026-09-24T13:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-astrana-latest-healthcare-tech-firm-to-report-data-breach-to-daa2b134.html"
+    },
+    "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus": {
+      "guid": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
+      "fuente": "Dark Reading",
+      "titulo": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
+      "fecha_publicacion_iso": "2026-09-24T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-prompt-injection-bug-hits-4b-agentic-ai-app-manus-ac73c392.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/google-to-critical-infra-orgs-our-ai-scanners-wont-be-evil-promise/5298685": {
+      "guid": "https://www.theregister.com/a/5298685",
+      "fuente": "The Register - Security",
+      "titulo": "Google to critical infra orgs: Our AI scanners won't be evil, promise",
+      "fecha_publicacion_iso": "2026-09-24T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-google-to-critical-infra-orgs-our-ai-scanners-won-t-be-evil-d2983027.html"
+    },
+    "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/": {
+      "guid": "https://www.securityweek.com/?p=49553",
+      "fuente": "SecurityWeek",
+      "titulo": "AI-Powered Campaign Targets Hundreds of Online Retailers",
+      "fecha_publicacion_iso": "2026-09-24T12:48:14+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-ai-powered-campaign-targets-hundreds-of-online-retailers-007f36e2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/cloud-range-ai-validation-range-and-cloud-range-ai-readiness-framework/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385693",
+      "fuente": "Help Net Security",
+      "titulo": "Cloud Range lets SOCs benchmark AI agents against human defenders",
+      "fecha_publicacion_iso": "2026-09-24T12:34:29+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-cloud-range-lets-socs-benchmark-ai-agents-against-human-defe-a3a0d423.html"
+    },
+    "https://therecord.media/openai-australia-health-breach": {
+      "guid": "https://therecord.media/openai-australia-health-breach",
+      "fuente": "The Record",
+      "titulo": "OpenAI agent breached Australian government health website, Albanese says",
+      "fecha_publicacion_iso": "2026-09-24T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-agent-breached-australian-government-health-website-a-f90f2426.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/openai-agent-hacking-australia/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/24/openai-agent-hacking-australia/",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI agent breached Australian government health website, Albanese says",
+      "fecha_publicacion_iso": "2026-09-24T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-agent-breached-australian-government-health-website-a-f90f2426.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/gurucul-ai-risk-and-response/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385689",
+      "fuente": "Help Net Security",
+      "titulo": "Gurucul connects AI activity to identity data for faster threat response",
+      "fecha_publicacion_iso": "2026-09-24T12:20:16+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-gurucul-connects-ai-activity-to-identity-data-for-faster-thr-4a3c57ed.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 KB5124010 update released with 46 changes and fixes",
+      "fecha_publicacion_iso": "2026-09-24T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-windows-11-kb5124010-update-released-with-46-changes-and-fix-d8033c36.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/airties-expands-ai-driven-connectivity-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385685",
+      "fuente": "Help Net Security",
+      "titulo": "Airties adds router-level cybersecurity protection for ISPs",
+      "fecha_publicacion_iso": "2026-09-24T12:08:37+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-airties-adds-router-level-cybersecurity-protection-for-isps-43478468.html"
+    },
+    "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html": {
+      "guid": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "fuente": "The Hacker News",
+      "titulo": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "fecha_publicacion_iso": "2026-09-24T12:05:27+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-corp-mdm-spyware-targets-logistics-firms-steals-new-sms-and-bfc5c931.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/azul-intelligence-cloud-ai-assistant/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385682",
+      "fuente": "Help Net Security",
+      "titulo": "Azul AI Assistant helps teams find Java licensing and security risks",
+      "fecha_publicacion_iso": "2026-09-24T11:59:16+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-azul-ai-assistant-helps-teams-find-java-licensing-and-securi-53cbf9d5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/latticeflow-ai-risk-center/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385677",
+      "fuente": "Help Net Security",
+      "titulo": "LatticeFlow AI offers managed risk assessments for enterprise AI systems",
+      "fecha_publicacion_iso": "2026-09-24T11:47:54+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-latticeflow-ai-offers-managed-risk-assessments-for-enterpris-38cd7799.html"
+    },
+    "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/": {
+      "guid": "https://www.securityweek.com/?p=49551",
+      "fuente": "SecurityWeek",
+      "titulo": "Island Raises $400 Million at $6.4 Billion Valuation",
+      "fecha_publicacion_iso": "2026-09-24T11:39:09+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-island-raises-400-million-at-6-4-billion-valuation-ce8801eb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/meta-private-processing-for-ai-glasses/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385653",
+      "fuente": "Help Net Security",
+      "titulo": "Meta locks itself out of user data on its AI glasses",
+      "fecha_publicacion_iso": "2026-09-24T11:35:04+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-meta-locks-itself-out-of-user-data-on-its-ai-glasses-8125bbad.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/uk-national-centre-for-information-defence-disinformation-detection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385651",
+      "fuente": "Help Net Security",
+      "titulo": "UK gears up for fight against Russia’s disinformation machine",
+      "fecha_publicacion_iso": "2026-09-24T11:25:36+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-uk-gears-up-for-fight-against-russias-disinformation-machine-beceb9e4.html"
+    },
+    "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/": {
+      "guid": "https://www.securityweek.com/?p=49546",
+      "fuente": "SecurityWeek",
+      "titulo": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
+      "fecha_publicacion_iso": "2026-09-24T11:05:16+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advi-c2326e03.html"
+    },
+    "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html": {
+      "guid": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "fuente": "The Hacker News",
+      "titulo": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "fecha_publicacion_iso": "2026-09-24T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-secrets-sprawl-is-an-identity-problem-that-ai-just-made-impo-fb9ba04a.html"
+    },
+    "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/": {
+      "guid": "https://www.securityweek.com/?p=49545",
+      "fuente": "SecurityWeek",
+      "titulo": "Begin at the End: How to Enable Agentic Remediation",
+      "fecha_publicacion_iso": "2026-09-24T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-begin-at-the-end-how-to-enable-agentic-remediation-1b49fc79.html"
+    },
+    "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/": {
+      "guid": "6ab4e91fb1d9548af7e552c3",
+      "fuente": "Wired - Security",
+      "titulo": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
+      "fecha_publicacion_iso": "2026-09-24T10:46:56+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-an-openai-agent-hacked-australias-health-service-their-gover-ffbbca04.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+      "fecha_publicacion_iso": "2026-09-24T10:42:37+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw-849a3d02.html"
+    },
+    "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/": {
+      "guid": "https://www.securityweek.com/?p=49543",
+      "fuente": "SecurityWeek",
+      "titulo": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
+      "fecha_publicacion_iso": "2026-09-24T10:40:40+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-solarwinds-patches-critical-rce-flaws-in-observability-self-bea1c24d.html"
+    },
+    "https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=90821",
+      "fuente": "CyberScoop",
+      "titulo": "How tax policy can stop threat actors from breaching US water systems",
+      "fecha_publicacion_iso": "2026-09-24T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-how-tax-policy-can-stop-threat-actors-from-breaching-us-wate-8a5cdbfe.html"
+    },
+    "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/": {
+      "guid": "https://www.securityweek.com/?p=49541",
+      "fuente": "SecurityWeek",
+      "titulo": "Astrana Health Data Breach Impacts Private, Confidential Information",
+      "fecha_publicacion_iso": "2026-09-24T09:56:04+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-astrana-health-data-breach-impacts-private-confidential-info-14e81785.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385616",
+      "fuente": "Help Net Security",
+      "titulo": "New Android malware RemControl steals banking PINs and blocks removal attempts",
+      "fecha_publicacion_iso": "2026-09-24T09:40:43+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-new-android-malware-remcontrol-steals-banking-pins-and-block-fd831be7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI hacked Australian Medicare govt site, probed data providers",
+      "fecha_publicacion_iso": "2026-09-24T09:38:53+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-hacked-australian-medicare-govt-site-probed-data-prov-94821214.html"
+    },
+    "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html": {
+      "guid": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+      "fuente": "The Hacker News",
+      "titulo": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+      "fecha_publicacion_iso": "2026-09-24T09:14:21+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-17-000-urls-reveal-how-clickfix-turns-trusted-websites-into-1af8eb0d.html"
+    },
+    "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49539",
+      "fuente": "SecurityWeek",
+      "titulo": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
+      "fecha_publicacion_iso": "2026-09-24T08:38:29+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-us-court-sentences-armenian-man-to-prison-for-ryuk-ransomwar-41cdf89b.html"
+    },
+    "https://www.theregister.com/security/2026/09/24/government-contractor-exposed-path-to-immigration-records/5298689": {
+      "guid": "https://www.theregister.com/a/5298689",
+      "fuente": "The Register - Security",
+      "titulo": "Government contractor exposed path to immigration records",
+      "fecha_publicacion_iso": "2026-09-24T08:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-government-contractor-exposed-path-to-immigration-records-1d9141b6.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-gitlab-6": {
+      "guid": "665510 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en GitLab",
+      "fecha_publicacion_iso": "2026-09-24T08:15:59+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-multiples-vulnerabilidades-en-gitlab-1992edc6.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes bug that broke Windows File History backup feature",
+      "fecha_publicacion_iso": "2026-09-24T08:14:47+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-microsoft-fixes-bug-that-broke-windows-file-history-backup-f-f5fa8ba9.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/elemento-de-ruta-de-busqueda-sin-controlar-en-evope-collector": {
+      "guid": "620042 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Elemento de ruta de búsqueda sin controlar en Evope Collector",
+      "fecha_publicacion_iso": "2026-09-24T07:44:36+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-elemento-de-ruta-de-busqueda-sin-controlar-en-evope-collecto-b01722f5.html"
+    },
+    "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html": {
+      "guid": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "fecha_publicacion_iso": "2026-09-24T07:07:25+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-openai-agent-bypassed-australian-medicare-portal-controls-to-5b6424df.html"
+    },
+    "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html": {
+      "guid": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "fuente": "The Hacker News",
+      "titulo": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "fecha_publicacion_iso": "2026-09-24T06:32:03+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-teamfiltration-campaign-compromises-seven-microsoft-365-acco-5c57edab.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "fecha_publicacion_iso": "2026-09-24T05:36:18+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-attackers-exploit-wordpress-cve-2026-87902-within-hours-of-d-856645cc.html"
+    },
+    "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/": {
+      "guid": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "fecha_publicacion_iso": "2026-09-24T05:36:18+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-attackers-exploit-wordpress-cve-2026-87902-within-hours-of-d-856645cc.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/explotan-la-vulnerabilidad-cve-2026.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/09/explotan-la-vulnerabilidad-cve-2026.html",
+      "fuente": "Segu-Info",
+      "titulo": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "fecha_publicacion_iso": "2026-09-24T05:36:18+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-attackers-exploit-wordpress-cve-2026-87902-within-hours-of-d-856645cc.html"
+    },
+    "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud": {
+      "guid": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
+      "fuente": "Dark Reading",
+      "titulo": "SASE Converges Network &amp; Security Into One Cloud Solution",
+      "fecha_publicacion_iso": "2026-09-23T22:29:10+00:00",
+      "fecha_agregada_iso": "2026-09-24T14:26:47.332177+00:00",
+      "ruta_noticia": "/noticia/2026-09-24-sase-converges-network-amp-security-into-one-cloud-solution-f16ecfe7.html"
     }
   }
 }
