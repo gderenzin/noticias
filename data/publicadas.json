@@ -7719,6 +7719,54 @@
       "fecha_publicacion_iso": "2026-09-24T20:30:00+00:00",
       "fecha_agregada_iso": "2026-09-24T23:54:46.462298+00:00",
       "ruta_noticia": "/noticia/2026-09-24-digital-forensics-firm-with-us-federal-contracts-covered-up-855eba47.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385395",
+      "fuente": "Help Net Security",
+      "titulo": "Stop watching what AI agents say and start watching what they do",
+      "fecha_publicacion_iso": "2026-09-25T05:30:02+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-stop-watching-what-ai-agents-say-and-start-watching-what-the-6d3015c6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385577",
+      "fuente": "Help Net Security",
+      "titulo": "Half of threat hunters say bad data is their biggest problem",
+      "fecha_publicacion_iso": "2026-09-25T05:00:56+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-half-of-threat-hunters-say-bad-data-is-their-biggest-problem-24da00ab.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385410",
+      "fuente": "Help Net Security",
+      "titulo": "Your incident count is missing a few incidents",
+      "fecha_publicacion_iso": "2026-09-25T04:30:26+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-your-incident-count-is-missing-a-few-incidents-e9309a63.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385197",
+      "fuente": "Help Net Security",
+      "titulo": "New infosec products of the month: September 2026",
+      "fecha_publicacion_iso": "2026-09-25T04:00:28+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-new-infosec-products-of-the-month-september-2026-90fd229b.html"
+    },
+    "http://www.elladodelmal.com/2026/09/hp-wolf-security-threat-insights-report.html": {
+      "guid": "http://www.elladodelmal.com/2026/09/hp-wolf-security-threat-insights-report.html",
+      "fuente": "El Lado del Mal",
+      "titulo": "New infosec products of the month: September 2026",
+      "fecha_publicacion_iso": "2026-09-25T04:00:28+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-new-infosec-products-of-the-month-september-2026-90fd229b.html"
+    },
+    "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012": {
+      "guid": "https://www.theregister.com/a/5299012",
+      "fuente": "The Register - Security",
+      "titulo": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs",
+      "fecha_publicacion_iso": "2026-09-24T23:32:15+00:00",
+      "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-crook-used-three-open-source-agents-to-break-into-a-fortune-28c4ceb9.html"
     }
   }
 }
