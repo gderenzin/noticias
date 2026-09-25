@@ -8159,6 +8159,38 @@
       "fecha_publicacion_iso": "2026-09-25T13:18:06+00:00",
       "fecha_agregada_iso": "2026-09-25T20:31:51.842862+00:00",
       "ruta_noticia": "/noticia/2026-09-25-pamstealer-macos-malware-adds-live-c2-payload-decryption-and-221b77e2.html"
+    },
+    "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/": {
+      "guid": "https://krebsonsecurity.com/?p=74335",
+      "fuente": "Krebs on Security",
+      "titulo": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "fecha_publicacion_iso": "2026-09-25T21:44:40+00:00",
+      "fecha_agregada_iso": "2026-09-25T23:58:11.305126+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-u-s-soldier-gets-70-months-in-prison-for-at-t-verizon-extort-42d7d50a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+      "fecha_publicacion_iso": "2026-09-25T21:41:07+00:00",
+      "fecha_agregada_iso": "2026-09-25T23:58:11.305126+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-kiteworks-urges-6-hour-server-shutdown-over-potential-zero-d-bdcdb2d2.html"
+    },
+    "https://cyberscoop.com/cameron-wagenius-att-snowflake-attacks-sentenced/": {
+      "guid": "https://cyberscoop.com/?p=90873",
+      "fuente": "CyberScoop",
+      "titulo": "Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies",
+      "fecha_publicacion_iso": "2026-09-25T21:28:36+00:00",
+      "fecha_agregada_iso": "2026-09-25T23:58:11.305126+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-army-soldier-sentenced-for-spree-of-attacks-on-at-t-snowflak-3f75e619.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+      "fecha_publicacion_iso": "2026-09-25T20:57:55+00:00",
+      "fecha_agregada_iso": "2026-09-25T23:58:11.305126+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-shinyhunters-hacked-clop-leak-site-using-grav-cms-path-trave-82e9a8b1.html"
     }
   }
 }
