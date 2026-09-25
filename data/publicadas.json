@@ -7767,6 +7767,222 @@
       "fecha_publicacion_iso": "2026-09-24T23:32:15+00:00",
       "fecha_agregada_iso": "2026-09-25T06:10:52.190733+00:00",
       "ruta_noticia": "/noticia/2026-09-25-crook-used-three-open-source-agents-to-break-into-a-fortune-28c4ceb9.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-almacenado-de-stockagile-de-novadigits-technologies": {
+      "guid": "616901 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting almacenado de StockAgile de Novadigits technologies",
+      "fecha_publicacion_iso": "2026-09-25T15:28:28+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-cross-site-scripting-almacenado-de-stockagile-de-novadigits-6664c6f6.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft plans to deprecate Windows Deployment Services",
+      "fecha_publicacion_iso": "2026-09-25T12:40:59+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-microsoft-plans-to-deprecate-windows-deployment-services-4fb8f48a.html"
+    },
+    "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49577",
+      "fuente": "SecurityWeek",
+      "titulo": "CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks",
+      "fecha_publicacion_iso": "2026-09-25T12:39:12+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-cisa-election-security-plan-flags-patching-barriers-voter-da-8048cf20.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-critica-en-cpanel.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6224962054898915548",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad crítica en cPanel permite escalar a root",
+      "fecha_publicacion_iso": "2026-09-25T12:32:00+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-vulnerabilidad-critica-en-cpanel-permite-escalar-a-root-7413c8a8.html"
+    },
+    "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/": {
+      "guid": "https://www.securityweek.com/?p=49574",
+      "fuente": "SecurityWeek",
+      "titulo": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
+      "fecha_publicacion_iso": "2026-09-25T12:16:27+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court-bc91be77.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/threat-detections-coverage-gaps-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385799",
+      "fuente": "Help Net Security",
+      "titulo": "Threat detection dashboards are masking security coverage gaps",
+      "fecha_publicacion_iso": "2026-09-25T12:04:03+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-threat-detection-dashboards-are-masking-security-coverage-ga-b491bcd0.html"
+    },
+    "https://therecord.media/openai-australia-breach-cyber": {
+      "guid": "https://therecord.media/openai-australia-breach-cyber",
+      "fuente": "The Record",
+      "titulo": "Doubts grow over claims OpenAI agent hacked Australian Medicare portal",
+      "fecha_publicacion_iso": "2026-09-25T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-doubts-grow-over-claims-openai-agent-hacked-australian-medic-d8355957.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+      "fecha_publicacion_iso": "2026-09-25T11:35:14+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-rydox-marketplace-admin-pleads-guilty-faces-22-years-in-pris-cca16c24.html"
+    },
+    "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html": {
+      "guid": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "The SOC Doesn't Need to Start Over with Every Alert",
+      "fecha_publicacion_iso": "2026-09-25T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-the-soc-doesn-t-need-to-start-over-with-every-alert-e170e8fa.html"
+    },
+    "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/": {
+      "guid": "https://www.securityweek.com/?p=49570",
+      "fuente": "SecurityWeek",
+      "titulo": "Windows, Linux, Android File Notification Systems Leak User Activity",
+      "fecha_publicacion_iso": "2026-09-25T10:53:32+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-windows-linux-android-file-notification-systems-leak-user-ac-ce1b6975.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Recent Windows updates cause desktop loading issues",
+      "fecha_publicacion_iso": "2026-09-25T10:30:38+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-microsoft-recent-windows-updates-cause-desktop-loading-issue-c2728dff.html"
+    },
+    "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/": {
+      "guid": "https://www.securityweek.com/?p=49567",
+      "fuente": "SecurityWeek",
+      "titulo": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+      "fecha_publicacion_iso": "2026-09-25T09:27:51+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-6a804f54.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385755",
+      "fuente": "Help Net Security",
+      "titulo": "MacSync info-stealing malware hides malicious commands in an iCloud calendar",
+      "fecha_publicacion_iso": "2026-09-25T09:22:45+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-macsync-info-stealing-malware-hides-malicious-commands-in-an-2779579c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+      "fecha_publicacion_iso": "2026-09-25T08:33:44+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-hackers-steal-351-6-million-in-bitget-crypto-exchange-hack-638d4590.html"
+    },
+    "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html": {
+      "guid": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+      "fecha_publicacion_iso": "2026-09-25T08:33:44+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-hackers-steal-351-6-million-in-bitget-crypto-exchange-hack-638d4590.html"
+    },
+    "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/": {
+      "guid": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+      "fecha_publicacion_iso": "2026-09-25T08:33:44+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-hackers-steal-351-6-million-in-bitget-crypto-exchange-hack-638d4590.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385744",
+      "fuente": "Help Net Security",
+      "titulo": "Docker introduces OCI-based Kits to package agents and their guardrails",
+      "fecha_publicacion_iso": "2026-09-25T07:57:50+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-docker-introduces-oci-based-kits-to-package-agents-and-their-27ee47ef.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385721",
+      "fuente": "Help Net Security",
+      "titulo": "Fake payroll desktop apps hand attackers a route to company paychecks",
+      "fecha_publicacion_iso": "2026-09-25T07:52:51+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-fake-payroll-desktop-apps-hand-attackers-a-route-to-company-0559c722.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385737",
+      "fuente": "Help Net Security",
+      "titulo": "Abnormal AI brings governance, cloud security, and threat investigation into one suite",
+      "fecha_publicacion_iso": "2026-09-25T07:46:25+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-abnormal-ai-brings-governance-cloud-security-and-threat-inve-10883f4a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385729",
+      "fuente": "Help Net Security",
+      "titulo": "SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads",
+      "fecha_publicacion_iso": "2026-09-25T07:36:24+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-sentinelone-extends-wayfinder-coverage-across-endpoints-iden-a7debbfa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385726",
+      "fuente": "Help Net Security",
+      "titulo": "Dataiku Agent Management reveals unmonitored AI agents",
+      "fecha_publicacion_iso": "2026-09-25T07:30:11+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-dataiku-agent-management-reveals-unmonitored-ai-agents-2909d74d.html"
+    },
+    "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe": {
+      "guid": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
+      "fuente": "Dark Reading",
+      "titulo": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+      "fecha_publicacion_iso": "2026-09-25T07:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-russia-s-hybrid-cyber-physical-war-in-europe-heats-up-75ab585d.html"
+    },
+    "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/": {
+      "guid": "https://www.securityweek.com/?p=49564",
+      "fuente": "SecurityWeek",
+      "titulo": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
+      "fecha_publicacion_iso": "2026-09-25T06:57:40+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-roundcube-webmail-vulnerability-in-attackers-crosshairs-ac5e91c6.html"
+    },
+    "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
+      "fecha_publicacion_iso": "2026-09-25T06:57:40+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-roundcube-webmail-vulnerability-in-attackers-crosshairs-ac5e91c6.html"
+    },
+    "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html": {
+      "guid": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "fecha_publicacion_iso": "2026-09-25T04:49:22+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-cloudflare-fixes-flaw-that-let-one-container-read-another-cu-a80caea9.html"
+    },
+    "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html": {
+      "guid": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "fuente": "The Hacker News",
+      "titulo": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "fecha_publicacion_iso": "2026-09-25T04:46:34+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-wso2-and-adobe-commerce-flaws-exploited-in-attacks-added-to-e85a70b7.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/agentes-ia-ciberseguridad-pymes/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/agentes-ia-ciberseguridad-pymes/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "La presión sobre la ciberseguridad de las PyMEs: agentes de IA en expansión, amenazas tradicionales en aceleración",
+      "fecha_publicacion_iso": "2026-09-24T15:09:58+00:00",
+      "fecha_agregada_iso": "2026-09-25T14:41:04.233152+00:00",
+      "ruta_noticia": "/noticia/2026-09-25-la-presion-sobre-la-ciberseguridad-de-las-pymes-agentes-de-i-e3465df7.html"
     }
   }
 }
