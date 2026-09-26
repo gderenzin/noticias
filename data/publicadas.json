@@ -8199,6 +8199,70 @@
       "fecha_publicacion_iso": "2026-09-25T17:05:36+00:00",
       "fecha_agregada_iso": "2026-09-26T06:10:42.118488+00:00",
       "ruta_noticia": "/noticia/2026-09-26-vibe-coding-y-seguridad-5-preguntas-para-evaluar-los-riesgos-f7344e63.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "fecha_publicacion_iso": "2026-09-26T12:28:41+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-openai-s-ai-agents-accidentally-uploaded-user-provided-image-8f8f3ea9.html"
+    },
+    "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/": {
+      "guid": "https://www.securityweek.com/?p=49582",
+      "fuente": "SecurityWeek",
+      "titulo": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+      "fecha_publicacion_iso": "2026-09-26T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining-f6ae1f4f.html"
+    },
+    "https://www.wired.com/story/kernel-panic-old-timey-credit-card-scams/": {
+      "guid": "6ab3d7200eb1df7e9e9f8dc1",
+      "fuente": "Wired - Security",
+      "titulo": "Old-School Credit Card Scams Are Far From Dead",
+      "fecha_publicacion_iso": "2026-09-26T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-old-school-credit-card-scams-are-far-from-dead-13b36f07.html"
+    },
+    "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/": {
+      "guid": "https://www.securityweek.com/?p=49592",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
+      "fecha_publicacion_iso": "2026-09-26T10:15:41+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-openai-says-its-models-engaged-with-us-government-websites-i-64b05937.html"
+    },
+    "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html": {
+      "guid": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "fuente": "The Hacker News",
+      "titulo": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "fecha_publicacion_iso": "2026-09-26T09:55:22+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-elementor-csrf-flaw-lets-attackers-take-over-sites-after-adm-06ab9a4d.html"
+    },
+    "http://www.elladodelmal.com/2026/09/la-comunidad-de-madrid-cloudflare.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-2452453384823469168",
+      "fuente": "El Lado del Mal",
+      "titulo": "La Comunidad de Madrid & Cloudflare",
+      "fecha_publicacion_iso": "2026-09-26T09:31:27+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-la-comunidad-de-madrid-cloudflare-6e2c3254.html"
+    },
+    "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html": {
+      "guid": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "fuente": "The Hacker News",
+      "titulo": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-09-26T08:49:53+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-sharepoint-rce-and-mikrotik-routeros-flaws-actively-exploite-917fda2e.html"
+    },
+    "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html": {
+      "guid": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "fuente": "The Hacker News",
+      "titulo": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "fecha_publicacion_iso": "2026-09-26T07:48:33+00:00",
+      "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-kiteworks-urges-customers-to-shut-down-systems-for-9-hours-o-41696cb4.html"
     }
   }
 }
