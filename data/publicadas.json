@@ -8263,6 +8263,70 @@
       "fecha_publicacion_iso": "2026-09-26T07:48:33+00:00",
       "fecha_agregada_iso": "2026-09-26T13:46:31.744398+00:00",
       "ruta_noticia": "/noticia/2026-09-26-kiteworks-urges-customers-to-shut-down-systems-for-9-hours-o-41696cb4.html"
+    },
+    "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html": {
+      "guid": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "fecha_publicacion_iso": "2026-09-26T18:22:52+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-lunex-stealer-abuses-amd-driver-to-disable-security-monitori-d0389279.html"
+    },
+    "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/": {
+      "guid": "https://www.securityweek.com/?p=49597",
+      "fuente": "SecurityWeek",
+      "titulo": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "fecha_publicacion_iso": "2026-09-26T18:09:28+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-china-and-us-agree-to-establish-ai-safety-channel-and-contin-24bae0f5.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "fuente": "BleepingComputer",
+      "titulo": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "fecha_publicacion_iso": "2026-09-26T16:26:58+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-claude-opus-5-5-uses-95-fewer-em-dashes-but-its-answers-are-7843e0df.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "fecha_publicacion_iso": "2026-09-26T15:50:38+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-microsoft-pauses-kb5002907-update-after-office-license-deact-5fe3eb58.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "fuente": "BleepingComputer",
+      "titulo": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "fecha_publicacion_iso": "2026-09-26T14:19:46+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-github-actions-re-enabled-with-mini-shai-hulud-payload-still-7cfbf8cc.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "fecha_publicacion_iso": "2026-09-26T11:46:40+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-attackers-bypass-wafs-to-exploit-oracle-peoplesoft-flaw-and-05d26f43.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "fecha_publicacion_iso": "2026-09-26T11:46:40+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-attackers-bypass-wafs-to-exploit-oracle-peoplesoft-flaw-and-05d26f43.html"
+    },
+    "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html": {
+      "guid": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "fecha_publicacion_iso": "2026-09-26T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-26T19:52:55.346590+00:00",
+      "ruta_noticia": "/noticia/2026-09-26-zero-trust-for-ai-agents-starts-with-fixing-zero-visibility-4e66adcc.html"
     }
   }
 }
