@@ -8335,6 +8335,62 @@
       "fecha_publicacion_iso": "2026-09-27T01:43:00+00:00",
       "fecha_agregada_iso": "2026-09-27T06:37:49.565033+00:00",
       "ruta_noticia": "/noticia/2026-09-27-cairn-herramienta-para-rastrear-malware-de-ia-84a1cc89.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "fecha_publicacion_iso": "2026-09-27T14:13:31+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-cloudflare-fixes-containers-cross-tenant-flaw-exposing-custo-150c2b68.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "fecha_publicacion_iso": "2026-09-27T13:38:40+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plu-c56cfa0c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/explotacion-activa-de-dos-zero-day-rce.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1770189183041561260",
+      "fuente": "Segu-Info",
+      "titulo": "Explotación activa de dos Zero-Day RCE sin parchear en Citrix NetScaler ADC y NetScaler Gateway",
+      "fecha_publicacion_iso": "2026-09-27T12:50:00+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-explotacion-activa-de-dos-zero-day-rce-sin-parchear-en-citri-2753b0fa.html"
+    },
+    "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49599",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-09-27T09:23:09+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-at-7219d26a.html"
+    },
+    "http://www.elladodelmal.com/2026/09/mi-y-la-tuya-agenda-de-eventos-en.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6154203015521949469",
+      "fuente": "El Lado del Mal",
+      "titulo": "Mi (y la tuya) agenda de Eventos en Octubre: Cloudflare User Group, Ekoparty, ApIAddicts & Cloudflare Connect",
+      "fecha_publicacion_iso": "2026-09-27T08:46:12+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-mi-y-la-tuya-agenda-de-eventos-en-octubre-cloudflare-user-gr-15615959.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/27/week-in-review-gyazo-breach-exposes-23-6m-user-data-taskstomp-steals-documents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385157",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Gyazo breach exposes 23.6M user data, TASK#STOMP steals documents",
+      "fecha_publicacion_iso": "2026-09-27T08:00:49+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-week-in-review-gyazo-breach-exposes-23-6m-user-data-task-sto-7e1ba74a.html"
+    },
+    "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html": {
+      "guid": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "fuente": "The Hacker News",
+      "titulo": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-09-27T07:47:57+00:00",
+      "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-warning-two-unpatched-citrix-netscaler-rce-zero-days-under-a-1e3a7f24.html"
     }
   }
 }
