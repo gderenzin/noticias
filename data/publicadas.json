@@ -8399,6 +8399,14 @@
       "fecha_publicacion_iso": "2026-09-27T16:02:37+00:00",
       "fecha_agregada_iso": "2026-09-27T20:09:52.553343+00:00",
       "ruta_noticia": "/noticia/2026-09-27-citrix-confirms-two-netscaler-rce-zero-days-exploited-in-att-44db897d.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+      "fecha_publicacion_iso": "2026-09-27T23:40:39+00:00",
+      "fecha_agregada_iso": "2026-09-27T23:49:05.330021+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-openai-is-preparing-o-an-always-on-chatgpt-assistant-that-co-f03c1791.html"
     }
   }
 }
