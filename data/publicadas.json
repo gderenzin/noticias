@@ -8391,6 +8391,14 @@
       "fecha_publicacion_iso": "2026-09-27T07:47:57+00:00",
       "fecha_agregada_iso": "2026-09-27T14:44:50.267285+00:00",
       "ruta_noticia": "/noticia/2026-09-27-warning-two-unpatched-citrix-netscaler-rce-zero-days-under-a-1e3a7f24.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "fuente": "BleepingComputer",
+      "titulo": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-27T16:02:37+00:00",
+      "fecha_agregada_iso": "2026-09-27T20:09:52.553343+00:00",
+      "ruta_noticia": "/noticia/2026-09-27-citrix-confirms-two-netscaler-rce-zero-days-exploited-in-att-44db897d.html"
     }
   }
 }
