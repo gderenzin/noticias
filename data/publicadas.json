@@ -8471,6 +8471,334 @@
       "fecha_publicacion_iso": "2026-09-28T04:00:51+00:00",
       "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
       "ruta_noticia": "/noticia/2026-09-28-quantum-random-numbers-can-pass-the-tests-and-still-leak-clu-c6a04e3c.html"
+    },
+    "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/": {
+      "guid": "https://www.securityweek.com/?p=49638",
+      "fuente": "SecurityWeek",
+      "titulo": "Modulate Raises $25 Million to Advance Deepfake Detection",
+      "fecha_publicacion_iso": "2026-09-28T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-modulate-raises-25-million-to-advance-deepfake-detection-b1e3e519.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/linux-journey-aprende-linux-desde-cero.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-942975171335365310",
+      "fuente": "Segu-Info",
+      "titulo": "Linux Journey: aprende Linux desde cero, luego sigue con seguridad",
+      "fecha_publicacion_iso": "2026-09-28T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-linux-journey-aprende-linux-desde-cero-luego-sigue-con-segur-c787c51a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/china-desmantela-una-red-de-fraude.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4955619368533144871",
+      "fuente": "Segu-Info",
+      "titulo": "China desmantela una red de fraude relacionada con el \"desbloqueo de activos nacionales\" y con 257 detenidos",
+      "fecha_publicacion_iso": "2026-09-28T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-china-desmantela-una-red-de-fraude-relacionada-con-el-desblo-c9d5cf7f.html"
+    },
+    "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions": {
+      "guid": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+      "fuente": "Dark Reading",
+      "titulo": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+      "fecha_publicacion_iso": "2026-09-28T16:51:25+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-chrome-store-hosts-poper-blocker-spyware-downloaded-by-milli-2a1fced4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+      "fuente": "BleepingComputer",
+      "titulo": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+      "fecha_publicacion_iso": "2026-09-28T15:49:27+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-res-be5ce4a6.html"
+    },
+    "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack": {
+      "guid": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
+      "fuente": "Dark Reading",
+      "titulo": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+      "fecha_publicacion_iso": "2026-09-28T15:33:21+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-jadepuffer-ai-actor-compromises-azure-tenant-in-destructive-b783a4aa.html"
+    },
+    "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/": {
+      "guid": "https://www.securityweek.com/?p=49621",
+      "fuente": "SecurityWeek",
+      "titulo": "Call for Presentations Open for 2026 CISO Forum Virtual Summit",
+      "fecha_publicacion_iso": "2026-09-28T15:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-call-for-presentations-open-for-2026-ciso-forum-virtual-summ-3273adb4.html"
+    },
+    "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/": {
+      "guid": "https://krebsonsecurity.com/?p=74341",
+      "fuente": "Krebs on Security",
+      "titulo": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "fecha_publicacion_iso": "2026-09-28T15:08:57+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-dutch-police-arrest-reformed-hacker-in-shiny-hunters-investi-9eea57ed.html"
+    },
+    "https://cyberscoop.com/fbi-data-breach-shinyhunters-agent-safety-risk/": {
+      "guid": "https://cyberscoop.com/?p=90875",
+      "fuente": "CyberScoop",
+      "titulo": "ShinyHunters trades financial extortion for a reckless war of ego with the FBI",
+      "fecha_publicacion_iso": "2026-09-28T14:47:10+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-shinyhunters-trades-financial-extortion-for-a-reckless-war-o-4ee785a1.html"
+    },
+    "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html": {
+      "guid": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+      "fecha_publicacion_iso": "2026-09-28T14:00:53+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-weekly-recap-387m-crypto-hack-citrix-exploits-ai-agents-go-o-7d4f9588.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "fuente": "BleepingComputer",
+      "titulo": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "fecha_publicacion_iso": "2026-09-28T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-80-000-organizations-had-ai-logins-stolen-from-shadow-ai-to-c97ff75e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/microsoft-titan-jwt-signature-flaw/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385962",
+      "fuente": "Help Net Security",
+      "titulo": "16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data",
+      "fecha_publicacion_iso": "2026-09-28T13:50:17+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-16-year-old-researcher-breaks-into-microsoft-analytics-servi-aea6a693.html"
+    },
+    "https://therecord.media/poland-cyberattack-medical-medyc": {
+      "guid": "https://therecord.media/poland-cyberattack-medical-medyc",
+      "fuente": "The Record",
+      "titulo": "Cyberattack on Polish medical software provider exposes patient data",
+      "fecha_publicacion_iso": "2026-09-28T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-cyberattack-on-polish-medical-software-provider-exposes-pati-7231708a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/herramientas-de-ia-utilizadas-para.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5720864550029696220",
+      "fuente": "Segu-Info",
+      "titulo": "Herramientas de IA utilizadas para robar tarjetas de crédito",
+      "fecha_publicacion_iso": "2026-09-28T13:24:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-herramientas-de-ia-utilizadas-para-robar-tarjetas-de-credito-c7b64b1d.html"
+    },
+    "https://therecord.media/hacker-telecom-army-sentenced": {
+      "guid": "https://therecord.media/hacker-telecom-army-sentenced",
+      "fuente": "The Record",
+      "titulo": "Former US soldier gets nearly six-year sentence for hacking, extorting telecoms",
+      "fecha_publicacion_iso": "2026-09-28T12:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-former-us-soldier-gets-nearly-six-year-sentence-for-hacking-1550f6c5.html"
+    },
+    "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/": {
+      "guid": "https://www.securityweek.com/?p=49619",
+      "fuente": "SecurityWeek",
+      "titulo": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
+      "fecha_publicacion_iso": "2026-09-28T12:36:16+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-prison-sentence-for-former-us-soldier-who-hacked-at-t-and-ve-5dcc91b9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/cve-2025-68788-file-notification-attacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385937",
+      "fuente": "Help Net Security",
+      "titulo": "Other users can watch your browsing and time your keystrokes through OS file notifications",
+      "fecha_publicacion_iso": "2026-09-28T12:14:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-other-users-can-watch-your-browsing-and-time-your-keystrokes-a7604283.html"
+    },
+    "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html": {
+      "guid": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+      "fecha_publicacion_iso": "2026-09-28T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-webinar-how-to-govern-ai-agents-reduce-excessive-access-and-8a2ae7a5.html"
+    },
+    "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html": {
+      "guid": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "fuente": "The Hacker News",
+      "titulo": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "fecha_publicacion_iso": "2026-09-28T11:46:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-carbonato-botnet-compromises-docker-hosts-to-deploy-telegram-0254725a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/nvidia-open-agent-safety-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385918",
+      "fuente": "Help Net Security",
+      "titulo": "NVIDIA wants AI agent safety enforced in silicon, not left to the agent",
+      "fecha_publicacion_iso": "2026-09-28T11:34:58+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-nvidia-wants-ai-agent-safety-enforced-in-silicon-not-left-to-5734870c.html"
+    },
+    "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/": {
+      "guid": "6aba2ec22122500d82923825",
+      "fuente": "Wired - Security",
+      "titulo": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+      "fecha_publicacion_iso": "2026-09-28T11:32:19+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-openai-pauses-training-its-most-powerful-models-after-rogue-ba01a62d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/drunk-ai-models-jailbreak-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385899",
+      "fuente": "Help Net Security",
+      "titulo": "“Drunk” AI is terrible at keeping secrets",
+      "fecha_publicacion_iso": "2026-09-28T11:30:22+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-drunk-ai-is-terrible-at-keeping-secrets-4b9b77a7.html"
+    },
+    "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/": {
+      "guid": "https://www.securityweek.com/?p=49617",
+      "fuente": "SecurityWeek",
+      "titulo": "DC Health Agency Exposes 400,000 Beneficiary Records",
+      "fecha_publicacion_iso": "2026-09-28T11:29:29+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-dc-health-agency-exposes-400-000-beneficiary-records-c3403dc4.html"
+    },
+    "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/": {
+      "guid": "https://www.securityweek.com/?p=49615",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+      "fecha_publicacion_iso": "2026-09-28T10:56:46+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaig-1e44dcd8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/",
+      "fuente": "Help Net Security",
+      "titulo": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+      "fecha_publicacion_iso": "2026-09-28T10:56:46+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaig-1e44dcd8.html"
+    },
+    "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/": {
+      "guid": "https://www.securityweek.com/?p=49612",
+      "fuente": "SecurityWeek",
+      "titulo": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
+      "fecha_publicacion_iso": "2026-09-28T10:40:01+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-new-mexico-jury-finds-facebook-liable-for-deceiving-users-ab-2ed8c215.html"
+    },
+    "https://therecord.media/facebook-new-mexico-privacy": {
+      "guid": "https://therecord.media/facebook-new-mexico-privacy",
+      "fuente": "The Record",
+      "titulo": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
+      "fecha_publicacion_iso": "2026-09-28T10:40:01+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-new-mexico-jury-finds-facebook-liable-for-deceiving-users-ab-2ed8c215.html"
+    },
+    "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/": {
+      "guid": "https://www.securityweek.com/?p=49609",
+      "fuente": "SecurityWeek",
+      "titulo": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+      "fecha_publicacion_iso": "2026-09-28T10:27:01+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-nvidia-unveils-ai-agent-safety-platform-with-hardware-based-694a9061.html"
+    },
+    "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=49607",
+      "fuente": "SecurityWeek",
+      "titulo": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
+      "fecha_publicacion_iso": "2026-09-28T09:44:27+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-kiteworks-urges-server-shutdown-finds-advanced-forms-vulnera-9de5431b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "fuente": "BleepingComputer",
+      "titulo": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+      "fecha_publicacion_iso": "2026-09-28T09:25:29+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-bitget-resumes-bitcoin-withdrawals-after-387-5-million-crypt-a10ff54c.html"
+    },
+    "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html": {
+      "guid": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "fuente": "The Hacker News",
+      "titulo": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "fecha_publicacion_iso": "2026-09-28T09:08:21+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-jadepuffer-linked-attackers-used-compromised-service-princip-b2d877fc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385853",
+      "fuente": "Help Net Security",
+      "titulo": "Ex-US soldier gets 70 months for role in AT&T, Snowflake data thefts",
+      "fecha_publicacion_iso": "2026-09-28T08:45:10+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-ex-us-soldier-gets-70-months-for-role-in-at-t-snowflake-data-6d9c1076.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/linkedin-profile-verification-features/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385848",
+      "fuente": "Help Net Security",
+      "titulo": "LinkedIn tests a way for connections to verify your work history",
+      "fecha_publicacion_iso": "2026-09-28T08:20:01+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-linkedin-tests-a-way-for-connections-to-verify-your-work-his-af25968f.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-tpvenlanube": {
+      "guid": "620044 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en TPVEnlanube",
+      "fecha_publicacion_iso": "2026-09-28T07:53:38+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-tpvenlanube-3dc86dc8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+      "fuente": "BleepingComputer",
+      "titulo": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+      "fecha_publicacion_iso": "2026-09-28T07:30:15+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-us-soldier-gets-70-months-in-prison-for-extorting-10-tech-te-a3b0b495.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-1": {
+      "guid": "667425 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-09-28T06:51:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-productos-de-citrix-b0f2543b.html"
+    },
+    "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html": {
+      "guid": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "fuente": "The Hacker News",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-09-28T06:51:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-productos-de-citrix-b0f2543b.html"
+    },
+    "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/": {
+      "guid": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+      "fuente": "SecurityWeek",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-09-28T06:51:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-productos-de-citrix-b0f2543b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/",
+      "fuente": "Help Net Security",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-09-28T06:51:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-productos-de-citrix-b0f2543b.html"
+    },
+    "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug": {
+      "guid": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+      "fuente": "The Record",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-09-28T06:51:43+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-multiples-vulnerabilidades-en-productos-de-citrix-b0f2543b.html"
+    },
+    "http://www.elladodelmal.com/2026/09/la-transcripcion-speech-to-text-client.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8253651884621676362",
+      "fuente": "El Lado del Mal",
+      "titulo": "La transcripción Speech-to-Text Client-Side que no puntúa correctamente por no usar un LLM-MM",
+      "fecha_publicacion_iso": "2026-09-28T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-la-transcripcion-speech-to-text-client-side-que-no-puntua-co-ce272fe1.html"
     }
   }
 }
