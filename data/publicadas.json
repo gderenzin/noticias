@@ -8407,6 +8407,70 @@
       "fecha_publicacion_iso": "2026-09-27T23:40:39+00:00",
       "fecha_agregada_iso": "2026-09-27T23:49:05.330021+00:00",
       "ruta_noticia": "/noticia/2026-09-27-openai-is-preparing-o-an-always-on-chatgpt-assistant-that-co-f03c1791.html"
+    },
+    "https://www.theregister.com/security/2026/09/28/certainties-in-life-death-taxes-and-critical-citrix-vulns-under-attack/5299369": {
+      "guid": "https://www.theregister.com/a/5299369",
+      "fuente": "The Register - Security",
+      "titulo": "Certainties in life: Death, taxes, and critical Citrix vulns under attack",
+      "fecha_publicacion_iso": "2026-09-28T06:49:03+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-certainties-in-life-death-taxes-and-critical-citrix-vulns-un-f00c9bff.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+      "fecha_publicacion_iso": "2026-09-28T06:24:19+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesda-bc1df5ba.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385583",
+      "fuente": "Help Net Security",
+      "titulo": "If you do one security check this quarter, make it agent memory",
+      "fecha_publicacion_iso": "2026-09-28T06:00:40+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-if-you-do-one-security-check-this-quarter-make-it-agent-memo-b4a5a8cd.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350": {
+      "guid": "https://www.theregister.com/a/5299350",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought",
+      "fecha_publicacion_iso": "2026-09-28T05:30:50+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-openai-pauses-some-training-amid-allegations-its-rogue-agent-72f2d46b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/authorizer-open-source-authentication-server/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385455",
+      "fuente": "Help Net Security",
+      "titulo": "Authorizer: Open-source authentication and authorization for your apps",
+      "fecha_publicacion_iso": "2026-09-28T05:30:06+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-authorizer-open-source-authentication-and-authorization-for-7c793c33.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385780",
+      "fuente": "Help Net Security",
+      "titulo": "AI tests the limits of enterprise security governance",
+      "fecha_publicacion_iso": "2026-09-28T05:00:48+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-ai-tests-the-limits-of-enterprise-security-governance-a34fed70.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385797",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: A photo can fool your eyes, Verdict checks the evidence",
+      "fecha_publicacion_iso": "2026-09-28T04:30:42+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-product-showcase-a-photo-can-fool-your-eyes-verdict-checks-t-e853c07b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/28/quantum-random-number-generator-qrng-guidance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385767",
+      "fuente": "Help Net Security",
+      "titulo": "Quantum random numbers can pass the tests and still leak clues to attackers",
+      "fecha_publicacion_iso": "2026-09-28T04:00:51+00:00",
+      "fecha_agregada_iso": "2026-09-28T06:55:45.243136+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-quantum-random-numbers-can-pass-the-tests-and-still-leak-clu-c6a04e3c.html"
     }
   }
 }
