@@ -8799,6 +8799,134 @@
       "fecha_publicacion_iso": "2026-09-28T05:01:00+00:00",
       "fecha_agregada_iso": "2026-09-28T17:57:54.106870+00:00",
       "ruta_noticia": "/noticia/2026-09-28-la-transcripcion-speech-to-text-client-side-que-no-puntua-co-ce272fe1.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine": {
+      "guid": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+      "fuente": "Dark Reading",
+      "titulo": "One Packet Can Crash OT Servers in Industrial Sectors",
+      "fecha_publicacion_iso": "2026-09-28T21:13:04+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-one-packet-can-crash-ot-servers-in-industrial-sectors-af90707f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "fuente": "BleepingComputer",
+      "titulo": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "fecha_publicacion_iso": "2026-09-28T20:56:47+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-japan-s-keio-confirms-ransomware-attack-disrupted-business-s-a4c99893.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Times Car confirms data breach affecting 6.6 million user accounts",
+      "fecha_publicacion_iso": "2026-09-28T20:31:16+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-times-car-confirms-data-breach-affecting-6-6-million-user-ac-f6437873.html"
+    },
+    "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591": {
+      "guid": "https://www.theregister.com/a/5299591",
+      "fuente": "The Register - Security",
+      "titulo": "JadePuffer crims hijacked Azure identities and used them to blow up cloud resources",
+      "fecha_publicacion_iso": "2026-09-28T20:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-jadepuffer-crims-hijacked-azure-identities-and-used-them-to-97d48c50.html"
+    },
+    "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts": {
+      "guid": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
+      "fuente": "Dark Reading",
+      "titulo": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+      "fecha_publicacion_iso": "2026-09-28T20:23:58+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-carbonato-botnet-puts-an-ai-agent-on-hacked-docker-hosts-13e059bb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+      "fuente": "BleepingComputer",
+      "titulo": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+      "fecha_publicacion_iso": "2026-09-28T19:49:10+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-dutch-police-confirm-arrest-in-shinyhunters-hacking-investig-9b276991.html"
+    },
+    "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant": {
+      "guid": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
+      "fuente": "The Record",
+      "titulo": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
+      "fecha_publicacion_iso": "2026-09-28T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-shinyhunters-exploiting-workarounds-for-oracle-peoplesoft-bu-570a5bd4.html"
+    },
+    "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-28T19:18:01+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-apple-patches-coregraphics-flaw-possibly-exploited-in-target-cbf3cfa4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+      "fuente": "BleepingComputer",
+      "titulo": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+      "fecha_publicacion_iso": "2026-09-28T18:50:59+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-over-16-000-supabase-databases-expose-pii-passwords-auth-tok-51f3f2ec.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+      "fuente": "Dark Reading",
+      "titulo": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+      "fecha_publicacion_iso": "2026-09-28T18:44:22+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-ai-agents-are-privileged-users-who-is-auditing-their-access-7df979e3.html"
+    },
+    "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html": {
+      "guid": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+      "fecha_publicacion_iso": "2026-09-28T18:35:42+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-hackers-use-needymantis-to-maintain-long-term-access-in-brea-e7f8e7a9.html"
+    },
+    "https://cyberscoop.com/nvidia-open-agent-safety-platform/": {
+      "guid": "https://cyberscoop.com/?p=90882",
+      "fuente": "CyberScoop",
+      "titulo": "As AI world debates security, NVIDIA releases open source tools for agents",
+      "fecha_publicacion_iso": "2026-09-28T18:22:53+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-as-ai-world-debates-security-nvidia-releases-open-source-too-80a2ddb9.html"
+    },
+    "https://thehackernews.com/2026/09/iam-for-ai-agent.html": {
+      "guid": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+      "fuente": "The Hacker News",
+      "titulo": "IAM for AI agents: A Practical Enterprise Framework",
+      "fecha_publicacion_iso": "2026-09-28T18:20:38+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-iam-for-ai-agents-a-practical-enterprise-framework-953a9269.html"
+    },
+    "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html": {
+      "guid": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "fuente": "The Hacker News",
+      "titulo": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+      "fecha_publicacion_iso": "2026-09-28T17:42:18+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-bitget-says-attacker-exploited-third-party-security-product-c79231d6.html"
+    },
+    "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html": {
+      "guid": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+      "fuente": "The Hacker News",
+      "titulo": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+      "fecha_publicacion_iso": "2026-09-28T17:38:33+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-rathat-android-malware-console-uses-gemini-to-identify-highe-26cc3697.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/09/28/ex-soldiers-telecom-hacking-spree-earns-him-70-months/5299440": {
+      "guid": "https://www.theregister.com/a/5299440",
+      "fuente": "The Register - Security",
+      "titulo": "Ex-soldier's telecom hacking spree earns him 70 months",
+      "fecha_publicacion_iso": "2026-09-28T12:25:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
+      "ruta_noticia": "/noticia/2026-09-28-ex-soldier-s-telecom-hacking-spree-earns-him-70-months-c9ff2775.html"
     }
   }
 }
