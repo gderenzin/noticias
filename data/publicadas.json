@@ -9327,6 +9327,206 @@
       "fecha_publicacion_iso": "2026-09-29T05:01:00+00:00",
       "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
       "ruta_noticia": "/noticia/2026-09-29-como-falsificar-firmas-rsa-sin-factorizar-el-modulo-usando-1-d1c6eddf.html"
+    },
+    "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution": {
+      "guid": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+      "fuente": "Dark Reading",
+      "titulo": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+      "fecha_publicacion_iso": "2026-09-29T21:08:42+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-unsloth-studio-flaw-turns-routine-model-inspection-into-code-af597f3c.html"
+    },
+    "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber": {
+      "guid": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+      "fuente": "The Record",
+      "titulo": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
+      "fecha_publicacion_iso": "2026-09-29T21:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-us-air-force-members-given-over-6-years-in-prison-for-cyber-7bf6e375.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "fecha_publicacion_iso": "2026-09-29T20:59:39+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware-76547738.html"
+    },
+    "https://therecord.media/controversial-spyware-firm-paragon-to-go-public": {
+      "guid": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
+      "fuente": "The Record",
+      "titulo": "Controversial spyware firm Paragon to go public by end of year",
+      "fecha_publicacion_iso": "2026-09-29T20:35:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-controversial-spyware-firm-paragon-to-go-public-by-end-of-ye-5c786464.html"
+    },
+    "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/": {
+      "guid": "https://www.securityweek.com/?p=49680",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
+      "fecha_publicacion_iso": "2026-09-29T20:14:44+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-ceo-announces-new-ai-agent-and-avoids-mention-of-secu-7b7f6019.html"
+    },
+    "https://cyberscoop.com/microsoft-star-blizzard-redflick-phishing-campaigns/": {
+      "guid": "https://cyberscoop.com/?p=90904",
+      "fuente": "CyberScoop",
+      "titulo": "Russian hackers Star Blizzard expand targeting, change up tactics to reach Ukraine and beyond",
+      "fecha_publicacion_iso": "2026-09-29T20:01:44+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-russian-hackers-star-blizzard-expand-targeting-change-up-tac-8798c8df.html"
+    },
+    "https://therecord.media/openai-apologizes-australia-medicare-breach": {
+      "guid": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+      "fuente": "The Record",
+      "titulo": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+      "fecha_publicacion_iso": "2026-09-29T19:48:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-apologizes-for-agents-breaching-australian-government-a4edbe93.html"
+    },
+    "https://www.theregister.com/security/2026/09/29/fbi-to-shinyhunters-we-know-how-to-find-you/5299901": {
+      "guid": "https://www.theregister.com/a/5299901",
+      "fuente": "The Register - Security",
+      "titulo": "FBI to ShinyHunters: 'We know how to find you'",
+      "fecha_publicacion_iso": "2026-09-29T19:38:33+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-fbi-to-shinyhunters-we-know-how-to-find-you-b513f59d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI to ShinyHunters: 'We know how to find you'",
+      "fecha_publicacion_iso": "2026-09-29T19:38:33+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-fbi-to-shinyhunters-we-know-how-to-find-you-b513f59d.html"
+    },
+    "https://cyberscoop.com/national-cyber-director-ai-critical-infrastructure-cybersecurity/": {
+      "guid": "https://cyberscoop.com/?p=90900",
+      "fuente": "CyberScoop",
+      "titulo": "US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says",
+      "fecha_publicacion_iso": "2026-09-29T19:35:45+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-us-is-looking-to-weave-ai-into-critical-infrastructure-for-c-7463d26a.html"
+    },
+    "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/": {
+      "guid": "6abbb69b2122500d82924ae7",
+      "fuente": "Wired - Security",
+      "titulo": "OpenAI Gets Sued Over the Hugging Face Hack",
+      "fecha_publicacion_iso": "2026-09-29T19:05:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-gets-sued-over-the-hugging-face-hack-d3bd5d41.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/ransomware-jadepufferencforce-utiliza.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4964603963295534946",
+      "fuente": "Segu-Info",
+      "titulo": "Ransomware JadePuffer/EncForce: utiliza modelos de IA para destruir modelos de LLM y tenants de Azure",
+      "fecha_publicacion_iso": "2026-09-29T18:46:57+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-ransomware-jadepuffer-encforce-utiliza-modelos-de-ia-para-de-ed2951fb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+      "fecha_publicacion_iso": "2026-09-29T18:37:12+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shel-72551106.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Former US Air Force members sent to prison over BEC attacks",
+      "fecha_publicacion_iso": "2026-09-29T18:09:39+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-former-us-air-force-members-sent-to-prison-over-bec-attacks-4c461b4f.html"
+    },
+    "https://www.theregister.com/security/2026/09/29/custom-malware-used-in-citrix-0-day-attacks-targeting-govt-banks-professional-services/5299867": {
+      "guid": "https://www.theregister.com/a/5299867",
+      "fuente": "The Register - Security",
+      "titulo": "Custom malware used in Citrix 0-day attacks targeting govt, banks, professional services",
+      "fecha_publicacion_iso": "2026-09-29T17:49:45+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-custom-malware-used-in-citrix-0-day-attacks-targeting-govt-b-82020db9.html"
+    },
+    "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html": {
+      "guid": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+      "fuente": "The Hacker News",
+      "titulo": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+      "fecha_publicacion_iso": "2026-09-29T17:47:01+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-french-tax-data-theft-using-stolen-staff-passwords-went-unde-d6d690a4.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 2026 Update released, here's everything you need to know",
+      "fecha_publicacion_iso": "2026-09-29T17:37:40+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-windows-11-2026-update-released-here-s-everything-you-need-t-ec353bd2.html"
+    },
+    "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/": {
+      "guid": "https://www.securityweek.com/?p=49677",
+      "fuente": "SecurityWeek",
+      "titulo": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
+      "fecha_publicacion_iso": "2026-09-29T17:24:04+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-darpa-selects-xint-to-use-ai-in-securing-military-messaging-86fecb81.html"
+    },
+    "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html": {
+      "guid": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+      "fecha_publicacion_iso": "2026-09-29T17:20:17+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-new-spectre-v2-btr-attack-leaks-linux-memory-despite-existin-47cf7b5d.html"
+    },
+    "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html": {
+      "guid": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+      "fecha_publicacion_iso": "2026-09-29T17:20:08+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-russia-s-star-blizzard-targets-100-organizations-with-fake-e-643a9698.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+      "fecha_publicacion_iso": "2026-09-29T17:10:11+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-new-spectre-v2-attack-variant-leaks-linux-root-password-hash-1a6e8346.html"
+    },
+    "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web": {
+      "guid": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
+      "fuente": "Dark Reading",
+      "titulo": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
+      "fecha_publicacion_iso": "2026-09-29T17:02:16+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-cloudflare-announces-public-certificate-authority-for-the-po-d66f3234.html"
+    },
+    "https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/": {
+      "guid": "https://www.securityweek.com/?p=49623",
+      "fuente": "SecurityWeek",
+      "titulo": "New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks",
+      "fecha_publicacion_iso": "2026-09-29T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-le-65e18ea9.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/29/ai-models-keep-posting-screenshots-showing-sensitive-data-from-inside-tech-companies/5299640": {
+      "guid": "https://www.theregister.com/a/5299640",
+      "fuente": "The Register - Security",
+      "titulo": "AI models keep posting screenshots showing sensitive data from inside tech companies",
+      "fecha_publicacion_iso": "2026-09-29T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-ai-models-keep-posting-screenshots-showing-sensitive-data-fr-41ca03af.html"
+    },
+    "https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities": {
+      "guid": "https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities",
+      "fuente": "Dark Reading",
+      "titulo": "Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities",
+      "fecha_publicacion_iso": "2026-09-28T22:02:46+00:00",
+      "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-nvidia-launches-ai-agent-safety-platform-to-prevent-rogue-ac-6a3e822d.html"
     }
   }
 }
