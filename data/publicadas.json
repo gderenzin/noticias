@@ -9007,6 +9007,326 @@
       "fecha_publicacion_iso": "2026-09-29T00:58:15+00:00",
       "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
       "ruta_noticia": "/noticia/2026-09-29-citrix-patches-actively-exploited-netscaler-zero-days-after-304eb03c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+      "fuente": "BleepingComputer",
+      "titulo": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+      "fecha_publicacion_iso": "2026-09-29T15:39:19+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-automated-ai-agent-used-to-breach-cybersecurity-nonprofit-di-af77574c.html"
+    },
+    "https://cyberscoop.com/shinyhunters-alleged-leader-arrested-netherlands/": {
+      "guid": "https://cyberscoop.com/?p=90896",
+      "fuente": "CyberScoop",
+      "titulo": "Alleged ShinyHunters leader arrested in the Netherlands",
+      "fecha_publicacion_iso": "2026-09-29T15:32:19+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-alleged-shinyhunters-leader-arrested-in-the-netherlands-31e5a660.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks": {
+      "guid": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
+      "fuente": "Dark Reading",
+      "titulo": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+      "fecha_publicacion_iso": "2026-09-29T15:12:39+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-needymantis-provides-long-term-access-to-compromised-network-a0bdf7fa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386203",
+      "fuente": "Help Net Security",
+      "titulo": "NetScaler zero-day exploitation escalates into mass attacks (CVE-2026-88771)",
+      "fecha_publicacion_iso": "2026-09-29T14:59:06+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-netscaler-zero-day-exploitation-escalates-into-mass-attacks-fafa47e4.html"
+    },
+    "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/": {
+      "guid": "https://www.securityweek.com/?p=49673",
+      "fuente": "SecurityWeek",
+      "titulo": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
+      "fecha_publicacion_iso": "2026-09-29T14:38:07+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-remotethreat-launches-with-7-million-for-offensive-operation-57d7360f.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+      "fuente": "Dark Reading",
+      "titulo": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
+      "fecha_publicacion_iso": "2026-09-29T14:19:43+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-dual-netscaler-zero-days-trigger-chaos-for-citrix-customers-e1150c83.html"
+    },
+    "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html": {
+      "guid": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "fuente": "The Hacker News",
+      "titulo": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "fecha_publicacion_iso": "2026-09-29T14:13:20+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-kiteworks-fixes-critical-flaw-found-during-nine-hour-precaut-8da4536a.html"
+    },
+    "https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/": {
+      "guid": "https://cyberscoop.com/?p=90892",
+      "fuente": "CyberScoop",
+      "titulo": "Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities",
+      "fecha_publicacion_iso": "2026-09-29T14:11:43+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-kiteworks-lifts-shutdown-advisory-after-credible-threat-inte-ef8572bf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+      "fuente": "BleepingComputer",
+      "titulo": "Catch threats before they escalate with real-time Identity Telemetry",
+      "fecha_publicacion_iso": "2026-09-29T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-catch-threats-before-they-escalate-with-real-time-identity-t-c8001c55.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/lastpass-ai-monitoring-and-protect/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386174",
+      "fuente": "Help Net Security",
+      "titulo": "LastPass warns employees before they share sensitive data with AI tools",
+      "fecha_publicacion_iso": "2026-09-29T13:47:44+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-lastpass-warns-employees-before-they-share-sensitive-data-wi-5f0d0acc.html"
+    },
+    "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html": {
+      "guid": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "fuente": "The Hacker News",
+      "titulo": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "fecha_publicacion_iso": "2026-09-29T13:45:10+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-101-malicious-npm-packages-add-developers-whatsapp-accounts-c27b3357.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/postman-fabric-gateway/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386167",
+      "fuente": "Help Net Security",
+      "titulo": "Postman adds security controls for AI agents, APIs, and MCP servers",
+      "fecha_publicacion_iso": "2026-09-29T13:40:47+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-postman-adds-security-controls-for-ai-agents-apis-and-mcp-se-83460dea.html"
+    },
+    "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/": {
+      "guid": "https://www.securityweek.com/?p=49671",
+      "fuente": "SecurityWeek",
+      "titulo": "Reco Raises $55 Million for Agentic Security",
+      "fecha_publicacion_iso": "2026-09-29T13:20:53+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-reco-raises-55-million-for-agentic-security-32f03d30.html"
+    },
+    "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49669",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Use ChatGPT Custom GPTs in ClickFix Attacks",
+      "fecha_publicacion_iso": "2026-09-29T13:03:35+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-hackers-use-chatgpt-custom-gpts-in-clickfix-attacks-1885cf17.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/cleverbit-webinar-ai-assisted-delivery-accountability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386031",
+      "fuente": "Help Net Security",
+      "titulo": "Webinar: Closing the accountability gap in AI-assisted delivery",
+      "fecha_publicacion_iso": "2026-09-29T13:00:14+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-webinar-closing-the-accountability-gap-in-ai-assisted-delive-1e48ccac.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/meta-muse-for-small-business/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386145",
+      "fuente": "Help Net Security",
+      "titulo": "Meta gives small businesses an AI agent that knows their work",
+      "fecha_publicacion_iso": "2026-09-29T12:45:45+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-meta-gives-small-businesses-an-ai-agent-that-knows-their-wor-3abb0521.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/vega-ii-agentic-cyber-defense-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386152",
+      "fuente": "Help Net Security",
+      "titulo": "Vega II brings security-trained AI and lasting memory to the SOC",
+      "fecha_publicacion_iso": "2026-09-29T12:43:03+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-vega-ii-brings-security-trained-ai-and-lasting-memory-to-the-d2d4068a.html"
+    },
+    "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach": {
+      "guid": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
+      "fuente": "The Record",
+      "titulo": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
+      "fecha_publicacion_iso": "2026-09-29T12:34:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-russian-pizza-chain-with-1-500-locations-confirms-cyberattac-b5c635a6.html"
+    },
+    "https://therecord.media/arizona-supreme-court-says-hackers-stole-data": {
+      "guid": "https://therecord.media/arizona-supreme-court-says-hackers-stole-data",
+      "fuente": "The Record",
+      "titulo": "Arizona Supreme Court says hackers stole residents’ personal data",
+      "fecha_publicacion_iso": "2026-09-29T12:27:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-arizona-supreme-court-says-hackers-stole-residents-personal-f5274501.html"
+    },
+    "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/": {
+      "guid": "https://www.securityweek.com/?p=49666",
+      "fuente": "SecurityWeek",
+      "titulo": "Pentagon Personnel Agency Data Breach Impacts 3 Million People",
+      "fecha_publicacion_iso": "2026-09-29T12:25:12+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-pentagon-personnel-agency-data-breach-impacts-3-million-peop-f688b7ed.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-critica-microsoft.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3273637120540445122",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad crítica Microsoft SharePoint Server (local) explotada activamente",
+      "fecha_publicacion_iso": "2026-09-29T12:10:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-vulnerabilidad-critica-microsoft-sharepoint-server-local-exp-a267b8f0.html"
+    },
+    "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/": {
+      "guid": "https://www.securityweek.com/?p=49656",
+      "fuente": "SecurityWeek",
+      "titulo": "Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks",
+      "fecha_publicacion_iso": "2026-09-29T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-2016d632.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/pindrop-enterprise-deepfake-attacks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386107",
+      "fuente": "Help Net Security",
+      "titulo": "Deepfakes become a board priority once an executive falls for one",
+      "fecha_publicacion_iso": "2026-09-29T11:59:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-deepfakes-become-a-board-priority-once-an-executive-falls-fo-66b8f931.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386135",
+      "fuente": "Help Net Security",
+      "titulo": "Malicious Custom GPT on chatgpt.com lures users into installing a RAT",
+      "fecha_publicacion_iso": "2026-09-29T11:55:25+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-malicious-custom-gpt-on-chatgpt-com-lures-users-into-install-fdac4cb9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+      "fuente": "BleepingComputer",
+      "titulo": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+      "fecha_publicacion_iso": "2026-09-29T11:41:53+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-vietnamese-man-charged-in-16-million-pig-butchering-crypto-s-52d091f5.html"
+    },
+    "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/": {
+      "guid": "https://www.securityweek.com/?p=49662",
+      "fuente": "SecurityWeek",
+      "titulo": "Four Cyber Threats Harboring Big Plans for the Future",
+      "fecha_publicacion_iso": "2026-09-29T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-four-cyber-threats-harboring-big-plans-for-the-future-8fc93677.html"
+    },
+    "https://www.theregister.com/security/2026/09/29/former-x-force-hackers-chase-the-offensive-cyber-gold-rush/5299662": {
+      "guid": "https://www.theregister.com/a/5299662",
+      "fuente": "The Register - Security",
+      "titulo": "Former X-Force hackers chase the offensive cyber gold rush",
+      "fecha_publicacion_iso": "2026-09-29T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-former-x-force-hackers-chase-the-offensive-cyber-gold-rush-2e4bbd9f.html"
+    },
+    "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/": {
+      "guid": "https://www.securityweek.com/?p=49660",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training",
+      "fecha_publicacion_iso": "2026-09-29T11:15:59+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-f-df6ae714.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training",
+      "fecha_publicacion_iso": "2026-09-29T11:15:59+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-f-df6ae714.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743": {
+      "guid": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training",
+      "fecha_publicacion_iso": "2026-09-29T11:15:59+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-f-df6ae714.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/skillbit-cybersecurity-micro-training-trends-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385968",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity hiring practices leave little room for junior talent",
+      "fecha_publicacion_iso": "2026-09-29T11:00:32+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-cybersecurity-hiring-practices-leave-little-room-for-junior-73104588.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-t-cpe301k-4g-mini-wifi-router-de-shenzhen-dbit": {
+      "guid": "667852 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en T-CPE301K 4G Mini WiFi Router de Shenzhen Dbit Network Equipment",
+      "fecha_publicacion_iso": "2026-09-29T09:58:16+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-multiples-vulnerabilidades-en-t-cpe301k-4g-mini-wifi-router-362b9194.html"
+    },
+    "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/": {
+      "guid": "https://www.securityweek.com/?p=49651",
+      "fuente": "SecurityWeek",
+      "titulo": "Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft",
+      "fecha_publicacion_iso": "2026-09-29T09:46:13+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-daemon-tools-hackers-needymantis-malware-dissected-by-micros-8da6396a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Kiteworks patches critical flaw, brings customer systems online",
+      "fecha_publicacion_iso": "2026-09-29T09:04:06+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-kiteworks-patches-critical-flaw-brings-customer-systems-onli-bbc72d6b.html"
+    },
+    "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html": {
+      "guid": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "fuente": "The Hacker News",
+      "titulo": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "fecha_publicacion_iso": "2026-09-29T08:35:10+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-dutch-police-arrest-24-year-old-amsterdam-man-in-shinyhunter-27299aaf.html"
+    },
+    "https://www.securityweek.com/dutch-police-arrest-convicted-hacker-in-shinyhunters-investigation/": {
+      "guid": "https://www.securityweek.com/dutch-police-arrest-convicted-hacker-in-shinyhunters-investigation/",
+      "fuente": "SecurityWeek",
+      "titulo": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "fecha_publicacion_iso": "2026-09-29T08:35:10+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-dutch-police-arrest-24-year-old-amsterdam-man-in-shinyhunter-27299aaf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-29T07:33:12+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-apple-patches-coregraphics-zero-day-flaw-exploited-in-attack-afb00ef6.html"
+    },
+    "https://www.theregister.com/security/2026/09/29/apple-patches-coregraphics-zero-day-already-exploited-in-targeted-attacks/5299721": {
+      "guid": "https://www.theregister.com/security/2026/09/29/apple-patches-coregraphics-zero-day-already-exploited-in-targeted-attacks/5299721",
+      "fuente": "The Register - Security",
+      "titulo": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-29T07:33:12+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-apple-patches-coregraphics-zero-day-flaw-exploited-in-attack-afb00ef6.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-watchguard-ap-de-watchguard": {
+      "guid": "667839 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en WatchGuard AP de WatchGuard",
+      "fecha_publicacion_iso": "2026-09-29T07:22:49+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-multiples-vulnerabilidades-en-watchguard-ap-de-watchguard-8fa27638.html"
+    },
+    "http://www.elladodelmal.com/2026/09/como-falsificar-firmas-rsa-sin.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3061799297507633542",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo Falsificar Firmas RSA, sin Factorizar el Módulo, usando 1.380 CPU Core-Years",
+      "fecha_publicacion_iso": "2026-09-29T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T15:54:35.913672+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-como-falsificar-firmas-rsa-sin-factorizar-el-modulo-usando-1-d1c6eddf.html"
     }
   }
 }
