@@ -8927,6 +8927,86 @@
       "fecha_publicacion_iso": "2026-09-28T12:25:00+00:00",
       "fecha_agregada_iso": "2026-09-29T01:02:09.507799+00:00",
       "ruta_noticia": "/noticia/2026-09-28-ex-soldier-s-telecom-hacking-spree-earns-him-70-months-c9ff2775.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/github-ai-android-app-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386002",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub’s AI agent found 24 Android app vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-29T06:39:42+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-githubs-ai-agent-found-24-android-app-vulnerabilities-a54637e0.html"
+    },
+    "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/": {
+      "guid": "https://www.securityweek.com/?p=49642",
+      "fuente": "SecurityWeek",
+      "titulo": "Apple Patches Meta-Reported Zero-Day Linked to ‘Extremely Sophisticated Attack’",
+      "fecha_publicacion_iso": "2026-09-29T06:18:27+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-apple-patches-meta-reported-zero-day-linked-to-extremely-sop-34d1cf39.html"
+    },
+    "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html": {
+      "guid": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "fecha_publicacion_iso": "2026-09-29T06:08:25+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-official-mcp-python-sdk-flaw-can-let-malicious-servers-steal-70b35ed4.html"
+    },
+    "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html": {
+      "guid": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "fecha_publicacion_iso": "2026-09-29T05:12:32+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-shelves-gpt-6-1-astra-after-tests-find-deception-and-44b9dd17.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/vendor-concentration-risk-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385831",
+      "fuente": "Help Net Security",
+      "titulo": "A four-week plan to tackle vendor concentration risk",
+      "fecha_publicacion_iso": "2026-09-29T05:00:20+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-a-four-week-plan-to-tackle-vendor-concentration-risk-c03d6497.html"
+    },
+    "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html": {
+      "guid": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "fecha_publicacion_iso": "2026-09-29T04:45:20+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openai-pauses-tool-use-after-agent-bypasses-internet-control-235b45fc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/hottest-cybersecurity-open-source-tools-of-the-month-september-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385959",
+      "fuente": "Help Net Security",
+      "titulo": "Hottest cybersecurity open-source tools of the month: September 2026",
+      "fecha_publicacion_iso": "2026-09-29T04:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-hottest-cybersecurity-open-source-tools-of-the-month-septemb-533caf37.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/29/cybersecurity-jobs-available-right-now-september-29-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385947",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: September 29, 2026",
+      "fecha_publicacion_iso": "2026-09-29T04:00:33+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-cybersecurity-jobs-available-right-now-september-29-2026-6234d6e6.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666": {
+      "guid": "https://www.theregister.com/a/5299666",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon",
+      "fecha_publicacion_iso": "2026-09-29T02:13:51+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-openais-dirty-deeds-down-under-included-security-bypass-atte-9781d3f6.html"
+    },
+    "https://cyberscoop.com/citrix-zero-days-delayed-disclosure/": {
+      "guid": "https://cyberscoop.com/?p=90889",
+      "fuente": "CyberScoop",
+      "titulo": "Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings",
+      "fecha_publicacion_iso": "2026-09-29T00:58:15+00:00",
+      "fecha_agregada_iso": "2026-09-29T06:55:22.163435+00:00",
+      "ruta_noticia": "/noticia/2026-09-29-citrix-patches-actively-exploited-netscaler-zero-days-after-304eb03c.html"
     }
   }
 }
