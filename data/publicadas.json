@@ -9967,6 +9967,126 @@
       "fecha_publicacion_iso": "2026-09-30T05:30:30+00:00",
       "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
       "ruta_noticia": "/noticia/2026-09-30-citrix-netscaler-cve-2026-88772-exploit-details-show-pre-aut-308509a3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Russian state hackers use new RedFlick technique to push malware",
+      "fecha_publicacion_iso": "2026-09-30T20:34:01+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-russian-state-hackers-use-new-redflick-technique-to-push-mal-b53252a3.html"
+    },
+    "https://therecord.media/automakers-routinely-share-connected-car-data-third-parties": {
+      "guid": "https://therecord.media/automakers-routinely-share-connected-car-data-third-parties",
+      "fuente": "The Record",
+      "titulo": "Automakers routinely share personally identifiable connected-car data with third parties, report says",
+      "fecha_publicacion_iso": "2026-09-30T20:32:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-automakers-routinely-share-personally-identifiable-connected-a04b45c0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "DIVD says Zammad zero-days enabled AI-driven network breach",
+      "fecha_publicacion_iso": "2026-09-30T19:49:15+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-divd-says-zammad-zero-days-enabled-ai-driven-network-breach-736b5634.html"
+    },
+    "https://therecord.media/cyber-command-suicide-deaths-pentagon-memo": {
+      "guid": "https://therecord.media/cyber-command-suicide-deaths-pentagon-memo",
+      "fuente": "The Record",
+      "titulo": "After reports on suicide deaths, Pentagon puts Cyber Command on notice",
+      "fecha_publicacion_iso": "2026-09-30T19:35:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-after-reports-on-suicide-deaths-pentagon-puts-cyber-command-2ac74ba3.html"
+    },
+    "https://therecord.media/google-vulnerabilities-cyberattacks-ai": {
+      "guid": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
+      "fuente": "The Record",
+      "titulo": "Google: Vulnerability disclosures double to 10,000 per month as AI fuels exploitation",
+      "fecha_publicacion_iso": "2026-09-30T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-google-vulnerability-disclosures-double-to-10-000-per-month-73e5edd4.html"
+    },
+    "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder": {
+      "guid": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder",
+      "fuente": "Dark Reading",
+      "titulo": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
+      "fecha_publicacion_iso": "2026-09-30T18:56:56+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-as-ai-reshapes-the-soc-career-ladder-satisfaction-rises-for-984f7e86.html"
+    },
+    "https://www.theregister.com/security/2026/09/30/16-year-old-researcher-found-a-microsoft-bug-got-admin-access-to-databases-with-173-trillion-rows/5300240": {
+      "guid": "https://www.theregister.com/a/5300240",
+      "fuente": "The Register - Security",
+      "titulo": "16-year-old researcher found a Microsoft bug, got admin access to databases with 17.3 trillion rows",
+      "fecha_publicacion_iso": "2026-09-30T18:29:41+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-16-year-old-researcher-found-a-microsoft-bug-got-admin-acces-e60d9fc4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "fuente": "BleepingComputer",
+      "titulo": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "fecha_publicacion_iso": "2026-09-30T18:08:34+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-over-543-000-valid-credentials-exposed-in-public-github-repo-9c9742eb.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "fecha_publicacion_iso": "2026-09-30T16:46:29+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-attackers-exploit-zimbra-flaw-to-deploy-web-shells-and-harve-03776a47.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "fecha_publicacion_iso": "2026-09-30T16:32:59+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-attackers-abuse-msp360-to-deploy-screenconnect-in-dual-rmm-p-b930a91a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/vulnerabilidad-critica-en-teamviewer.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8771715624025592703",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad crítica en TeamViewer. Insta a los usuarios a \"corregirlas lo antes posible\"",
+      "fecha_publicacion_iso": "2026-09-30T16:15:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-vulnerabilidad-critica-en-teamviewer-insta-a-los-usuarios-a-03cf62fd.html"
+    },
+    "https://www.theregister.com/security/2026/09/30/more-than-half-of-uk-businesses-lack-confidence-in-basic-cyber-skills/5299991": {
+      "guid": "https://www.theregister.com/a/5299991",
+      "fuente": "The Register - Security",
+      "titulo": "More than half of UK businesses lack confidence in basic cyber skills",
+      "fecha_publicacion_iso": "2026-09-30T10:04:53+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-more-than-half-of-uk-businesses-lack-confidence-in-basic-cyb-ef73aca9.html"
+    },
+    "https://www.theregister.com/security/2026/09/30/uk-rail-cops-320k-face-scanning-spree-nets-zero-matches/5299793": {
+      "guid": "https://www.theregister.com/a/5299793",
+      "fuente": "The Register - Security",
+      "titulo": "UK rail cops' £320K face-scanning spree nets zero matches",
+      "fecha_publicacion_iso": "2026-09-30T08:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-uk-rail-cops-320k-face-scanning-spree-nets-zero-matches-5ade7d30.html"
+    },
+    "https://www.theregister.com/security/2026/09/30/spectre-bug-is-back-this-time-to-haunt-jit-engines/5299937": {
+      "guid": "https://www.theregister.com/a/5299937",
+      "fuente": "The Register - Security",
+      "titulo": "Spectre bug is back, this time to haunt JIT engines",
+      "fecha_publicacion_iso": "2026-09-30T07:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-spectre-bug-is-back-this-time-to-haunt-jit-engines-f9e94b49.html"
+    },
+    "https://www.welivesecurity.com/es/cibercrimen/pdf-malicioso-amenazas-correo-electronico-america-latina/": {
+      "guid": "https://www.welivesecurity.com/es/cibercrimen/pdf-malicioso-amenazas-correo-electronico-america-latina/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "PDF malicioso: uno de los principales formatos utilizados en amenazas por correo electrónico en América Latina",
+      "fecha_publicacion_iso": "2026-09-29T16:20:09+00:00",
+      "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-pdf-malicioso-uno-de-los-principales-formatos-utilizados-en-7a03de13.html"
     }
   }
 }
