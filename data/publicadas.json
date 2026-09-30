@@ -9655,6 +9655,318 @@
       "fecha_publicacion_iso": "2026-09-29T21:30:08+00:00",
       "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
       "ruta_noticia": "/noticia/2026-09-30-signal-adds-encypted-local-backup-support-to-ios-desktop-app-aae08bb6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "fecha_publicacion_iso": "2026-09-30T15:49:29+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routero-3af86a4f.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net": {
+      "guid": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+      "fuente": "Dark Reading",
+      "titulo": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+      "fecha_publicacion_iso": "2026-09-30T15:02:25+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-russia-s-star-blizzard-ditches-clickfix-to-widen-phishing-ne-11103d94.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "fecha_publicacion_iso": "2026-09-30T15:00:15+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-attackers-abuse-chatgpt-custom-gpts-to-deliver-rat-via-click-29c4859e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-30T14:46:40+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-cisco-warns-of-new-sd-wan-zero-day-exploited-in-attacks-7c31dfd8.html"
+    },
+    "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html": {
+      "guid": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-09-30T14:46:40+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-cisco-warns-of-new-sd-wan-zero-day-exploited-in-attacks-7c31dfd8.html"
+    },
+    "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/": {
+      "guid": "https://www.securityweek.com/?p=49712",
+      "fuente": "SecurityWeek",
+      "titulo": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
+      "fecha_publicacion_iso": "2026-09-30T14:05:58+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-google-ai-is-changing-the-pace-and-profile-of-vulnerability-1d161c5d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "fuente": "BleepingComputer",
+      "titulo": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "fecha_publicacion_iso": "2026-09-30T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-ai-s-third-wave-coworkers-break-the-security-model-that-work-f02e730c.html"
+    },
+    "https://therecord.media/ukraine-ssscip-mobile-malware-warning-ios-android": {
+      "guid": "https://therecord.media/ukraine-ssscip-mobile-malware-warning-ios-android",
+      "fuente": "The Record",
+      "titulo": "Mobile malware warning from Ukrainian researchers includes iPhone exploit kit",
+      "fecha_publicacion_iso": "2026-09-30T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-mobile-malware-warning-from-ukrainian-researchers-includes-i-7d8f4226.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft to block Entra ID script injection attacks starting October",
+      "fecha_publicacion_iso": "2026-09-30T13:37:15+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-microsoft-to-block-entra-id-script-injection-attacks-startin-3fbdf9fd.html"
+    },
+    "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=49707",
+      "fuente": "SecurityWeek",
+      "titulo": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
+      "fecha_publicacion_iso": "2026-09-30T13:16:56+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-watchguard-patches-critical-fireware-os-code-injection-vulne-6cbd3c5f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+      "fuente": "BleepingComputer",
+      "titulo": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+      "fecha_publicacion_iso": "2026-09-30T12:25:10+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-poss-054664da.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/brecha-de-seguridad-en-el-pentagono.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4303136317183203649",
+      "fuente": "Segu-Info",
+      "titulo": "Brecha de seguridad en el Pentágono: atacantes accedieron a datos confidenciales de 3 millones de personas",
+      "fecha_publicacion_iso": "2026-09-30T12:18:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-brecha-de-seguridad-en-el-pentagono-atacantes-accedieron-a-d-184ed3cf.html"
+    },
+    "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49701",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-09-30T12:16:52+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-chrome-firefox-updates-patch-over-100-vulnerabilities-91a78076.html"
+    },
+    "https://therecord.media/russia-hackers-ukraine-blizzard": {
+      "guid": "https://therecord.media/russia-hackers-ukraine-blizzard",
+      "fuente": "The Record",
+      "titulo": "Russian FSB-linked hackers scale up phishing attacks against Ukraine supporters",
+      "fecha_publicacion_iso": "2026-09-30T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-russian-fsb-linked-hackers-scale-up-phishing-attacks-against-355e4031.html"
+    },
+    "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html": {
+      "guid": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+      "fuente": "The Hacker News",
+      "titulo": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+      "fecha_publicacion_iso": "2026-09-30T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-know-your-enemy-browser-based-attack-techniques-in-2026-4279a264.html"
+    },
+    "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html": {
+      "guid": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "fecha_publicacion_iso": "2026-09-30T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-ai-coding-agents-exposed-13-000-internal-images-including-bi-5cc42976.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/",
+      "fuente": "Help Net Security",
+      "titulo": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "fecha_publicacion_iso": "2026-09-30T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-ai-coding-agents-exposed-13-000-internal-images-including-bi-5cc42976.html"
+    },
+    "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/": {
+      "guid": "https://www.securityweek.com/?p=49699",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
+      "fecha_publicacion_iso": "2026-09-30T11:19:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-anthropic-flags-ai-agent-liability-risks-as-openai-faces-hac-45a958e1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+      "fuente": "BleepingComputer",
+      "titulo": "Bitget hacked via zero-day in third-party security products",
+      "fecha_publicacion_iso": "2026-09-30T11:11:46+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-bitget-hacked-via-zero-day-in-third-party-security-products-9cbc6e8e.html"
+    },
+    "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49697",
+      "fuente": "SecurityWeek",
+      "titulo": "Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks",
+      "fecha_publicacion_iso": "2026-09-30T10:59:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-russian-apt-star-blizzard-uses-redflick-infection-chain-in-r-7bfdce2a.html"
+    },
+    "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html": {
+      "guid": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+      "fuente": "The Hacker News",
+      "titulo": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "fecha_publicacion_iso": "2026-09-30T10:45:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-us-focused-csuite-phishing-steals-microsoft-365-sessions-and-e7123495.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/openinfra-jfrog-artifactory-instance-compromised/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386278",
+      "fuente": "Help Net Security",
+      "titulo": "OpenInfra Europe’s JFrog Artifactory instance breached, packages potentially compromised",
+      "fecha_publicacion_iso": "2026-09-30T10:39:26+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-openinfra-europes-jfrog-artifactory-instance-breached-packag-6485f53b.html"
+    },
+    "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/": {
+      "guid": "https://www.securityweek.com/?p=49694",
+      "fuente": "SecurityWeek",
+      "titulo": "ShinyHunters Defiant After FBI Calls on Members to Come Forward",
+      "fecha_publicacion_iso": "2026-09-30T10:20:02+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-shinyhunters-defiant-after-fbi-calls-on-members-to-come-forw-5e686c8a.html"
+    },
+    "https://cyberscoop.com/water-utility-cyberattacks-waterisac-cyware-threat-intelligence/": {
+      "guid": "https://cyberscoop.com/?p=90911",
+      "fuente": "CyberScoop",
+      "titulo": "WaterISAC reckons with range of threats after summer of cyberattacks",
+      "fecha_publicacion_iso": "2026-09-30T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-waterisac-reckons-with-range-of-threats-after-summer-of-cybe-68ae06ad.html"
+    },
+    "https://www.wired.com/story/how-israeli-checkpoints-choke-palestinian-life-occupied-west-bank/": {
+      "guid": "6aa815e68fc669b965aa4350",
+      "fuente": "Wired - Security",
+      "titulo": "How Israeli Checkpoints Choke Palestinian Life in the Occupied West Bank",
+      "fecha_publicacion_iso": "2026-09-30T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-how-israeli-checkpoints-choke-palestinian-life-in-the-occupi-99ab7a02.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/signal-encrypted-backups-ios-8-30/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386262",
+      "fuente": "Help Net Security",
+      "titulo": "Signal brings encrypted local backups to iOS and desktop, adds cross-platform restore",
+      "fecha_publicacion_iso": "2026-09-30T09:31:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-signal-brings-encrypted-local-backups-to-ios-and-desktop-add-a2ff600d.html"
+    },
+    "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html": {
+      "guid": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+      "fecha_publicacion_iso": "2026-09-30T08:09:28+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-openssl-fixes-high-severity-dtls-flaw-that-can-leak-heap-mem-870a14dd.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-la-aplicacion-de-integratec": {
+      "guid": "668536 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en la aplicación de Integratec",
+      "fecha_publicacion_iso": "2026-09-30T08:08:56+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-inyeccion-sql-en-la-aplicacion-de-integratec-91c87aca.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/air-force-members-sentenced-bec-phishing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386251",
+      "fuente": "Help Net Security",
+      "titulo": "Former US Air Force members behind million-dollar BEC scheme head to prison",
+      "fecha_publicacion_iso": "2026-09-30T07:42:11+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-former-us-air-force-members-behind-million-dollar-bec-scheme-58460b8a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-instant-aps-de-hpe-networking": {
+      "guid": "668537 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Instant On APs de HPE Networking",
+      "fecha_publicacion_iso": "2026-09-30T07:15:31+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-multiples-vulnerabilidades-en-instant-on-aps-de-hpe-networki-b1b40fec.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-apple": {
+      "guid": "668496 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en productos de Apple",
+      "fecha_publicacion_iso": "2026-09-30T07:15:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-escritura-fuera-de-limites-en-productos-de-apple-ff68c7e7.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-watchguard-ap-de-watchguard-0": {
+      "guid": "668493 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en WatchGuard AP de WatchGuard",
+      "fecha_publicacion_iso": "2026-09-30T07:15:29+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-multiples-vulnerabilidades-en-watchguard-ap-de-watchguard-a948ba06.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
+      "fuente": "Dark Reading",
+      "titulo": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+      "fecha_publicacion_iso": "2026-09-30T07:00:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-south-africa-seeks-help-after-cyberattack-targets-air-traffi-c099910d.html"
+    },
+    "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/": {
+      "guid": "https://www.securityweek.com/?p=49689",
+      "fuente": "SecurityWeek",
+      "titulo": "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL",
+      "fecha_publicacion_iso": "2026-09-30T06:55:50+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-high-severity-vulnerabilities-patched-in-openssl-wolfssl-57fe96c5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/genea-mcp/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386248",
+      "fuente": "Help Net Security",
+      "titulo": "Genea brings AI agents to access control with role-based permissions",
+      "fecha_publicacion_iso": "2026-09-30T06:49:24+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-genea-brings-ai-agents-to-access-control-with-role-based-per-2c318b34.html"
+    },
+    "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html": {
+      "guid": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+      "fuente": "The Hacker News",
+      "titulo": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "fecha_publicacion_iso": "2026-09-30T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-citrix-netscaler-cve-2026-88772-exploit-details-show-pre-aut-308509a3.html"
+    },
+    "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html": {
+      "guid": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+      "fuente": "The Hacker News",
+      "titulo": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "fecha_publicacion_iso": "2026-09-30T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-citrix-netscaler-cve-2026-88772-exploit-details-show-pre-aut-308509a3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/": {
+      "guid": "https://www.helpnetsecurity.com/2026/09/30/cve-2026-88772-netscaler-exploitation-zero-day/",
+      "fuente": "Help Net Security",
+      "titulo": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "fecha_publicacion_iso": "2026-09-30T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-citrix-netscaler-cve-2026-88772-exploit-details-show-pre-aut-308509a3.html"
+    },
+    "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/": {
+      "guid": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+      "fuente": "SecurityWeek",
+      "titulo": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "fecha_publicacion_iso": "2026-09-30T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-09-30T16:01:46.329080+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-citrix-netscaler-cve-2026-88772-exploit-details-show-pre-aut-308509a3.html"
     }
   }
 }
