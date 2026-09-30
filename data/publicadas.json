@@ -9527,6 +9527,134 @@
       "fecha_publicacion_iso": "2026-09-28T22:02:46+00:00",
       "fecha_agregada_iso": "2026-09-29T21:26:01.613001+00:00",
       "ruta_noticia": "/noticia/2026-09-29-nvidia-launches-ai-agent-safety-platform-to-prevent-rogue-ac-6a3e822d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/claude-compliance-api-integrations/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386240",
+      "fuente": "Help Net Security",
+      "titulo": "Security tools can now scan Claude Enterprise chats and uploads for sensitive data",
+      "fecha_publicacion_iso": "2026-09-30T06:31:58+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-security-tools-can-now-scan-claude-enterprise-chats-and-uplo-cc90bdc5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/owasp-noir-open-source-static-analysis-tool/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386059",
+      "fuente": "Help Net Security",
+      "titulo": "OWASP Noir: Open-source static analysis tool",
+      "fecha_publicacion_iso": "2026-09-30T05:30:36+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-owasp-noir-open-source-static-analysis-tool-4dba8c53.html"
+    },
+    "http://www.elladodelmal.com/2026/09/isaac-asimov-y-los-problemas-de-la.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4971669840706794475",
+      "fuente": "El Lado del Mal",
+      "titulo": "Isaac Asimov y los problemas de la Inteligencia Artificial hoy en día qué el intuyó hace 75 años.",
+      "fecha_publicacion_iso": "2026-09-30T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-isaac-asimov-y-los-problemas-de-la-inteligencia-artificial-h-ef1e111e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386181",
+      "fuente": "Help Net Security",
+      "titulo": "EU Cyber Resilience Act requirements for containers and Kubernetes",
+      "fecha_publicacion_iso": "2026-09-30T05:00:53+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-eu-cyber-resilience-act-requirements-for-containers-and-kube-4a37a2d7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/bh-haven-sme-cybersecurity-service/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385859",
+      "fuente": "Help Net Security",
+      "titulo": "In this new SME cybersecurity service, the AI assists and the consultants decide",
+      "fecha_publicacion_iso": "2026-09-30T04:30:17+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-in-this-new-sme-cybersecurity-service-the-ai-assists-and-the-ca88ab9e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385883",
+      "fuente": "Help Net Security",
+      "titulo": "Most open critical and high flaws are over 90 days old",
+      "fecha_publicacion_iso": "2026-09-30T04:00:38+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-most-open-critical-and-high-flaws-are-over-90-days-old-ecf91a01.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386226",
+      "fuente": "Help Net Security",
+      "titulo": "WSL containers are generally available on Windows",
+      "fecha_publicacion_iso": "2026-09-30T03:47:25+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-wsl-containers-are-generally-available-on-windows-45aef82d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/relentless-defense-cisco-cybersecurity-survey/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386218",
+      "fuente": "Help Net Security",
+      "titulo": "Most organizations need six months or longer to roll out new security controls",
+      "fecha_publicacion_iso": "2026-09-30T03:30:01+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-most-organizations-need-six-months-or-longer-to-roll-out-new-dd487291.html"
+    },
+    "https://www.helpnetsecurity.com/2026/09/30/cloudflare-certificate-authority-2027/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386214",
+      "fuente": "Help Net Security",
+      "titulo": "Post-quantum website certificates from Cloudflare are scheduled for early 2027",
+      "fecha_publicacion_iso": "2026-09-30T03:09:51+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-post-quantum-website-certificates-from-cloudflare-are-schedu-75fb29b0.html"
+    },
+    "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/": {
+      "guid": "https://www.securityweek.com/?p=49684",
+      "fuente": "SecurityWeek",
+      "titulo": "Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development",
+      "fecha_publicacion_iso": "2026-09-30T01:48:21+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-trump-says-top-tech-firms-have-signed-accord-to-self-police-ffcfe767.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft is rolling out Linux container support to WSL",
+      "fecha_publicacion_iso": "2026-09-30T00:40:57+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-microsoft-is-rolling-out-linux-container-support-to-wsl-c4d73e08.html"
+    },
+    "https://dpoec.com/datos-biometricos-en-ecuador-reglas-para-usar-huella-y-reconocimiento-facial/": {
+      "guid": "https://dpoec.com/?p=1299",
+      "fuente": "dpoec.com",
+      "titulo": "Datos biométricos en Ecuador: reglas para usar huella y reconocimiento facial",
+      "fecha_publicacion_iso": "2026-09-29T22:03:23+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-datos-biometricos-en-ecuador-reglas-para-usar-huella-y-recon-ecc3b62e.html"
+    },
+    "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922": {
+      "guid": "https://www.theregister.com/a/5299922",
+      "fuente": "The Register - Security",
+      "titulo": "Add one more AI worry to the nightmare scenario: self-replicating prompt injections",
+      "fecha_publicacion_iso": "2026-09-29T21:34:39+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-add-one-more-ai-worry-to-the-nightmare-scenario-self-replica-2e214347.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+      "fuente": "Dark Reading",
+      "titulo": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+      "fecha_publicacion_iso": "2026-09-29T21:31:29+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-apple-zero-day-vulnerability-weaponized-in-targeted-attacks-dad7f1e9.html"
+    },
+    "https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/": {
+      "guid": "https://cyberscoop.com/?p=90914",
+      "fuente": "CyberScoop",
+      "titulo": "Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected",
+      "fecha_publicacion_iso": "2026-09-29T21:30:22+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-attackers-exploited-citrix-netscaler-zero-day-for-at-least-t-9307233d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+      "fuente": "BleepingComputer",
+      "titulo": "Signal adds encypted local backup support to iOS, desktop apps",
+      "fecha_publicacion_iso": "2026-09-29T21:30:08+00:00",
+      "fecha_agregada_iso": "2026-09-30T06:43:58.525106+00:00",
+      "ruta_noticia": "/noticia/2026-09-30-signal-adds-encypted-local-backup-support-to-ios-desktop-app-aae08bb6.html"
     }
   }
 }
