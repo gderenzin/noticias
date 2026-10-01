@@ -10087,6 +10087,142 @@
       "fecha_publicacion_iso": "2026-09-29T16:20:09+00:00",
       "fecha_agregada_iso": "2026-09-30T21:27:06.308094+00:00",
       "ruta_noticia": "/noticia/2026-09-30-pdf-malicioso-uno-de-los-principales-formatos-utilizados-en-7a03de13.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/ai-soc-entry-jobs/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386006",
+      "fuente": "Help Net Security",
+      "titulo": "Many expect AI in the SOC to make entry jobs harder to get",
+      "fecha_publicacion_iso": "2026-10-01T05:30:08+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-many-expect-ai-in-the-soc-to-make-entry-jobs-harder-to-get-8898d28d.html"
+    },
+    "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html": {
+      "guid": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "fuente": "The Hacker News",
+      "titulo": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "fecha_publicacion_iso": "2026-10-01T05:21:10+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-bitget-confirms-third-party-zero-day-behind-387-5-million-cr-ecc9e006.html"
+    },
+    "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html": {
+      "guid": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+      "fuente": "The Hacker News",
+      "titulo": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "fecha_publicacion_iso": "2026-10-01T05:10:09+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-metamask-security-incident-prompts-exit-of-affected-ethereum-8d989c50.html"
+    },
+    "http://www.elladodelmal.com/2026/10/factorizacion-de-rsa-challenge-rsa-896.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-7602234556239362196",
+      "fuente": "El Lado del Mal",
+      "titulo": "Factorización de RSA Challenge RSA-896 en 10 días con 30 GPU Core-Years ... y un poco de ayuda de la IA",
+      "fecha_publicacion_iso": "2026-10-01T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-factorizacion-de-rsa-challenge-rsa-896-en-10-dias-con-30-gpu-e666f9dd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386314",
+      "fuente": "Help Net Security",
+      "titulo": "The vulnerabilities AI finds are the ones attackers want",
+      "fecha_publicacion_iso": "2026-10-01T05:00:35+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-the-vulnerabilities-ai-finds-are-the-ones-attackers-want-276a6b92.html"
+    },
+    "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html": {
+      "guid": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "fuente": "The Hacker News",
+      "titulo": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "fecha_publicacion_iso": "2026-10-01T04:35:34+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-citrix-netscaler-post-exploitation-payload-creates-superuser-238df8b6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/employment-scam-victims-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=385904",
+      "fuente": "Help Net Security",
+      "titulo": "Employment scam victims tripled at financial firms in 21 countries",
+      "fecha_publicacion_iso": "2026-10-01T04:30:35+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-employment-scam-victims-tripled-at-financial-firms-in-21-cou-6dfe043d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386342",
+      "fuente": "Help Net Security",
+      "titulo": "Google says Gemini 4 Argon can find and patch critical software flaws",
+      "fecha_publicacion_iso": "2026-10-01T04:00:41+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-google-says-gemini-4-argon-can-find-and-patch-critical-softw-b0a8b8b1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/product-showcase-proton-drive/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386322",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Proton Drive end-to-end encrypted cloud storage",
+      "fecha_publicacion_iso": "2026-10-01T03:48:10+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-product-showcase-proton-drive-end-to-end-encrypted-cloud-sto-4f0d7584.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386335",
+      "fuente": "Help Net Security",
+      "titulo": "Google’s SynthID Bio can watermark AI-designed protein binders without breaking them",
+      "fecha_publicacion_iso": "2026-10-01T03:31:14+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-googles-synthid-bio-can-watermark-ai-designed-protein-binder-ddcedeae.html"
+    },
+    "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/": {
+      "guid": "https://www.securityweek.com/?p=49716",
+      "fuente": "SecurityWeek",
+      "titulo": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
+      "fecha_publicacion_iso": "2026-09-30T23:43:51+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-ftc-is-investigating-openai-and-anthropic-over-possible-risk-6a8d7fa9.html"
+    },
+    "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua": {
+      "guid": "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua",
+      "fuente": "The Record",
+      "titulo": "US sanctions 10 over ATM malware scheme tied to Tren de Aragua",
+      "fecha_publicacion_iso": "2026-09-30T22:35:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-us-sanctions-10-over-atm-malware-scheme-tied-to-tren-de-arag-819e041e.html"
+    },
+    "https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/": {
+      "guid": "https://cyberscoop.com/?p=90922",
+      "fuente": "CyberScoop",
+      "titulo": "OpenAI reveals ‘novel’ encryption bypass used in distillation attack",
+      "fecha_publicacion_iso": "2026-09-30T22:17:34+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-openai-reveals-novel-encryption-bypass-used-in-distillation-69dee81f.html"
+    },
+    "http://blog.segu-info.com.ar/2026/09/otra-vulnerabilidad-critica-en-mikrotik.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5196073157367265792",
+      "fuente": "Segu-Info",
+      "titulo": "(Otra) vulnerabilidad crítica en MikroTik RouterOS (CVE-2026-84411)",
+      "fecha_publicacion_iso": "2026-09-30T22:02:22+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-otra-vulnerabilidad-critica-en-mikrotik-routeros-cve-2026-84-130fce1f.html"
+    },
+    "https://www.theregister.com/security/2026/09/30/irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-from-everybody-else/5300285": {
+      "guid": "https://www.theregister.com/a/5300285",
+      "fuente": "The Register - Security",
+      "titulo": "Irony alert: OpenAI whines that Chinese model stole its special IP that it stole from everybody else",
+      "fecha_publicacion_iso": "2026-09-30T21:36:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-irony-alert-openai-whines-that-chinese-model-stole-its-speci-bceec0e7.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
+      "fuente": "Dark Reading",
+      "titulo": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
+      "fecha_publicacion_iso": "2026-09-30T21:25:47+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-malicious-custom-gpts-turn-chatgpt-into-rat-delivery-lure-f50f760b.html"
+    },
+    "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord": {
+      "guid": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+      "fuente": "Dark Reading",
+      "titulo": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
+      "fecha_publicacion_iso": "2026-09-30T20:51:15+00:00",
+      "fecha_agregada_iso": "2026-10-01T07:15:51.543017+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-trump-tech-giants-strike-voluntary-ai-safety-accord-2f52b27c.html"
     }
   }
 }
