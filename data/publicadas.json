@@ -10607,6 +10607,134 @@
       "fecha_publicacion_iso": "2026-09-30T19:08:01+00:00",
       "fecha_agregada_iso": "2026-10-01T16:29:18.558634+00:00",
       "ruta_noticia": "/noticia/2026-10-01-el-phishing-sigue-llegando-por-correo-pero-ya-no-se-ve-igual-e0afd7a5.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+      "fuente": "Dark Reading",
+      "titulo": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+      "fecha_publicacion_iso": "2026-10-01T21:37:50+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-alleged-killsec-ransomware-mastermind-a-16-year-old-4561eea1.html"
+    },
+    "https://www.theregister.com/security/2026/10/01/ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org/5300652": {
+      "guid": "https://www.theregister.com/a/5300652",
+      "fuente": "The Register - Security",
+      "titulo": "AI agents hacked the hackers, stealing email addresses from security research org",
+      "fecha_publicacion_iso": "2026-10-01T21:26:42+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-ai-agents-hacked-the-hackers-stealing-email-addresses-from-s-bcd5500b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "fecha_publicacion_iso": "2026-10-01T20:52:50+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-autonomous-ai-agents-tried-to-hack-us-canadian-government-we-afd4a8a6.html"
+    },
+    "https://therecord.media/iran-montenegro-hacker-extradition": {
+      "guid": "https://therecord.media/iran-montenegro-hacker-extradition",
+      "fuente": "The Record",
+      "titulo": "Iranian accused of hacking American universities extradited from Montenegro",
+      "fecha_publicacion_iso": "2026-10-01T20:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-iranian-accused-of-hacking-american-universities-extradited-cf4db0d1.html"
+    },
+    "https://cyberscoop.com/killsec-ransomware-group-arrests-operation-killswitch/": {
+      "guid": "https://cyberscoop.com/?p=90942",
+      "fuente": "CyberScoop",
+      "titulo": "Authorities seize KillSec extortion group infrastructure, arrest 3 alleged members",
+      "fecha_publicacion_iso": "2026-10-01T19:44:43+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-authorities-seize-killsec-extortion-group-infrastructure-arr-96c9ad71.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says threat actors are ahead in the early AI race",
+      "fecha_publicacion_iso": "2026-10-01T19:32:47+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-microsoft-says-threat-actors-are-ahead-in-the-early-ai-race-90b51a98.html"
+    },
+    "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites": {
+      "guid": "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites",
+      "fuente": "The Record",
+      "titulo": "OpenAI software attempted to secretly scrape data from dozens of prominent websites",
+      "fecha_publicacion_iso": "2026-10-01T19:25:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-openai-software-attempted-to-secretly-scrape-data-from-dozen-fe8b8962.html"
+    },
+    "https://cyberscoop.com/sean-cairncross-ai-security-china-industry-collaboration/": {
+      "guid": "https://cyberscoop.com/?p=90937",
+      "fuente": "CyberScoop",
+      "titulo": "National cyber director: Government-industry collaboration vital to managing AI risks, competition with nations",
+      "fecha_publicacion_iso": "2026-10-01T19:21:37+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-national-cyber-director-government-industry-collaboration-vi-4084c015.html"
+    },
+    "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan": {
+      "guid": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
+      "fuente": "The Record",
+      "titulo": "Researchers find Chinese hacking campaigns targeting AI firms, Asian governments",
+      "fecha_publicacion_iso": "2026-10-01T18:16:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-researchers-find-chinese-hacking-campaigns-targeting-ai-firm-2e712438.html"
+    },
+    "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49748",
+      "fuente": "SecurityWeek",
+      "titulo": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
+      "fecha_publicacion_iso": "2026-10-01T18:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-zero-trust-creator-says-model-holds-firm-against-ai-assisted-a83bccc6.html"
+    },
+    "https://www.wired.com/story/experience-what-its-like-to-travel-in-the-occupied-west-bank/": {
+      "guid": "6aabe4d84b08c0385f0a0f20",
+      "fuente": "Wired - Security",
+      "titulo": "Experience What It’s Like to Travel in the Occupied West Bank",
+      "fecha_publicacion_iso": "2026-10-01T18:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-experience-what-its-like-to-travel-in-the-occupied-west-bank-efcf6f8c.html"
+    },
+    "https://www.theregister.com/security/2026/10/01/eus-hodgepodge-tech-policy-exposes-members-to-chinese-vendor-risks-says-think-tank/5300599": {
+      "guid": "https://www.theregister.com/a/5300599",
+      "fuente": "The Register - Security",
+      "titulo": "EU’s hodgepodge tech policy exposes members to Chinese vendor risks, says think tank",
+      "fecha_publicacion_iso": "2026-10-01T17:30:03+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-eus-hodgepodge-tech-policy-exposes-members-to-chinese-vendor-cc88ec6b.html"
+    },
+    "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/": {
+      "guid": "https://www.securityweek.com/?p=49749",
+      "fuente": "SecurityWeek",
+      "titulo": "Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains",
+      "fecha_publicacion_iso": "2026-10-01T17:16:41+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-osavul-lands-10-million-to-spot-hostile-intent-across-cyber-9f6f119b.html"
+    },
+    "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html": {
+      "guid": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+      "fecha_publicacion_iso": "2026-10-01T16:55:57+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-police-arrest-16-year-old-suspected-of-running-killsec-seize-c1f2fe32.html"
+    },
+    "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html": {
+      "guid": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+      "fecha_publicacion_iso": "2026-10-01T16:45:38+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-threatsday-ai-powered-zero-day-chain-543k-live-secrets-model-f1d14dce.html"
+    },
+    "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595": {
+      "guid": "https://www.theregister.com/a/5300595",
+      "fuente": "The Register - Security",
+      "titulo": "Suspected Chinese spies spoofed an Anthropic exec, ex-White House official in AI phishing",
+      "fecha_publicacion_iso": "2026-10-01T16:43:30+00:00",
+      "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
+      "ruta_noticia": "/noticia/2026-10-01-suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-h-55f0ecdd.html"
     }
   }
 }
