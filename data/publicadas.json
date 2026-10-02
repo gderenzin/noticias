@@ -11063,6 +11063,134 @@
       "fecha_publicacion_iso": "2026-10-02T07:23:44+00:00",
       "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
       "ruta_noticia": "/noticia/2026-10-02-multiples-vulnerabilidades-en-la-aplicacion-de-repasat-2a860efd.html"
+    },
+    "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists": {
+      "guid": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
+      "fuente": "The Record",
+      "titulo": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
+      "fecha_publicacion_iso": "2026-10-02T20:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-judge-dismisses-spyware-case-brought-by-salvadoran-journalis-c8f7d668.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
+      "fuente": "Dark Reading",
+      "titulo": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+      "fecha_publicacion_iso": "2026-10-02T20:18:37+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-remotethreat-bets-security-teams-need-to-test-what-happens-a-1d9e3889.html"
+    },
+    "https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/": {
+      "guid": "6abfde929d691e39ae30686d",
+      "fuente": "Wired - Security",
+      "titulo": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
+      "fecha_publicacion_iso": "2026-10-02T19:52:36+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-ice-has-been-dumping-protester-photos-into-a-palantir-databa-c9d6ac4f.html"
+    },
+    "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc": {
+      "guid": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
+      "fuente": "The Record",
+      "titulo": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
+      "fecha_publicacion_iso": "2026-10-02T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-bipartisan-backlash-to-alprs-grows-as-two-high-profile-bills-89254718.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+      "fuente": "BleepingComputer",
+      "titulo": "Frontline Education breach exposes school district employee data",
+      "fecha_publicacion_iso": "2026-10-02T19:01:40+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-frontline-education-breach-exposes-school-district-employee-377f3968.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+      "fecha_publicacion_iso": "2026-10-02T18:33:01+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-warlock-ransomware-breach-sharepoint-in-water-telecom-operat-2b92c4ce.html"
+    },
+    "https://cyberscoop.com/ai-agent-hacks-legal-liability-cfaa/": {
+      "guid": "https://cyberscoop.com/?p=90947",
+      "fuente": "CyberScoop",
+      "titulo": "The legal questions raised by agentic AI hacks",
+      "fecha_publicacion_iso": "2026-10-02T17:47:54+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-the-legal-questions-raised-by-agentic-ai-hacks-cba1f479.html"
+    },
+    "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891": {
+      "guid": "https://www.theregister.com/a/5300891",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse",
+      "fecha_publicacion_iso": "2026-10-02T17:37:05+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-openai-alerts-100-orgs-that-its-misaligned-models-attempted-715e3506.html"
+    },
+    "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html": {
+      "guid": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+      "fecha_publicacion_iso": "2026-10-02T17:33:16+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-antino-backdoor-uses-outlook-and-onedrive-for-c2-in-china-ne-7d8d9de9.html"
+    },
+    "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html": {
+      "guid": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "fuente": "The Hacker News",
+      "titulo": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+      "fecha_publicacion_iso": "2026-10-02T17:02:12+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-dell-csm-flaws-enable-unauthenticated-admin-access-and-root-0214f46e.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response",
+      "fuente": "Dark Reading",
+      "titulo": "Kiteworks &amp; Citrix Incidents Show Challenges of Zero-Day Response",
+      "fecha_publicacion_iso": "2026-10-02T16:56:30+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-kiteworks-amp-citrix-incidents-show-challenges-of-zero-day-r-766883a4.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
+      "fuente": "Dark Reading",
+      "titulo": "SWIFT Banking &amp; Government Middleware Enables RCE",
+      "fecha_publicacion_iso": "2026-10-02T16:27:54+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-swift-banking-amp-government-middleware-enables-rce-59130545.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+      "fuente": "BleepingComputer",
+      "titulo": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "fecha_publicacion_iso": "2026-10-02T16:20:05+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-ser-4da5a22b.html"
+    },
+    "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "fecha_publicacion_iso": "2026-10-02T16:20:05+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-ser-4da5a22b.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-",
+      "fuente": "Dark Reading",
+      "titulo": "Is Your Organization Ready for 2027's AI Accountability Era?",
+      "fecha_publicacion_iso": "2026-10-02T16:01:22+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-is-your-organization-ready-for-2027-s-ai-accountability-era-21d2d204.html"
+    },
+    "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures": {
+      "guid": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures",
+      "fuente": "Dark Reading",
+      "titulo": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
+      "fecha_publicacion_iso": "2026-10-02T15:51:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-is-it-fair-to-blame-rogue-ai-for-security-failures-89cfb1b3.html"
     }
   }
 }
