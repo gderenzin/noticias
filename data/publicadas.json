@@ -10807,6 +10807,262 @@
       "fecha_publicacion_iso": "2026-10-01T16:38:45+00:00",
       "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
       "ruta_noticia": "/noticia/2026-10-02-panorama-de-ciberamenazas-en-america-latina-balance-del-prim-d8115884.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+      "fuente": "BleepingComputer",
+      "titulo": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+      "fecha_publicacion_iso": "2026-10-02T15:20:53+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-us-sanctions-tren-de-aragua-gang-members-in-atm-hacks-crackd-7c0838df.html"
+    },
+    "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856": {
+      "guid": "https://www.theregister.com/a/5300856",
+      "fuente": "The Register - Security",
+      "titulo": "Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval",
+      "fecha_publicacion_iso": "2026-10-02T15:20:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-californian-accused-of-shipping-300m-worth-of-nvidia-chips-t-38b60cdf.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850": {
+      "guid": "https://www.theregister.com/a/5300850",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI's wandering AI agents earn it a California subpoena",
+      "fecha_publicacion_iso": "2026-10-02T14:34:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-openai-s-wandering-ai-agents-earn-it-a-california-subpoena-e4935424.html"
+    },
+    "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/": {
+      "guid": "https://www.securityweek.com/?p=49771",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats",
+      "fecha_publicacion_iso": "2026-10-02T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phi-ec4d2e40.html"
+    },
+    "https://therecord.media/vicksburg-mississippi-government-ransomware-attack": {
+      "guid": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
+      "fuente": "The Record",
+      "titulo": "Mississippi mayor says ransomware incident led city to shut down systems",
+      "fecha_publicacion_iso": "2026-10-02T14:06:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-mississippi-mayor-says-ransomware-incident-led-city-to-shut-0749cb1c.html"
+    },
+    "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks": {
+      "guid": "https://therecord.media/warlock-ransomware-used-in-critical-infrastructure-attacks",
+      "fuente": "The Record",
+      "titulo": "'Warlock' ransomware used in attacks on critical infrastructure in Portuguese, Spanish-speaking countries",
+      "fecha_publicacion_iso": "2026-10-02T14:05:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-warlock-ransomware-used-in-attacks-on-critical-infrastructur-a878911c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+      "fuente": "BleepingComputer",
+      "titulo": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "fecha_publicacion_iso": "2026-10-02T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-tel-783d1621.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem",
+      "fuente": "Dark Reading",
+      "titulo": "Vulnerability Backlogs Are an Ownership Problem",
+      "fecha_publicacion_iso": "2026-10-02T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-vulnerability-backlogs-are-an-ownership-problem-a04d7b79.html"
+    },
+    "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/": {
+      "guid": "https://www.securityweek.com/?p=49767",
+      "fuente": "SecurityWeek",
+      "titulo": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
+      "fecha_publicacion_iso": "2026-10-02T13:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-macos-users-targeted-by-fake-zoom-installer-carrying-cloudsy-edac5382.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security": {
+      "guid": "https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security",
+      "fuente": "Dark Reading",
+      "titulo": "Malicious Linux Implants Mimic Asian Mail Security Products",
+      "fecha_publicacion_iso": "2026-10-02T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-malicious-linux-implants-mimic-asian-mail-security-products-6e8ee024.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/desmantelado-ransomware-killsec-110.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-9095882895368645388",
+      "fuente": "Segu-Info",
+      "titulo": "Desmantelado ransomware KillSec, 110 terabytes de datos robados y adolescente de 16 sospechoso de liderar el grupo",
+      "fecha_publicacion_iso": "2026-10-02T12:48:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-desmantelado-ransomware-killsec-110-terabytes-de-datos-robad-84ee1f22.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386618",
+      "fuente": "Help Net Security",
+      "titulo": "AI is giving attackers a head start, Microsoft warns",
+      "fecha_publicacion_iso": "2026-10-02T12:47:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-ai-is-giving-attackers-a-head-start-microsoft-warns-a1c6f014.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+      "fecha_publicacion_iso": "2026-10-02T12:37:40+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-dell-asks-admins-to-patch-max-severity-csm-flaws-as-soon-as-065e0fbe.html"
+    },
+    "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html": {
+      "guid": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+      "fecha_publicacion_iso": "2026-10-02T12:23:15+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-openai-parts-ways-with-three-safety-researchers-over-sensiti-7732b6c0.html"
+    },
+    "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/": {
+      "guid": "https://www.securityweek.com/?p=49764",
+      "fuente": "SecurityWeek",
+      "titulo": "Crypto Scammers Hijack Microsoft’s Official X Account",
+      "fecha_publicacion_iso": "2026-10-02T11:46:10+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-crypto-scammers-hijack-microsofts-official-x-account-008a22f2.html"
+    },
+    "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html": {
+      "guid": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+      "fuente": "The Hacker News",
+      "titulo": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+      "fecha_publicacion_iso": "2026-10-02T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-why-cisos-struggle-to-answer-the-board-s-three-hardest-quest-a1c9b41c.html"
+    },
+    "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/": {
+      "guid": "https://www.securityweek.com/?p=49760",
+      "fuente": "SecurityWeek",
+      "titulo": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
+      "fecha_publicacion_iso": "2026-10-02T11:14:34+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-in-rare-move-alleged-iranian-state-hacker-extradited-to-us-b57337fc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/china-aligned-ta419-phishing-ai-policy-experts/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386581",
+      "fuente": "Help Net Security",
+      "titulo": "Chinese spies impersonate White House, Anthropic figures to phish AI policy experts",
+      "fecha_publicacion_iso": "2026-10-02T10:21:55+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-chinese-spies-impersonate-white-house-anthropic-figures-to-p-7ba7d439.html"
+    },
+    "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/": {
+      "guid": "6abc2709de4260e1edbea50e",
+      "fuente": "Wired - Security",
+      "titulo": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+      "fecha_publicacion_iso": "2026-10-02T09:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensi-c2c94c06.html"
+    },
+    "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/": {
+      "guid": "https://www.securityweek.com/?p=49756",
+      "fuente": "SecurityWeek",
+      "titulo": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
+      "fecha_publicacion_iso": "2026-10-02T09:34:41+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-warlock-expands-sharepoint-exploitation-in-critical-infrastr-bee2fe5d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+      "fecha_publicacion_iso": "2026-10-02T09:29:56+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-microsofts-x-account-hacked-in-crypto-pump-and-dump-scheme-c2bc59a4.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-tenable": {
+      "guid": "669975 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Tenable",
+      "fecha_publicacion_iso": "2026-10-02T09:26:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-multiples-vulnerabilidades-en-productos-de-tenable-d02ec76c.html"
+    },
+    "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/": {
+      "guid": "https://www.securityweek.com/?p=49754",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
+      "fecha_publicacion_iso": "2026-10-02T08:38:46+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-ai-agents-aimed-sql-injection-at-us-and-canadian-government-1b7e6404.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-http-server-de-apache": {
+      "guid": "669974 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en HTTP Server de Apache",
+      "fecha_publicacion_iso": "2026-10-02T08:22:21+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-multiples-vulnerabilidades-en-http-server-de-apache-5e375c3e.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ausencia-de-autenticacion-en-endpoint-security-de-watchguard": {
+      "guid": "669966 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Ausencia de autenticación en Endpoint Security de WatchGuard",
+      "fecha_publicacion_iso": "2026-10-02T08:22:17+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-ausencia-de-autenticacion-en-endpoint-security-de-watchguard-445f11af.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-core-privileged-access-manager-de-fortra": {
+      "guid": "669962 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Core Privileged Access Manager de Fortra",
+      "fecha_publicacion_iso": "2026-10-02T08:22:16+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-multiples-vulnerabilidades-en-core-privileged-access-manager-531c7c19.html"
+    },
+    "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/": {
+      "guid": "https://www.securityweek.com/?p=49752",
+      "fuente": "SecurityWeek",
+      "titulo": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+      "fecha_publicacion_iso": "2026-10-02T08:07:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-exploited-fortinet-fortimail-zero-day-calls-for-urgent-actio-6468fcbb.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-fortimail-de-fortinet": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-fortimail-de-fortinet",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+      "fecha_publicacion_iso": "2026-10-02T08:07:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-exploited-fortinet-fortimail-zero-day-calls-for-urgent-actio-6468fcbb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/02/fortinet-fortimail-vulnerability-cve-2026-104286/",
+      "fuente": "Help Net Security",
+      "titulo": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+      "fecha_publicacion_iso": "2026-10-02T08:07:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-exploited-fortinet-fortimail-zero-day-calls-for-urgent-actio-6468fcbb.html"
+    },
+    "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803": {
+      "guid": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
+      "fuente": "The Register - Security",
+      "titulo": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+      "fecha_publicacion_iso": "2026-10-02T08:07:33+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-exploited-fortinet-fortimail-zero-day-calls-for-urgent-actio-6468fcbb.html"
+    },
+    "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html": {
+      "guid": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+      "fuente": "The Hacker News",
+      "titulo": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "fecha_publicacion_iso": "2026-10-02T08:01:30+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-android-17-advanced-protection-locks-accessibility-services-5a9c1aeb.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-la-aplicacion-de-repasat": {
+      "guid": "669956 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en la aplicación de Repasat",
+      "fecha_publicacion_iso": "2026-10-02T07:23:44+00:00",
+      "fecha_agregada_iso": "2026-10-02T16:50:15.852349+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-multiples-vulnerabilidades-en-la-aplicacion-de-repasat-2a860efd.html"
     }
   }
 }
