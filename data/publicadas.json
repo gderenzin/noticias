@@ -10735,6 +10735,78 @@
       "fecha_publicacion_iso": "2026-10-01T16:43:30+00:00",
       "fecha_agregada_iso": "2026-10-01T21:52:10.986488+00:00",
       "ruta_noticia": "/noticia/2026-10-01-suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-h-55f0ecdd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/intel-471-insider-threat-recruitment-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386436",
+      "fuente": "Help Net Security",
+      "titulo": "Criminal recruiters want people on your payroll",
+      "fecha_publicacion_iso": "2026-10-02T06:00:05+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-criminal-recruiters-want-people-on-your-payroll-3ee2f0f3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/android-17-advanced-protection-features/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386487",
+      "fuente": "Help Net Security",
+      "titulo": "Android 17 makes it harder for spyware to cover its tracks",
+      "fecha_publicacion_iso": "2026-10-02T05:30:37+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-android-17-makes-it-harder-for-spyware-to-cover-its-tracks-3fbe48e9.html"
+    },
+    "http://www.elladodelmal.com/2026/10/potencia-tu-empresa-con-inteligencia-si.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5791853113893981187",
+      "fuente": "El Lado del Mal",
+      "titulo": "Potencia tu Empresa con Inteligencia: Si otros pueden tú también",
+      "fecha_publicacion_iso": "2026-10-02T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-potencia-tu-empresa-con-inteligencia-si-otros-pueden-tu-tamb-c92fade2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/pwc-attacks-on-ai-systems/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386354",
+      "fuente": "Help Net Security",
+      "titulo": "Botnets, adversarial attacks and data poisoning top leaders’ AI threat list",
+      "fecha_publicacion_iso": "2026-10-02T05:00:28+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-botnets-adversarial-attacks-and-data-poisoning-top-leaders-a-5004719a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386381",
+      "fuente": "Help Net Security",
+      "titulo": "AI agents keep access to company data after their work is done",
+      "fecha_publicacion_iso": "2026-10-02T04:30:21+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-ai-agents-keep-access-to-company-data-after-their-work-is-do-282e050c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/02/new-infosec-products-of-the-week-october-2-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386370",
+      "fuente": "Help Net Security",
+      "titulo": "New infosec products of the week: October 2, 2026",
+      "fecha_publicacion_iso": "2026-10-02T04:00:35+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-new-infosec-products-of-the-week-october-2-2026-e41ffedf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "fecha_publicacion_iso": "2026-10-01T22:42:49+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-7f8ace82.html"
+    },
+    "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "fecha_publicacion_iso": "2026-10-01T22:42:49+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-7f8ace82.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-america-latina-balance-primer-semestre-2026/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/ciberamenazas-america-latina-balance-primer-semestre-2026/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Panorama de ciberamenazas en América Latina: balance del primer semestre de 2026",
+      "fecha_publicacion_iso": "2026-10-01T16:38:45+00:00",
+      "fecha_agregada_iso": "2026-10-02T07:02:23.041463+00:00",
+      "ruta_noticia": "/noticia/2026-10-02-panorama-de-ciberamenazas-en-america-latina-balance-del-prim-d8115884.html"
     }
   }
 }
