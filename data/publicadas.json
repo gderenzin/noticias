@@ -11279,6 +11279,22 @@
       "fecha_publicacion_iso": "2026-10-03T14:35:20+00:00",
       "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
       "ruta_noticia": "/noticia/2026-10-03-danish-university-dtu-breach-exposes-data-of-up-to-200-000-p-335aeeb6.html"
+    },
+    "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/": {
+      "guid": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+      "fecha_publicacion_iso": "2026-10-03T23:12:34+00:00",
+      "fecha_agregada_iso": "2026-10-03T23:47:16.141351+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-google-gemini-could-soon-get-full-access-to-your-macs-files-71f68485.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/debian-corregio-1313-vulnerabilidades.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2333864245727361806",
+      "fuente": "Segu-Info",
+      "titulo": "Debian corregió 1.313 vulnerabilidades en una actualización masiva",
+      "fecha_publicacion_iso": "2026-10-03T20:21:14+00:00",
+      "fecha_agregada_iso": "2026-10-03T23:47:16.141351+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-debian-corregio-1-313-vulnerabilidades-en-una-actualizacion-e1e96f87.html"
     }
   }
 }
