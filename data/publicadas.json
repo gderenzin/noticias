@@ -11239,6 +11239,46 @@
       "fecha_publicacion_iso": "2026-10-03T11:00:00+00:00",
       "fecha_agregada_iso": "2026-10-03T14:19:44.813365+00:00",
       "ruta_noticia": "/noticia/2026-10-03-the-state-of-cybersecurity-in-2026-key-segments-insights-and-3dc5273a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+      "fecha_publicacion_iso": "2026-10-03T19:09:38+00:00",
+      "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi-1b56ecca.html"
+    },
+    "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933": {
+      "guid": "https://www.theregister.com/a/5300933",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
+      "fecha_publicacion_iso": "2026-10-03T15:27:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-anthropic-s-super-bug-hunting-model-mythos-is-hardcore-good-17633722.html"
+    },
+    "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html": {
+      "guid": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "fuente": "The Hacker News",
+      "titulo": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "fecha_publicacion_iso": "2026-10-03T14:38:46+00:00",
+      "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-mi5-says-chinas-mss-funded-research-involving-100-u-k-linked-87507759.html"
+    },
+    "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html": {
+      "guid": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "fecha_publicacion_iso": "2026-10-03T14:36:33+00:00",
+      "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-warlock-exploits-sharepoint-flaws-to-disable-security-tools-289771d5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+      "fuente": "BleepingComputer",
+      "titulo": "Danish university DTU breach exposes data of up to 200,000 people",
+      "fecha_publicacion_iso": "2026-10-03T14:35:20+00:00",
+      "fecha_agregada_iso": "2026-10-03T19:51:45.837333+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-danish-university-dtu-breach-exposes-data-of-up-to-200-000-p-335aeeb6.html"
     }
   }
 }
