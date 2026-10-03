@@ -11191,6 +11191,22 @@
       "fecha_publicacion_iso": "2026-10-02T15:51:33+00:00",
       "fecha_agregada_iso": "2026-10-02T21:20:57.538988+00:00",
       "ruta_noticia": "/noticia/2026-10-02-is-it-fair-to-blame-rogue-ai-for-security-failures-89cfb1b3.html"
+    },
+    "http://www.elladodelmal.com/2026/10/una-charla-en-todo-llega.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5985869888535274077",
+      "fuente": "El Lado del Mal",
+      "titulo": "Una charla en \"Todo Llega\"",
+      "fecha_publicacion_iso": "2026-10-03T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T06:32:22.632554+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-una-charla-en-todo-llega-cec8c4fd.html"
+    },
+    "https://olartemoure.com/control-costo-de-medicamentos/": {
+      "guid": "https://olartemoure.com/?p=4430729",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Protección al consumidor controla el costo de medicamentos",
+      "fecha_publicacion_iso": "2026-10-02T21:23:19+00:00",
+      "fecha_agregada_iso": "2026-10-03T06:32:22.632554+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-proteccion-al-consumidor-controla-el-costo-de-medicamentos-451917c5.html"
     }
   }
 }
