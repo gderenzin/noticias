@@ -11207,6 +11207,38 @@
       "fecha_publicacion_iso": "2026-10-02T21:23:19+00:00",
       "fecha_agregada_iso": "2026-10-03T06:32:22.632554+00:00",
       "ruta_noticia": "/noticia/2026-10-03-proteccion-al-consumidor-controla-el-costo-de-medicamentos-451917c5.html"
+    },
+    "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/": {
+      "guid": "6abc27c619638e7270d13469",
+      "fuente": "Wired - Security",
+      "titulo": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "fecha_publicacion_iso": "2026-10-03T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T14:19:44.813365+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-muse-creates-detailed-profiles-of-all-your-friends-and-famil-ff612af4.html"
+    },
+    "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/": {
+      "guid": "https://www.securityweek.com/?p=49775",
+      "fuente": "SecurityWeek",
+      "titulo": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
+      "fecha_publicacion_iso": "2026-10-03T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T14:19:44.813365+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-doxx-net-raises-38-million-to-prevent-ai-agent-on-the-intern-1d062f92.html"
+    },
+    "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/": {
+      "guid": "https://www.securityweek.com/?p=49768",
+      "fuente": "SecurityWeek",
+      "titulo": "Fortra Patches Critical Vulnerabilities in BoKS",
+      "fecha_publicacion_iso": "2026-10-03T11:34:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T14:19:44.813365+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-fortra-patches-critical-vulnerabilities-in-boks-42535cae.html"
+    },
+    "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html": {
+      "guid": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+      "fuente": "The Hacker News",
+      "titulo": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "fecha_publicacion_iso": "2026-10-03T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-03T14:19:44.813365+00:00",
+      "ruta_noticia": "/noticia/2026-10-03-the-state-of-cybersecurity-in-2026-key-segments-insights-and-3dc5273a.html"
     }
   }
 }
