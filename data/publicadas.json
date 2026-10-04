@@ -11303,6 +11303,46 @@
       "fecha_publicacion_iso": "2026-10-04T04:08:22+00:00",
       "fecha_agregada_iso": "2026-10-04T06:50:31.788362+00:00",
       "ruta_noticia": "/noticia/2026-10-04-entrevista-a-alejandro-acosta-un-developer-de-1-000-000-usd-72e965ec.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/nueva-vulnerabilidad-y-ataque-activo.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6310962873761189533",
+      "fuente": "Segu-Info",
+      "titulo": "Nueva vulnerabilidad y ataque activo a FortiMail",
+      "fecha_publicacion_iso": "2026-10-04T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-04T14:48:24.587181+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-nueva-vulnerabilidad-y-ataque-activo-a-fortimail-3cab99cd.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic asks Claude users to share voice data for AI model training",
+      "fecha_publicacion_iso": "2026-10-04T10:53:21+00:00",
+      "fecha_agregada_iso": "2026-10-04T14:48:24.587181+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-anthropic-asks-claude-users-to-share-voice-data-for-ai-model-9c966f73.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386597",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+      "fecha_publicacion_iso": "2026-10-04T08:00:19+00:00",
+      "fecha_agregada_iso": "2026-10-04T14:48:24.587181+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-week-in-review-researcher-breaks-into-microsoft-analytics-se-74e315ff.html"
+    },
+    "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html": {
+      "guid": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "fuente": "The Hacker News",
+      "titulo": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "fecha_publicacion_iso": "2026-10-04T07:22:05+00:00",
+      "fecha_agregada_iso": "2026-10-04T14:48:24.587181+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-shinyhunters-suspect-rey-reportedly-detained-in-jordan-helpi-9e761cdf.html"
+    },
+    "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "fecha_publicacion_iso": "2026-10-04T07:20:32+00:00",
+      "fecha_agregada_iso": "2026-10-04T14:48:24.587181+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-china-aligned-ta419-targets-u-s-ai-policy-experts-with-micro-453d2c53.html"
     }
   }
 }
