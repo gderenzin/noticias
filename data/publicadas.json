@@ -11351,6 +11351,14 @@
       "fecha_publicacion_iso": "2026-10-04T14:57:25+00:00",
       "fecha_agregada_iso": "2026-10-04T20:11:34.214099+00:00",
       "ruta_noticia": "/noticia/2026-10-04-trump-names-national-intelligence-director-jay-clayton-to-le-199ef7dd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-04T21:58:01+00:00",
+      "fecha_agregada_iso": "2026-10-04T23:58:17.726766+00:00",
+      "ruta_noticia": "/noticia/2026-10-04-citrix-patches-netscaler-saml-zero-day-exploited-in-attacks-5058e2f2.html"
     }
   }
 }
