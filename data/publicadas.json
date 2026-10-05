@@ -11359,6 +11359,46 @@
       "fecha_publicacion_iso": "2026-10-04T21:58:01+00:00",
       "fecha_agregada_iso": "2026-10-04T23:58:17.726766+00:00",
       "ruta_noticia": "/noticia/2026-10-04-citrix-patches-netscaler-saml-zero-day-exploited-in-attacks-5058e2f2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/drew-mccombs-cylerity-healthcare-fintech-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386415",
+      "fuente": "Help Net Security",
+      "titulo": "Three questions a hospital CISO should ask a healthcare fintech vendor",
+      "fecha_publicacion_iso": "2026-10-05T05:30:47+00:00",
+      "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-three-questions-a-hospital-ciso-should-ask-a-healthcare-fint-7c6cdd4d.html"
+    },
+    "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/": {
+      "guid": "https://www.securityweek.com/?p=49783",
+      "fuente": "SecurityWeek",
+      "titulo": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
+      "fecha_publicacion_iso": "2026-10-05T05:14:48+00:00",
+      "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-exploitation-of-citrix-netscaler-zero-day-hits-appliances-pa-7aea11ec.html"
+    },
+    "http://www.elladodelmal.com/2026/10/mareando-y-desalineando-un-asistente-ia.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-122110214141051017",
+      "fuente": "El Lado del Mal",
+      "titulo": "Mareando y Desalineando a un Asistente IA de una tienda de Mochilas.",
+      "fecha_publicacion_iso": "2026-10-05T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-mareando-y-desalineando-a-un-asistente-ia-de-una-tienda-de-m-2f9547e1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/keyorix-open-source-on-premise-secrets-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386438",
+      "fuente": "Help Net Security",
+      "titulo": "Keyorix: Open-source secrets management for teams that can’t use SaaS",
+      "fecha_publicacion_iso": "2026-10-05T05:00:57+00:00",
+      "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-keyorix-open-source-secrets-management-for-teams-that-cant-u-8dcc4480.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386450",
+      "fuente": "Help Net Security",
+      "titulo": "How RMM abuse gives attackers a way in that looks like business as usual",
+      "fecha_publicacion_iso": "2026-10-05T04:30:08+00:00",
+      "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-how-rmm-abuse-gives-attackers-a-way-in-that-looks-like-busin-0495970f.html"
     }
   }
 }
