@@ -11399,6 +11399,382 @@
       "fecha_publicacion_iso": "2026-10-05T04:30:08+00:00",
       "fecha_agregada_iso": "2026-10-05T07:03:33.001705+00:00",
       "ruta_noticia": "/noticia/2026-10-05-how-rmm-abuse-gives-attackers-a-way-in-that-looks-like-busin-0495970f.html"
+    },
+    "https://www.theregister.com/security/2026/10/05/fbi-confirms-multiple-arrests-related-to-shinyhunters-hack/5301178": {
+      "guid": "https://www.theregister.com/a/5301178",
+      "fuente": "The Register - Security",
+      "titulo": "FBI confirms 'multiple' arrests related to ShinyHunters hack",
+      "fecha_publicacion_iso": "2026-10-05T17:46:22+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-fbi-confirms-multiple-arrests-related-to-shinyhunters-hack-3e0fd500.html"
+    },
+    "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability": {
+      "guid": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability",
+      "fuente": "The Record",
+      "titulo": "US, Australia warn of latest Citrix vulnerability after NetScaler advisory",
+      "fecha_publicacion_iso": "2026-10-05T17:22:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-us-australia-warn-of-latest-citrix-vulnerability-after-netsc-a38fefba.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+      "fecha_publicacion_iso": "2026-10-05T17:19:53+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-iqvia-fined-7-8-million-for-failing-to-properly-anonymize-he-6a61b4fe.html"
+    },
+    "https://therecord.media/atb-ukraine-cyberattack-ransomware": {
+      "guid": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+      "fuente": "The Record",
+      "titulo": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data",
+      "fecha_publicacion_iso": "2026-10-05T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-ukraine-grocery-chain-atb-confirms-cyberattack-as-hackers-th-9824afb5.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
+      "fuente": "Dark Reading",
+      "titulo": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+      "fecha_publicacion_iso": "2026-10-05T15:52:59+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-chinese-hackers-impersonate-us-officials-for-ai-cyber-espion-1b809559.html"
+    },
+    "https://www.theregister.com/os-platforms/2026/10/05/debians-latest-kernel-security-update-has-1313-reasons-to-patch/5301124": {
+      "guid": "https://www.theregister.com/a/5301124",
+      "fuente": "The Register - Security",
+      "titulo": "Debian's latest kernel security update has 1,313 reasons to patch",
+      "fecha_publicacion_iso": "2026-10-05T15:35:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-debian-s-latest-kernel-security-update-has-1-313-reasons-to-f755965b.html"
+    },
+    "https://therecord.media/ransomware-university-illinois-chicago": {
+      "guid": "https://therecord.media/ransomware-university-illinois-chicago",
+      "fuente": "The Record",
+      "titulo": "University of Illinois Chicago affected by ransomware attack on medical school",
+      "fecha_publicacion_iso": "2026-10-05T15:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-university-of-illinois-chicago-affected-by-ransomware-attack-567f3a4f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+      "fuente": "BleepingComputer",
+      "titulo": "Denmark population registry data breach affects 8.8 million people",
+      "fecha_publicacion_iso": "2026-10-05T15:21:10+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-denmark-population-registry-data-breach-affects-8-8-million-7ebb9ff5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Dell System Update flaw lets hackers gain root privileges",
+      "fecha_publicacion_iso": "2026-10-05T14:53:06+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-new-dell-system-update-flaw-lets-hackers-gain-root-privilege-179f36c2.html"
+    },
+    "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/": {
+      "guid": "https://www.securityweek.com/?p=49809",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+      "fecha_publicacion_iso": "2026-10-05T14:26:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-google-narrows-open-source-bug-bounty-amid-wave-of-invalid-a-7c115c8f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "South Korea probes bank breaches amid suspected AI-powered attacks",
+      "fecha_publicacion_iso": "2026-10-05T14:22:12+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-south-korea-probes-bank-breaches-amid-suspected-ai-powered-a-68acfff9.html"
+    },
+    "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html": {
+      "guid": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "fecha_publicacion_iso": "2026-10-05T14:20:43+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-weekly-recap-netscaler-and-fortimail-0-days-ai-coding-leaks-acb91d74.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/milk-dragon-phishing-fake-discounts/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386781",
+      "fuente": "Help Net Security",
+      "titulo": "Fake brand discounts on social media prey on shoppers’ fear of missing out",
+      "fecha_publicacion_iso": "2026-10-05T13:55:15+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-fake-brand-discounts-on-social-media-prey-on-shoppers-fear-o-2ac7eea8.html"
+    },
+    "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network": {
+      "guid": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
+      "fuente": "The Record",
+      "titulo": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say",
+      "fecha_publicacion_iso": "2026-10-05T13:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-belarusian-hacktivists-spent-two-years-inside-russian-health-356db830.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/ltm-blueverse-agentraceiq/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386810",
+      "fuente": "Help Net Security",
+      "titulo": "LTM launches BlueVerse AgenTraceIQ to monitor AI agents and reverse unintended actions",
+      "fecha_publicacion_iso": "2026-10-05T13:37:51+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-ltm-launches-blueverse-agentraceiq-to-monitor-ai-agents-and-d38fcb4b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+      "fuente": "BleepingComputer",
+      "titulo": "tenfold CE: Our free Identity Governance tool just got 2 new features",
+      "fecha_publicacion_iso": "2026-10-05T13:33:42+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-tenfold-ce-our-free-identity-governance-tool-just-got-2-new-d06671b1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/stellar-cyber-7-0/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386803",
+      "fuente": "Help Net Security",
+      "titulo": "Stellar Cyber 7.0 adds measurable workflows for AI-powered SOCs",
+      "fecha_publicacion_iso": "2026-10-05T13:31:06+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-stellar-cyber-7-0-adds-measurable-workflows-for-ai-powered-s-1677656c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/malwarebytes-scam-link-check/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386824",
+      "fuente": "Help Net Security",
+      "titulo": "Malwarebytes Scam Link Check analyzes URLs and explains potential risks",
+      "fecha_publicacion_iso": "2026-10-05T13:30:28+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-malwarebytes-scam-link-check-analyzes-urls-and-explains-pote-9b7c097e.html"
+    },
+    "https://therecord.media/nikkei-cyberattack-japan-data": {
+      "guid": "https://therecord.media/nikkei-cyberattack-japan-data",
+      "fuente": "The Record",
+      "titulo": "Japanese media group Nikkei discloses intrusions targeting employees and users",
+      "fecha_publicacion_iso": "2026-10-05T13:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-japanese-media-group-nikkei-discloses-intrusions-targeting-e-e90d5692.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
+      "fuente": "BleepingComputer",
+      "titulo": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
+      "fecha_publicacion_iso": "2026-10-05T13:01:45+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-alleged-dev-of-ploutus-atm-malware-appears-in-us-court-after-68db8dae.html"
+    },
+    "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies": {
+      "guid": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies",
+      "fuente": "Dark Reading",
+      "titulo": "Need for Speed: AI-Driven Attacks Are Changing Security Strategies",
+      "fecha_publicacion_iso": "2026-10-05T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-need-for-speed-ai-driven-attacks-are-changing-security-strat-f64e40e8.html"
+    },
+    "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/": {
+      "guid": "https://www.securityweek.com/?p=49803",
+      "fuente": "SecurityWeek",
+      "titulo": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+      "fecha_publicacion_iso": "2026-10-05T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws-95691000.html"
+    },
+    "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/": {
+      "guid": "https://www.securityweek.com/?p=49805",
+      "fuente": "SecurityWeek",
+      "titulo": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
+      "fecha_publicacion_iso": "2026-10-05T12:35:15+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-250-000-impacted-by-data-breaches-at-new-jersey-texas-health-9a0ab446.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/removemacai-turn-off-apple-intelligence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386771",
+      "fuente": "Help Net Security",
+      "titulo": "RemoveMacAI turns off Apple Intelligence on macOS 27 and deletes its models",
+      "fecha_publicacion_iso": "2026-10-05T12:26:49+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-removemacai-turns-off-apple-intelligence-on-macos-27-and-del-4e02b55e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/el-ransomware-warlock-vulnera.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8771588983967156604",
+      "fuente": "Segu-Info",
+      "titulo": "El ransomware Warlock vulnera SharePoint en los sectores de agua y telecomunicaciones",
+      "fecha_publicacion_iso": "2026-10-05T11:58:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-el-ransomware-warlock-vulnera-sharepoint-en-los-sectores-de-ba86c3d9.html"
+    },
+    "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html": {
+      "guid": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "fecha_publicacion_iso": "2026-10-05T11:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-the-credential-layer-is-expanding-faster-than-security-teams-20616b5d.html"
+    },
+    "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html": {
+      "guid": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "fuente": "The Hacker News",
+      "titulo": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "fecha_publicacion_iso": "2026-10-05T11:46:25+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-realtek-jungle-sdk-exploit-attempts-deliver-cling-botnet-wit-9c6db5e8.html"
+    },
+    "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/": {
+      "guid": "https://www.securityweek.com/?p=49799",
+      "fuente": "SecurityWeek",
+      "titulo": "Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity",
+      "fecha_publicacion_iso": "2026-10-05T10:42:19+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-senate-passes-bipartisan-bill-to-strengthen-healthcare-cyber-60820682.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/exchange-server-vulnerability-cve-2026-96940/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386730",
+      "fuente": "Help Net Security",
+      "titulo": "Out-of-band Exchange Server update fixes high-severity mailbox access bug (CVE-2026-96940)",
+      "fecha_publicacion_iso": "2026-10-05T10:38:42+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-out-of-band-exchange-server-update-fixes-high-severity-mailb-55a5adef.html"
+    },
+    "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Out-of-band Exchange Server update fixes high-severity mailbox access bug (CVE-2026-96940)",
+      "fecha_publicacion_iso": "2026-10-05T10:38:42+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-out-of-band-exchange-server-update-fixes-high-severity-mailb-55a5adef.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI will show visual ads in ChatGPT while you generate images",
+      "fecha_publicacion_iso": "2026-10-05T10:28:45+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-openai-will-show-visual-ads-in-chatgpt-while-you-generate-im-c1bad441.html"
+    },
+    "https://cyberscoop.com/us-water-system-cybersecurity-ai-threats-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=90959",
+      "fuente": "CyberScoop",
+      "titulo": "The US needs a real plan to defend its water systems",
+      "fecha_publicacion_iso": "2026-10-05T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-the-us-needs-a-real-plan-to-defend-its-water-systems-22036833.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/makerphone-2-diy-4g-phone/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386704",
+      "fuente": "Help Net Security",
+      "titulo": "MAKERphone 2: A DIY 4G phone with plug-in camera, speaker and prototyping board",
+      "fecha_publicacion_iso": "2026-10-05T09:50:37+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-makerphone-2-a-diy-4g-phone-with-plug-in-camera-speaker-and-cb2650ab.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Windows KB5124010 update crashes some games and apps",
+      "fecha_publicacion_iso": "2026-10-05T09:37:56+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-microsoft-windows-kb5124010-update-crashes-some-games-and-ap-51dccb3c.html"
+    },
+    "https://www.theregister.com/security/2026/10/05/legacy-sign-on-service-comes-back-to-bite-school-software-provider-bromcom/5301156": {
+      "guid": "https://www.theregister.com/a/5301156",
+      "fuente": "The Register - Security",
+      "titulo": "Legacy sign-on service comes back to bite school software provider Bromcom",
+      "fecha_publicacion_iso": "2026-10-05T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-legacy-sign-on-service-comes-back-to-bite-school-software-pr-34a15892.html"
+    },
+    "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/": {
+      "guid": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google halts open-source bug bounty program amid AI spam surge",
+      "fecha_publicacion_iso": "2026-10-05T08:27:46+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-google-halts-open-source-bug-bounty-program-amid-ai-spam-sur-f66e772a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/macos-full-disk-access-updates/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386669",
+      "fuente": "Help Net Security",
+      "titulo": "Apple tightens macOS disk access as AI agents become more powerful",
+      "fecha_publicacion_iso": "2026-10-05T08:11:17+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-apple-tightens-macos-disk-access-as-ai-agents-become-more-po-52f3df6a.html"
+    },
+    "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html": {
+      "guid": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "fuente": "The Hacker News",
+      "titulo": "Apple tightens macOS disk access as AI agents become more powerful",
+      "fecha_publicacion_iso": "2026-10-05T08:11:17+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-apple-tightens-macos-disk-access-as-ai-agents-become-more-po-52f3df6a.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "fecha_publicacion_iso": "2026-10-05T08:09:23+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-attackers-target-rejetto-hfs-flaw-that-enables-admin-session-984946d5.html"
+    },
+    "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/": {
+      "guid": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "fecha_publicacion_iso": "2026-10-05T08:09:23+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-attackers-target-rejetto-hfs-flaw-that-enables-admin-session-984946d5.html"
+    },
+    "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/": {
+      "guid": "https://www.securityweek.com/?p=49786",
+      "fuente": "SecurityWeek",
+      "titulo": "Alleged ShinyHunters Leader Arrested in Jordan",
+      "fecha_publicacion_iso": "2026-10-05T07:16:53+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-alleged-shinyhunters-leader-arrested-in-jordan-9881d6bd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/shinyhunters-member-rey-detained-jordan-fbi/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/05/shinyhunters-member-rey-detained-jordan-fbi/",
+      "fuente": "Help Net Security",
+      "titulo": "Alleged ShinyHunters Leader Arrested in Jordan",
+      "fecha_publicacion_iso": "2026-10-05T07:16:53+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-alleged-shinyhunters-leader-arrested-in-jordan-9881d6bd.html"
+    },
+    "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html": {
+      "guid": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "fecha_publicacion_iso": "2026-10-05T06:40:19+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-new-netscaler-zero-day-exploited-in-targeted-attacks-can-kno-0c8dfb68.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
+      "fuente": "Help Net Security",
+      "titulo": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "fecha_publicacion_iso": "2026-10-05T06:40:19+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-new-netscaler-zero-day-exploited-in-targeted-attacks-can-kno-0c8dfb68.html"
+    },
+    "https://www.edpb.europa.eu/news/the-spanish-dpa-fined-securitas-direct-eur-100-000-for-making-the-exercise-of-data-subject_en": {
+      "guid": "688d1f26-1e12-479b-b01c-1dfe4a9559f0",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "The Spanish DPA fined Securitas Direct EUR 100 000 for making the exercise of data subject rights more difficult by directing individuals to a chargeable telephone number",
+      "fecha_publicacion_iso": "2026-09-22T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-the-spanish-dpa-fined-securitas-direct-eur-100-000-for-makin-8cf22cfa.html"
+    },
+    "https://www.edpb.europa.eu/news/failure-to-respect-the-rights-of-individuals-the-cnil-fined-extia-eur-300-000_en": {
+      "guid": "9cce9bb5-3b4a-441b-a006-9f0ca73ef17f",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Failure to respect the rights of individuals: The CNIL fined EXTIA EUR 300 000",
+      "fecha_publicacion_iso": "2026-09-11T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-failure-to-respect-the-rights-of-individuals-the-cnil-fined-b3553778.html"
+    },
+    "https://www.edpb.europa.eu/news/health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-eur-500-000_en": {
+      "guid": "a7b37093-b10c-4b07-9c01-53bf9f90e6bf",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Health data breach: the CNIL fined Hôpital Privé de la Loire EUR 500 000",
+      "fecha_publicacion_iso": "2026-09-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-100b6992.html"
     }
   }
 }
