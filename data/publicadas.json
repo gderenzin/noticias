@@ -11775,6 +11775,70 @@
       "fecha_publicacion_iso": "2026-09-09T12:00:00+00:00",
       "fecha_agregada_iso": "2026-10-05T18:29:45.501449+00:00",
       "ruta_noticia": "/noticia/2026-10-05-health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-100b6992.html"
+    },
+    "https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/": {
+      "guid": "https://cyberscoop.com/?p=90969",
+      "fuente": "CyberScoop",
+      "titulo": "Citrix discloses third actively exploited NetScaler zero-day in less than a week",
+      "fecha_publicacion_iso": "2026-10-05T23:07:17+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-citrix-discloses-third-actively-exploited-netscaler-zero-day-96873dc2.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
+      "fecha_publicacion_iso": "2026-10-05T22:46:33+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-t-158b0c0d.html"
+    },
+    "https://therecord.media/wikimedia-foundation-openai-agents-report": {
+      "guid": "https://therecord.media/wikimedia-foundation-openai-agents-report",
+      "fuente": "The Record",
+      "titulo": "Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool",
+      "fecha_publicacion_iso": "2026-10-05T21:26:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-wikimedia-foundation-openai-agents-tried-to-edit-pages-and-c-ef0c1b9d.html"
+    },
+    "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes": {
+      "guid": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+      "fuente": "Dark Reading",
+      "titulo": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+      "fecha_publicacion_iso": "2026-10-05T21:25:08+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-clingstun-turns-vulnerable-iot-devices-into-proxy-nodes-777d177a.html"
+    },
+    "https://www.theregister.com/security/2026/10/05/citrix-netscaler-security-snafus-get-even-worse-amid-more-0-day-reports/5301232": {
+      "guid": "https://www.theregister.com/a/5301232",
+      "fuente": "The Register - Security",
+      "titulo": "Citrix NetScaler security snafus get even worse amid more 0-day reports",
+      "fecha_publicacion_iso": "2026-10-05T21:18:48+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-citrix-netscaler-security-snafus-get-even-worse-amid-more-0-7e597d64.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+      "fecha_publicacion_iso": "2026-10-05T20:20:05+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-rejetto-hfs-servers-now-actively-scanned-for-critical-rce-fl-ac27d72d.html"
+    },
+    "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi": {
+      "guid": "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi",
+      "fuente": "The Record",
+      "titulo": "Alleged ShinyHunters member reportedly detained in Jordan, assisting law enforcement",
+      "fecha_publicacion_iso": "2026-10-05T19:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-alleged-shinyhunters-member-reportedly-detained-in-jordan-as-76475e60.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-en-microsoft.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8600298929211266520",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad crítica en Microsoft Exchange permite a atacantes autenticados leer buzones de otros usuarios (PARCHEA!)",
+      "fecha_publicacion_iso": "2026-10-05T18:39:26+00:00",
+      "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
+      "ruta_noticia": "/noticia/2026-10-05-vulnerabilidad-critica-en-microsoft-exchange-permite-a-ataca-9c045bb2.html"
     }
   }
 }
