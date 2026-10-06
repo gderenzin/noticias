@@ -11839,6 +11839,342 @@
       "fecha_publicacion_iso": "2026-10-05T18:39:26+00:00",
       "fecha_agregada_iso": "2026-10-06T01:48:16.709474+00:00",
       "ruta_noticia": "/noticia/2026-10-05-vulnerabilidad-critica-en-microsoft-exchange-permite-a-ataca-9c045bb2.html"
+    },
+    "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html": {
+      "guid": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+      "fecha_publicacion_iso": "2026-10-06T11:57:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-libreoffice-and-openoffice-flaws-let-malicious-spreadsheets-893051a9.html"
+    },
+    "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332": {
+      "guid": "https://www.theregister.com/a/5301332",
+      "fuente": "The Register - Security",
+      "titulo": "Asos app delivers a data leak threat instead of fast fashion",
+      "fecha_publicacion_iso": "2026-10-06T11:51:36+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion-4e716b80.html"
+    },
+    "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/": {
+      "guid": "https://www.securityweek.com/?p=49824",
+      "fuente": "SecurityWeek",
+      "titulo": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
+      "fecha_publicacion_iso": "2026-10-06T11:48:59+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-c3a90ebe.html"
+    },
+    "https://www.theregister.com/security/2026/10/06/denmarks-id-register-spills-more-peoples-details-than-the-country-has-residents/5301307": {
+      "guid": "https://www.theregister.com/a/5301307",
+      "fuente": "The Register - Security",
+      "titulo": "Denmark's ID register spills more people's details than the country has residents",
+      "fecha_publicacion_iso": "2026-10-06T11:46:48+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-denmark-s-id-register-spills-more-people-s-details-than-the-604124be.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+      "fuente": "BleepingComputer",
+      "titulo": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+      "fecha_publicacion_iso": "2026-10-06T11:31:48+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-wikimedia-rogue-openai-agents-behind-unauthorized-wikipedia-c9c765ca.html"
+    },
+    "https://cyberscoop.com/cisa-ot-cybersecurity-directive/": {
+      "guid": "https://cyberscoop.com/?p=90963",
+      "fuente": "CyberScoop",
+      "titulo": "Here’s how experts think CISA should tell agencies to protect OT",
+      "fecha_publicacion_iso": "2026-10-06T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-heres-how-experts-think-cisa-should-tell-agencies-to-protect-a3a14336.html"
+    },
+    "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html": {
+      "guid": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "fecha_publicacion_iso": "2026-10-06T11:26:25+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-wikimedia-says-openai-agents-tried-to-compromise-etherpad-an-41accce2.html"
+    },
+    "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html": {
+      "guid": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "fuente": "The Hacker News",
+      "titulo": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+      "fecha_publicacion_iso": "2026-10-06T11:02:30+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-welcome-to-the-jungle-what-we-found-inside-15-465-public-mcp-a47789ab.html"
+    },
+    "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/": {
+      "guid": "https://www.securityweek.com/?p=49821",
+      "fuente": "SecurityWeek",
+      "titulo": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
+      "fecha_publicacion_iso": "2026-10-06T11:01:35+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-cybersecurity-m-a-roundup-39-deals-announced-in-september-20-5f139a5c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386911",
+      "fuente": "Help Net Security",
+      "titulo": "Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360)",
+      "fecha_publicacion_iso": "2026-10-06T10:44:41+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-dell-system-update-flaw-allows-attackers-to-gain-root-privil-f65bac3c.html"
+    },
+    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": {
+      "guid": "https://www.securityweek.com/?p=49818",
+      "fuente": "SecurityWeek",
+      "titulo": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
+      "fecha_publicacion_iso": "2026-10-06T10:34:25+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-long-running-npm-malware-campaign-accumulates-40-000-downloa-812c2ef5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/ontinue-ion-dark-web-monitoring/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386905",
+      "fuente": "Help Net Security",
+      "titulo": "Ontinue extends ION MXDR with managed dark web monitoring",
+      "fecha_publicacion_iso": "2026-10-06T10:10:39+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-ontinue-extends-ion-mxdr-with-managed-dark-web-monitoring-9710caf9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/transcend-rails-brings-policy-enforcement-and-spending-controls-to-ai-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386901",
+      "fuente": "Help Net Security",
+      "titulo": "Transcend Rails brings policy enforcement and spending controls to AI agents",
+      "fecha_publicacion_iso": "2026-10-06T09:57:36+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-transcend-rails-brings-policy-enforcement-and-spending-contr-77d88ecf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/hack-the-box-ai-range-enterprise-edition/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386896",
+      "fuente": "Help Net Security",
+      "titulo": "Hack The Box helps enterprises evaluate AI agents for cybersecurity roles",
+      "fecha_publicacion_iso": "2026-10-06T09:45:46+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-hack-the-box-helps-enterprises-evaluate-ai-agents-for-cybers-18fd65f1.html"
+    },
+    "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/": {
+      "guid": "https://www.securityweek.com/?p=49815",
+      "fuente": "SecurityWeek",
+      "titulo": "8.8 Million Impacted by Data Breach at Denmark’s Central Person Register",
+      "fecha_publicacion_iso": "2026-10-06T09:38:30+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-8-8-million-impacted-by-data-breach-at-denmarks-central-pers-fc785617.html"
+    },
+    "https://www.theregister.com/security/2026/10/06/legacy-sign-on-service-comes-back-to-bite-school-software-provider-bromcom/5301156": {
+      "guid": "https://www.theregister.com/a/5301156",
+      "fuente": "The Register - Security",
+      "titulo": "Legacy sign-on service comes back to bite school software provider Bromcom",
+      "fecha_publicacion_iso": "2026-10-06T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-legacy-sign-on-service-comes-back-to-bite-school-software-pr-22e67f78.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/github-reviewbench-ai-code-review-benchmark/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386885",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub’s ReviewBench puts AI code reviewers to the test",
+      "fecha_publicacion_iso": "2026-10-06T09:29:31+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-githubs-reviewbench-puts-ai-code-reviewers-to-the-test-0868687c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+      "fecha_publicacion_iso": "2026-10-06T09:25:50+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-nikkei-discloses-breaches-of-employees-microsoft-google-emai-d25156e3.html"
+    },
+    "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html": {
+      "guid": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+      "fecha_publicacion_iso": "2026-10-06T09:21:47+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-google-pauses-oss-product-bug-bounty-rewards-after-surge-in-32fa12f7.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-la-plataforma-eloanapp-de-rdl-technologies": {
+      "guid": "613824 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en la plataforma eLoanApp de RDL Technologies",
+      "fecha_publicacion_iso": "2026-10-06T09:12:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-inyeccion-sql-en-la-plataforma-eloanapp-de-rdl-technologies-f8c683c9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/denmark-central-population-register-cpr-data-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386873",
+      "fuente": "Help Net Security",
+      "titulo": "Data breach at Denmark’s population register exposes 8.8 million people",
+      "fecha_publicacion_iso": "2026-10-06T09:05:34+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-data-breach-at-denmarks-population-register-exposes-8-8-mill-57027273.html"
+    },
+    "https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/": {
+      "guid": "https://www.securityweek.com/?p=49813",
+      "fuente": "SecurityWeek",
+      "titulo": "Social Engineering Detection Moves Into the Live Conversation",
+      "fecha_publicacion_iso": "2026-10-06T08:38:14+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-social-engineering-detection-moves-into-the-live-conversatio-a4f56bcf.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-vmware-6": {
+      "guid": "671088 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de VMware",
+      "fecha_publicacion_iso": "2026-10-06T08:36:54+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-multiples-vulnerabilidades-en-productos-de-vmware-82ec8c89.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/deserializacion-insegura-en-el-plugin-magento-2-de-truelayer": {
+      "guid": "671083 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Deserialización insegura en el plugin Magento 2 de TrueLayer",
+      "fecha_publicacion_iso": "2026-10-06T08:31:56+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-deserializacion-insegura-en-el-plugin-magento-2-de-truelayer-70db787a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+      "fuente": "BleepingComputer",
+      "titulo": "Engineer sentenced for locking over 3,000 devices on employer network",
+      "fecha_publicacion_iso": "2026-10-06T08:19:24+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-engineer-sentenced-for-locking-over-3-000-devices-on-employe-5480e932.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-sennala-garantias-para-incorporar-ia-a-sistemas-videovigilancia": {
+      "guid": "35d8717b-1c45-4fc8-a2cb-9387de7e04c9",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia",
+      "fecha_publicacion_iso": "2026-10-06T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-la-aepd-senala-las-garantias-para-incorporar-inteligencia-ar-7bb0152b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/autenticacion-incorrecta-en-integrated-lights-out-7-de-hpe": {
+      "guid": "671084 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Autenticación incorrecta en Integrated Lights-Out 7 de HPE",
+      "fecha_publicacion_iso": "2026-10-06T07:56:30+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-autenticacion-incorrecta-en-integrated-lights-out-7-de-hpe-0e338e65.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-generador-pseudoaleatorio-criptograficamente-debil-en-hfs-de-rejetto": {
+      "guid": "671082 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Uso de generador pseudoaleatorio criptográficamente débil en HFS de Rejetto",
+      "fecha_publicacion_iso": "2026-10-06T07:56:29+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-uso-de-generador-pseudoaleatorio-criptograficamente-debil-en-7d6f8b51.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-mediatek-0": {
+      "guid": "671079 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de MediaTek",
+      "fecha_publicacion_iso": "2026-10-06T07:56:28+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-multiples-vulnerabilidades-en-productos-de-mediatek-6049c630.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-memoria-en-productos-de-citrix": {
+      "guid": "671074 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de memoria en productos de Citrix",
+      "fecha_publicacion_iso": "2026-10-06T07:56:26+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-desbordamiento-de-memoria-en-productos-de-citrix-7fc3dfe9.html"
+    },
+    "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+      "fecha_publicacion_iso": "2026-10-06T06:58:56+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-critical-atlassian-flaw-lets-unauthenticated-attackers-read-f97880d7.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/acceso-arbitrario-archivos-en-productos-de-atlassian": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/acceso-arbitrario-archivos-en-productos-de-atlassian",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+      "fecha_publicacion_iso": "2026-10-06T06:58:56+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-critical-atlassian-flaw-lets-unauthenticated-attackers-read-f97880d7.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+      "fecha_publicacion_iso": "2026-10-06T06:56:57+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-fbi-removes-accenture-contractor-after-patch-failure-led-to-6053c8b5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/ann-barron-dicamillo-collective-cyber-defense/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386493",
+      "fuente": "Help Net Security",
+      "titulo": "U.S. Bank CISO says the security role keeps growing and no one can own all of it",
+      "fecha_publicacion_iso": "2026-10-06T06:00:54+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-u-s-bank-ciso-says-the-security-role-keeps-growing-and-no-on-4c371412.html"
+    },
+    "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html": {
+      "guid": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+      "fuente": "The Hacker News",
+      "titulo": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+      "fecha_publicacion_iso": "2026-10-06T06:00:30+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-denmark-says-attackers-accessed-cpr-data-for-8-8-million-peo-8337f336.html"
+    },
+    "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html": {
+      "guid": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+      "fuente": "The Hacker News",
+      "titulo": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+      "fecha_publicacion_iso": "2026-10-06T05:22:55+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-clickfix-smuggles-payloads-through-browser-cache-to-bypass-w-15810e44.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/reflections-beam-trails-top-open-models-on-coding-tests-but-claims-lower-inference-compute/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386861",
+      "fuente": "Help Net Security",
+      "titulo": "Reflection’s Beam trails top open models on coding tests but claims lower inference compute",
+      "fecha_publicacion_iso": "2026-10-06T05:22:28+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-reflections-beam-trails-top-open-models-on-coding-tests-but-0529c5c9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/passwork-nis2-credential-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386697",
+      "fuente": "Help Net Security",
+      "titulo": "NIS2 compliance: 7 low-cost steps to secure credentials",
+      "fecha_publicacion_iso": "2026-10-06T05:00:44+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-nis2-compliance-7-low-cost-steps-to-secure-credentials-2f92a28b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/06/product-showcase-webroot-mobile-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386772",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Webroot Mobile Security screens texts, blocks risky sites, and checks for data leaks",
+      "fecha_publicacion_iso": "2026-10-06T04:30:30+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-product-showcase-webroot-mobile-security-screens-texts-block-78767a8b.html"
+    },
+    "https://www.theregister.com/security/2026/10/06/atlassian-warns-of-critical-file-access-flaw-in-its-datacenter-products/5301284": {
+      "guid": "https://www.theregister.com/a/5301284",
+      "fuente": "The Register - Security",
+      "titulo": "Atlassian warns of critical file access flaw in its datacenter products",
+      "fecha_publicacion_iso": "2026-10-06T04:20:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-atlassian-warns-of-critical-file-access-flaw-in-its-datacent-818444d9.html"
+    },
+    "http://www.elladodelmal.com/2026/10/axyom-la-plataforma-del-gobierno-de-los.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-1868504749344566265",
+      "fuente": "El Lado del Mal",
+      "titulo": "Axyom: La Plataforma del Gobierno de los Ciberriesgos para PyMes",
+      "fecha_publicacion_iso": "2026-10-06T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-axyom-la-plataforma-del-gobierno-de-los-ciberriesgos-para-py-e8db23ed.html"
+    },
+    "https://www.theregister.com/offbeat/2026/10/06/security-researcher-claims-they-found-kvm-guest-host-escape-flaw/5301267": {
+      "guid": "https://www.theregister.com/a/5301267",
+      "fuente": "The Register - Security",
+      "titulo": "Security researcher claims they found KVM guest-host escape flaw",
+      "fecha_publicacion_iso": "2026-10-06T02:06:20+00:00",
+      "fecha_agregada_iso": "2026-10-06T12:07:22.440854+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-security-researcher-claims-they-found-kvm-guest-host-escape-7f65b6ed.html"
     }
   }
 }
