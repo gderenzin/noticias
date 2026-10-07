@@ -12559,6 +12559,398 @@
       "fecha_publicacion_iso": "2026-10-07T01:32:58+00:00",
       "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
       "ruta_noticia": "/noticia/2026-10-07-personal-information-for-over-1-million-people-stolen-in-a-c-4e888681.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-sennet-datalogger-serie-200-de-satel-iberia": {
+      "guid": "616904 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Path Traversal en SenNet Datalogger Serie 200 de Satel Iberia",
+      "fecha_publicacion_iso": "2026-10-07T15:56:22+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-path-traversal-en-sennet-datalogger-serie-200-de-satel-iberi-5e81c23d.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Outlook to block MSIX attachments starting November",
+      "fecha_publicacion_iso": "2026-10-07T15:44:22+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-microsoft-outlook-to-block-msix-attachments-starting-novembe-55445c13.html"
+    },
+    "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "fecha_publicacion_iso": "2026-10-07T15:34:53+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-unpatched-critical-lmcache-flaw-lets-unauthenticated-attacke-35545ae5.html"
+    },
+    "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/": {
+      "guid": "6aba893a7ea3dd9a2098dcc7",
+      "fuente": "Wired - Security",
+      "titulo": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+      "fecha_publicacion_iso": "2026-10-07T15:34:33+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-min-809a6d27.html"
+    },
+    "https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/": {
+      "guid": "https://cyberscoop.com/?p=90998",
+      "fuente": "CyberScoop",
+      "titulo": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
+      "fecha_publicacion_iso": "2026-10-07T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-techni-72f27989.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
+      "fecha_publicacion_iso": "2026-10-07T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-techni-72f27989.html"
+    },
+    "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html": {
+      "guid": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
+      "fecha_publicacion_iso": "2026-10-07T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-techni-72f27989.html"
+    },
+    "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672": {
+      "guid": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672",
+      "fuente": "The Register - Security",
+      "titulo": "PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem",
+      "fecha_publicacion_iso": "2026-10-07T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-poellm-malware-has-assembled-a-sweeping-botnet-taking-techni-72f27989.html"
+    },
+    "https://therecord.media/oklahoma-flock-ruing-supreme-court-chatrie-decision": {
+      "guid": "https://therecord.media/oklahoma-flock-ruing-supreme-court-chatrie-decision",
+      "fuente": "The Record",
+      "titulo": "Oklahoma judge’s Flock ruling shows the power of Supreme Court’s digital evidence decision",
+      "fecha_publicacion_iso": "2026-10-07T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-oklahoma-judges-flock-ruling-shows-the-power-of-supreme-cour-cc61925d.html"
+    },
+    "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/": {
+      "guid": "https://www.securityweek.com/?p=49860",
+      "fuente": "SecurityWeek",
+      "titulo": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts",
+      "fecha_publicacion_iso": "2026-10-07T14:15:20+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-georgia-power-alabama-power-data-breach-hits-400-000-account-ae71a5aa.html"
+    },
+    "https://therecord.media/cyber-experts-call-on-cisa-require-ot-security": {
+      "guid": "https://therecord.media/cyber-experts-call-on-cisa-require-ot-security",
+      "fuente": "The Record",
+      "titulo": "Cyber experts call on CISA to create mandatory federal OT rules",
+      "fecha_publicacion_iso": "2026-10-07T14:03:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-cyber-experts-call-on-cisa-to-create-mandatory-federal-ot-ru-2d9bc4bc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ransomware has a new target. Is your backup ready?",
+      "fecha_publicacion_iso": "2026-10-07T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-ransomware-has-a-new-target-is-your-backup-ready-aee878c8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/gremlin-foresight-ai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387066",
+      "fuente": "Help Net Security",
+      "titulo": "Gremlin Foresight AI finds system weaknesses and verifies the fixes",
+      "fecha_publicacion_iso": "2026-10-07T14:00:06+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-gremlin-foresight-ai-finds-system-weaknesses-and-verifies-th-d11fb91a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/imply-lumi/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387217",
+      "fuente": "Help Net Security",
+      "titulo": "Imply Lumi connects SIEM tools and AI agents to more security data",
+      "fecha_publicacion_iso": "2026-10-07T13:53:46+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-imply-lumi-connects-siem-tools-and-ai-agents-to-more-securit-860b1335.html"
+    },
+    "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach": {
+      "guid": "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach",
+      "fuente": "The Record",
+      "titulo": "Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach",
+      "fecha_publicacion_iso": "2026-10-07T13:49:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-senate-passes-healthcare-cybersecurity-bill-after-190-millio-96479323.html"
+    },
+    "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/": {
+      "guid": "https://krebsonsecurity.com/?p=74398",
+      "fuente": "Krebs on Security",
+      "titulo": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "fecha_publicacion_iso": "2026-10-07T13:48:45+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-shinyhunters-extorted-boeing-spin-off-prior-to-arrests-4d0ab1e7.html"
+    },
+    "https://www.securityweek.com/qilin-ransomware-suspect-arrested-in-japan-extradited-to-germany/": {
+      "guid": "https://www.securityweek.com/?p=49857",
+      "fuente": "SecurityWeek",
+      "titulo": "Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany",
+      "fecha_publicacion_iso": "2026-10-07T13:47:12+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-qilin-ransomware-suspect-arrested-in-japan-extradited-to-ger-62bfd032.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/vijil-diamond-adaptive-red-teaming-for-agents-dart/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387207",
+      "fuente": "Help Net Security",
+      "titulo": "Vijil DART tests AI agents for security flaws and policy violations",
+      "fecha_publicacion_iso": "2026-10-07T13:41:51+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-vijil-dart-tests-ai-agents-for-security-flaws-and-policy-vio-f21eef10.html"
+    },
+    "https://therecord.media/russia-cyberattacks-on-britain-putin-tax-graeme-downie": {
+      "guid": "https://therecord.media/russia-cyberattacks-on-britain-putin-tax-graeme-downie",
+      "fuente": "The Record",
+      "titulo": "Russian cyberattacks against UK are 'Putin Tax' costing $3.3 billion, says lawmaker",
+      "fecha_publicacion_iso": "2026-10-07T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-russian-cyberattacks-against-uk-are-putin-tax-costing-3-3-bi-405f0928.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/edgescan-atomic/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387200",
+      "fuente": "Help Net Security",
+      "titulo": "Edgescan Atomic validates attack paths with controlled AI testing",
+      "fecha_publicacion_iso": "2026-10-07T13:28:19+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-edgescan-atomic-validates-attack-paths-with-controlled-ai-te-2b076e82.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/trustero-ai-third-party-risk-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387190",
+      "fuente": "Help Net Security",
+      "titulo": "Trustero automates vendor document reviews with human approval",
+      "fecha_publicacion_iso": "2026-10-07T13:22:38+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-trustero-automates-vendor-document-reviews-with-human-approv-bf4bdb50.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/hoxhunt-respond/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387180",
+      "fuente": "Help Net Security",
+      "titulo": "Hoxhunt expands Respond to automate phishing investigations and email removal",
+      "fecha_publicacion_iso": "2026-10-07T13:12:35+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-hoxhunt-expands-respond-to-automate-phishing-investigations-196fde66.html"
+    },
+    "https://www.securityweek.com/hadrian-raises-40-million-to-expand-autonomous-offensive-security-platform/": {
+      "guid": "https://www.securityweek.com/?p=49854",
+      "fuente": "SecurityWeek",
+      "titulo": "Hadrian Raises $40 Million to Expand Autonomous Offensive Security Platform",
+      "fecha_publicacion_iso": "2026-10-07T13:06:10+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-hadrian-raises-40-million-to-expand-autonomous-offensive-sec-2bb51727.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/tanium-security-operations/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387172",
+      "fuente": "Help Net Security",
+      "titulo": "Tanium adds endpoint behavior detection and AI-assisted threat hunting",
+      "fecha_publicacion_iso": "2026-10-07T13:00:56+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-tanium-adds-endpoint-behavior-detection-and-ai-assisted-thre-10c3b246.html"
+    },
+    "https://therecord.media/fortibleed-warning-fbi-secret-service": {
+      "guid": "https://therecord.media/fortibleed-warning-fbi-secret-service",
+      "fuente": "The Record",
+      "titulo": "FBI, Secret Service add to warnings of FortiBleed credential stealing campaign",
+      "fecha_publicacion_iso": "2026-10-07T12:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fbi-secret-service-add-to-warnings-of-fortibleed-credential-1b1be579.html"
+    },
+    "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/": {
+      "guid": "https://www.securityweek.com/?p=49852",
+      "fuente": "SecurityWeek",
+      "titulo": "Advantest Discloses Data Breach Months After Ransomware Attack",
+      "fecha_publicacion_iso": "2026-10-07T12:37:24+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-advantest-discloses-data-breach-months-after-ransomware-atta-61acdfc9.html"
+    },
+    "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html": {
+      "guid": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+      "fecha_publicacion_iso": "2026-10-07T11:57:05+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-the-sixth-voice-of-the-ciso-data-shows-cyber-risk-has-moved-12e41dfb.html"
+    },
+    "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html": {
+      "guid": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "fecha_publicacion_iso": "2026-10-07T11:49:26+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-atlassian-data-center-flaw-draws-exploitation-attempts-withi-78d1d9b5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+      "fuente": "BleepingComputer",
+      "titulo": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "fecha_publicacion_iso": "2026-10-07T11:49:26+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-atlassian-data-center-flaw-draws-exploitation-attempts-withi-78d1d9b5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/exploitation-critical-atlassian-flaw-cve-2026-21589/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/07/exploitation-critical-atlassian-flaw-cve-2026-21589/",
+      "fuente": "Help Net Security",
+      "titulo": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "fecha_publicacion_iso": "2026-10-07T11:49:26+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-atlassian-data-center-flaw-draws-exploitation-attempts-withi-78d1d9b5.html"
+    },
+    "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html": {
+      "guid": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+      "fecha_publicacion_iso": "2026-10-07T11:42:24+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-what-is-agentic-pentesting-what-it-proves-and-where-it-stops-ecf0f242.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+      "fuente": "BleepingComputer",
+      "titulo": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+      "fecha_publicacion_iso": "2026-10-07T11:37:07+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateway-f28cb86d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/google-unauthorized-https-certificates-cctld-hijacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387136",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers hijack three country-code domain registries, obtain HTTPS certificates for Google domains",
+      "fecha_publicacion_iso": "2026-10-07T11:10:29+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-hackers-hijack-three-country-code-domain-registries-obtain-h-637cde09.html"
+    },
+    "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585": {
+      "guid": "https://www.theregister.com/a/5301585",
+      "fuente": "The Register - Security",
+      "titulo": "FortiBleed still a bleeding nuisance as FBI confirms ongoing attacks",
+      "fecha_publicacion_iso": "2026-10-07T10:52:09+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-2d9c395c.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "fuente": "The Hacker News",
+      "titulo": "FortiBleed still a bleeding nuisance as FBI confirms ongoing attacks",
+      "fecha_publicacion_iso": "2026-10-07T10:52:09+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-2d9c395c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/",
+      "fuente": "Help Net Security",
+      "titulo": "FortiBleed still a bleeding nuisance as FBI confirms ongoing attacks",
+      "fecha_publicacion_iso": "2026-10-07T10:52:09+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-2d9c395c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/advierte-que-fortibleed-sigue-activo.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/10/advierte-que-fortibleed-sigue-activo.html",
+      "fuente": "Segu-Info",
+      "titulo": "FortiBleed still a bleeding nuisance as FBI confirms ongoing attacks",
+      "fecha_publicacion_iso": "2026-10-07T10:52:09+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-2d9c395c.html"
+    },
+    "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49850",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome 155 Update Patches 247 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-07T10:51:57+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-chrome-155-update-patches-247-vulnerabilities-2322918b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+      "fuente": "BleepingComputer",
+      "titulo": "Musician sent to prison for $10 million streaming fraud using AI bots",
+      "fecha_publicacion_iso": "2026-10-07T10:35:15+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-musician-sent-to-prison-for-10-million-streaming-fraud-using-ccdbc3d0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Advantest confirms personal information stolen in ransomware attack",
+      "fecha_publicacion_iso": "2026-10-07T10:27:52+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-advantest-confirms-personal-information-stolen-in-ransomware-e8af9418.html"
+    },
+    "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/": {
+      "guid": "https://www.securityweek.com/?p=49846",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
+      "fecha_publicacion_iso": "2026-10-07T10:07:09+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-anthropic-introduces-3-tier-cyber-verification-program-for-a-69027c2a.html"
+    },
+    "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=49843",
+      "fuente": "SecurityWeek",
+      "titulo": "ASOS Confirms Cyberattack, Data Breach",
+      "fecha_publicacion_iso": "2026-10-07T09:46:20+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-asos-confirms-cyberattack-data-breach-d203b785.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-bugtrackernet": {
+      "guid": "672229 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en BugTracker.NET",
+      "fecha_publicacion_iso": "2026-10-07T08:09:19+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-multiples-vulnerabilidades-en-bugtracker-net-0e6c5711.html"
+    },
+    "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html": {
+      "guid": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+      "fecha_publicacion_iso": "2026-10-07T08:07:38+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-anthropic-expands-claude-access-for-vetted-cyber-teams-as-gl-c6065c24.html"
+    },
+    "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/": {
+      "guid": "https://www.securityweek.com/?p=49838",
+      "fuente": "SecurityWeek",
+      "titulo": "Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies",
+      "fecha_publicacion_iso": "2026-10-07T07:58:22+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-i-21989a43.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-sma-1000-de-sonicwall": {
+      "guid": "672236 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en SMA 1000 de SonicWall",
+      "fecha_publicacion_iso": "2026-10-07T07:01:31+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-multiples-vulnerabilidades-en-sma-1000-de-sonicwall-9bab1c11.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-3": {
+      "guid": "672235 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de HPE",
+      "fecha_publicacion_iso": "2026-10-07T07:01:30+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-multiples-vulnerabilidades-en-productos-de-hpe-2f2b409d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-android-de-octubre-de-2026": {
+      "guid": "672234 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Android de octubre de 2026",
+      "fecha_publicacion_iso": "2026-10-07T07:01:29+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-boletin-de-seguridad-de-android-de-octubre-de-2026-c09b4088.html"
+    },
+    "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html": {
+      "guid": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+      "fuente": "The Hacker News",
+      "titulo": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+      "fecha_publicacion_iso": "2026-10-07T06:57:54+00:00",
+      "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-100-compromised-websites-use-fake-cloudflare-checks-to-deliv-1958c70e.html"
     }
   }
 }
