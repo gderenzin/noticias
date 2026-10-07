@@ -12471,6 +12471,94 @@
       "fecha_publicacion_iso": "2026-10-06T18:24:25+00:00",
       "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
       "ruta_noticia": "/noticia/2026-10-06-linux-backdoors-impersonate-email-security-tools-to-evade-de-007c3190.html"
+    },
+    "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49836",
+      "fuente": "SecurityWeek",
+      "titulo": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-07T06:55:52+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-androids-october-2026-updates-patch-25-vulnerabilities-acc859ed.html"
+    },
+    "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/": {
+      "guid": "https://www.securityweek.com/?p=49834",
+      "fuente": "SecurityWeek",
+      "titulo": "Atlassian Patches Critical Vulnerability Affecting 8 Products",
+      "fecha_publicacion_iso": "2026-10-07T06:37:16+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-atlassian-patches-critical-vulnerability-affecting-8-product-32c92579.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386644",
+      "fuente": "Help Net Security",
+      "titulo": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs",
+      "fecha_publicacion_iso": "2026-10-07T05:30:59+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-ai-agent-gateway-open-source-tool-keeps-credentials-out-of-a-0e094bbf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/openssh-10-6-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387007",
+      "fuente": "Help Net Security",
+      "titulo": "OpenSSH 10.6 enables a post-quantum signature algorithm, so experimental keys need replacing",
+      "fecha_publicacion_iso": "2026-10-07T05:12:21+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-openssh-10-6-enables-a-post-quantum-signature-algorithm-so-e-865c5e53.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/hcl-software-ai-endpoint-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386910",
+      "fuente": "Help Net Security",
+      "titulo": "AI endpoint management: Visibility, compliance, and remediation",
+      "fecha_publicacion_iso": "2026-10-07T05:00:22+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-ai-endpoint-management-visibility-compliance-and-remediation-b5210115.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/ot-network-visibility-challenges/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386998",
+      "fuente": "Help Net Security",
+      "titulo": "Even with OT network visibility, critical infrastructure operators struggle with legacy equipment",
+      "fecha_publicacion_iso": "2026-10-07T04:50:20+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-even-with-ot-network-visibility-critical-infrastructure-oper-571c2ab4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/software-security-vulnerability-management-survey/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386661",
+      "fuente": "Help Net Security",
+      "titulo": "Automation, AI agents or people? Sorting out who handles each security finding",
+      "fecha_publicacion_iso": "2026-10-07T04:30:01+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-automation-ai-agents-or-people-sorting-out-who-handles-each-c2aee6f8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/07/x-org-server-fixed-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387013",
+      "fuente": "Help Net Security",
+      "titulo": "Check your X.Org server version because a dozen vulnerabilities have been patched",
+      "fecha_publicacion_iso": "2026-10-07T03:58:02+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-check-your-x-org-server-version-because-a-dozen-vulnerabilit-f6c19741.html"
+    },
+    "https://www.theregister.com/public-sector/2026/10/07/south-korean-president-calls-for-creation-of-tools-that-stop-all-cyber-attacks/5301533": {
+      "guid": "https://www.theregister.com/a/5301533",
+      "fuente": "The Register - Security",
+      "titulo": "South Korean president calls for creation of tools that stop all cyber-attacks",
+      "fecha_publicacion_iso": "2026-10-07T03:56:25+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-south-korean-president-calls-for-creation-of-tools-that-stop-81fd3991.html"
+    },
+    "http://www.elladodelmal.com/2026/10/sans-x-cloudflare-lisboa-28-de-octubre.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6819680108281565632",
+      "fuente": "El Lado del Mal",
+      "titulo": "SANS x Cloudflare Lisboa: 28 de Octubre",
+      "fecha_publicacion_iso": "2026-10-07T03:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-sans-x-cloudflare-lisboa-28-de-octubre-f1edf3e3.html"
+    },
+    "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/": {
+      "guid": "https://www.securityweek.com/?p=49832",
+      "fuente": "SecurityWeek",
+      "titulo": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
+      "fecha_publicacion_iso": "2026-10-07T01:32:58+00:00",
+      "fecha_agregada_iso": "2026-10-07T07:15:12.494591+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-personal-information-for-over-1-million-people-stolen-in-a-c-4e888681.html"
     }
   }
 }
