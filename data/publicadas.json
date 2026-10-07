@@ -12399,6 +12399,78 @@
       "fecha_publicacion_iso": "2026-10-06T04:00:00+00:00",
       "fecha_agregada_iso": "2026-10-06T18:56:41.304084+00:00",
       "ruta_noticia": "/noticia/2026-10-06-shares-in-british-clothing-company-asos-dive-after-hackers-a-c0b6f375.html"
+    },
+    "https://www.theregister.com/security/2026/10/07/anthropic-reconfigures-its-cool-kids-security-program/5301509": {
+      "guid": "https://www.theregister.com/a/5301509",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic reconfigures its cool kids security program",
+      "fecha_publicacion_iso": "2026-10-06T23:29:27+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-anthropic-reconfigures-its-cool-kids-security-program-9f73fae7.html"
+    },
+    "https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/": {
+      "guid": "https://cyberscoop.com/?p=90986",
+      "fuente": "CyberScoop",
+      "titulo": "Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks",
+      "fecha_publicacion_iso": "2026-10-06T21:03:58+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-alert-fortibleed-remains-active-campaign-can-lock-out-users-26ecf17f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+      "fecha_publicacion_iso": "2026-10-06T21:00:27+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites-20db3558.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+      "fuente": "Dark Reading",
+      "titulo": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+      "fecha_publicacion_iso": "2026-10-06T20:32:58+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-clickfix-attacks-evolve-to-better-hide-malicious-payloads-a923f641.html"
+    },
+    "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready": {
+      "guid": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+      "fuente": "Dark Reading",
+      "titulo": "Critical Healthcare Systems Aren't Quantum-Ready",
+      "fecha_publicacion_iso": "2026-10-06T20:30:27+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-critical-healthcare-systems-aren-t-quantum-ready-b53f151b.html"
+    },
+    "https://cyberscoop.com/california-cipa-pen-register-privacy-lawsuit-bill/": {
+      "guid": "https://cyberscoop.com/?p=90978",
+      "fuente": "CyberScoop",
+      "titulo": "Wiretapping change sparks big privacy fight in the Golden State",
+      "fecha_publicacion_iso": "2026-10-06T19:55:05+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-wiretapping-change-sparks-big-privacy-fight-in-the-golden-st-09828211.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+      "fecha_publicacion_iso": "2026-10-06T19:21:53+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland-20fd1067.html"
+    },
+    "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html": {
+      "guid": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "fecha_publicacion_iso": "2026-10-06T18:38:55+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-fake-chatgpt-gemini-and-claude-ad-portals-capture-credential-ec14eeb0.html"
+    },
+    "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html": {
+      "guid": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "fuente": "The Hacker News",
+      "titulo": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "fecha_publicacion_iso": "2026-10-06T18:24:25+00:00",
+      "fecha_agregada_iso": "2026-10-07T00:42:30.189570+00:00",
+      "ruta_noticia": "/noticia/2026-10-06-linux-backdoors-impersonate-email-security-tools-to-evade-de-007c3190.html"
     }
   }
 }
