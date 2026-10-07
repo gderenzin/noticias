@@ -12951,6 +12951,158 @@
       "fecha_publicacion_iso": "2026-10-07T06:57:54+00:00",
       "fecha_agregada_iso": "2026-10-07T16:31:17.526628+00:00",
       "ruta_noticia": "/noticia/2026-10-07-100-compromised-websites-use-fake-cloudflare-checks-to-deliv-1958c70e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/exploit-para-falla-critica-de-atlassian.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-673196100660130668",
+      "fuente": "Segu-Info",
+      "titulo": "Exploit para falla crítica de Atlassian que permite acceso admin a Jira",
+      "fecha_publicacion_iso": "2026-10-07T21:41:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-exploit-para-falla-critica-de-atlassian-que-permite-acceso-a-3759a891.html"
+    },
+    "https://www.wired.com/story/how-a-weirdly-chill-celebrity-thinks-about-personal-cybersecurity/": {
+      "guid": "6ac6a2559eb4b2b63a77db94",
+      "fuente": "Wired - Security",
+      "titulo": "How a (Weirdly Chill) Celebrity Thinks About Personal Cybersecurity",
+      "fecha_publicacion_iso": "2026-10-07T21:31:51+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-how-a-weirdly-chill-celebrity-thinks-about-personal-cybersec-089c37a7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+      "fecha_publicacion_iso": "2026-10-07T21:28:54+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins-3022a613.html"
+    },
+    "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives": {
+      "guid": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+      "fuente": "Dark Reading",
+      "titulo": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+      "fecha_publicacion_iso": "2026-10-07T21:25:13+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-citizen-lab-slams-trump-administration-techno-fascist-execut-40e5d1b4.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+      "fuente": "Dark Reading",
+      "titulo": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+      "fecha_publicacion_iso": "2026-10-07T20:51:25+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-anthropic-gives-vetted-defenders-fewer-claude-guardrails-e1600284.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers hijack Google domains after breaching ccTLD registries",
+      "fecha_publicacion_iso": "2026-10-07T20:50:13+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-hackers-hijack-google-domains-after-breaching-cctld-registri-e04d6e7c.html"
+    },
+    "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward": {
+      "guid": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
+      "fuente": "The Record",
+      "titulo": "US posts $10 million reward for accused Chinese ‘Hafnium’ hacker",
+      "fecha_publicacion_iso": "2026-10-07T19:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-us-posts-10-million-reward-for-accused-chinese-hafnium-hacke-393ca354.html"
+    },
+    "https://cyberscoop.com/federal-contractors-cui-cybersecurity-rules/": {
+      "guid": "https://cyberscoop.com/?p=91010",
+      "fuente": "CyberScoop",
+      "titulo": "Major rules for federal contractors handling sensitive data are nearing the finish line",
+      "fecha_publicacion_iso": "2026-10-07T19:44:56+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-major-rules-for-federal-contractors-handling-sensitive-data-9df69a99.html"
+    },
+    "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718": {
+      "guid": "https://www.theregister.com/a/5301718",
+      "fuente": "The Register - Security",
+      "titulo": "Attackers hijacked top-level domains, minted fake security certs for Google and other orgs",
+      "fecha_publicacion_iso": "2026-10-07T19:38:06+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-attackers-hijacked-top-level-domains-minted-fake-security-ce-9bfc9003.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+      "fuente": "Dark Reading",
+      "titulo": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+      "fecha_publicacion_iso": "2026-10-07T19:34:08+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-openai-agent-escape-causes-wikimedia-service-outage-67108884.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "fecha_publicacion_iso": "2026-10-07T18:48:17+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-attackers-hijack-gh-sl-and-as-registries-to-obtain-certifica-b9f5e1af.html"
+    },
+    "https://therecord.media/cyber-command-mental-health-support-program-bipartisan-letters": {
+      "guid": "https://therecord.media/cyber-command-mental-health-support-program-bipartisan-letters",
+      "fuente": "The Record",
+      "titulo": "$11 million plan for psychological support at Cyber Command gets fresh boost from lawmakers",
+      "fecha_publicacion_iso": "2026-10-07T18:35:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-11-million-plan-for-psychological-support-at-cyber-command-g-09d33497.html"
+    },
+    "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million": {
+      "guid": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
+      "fuente": "The Record",
+      "titulo": "Arizona courts say hackers stole info on more than 1.3 million people",
+      "fecha_publicacion_iso": "2026-10-07T18:31:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-arizona-courts-say-hackers-stole-info-on-more-than-1-3-milli-b729d4f8.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/xss-y-sqli-en-wordpress-cerremos-todo.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1733818301952547152",
+      "fuente": "Segu-Info",
+      "titulo": "XSS y SQLi en WordPress😅. Cerremos todo, actualiza y cambia de CMS",
+      "fecha_publicacion_iso": "2026-10-07T18:29:55+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-xss-y-sqli-en-wordpress-cerremos-todo-actualiza-y-cambia-de-f49aee4c.html"
+    },
+    "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html": {
+      "guid": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "fuente": "The Hacker News",
+      "titulo": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "fecha_publicacion_iso": "2026-10-07T17:43:20+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-eight-malicious-npm-packages-downloaded-40-767-times-deliver-9882c305.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687": {
+      "guid": "https://www.theregister.com/a/5301687",
+      "fuente": "The Register - Security",
+      "titulo": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
+      "fecha_publicacion_iso": "2026-10-07T17:42:06+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mo-5462f705.html"
+    },
+    "https://www.theregister.com/security/2026/10/07/us-states-sue-popular-kitmaker-tp-link-over-china-risks/5301653": {
+      "guid": "https://www.theregister.com/a/5301653",
+      "fuente": "The Register - Security",
+      "titulo": "US states sue popular kitmaker TP-Link over China risks",
+      "fecha_publicacion_iso": "2026-10-07T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-us-states-sue-popular-kitmaker-tp-link-over-china-risks-0a861f38.html"
+    },
+    "https://cyberscoop.com/fbi-french-authorities-seize-deepfake-csam-websites/": {
+      "guid": "https://cyberscoop.com/?p=91006",
+      "fuente": "CyberScoop",
+      "titulo": "FBI, French authorities seize deepfake CSAM-for-sale websites",
+      "fecha_publicacion_iso": "2026-10-07T17:05:56+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-fbi-french-authorities-seize-deepfake-csam-for-sale-websites-35ddbcb0.html"
+    },
+    "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html": {
+      "guid": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "fuente": "The Hacker News",
+      "titulo": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "fecha_publicacion_iso": "2026-10-07T16:17:44+00:00",
+      "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
+      "ruta_noticia": "/noticia/2026-10-07-sonicwall-patches-cvss-10-0-pre-authentication-ssrf-flaw-in-6ad8a15b.html"
     }
   }
 }
