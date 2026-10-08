@@ -13215,6 +13215,406 @@
       "fecha_publicacion_iso": "2026-10-07T21:42:55+00:00",
       "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
       "ruta_noticia": "/noticia/2026-10-08-australian-gov-t-weighs-mandatory-ai-incident-reporting-e63549e2.html"
+    },
+    "https://therecord.media/cryptocurrency-sim-swap-london": {
+      "guid": "https://therecord.media/cryptocurrency-sim-swap-london",
+      "fuente": "The Record",
+      "titulo": "Crypto thief who splurged on gold grills sentenced in London",
+      "fecha_publicacion_iso": "2026-10-08T15:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-crypto-thief-who-splurged-on-gold-grills-sentenced-in-london-3842ac95.html"
+    },
+    "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49883",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco Patches a Dozen Critical Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-08T15:28:06+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-cisco-patches-a-dozen-critical-vulnerabilities-26a56507.html"
+    },
+    "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html": {
+      "guid": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+      "fuente": "The Hacker News",
+      "titulo": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+      "fecha_publicacion_iso": "2026-10-08T15:26:56+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-uac-0099-targets-ukrainian-government-personnel-with-ashvein-597dc148.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco warns of critical flaws allowing Nexus switch takeover",
+      "fecha_publicacion_iso": "2026-10-08T15:26:33+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover-ec587411.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/sponsored-fighting-genai-with-genai-the-new-email-security-landscape/5301063": {
+      "guid": "https://www.theregister.com/a/5301063",
+      "fuente": "The Register - Security",
+      "titulo": "Fighting GenAI with GenAI: The New Email Security Landscape",
+      "fecha_publicacion_iso": "2026-10-08T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fighting-genai-with-genai-the-new-email-security-landscape-cb4c6f23.html"
+    },
+    "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": {
+      "guid": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
+      "fuente": "The Record",
+      "titulo": "Leaked chats show Russian extortion gang sending ‘agents’ into US law firms",
+      "fecha_publicacion_iso": "2026-10-08T14:46:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-leaked-chats-show-russian-extortion-gang-sending-agents-into-8a9796b2.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/el-kit-de-phishing-wazza-ataca-los.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7044743507020241324",
+      "fuente": "Segu-Info",
+      "titulo": "El kit de phishing Wazza ataca a los sectores bancario, gubernamental y manufacturero",
+      "fecha_publicacion_iso": "2026-10-08T14:32:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-el-kit-de-phishing-wazza-ataca-a-los-sectores-bancario-guber-48a4f868.html"
+    },
+    "https://www.securityweek.com/security-awareness-training-isnt-dead-but-it-needs-a-rethink/": {
+      "guid": "https://www.securityweek.com/?p=49788",
+      "fuente": "SecurityWeek",
+      "titulo": "Security Awareness Training Isn’t Dead, but It Needs a Rethink",
+      "fecha_publicacion_iso": "2026-10-08T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-security-awareness-training-isnt-dead-but-it-needs-a-rethink-906cc23c.html"
+    },
+    "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html": {
+      "guid": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+      "fuente": "The Hacker News",
+      "titulo": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+      "fecha_publicacion_iso": "2026-10-08T14:12:34+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-artex-ai-pentesting-tool-used-in-data-theft-attacks-on-south-f27324b6.html"
+    },
+    "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/": {
+      "guid": "https://www.securityweek.com/?p=49879",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
+      "fecha_publicacion_iso": "2026-10-08T14:04:44+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-attackers-target-critical-atlassian-vulnerability-within-hou-32658544.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+      "fuente": "BleepingComputer",
+      "titulo": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+      "fecha_publicacion_iso": "2026-10-08T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-oauth-grants-pile-up-faster-than-you-can-review-them-here-s-3e91a99d.html"
+    },
+    "https://therecord.media/south-korea-hackers-megachurches": {
+      "guid": "https://therecord.media/south-korea-hackers-megachurches",
+      "fuente": "The Record",
+      "titulo": "Hackers target two South Korean megachurches, potentially exposing congregant data",
+      "fecha_publicacion_iso": "2026-10-08T13:55:56+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-hackers-target-two-south-korean-megachurches-potentially-exp-195dd387.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "Uranium crypto exchange hacker convicted for stealing $53 million",
+      "fecha_publicacion_iso": "2026-10-08T13:18:36+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-uranium-crypto-exchange-hacker-convicted-for-stealing-53-mil-d5041744.html"
+    },
+    "https://therecord.media/cheap-androids-shipped-with-ad-fraud-malware": {
+      "guid": "https://therecord.media/cheap-androids-shipped-with-ad-fraud-malware",
+      "fuente": "The Record",
+      "titulo": "Thousands of cheap Android phones shipped with ad-fraud malware",
+      "fecha_publicacion_iso": "2026-10-08T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-thousands-of-cheap-android-phones-shipped-with-ad-fraud-malw-07931fc0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/nudeleaksteens-seized-fbi-france/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387356",
+      "fuente": "Help Net Security",
+      "titulo": "Authorities seize sites selling hacked, stolen intimate images of 17,000 women and girls",
+      "fecha_publicacion_iso": "2026-10-08T12:51:42+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-authorities-seize-sites-selling-hacked-stolen-intimate-image-1dc6bd94.html"
+    },
+    "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/": {
+      "guid": "https://www.securityweek.com/?p=49876",
+      "fuente": "SecurityWeek",
+      "titulo": "US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward",
+      "fecha_publicacion_iso": "2026-10-08T12:46:21+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-us-seeks-alleged-chinese-hafnium-hacker-with-10-million-rewa-5e059b2b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387370",
+      "fuente": "Help Net Security",
+      "titulo": "YouTubers targeted with fake sponsorships and “channel verification” phishing",
+      "fecha_publicacion_iso": "2026-10-08T12:41:43+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-youtubers-targeted-with-fake-sponsorships-and-channel-verifi-ad3c5bea.html"
+    },
+    "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49874",
+      "fuente": "SecurityWeek",
+      "titulo": "SonicWall and Splunk Patch Critical Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-08T12:37:32+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-sonicwall-and-splunk-patch-critical-vulnerabilities-86c0c058.html"
+    },
+    "https://therecord.media/russia-ukraine-malware-transportation": {
+      "guid": "https://therecord.media/russia-ukraine-malware-transportation",
+      "fuente": "The Record",
+      "titulo": "Russian-aligned spies upgrade malware used in attacks on Ukrainian transport, energy firms",
+      "fecha_publicacion_iso": "2026-10-08T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-russian-aligned-spies-upgrade-malware-used-in-attacks-on-ukr-71799ca3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Teams to get support for third-party deepfake detection tools",
+      "fecha_publicacion_iso": "2026-10-08T12:08:16+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-microsoft-teams-to-get-support-for-third-party-deepfake-dete-13cf6d2e.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
+      "fuente": "Dark Reading",
+      "titulo": "Writing the Next Chapter",
+      "fecha_publicacion_iso": "2026-10-08T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-writing-the-next-chapter-730868d2.html"
+    },
+    "https://www.edpb.europa.eu/news/swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-160-000-for-insufficient-technical_en": {
+      "guid": "c3539b51-1075-4bab-ba0f-c9332897135c",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Swedish DPA fines Miljödata i Karlskrona approximately EUR 160 000 for insufficient technical and organisational measures to ensure information security",
+      "fecha_publicacion_iso": "2026-10-08T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-1-9e595047.html"
+    },
+    "https://www.edpb.europa.eu/news/hellenic-dpa-decision-on-a-data-breach-involving-eetaa-sa-as-processor-for-the-ministry-of_en": {
+      "guid": "5939403e-a8cf-463f-a1e7-22617abf75a9",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Hellenic DPA decision on a data breach involving E.E.T.A.A. S.A. as processor for the Ministry of Social Cohesion and Family Affairs",
+      "fecha_publicacion_iso": "2026-10-08T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-hellenic-dpa-decision-on-a-data-breach-involving-e-e-t-a-a-s-d2f19c42.html"
+    },
+    "https://www.edpb.europa.eu/news/dutch-dpa-fines-uber-eur-824-990-000-for-unlawful-automated-decision-making-and-insufficient_en": {
+      "guid": "b7ce37b6-62ea-41f8-a4e6-5d7fb6620d40",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Dutch DPA fines Uber EUR 824 990 000 for unlawful automated decision-making and insufficient information on profiling",
+      "fecha_publicacion_iso": "2026-10-08T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-dutch-dpa-fines-uber-eur-824-990-000-for-unlawful-automated-5828ea99.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "ASOS links data breach to social engineering attack, credential theft",
+      "fecha_publicacion_iso": "2026-10-08T11:42:46+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-asos-links-data-breach-to-social-engineering-attack-credenti-0e1aec28.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/anthropic-claude-haiku-5-5/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387338",
+      "fuente": "Help Net Security",
+      "titulo": "Anthropic’s new budget model gets much better at ignoring hidden commands",
+      "fecha_publicacion_iso": "2026-10-08T11:24:16+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-anthropics-new-budget-model-gets-much-better-at-ignoring-hid-d014c994.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/uk-and-germany-team-up-against-russian-cyberattacks-as-brexit-rethink-looms/5301914": {
+      "guid": "https://www.theregister.com/a/5301914",
+      "fuente": "The Register - Security",
+      "titulo": "UK and Germany team up against Russian cyberattacks as Brexit rethink looms",
+      "fecha_publicacion_iso": "2026-10-08T11:22:01+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-uk-and-germany-team-up-against-russian-cyberattacks-as-brexi-ff7c8940.html"
+    },
+    "https://www.securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime/": {
+      "guid": "https://www.securityweek.com/?p=49872",
+      "fuente": "SecurityWeek",
+      "titulo": "Rein Security Raises $25 Million to Guard AI Agents at Runtime",
+      "fecha_publicacion_iso": "2026-10-08T11:11:28+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-rein-security-raises-25-million-to-guard-ai-agents-at-runtim-e003bc56.html"
+    },
+    "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html": {
+      "guid": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "fuente": "The Hacker News",
+      "titulo": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+      "fecha_publicacion_iso": "2026-10-08T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-wazza-phishkit-targets-banking-government-and-manufacturing-1aa8f388.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "Owner of Empire cybercrime market gets 40 years in prison",
+      "fecha_publicacion_iso": "2026-10-08T10:29:19+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-owner-of-empire-cybercrime-market-gets-40-years-in-prison-54060411.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/poellm-malware-github-poem-ai-servers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387324",
+      "fuente": "Help Net Security",
+      "titulo": "Cryptomining botnet hides C2 addresses in GitHub poem, infects over 3,400 servers",
+      "fecha_publicacion_iso": "2026-10-08T10:24:57+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-cryptomining-botnet-hides-c2-addresses-in-github-poem-infect-c218574b.html"
+    },
+    "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/": {
+      "guid": "https://www.securityweek.com/?p=49870",
+      "fuente": "SecurityWeek",
+      "titulo": "TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws",
+      "fecha_publicacion_iso": "2026-10-08T10:24:04+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-route-42506f6a.html"
+    },
+    "https://cyberscoop.com/quantum-computers-could-break-todays-encryption-washington-needs-to-prepare-now/": {
+      "guid": "https://cyberscoop.com/?p=90996",
+      "fuente": "CyberScoop",
+      "titulo": "Quantum computers could break today’s encryption. Washington needs to prepare now.",
+      "fecha_publicacion_iso": "2026-10-08T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-quantum-computers-could-break-todays-encryption-washington-n-2160c75a.html"
+    },
+    "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html": {
+      "guid": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+      "fecha_publicacion_iso": "2026-10-08T09:46:32+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-16-malicious-firefox-extensions-pose-as-rabby-and-okx-wallet-f31e2f04.html"
+    },
+    "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/": {
+      "guid": "https://www.securityweek.com/?p=49868",
+      "fuente": "SecurityWeek",
+      "titulo": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
+      "fecha_publicacion_iso": "2026-10-08T09:27:55+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fake-decryption-tools-masked-11m-markup-in-ransomware-recove-4ff5bacf.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-multiples-productos-de-frappe-technologies": {
+      "guid": "613825 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión de autenticación en múltiples productos de Frappe Technologies",
+      "fecha_publicacion_iso": "2026-10-08T09:23:39+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-omision-de-autenticacion-en-multiples-productos-de-frappe-te-1fa4401b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/github-push-protection-modernbert/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387303",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub adds AI to catch passwords before a code push",
+      "fecha_publicacion_iso": "2026-10-08T09:02:11+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-github-adds-ai-to-catch-passwords-before-a-code-push-b2ac89d8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/matchboil-malware-uac-0099/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387206",
+      "fuente": "Help Net Security",
+      "titulo": "What is MATCHBOIL? The Russia-aligned malware that installs a spying backdoor",
+      "fecha_publicacion_iso": "2026-10-08T09:00:54+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-what-is-matchboil-the-russia-aligned-malware-that-installs-a-a204ec49.html"
+    },
+    "https://www.wired.com/story/the-man-behind-a-west-bank-telegram-channel-trying-to-keep-palestinian-drivers-safe/": {
+      "guid": "6ac3e57d48bbca9e38e21c21",
+      "fuente": "Wired - Security",
+      "titulo": "The Man Behind a West Bank Telegram Channel Trying to Keep Palestinian Drivers Safe",
+      "fecha_publicacion_iso": "2026-10-08T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-the-man-behind-a-west-bank-telegram-channel-trying-to-keep-p-cf9d0606.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-segundo-numero-revista-cientifica-privacidad-innovacion-tecnologia": {
+      "guid": "9ef2e1f9-1fcd-4900-9763-e01f81c08b20",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’",
+      "fecha_publicacion_iso": "2026-10-08T08:36:45+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-la-aepd-publica-el-segundo-numero-de-la-revista-cientifica-p-00bd7976.html"
+    },
+    "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/": {
+      "guid": "https://www.securityweek.com/?p=49866",
+      "fuente": "SecurityWeek",
+      "titulo": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million",
+      "fecha_publicacion_iso": "2026-10-08T08:23:31+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-oracle-health-data-breach-tally-climbs-to-nearly-20-million-8f3c408d.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/cheapskates-wouldnt-pay-for-security-help-got-hit-by-ransomware-and-went-bust-months-later/5301757": {
+      "guid": "https://www.theregister.com/a/5301757",
+      "fuente": "The Register - Security",
+      "titulo": "Cheapskates wouldn't pay for security help, got hit by ransomware, and went bust months later",
+      "fecha_publicacion_iso": "2026-10-08T08:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-cheapskates-wouldn-t-pay-for-security-help-got-hit-by-ransom-ccf9fc33.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/monstercloud-owner-ransomware-fraud-charges/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387282",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware recovery firm boss charged with secretly paying attackers and overcharging victims",
+      "fecha_publicacion_iso": "2026-10-08T08:00:39+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-ransomware-recovery-firm-boss-charged-with-secretly-paying-a-fe3bb255.html"
+    },
+    "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/": {
+      "guid": "https://www.securityweek.com/?p=49863",
+      "fuente": "SecurityWeek",
+      "titulo": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
+      "fecha_publicacion_iso": "2026-10-08T07:52:33+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fortibleed-attackers-locking-victims-out-of-fortinet-devices-59c32e65.html"
+    },
+    "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html": {
+      "guid": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+      "fecha_publicacion_iso": "2026-10-08T07:42:04+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-u-s-offers-up-to-10-million-for-tips-on-zhang-yu-charged-in-1264e65f.html"
+    },
+    "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html": {
+      "guid": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+      "fuente": "The Hacker News",
+      "titulo": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+      "fecha_publicacion_iso": "2026-10-08T07:41:44+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-monstercloud-owner-accused-of-billing-over-19m-while-secretl-90f9f91d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-16": {
+      "guid": "672616 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-10-08T06:56:10+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-multiples-vulnerabilidades-en-productos-de-cisco-255d6957.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-splunk": {
+      "guid": "672614 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Splunk",
+      "fecha_publicacion_iso": "2026-10-08T06:56:07+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-multiples-vulnerabilidades-en-productos-de-splunk-4237a1d1.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-la-plataforma-de-demostracion-de-netboard-crm": {
+      "guid": "672613 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en la plataforma de demostración de NetBoard CRM",
+      "fecha_publicacion_iso": "2026-10-08T06:52:57+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-inyeccion-sql-en-la-plataforma-de-demostracion-de-netboard-c-ea4fd699.html"
+    },
+    "https://www.welivesecurity.com/es/malware/amatera-infostealer-en-aumento-america-latina/": {
+      "guid": "https://www.welivesecurity.com/es/malware/amatera-infostealer-en-aumento-america-latina/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Amatera: qué es y cómo funciona el infostealer que lidera las detecciones en América Latina",
+      "fecha_publicacion_iso": "2026-10-07T18:26:21+00:00",
+      "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-amatera-que-es-y-como-funciona-el-infostealer-que-lidera-las-298c1a0c.html"
     }
   }
 }
