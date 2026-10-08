@@ -13615,6 +13615,182 @@
       "fecha_publicacion_iso": "2026-10-07T18:26:21+00:00",
       "fecha_agregada_iso": "2026-10-08T16:33:22.660806+00:00",
       "ruta_noticia": "/noticia/2026-10-08-amatera-que-es-y-como-funciona-el-infostealer-que-lidera-las-298c1a0c.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107": {
+      "guid": "https://www.theregister.com/a/5302107",
+      "fuente": "The Register - Security",
+      "titulo": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
+      "fecha_publicacion_iso": "2026-10-08T21:59:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spi-dab4d8e4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "fecha_publicacion_iso": "2026-10-08T21:42:51+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-i-290af517.html"
+    },
+    "https://cyberscoop.com/764-leader-prasan-nepal-guilty/": {
+      "guid": "https://cyberscoop.com/?p=91047",
+      "fuente": "CyberScoop",
+      "titulo": "Leader of 764 pleads guilty, faces up to 30 years in prison",
+      "fecha_publicacion_iso": "2026-10-08T21:41:53+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-leader-of-764-pleads-guilty-faces-up-to-30-years-in-prison-305b75f7.html"
+    },
+    "https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/": {
+      "guid": "https://cyberscoop.com/?p=91043",
+      "fuente": "CyberScoop",
+      "titulo": "Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software",
+      "fecha_publicacion_iso": "2026-10-08T21:32:40+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-anthropic-rolls-out-program-for-long-term-commitment-to-secu-476b0edf.html"
+    },
+    "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt": {
+      "guid": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+      "fuente": "Dark Reading",
+      "titulo": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
+      "fecha_publicacion_iso": "2026-10-08T20:39:44+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-agentcorruption-puts-aws-environments-at-risk-with-single-pr-f5568cb9.html"
+    },
+    "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal": {
+      "guid": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal",
+      "fuente": "The Record",
+      "titulo": "Lawmakers warn Google could expose Spirit Airlines data in $10 million AI training deal",
+      "fecha_publicacion_iso": "2026-10-08T20:27:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-lawmakers-warn-google-could-expose-spirit-airlines-data-in-1-63be913f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "fecha_publicacion_iso": "2026-10-08T20:09:45+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-ransomware-attack-disrupts-japan-s-idcf-cloud-used-by-govt-c-b5d50481.html"
+    },
+    "https://cyberscoop.com/doj-fbi-seize-flax-typhoon-hacking-tools-microscan-fishhub/": {
+      "guid": "https://cyberscoop.com/?p=91038",
+      "fuente": "CyberScoop",
+      "titulo": "DOJ, FBI seize Flax Typhoon-linked hacking tools Microscan, FishHub",
+      "fecha_publicacion_iso": "2026-10-08T20:02:11+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-doj-fbi-seize-flax-typhoon-linked-hacking-tools-microscan-fi-b11f4b6c.html"
+    },
+    "https://cyberscoop.com/monstercloud-zohar-pinhasi-ransomware-recovery-scheme/": {
+      "guid": "https://cyberscoop.com/?p=91031",
+      "fuente": "CyberScoop",
+      "titulo": "Ransomware recovery CEO indicted after allegedly paying hackers and pocketing millions",
+      "fecha_publicacion_iso": "2026-10-08T19:44:29+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-ransomware-recovery-ceo-indicted-after-allegedly-paying-hack-c54275a5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Low-cost Android phones ship with residential proxy malware",
+      "fecha_publicacion_iso": "2026-10-08T19:20:33+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-low-cost-android-phones-ship-with-residential-proxy-malware-e491a4b1.html"
+    },
+    "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown": {
+      "guid": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown",
+      "fuente": "The Record",
+      "titulo": "International coalition seizes tools used by cyber firm behind Flax Typhoon",
+      "fecha_publicacion_iso": "2026-10-08T19:20:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-international-coalition-seizes-tools-used-by-cyber-firm-behi-4528bc37.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
+      "fuente": "Dark Reading",
+      "titulo": "Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting",
+      "fecha_publicacion_iso": "2026-10-08T19:08:16+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-venezuelan-cartel-s-malware-honcho-nabbed-for-atm-jackpottin-90f714ca.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+      "fecha_publicacion_iso": "2026-10-08T18:32:21+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fbi-says-china-linked-hackers-ran-portal-giving-third-partie-ffc305fa.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077": {
+      "guid": "https://www.theregister.com/a/5302077",
+      "fuente": "The Register - Security",
+      "titulo": "High-severity Nvidia bug could crash GPU monitoring on exposed servers",
+      "fecha_publicacion_iso": "2026-10-08T18:17:08+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-high-severity-nvidia-bug-could-crash-gpu-monitoring-on-expos-efdf2f4e.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift",
+      "fuente": "Dark Reading",
+      "titulo": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
+      "fecha_publicacion_iso": "2026-10-08T18:01:50+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-russian-spies-give-matchboil-malware-a-stealthy-facelift-6a96d5d7.html"
+    },
+    "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html": {
+      "guid": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+      "fecha_publicacion_iso": "2026-10-08T17:58:02+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-threatsday-ransomware-affiliate-betrayal-whatsapp-rat-expose-f8595042.html"
+    },
+    "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/": {
+      "guid": "https://cyberscoop.com/?p=91023",
+      "fuente": "CyberScoop",
+      "titulo": "OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media",
+      "fecha_publicacion_iso": "2026-10-08T17:44:43+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-openai-says-iran-russia-used-ai-journalists-think-tanks-to-i-ee680012.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+      "fuente": "BleepingComputer",
+      "titulo": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+      "fecha_publicacion_iso": "2026-10-08T17:10:55+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-fakegit-malware-campaign-returns-with-17-610-malicious-githu-e03acd2b.html"
+    },
+    "https://therecord.media/ransomware-recovery-charges-doj": {
+      "guid": "https://therecord.media/ransomware-recovery-charges-doj",
+      "fuente": "The Record",
+      "titulo": "DOJ charges ransomware recovery CEO for secretly paying hackers",
+      "fecha_publicacion_iso": "2026-10-08T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-doj-charges-ransomware-recovery-ceo-for-secretly-paying-hack-6582921e.html"
+    },
+    "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification": {
+      "guid": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
+      "fuente": "The Record",
+      "titulo": "ASOS: Hackers tricked way into employee account before sending rogue push notification",
+      "fecha_publicacion_iso": "2026-10-08T16:57:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-asos-hackers-tricked-way-into-employee-account-before-sendin-08181ca5.html"
+    },
+    "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054": {
+      "guid": "https://www.theregister.com/a/5302054",
+      "fuente": "The Register - Security",
+      "titulo": "Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise",
+      "fecha_publicacion_iso": "2026-10-08T16:54:48+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorl-40f621da.html"
+    },
+    "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html": {
+      "guid": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+      "fuente": "The Hacker News",
+      "titulo": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+      "fecha_publicacion_iso": "2026-10-08T15:45:56+00:00",
+      "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-japan-sees-sharp-rise-in-web-data-leaks-amid-mobile-api-abus-e23311ff.html"
     }
   }
 }
