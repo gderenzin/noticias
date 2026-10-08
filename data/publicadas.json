@@ -13103,6 +13103,118 @@
       "fecha_publicacion_iso": "2026-10-07T16:17:44+00:00",
       "fecha_agregada_iso": "2026-10-07T22:00:18.616678+00:00",
       "ruta_noticia": "/noticia/2026-10-07-sonicwall-patches-cvss-10-0-pre-authentication-ssrf-flaw-in-6ad8a15b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-fortimail-de-fortinet-0": {
+      "guid": "672615 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Path Traversal en FortiMail de Fortinet",
+      "fecha_publicacion_iso": "2026-10-08T06:56:09+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-path-traversal-en-fortimail-de-fortinet-3fdc20b1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+      "fuente": "BleepingComputer",
+      "titulo": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+      "fecha_publicacion_iso": "2026-10-08T06:32:16+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-irelan-3d5d5b5d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/ivan-milenkovic-qualys-cyber-risk-quantification/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387156",
+      "fuente": "Help Net Security",
+      "titulo": "Pricing your bad days and how to build an economic model for security decisions",
+      "fecha_publicacion_iso": "2026-10-08T06:00:01+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-pricing-your-bad-days-and-how-to-build-an-economic-model-for-a5bbf00b.html"
+    },
+    "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html": {
+      "guid": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+      "fecha_publicacion_iso": "2026-10-08T05:46:20+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-tensorlake-npm-package-compromised-to-deliver-shai-hulud-cre-6877a62a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/ai-surveillance-cameras-privacy/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387021",
+      "fuente": "Help Net Security",
+      "titulo": "Who watches the AI watching your street?",
+      "fecha_publicacion_iso": "2026-10-08T05:30:13+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-who-watches-the-ai-watching-your-street-10ac2a56.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/espresso-labs-ai-cybersecurity-compliance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386918",
+      "fuente": "Help Net Security",
+      "titulo": "How AI can fix cybersecurity compliance: From dashboards to continuous execution",
+      "fecha_publicacion_iso": "2026-10-08T05:00:08+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-how-ai-can-fix-cybersecurity-compliance-from-dashboards-to-c-c1afc7b9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387035",
+      "fuente": "Help Net Security",
+      "titulo": "The people who know passkeys best are still typing passwords",
+      "fecha_publicacion_iso": "2026-10-08T04:30:20+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-the-people-who-know-passkeys-best-are-still-typing-passwords-f2130ae5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387239",
+      "fuente": "Help Net Security",
+      "titulo": "Java library vulnerabilities: IBM and Red Hat fix 400+ previously unknown flaws",
+      "fecha_publicacion_iso": "2026-10-08T04:18:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-java-library-vulnerabilities-ibm-and-red-hat-fix-400-previou-10a79d7e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387155",
+      "fuente": "Help Net Security",
+      "titulo": "Medical devices patients rely on most are least prepared for quantum attacks",
+      "fecha_publicacion_iso": "2026-10-08T04:00:14+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-medical-devices-patients-rely-on-most-are-least-prepared-for-a073f38a.html"
+    },
+    "http://www.elladodelmal.com/2026/10/bug-bounty-de-profesion.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8786644418990812724",
+      "fuente": "El Lado del Mal",
+      "titulo": "Bug Bounty: De profesión \"Cazarrecompensas\". 2a Edición para la Era del IA.",
+      "fecha_publicacion_iso": "2026-10-08T03:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-bug-bounty-de-profesion-cazarrecompensas-2a-edicion-para-la-3a40248a.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/08/ransomware-fixer-claimed-he-could-decrypt-files-allegedly-defrauded-clients-instead/5301831": {
+      "guid": "https://www.theregister.com/a/5301831",
+      "fuente": "The Register - Security",
+      "titulo": "Ransomware fixer claimed he could decrypt files, allegedly defrauded clients instead",
+      "fecha_publicacion_iso": "2026-10-08T02:29:55+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-ransomware-fixer-claimed-he-could-decrypt-files-allegedly-de-2aed1598.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ransomware recovery CEO charged over secret ransom payments",
+      "fecha_publicacion_iso": "2026-10-07T23:04:37+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-ransomware-recovery-ceo-charged-over-secret-ransom-payments-054bfa86.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/08/cisco-quantum-network-controller-research-prototype/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387169",
+      "fuente": "Help Net Security",
+      "titulo": "Cisco quantum network controller lets apps order entanglement on demand",
+      "fecha_publicacion_iso": "2026-10-07T22:33:09+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-cisco-quantum-network-controller-lets-apps-order-entanglemen-2a46f5cd.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+      "fuente": "Dark Reading",
+      "titulo": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+      "fecha_publicacion_iso": "2026-10-07T21:42:55+00:00",
+      "fecha_agregada_iso": "2026-10-08T07:25:25.103088+00:00",
+      "ruta_noticia": "/noticia/2026-10-08-australian-gov-t-weighs-mandatory-ai-incident-reporting-e63549e2.html"
     }
   }
 }
