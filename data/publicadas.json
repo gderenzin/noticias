@@ -13879,6 +13879,366 @@
       "fecha_publicacion_iso": "2026-10-09T04:12:38+00:00",
       "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
       "ruta_noticia": "/noticia/2026-10-09-formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad-1838c6d3.html"
+    },
+    "https://therecord.media/leader-of-money-mule-operation-for-cybercriminals-pleads-guilty": {
+      "guid": "https://therecord.media/leader-of-money-mule-operation-for-cybercriminals-pleads-guilty",
+      "fuente": "The Record",
+      "titulo": "Leader of vast money mule operation that laundered cybercriminal proceeds pleads guilty",
+      "fecha_publicacion_iso": "2026-10-09T16:06:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-leader-of-vast-money-mule-operation-that-laundered-cybercrim-18c92151.html"
+    },
+    "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation": {
+      "guid": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
+      "fuente": "The Record",
+      "titulo": "FBI touts another ShinyHunters arrest in response to data breach",
+      "fecha_publicacion_iso": "2026-10-09T15:41:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-fbi-touts-another-shinyhunters-arrest-in-response-to-data-br-0419de82.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "fuente": "BleepingComputer",
+      "titulo": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "fecha_publicacion_iso": "2026-10-09T15:38:56+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-germany-arrests-alleged-core-qilin-ransomware-member-after-e-a107c939.html"
+    },
+    "https://olartemoure.com/ciberseguridad-y-datos-personales/": {
+      "guid": "https://olartemoure.com/?p=4430852",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Ciberseguridad y datos personales: obligaciones legales",
+      "fecha_publicacion_iso": "2026-10-09T15:36:38+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-ciberseguridad-y-datos-personales-obligaciones-legales-3a269319.html"
+    },
+    "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack": {
+      "guid": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
+      "fuente": "The Record",
+      "titulo": "Belarusian hacktivists admit to 2023 breach of Russian state healthcare network",
+      "fecha_publicacion_iso": "2026-10-09T14:40:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-belarusian-hacktivists-admit-to-2023-breach-of-russian-state-b6413b14.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+      "fuente": "BleepingComputer",
+      "titulo": "How to keep AI agents within their permissions",
+      "fecha_publicacion_iso": "2026-10-09T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-how-to-keep-ai-agents-within-their-permissions-1fa3e25e.html"
+    },
+    "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt": {
+      "guid": "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt",
+      "fuente": "The Record",
+      "titulo": "OpenAI says it disrupted Russian and Iranian influence ops that used ChatGPT",
+      "fecha_publicacion_iso": "2026-10-09T13:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-openai-says-it-disrupted-russian-and-iranian-influence-ops-t-e96ba9ba.html"
+    },
+    "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html": {
+      "guid": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "fuente": "The Hacker News",
+      "titulo": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "fecha_publicacion_iso": "2026-10-09T13:22:53+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-tp-link-sued-by-four-more-u-s-states-over-router-security-an-55864660.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
+      "fuente": "Dark Reading",
+      "titulo": "Social Engineering AI Agents: The New BEC for 2026",
+      "fecha_publicacion_iso": "2026-10-09T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-social-engineering-ai-agents-the-new-bec-for-2026-90f8d938.html"
+    },
+    "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html": {
+      "guid": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "fecha_publicacion_iso": "2026-10-09T12:59:22+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-researchers-publish-working-exploit-for-pre-auth-anydesk-lin-addcfda7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-09T12:32:16+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks-20b164c8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/nvidia-dcgm-exporter-vulnerability-cve-2026-47483/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387475",
+      "fuente": "Help Net Security",
+      "titulo": "High-severity NVIDIA vulnerability lets unauthenticated attackers crash GPU monitoring",
+      "fecha_publicacion_iso": "2026-10-09T12:26:42+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-high-severity-nvidia-vulnerability-lets-unauthenticated-atta-bcb22773.html"
+    },
+    "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html": {
+      "guid": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "fecha_publicacion_iso": "2026-10-09T12:21:51+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-flax-typhoon-exploits-five-flaws-as-cisa-sets-october-11-dea-83f86129.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-en-camaras-hikvision.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3519061855902185189",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad en cámaras Hikvision, objetivo de intentos de explotación para la ejecución remota de código",
+      "fecha_publicacion_iso": "2026-10-09T12:13:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-vulnerabilidad-en-camaras-hikvision-objetivo-de-intentos-de-5f503885.html"
+    },
+    "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": {
+      "guid": "https://www.securityweek.com/?p=49913",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
+      "fecha_publicacion_iso": "2026-10-09T12:03:50+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-in-other-news-ai-used-in-korean-bank-breaches-poem-guided-bo-a1b83b42.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-iqvia-eur-7-000-000-for-unlawful-processing-of-patients-health-data_en": {
+      "guid": "3035c441-55a8-4253-b236-6a7f39456d9d",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines IQVIA EUR 7 000 000 for unlawful processing of patients’ health data",
+      "fecha_publicacion_iso": "2026-10-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-italian-dpa-fines-iqvia-eur-7-000-000-for-unlawful-processin-516fc3c5.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-security-company-eur-39-000-for-violations-concerning-employees-data_en": {
+      "guid": "5dfe9804-f6e9-4c2b-b2a7-f4b145d23d03",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines security company EUR 39 000 for violations concerning employees’ data",
+      "fecha_publicacion_iso": "2026-10-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-italian-dpa-fines-security-company-eur-39-000-for-violations-38a14626.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-emirates-eur-180-000-for-infringements-concerning-passengers-health-data_en": {
+      "guid": "3ec2752a-f406-40b0-8fa7-df8e216c9966",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines Emirates EUR 180 000 for infringements concerning passengers’ health data",
+      "fecha_publicacion_iso": "2026-10-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-italian-dpa-fines-emirates-eur-180-000-for-infringements-con-4f773d1a.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-bbva-eur-5-508-000-for-failing-to-respect-a-customers-objection-to-direct_en": {
+      "guid": "a8ffc0a8-feab-474c-9193-7c4d4a52287e",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines BBVA EUR 5 508 000 for failing to respect a customer’s objection to direct marketing",
+      "fecha_publicacion_iso": "2026-10-09T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-italian-dpa-fines-bbva-eur-5-508-000-for-failing-to-respect-e9f673f0.html"
+    },
+    "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/": {
+      "guid": "https://www.securityweek.com/?p=49909",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Domains Impacted by Recent ccTLD Hijacks",
+      "fecha_publicacion_iso": "2026-10-09T11:43:14+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-google-domains-impacted-by-recent-cctld-hijacks-d7b13587.html"
+    },
+    "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html": {
+      "guid": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+      "fuente": "The Hacker News",
+      "titulo": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "fecha_publicacion_iso": "2026-10-09T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-the-ai-velocity-paradox-why-security-is-decades-behind-ai-am-b7ae45cc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
+      "fuente": "BleepingComputer",
+      "titulo": "Man admits to running network of 15,000 money mules for cybercriminals",
+      "fecha_publicacion_iso": "2026-10-09T11:14:28+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-man-admits-to-running-network-of-15-000-money-mules-for-cybe-fda7c383.html"
+    },
+    "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/": {
+      "guid": "https://www.securityweek.com/?p=49907",
+      "fuente": "SecurityWeek",
+      "titulo": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-10-09T10:23:42+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild-fb457f8b.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
+      "fecha_publicacion_iso": "2026-10-09T10:23:42+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild-fb457f8b.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Outdated Windows devices will stop receiving security updates",
+      "fecha_publicacion_iso": "2026-10-09T10:12:24+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-microsoft-outdated-windows-devices-will-stop-receiving-secur-787e17da.html"
+    },
+    "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/": {
+      "guid": "https://www.securityweek.com/?p=49905",
+      "fuente": "SecurityWeek",
+      "titulo": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
+      "fecha_publicacion_iso": "2026-10-09T09:55:35+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-pre-baked-firmware-malware-hits-budget-android-devices-in-15-83d9bbf4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387437",
+      "fuente": "Help Net Security",
+      "titulo": "Anthropic offers free AI security scans to open-source maintainers",
+      "fecha_publicacion_iso": "2026-10-09T09:55:24+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-anthropic-offers-free-ai-security-scans-to-open-source-maint-a125a4e2.html"
+    },
+    "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic offers free AI security scans to open-source maintainers",
+      "fecha_publicacion_iso": "2026-10-09T09:55:24+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-anthropic-offers-free-ai-security-scans-to-open-source-maint-a125a4e2.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-la-plataforma-ecommerce-de-beetienda": {
+      "guid": "610936 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting reflejado en la plataforma eCommerce de BeeTienda",
+      "fecha_publicacion_iso": "2026-10-09T09:54:04+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-cross-site-scripting-reflejado-en-la-plataforma-ecommerce-de-cb6064be.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387423",
+      "fuente": "Help Net Security",
+      "titulo": "FBI disrupts Flax Typhoon hacking tools used in global cyberattacks",
+      "fecha_publicacion_iso": "2026-10-09T09:44:44+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-fbi-disrupts-flax-typhoon-hacking-tools-used-in-global-cyber-e94516f5.html"
+    },
+    "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html": {
+      "guid": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+      "fuente": "The Hacker News",
+      "titulo": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+      "fecha_publicacion_iso": "2026-10-09T09:03:24+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-gobalance-flaw-lets-attackers-hijack-onion-addresses-by-reco-d32c756e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/product-showcase-simplelogin/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387420",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: SimpleLogin keeps your email address private with aliases",
+      "fecha_publicacion_iso": "2026-10-09T08:51:07+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-product-showcase-simplelogin-keeps-your-email-address-privat-34a5b95f.html"
+    },
+    "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/": {
+      "guid": "https://www.securityweek.com/?p=49902",
+      "fuente": "SecurityWeek",
+      "titulo": "US Disrupts Chinese State-Sponsored Hacking Tools",
+      "fecha_publicacion_iso": "2026-10-09T08:36:37+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-us-disrupts-chinese-state-sponsored-hacking-tools-88ecd409.html"
+    },
+    "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html": {
+      "guid": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+      "fecha_publicacion_iso": "2026-10-09T08:26:17+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-three-teams-demonstrate-remote-hacks-of-fully-patched-google-e3f3090f.html"
+    },
+    "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/": {
+      "guid": "https://www.securityweek.com/?p=49900",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
+      "fecha_publicacion_iso": "2026-10-09T08:19:33+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-66edd2ee.html"
+    },
+    "http://www.elladodelmal.com/2026/10/mypublicinbox-sexto-aniversario.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-1992077845786197984",
+      "fuente": "El Lado del Mal",
+      "titulo": "MyPublicInbox: Sexto Aniversario",
+      "fecha_publicacion_iso": "2026-10-09T07:33:37+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-mypublicinbox-sexto-aniversario-25918125.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-intelligent-management-center-de-hpe": {
+      "guid": "673212 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión de autenticación en Intelligent Management Center de HPE",
+      "fecha_publicacion_iso": "2026-10-09T07:23:27+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-omision-de-autenticacion-en-intelligent-management-center-de-fd69961e.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-memoria-en-netscaler-adc-y-netscaler-gateway-de-citrix": {
+      "guid": "673211 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de memoria en NetScaler ADC y NetScaler Gateway de Citrix",
+      "fecha_publicacion_iso": "2026-10-09T07:23:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-desbordamiento-de-memoria-en-netscaler-adc-y-netscaler-gatew-b95e508d.html"
+    },
+    "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html": {
+      "guid": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Desbordamiento de memoria en NetScaler ADC y NetScaler Gateway de Citrix",
+      "fecha_publicacion_iso": "2026-10-09T07:23:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-desbordamiento-de-memoria-en-netscaler-adc-y-netscaler-gatew-b95e508d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+      "fuente": "BleepingComputer",
+      "titulo": "Desbordamiento de memoria en NetScaler ADC y NetScaler Gateway de Citrix",
+      "fecha_publicacion_iso": "2026-10-09T07:23:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-desbordamiento-de-memoria-en-netscaler-adc-y-netscaler-gatew-b95e508d.html"
+    },
+    "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212": {
+      "guid": "https://www.theregister.com/security/2026/10/09/citrix-gives-netscaler-admins-another-critical-reason-to-patch/5302212",
+      "fuente": "The Register - Security",
+      "titulo": "Desbordamiento de memoria en NetScaler ADC y NetScaler Gateway de Citrix",
+      "fecha_publicacion_iso": "2026-10-09T07:23:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-desbordamiento-de-memoria-en-netscaler-adc-y-netscaler-gatew-b95e508d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-comandos-en-tenable-identity-exposure-de-tenable": {
+      "guid": "673210 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección de comandos en Tenable Identity Exposure de Tenable",
+      "fecha_publicacion_iso": "2026-10-09T07:23:24+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-inyeccion-de-comandos-en-tenable-identity-exposure-de-tenabl-03ea9b60.html"
+    },
+    "https://therecord.media/co-creator-empire-dark-net-market-sentenced": {
+      "guid": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
+      "fuente": "The Record",
+      "titulo": "Co-creator of Empire Market dark web marketplace given 40-year sentence",
+      "fecha_publicacion_iso": "2026-10-09T00:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-co-creator-of-empire-market-dark-web-marketplace-given-40-ye-f017826f.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/matchboil-malware-uac-0099-evolucion/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/matchboil-malware-uac-0099-evolucion/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "MATCHBOIL: nuevos trucos, las mismas intenciones maliciosas",
+      "fecha_publicacion_iso": "2026-10-08T16:56:28+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-matchboil-nuevos-trucos-las-mismas-intenciones-maliciosas-b6dc9464.html"
+    },
+    "https://www.edpb.europa.eu/news/the-spanish-dpa-fines-securitas-direct-eur-100-000-for-making-the-exercise-of-data-subject_en": {
+      "guid": "688d1f26-1e12-479b-b01c-1dfe4a9559f0",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "The Spanish DPA fines Securitas Direct EUR 100 000 for making the exercise of data subject rights more difficult by directing individuals to a chargeable telephone number",
+      "fecha_publicacion_iso": "2026-09-22T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-the-spanish-dpa-fines-securitas-direct-eur-100-000-for-makin-b8d75fed.html"
     }
   }
 }
