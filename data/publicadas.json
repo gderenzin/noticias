@@ -14239,6 +14239,126 @@
       "fecha_publicacion_iso": "2026-09-22T12:00:00+00:00",
       "fecha_agregada_iso": "2026-10-09T16:14:56.427724+00:00",
       "ruta_noticia": "/noticia/2026-10-09-the-spanish-dpa-fines-securitas-direct-eur-100-000-for-makin-b8d75fed.html"
+    },
+    "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/": {
+      "guid": "https://www.securityweek.com/?p=49922",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
+      "fecha_publicacion_iso": "2026-10-09T21:07:46+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-openai-fires-3-safety-researchers-in-dispute-over-ai-risks-074da747.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
+      "fuente": "Dark Reading",
+      "titulo": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+      "fecha_publicacion_iso": "2026-10-09T20:58:32+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-asos-breach-reveals-the-risks-in-customer-facing-saas-edcc711b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "fecha_publicacion_iso": "2026-10-09T20:31:37+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-hackers-abuse-google-ads-bing-redirects-to-push-claude-click-c85e183a.html"
+    },
+    "https://olartemoure.com/cambios-en-la-sic/": {
+      "guid": "https://olartemoure.com/?p=4430883",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Cambios en la SIC nombramientos y propiedad industrial",
+      "fecha_publicacion_iso": "2026-10-09T20:19:04+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-cambios-en-la-sic-nombramientos-y-propiedad-industrial-d4af72f2.html"
+    },
+    "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom": {
+      "guid": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
+      "fuente": "Dark Reading",
+      "titulo": "AI Scramble Drives Cybersecurity M&amp;A Boom",
+      "fecha_publicacion_iso": "2026-10-09T19:26:26+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-ai-scramble-drives-cybersecurity-m-amp-a-boom-7a7f58a8.html"
+    },
+    "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436": {
+      "guid": "https://www.theregister.com/a/5302436",
+      "fuente": "The Register - Security",
+      "titulo": "AWS AgentCore security undone by prompt requesting credentials",
+      "fecha_publicacion_iso": "2026-10-09T19:15:48+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-aws-agentcore-security-undone-by-prompt-requesting-credentia-924aea9b.html"
+    },
+    "https://thehackernews.com/2026/10/credential-stealing-github-actions.html": {
+      "guid": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "fuente": "The Hacker News",
+      "titulo": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "fecha_publicacion_iso": "2026-10-09T19:14:28+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-credential-stealing-github-actions-workflows-planted-in-tens-fbb46766.html"
+    },
+    "https://therecord.media/japan-germany-ransomware-arrest": {
+      "guid": "https://therecord.media/japan-germany-ransomware-arrest",
+      "fuente": "The Record",
+      "titulo": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
+      "fecha_publicacion_iso": "2026-10-09T18:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-japan-confirms-arrest-of-russian-qilin-operative-extradition-29cdd129.html"
+    },
+    "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack": {
+      "guid": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+      "fuente": "Dark Reading",
+      "titulo": "What We Missed: FBI Strikes Back at ShinyHunters",
+      "fecha_publicacion_iso": "2026-10-09T17:21:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-what-we-missed-fbi-strikes-back-at-shinyhunters-5d21e50f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "fuente": "BleepingComputer",
+      "titulo": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "fecha_publicacion_iso": "2026-10-09T17:17:23+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-14225bda.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "fecha_publicacion_iso": "2026-10-09T17:02:29+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-fbi-arrests-another-suspected-shinyhunters-hacker-after-agen-3e81c739.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "fecha_publicacion_iso": "2026-10-09T17:02:29+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-fbi-arrests-another-suspected-shinyhunters-hacker-after-agen-3e81c739.html"
+    },
+    "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html": {
+      "guid": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "fuente": "The Hacker News",
+      "titulo": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "fecha_publicacion_iso": "2026-10-09T16:29:55+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-p7-darksword-ios-exploit-kit-adds-crypto-wallet-data-theft-a-dc7b54e8.html"
+    },
+    "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too": {
+      "guid": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too",
+      "fuente": "Dark Reading",
+      "titulo": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
+      "fecha_publicacion_iso": "2026-10-09T16:25:05+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-security-threats-don-t-stop-at-the-office-why-executives-fam-3a2f3756.html"
+    },
+    "https://therecord.media/irhythm-data-breach-reports": {
+      "guid": "https://therecord.media/irhythm-data-breach-reports",
+      "fuente": "The Record",
+      "titulo": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm",
+      "fecha_publicacion_iso": "2026-10-09T16:06:00+00:00",
+      "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-hundreds-of-thousands-impacted-by-data-breach-at-biosensor-f-10b8bb25.html"
     }
   }
 }
