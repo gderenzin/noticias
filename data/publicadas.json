@@ -13791,6 +13791,94 @@
       "fecha_publicacion_iso": "2026-10-08T15:45:56+00:00",
       "fecha_agregada_iso": "2026-10-08T22:07:04.077763+00:00",
       "ruta_noticia": "/noticia/2026-10-08-japan-sees-sharp-rise-in-web-data-leaks-amid-mobile-api-abus-e23311ff.html"
+    },
+    "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=49896",
+      "fuente": "SecurityWeek",
+      "titulo": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+      "fecha_publicacion_iso": "2026-10-09T06:53:53+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-citrix-urges-immediate-patching-of-critical-netscaler-vulner-ecaa20e5.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+      "fecha_publicacion_iso": "2026-10-09T06:39:29+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-fbi-seizes-7-domains-disrupts-flax-typhoon-tools-used-in-cri-5448277f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/october-2026-patch-tuesday-forecast/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387409",
+      "fuente": "Help Net Security",
+      "titulo": "October 2026 Patch Tuesday forecast: Time for an Office cleanup",
+      "fecha_publicacion_iso": "2026-10-09T06:32:58+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-october-2026-patch-tuesday-forecast-time-for-an-office-clean-0952e661.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/christiaan-beek-rapid7-bpfdoor-backdoor/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387258",
+      "fuente": "Help Net Security",
+      "titulo": "What the BPFDoor backdoor tells us about attacks on the network edge",
+      "fecha_publicacion_iso": "2026-10-09T06:00:22+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-what-the-bpfdoor-backdoor-tells-us-about-attacks-on-the-netw-ae72ff0a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "fecha_publicacion_iso": "2026-10-09T05:41:04+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-hackers-get-1-262-000-for-98-zero-days-at-pwn2own-ireland-ca5ab3cf.html"
+    },
+    "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/": {
+      "guid": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "fecha_publicacion_iso": "2026-10-09T05:41:04+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-hackers-get-1-262-000-for-98-zero-days-at-pwn2own-ireland-ca5ab3cf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/eu-renewable-energy-cybersecurity/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387246",
+      "fuente": "Help Net Security",
+      "titulo": "Thousands of wind and solar park systems sit exposed on the internet across Europe",
+      "fecha_publicacion_iso": "2026-10-09T05:30:52+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-thousands-of-wind-and-solar-park-systems-sit-exposed-on-the-3d35d7c4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/pci-ssc-payment-environments-ai-security-guidance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387393",
+      "fuente": "Help Net Security",
+      "titulo": "PCI SSC calls for human approval of AI agent actions involving cardholder data",
+      "fecha_publicacion_iso": "2026-10-09T05:00:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-pci-ssc-calls-for-human-approval-of-ai-agent-actions-involvi-46508311.html"
+    },
+    "https://www.wired.com/story/ice-agent-at-nyc-shooting-has-history-of-alleged-violence-and-illegal-arrests/": {
+      "guid": "6ac814f3342bef828efb2d0b",
+      "fuente": "Wired - Security",
+      "titulo": "ICE Agent at NYC Shooting Has History of Alleged Violence and Illegal Arrests",
+      "fecha_publicacion_iso": "2026-10-09T04:46:11+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-ice-agent-at-nyc-shooting-has-history-of-alleged-violence-an-68a77110.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/09/move-toward-autonomous-it-operations/": {
+      "guid": "https://www.helpnetsecurity.com/?p=386743",
+      "fuente": "Help Net Security",
+      "titulo": "Companies want autonomous IT operations but hesitate to let AI act alone",
+      "fecha_publicacion_iso": "2026-10-09T04:30:25+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-companies-want-autonomous-it-operations-but-hesitate-to-let-814f3d74.html"
+    },
+    "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/": {
+      "guid": "https://www.securityweek.com/?p=49891",
+      "fuente": "SecurityWeek",
+      "titulo": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
+      "fecha_publicacion_iso": "2026-10-09T04:12:38+00:00",
+      "fecha_agregada_iso": "2026-10-09T07:24:24.342290+00:00",
+      "ruta_noticia": "/noticia/2026-10-09-formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad-1838c6d3.html"
     }
   }
 }
