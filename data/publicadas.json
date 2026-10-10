@@ -14359,6 +14359,30 @@
       "fecha_publicacion_iso": "2026-10-09T16:06:00+00:00",
       "fecha_agregada_iso": "2026-10-09T21:42:28.268294+00:00",
       "ruta_noticia": "/noticia/2026-10-09-hundreds-of-thousands-impacted-by-data-breach-at-biosensor-f-10b8bb25.html"
+    },
+    "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/": {
+      "guid": "https://krebsonsecurity.com/?p=74440",
+      "fuente": "Krebs on Security",
+      "titulo": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "fecha_publicacion_iso": "2026-10-10T00:17:42+00:00",
+      "fecha_agregada_iso": "2026-10-10T07:06:04.015781+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-fbi-arrests-founder-of-ransomware-negotiation-firm-7f5dd566.html"
+    },
+    "http://www.elladodelmal.com/2026/10/naked-sun-fragmented-jailbreak-attacks.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8050181037424863278",
+      "fuente": "El Lado del Mal",
+      "titulo": "Naked Sun: Fragmented Jailbreak Attacks in Multi-Agents & Jailbreak Monitor (JAMON)",
+      "fecha_publicacion_iso": "2026-10-09T22:29:04+00:00",
+      "fecha_agregada_iso": "2026-10-10T07:06:04.015781+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-naked-sun-fragmented-jailbreak-attacks-in-multi-agents-jailb-72fd0a0f.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/pymes-proteccion-avanzada-sin-complicaciones/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/pymes-proteccion-avanzada-sin-complicaciones/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Por qué las PyMEs buscan protección avanzada sin complejidad",
+      "fecha_publicacion_iso": "2026-10-09T15:49:43+00:00",
+      "fecha_agregada_iso": "2026-10-10T07:06:04.015781+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-por-que-las-pymes-buscan-proteccion-avanzada-sin-complejidad-28c1e4cf.html"
     }
   }
 }
