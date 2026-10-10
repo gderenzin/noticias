@@ -14455,6 +14455,14 @@
       "fecha_publicacion_iso": "2026-10-10T09:18:45+00:00",
       "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
       "ruta_noticia": "/noticia/2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-af-ebcd6167.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/oss-scanner-servicio-de-deteccion-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5963905921335511443",
+      "fuente": "Segu-Info",
+      "titulo": "OSS Scanner: servicio de detección de vulnerabilidades de suscripción voluntaria de Anthropic",
+      "fecha_publicacion_iso": "2026-10-10T19:16:08+00:00",
+      "fecha_agregada_iso": "2026-10-10T20:34:33.930221+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-oss-scanner-servicio-de-deteccion-de-vulnerabilidades-de-sus-2bbae405.html"
     }
   }
 }
