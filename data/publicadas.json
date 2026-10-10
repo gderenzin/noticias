@@ -14383,6 +14383,78 @@
       "fecha_publicacion_iso": "2026-10-09T15:49:43+00:00",
       "fecha_agregada_iso": "2026-10-10T07:06:04.015781+00:00",
       "ruta_noticia": "/noticia/2026-10-10-por-que-las-pymes-buscan-proteccion-avanzada-sin-complejidad-28c1e4cf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "fecha_publicacion_iso": "2026-10-10T15:07:54+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-h-5d6a58b6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "fuente": "BleepingComputer",
+      "titulo": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "fecha_publicacion_iso": "2026-10-10T14:16:17+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-artex-ai-claude-agents-used-in-cyberattacks-on-south-korean-bef374d6.html"
+    },
+    "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/": {
+      "guid": "https://cyberscoop.com/?p=91055",
+      "fuente": "CyberScoop",
+      "titulo": "Canadian cybersecurity executive arrested in federal extortion case",
+      "fecha_publicacion_iso": "2026-10-10T13:35:50+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-canadian-cybersecurity-executive-arrested-in-federal-extorti-63a609a6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "fuente": "BleepingComputer",
+      "titulo": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "fecha_publicacion_iso": "2026-10-10T12:30:39+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-bc479026.html"
+    },
+    "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/": {
+      "guid": "6ac7c89b91ca886b7a0df9d4",
+      "fuente": "Wired - Security",
+      "titulo": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "fecha_publicacion_iso": "2026-10-10T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-ai-is-getting-really-good-at-messing-with-cybercriminals-39d20796.html"
+    },
+    "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html": {
+      "guid": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "fecha_publicacion_iso": "2026-10-10T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-the-third-party-agent-problem-why-security-built-for-ai-you-4f95732c.html"
+    },
+    "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/": {
+      "guid": "https://www.securityweek.com/?p=49925",
+      "fuente": "SecurityWeek",
+      "titulo": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+      "fecha_publicacion_iso": "2026-10-10T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-insider-cyber-extortion-plot-against-industrial-firm-lands-e-bf4931f0.html"
+    },
+    "https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383": {
+      "guid": "https://www.theregister.com/a/5302383",
+      "fuente": "The Register - Security",
+      "titulo": "Two characters open up a world of typosquatting opportunities in Chromium browsers",
+      "fecha_publicacion_iso": "2026-10-10T10:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-two-characters-open-up-a-world-of-typosquatting-opportunitie-3d15435f.html"
+    },
+    "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html": {
+      "guid": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "fecha_publicacion_iso": "2026-10-10T09:18:45+00:00",
+      "fecha_agregada_iso": "2026-10-10T15:24:01.536448+00:00",
+      "ruta_noticia": "/noticia/2026-10-10-anthropic-cuts-live-internet-access-for-internal-ai-tests-af-ebcd6167.html"
     }
   }
 }
