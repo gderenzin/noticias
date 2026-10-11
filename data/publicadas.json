@@ -14471,6 +14471,46 @@
       "fecha_publicacion_iso": "2026-10-11T03:01:00+00:00",
       "fecha_agregada_iso": "2026-10-11T07:11:57.060701+00:00",
       "ruta_noticia": "/noticia/2026-10-11-entrevista-a-ruben-turienzo-sobre-como-ser-anti-crisis-0747e66c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/ledger-confirma-compromiso-de-cadena-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3409022949420210945",
+      "fuente": "Segu-Info",
+      "titulo": "Ledger confirma compromiso de cadena de suministro y un implante de hardware no autorizado. Pérdidas por U$s 90 millones",
+      "fecha_publicacion_iso": "2026-10-11T14:57:00+00:00",
+      "fecha_agregada_iso": "2026-10-11T15:41:14.286295+00:00",
+      "ruta_noticia": "/noticia/2026-10-11-ledger-confirma-compromiso-de-cadena-de-suministro-y-un-impl-721448f2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "fuente": "BleepingComputer",
+      "titulo": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "fecha_publicacion_iso": "2026-10-11T14:23:46+00:00",
+      "fecha_agregada_iso": "2026-10-11T15:41:14.286295+00:00",
+      "ruta_noticia": "/noticia/2026-10-11-nippon-columbia-malware-incident-exposes-8-6-million-karaoke-4c28b0c9.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-en-telegram-desktop.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5645051954164489560",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad en Telegram Desktop permite tomar de control de la cuenta con un solo clic mediante inyección",
+      "fecha_publicacion_iso": "2026-10-11T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-11T15:41:14.286295+00:00",
+      "ruta_noticia": "/noticia/2026-10-11-vulnerabilidad-en-telegram-desktop-permite-tomar-de-control-d04fd294.html"
+    },
+    "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450": {
+      "guid": "https://www.theregister.com/a/5302450",
+      "fuente": "The Register - Security",
+      "titulo": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
+      "fecha_publicacion_iso": "2026-10-11T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-11T15:41:14.286295+00:00",
+      "ruta_noticia": "/noticia/2026-10-11-ai-systems-are-fully-capable-of-carrying-out-nightmare-attac-6b624d7c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387461",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
+      "fecha_publicacion_iso": "2026-10-11T08:00:49+00:00",
+      "fecha_agregada_iso": "2026-10-11T15:41:14.286295+00:00",
+      "ruta_noticia": "/noticia/2026-10-11-week-in-review-fortibleed-is-still-active-patch-tuesday-fore-1781a19f.html"
     }
   }
 }
