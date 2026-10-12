@@ -14543,6 +14543,334 @@
       "fecha_publicacion_iso": "2026-10-12T04:00:49+00:00",
       "fecha_agregada_iso": "2026-10-12T07:22:03.065052+00:00",
       "ruta_noticia": "/noticia/2026-10-12-what-makes-some-open-source-updates-so-difficult-08b1e436.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "fecha_publicacion_iso": "2026-10-12T18:51:59+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-anthropic-takes-risky-ai-tests-offline-after-models-breach-g-8ba9b8e7.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+      "fuente": "Dark Reading",
+      "titulo": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+      "fecha_publicacion_iso": "2026-10-12T18:27:25+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-no-identity-no-recovery-cyber-resilience-starts-with-iam-61395f90.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/12/chatbot-refuseniks-edge-out-users-in-the-us-and-theyre-not-for-turning/5302690": {
+      "guid": "https://www.theregister.com/a/5302690",
+      "fuente": "The Register - Security",
+      "titulo": "Chatbot refuseniks edge out users in the US, and they’re not for turning",
+      "fecha_publicacion_iso": "2026-10-12T17:13:33+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-chatbot-refuseniks-edge-out-users-in-the-us-and-theyre-not-f-8c80417a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/ciberataques-sistemas-de-refrigeracion.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8791602718956019911",
+      "fuente": "Segu-Info",
+      "titulo": "Ciberataques a sistemas de refrigeración obliga a descartar comida en supermercados de Francia",
+      "fecha_publicacion_iso": "2026-10-12T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ciberataques-a-sistemas-de-refrigeracion-obliga-a-descartar-3d7311ac.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "fecha_publicacion_iso": "2026-10-12T16:27:23+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ledger-confirms-spy-chip-implant-behind-wallet-crypto-thefts-28da8c24.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387672",
+      "fuente": "Help Net Security",
+      "titulo": "Cyberattacks hit European grocers: French supermarket freezers hijacked, Dutch and Belgian stores disrupted",
+      "fecha_publicacion_iso": "2026-10-12T16:07:33+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-cyberattacks-hit-european-grocers-french-supermarket-freezer-7371db80.html"
+    },
+    "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/": {
+      "guid": "https://www.securityweek.com/?p=49951",
+      "fuente": "SecurityWeek",
+      "titulo": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "fecha_publicacion_iso": "2026-10-12T14:25:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billio-ef7595ad.html"
+    },
+    "https://cyberscoop.com/ionq-acquires-elisity-1-3-billion-quantum-security/": {
+      "guid": "https://cyberscoop.com/ionq-acquires-elisity-1-3-billion-quantum-security/",
+      "fuente": "CyberScoop",
+      "titulo": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "fecha_publicacion_iso": "2026-10-12T14:25:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billio-ef7595ad.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "fuente": "BleepingComputer",
+      "titulo": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "fecha_publicacion_iso": "2026-10-12T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-inside-avisloader-a-windows-malware-loader-built-to-resist-d-7a7fbf93.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "fecha_publicacion_iso": "2026-10-12T13:51:07+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-retail-giant-ahold-delhaize-takes-systems-offline-after-cybe-8bf2f941.html"
+    },
+    "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577": {
+      "guid": "https://www.theregister.com/a/5302577",
+      "fuente": "The Register - Security",
+      "titulo": "Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline",
+      "fecha_publicacion_iso": "2026-10-12T13:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-an-51ffae92.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "fuente": "BleepingComputer",
+      "titulo": "GitLab warns of max severity code execution vulnerability",
+      "fecha_publicacion_iso": "2026-10-12T13:09:09+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-gitlab-warns-of-max-severity-code-execution-vulnerability-175a7df5.html"
+    },
+    "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief": {
+      "guid": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
+      "fuente": "Dark Reading",
+      "titulo": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
+      "fecha_publicacion_iso": "2026-10-12T12:30:58+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-passing-the-baton-dark-reading-names-new-editor-in-chief-f09be95f.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/delincuentes-de-cuello-blanco-detras-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5084094847044043341",
+      "fuente": "Segu-Info",
+      "titulo": "Delincuentes de cuello blanco detrás de ransomware, grupos extorsivos y lavado de dinero",
+      "fecha_publicacion_iso": "2026-10-12T12:11:14+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-delincuentes-de-cuello-blanco-detras-de-ransomware-grupos-ex-3db297a0.html"
+    },
+    "https://therecord.media/ukraine-strikes-third-yandex-data-center": {
+      "guid": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+      "fuente": "The Record",
+      "titulo": "Ukraine strikes third Yandex data center, disrupting digital services across Russia",
+      "fecha_publicacion_iso": "2026-10-12T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ukraine-strikes-third-yandex-data-center-disrupting-digital-128ef325.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-wind-tre-eur-16-700-000-for-unlawful-telemarketing-and-data-protection_en": {
+      "guid": "a72886ec-83cc-4124-9c82-62bb77be7a8a",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines Wind Tre EUR 16 700 000 for unlawful telemarketing and data protection infringements",
+      "fecha_publicacion_iso": "2026-10-12T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-italian-dpa-fines-wind-tre-eur-16-700-000-for-unlawful-telem-972b3a04.html"
+    },
+    "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/": {
+      "guid": "https://www.securityweek.com/?p=49946",
+      "fuente": "SecurityWeek",
+      "titulo": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "fecha_publicacion_iso": "2026-10-12T11:58:39+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-canonical-websites-disrupted-in-second-ddos-attack-this-year-89310c4a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "fecha_publicacion_iso": "2026-10-12T11:58:33+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-microsoft-windows-11-23h2-reaches-end-of-support-in-30-days-fb25f61a.html"
+    },
+    "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html": {
+      "guid": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "fuente": "The Hacker News",
+      "titulo": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "fecha_publicacion_iso": "2026-10-12T11:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-bring-your-own-agent-your-employees-assistants-are-already-l-172b933e.html"
+    },
+    "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/": {
+      "guid": "https://www.securityweek.com/?p=49944",
+      "fuente": "SecurityWeek",
+      "titulo": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "fecha_publicacion_iso": "2026-10-12T11:24:50+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-mastermind-of-15-000-mule-cybercrime-laundering-network-plea-876fc8d2.html"
+    },
+    "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html": {
+      "guid": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "fecha_publicacion_iso": "2026-10-12T11:21:48+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ledger-finds-unauthorized-hardware-implant-in-cryptobilis-so-7be825a8.html"
+    },
+    "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/": {
+      "guid": "https://www.securityweek.com/?p=49938",
+      "fuente": "SecurityWeek",
+      "titulo": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "fecha_publicacion_iso": "2026-10-12T11:05:43+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-irhythm-data-breach-impacts-at-least-360-000-people-34f9e6ca.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/microsoft-decision-1-model/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387567",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft’s new model helps AI agents judge their next move",
+      "fecha_publicacion_iso": "2026-10-12T11:02:24+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-microsofts-new-model-helps-ai-agents-judge-their-next-move-a5c4e13d.html"
+    },
+    "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/": {
+      "guid": "6abfea1f7451c1a86ec12533",
+      "fuente": "Wired - Security",
+      "titulo": "Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon’s Producer",
+      "fecha_publicacion_iso": "2026-10-12T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-l-7715991e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387587",
+      "fuente": "Help Net Security",
+      "titulo": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
+      "fecha_publicacion_iso": "2026-10-12T10:53:51+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-low-cost-android-phones-are-arriving-with-malware-that-owner-3e081462.html"
+    },
+    "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/": {
+      "guid": "https://www.securityweek.com/?p=49936",
+      "fuente": "SecurityWeek",
+      "titulo": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+      "fecha_publicacion_iso": "2026-10-12T10:32:05+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-9ce734d5.html"
+    },
+    "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html": {
+      "guid": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "fuente": "The Hacker News",
+      "titulo": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+      "fecha_publicacion_iso": "2026-10-12T10:32:05+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-9ce734d5.html"
+    },
+    "https://www.theregister.com/security/2026/10/12/imagine-theres-no-shiny-hunters-ai-could-make-human-hacking-crews-obsolete/5302430": {
+      "guid": "https://www.theregister.com/a/5302430",
+      "fuente": "The Register - Security",
+      "titulo": "Imagine there's no Shiny Hunters – AI could make human hacking crews obsolete",
+      "fecha_publicacion_iso": "2026-10-12T10:27:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-imagine-there-s-no-shiny-hunters-ai-could-make-human-hacking-025954ee.html"
+    },
+    "https://cyberscoop.com/ai-agent-software-supply-chain-security-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91050",
+      "fuente": "CyberScoop",
+      "titulo": "Your AI agent is only as safe as the packages it downloads",
+      "fecha_publicacion_iso": "2026-10-12T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-your-ai-agent-is-only-as-safe-as-the-packages-it-downloads-bebb1cfd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387570",
+      "fuente": "Help Net Security",
+      "titulo": "Hidden implant in Ledger hardware wallets linked to $93M theft",
+      "fecha_publicacion_iso": "2026-10-12T09:46:53+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-hidden-implant-in-ledger-hardware-wallets-linked-to-93m-thef-f8270143.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-10-12T09:02:14+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-attackers-exploit-cvss-10-0-bricksforge-wordpress-flaw-enabl-815b7a94.html"
+    },
+    "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/": {
+      "guid": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-10-12T09:02:14+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-attackers-exploit-cvss-10-0-bricksforge-wordpress-flaw-enabl-815b7a94.html"
+    },
+    "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/": {
+      "guid": "https://www.securityweek.com/?p=49933",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+      "fecha_publicacion_iso": "2026-10-12T08:36:01+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-critical-sonicwall-vulnerability-exploited-days-after-disclo-83b16840.html"
+    },
+    "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+      "fecha_publicacion_iso": "2026-10-12T08:36:01+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-critical-sonicwall-vulnerability-exploited-days-after-disclo-83b16840.html"
+    },
+    "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/": {
+      "guid": "https://www.securityweek.com/?p=49930",
+      "fuente": "SecurityWeek",
+      "titulo": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+      "fecha_publicacion_iso": "2026-10-12T07:53:28+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-lets-encrypt-cuts-default-certificate-validity-to-64-days-ah-10752092.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/microsoft-windows-update-certificate-rotation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387543",
+      "fuente": "Help Net Security",
+      "titulo": "Windows PCs missing key updates could lose security fixes in 2027",
+      "fecha_publicacion_iso": "2026-10-12T07:39:50+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-windows-pcs-missing-key-updates-could-lose-security-fixes-in-6cb44fca.html"
+    },
+    "http://www.elladodelmal.com/2026/10/ekoparty-22-hacking-in-age-of-ai-after.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5023189090673558973",
+      "fuente": "El Lado del Mal",
+      "titulo": "Ekoparty 22: Hacking in the age of AI after Mythos, Fable, Sol and Astra.",
+      "fecha_publicacion_iso": "2026-10-12T07:29:13+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-ekoparty-22-hacking-in-the-age-of-ai-after-mythos-fable-sol-c906f7bc.html"
+    },
+    "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html": {
+      "guid": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "fuente": "The Hacker News",
+      "titulo": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "fecha_publicacion_iso": "2026-10-12T07:26:12+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-cyberxero-uses-claude-code-in-campaign-that-stole-over-628-0-d261b6b9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/12/lets-encrypt-64-day-certificate-lifetime/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387533",
+      "fuente": "Help Net Security",
+      "titulo": "Let’s Encrypt TLS certificate lifetimes to drop from 90 to 64 days starting February 2027",
+      "fecha_publicacion_iso": "2026-10-12T07:23:11+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-lets-encrypt-tls-certificate-lifetimes-to-drop-from-90-to-64-bf6ad9a0.html"
+    },
+    "https://therecord.media/cyberattack-disrupts-refridgeration-in-france": {
+      "guid": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+      "fuente": "The Record",
+      "titulo": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
+      "fecha_publicacion_iso": "2026-10-11T23:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-cyberattack-disrupts-refrigeration-at-hundreds-of-french-sup-9aa90bd7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
+      "fecha_publicacion_iso": "2026-10-11T23:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-cyberattack-disrupts-refrigeration-at-hundreds-of-french-sup-9aa90bd7.html"
     }
   }
 }
