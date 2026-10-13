@@ -14871,6 +14871,46 @@
       "fecha_publicacion_iso": "2026-10-11T23:00:00+00:00",
       "fecha_agregada_iso": "2026-10-12T19:05:22.498635+00:00",
       "ruta_noticia": "/noticia/2026-10-12-cyberattack-disrupts-refrigeration-at-hundreds-of-french-sup-9aa90bd7.html"
+    },
+    "https://cyberscoop.com/flock-cve-numbering-authority-cna/": {
+      "guid": "https://cyberscoop.com/?p=91070",
+      "fuente": "CyberScoop",
+      "titulo": "Flock can now issue CVEs for its own products. Should we trust it?",
+      "fecha_publicacion_iso": "2026-10-12T22:11:50+00:00",
+      "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-flock-can-now-issue-cves-for-its-own-products-should-we-trus-6f7140dd.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+      "fuente": "Dark Reading",
+      "titulo": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+      "fecha_publicacion_iso": "2026-10-12T21:42:42+00:00",
+      "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-maximum-severity-ssrf-flaw-in-sonicwall-sma-devices-under-at-6512ad6a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "fuente": "BleepingComputer",
+      "titulo": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "fecha_publicacion_iso": "2026-10-12T20:13:52+00:00",
+      "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-norway-fines-microsoft-ad-firm-9-6-million-over-grindr-data-d0137ba4.html"
+    },
+    "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges": {
+      "guid": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+      "fuente": "Dark Reading",
+      "titulo": "Prominent Ransomware Negotiator Faces Extortion Charges",
+      "fecha_publicacion_iso": "2026-10-12T20:00:53+00:00",
+      "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-prominent-ransomware-negotiator-faces-extortion-charges-4dcee340.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "fuente": "BleepingComputer",
+      "titulo": "Yandex confirms service outage as users lose access to cloud files",
+      "fecha_publicacion_iso": "2026-10-12T19:23:01+00:00",
+      "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
+      "ruta_noticia": "/noticia/2026-10-12-yandex-confirms-service-outage-as-users-lose-access-to-cloud-8d0ac34c.html"
     }
   }
 }
