@@ -14911,6 +14911,254 @@
       "fecha_publicacion_iso": "2026-10-12T19:23:01+00:00",
       "fecha_agregada_iso": "2026-10-13T02:35:41.990631+00:00",
       "ruta_noticia": "/noticia/2026-10-12-yandex-confirms-service-outage-as-users-lose-access-to-cloud-8d0ac34c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/nuevos-punycode-abren-oportunidades-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7206400901679973298",
+      "fuente": "Segu-Info",
+      "titulo": "Nuevos Punycode abren oportunidades de typosquatting en los navegadores Chromium",
+      "fecha_publicacion_iso": "2026-10-13T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-nuevos-punycode-abren-oportunidades-de-typosquatting-en-los-1ec98952.html"
+    },
+    "https://www.theregister.com/security/2026/10/13/cyberattacks-crank-french-supermarket-refrigeration-systems-up-to-50c/5302784": {
+      "guid": "https://www.theregister.com/a/5302784",
+      "fuente": "The Register - Security",
+      "titulo": "Cyberattacks crank French supermarket refrigeration systems up to 50°C",
+      "fecha_publicacion_iso": "2026-10-13T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-cyberattacks-crank-french-supermarket-refrigeration-systems-fe7fa2fa.html"
+    },
+    "https://therecord.media/cyberattack-groceru-ahold-delhaize": {
+      "guid": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
+      "fuente": "The Record",
+      "titulo": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
+      "fecha_publicacion_iso": "2026-10-13T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-cyber-incident-hits-grocery-stores-in-us-netherlands-and-bel-6c8407df.html"
+    },
+    "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/": {
+      "guid": "https://www.securityweek.com/?p=49969",
+      "fuente": "SecurityWeek",
+      "titulo": "Small AI Models May Soon Be Able to Self-Replicate on IoT Devices, Anthropic Warns",
+      "fecha_publicacion_iso": "2026-10-13T11:58:29+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-small-ai-models-may-soon-be-able-to-self-replicate-on-iot-de-f42a122e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/mozilla-firefox-enterprise-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387754",
+      "fuente": "Help Net Security",
+      "titulo": "Mozilla’s Firefox Enterprise lets companies block shadow AI in the browser",
+      "fecha_publicacion_iso": "2026-10-13T11:21:41+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-mozillas-firefox-enterprise-lets-companies-block-shadow-ai-i-83ad8032.html"
+    },
+    "https://www.theregister.com/security/2026/10/13/123456-password-linked-to-denmark-data-breach-affecting-88m-people/5302726": {
+      "guid": "https://www.theregister.com/a/5302726",
+      "fuente": "The Register - Security",
+      "titulo": "'123456' password linked to Denmark data breach affecting 8.8M people",
+      "fecha_publicacion_iso": "2026-10-13T11:14:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-123456-password-linked-to-denmark-data-breach-affecting-8-8m-abd771f6.html"
+    },
+    "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/": {
+      "guid": "https://www.securityweek.com/?p=49964",
+      "fuente": "SecurityWeek",
+      "titulo": "XWorm RAT Evolves Into Surveillance Platform",
+      "fecha_publicacion_iso": "2026-10-13T11:13:10+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-xworm-rat-evolves-into-surveillance-platform-fb6e1234.html"
+    },
+    "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html": {
+      "guid": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "fuente": "The Hacker News",
+      "titulo": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "fecha_publicacion_iso": "2026-10-13T11:09:10+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-lg-smart-tvs-vulnerable-to-pre-auth-root-takeover-from-local-8f63a0f3.html"
+    },
+    "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/": {
+      "guid": "https://www.securityweek.com/?p=49958",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Turns Familiar Cyberattacks Into a Race Against Time",
+      "fecha_publicacion_iso": "2026-10-13T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-ai-turns-familiar-cyberattacks-into-a-race-against-time-8986d7ba.html"
+    },
+    "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/": {
+      "guid": "https://www.securityweek.com/?p=49962",
+      "fuente": "SecurityWeek",
+      "titulo": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
+      "fecha_publicacion_iso": "2026-10-13T10:36:05+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-86-million-crypto-heist-linked-to-ledger-signer-hardware-imp-1e8135b6.html"
+    },
+    "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "fecha_publicacion_iso": "2026-10-13T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-product-walkthrough-bitdefender-ai-visibility-and-control-30253034.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/13/owner-of-fashion-brands-hobbs-and-whistles-joins-autumn-pwned-collection/5302752": {
+      "guid": "https://www.theregister.com/a/5302752",
+      "fuente": "The Register - Security",
+      "titulo": "Owner of fashion brands Hobbs and Whistles joins autumn pwned collection",
+      "fecha_publicacion_iso": "2026-10-13T09:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-owner-of-fashion-brands-hobbs-and-whistles-joins-autumn-pwne-07d5d5e3.html"
+    },
+    "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/": {
+      "guid": "https://www.securityweek.com/?p=49956",
+      "fuente": "SecurityWeek",
+      "titulo": "Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems",
+      "fecha_publicacion_iso": "2026-10-13T09:37:12+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-cyberattack-prompts-grocery-giant-ahold-delhaize-to-disconne-3b4e5e79.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/meta-muse-wonder-full-models/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387727",
+      "fuente": "Help Net Security",
+      "titulo": "Meta outlines Muse Wonder safeguards for AI agents acting on your behalf",
+      "fecha_publicacion_iso": "2026-10-13T09:35:02+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-meta-outlines-muse-wonder-safeguards-for-ai-agents-acting-on-3cb01d33.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/slugfest-npm-trusted-publishing-flaw/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387687",
+      "fuente": "Help Net Security",
+      "titulo": "npm Trusted Publishing flaw exposed 1,500+ npm packages to takeover",
+      "fecha_publicacion_iso": "2026-10-13T09:00:08+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-npm-trusted-publishing-flaw-exposed-1-500-npm-packages-to-ta-417e4e30.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "fecha_publicacion_iso": "2026-10-13T08:48:41+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-attackers-heat-french-supermarket-fridges-up-to-50c-by-hijac-6ebfc315.html"
+    },
+    "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html": {
+      "guid": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "fuente": "The Hacker News",
+      "titulo": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "fecha_publicacion_iso": "2026-10-13T08:44:01+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-two-critical-marklogic-flaws-could-give-delegated-managers-p-339f9349.html"
+    },
+    "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html": {
+      "guid": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "fuente": "The Hacker News",
+      "titulo": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "fecha_publicacion_iso": "2026-10-13T08:43:37+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-gitlab-patches-cvss-10-0-flaw-that-could-let-unauthenticated-e7916ed6.html"
+    },
+    "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/": {
+      "guid": "https://www.securityweek.com/?p=49953",
+      "fuente": "SecurityWeek",
+      "titulo": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+      "fecha_publicacion_iso": "2026-10-13T08:28:51+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-refrigeration-controller-hack-spoils-food-across-european-su-1608d9df.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-en-la-aplicacion-web-de-youmind": {
+      "guid": "673786 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting en la aplicación web de YouMind",
+      "fecha_publicacion_iso": "2026-10-13T07:39:28+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-cross-site-scripting-en-la-aplicacion-web-de-youmind-946678fd.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-nonstop-servers-de-hpe": {
+      "guid": "673792 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en NonStop Servers de HPE",
+      "fecha_publicacion_iso": "2026-10-13T07:38:16+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-multiples-vulnerabilidades-en-nonstop-servers-de-hpe-7d0cfce6.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-basado-en-monticulo-en-nx-os-software-de-cisco": {
+      "guid": "673791 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de búfer basado en montículo en NX-OS Software de Cisco",
+      "fecha_publicacion_iso": "2026-10-13T07:38:15+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-desbordamiento-de-bufer-basado-en-monticulo-en-nx-os-softwar-f5ea61bf.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-gitlab": {
+      "guid": "673790 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de GitLab",
+      "fecha_publicacion_iso": "2026-10-13T07:38:14+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-multiples-vulnerabilidades-en-productos-de-gitlab-51a99bca.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/13/gitlab-ci-cd-regular-expression-compiler-vulnerability-cve-2026-97229/",
+      "fuente": "Help Net Security",
+      "titulo": "Múltiples vulnerabilidades en productos de GitLab",
+      "fecha_publicacion_iso": "2026-10-13T07:38:14+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-multiples-vulnerabilidades-en-productos-de-gitlab-51a99bca.html"
+    },
+    "https://www.theregister.com/virtualization/2026/10/13/vmware-is-pushing-so-many-patches-it-thinks-users-need-new-tools-to-manage-the-flood-1/5302172": {
+      "guid": "https://www.theregister.com/a/5302172",
+      "fuente": "The Register - Security",
+      "titulo": "VMware is pushing so many patches, it thinks users need new tools to manage the flood",
+      "fecha_publicacion_iso": "2026-10-13T07:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-vmware-is-pushing-so-many-patches-it-thinks-users-need-new-t-ce24b80c.html"
+    },
+    "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html": {
+      "guid": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "fecha_publicacion_iso": "2026-10-13T06:00:11+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-low-cost-android-phones-ship-with-preinstalled-malware-that-585594f8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/cybersecurity-ai-safety-red-lines/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387516",
+      "fuente": "Help Net Security",
+      "titulo": "Be a good AI ancestor: Cybersecurity already gave us the playbook",
+      "fecha_publicacion_iso": "2026-10-13T05:30:01+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-be-a-good-ai-ancestor-cybersecurity-already-gave-us-the-play-b33f097e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/frontier-ai-ot-security-threat/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387525",
+      "fuente": "Help Net Security",
+      "titulo": "Frontier AI cleared every OT attack goal Booz Allen set in its lab",
+      "fecha_publicacion_iso": "2026-10-13T05:00:51+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-frontier-ai-cleared-every-ot-attack-goal-booz-allen-set-in-i-e4083b6c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/cloud-security-findings-severity-ai-agent/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387644",
+      "fuente": "Help Net Security",
+      "titulo": "Most high-severity cloud security findings are downgraded once an AI agent checks the environment",
+      "fecha_publicacion_iso": "2026-10-13T04:30:02+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-most-high-severity-cloud-security-findings-are-downgraded-on-958b6e74.html"
+    },
+    "http://www.elladodelmal.com/2026/10/como-dirigir-proyectos-de-it-con.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-2428485045390725600",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo dirigir Proyectos de IT con Inteligencia Artificial: Los nuevos perfiles profesionales en la empresa",
+      "fecha_publicacion_iso": "2026-10-13T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-como-dirigir-proyectos-de-it-con-inteligencia-artificial-los-49d4c580.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/13/cybersecurity-jobs-available-right-now-october-13-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387598",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: October 13, 2026",
+      "fecha_publicacion_iso": "2026-10-13T04:00:40+00:00",
+      "fecha_agregada_iso": "2026-10-13T12:51:40.906214+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-cybersecurity-jobs-available-right-now-october-13-2026-000021ff.html"
     }
   }
 }
