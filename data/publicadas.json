@@ -16023,6 +16023,150 @@
       "fecha_publicacion_iso": "2026-10-13T16:38:34+00:00",
       "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
       "ruta_noticia": "/noticia/2026-10-14-alerta-por-un-falso-sitio-de-fravega-el-sistema-de-checkouts-fec6260e.html"
+    },
+    "https://therecord.media/brooklyn-da-server-takedowns-crypto-scam-russian-speakers": {
+      "guid": "https://therecord.media/brooklyn-da-server-takedowns-crypto-scam-russian-speakers",
+      "fuente": "The Record",
+      "titulo": "Brooklyn DA’s office disrupts crypto scam targeting Russian community",
+      "fecha_publicacion_iso": "2026-10-14T20:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-brooklyn-das-office-disrupts-crypto-scam-targeting-russian-c-f2c5c74b.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat": {
+      "guid": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "fuente": "Dark Reading",
+      "titulo": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "fecha_publicacion_iso": "2026-10-14T20:09:42+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-anthropic-sneakpeek-flaw-is-a-silent-zero-click-threat-7f55a7a9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "fecha_publicacion_iso": "2026-10-14T19:41:43+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-8ab3c51e.html"
+    },
+    "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134": {
+      "guid": "https://www.theregister.com/a/5303134",
+      "fuente": "The Register - Security",
+      "titulo": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
+      "fecha_publicacion_iso": "2026-10-14T19:12:33+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-security-researchers-spent-6-days-doing-their-chromework-bui-24b40291.html"
+    },
+    "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html": {
+      "guid": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "fecha_publicacion_iso": "2026-10-14T18:38:56+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-cisco-warns-of-active-attacks-exploiting-new-critical-secure-976f4f5f.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/smart-tvs-de-lg-vulnerables-la-toma-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1741011152059745687",
+      "fuente": "Segu-Info",
+      "titulo": "Smart TVs de LG, vulnerables a la toma de control root sin autenticación desde la red local",
+      "fecha_publicacion_iso": "2026-10-14T18:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-smart-tvs-de-lg-vulnerables-a-la-toma-de-control-root-sin-au-fe8f5b54.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "fecha_publicacion_iso": "2026-10-14T17:46:50+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ledger-asks-sellers-across-asia-to-halt-sales-after-supply-c-91d989b5.html"
+    },
+    "https://cyberscoop.com/microsoft-patch-tuesday-october-2026/": {
+      "guid": "https://cyberscoop.com/?p=91113",
+      "fuente": "CyberScoop",
+      "titulo": "Microsoft drops an actively exploited zero-day among record high of 1,413 vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-14T17:42:11+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-drops-an-actively-exploited-zero-day-among-record-d14c3879.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "fecha_publicacion_iso": "2026-10-14T17:38:31+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-hackers-backdoor-nextcloud-servers-through-critical-flaw-in-639d0d6e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-14T17:29:14+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-cisco-patches-new-secure-email-gateway-zero-day-exploited-in-a7632caf.html"
+    },
+    "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095": {
+      "guid": "https://www.theregister.com/a/5303095",
+      "fuente": "The Register - Security",
+      "titulo": "Ivanti patches Connect Secure zero-day after researchers confirm in-the-wild attacks",
+      "fecha_publicacion_iso": "2026-10-14T17:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ivanti-patches-connect-secure-zero-day-after-researchers-con-6051d8ed.html"
+    },
+    "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html": {
+      "guid": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "fecha_publicacion_iso": "2026-10-14T17:09:15+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-disrupts-3-phishing-kits-linked-to-over-1-billion-78b0d9b2.html"
+    },
+    "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government": {
+      "guid": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
+      "fuente": "The Record",
+      "titulo": "Spyware manufacturer had access to data harvested by former Polish government, current PM says",
+      "fecha_publicacion_iso": "2026-10-14T16:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-spyware-manufacturer-had-access-to-data-harvested-by-former-04528993.html"
+    },
+    "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html": {
+      "guid": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "fecha_publicacion_iso": "2026-10-14T16:34:31+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-u-s-shuts-down-over-40-laptop-farms-charges-14-in-north-kore-f47fa401.html"
+    },
+    "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/": {
+      "guid": "https://www.securityweek.com/?p=50025",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "fecha_publicacion_iso": "2026-10-14T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-e2e487f8.html"
+    },
+    "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/": {
+      "guid": "https://www.securityweek.com/?p=50021",
+      "fuente": "SecurityWeek",
+      "titulo": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "fecha_publicacion_iso": "2026-10-14T15:15:15+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixe-f0efb52b.html"
+    },
+    "https://cyberscoop.com/congress-presses-trump-administration-ai-safety-cybersecurity/": {
+      "guid": "https://cyberscoop.com/?p=91104",
+      "fuente": "CyberScoop",
+      "titulo": "Senators press Trump admin to rally federal government around AI safety, security",
+      "fecha_publicacion_iso": "2026-10-14T15:11:31+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-senators-press-trump-admin-to-rally-federal-government-aroun-7a224cbe.html"
+    },
+    "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/": {
+      "guid": "https://krebsonsecurity.com/?p=74435",
+      "fuente": "Krebs on Security",
+      "titulo": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "fecha_publicacion_iso": "2026-10-14T14:22:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-u-k-sanctions-cryptomus-for-ru-money-laundering-78394b2e.html"
     }
   }
 }
