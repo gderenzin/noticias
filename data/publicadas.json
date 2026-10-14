@@ -16167,6 +16167,54 @@
       "fecha_publicacion_iso": "2026-10-14T14:22:49+00:00",
       "fecha_agregada_iso": "2026-10-14T20:46:24.569079+00:00",
       "ruta_noticia": "/noticia/2026-10-14-u-k-sanctions-cryptomus-for-ru-money-laundering-78394b2e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-14T22:56:47+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-att-c9a3f02d.html"
+    },
+    "https://www.theregister.com/security/2026/10/14/cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-crims/5303168": {
+      "guid": "https://www.theregister.com/a/5303168",
+      "fuente": "The Register - Security",
+      "titulo": "Cisco make-me-root email bug exploited as a 0-day by unknown crims",
+      "fecha_publicacion_iso": "2026-10-14T21:40:29+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-f27922db.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "fuente": "Dark Reading",
+      "titulo": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "fecha_publicacion_iso": "2026-10-14T21:20:13+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ivanti-ics-zero-day-attacks-highlight-vendor-patching-hurdle-e1c5b3e9.html"
+    },
+    "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia": {
+      "guid": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
+      "fuente": "The Record",
+      "titulo": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
+      "fecha_publicacion_iso": "2026-10-14T21:10:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-north-macedonian-police-arrest-alleged-administrator-behind-e634a167.html"
+    },
+    "https://cyberscoop.com/olvx-cybercrime-marketplace-operator-charged-north-macedonia/": {
+      "guid": "https://cyberscoop.com/olvx-cybercrime-marketplace-operator-charged-north-macedonia/",
+      "fuente": "CyberScoop",
+      "titulo": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
+      "fecha_publicacion_iso": "2026-10-14T21:10:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-north-macedonian-police-arrest-alleged-administrator-behind-e634a167.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+      "fuente": "Dark Reading",
+      "titulo": "Yam Store: The Phishing Network Behind a Billion Messages",
+      "fecha_publicacion_iso": "2026-10-14T20:57:16+00:00",
+      "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-yam-store-the-phishing-network-behind-a-billion-messages-b0a791a9.html"
     }
   }
 }
