@@ -15447,6 +15447,118 @@
       "fecha_publicacion_iso": "2026-10-13T11:57:06+00:00",
       "fecha_agregada_iso": "2026-10-13T19:55:52.448006+00:00",
       "ruta_noticia": "/noticia/2026-10-13-webinar-how-to-stop-ai-driven-privilege-escalation-with-runt-cd473945.html"
+    },
+    "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/": {
+      "guid": "https://krebsonsecurity.com/?p=74474",
+      "fuente": "Krebs on Security",
+      "titulo": "Microsoft Patches More Than 1,400 Security Flaws",
+      "fecha_publicacion_iso": "2026-10-13T23:24:53+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-microsoft-patches-more-than-1-400-security-flaws-83d130e7.html"
+    },
+    "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/": {
+      "guid": "6ace99f7435a00c3d3a1c4d2",
+      "fuente": "Wired - Security",
+      "titulo": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+      "fecha_publicacion_iso": "2026-10-13T23:17:59+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-bfa2207d.html"
+    },
+    "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/": {
+      "guid": "https://www.securityweek.com/?p=49988",
+      "fuente": "SecurityWeek",
+      "titulo": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+      "fecha_publicacion_iso": "2026-10-13T23:07:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-employee-arrested-after-listening-device-found-in-openai-con-0cfb7908.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "fecha_publicacion_iso": "2026-10-13T22:33:02+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-openai-engineer-arrested-for-allegedly-planting-spy-device-i-ff21bb8a.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+      "fuente": "Dark Reading",
+      "titulo": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+      "fecha_publicacion_iso": "2026-10-13T22:29:57+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-zero-days-lurk-in-microsoft-s-overgrown-october-patch-tuesda-841edbc3.html"
+    },
+    "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/": {
+      "guid": "https://cyberscoop.com/?p=91097",
+      "fuente": "CyberScoop",
+      "titulo": "Ivanti misses opportunity to fix vulnerability before attackers got to work and made it a zero-day",
+      "fecha_publicacion_iso": "2026-10-13T22:10:42+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-ivanti-misses-opportunity-to-fix-vulnerability-before-attack-7abea891.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "fecha_publicacion_iso": "2026-10-13T21:33:26+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads-5d5d52d4.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel",
+      "fuente": "Dark Reading",
+      "titulo": "North Korea Phishes Ukrainians for War Intel",
+      "fecha_publicacion_iso": "2026-10-13T21:24:45+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-north-korea-phishes-ukrainians-for-war-intel-c237a593.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "fecha_publicacion_iso": "2026-10-13T21:16:34+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-anthropic-warns-self-replicating-ai-could-spread-to-your-sma-1a076312.html"
+    },
+    "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas": {
+      "guid": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
+      "fuente": "The Record",
+      "titulo": "Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue",
+      "fecha_publicacion_iso": "2026-10-13T20:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-two-arrested-as-doj-takes-down-laptop-farms-responsible-for-f8c07b4f.html"
+    },
+    "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/": {
+      "guid": "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/",
+      "fuente": "CyberScoop",
+      "titulo": "Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue",
+      "fecha_publicacion_iso": "2026-10-13T20:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-two-arrested-as-doj-takes-down-laptop-farms-responsible-for-f8c07b4f.html"
+    },
+    "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms": {
+      "guid": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
+      "fuente": "Dark Reading",
+      "titulo": "Anthropic Finds Ingredients for Future AI Worms",
+      "fecha_publicacion_iso": "2026-10-13T20:35:23+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-anthropic-finds-ingredients-for-future-ai-worms-a240599f.html"
+    },
+    "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint": {
+      "guid": "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint",
+      "fuente": "The Record",
+      "titulo": "FTC: Company netted at least $60 million charging sextortion victims for help it didn’t provide",
+      "fecha_publicacion_iso": "2026-10-13T20:12:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-ftc-company-netted-at-least-60-million-charging-sextortion-v-cfa7b655.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "fecha_publicacion_iso": "2026-10-13T19:56:09+00:00",
+      "fecha_agregada_iso": "2026-10-14T00:19:01.506107+00:00",
+      "ruta_noticia": "/noticia/2026-10-13-microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zer-21edffe1.html"
     }
   }
 }
