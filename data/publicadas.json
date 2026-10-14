@@ -15631,6 +15631,398 @@
       "fecha_publicacion_iso": "2026-10-14T01:59:25+00:00",
       "fecha_agregada_iso": "2026-10-14T06:10:08.385794+00:00",
       "ruta_noticia": "/noticia/2026-10-14-openai-employee-arrested-for-allegedly-planting-hidden-recor-cb3154f3.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes VPN issues caused by September Windows updates",
+      "fecha_publicacion_iso": "2026-10-14T14:27:01+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-fixes-vpn-issues-caused-by-september-windows-updat-fac7cd6e.html"
+    },
+    "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/": {
+      "guid": "https://www.securityweek.com/?p=50018",
+      "fuente": "SecurityWeek",
+      "titulo": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+      "fecha_publicacion_iso": "2026-10-14T14:09:51+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-harmonic-security-raises-50-million-for-workforce-ai-protect-f6b610c1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+      "fuente": "BleepingComputer",
+      "titulo": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "fecha_publicacion_iso": "2026-10-14T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-the-blind-spots-of-agentic-pentesting-and-how-to-close-them-937c7f4f.html"
+    },
+    "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/": {
+      "guid": "https://www.securityweek.com/?p=50013",
+      "fuente": "SecurityWeek",
+      "titulo": "Virtual Event Today: Zero Trust Strategies Summit",
+      "fecha_publicacion_iso": "2026-10-14T13:56:36+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-virtual-event-today-zero-trust-strategies-summit-2ee0c0a4.html"
+    },
+    "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms": {
+      "guid": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
+      "fuente": "The Record",
+      "titulo": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
+      "fecha_publicacion_iso": "2026-10-14T13:18:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-takes-down-3-major-phishing-platforms-used-by-chin-4ec11149.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+      "fuente": "BleepingComputer",
+      "titulo": "Global takedown hits network behind 1 billion phishing messages",
+      "fecha_publicacion_iso": "2026-10-14T13:12:52+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-global-takedown-hits-network-behind-1-billion-phishing-messa-91795601.html"
+    },
+    "https://therecord.media/russia-anywayanyday-travel-website-cyberattack": {
+      "guid": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Russian travel booking platform suspends reservations after cyberattack",
+      "fecha_publicacion_iso": "2026-10-14T13:05:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-russian-travel-booking-platform-suspends-reservations-after-a7d7c0f1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/north-korean-it-workers-laptop-farms-arrests/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387948",
+      "fuente": "Help Net Security",
+      "titulo": "FBI raids 40+ laptop farms helping North Korea pocket US tech salaries",
+      "fecha_publicacion_iso": "2026-10-14T13:00:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-fbi-raids-40-laptop-farms-helping-north-korea-pocket-us-tech-a1e5b1dc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/tines-it-security-ai-adoption-guide/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387633",
+      "fuente": "Help Net Security",
+      "titulo": "Download: The IT and security field guide to AI adoption",
+      "fecha_publicacion_iso": "2026-10-14T13:00:27+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-download-the-it-and-security-field-guide-to-ai-adoption-97663ac4.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+      "fuente": "Dark Reading",
+      "titulo": "Russian Influence Operation Widely Targeting Latin America",
+      "fecha_publicacion_iso": "2026-10-14T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-russian-influence-operation-widely-targeting-latin-america-319aa986.html"
+    },
+    "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/": {
+      "guid": "https://www.securityweek.com/?p=50009",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+      "fecha_publicacion_iso": "2026-10-14T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-disrupts-chinese-language-phishing-market-behind-1-b9b58f38.html"
+    },
+    "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/": {
+      "guid": "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/",
+      "fuente": "CyberScoop",
+      "titulo": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+      "fecha_publicacion_iso": "2026-10-14T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-disrupts-chinese-language-phishing-market-behind-1-b9b58f38.html"
+    },
+    "https://therecord.media/congressional-probe-faults-match-group-for-failing-to-stop-dating-app-scams": {
+      "guid": "https://therecord.media/congressional-probe-faults-match-group-for-failing-to-stop-dating-app-scams",
+      "fuente": "The Record",
+      "titulo": "Congressional probe faults Match Group for failing to rein in dating app scams",
+      "fecha_publicacion_iso": "2026-10-14T12:32:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-congressional-probe-faults-match-group-for-failing-to-rein-i-ac693e6b.html"
+    },
+    "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html": {
+      "guid": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "fecha_publicacion_iso": "2026-10-14T12:13:36+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-curl-patches-http-2-upload-flaw-after-poc-demonstrates-clien-01ccdefe.html"
+    },
+    "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html": {
+      "guid": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "fuente": "The Hacker News",
+      "titulo": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "fecha_publicacion_iso": "2026-10-14T11:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-how-to-run-a-deepfake-readiness-drill-before-a-cloned-voice-de7e4a82.html"
+    },
+    "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html": {
+      "guid": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "fecha_publicacion_iso": "2026-10-14T11:19:02+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-researchers-used-a-public-openai-model-to-build-a-250-000-ch-ecd984dc.html"
+    },
+    "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html": {
+      "guid": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "fecha_publicacion_iso": "2026-10-14T11:08:22+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-hirudo-android-trojan-uses-patched-banking-apps-to-bypass-th-065e262f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "fecha_publicacion_iso": "2026-10-14T11:08:22+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-hirudo-android-trojan-uses-patched-banking-apps-to-bypass-th-065e262f.html"
+    },
+    "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html": {
+      "guid": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "fuente": "The Hacker News",
+      "titulo": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "fecha_publicacion_iso": "2026-10-14T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-an-ai-agent-found-a-critical-otp-bypass-in-production-the-at-181d174b.html"
+    },
+    "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/": {
+      "guid": "https://www.securityweek.com/?p=50011",
+      "fuente": "SecurityWeek",
+      "titulo": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "fecha_publicacion_iso": "2026-10-14T10:55:21+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-2cf13153.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/tfg-london-cyberattack-phase-eight-hobbs-whistles/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387908",
+      "fuente": "Help Net Security",
+      "titulo": "Phase Eight, Hobbs and Whistles owner joins growing list of fashion retailers targeted by hackers",
+      "fecha_publicacion_iso": "2026-10-14T10:48:12+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-phase-eight-hobbs-and-whistles-owner-joins-growing-list-of-f-856c0768.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+      "fecha_publicacion_iso": "2026-10-14T10:48:09+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-recent-windows-updates-may-trigger-remote-desktop-0aa13b1d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/radware-mcp-server-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387929",
+      "fuente": "Help Net Security",
+      "titulo": "Radware MCP Server Protection monitors agent activity and guards against protocol abuse",
+      "fecha_publicacion_iso": "2026-10-14T10:35:25+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-radware-mcp-server-protection-monitors-agent-activity-and-gu-6d7c4221.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/solarwinds-avior/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387913",
+      "fuente": "Help Net Security",
+      "titulo": "SolarWinds Avior pairs IT automation with human approval and audit trails",
+      "fecha_publicacion_iso": "2026-10-14T10:27:11+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-solarwinds-avior-pairs-it-automation-with-human-approval-and-5536db95.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/chainguard-harness/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387906",
+      "fuente": "Help Net Security",
+      "titulo": "Chainguard Harness uses frontier AI to test running applications for vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-14T10:16:04+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-chainguard-harness-uses-frontier-ai-to-test-running-applicat-0210f954.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/scytale-mcp/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387901",
+      "fuente": "Help Net Security",
+      "titulo": "Scytale MCP gives AI tools scoped, read-only access to compliance data",
+      "fecha_publicacion_iso": "2026-10-14T10:00:46+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-scytale-mcp-gives-ai-tools-scoped-read-only-access-to-compli-2a08f777.html"
+    },
+    "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000": {
+      "guid": "https://www.theregister.com/a/5303000",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI engineer charged after boardroom bug found wrapped in toilet paper",
+      "fecha_publicacion_iso": "2026-10-14T09:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-openai-engineer-charged-after-boardroom-bug-found-wrapped-in-cc31bbd9.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-integrated-lights-out-de-hpe": {
+      "guid": "673821 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Integrated Lights-Out de HPE",
+      "fecha_publicacion_iso": "2026-10-14T09:52:52+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-integrated-lights-out-de-hpe-79e0b7de.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/github-secret-detection-model/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387865",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub adopts cheaper AI model to catch secrets developers leave in code",
+      "fecha_publicacion_iso": "2026-10-14T09:26:41+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-github-adopts-cheaper-ai-model-to-catch-secrets-developers-l-23373acb.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-mensual-de-seguridad-de-sap-de-octubre-de-2026": {
+      "guid": "673820 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín mensual de seguridad de SAP de octubre de 2026",
+      "fecha_publicacion_iso": "2026-10-14T09:08:02+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-boletin-mensual-de-seguridad-de-sap-de-octubre-de-2026-e58b1e33.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/ivanti-zero-days-gain-root-patched-vpn-appliances/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387876",
+      "fuente": "Help Net Security",
+      "titulo": "Attackers chained three Ivanti zero-days to gain root on fully patched VPN appliances",
+      "fecha_publicacion_iso": "2026-10-14T08:59:19+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-attackers-chained-three-ivanti-zero-days-to-gain-root-on-ful-c1aea7ab.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/14/openai-engineer-arrested-hidden-recording-device/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387862",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI engineer arrested for allegedly trying to eavesdrop on executive meetings",
+      "fecha_publicacion_iso": "2026-10-14T08:40:41+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-openai-engineer-arrested-for-allegedly-trying-to-eavesdrop-o-14c8d290.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-tsplus-remote-access": {
+      "guid": "673818 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en TSplus Remote Access",
+      "fecha_publicacion_iso": "2026-10-14T08:34:32+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-tsplus-remote-access-a3083b62.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-fortinet-3": {
+      "guid": "673819 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Fortinet",
+      "fecha_publicacion_iso": "2026-10-14T08:03:50+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-productos-de-fortinet-83f7482e.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-ivanti-4": {
+      "guid": "673817 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-10-14T08:03:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-productos-de-ivanti-a5bc3d86.html"
+    },
+    "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html": {
+      "guid": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "fuente": "The Hacker News",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-10-14T08:03:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-productos-de-ivanti-a5bc3d86.html"
+    },
+    "https://therecord.media/new-ivanti-microsoft-bugs-exploitation": {
+      "guid": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+      "fuente": "The Record",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-10-14T08:03:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-productos-de-ivanti-a5bc3d86.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "fuente": "BleepingComputer",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-10-14T08:03:49+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-multiples-vulnerabilidades-en-productos-de-ivanti-a5bc3d86.html"
+    },
+    "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html": {
+      "guid": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "fecha_publicacion_iso": "2026-10-14T07:46:57+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-ai-found-linux-kernel-flaw-gives-local-users-root-and-can-br-0a34dc42.html"
+    },
+    "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/": {
+      "guid": "https://www.securityweek.com/?p=50004",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
+      "fecha_publicacion_iso": "2026-10-14T07:38:51+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-fi-ca2337ba.html"
+    },
+    "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/": {
+      "guid": "https://www.securityweek.com/?p=50002",
+      "fuente": "SecurityWeek",
+      "titulo": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+      "fecha_publicacion_iso": "2026-10-14T07:26:35+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-3c74e688.html"
+    },
+    "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/": {
+      "guid": "https://www.securityweek.com/?p=50000",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "fecha_publicacion_iso": "2026-10-14T07:16:12+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-patches-record-1-413-vulnerabilities-including-exp-1026a5cd.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-mensual-de-seguridad-de-microsoft-de-octubre-de-2026": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-mensual-de-seguridad-de-microsoft-de-octubre-de-2026",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "fecha_publicacion_iso": "2026-10-14T07:16:12+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-patches-record-1-413-vulnerabilities-including-exp-1026a5cd.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/actualizaciones-de-seguridad-de-octubre.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/10/actualizaciones-de-seguridad-de-octubre.html",
+      "fuente": "Segu-Info",
+      "titulo": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "fecha_publicacion_iso": "2026-10-14T07:16:12+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-microsoft-patches-record-1-413-vulnerabilities-including-exp-1026a5cd.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/divulgacion-no-autorizada-de-informacion-en-el-servicio-web-de-facturacion-de": {
+      "guid": "673814 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Divulgación no autorizada de información en el servicio web de facturación de Copart",
+      "fecha_publicacion_iso": "2026-10-14T07:05:06+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-divulgacion-no-autorizada-de-informacion-en-el-servicio-web-cb154c92.html"
+    },
+    "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=49996",
+      "fuente": "SecurityWeek",
+      "titulo": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-14T06:12:10+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-sap-patches-critical-netweaver-s-4hana-vulnerabilities-107051ae.html"
+    },
+    "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html": {
+      "guid": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "fecha_publicacion_iso": "2026-10-14T05:52:28+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-four-byte-write-and-timing-bug-let-researchers-run-code-in-w-ef61a928.html"
+    },
+    "https://therecord.media/saudi-national-charged-with-spy-device-openai": {
+      "guid": "https://therecord.media/saudi-national-charged-with-spy-device-openai",
+      "fuente": "The Record",
+      "titulo": "Saudi national charged with planting spy device in OpenAI executive conference room",
+      "fecha_publicacion_iso": "2026-10-13T23:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-saudi-national-charged-with-planting-spy-device-in-openai-ex-86eb1307.html"
+    },
+    "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/": {
+      "guid": "https://www.welivesecurity.com/es/estafas-enganos/falso-sitio-fravega-clonan-tienda-checkouts-descartables/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Alerta por un falso sitio de Frávega: el sistema de checkouts variables detrás de la estafa",
+      "fecha_publicacion_iso": "2026-10-13T16:38:34+00:00",
+      "fecha_agregada_iso": "2026-10-14T14:36:41.828311+00:00",
+      "ruta_noticia": "/noticia/2026-10-14-alerta-por-un-falso-sitio-de-fravega-el-sistema-de-checkouts-fec6260e.html"
     }
   }
 }
