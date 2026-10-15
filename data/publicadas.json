@@ -16215,6 +16215,38 @@
       "fecha_publicacion_iso": "2026-10-14T20:57:16+00:00",
       "fecha_agregada_iso": "2026-10-14T23:56:05.165008+00:00",
       "ruta_noticia": "/noticia/2026-10-14-yam-store-the-phishing-network-behind-a-billion-messages-b0a791a9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/michael-scott-immuta-ai-agent-permissions/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387717",
+      "fuente": "Help Net Security",
+      "titulo": "Immuta CISO predicts critical AI incidents at major enterprises within 18 months",
+      "fecha_publicacion_iso": "2026-10-15T05:30:27+00:00",
+      "fecha_agregada_iso": "2026-10-15T05:55:45.905780+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-immuta-ciso-predicts-critical-ai-incidents-at-major-enterpri-6bef8c5b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/exposed-ai-infrastructure-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387994",
+      "fuente": "Help Net Security",
+      "titulo": "The internet’s attack surface moves at very different speeds",
+      "fecha_publicacion_iso": "2026-10-15T05:00:02+00:00",
+      "fecha_agregada_iso": "2026-10-15T05:55:45.905780+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-the-internets-attack-surface-moves-at-very-different-speeds-2a1cef5c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/jetbrains-ai-software-delivery-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387973",
+      "fuente": "Help Net Security",
+      "titulo": "AI-generated changes create review bottlenecks in software delivery",
+      "fecha_publicacion_iso": "2026-10-15T04:30:50+00:00",
+      "fecha_agregada_iso": "2026-10-15T05:55:45.905780+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ai-generated-changes-create-review-bottlenecks-in-software-d-7ca19f22.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/product-showcase-guardos/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387943",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: GuardOS checks QR links, scans for data breaches, and filters Safari content",
+      "fecha_publicacion_iso": "2026-10-15T04:00:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T05:55:45.905780+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-product-showcase-guardos-checks-qr-links-scans-for-data-brea-03c50c31.html"
     }
   }
 }
