@@ -16247,6 +16247,382 @@
       "fecha_publicacion_iso": "2026-10-15T04:00:08+00:00",
       "fecha_agregada_iso": "2026-10-15T05:55:45.905780+00:00",
       "ruta_noticia": "/noticia/2026-10-15-product-showcase-guardos-checks-qr-links-scans-for-data-brea-03c50c31.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "fuente": "BleepingComputer",
+      "titulo": "Is AI pentesting as good as a human pentester?",
+      "fecha_publicacion_iso": "2026-10-15T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-is-ai-pentesting-as-good-as-a-human-pentester-5d774caa.html"
+    },
+    "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage": {
+      "guid": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage",
+      "fuente": "The Record",
+      "titulo": "Suspected Kazakhstan-linked hackers target governments across former Soviet states",
+      "fecha_publicacion_iso": "2026-10-15T13:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-suspected-kazakhstan-linked-hackers-target-governments-acros-ada0693d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/servicenow-ai-passport/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388116",
+      "fuente": "Help Net Security",
+      "titulo": "ServiceNow gives AI agents a passport, and limits on what they can do",
+      "fecha_publicacion_iso": "2026-10-15T13:51:22+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-servicenow-gives-ai-agents-a-passport-and-limits-on-what-the-d15fa47c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/kgb-rat-windows-trojan-webcam-spying-password-theft/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388092",
+      "fuente": "Help Net Security",
+      "titulo": "KGB RAT trojan packs webcam spying, password theft and a “fun” menu to terrorize victims",
+      "fecha_publicacion_iso": "2026-10-15T13:51:03+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-kgb-rat-trojan-packs-webcam-spying-password-theft-and-a-fun-05373092.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/bank-of-america-had-to-bring-in-1000-contractors-to-patch-all-the-bugs-mythos-identified/5303275": {
+      "guid": "https://www.theregister.com/a/5303275",
+      "fuente": "The Register - Security",
+      "titulo": "Bank of America had to bring in 1,000 contractors to patch all the bugs Mythos identified",
+      "fecha_publicacion_iso": "2026-10-15T13:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-bank-of-america-had-to-bring-in-1-000-contractors-to-patch-a-a3f71852.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/barracuda-fake-captcha-phishing-attacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388090",
+      "fuente": "Help Net Security",
+      "titulo": "Fake CAPTCHAs are tricking users into running malware on their own devices",
+      "fecha_publicacion_iso": "2026-10-15T13:29:01+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-fake-captchas-are-tricking-users-into-running-malware-on-the-0c3ef718.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Windows Server 2022 reached end of mainstream support",
+      "fecha_publicacion_iso": "2026-10-15T13:18:36+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-microsoft-windows-server-2022-reached-end-of-mainstream-supp-80cf54be.html"
+    },
+    "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/": {
+      "guid": "https://www.securityweek.com/?p=50055",
+      "fuente": "SecurityWeek",
+      "titulo": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
+      "fecha_publicacion_iso": "2026-10-15T12:50:42+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-supermarket-refrigeration-attack-widens-to-copeland-dixell-c-804b1f79.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/x-purges-13000-accounts-linked-to-suspected-meddling-ahead-of-us-midterms/5303234": {
+      "guid": "https://www.theregister.com/a/5303234",
+      "fuente": "The Register - Security",
+      "titulo": "X purges 13,000 accounts linked to suspected meddling ahead of US midterms",
+      "fecha_publicacion_iso": "2026-10-15T12:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-x-purges-13-000-accounts-linked-to-suspected-meddling-ahead-05e0b386.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/anthropic-advierte-que-los-modelos-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4042421027119029534",
+      "fuente": "Segu-Info",
+      "titulo": "Anthropic advierte que los modelos de IA podrían autorreplicarse pronto en televisores inteligentes y dispositivos IoT",
+      "fecha_publicacion_iso": "2026-10-15T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-anthropic-advierte-que-los-modelos-de-ia-podrian-autorreplic-95eabbe4.html"
+    },
+    "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html": {
+      "guid": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+      "fecha_publicacion_iso": "2026-10-15T12:07:20+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-drupal-patches-critical-core-rce-flaw-with-no-login-path-via-ce862b88.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+      "fuente": "BleepingComputer",
+      "titulo": "Police arrests 95 suspects in international CSAM crackdown action",
+      "fecha_publicacion_iso": "2026-10-15T11:55:38+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-police-arrests-95-suspects-in-international-csam-crackdown-a-3565d45f.html"
+    },
+    "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html": {
+      "guid": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "fecha_publicacion_iso": "2026-10-15T11:46:59+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-fake-ai-attacks-spread-across-us-companies-how-mssps-can-sto-999e9923.html"
+    },
+    "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/": {
+      "guid": "https://www.securityweek.com/?p=50051",
+      "fuente": "SecurityWeek",
+      "titulo": "CikaBika Bot RAT Uses Discord for C&C",
+      "fecha_publicacion_iso": "2026-10-15T11:25:58+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-cikabika-bot-rat-uses-discord-for-c-c-a28002aa.html"
+    },
+    "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html": {
+      "guid": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+      "fuente": "The Hacker News",
+      "titulo": "Why AI Confidence Is Not Validation",
+      "fecha_publicacion_iso": "2026-10-15T11:04:35+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-why-ai-confidence-is-not-validation-9bedf93c.html"
+    },
+    "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html": {
+      "guid": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "fuente": "The Hacker News",
+      "titulo": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "fecha_publicacion_iso": "2026-10-15T10:42:16+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-india-mandates-registered-caller-name-display-on-4g-and-newe-b5878f01.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/us-air-force-pilots-used-malware-laden-usb-drives-to-plan-afghanistan-missions/5303156": {
+      "guid": "https://www.theregister.com/a/5303156",
+      "fuente": "The Register - Security",
+      "titulo": "US Air Force pilots used malware-laden USB drives to plan Afghanistan missions",
+      "fecha_publicacion_iso": "2026-10-15T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-us-air-force-pilots-used-malware-laden-usb-drives-to-plan-af-769245e4.html"
+    },
+    "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/": {
+      "guid": "https://www.securityweek.com/?p=50046",
+      "fuente": "SecurityWeek",
+      "titulo": "Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies",
+      "fecha_publicacion_iso": "2026-10-15T10:15:32+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-novel-android-rat-hirudo-replaces-banking-apps-with-trojaniz-b554bfcb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/microsoft-disrupting-phishing-kits-marketplace-yam-store/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388041",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft disrupts phishing network behind more than a billion scam messages",
+      "fecha_publicacion_iso": "2026-10-15T10:10:21+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-microsoft-disrupts-phishing-network-behind-more-than-a-billi-60d41e7e.html"
+    },
+    "https://cyberscoop.com/adfection-zero-click-spyware-discover-tech/": {
+      "guid": "https://cyberscoop.com/?p=91118",
+      "fuente": "CyberScoop",
+      "titulo": "AdFection: How mercenary spyware invades victims’ devices through targeted advertising",
+      "fecha_publicacion_iso": "2026-10-15T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-adfection-how-mercenary-spyware-invades-victims-devices-thro-950d0b7b.html"
+    },
+    "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/": {
+      "guid": "6acf844b3350df3ad87c25ca",
+      "fuente": "Wired - Security",
+      "titulo": "‘Nightmare Scenario’: Zero-Click Spyware Is Infecting Phones via Targeted Ads",
+      "fecha_publicacion_iso": "2026-10-15T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-nightmare-scenario-zero-click-spyware-is-infecting-phones-vi-695376ae.html"
+    },
+    "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/": {
+      "guid": "https://www.securityweek.com/?p=50044",
+      "fuente": "SecurityWeek",
+      "titulo": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
+      "fecha_publicacion_iso": "2026-10-15T09:55:19+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-centerpoint-energy-data-breach-impacts-1-million-texans-fbda5a84.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/15/uk-keeps-ai-safeguards-in-the-maybe-pile-for-cyber-security-bill/5303026": {
+      "guid": "https://www.theregister.com/a/5303026",
+      "fuente": "The Register - Security",
+      "titulo": "UK keeps AI safeguards in the maybe pile for Cyber Security BIll",
+      "fecha_publicacion_iso": "2026-10-15T09:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-uk-keeps-ai-safeguards-in-the-maybe-pile-for-cyber-security-9fced633.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+      "fecha_publicacion_iso": "2026-10-15T09:10:20+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-microsoft-fixes-bug-causing-windows-black-screens-explorer-c-080d6dd1.html"
+    },
+    "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html": {
+      "guid": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "fuente": "The Hacker News",
+      "titulo": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "fecha_publicacion_iso": "2026-10-15T08:45:10+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ghostaction-compromises-about-1-900-github-accounts-targets-1d72630b.html"
+    },
+    "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/": {
+      "guid": "https://www.securityweek.com/?p=50038",
+      "fuente": "SecurityWeek",
+      "titulo": "CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO",
+      "fecha_publicacion_iso": "2026-10-15T08:26:40+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ciso-conversations-james-robinson-many-jobs-one-journey-to-n-7278d7ea.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "fuente": "BleepingComputer",
+      "titulo": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "fecha_publicacion_iso": "2026-10-15T08:06:47+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-uk-legal-aid-agency-hackers-stole-records-dating-back-to-197-9d7e0c21.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/legal-aid-agency-hackers-made-off-with-records-dating-back-to-1978/5303243": {
+      "guid": "https://www.theregister.com/security/2026/10/15/legal-aid-agency-hackers-made-off-with-records-dating-back-to-1978/5303243",
+      "fuente": "The Register - Security",
+      "titulo": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "fecha_publicacion_iso": "2026-10-15T08:06:47+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-uk-legal-aid-agency-hackers-stole-records-dating-back-to-197-9d7e0c21.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-convocatoria-de-articulos-para-tercer-numero-revsita-pit": {
+      "guid": "1eebcdfb-3173-4ecb-bb35-d01c2bb7d975",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas",
+      "fecha_publicacion_iso": "2026-10-15T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-abierta-la-convocatoria-de-articulos-para-el-tercer-numero-d-2c2efef7.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-stela-de-diaple-networking": {
+      "guid": "673828 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión de autenticación en Stela de Diaple Networking",
+      "fecha_publicacion_iso": "2026-10-15T07:59:45+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-omision-de-autenticacion-en-stela-de-diaple-networking-90b2cdb5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/optro-grc-intelligence-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388022",
+      "fuente": "Help Net Security",
+      "titulo": "Optro automates GRC workflows with auditable AI agents",
+      "fecha_publicacion_iso": "2026-10-15T07:43:54+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-optro-automates-grc-workflows-with-auditable-ai-agents-b3b29f01.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-juniper-networks": {
+      "guid": "673835 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Juniper Networks",
+      "fecha_publicacion_iso": "2026-10-15T07:40:44+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-multiples-vulnerabilidades-en-productos-de-juniper-networks-b8cf728e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/qualys-trurisk-eliminate-2-0-truconfidence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388017",
+      "fuente": "Help Net Security",
+      "titulo": "Qualys introduces TruConfidence to orchestrate cyber risk remediation",
+      "fecha_publicacion_iso": "2026-10-15T07:31:41+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-qualys-introduces-truconfidence-to-orchestrate-cyber-risk-re-86d6db3d.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/metropolitan-polices-unchecked-use-of-shoplifting-platform-lands-force-in-trouble-with-data-watchdog/5303061": {
+      "guid": "https://www.theregister.com/a/5303061",
+      "fuente": "The Register - Security",
+      "titulo": "Metropolitan Police's unchecked use of shoplifting platform lands force in trouble with data watchdog",
+      "fecha_publicacion_iso": "2026-10-15T07:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-metropolitan-police-s-unchecked-use-of-shoplifting-platform-6e383188.html"
+    },
+    "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html": {
+      "guid": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "fecha_publicacion_iso": "2026-10-15T07:07:05+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-langflow-s-critical-authenticated-rce-flaw-targeted-in-1-423-50367ee6.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware": {
+      "guid": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
+      "fuente": "Dark Reading",
+      "titulo": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
+      "fecha_publicacion_iso": "2026-10-15T07:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-eu-grocers-pay-a-steep-price-for-unpatched-fridge-firmware-c86f8dee.html"
+    },
+    "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html": {
+      "guid": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "fuente": "The Hacker News",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/": {
+      "guid": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+      "fuente": "SecurityWeek",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-17": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-17",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-en-pan-os-de-palo-alto-networks": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-de-codigo-en-pan-os-de-palo-alto-networks",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/",
+      "fuente": "Help Net Security",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html": {
+      "guid": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "fuente": "The Hacker News",
+      "titulo": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "fecha_publicacion_iso": "2026-10-15T06:43:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ahsaycbs-flaws-exploited-to-deploy-web-shells-get-new-fixes-a713f242.html"
+    },
+    "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=50029",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
+      "fecha_publicacion_iso": "2026-10-15T06:34:15+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-cisco-warns-of-exploited-secure-email-gateway-vulnerability-8bed3c35.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/15/jev-and-other-decision-models-can-still-be-tricked-with-prompt-injection/5303184": {
+      "guid": "https://www.theregister.com/a/5303184",
+      "fuente": "The Register - Security",
+      "titulo": "Jev and other decision models can still be tricked with prompt injection",
+      "fecha_publicacion_iso": "2026-10-15T06:28:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-jev-and-other-decision-models-can-still-be-tricked-with-prom-a3bbfb38.html"
+    },
+    "http://www.elladodelmal.com/2026/10/smart-things-trabajando-mas-alla-de-su.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-209671978941950498",
+      "fuente": "El Lado del Mal",
+      "titulo": "Smart Things trabajando más allá de su \"End of Life\": Parchea los electrodomésticos de tu casa.",
+      "fecha_publicacion_iso": "2026-10-15T05:29:06+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-smart-things-trabajando-mas-alla-de-su-end-of-life-parchea-l-29db902d.html"
+    },
+    "https://therecord.media/ukraine-says-starshield-working-again-after-disruption": {
+      "guid": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
+      "fuente": "The Record",
+      "titulo": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
+      "fecha_publicacion_iso": "2026-10-14T23:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ukraine-says-elon-musk-s-starshield-service-partially-restor-cb4f3bcb.html"
+    },
+    "https://www.welivesecurity.com/es/estafas-enganos/estafas-tiempos-compartidos-falsos-compradores/": {
+      "guid": "https://www.welivesecurity.com/es/estafas-enganos/estafas-tiempos-compartidos-falsos-compradores/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Cómo los estafadores se aprovechan de los propietarios de tiempos compartidos",
+      "fecha_publicacion_iso": "2026-10-14T18:40:48+00:00",
+      "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-como-los-estafadores-se-aprovechan-de-los-propietarios-de-ti-a972a95c.html"
     }
   }
 }
