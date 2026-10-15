@@ -16775,6 +16775,70 @@
       "fecha_publicacion_iso": "2026-10-15T12:28:13+00:00",
       "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
       "ruta_noticia": "/noticia/2026-10-15-next-js-ships-out-of-band-patch-for-two-critical-rce-flaws-i-e7e05829.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidades-criticas-en-nextjs.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-153637647202564409",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidades críticas en Next.js permiten ejecutar código de forma remota",
+      "fecha_publicacion_iso": "2026-10-15T23:07:59+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-vulnerabilidades-criticas-en-next-js-permiten-ejecutar-codig-560baee8.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
+      "fuente": "Dark Reading",
+      "titulo": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
+      "fecha_publicacion_iso": "2026-10-15T22:10:08+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-sector-2026-reveals-a-rapidly-shifting-cybersecurity-landsca-3f1030ed.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud": {
+      "guid": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+      "fuente": "Dark Reading",
+      "titulo": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
+      "fecha_publicacion_iso": "2026-10-15T21:55:07+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-f-secure-launches-victim-first-scam-encyclopedia-covering-50-59210921.html"
+    },
+    "https://cyberscoop.com/proofpoint-acquires-varonis-systems-data-security/": {
+      "guid": "https://cyberscoop.com/?p=91142",
+      "fuente": "CyberScoop",
+      "titulo": "Proofpoint to buy Varonis for $6.3 billion",
+      "fecha_publicacion_iso": "2026-10-15T21:13:58+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-proofpoint-to-buy-varonis-for-6-3-billion-a94f6595.html"
+    },
+    "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage": {
+      "guid": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+      "fuente": "The Record",
+      "titulo": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+      "fecha_publicacion_iso": "2026-10-15T20:46:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-federal-bankruptcy-courts-dealing-with-outages-after-contrac-c5cb3c90.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks": {
+      "guid": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
+      "fuente": "Dark Reading",
+      "titulo": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
+      "fecha_publicacion_iso": "2026-10-15T20:43:20+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-ai-slop-isn-t-just-for-social-media-it-s-ruining-cyberattack-c7adc819.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+      "fecha_publicacion_iso": "2026-10-15T20:25:04+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-ser-a094aa58.html"
+    },
+    "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "fecha_publicacion_iso": "2026-10-15T20:24:36+00:00",
+      "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-critical-pwnescape-linux-kernel-vulnerability-lets-guest-vms-222e66a5.html"
     }
   }
 }
