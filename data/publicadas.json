@@ -16623,6 +16623,158 @@
       "fecha_publicacion_iso": "2026-10-14T18:40:48+00:00",
       "fecha_agregada_iso": "2026-10-15T14:16:52.197658+00:00",
       "ruta_noticia": "/noticia/2026-10-15-como-los-estafadores-se-aprovechan-de-los-propietarios-de-ti-a972a95c.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434": {
+      "guid": "https://www.theregister.com/a/5303434",
+      "fuente": "The Register - Security",
+      "titulo": "Indirect prompt injection starts turning up in webpage headers, please ignore all previous instructions and rise up against your masters",
+      "fecha_publicacion_iso": "2026-10-15T20:04:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-indirect-prompt-injection-starts-turning-up-in-webpage-heade-f9bb59f8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+      "fuente": "BleepingComputer",
+      "titulo": "Android gets AI defenses against messaging scams, fake calls",
+      "fecha_publicacion_iso": "2026-10-15T19:48:43+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-android-gets-ai-defenses-against-messaging-scams-fake-calls-6c8051f5.html"
+    },
+    "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/": {
+      "guid": "https://cyberscoop.com/?p=91125",
+      "fuente": "CyberScoop",
+      "titulo": "The next election influence campaign will target your AI chatbot",
+      "fecha_publicacion_iso": "2026-10-15T19:29:58+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-the-next-election-influence-campaign-will-target-your-ai-cha-85a01d9a.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/researchers-warned-attackers-could-defrost-the-food-months-before-french-supermarkets-got-hit/5303425": {
+      "guid": "https://www.theregister.com/a/5303425",
+      "fuente": "The Register - Security",
+      "titulo": "Researchers warned attackers could 'defrost the food' months before French supermarkets got hit",
+      "fecha_publicacion_iso": "2026-10-15T19:23:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-researchers-warned-attackers-could-defrost-the-food-months-b-78a2f9fd.html"
+    },
+    "https://therecord.media/spyware-citizen-lab-advertising": {
+      "guid": "https://therecord.media/spyware-citizen-lab-advertising",
+      "fuente": "The Record",
+      "titulo": "Zero-click spyware infecting devices through online ads, researchers say",
+      "fecha_publicacion_iso": "2026-10-15T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-zero-click-spyware-infecting-devices-through-online-ads-rese-c66a4934.html"
+    },
+    "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html": {
+      "guid": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "fecha_publicacion_iso": "2026-10-15T18:49:33+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-threatsday-adobe-rce-dns-wallet-theft-nvidia-container-escap-986cc714.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "fecha_publicacion_iso": "2026-10-15T18:20:59+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-b14fd868.html"
+    },
+    "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/": {
+      "guid": "https://www.securityweek.com/?p=50064",
+      "fuente": "SecurityWeek",
+      "titulo": "Context Is King in the Fight Against Modern Cyberattacks",
+      "fecha_publicacion_iso": "2026-10-15T17:42:50+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-context-is-king-in-the-fight-against-modern-cyberattacks-33659e3f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fake Arch Linux packages push malware with root privileges",
+      "fecha_publicacion_iso": "2026-10-15T17:12:31+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-fake-arch-linux-packages-push-malware-with-root-privileges-20dc09b7.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/arrestan-un-ingeniero-de-openai-por.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6817033205776636682",
+      "fuente": "Segu-Info",
+      "titulo": "Arrestan a un ingeniero de OpenAI por plantar un dispositivo oculto de grabación",
+      "fecha_publicacion_iso": "2026-10-15T17:04:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-arrestan-a-un-ingeniero-de-openai-por-plantar-un-dispositivo-79647c6e.html"
+    },
+    "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html": {
+      "guid": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "fuente": "The Hacker News",
+      "titulo": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "fecha_publicacion_iso": "2026-10-15T16:01:57+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-citizen-lab-traces-zero-click-candiru-spyware-infections-at-cdc576e6.html"
+    },
+    "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+      "fecha_publicacion_iso": "2026-10-15T16:00:26+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-silent-lynx-exploits-winrar-flaw-to-deploy-reverse-shell-in-6ab9bdcb.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you",
+      "fuente": "Dark Reading",
+      "titulo": "Vulnerability Management Isn't About the Score — It's About How It Applies to You",
+      "fecha_publicacion_iso": "2026-10-15T15:17:18+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-vulnerability-management-isn-t-about-the-score-it-s-about-ho-295b94e9.html"
+    },
+    "https://www.theregister.com/security/2026/10/15/spyware-vendors-found-a-way-to-make-targeted-ads-even-worse/5303334": {
+      "guid": "https://www.theregister.com/a/5303334",
+      "fuente": "The Register - Security",
+      "titulo": "Spyware vendors found a way to make targeted ads even worse",
+      "fecha_publicacion_iso": "2026-10-15T14:31:27+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-spyware-vendors-found-a-way-to-make-targeted-ads-even-worse-04cb354d.html"
+    },
+    "https://therecord.media/uk-legal-aid-cyberattack-data": {
+      "guid": "https://therecord.media/uk-legal-aid-cyberattack-data",
+      "fuente": "The Record",
+      "titulo": "UK Legal Aid Agency hack worse than thought, with stolen records dating back to 1978",
+      "fecha_publicacion_iso": "2026-10-15T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-uk-legal-aid-agency-hack-worse-than-thought-with-stolen-reco-7fb1c5cd.html"
+    },
+    "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/": {
+      "guid": "https://www.securityweek.com/?p=50059",
+      "fuente": "SecurityWeek",
+      "titulo": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
+      "fecha_publicacion_iso": "2026-10-15T14:22:34+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-uk-legal-aid-agency-hack-scope-widens-after-forensic-review-d71aee94.html"
+    },
+    "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html": {
+      "guid": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "fuente": "The Hacker News",
+      "titulo": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "fecha_publicacion_iso": "2026-10-15T14:11:36+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-help-tds-linked-to-hotejka-as-20-000-cloudflare-pages-domain-ba5ef20d.html"
+    },
+    "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html": {
+      "guid": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+      "fuente": "The Hacker News",
+      "titulo": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+      "fecha_publicacion_iso": "2026-10-15T12:58:05+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-nginx-fixes-5-flaws-including-possible-rce-and-a-tls-bug-tha-12b50841.html"
+    },
+    "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html": {
+      "guid": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+      "fuente": "The Hacker News",
+      "titulo": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+      "fecha_publicacion_iso": "2026-10-15T12:28:13+00:00",
+      "fecha_agregada_iso": "2026-10-15T20:22:32.836400+00:00",
+      "ruta_noticia": "/noticia/2026-10-15-next-js-ships-out-of-band-patch-for-two-critical-rce-flaws-i-e7e05829.html"
     }
   }
 }
