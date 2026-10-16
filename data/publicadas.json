@@ -16887,6 +16887,286 @@
       "fecha_publicacion_iso": "2026-10-16T03:53:43+00:00",
       "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
       "ruta_noticia": "/noticia/2026-10-16-fastfetch-2-70-0-changes-how-disk-free-space-is-reported-f9486f13.html"
+    },
+    "https://therecord.media/russia-datasuckers-hackers-arrested": {
+      "guid": "https://therecord.media/russia-datasuckers-hackers-arrested",
+      "fuente": "The Record",
+      "titulo": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
+      "fecha_publicacion_iso": "2026-10-16T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-moscow-police-detain-suspected-datasuckers-hackers-linked-to-39925f2a.html"
+    },
+    "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach": {
+      "guid": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+      "fuente": "The Record",
+      "titulo": "Baltimore suburb confirms August data breach after ransomware claims",
+      "fecha_publicacion_iso": "2026-10-16T13:05:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-baltimore-suburb-confirms-august-data-breach-after-ransomwar-38208afe.html"
+    },
+    "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable": {
+      "guid": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
+      "fuente": "Dark Reading",
+      "titulo": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
+      "fecha_publicacion_iso": "2026-10-16T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-when-ai-agents-commit-breaches-humans-may-not-be-held-liable-48b9aea0.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-en-linux-permite.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4777166256804655151",
+      "fuente": "Segu-Info",
+      "titulo": "PwnEscape: vulnerabilidad crítica en Linux permite escapar de máquinas virtuales y controlar hosts",
+      "fecha_publicacion_iso": "2026-10-16T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-pwnescape-vulnerabilidad-critica-en-linux-permite-escapar-de-ba36fd1d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/rfq-phishing-emails-sales-procurement-staff/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388208",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers disguise phishing as promising business opportunities",
+      "fecha_publicacion_iso": "2026-10-16T12:45:43+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-hackers-disguise-phishing-as-promising-business-opportunitie-ec7e93d5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "fuente": "BleepingComputer",
+      "titulo": "Burger King Japan data breach exposes 11 million customer records",
+      "fecha_publicacion_iso": "2026-10-16T12:01:29+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-burger-king-japan-data-breach-exposes-11-million-customer-re-862e2db1.html"
+    },
+    "https://www.edpb.europa.eu/news/norwegian-dpa-fines-xandr-eur-8-600-000-for-unlawful-processing-of-personal-data_en": {
+      "guid": "20ee39af-d156-42c4-ae46-86fa47638a1f",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Norwegian DPA fines Xandr EUR 8 600 000 for unlawful processing of personal data",
+      "fecha_publicacion_iso": "2026-10-16T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-norwegian-dpa-fines-xandr-eur-8-600-000-for-unlawful-process-5b43421d.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/adfection-spyware-zero-click-traves-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2013215890002311204",
+      "fuente": "Segu-Info",
+      "titulo": "AdFection: spyware Zero-Click a través de publicidad dirigida",
+      "fecha_publicacion_iso": "2026-10-16T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-adfection-spyware-zero-click-a-traves-de-publicidad-dirigida-868ee868.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/usa-2026-midterm-election-scams/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388183",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers clone candidates’ voices to steal cash and voter data ahead of 2026 midterms, FBI warns",
+      "fecha_publicacion_iso": "2026-10-16T11:34:35+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-scammers-clone-candidates-voices-to-steal-cash-and-voter-dat-e13926c7.html"
+    },
+    "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html": {
+      "guid": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI Decision Models and Their Impact on AI SOC Platforms",
+      "fecha_publicacion_iso": "2026-10-16T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-ai-decision-models-and-their-impact-on-ai-soc-platforms-61ac6bfa.html"
+    },
+    "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/": {
+      "guid": "https://www.securityweek.com/?p=50085",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+      "fecha_publicacion_iso": "2026-10-16T10:32:11+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-openai-models-hacked-data-portals-raided-a-crypto-wallet-to-3042b8d5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/arch-linux-aur-malware-yay-paru/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388141",
+      "fuente": "Help Net Security",
+      "titulo": "Fake Arch Linux AUR packages exploit typos to run malware with root privileges",
+      "fecha_publicacion_iso": "2026-10-16T09:58:35+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-fake-arch-linux-aur-packages-exploit-typos-to-run-malware-wi-7d787354.html"
+    },
+    "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50083",
+      "fuente": "SecurityWeek",
+      "titulo": "F5, Juniper Networks Patch Critical Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-16T09:54:34+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-f5-juniper-networks-patch-critical-vulnerabilities-c426150a.html"
+    },
+    "https://www.theregister.com/security/2026/10/16/thief-snatches-school-snappers-sd-cards-in-smash-grab/5303379": {
+      "guid": "https://www.theregister.com/a/5303379",
+      "fuente": "The Register - Security",
+      "titulo": "Thief snatches school snapper's SD cards in smash & grab",
+      "fecha_publicacion_iso": "2026-10-16T09:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-thief-snatches-school-snapper-s-sd-cards-in-smash-grab-b714697d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/android-enhanced-built-in-scam-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388138",
+      "fuente": "Help Net Security",
+      "titulo": "Android adds AI-powered scam alerts, hangs up on bank impostors",
+      "fecha_publicacion_iso": "2026-10-16T08:53:41+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-android-adds-ai-powered-scam-alerts-hangs-up-on-bank-imposto-055bfa83.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: October Windows update may break Smart App Control",
+      "fecha_publicacion_iso": "2026-10-16T08:44:22+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-microsoft-october-windows-update-may-break-smart-app-control-7e8ace9d.html"
+    },
+    "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/": {
+      "guid": "https://www.securityweek.com/?p=50080",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Patches Two Dozen RCE Flaws in Office",
+      "fecha_publicacion_iso": "2026-10-16T07:55:06+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-microsoft-patches-two-dozen-rce-flaws-in-office-509b1847.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+      "fuente": "BleepingComputer",
+      "titulo": "BAE Systems cyberattack disrupts US federal court operations",
+      "fecha_publicacion_iso": "2026-10-16T07:37:35+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-bae-systems-cyberattack-disrupts-us-federal-court-operations-d342f713.html"
+    },
+    "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/": {
+      "guid": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+      "fuente": "SecurityWeek",
+      "titulo": "BAE Systems cyberattack disrupts US federal court operations",
+      "fecha_publicacion_iso": "2026-10-16T07:37:35+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-bae-systems-cyberattack-disrupts-us-federal-court-operations-d342f713.html"
+    },
+    "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487": {
+      "guid": "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
+      "fuente": "The Register - Security",
+      "titulo": "BAE Systems cyberattack disrupts US federal court operations",
+      "fecha_publicacion_iso": "2026-10-16T07:37:35+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-bae-systems-cyberattack-disrupts-us-federal-court-operations-d342f713.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/gestion-incorrecta-de-mayusculas-y-minusculas-en-wazuh-manager": {
+      "guid": "676531 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Gestión incorrecta de mayúsculas y minúsculas en Wazuh Manager",
+      "fecha_publicacion_iso": "2026-10-16T07:37:32+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-gestion-incorrecta-de-mayusculas-y-minusculas-en-wazuh-manag-7cb42393.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-nextjs-de-vercel": {
+      "guid": "676530 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Next.js de Vercel",
+      "fecha_publicacion_iso": "2026-10-16T07:37:31+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-multiples-vulnerabilidades-en-next-js-de-vercel-2b94ad04.html"
+    },
+    "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864": {
+      "guid": "https://www.theregister.com/a/5301864",
+      "fuente": "The Register - Security",
+      "titulo": "User refused to change her password because everyone already knew it",
+      "fecha_publicacion_iso": "2026-10-16T07:28:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-user-refused-to-change-her-password-because-everyone-already-21b19815.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-profleet-de-tsg": {
+      "guid": "676525 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en Profleet de TSG",
+      "fecha_publicacion_iso": "2026-10-16T07:27:19+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-inyeccion-sql-en-profleet-de-tsg-c29483fe.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/server-side-request-forgery-en-la-exportacion-pdf-de-wegow": {
+      "guid": "676524 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Server-Side Request Forgery en la exportación a PDF de Wegow",
+      "fecha_publicacion_iso": "2026-10-16T07:25:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-server-side-request-forgery-en-la-exportacion-a-pdf-de-wegow-d7973aa8.html"
+    },
+    "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/": {
+      "guid": "https://www.securityweek.com/?p=50076",
+      "fuente": "SecurityWeek",
+      "titulo": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
+      "fecha_publicacion_iso": "2026-10-16T07:12:51+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis-105239e3.html"
+    },
+    "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html": {
+      "guid": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "fecha_publicacion_iso": "2026-10-16T06:55:55+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-china-linked-hackers-exploited-beyondtrust-zero-day-to-take-1fd194e1.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-mediante-suplantacion-en-remote-support-de-beyondtrust": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-mediante-suplantacion-en-remote-support-de-beyondtrust",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "fecha_publicacion_iso": "2026-10-16T06:55:55+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-china-linked-hackers-exploited-beyondtrust-zero-day-to-take-1fd194e1.html"
+    },
+    "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/": {
+      "guid": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+      "fuente": "SecurityWeek",
+      "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "fecha_publicacion_iso": "2026-10-16T06:55:55+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-china-linked-hackers-exploited-beyondtrust-zero-day-to-take-1fd194e1.html"
+    },
+    "https://therecord.media/beyond-trust-cyberattack-china": {
+      "guid": "https://therecord.media/beyond-trust-cyberattack-china",
+      "fuente": "The Record",
+      "titulo": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "fecha_publicacion_iso": "2026-10-16T06:55:55+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-china-linked-hackers-exploited-beyondtrust-zero-day-to-take-1fd194e1.html"
+    },
+    "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html": {
+      "guid": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+      "fuente": "The Hacker News",
+      "titulo": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+      "fecha_publicacion_iso": "2026-10-16T06:53:09+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-cert-in-warns-ai-agents-accessed-sensitive-data-at-indian-or-f909b9de.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "fuente": "BleepingComputer",
+      "titulo": "BeyondTrust patches zero-day exploited in attacks since August",
+      "fecha_publicacion_iso": "2026-10-16T06:18:08+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-beyondtrust-patches-zero-day-exploited-in-attacks-since-augu-494b44d4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387938",
+      "fuente": "Help Net Security",
+      "titulo": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
+      "fecha_publicacion_iso": "2026-10-16T06:00:12+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-why-active-directory-weaknesses-stay-open-for-years-in-teams-68f11f39.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "fecha_publicacion_iso": "2026-10-16T04:59:36+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-peerstitch-malware-deployed-via-fortios-flaw-bypasses-checks-5fc8c6dd.html"
+    },
+    "https://www.welivesecurity.com/es/estafas-enganos/estafa-de-inversion-suplanta-a-vymarkets/": {
+      "guid": "https://www.welivesecurity.com/es/estafas-enganos/estafa-de-inversion-suplanta-a-vymarkets/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Cómo opera una estafa de inversión que utiliza medios falsos, figuras públicas y la identidad de una empresa financiera real",
+      "fecha_publicacion_iso": "2026-10-15T17:25:13+00:00",
+      "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-como-opera-una-estafa-de-inversion-que-utiliza-medios-falsos-b76b25c2.html"
     }
   }
 }
