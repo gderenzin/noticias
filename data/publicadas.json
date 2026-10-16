@@ -17303,6 +17303,30 @@
       "fecha_publicacion_iso": "2026-10-16T13:50:59+00:00",
       "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
       "ruta_noticia": "/noticia/2026-10-16-employees-using-personal-chatgpt-at-work-here-s-what-it-admi-d269ee99.html"
+    },
+    "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs": {
+      "guid": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+      "fuente": "Dark Reading",
+      "titulo": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+      "fecha_publicacion_iso": "2026-10-16T20:34:37+00:00",
+      "fecha_agregada_iso": "2026-10-16T23:36:09.280957+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-beyondtrust-remote-support-zero-day-continues-trend-of-explo-15367a32.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "fecha_publicacion_iso": "2026-10-16T20:00:59+00:00",
+      "fecha_agregada_iso": "2026-10-16T23:36:09.280957+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-critical-blockstrap-flaw-lets-hackers-run-code-on-magento-se-8dfac5c3.html"
+    },
+    "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk": {
+      "guid": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+      "fuente": "Dark Reading",
+      "titulo": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+      "fecha_publicacion_iso": "2026-10-16T19:49:30+00:00",
+      "fecha_agregada_iso": "2026-10-16T23:36:09.280957+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-fake-claude-chatgpt-attacks-surge-putting-developers-at-risk-8e2b4b85.html"
     }
   }
 }
