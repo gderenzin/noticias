@@ -16839,6 +16839,54 @@
       "fecha_publicacion_iso": "2026-10-15T20:24:36+00:00",
       "fecha_agregada_iso": "2026-10-15T23:42:36.523405+00:00",
       "ruta_noticia": "/noticia/2026-10-15-critical-pwnescape-linux-kernel-vulnerability-lets-guest-vms-222e66a5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/cybersecurity-job-postings-talent-shortage/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388028",
+      "fuente": "Help Net Security",
+      "titulo": "The cyber talent shortage? Job postings just hit a four-year low",
+      "fecha_publicacion_iso": "2026-10-16T05:30:51+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-the-cyber-talent-shortage-job-postings-just-hit-a-four-year-2e685c59.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388000",
+      "fuente": "Help Net Security",
+      "titulo": "Stolen AI API keys are paying for hackers’ autonomous scans",
+      "fecha_publicacion_iso": "2026-10-16T05:00:24+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-stolen-ai-api-keys-are-paying-for-hackers-autonomous-scans-390ece11.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388078",
+      "fuente": "Help Net Security",
+      "titulo": "DDoS attacks can knock services offline before links reach capacity",
+      "fecha_publicacion_iso": "2026-10-16T04:30:46+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-ddos-attacks-can-knock-services-offline-before-links-reach-c-85fdfba5.html"
+    },
+    "http://www.elladodelmal.com/2026/10/artcraft-el-clon-de-la-suite-de-adobe.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6681770521716667358",
+      "fuente": "El Lado del Mal",
+      "titulo": "ARTCraft: El Clon de la Suite de Adobe hecho con IA en formato Open Source... para Agentes IA",
+      "fecha_publicacion_iso": "2026-10-16T04:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-artcraft-el-clon-de-la-suite-de-adobe-hecho-con-ia-en-format-acf93994.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/new-infosec-products-of-the-week-october-16-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388013",
+      "fuente": "Help Net Security",
+      "titulo": "New infosec products of the week: October 16, 2026",
+      "fecha_publicacion_iso": "2026-10-16T04:00:27+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-new-infosec-products-of-the-week-october-16-2026-8506686d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/16/fastfetch-2-70-0-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388126",
+      "fuente": "Help Net Security",
+      "titulo": "Fastfetch 2.70.0 changes how Disk free space is reported",
+      "fecha_publicacion_iso": "2026-10-16T03:53:43+00:00",
+      "fecha_agregada_iso": "2026-10-16T05:52:16.669834+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-fastfetch-2-70-0-changes-how-disk-free-space-is-reported-f9486f13.html"
     }
   }
 }
