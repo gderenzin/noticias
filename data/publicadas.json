@@ -17167,6 +17167,142 @@
       "fecha_publicacion_iso": "2026-10-15T17:25:13+00:00",
       "fecha_agregada_iso": "2026-10-16T14:02:44.479034+00:00",
       "ruta_noticia": "/noticia/2026-10-16-como-opera-una-estafa-de-inversion-que-utiliza-medios-falsos-b76b25c2.html"
+    },
+    "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield": {
+      "guid": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+      "fuente": "Dark Reading",
+      "titulo": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+      "fecha_publicacion_iso": "2026-10-16T19:22:12+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-biomemory-launches-dna-shield-first-commercial-product-built-b8b7cb7d.html"
+    },
+    "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise": {
+      "guid": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+      "fuente": "Dark Reading",
+      "titulo": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+      "fecha_publicacion_iso": "2026-10-16T19:13:59+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-enterprise-ai-enters-risk-management-phase-as-security-conce-714d202d.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes": {
+      "guid": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
+      "fuente": "Dark Reading",
+      "titulo": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
+      "fecha_publicacion_iso": "2026-10-16T18:37:50+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-ai-takes-control-of-robotic-arm-in-16-minutes-flat-0a023402.html"
+    },
+    "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/": {
+      "guid": "6acf8fe46e97cafdac3d556e",
+      "fuente": "Wired - Security",
+      "titulo": "Chicago-Area Cops Helped HSI Spy on Minnesota Anti-ICE Activists",
+      "fecha_publicacion_iso": "2026-10-16T18:21:54+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activ-b0fa2165.html"
+    },
+    "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html": {
+      "guid": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "fecha_publicacion_iso": "2026-10-16T17:48:45+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-researchers-demonstrate-openbsd-root-exploit-chaining-37-yea-2f67e7ff.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "fecha_publicacion_iso": "2026-10-16T17:20:03+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-targeted-ads-installed-candiru-spyware-in-zero-click-attacks-50880c90.html"
+    },
+    "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/": {
+      "guid": "https://cyberscoop.com/?p=91149",
+      "fuente": "CyberScoop",
+      "titulo": "Prolific Chinese espionage group exploits BeyondTrust zero-day",
+      "fecha_publicacion_iso": "2026-10-16T17:09:09+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-prolific-chinese-espionage-group-exploits-beyondtrust-zero-d-c0b88e2e.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "fecha_publicacion_iso": "2026-10-16T16:43:39+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-attackers-tampered-with-aomei-backupper-s-update-servers-for-2f6312b7.html"
+    },
+    "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html": {
+      "guid": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "fecha_publicacion_iso": "2026-10-16T16:16:44+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-uat-11985-uses-fake-event-invites-to-target-taiwan-research-7ca53929.html"
+    },
+    "https://www.theregister.com/security/2026/10/16/networking-problems-after-the-october-2026-windows-update-ntlm-might-be-to-blame/5303503": {
+      "guid": "https://www.theregister.com/a/5303503",
+      "fuente": "The Register - Security",
+      "titulo": "Networking problems after the October 2026 Windows update? NTLM might be to blame",
+      "fecha_publicacion_iso": "2026-10-16T15:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-networking-problems-after-the-october-2026-windows-update-nt-dfe48df6.html"
+    },
+    "https://cyberscoop.com/bae-systems-cybersecurity-incident-us-bankruptcy-courts/": {
+      "guid": "https://cyberscoop.com/?p=91145",
+      "fuente": "CyberScoop",
+      "titulo": "Cybersecurity incident at BAE Systems disrupts US bankruptcy court system",
+      "fecha_publicacion_iso": "2026-10-16T15:12:44+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-cybersecurity-incident-at-bae-systems-disrupts-us-bankruptcy-d714c5e4.html"
+    },
+    "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition": {
+      "guid": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
+      "fuente": "The Record",
+      "titulo": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
+      "fecha_publicacion_iso": "2026-10-16T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-proofpoint-lines-up-6-3-billion-deal-for-varonis-data-securi-6c93682b.html"
+    },
+    "https://olartemoure.com/deberes-de-seguridad-de-datos/": {
+      "guid": "https://olartemoure.com/?p=4430992",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Hackeo a Trump Mobile y deberes de seguridad de datos",
+      "fecha_publicacion_iso": "2026-10-16T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-hackeo-a-trump-mobile-y-deberes-de-seguridad-de-datos-ebddadfa.html"
+    },
+    "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/": {
+      "guid": "https://www.securityweek.com/?p=50100",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+      "fecha_publicacion_iso": "2026-10-16T14:09:51+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-in-other-news-ics-sniper-attack-hacking-xworm-malware-operat-7a1f49cf.html"
+    },
+    "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html": {
+      "guid": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "fecha_publicacion_iso": "2026-10-16T14:03:04+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-openai-research-model-spent-3rd-party-test-eth-without-permi-82bd71e8.html"
+    },
+    "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side": {
+      "guid": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+      "fuente": "Dark Reading",
+      "titulo": "When Your Ransomware Negotiator Works for the Other Side",
+      "fecha_publicacion_iso": "2026-10-16T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-when-your-ransomware-negotiator-works-for-the-other-side-834a2489.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "fuente": "BleepingComputer",
+      "titulo": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "fecha_publicacion_iso": "2026-10-16T13:50:59+00:00",
+      "fecha_agregada_iso": "2026-10-16T20:00:55.522495+00:00",
+      "ruta_noticia": "/noticia/2026-10-16-employees-using-personal-chatgpt-at-work-here-s-what-it-admi-d269ee99.html"
     }
   }
 }
