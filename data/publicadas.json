@@ -17327,6 +17327,14 @@
       "fecha_publicacion_iso": "2026-10-16T19:49:30+00:00",
       "fecha_agregada_iso": "2026-10-16T23:36:09.280957+00:00",
       "ruta_noticia": "/noticia/2026-10-16-fake-claude-chatgpt-attacks-surge-putting-developers-at-risk-8e2b4b85.html"
+    },
+    "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/": {
+      "guid": "https://cyberscoop.com/?p=91156",
+      "fuente": "CyberScoop",
+      "titulo": "Federal agencies recommend cyber controls, independent testing for frontier AI systems",
+      "fecha_publicacion_iso": "2026-10-17T00:34:02+00:00",
+      "fecha_agregada_iso": "2026-10-17T05:37:02.961710+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-federal-agencies-recommend-cyber-controls-independent-testin-56612975.html"
     }
   }
 }
