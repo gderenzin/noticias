@@ -17383,6 +17383,30 @@
       "fecha_publicacion_iso": "2026-10-17T05:01:00+00:00",
       "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
       "ruta_noticia": "/noticia/2026-10-17-como-recuperar-claves-de-wallets-de-criptomonedas-exodus-not-3535b57d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "fecha_publicacion_iso": "2026-10-17T15:18:51+00:00",
+      "fecha_agregada_iso": "2026-10-17T16:25:33.131672+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-hackers-breach-microsoft-365-tenants-via-connectwise-supply-74a44f82.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "fuente": "BleepingComputer",
+      "titulo": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "fecha_publicacion_iso": "2026-10-17T14:32:48+00:00",
+      "fecha_agregada_iso": "2026-10-17T16:25:33.131672+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-43fc56af.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-zero-day-en-microsoft.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1741683507373197903",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad Zero-Day en Microsoft Windows Server permite a los atacantes bloquear servidores con un solo paquete",
+      "fecha_publicacion_iso": "2026-10-17T13:03:00+00:00",
+      "fecha_agregada_iso": "2026-10-17T16:25:33.131672+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-vulnerabilidad-zero-day-en-microsoft-windows-server-permite-3050c051.html"
     }
   }
 }
