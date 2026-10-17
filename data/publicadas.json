@@ -17335,6 +17335,54 @@
       "fecha_publicacion_iso": "2026-10-17T00:34:02+00:00",
       "fecha_agregada_iso": "2026-10-17T05:37:02.961710+00:00",
       "ruta_noticia": "/noticia/2026-10-17-federal-agencies-recommend-cyber-controls-independent-testin-56612975.html"
+    },
+    "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/": {
+      "guid": "6ad1199471ed38e66fe03b98",
+      "fuente": "Wired - Security",
+      "titulo": "Encryption Is Getting Squeezed From All Sides",
+      "fecha_publicacion_iso": "2026-10-17T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-encryption-is-getting-squeezed-from-all-sides-101afedc.html"
+    },
+    "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677": {
+      "guid": "https://www.theregister.com/a/5303677",
+      "fuente": "The Register - Security",
+      "titulo": "Cybercrims go beyond stealing data to attack physical building systems",
+      "fecha_publicacion_iso": "2026-10-17T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-cybercrims-go-beyond-stealing-data-to-attack-physical-buildi-ff874f9b.html"
+    },
+    "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html": {
+      "guid": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "fuente": "The Hacker News",
+      "titulo": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "fecha_publicacion_iso": "2026-10-17T11:11:56+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-malfex-npm-package-imgdecode-hides-shellcode-loader-in-windo-1fae9cde.html"
+    },
+    "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/": {
+      "guid": "https://www.securityweek.com/?p=50091",
+      "fuente": "SecurityWeek",
+      "titulo": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "fecha_publicacion_iso": "2026-10-17T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-israeli-ad-firm-doubled-as-candirus-zero-click-spyware-deliv-2956b1e3.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "fecha_publicacion_iso": "2026-10-17T06:16:46+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-hackers-use-compromised-connectwise-credential-to-sign-in-to-b3dabcb4.html"
+    },
+    "http://www.elladodelmal.com/2026/10/como-recuperar-claves-de-wallets-exodus.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8052991152626785331",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo recuperar claves de Wallets de Criptomonedas Exodus : \"Not Your Keys, Not Your Coins\"... ¿o tal vez sí?",
+      "fecha_publicacion_iso": "2026-10-17T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-17T12:59:33.058460+00:00",
+      "ruta_noticia": "/noticia/2026-10-17-como-recuperar-claves-de-wallets-de-criptomonedas-exodus-not-3535b57d.html"
     }
   }
 }
