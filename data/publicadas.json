@@ -17415,6 +17415,30 @@
       "fecha_publicacion_iso": "2026-10-18T03:42:03+00:00",
       "fecha_agregada_iso": "2026-10-18T05:54:13.970197+00:00",
       "ruta_noticia": "/noticia/2026-10-18-levantate-del-sofa-este-20-de-octubre-en-madrid-a41450c7.html"
+    },
+    "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/": {
+      "guid": "https://www.securityweek.com/?p=50104",
+      "fuente": "SecurityWeek",
+      "titulo": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "fecha_publicacion_iso": "2026-10-18T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-18T13:17:15.046835+00:00",
+      "ruta_noticia": "/noticia/2026-10-18-us-cybersecurity-job-postings-fall-26-as-ai-security-enginee-7e978702.html"
+    },
+    "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html": {
+      "guid": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "fecha_publicacion_iso": "2026-10-18T08:23:02+00:00",
+      "fecha_agregada_iso": "2026-10-18T13:17:15.046835+00:00",
+      "ruta_noticia": "/noticia/2026-10-18-connectwise-suspends-cloud-backup-after-attackers-compromise-952b3a6c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387837",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Hidden implant in Ledger wallets linked to $93M theft, 1,500+ npm packages exposed",
+      "fecha_publicacion_iso": "2026-10-18T08:00:30+00:00",
+      "fecha_agregada_iso": "2026-10-18T13:17:15.046835+00:00",
+      "ruta_noticia": "/noticia/2026-10-18-week-in-review-hidden-implant-in-ledger-wallets-linked-to-93-14fcc0d9.html"
     }
   }
 }
