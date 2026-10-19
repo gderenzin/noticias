@@ -17455,6 +17455,62 @@
       "fecha_publicacion_iso": "2026-10-18T14:00:00+00:00",
       "fecha_agregada_iso": "2026-10-18T16:35:35.022615+00:00",
       "ruta_noticia": "/noticia/2026-10-18-exploit-para-obtener-privilegios-de-root-en-openbsd-fallo-de-1542bd6a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/bearer-cli-free-code-security-scanning-tool-sast/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388079",
+      "fuente": "Help Net Security",
+      "titulo": "Bearer CLI: Free, source-available code security scanning tool (SAST)",
+      "fecha_publicacion_iso": "2026-10-19T05:30:38+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-bearer-cli-free-source-available-code-security-scanning-tool-fdaf1b10.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/rpo-rto-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=387924",
+      "fuente": "Help Net Security",
+      "titulo": "RPO and RTO explained with a real disaster recovery example",
+      "fecha_publicacion_iso": "2026-10-19T05:00:21+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-rpo-and-rto-explained-with-a-real-disaster-recovery-example-757fa076.html"
+    },
+    "https://www.theregister.com/security/2026/10/19/connectwise-turns-off-its-saas-y-backup-security-and-management-services-to-probe-security-snafu/5303758": {
+      "guid": "https://www.theregister.com/a/5303758",
+      "fuente": "The Register - Security",
+      "titulo": "ConnectWise turns off its SaaS-y backup, security, and management services to probe security SNAFU",
+      "fecha_publicacion_iso": "2026-10-19T04:31:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-connectwise-turns-off-its-saas-y-backup-security-and-managem-746693f6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/datadome-ai-agent-traffic-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388154",
+      "fuente": "Help Net Security",
+      "titulo": "Half the AI bot traffic hammering your website comes from Meta",
+      "fecha_publicacion_iso": "2026-10-19T04:30:52+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-half-the-ai-bot-traffic-hammering-your-website-comes-from-me-2cfb3436.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/semperis-ransomware-employee-safety-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388180",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware pressure now reaches employees’ homes and families",
+      "fecha_publicacion_iso": "2026-10-19T04:00:22+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-ransomware-pressure-now-reaches-employees-homes-and-families-b3127e73.html"
+    },
+    "http://www.elladodelmal.com/2026/10/de-hacker-hacker-fran-ramirez-vs-javier.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5599472669159434287",
+      "fuente": "El Lado del Mal",
+      "titulo": "De Hacker a Hacker: Fran Ramírez vs. Javier Álvarez",
+      "fecha_publicacion_iso": "2026-10-19T02:02:26+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-de-hacker-a-hacker-fran-ramirez-vs-javier-alvarez-4115be42.html"
+    },
+    "https://www.theregister.com/virtualization/2026/10/19/linux-kvm-guest-host-escape-rated-critical-may-represent-a-new-way-to-attack-penguin-powered-networking/5303744": {
+      "guid": "https://www.theregister.com/a/5303744",
+      "fuente": "The Register - Security",
+      "titulo": "Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking",
+      "fecha_publicacion_iso": "2026-10-19T00:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-linux-kvm-guest-host-escape-rated-critical-may-represent-a-n-fb0d1859.html"
     }
   }
 }
