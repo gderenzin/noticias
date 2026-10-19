@@ -17511,6 +17511,294 @@
       "fecha_publicacion_iso": "2026-10-19T00:33:00+00:00",
       "fecha_agregada_iso": "2026-10-19T06:14:17.682861+00:00",
       "ruta_noticia": "/noticia/2026-10-19-linux-kvm-guest-host-escape-rated-critical-may-represent-a-n-fb0d1859.html"
+    },
+    "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/": {
+      "guid": "6ad5f231be73e1c393ca6a84",
+      "fuente": "Wired - Security",
+      "titulo": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+      "fecha_publicacion_iso": "2026-10-19T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-ch-e2fcb850.html"
+    },
+    "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center": {
+      "guid": "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
+      "fuente": "The Record",
+      "titulo": "Russian social media giant VK faces disruptions after data center drone strike",
+      "fecha_publicacion_iso": "2026-10-19T15:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-russian-social-media-giant-vk-faces-disruptions-after-data-c-f650fcc7.html"
+    },
+    "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/": {
+      "guid": "https://www.securityweek.com/?p=50129",
+      "fuente": "SecurityWeek",
+      "titulo": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+      "fecha_publicacion_iso": "2026-10-19T15:47:50+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-c2afa772.html"
+    },
+    "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/": {
+      "guid": "https://cyberscoop.com/?p=91168",
+      "fuente": "CyberScoop",
+      "titulo": "DHS to ban DeepSeek from federal civilian agencies",
+      "fecha_publicacion_iso": "2026-10-19T15:27:20+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-dhs-to-ban-deepseek-from-federal-civilian-agencies-8b887cc3.html"
+    },
+    "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50124",
+      "fuente": "SecurityWeek",
+      "titulo": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-19T15:20:53+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-rank-math-pro-wordpress-plugin-compromised-in-supply-chain-a-c513afb9.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes game, app crashes caused by recent Windows update",
+      "fecha_publicacion_iso": "2026-10-19T14:55:23+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-microsoft-fixes-game-app-crashes-caused-by-recent-windows-up-6e689f58.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
+      "fuente": "Dark Reading",
+      "titulo": "OnlyFans Copyright Takedowns Expose Compromised Websites",
+      "fecha_publicacion_iso": "2026-10-19T14:28:11+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-onlyfans-copyright-takedowns-expose-compromised-websites-e4ddb72d.html"
+    },
+    "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "fecha_publicacion_iso": "2026-10-19T14:14:07+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-weekly-recap-98-zero-days-rogue-ai-agents-100m-crypto-theft-03d3ba9d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "fuente": "BleepingComputer",
+      "titulo": "Inside the Underground Market for Know Your Client Services",
+      "fecha_publicacion_iso": "2026-10-19T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-inside-the-underground-market-for-know-your-client-services-10c72579.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
+      "fuente": "Dark Reading",
+      "titulo": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
+      "fecha_publicacion_iso": "2026-10-19T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-the-evolving-cybersecurity-lexicon-vulnerability-discovery-t-6e869603.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "fuente": "BleepingComputer",
+      "titulo": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-19T13:49:24+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-f5-releases-out-of-band-patches-for-critical-nginx-vulnerabi-59b0e474.html"
+    },
+    "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/": {
+      "guid": "https://krebsonsecurity.com/?p=74480",
+      "fuente": "Krebs on Security",
+      "titulo": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "fecha_publicacion_iso": "2026-10-19T13:48:56+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-si-5f203786.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/axonius-ai-workforce/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388345",
+      "fuente": "Help Net Security",
+      "titulo": "Axonius AI Workforce pairs asset intelligence with automated action",
+      "fecha_publicacion_iso": "2026-10-19T13:38:11+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-axonius-ai-workforce-pairs-asset-intelligence-with-automated-fd5afa53.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/sweet-security-virtual-patching/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388339",
+      "fuente": "Help Net Security",
+      "titulo": "Sweet Security adds one-click protection for vulnerable cloud workloads",
+      "fecha_publicacion_iso": "2026-10-19T13:28:06+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-sweet-security-adds-one-click-protection-for-vulnerable-clou-54614ce5.html"
+    },
+    "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=50121",
+      "fuente": "SecurityWeek",
+      "titulo": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
+      "fecha_publicacion_iso": "2026-10-19T13:16:20+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-connectwise-suspends-cloud-services-in-response-to-cyberatta-acf12ad3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/19/connectwise-cloud-backup-suspended-security-incident/",
+      "fuente": "Help Net Security",
+      "titulo": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
+      "fecha_publicacion_iso": "2026-10-19T13:16:20+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-connectwise-suspends-cloud-services-in-response-to-cyberatta-acf12ad3.html"
+    },
+    "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html": {
+      "guid": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "fuente": "The Hacker News",
+      "titulo": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "fecha_publicacion_iso": "2026-10-19T13:05:45+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-ghostaction-attackers-plant-credential-stealer-disguised-as-47f4fcfb.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+      "fecha_publicacion_iso": "2026-10-19T12:44:44+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-microsoft-fixes-classic-outlook-bug-that-hid-copilot-buttons-1f63abf1.html"
+    },
+    "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/": {
+      "guid": "https://www.securityweek.com/?p=50119",
+      "fuente": "SecurityWeek",
+      "titulo": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
+      "fecha_publicacion_iso": "2026-10-19T12:44:39+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-plex2shell-exploit-chain-weaponized-against-plex-servers-hou-bcca2fd2.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/att-v20-actualizaciones-en-ia.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2520069250201448795",
+      "fuente": "Segu-Info",
+      "titulo": "ATT&CK v20: actualizaciones en IA, infraestructuras críticas, ciberespionaje y dispositivos móviles",
+      "fecha_publicacion_iso": "2026-10-19T12:12:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-att-ck-v20-actualizaciones-en-ia-infraestructuras-criticas-c-77971df8.html"
+    },
+    "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/": {
+      "guid": "https://www.securityweek.com/?p=50114",
+      "fuente": "SecurityWeek",
+      "titulo": "One Compromised Login Exposed Millions of California Students’ Records",
+      "fecha_publicacion_iso": "2026-10-19T11:55:50+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-one-compromised-login-exposed-millions-of-california-student-6e317664.html"
+    },
+    "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html": {
+      "guid": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "fuente": "The Hacker News",
+      "titulo": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "fecha_publicacion_iso": "2026-10-19T11:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-from-email-to-case-to-the-boardroom-how-inherited-agents-bre-5ae38a63.html"
+    },
+    "https://therecord.media/russia-cyberattack-firstvds-cloud": {
+      "guid": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+      "fuente": "The Record",
+      "titulo": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+      "fecha_publicacion_iso": "2026-10-19T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-hackers-steal-customer-data-from-major-russian-hosting-provi-5368079c.html"
+    },
+    "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/": {
+      "guid": "https://www.securityweek.com/?p=50112",
+      "fuente": "SecurityWeek",
+      "titulo": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+      "fecha_publicacion_iso": "2026-10-19T11:13:23+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-3e1eacec.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/open-weight-ai-model-risks-microsoft-nvidia/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388286",
+      "fuente": "Help Net Security",
+      "titulo": "With open-weight AI, more of the security burden falls on enterprises",
+      "fecha_publicacion_iso": "2026-10-19T11:04:12+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-with-open-weight-ai-more-of-the-security-burden-falls-on-ent-c7d5c6f5.html"
+    },
+    "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html": {
+      "guid": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "fecha_publicacion_iso": "2026-10-19T10:06:40+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-fake-web3-accelerator-uses-npm-packages-to-spread-malware-an-0534f190.html"
+    },
+    "https://cyberscoop.com/pegasus-spyware-serbia-critics-elections/": {
+      "guid": "https://cyberscoop.com/?p=91163",
+      "fuente": "CyberScoop",
+      "titulo": "Spyware found on devices belonging to prominent Serbian critics as elections loom",
+      "fecha_publicacion_iso": "2026-10-19T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-spyware-found-on-devices-belonging-to-prominent-serbian-crit-3c5cedb3.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-agencia-y-la-autoridad-de-luxemburgo-firman-un-memorando-cooperaci%C3%B3n": {
+      "guid": "f7ac87b2-9747-49c0-8339-e93773096ac1",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación",
+      "fecha_publicacion_iso": "2026-10-19T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-la-agencia-y-la-autoridad-de-luxemburgo-firman-un-memorando-c0fd0f5d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/19/check-point-brand-impersonation-scams-q3-2026-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388275",
+      "fuente": "Help Net Security",
+      "titulo": "Cybercriminals favor Microsoft over Apple and Google in brand phishing attacks",
+      "fecha_publicacion_iso": "2026-10-19T09:38:17+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-cybercriminals-favor-microsoft-over-apple-and-google-in-bran-d92fd5ad.html"
+    },
+    "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50108",
+      "fuente": "SecurityWeek",
+      "titulo": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+      "fecha_publicacion_iso": "2026-10-19T09:37:04+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-mitre-att-ck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-82c7537f.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "fecha_publicacion_iso": "2026-10-19T08:58:41+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-microsoft-october-windows-server-updates-break-exchange-sign-15156651.html"
+    },
+    "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/": {
+      "guid": "https://www.securityweek.com/?p=50106",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+      "fecha_publicacion_iso": "2026-10-19T07:45:25+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-anthropic-acquires-confidential-ai-startup-opaque-systems-5c0bebf2.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/validacion-incorrecta-del-origen-en-remote-support-de-beyondtrust": {
+      "guid": "676537 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Validación incorrecta del origen en Remote Support de BeyondTrust",
+      "fecha_publicacion_iso": "2026-10-19T07:27:15+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-validacion-incorrecta-del-origen-en-remote-support-de-beyond-d43d63cb.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ausencia-de-verificacion-de-integridad-en-mobaxterm-de-mobatek": {
+      "guid": "676535 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Ausencia de verificación de integridad en MobaXterm de Mobatek",
+      "fecha_publicacion_iso": "2026-10-19T07:03:55+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-ausencia-de-verificacion-de-integridad-en-mobaxterm-de-mobat-83007901.html"
+    },
+    "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "fecha_publicacion_iso": "2026-10-19T06:29:44+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-unpatched-broadcom-wi-fi-flaw-lets-attackers-in-range-run-co-f519e0b5.html"
+    },
+    "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html": {
+      "guid": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "fecha_publicacion_iso": "2026-10-19T06:07:08+00:00",
+      "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-an-1de1c48c.html"
     }
   }
 }
