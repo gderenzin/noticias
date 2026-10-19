@@ -17799,6 +17799,150 @@
       "fecha_publicacion_iso": "2026-10-19T06:07:08+00:00",
       "fecha_agregada_iso": "2026-10-19T16:38:37.375265+00:00",
       "ruta_noticia": "/noticia/2026-10-19-opencode-console-breach-may-have-exposed-openai-anthropic-an-1de1c48c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-de-ejecucion.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1467202150773727234",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad crítica de ejecución remota de código (RCE) en Drupal 8.x a 12.x",
+      "fecha_publicacion_iso": "2026-10-19T20:34:01+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-vulnerabilidad-critica-de-ejecucion-remota-de-codigo-rce-en-8e8e37a1.html"
+    },
+    "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970": {
+      "guid": "https://www.theregister.com/a/5303970",
+      "fuente": "The Register - Security",
+      "titulo": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline",
+      "fecha_publicacion_iso": "2026-10-19T20:26:21+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-8c0757d8.html"
+    },
+    "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery": {
+      "guid": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
+      "fuente": "Dark Reading",
+      "titulo": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
+      "fecha_publicacion_iso": "2026-10-19T19:55:01+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-adfection-turns-ad-impressions-into-zero-click-spyware-deliv-553c25ef.html"
+    },
+    "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/": {
+      "guid": "6ad64f2bddf0178335f625b8",
+      "fuente": "Wired - Security",
+      "titulo": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+      "fecha_publicacion_iso": "2026-10-19T19:49:17+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-openai-engineer-accused-of-spying-on-executives-ordered-to-r-10001799.html"
+    },
+    "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction": {
+      "guid": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
+      "fuente": "The Record",
+      "titulo": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
+      "fecha_publicacion_iso": "2026-10-19T19:49:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-judge-denies-whatsapps-bid-to-hold-spyware-maker-in-contempt-d781dbab.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "fecha_publicacion_iso": "2026-10-19T19:40:58+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-hackers-hijack-aomei-update-servers-to-secretly-spread-malwa-ff25b976.html"
+    },
+    "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps": {
+      "guid": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
+      "fuente": "Dark Reading",
+      "titulo": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
+      "fecha_publicacion_iso": "2026-10-19T19:19:33+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-connectwise-disables-cloud-backups-amid-concerns-for-downstr-3e127809.html"
+    },
+    "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack": {
+      "guid": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
+      "fuente": "The Record",
+      "titulo": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
+      "fecha_publicacion_iso": "2026-10-19T19:19:33+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-connectwise-disables-cloud-backups-amid-concerns-for-downstr-3e127809.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Bullhorn takes staffing platform offline to contain cyberattack",
+      "fecha_publicacion_iso": "2026-10-19T18:51:13+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-bullhorn-takes-staffing-platform-offline-to-contain-cyberatt-06accfcb.html"
+    },
+    "https://therecord.media/serbia-spyware-pegasus-elections": {
+      "guid": "https://therecord.media/serbia-spyware-pegasus-elections",
+      "fuente": "The Record",
+      "titulo": "Two more Serbian opposition figures targeted with spyware, researchers say",
+      "fecha_publicacion_iso": "2026-10-19T18:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-two-more-serbian-opposition-figures-targeted-with-spyware-re-5a936d0d.html"
+    },
+    "https://cyberscoop.com/wyden-urges-federal-adoption-encrypted-client-hello/": {
+      "guid": "https://cyberscoop.com/?p=91174",
+      "fuente": "CyberScoop",
+      "titulo": "Wyden seeks adoption of encryption tech at hundreds of federal agencies to protect visitors’ sensitive traffic",
+      "fecha_publicacion_iso": "2026-10-19T18:27:32+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-wyden-seeks-adoption-of-encryption-tech-at-hundreds-of-feder-f54f75da.html"
+    },
+    "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927": {
+      "guid": "https://www.theregister.com/a/5303927",
+      "fuente": "The Register - Security",
+      "titulo": "Security patches need patches now that attackers have AI",
+      "fecha_publicacion_iso": "2026-10-19T18:23:40+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-security-patches-need-patches-now-that-attackers-have-ai-f06325b7.html"
+    },
+    "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50131",
+      "fuente": "SecurityWeek",
+      "titulo": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+      "fecha_publicacion_iso": "2026-10-19T18:15:39+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-siemens-software-center-vulnerability-exploited-in-clickfix-561dd3f2.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "fecha_publicacion_iso": "2026-10-19T17:32:13+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-hackers-exploit-plex2shell-flaws-to-install-crypto-miners-an-143bfdf1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenCode hack exposes API keys amid AI distillation attacks",
+      "fecha_publicacion_iso": "2026-10-19T17:27:15+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-opencode-hack-exposes-api-keys-amid-ai-distillation-attacks-c8f4e942.html"
+    },
+    "https://therecord.media/ahold-delhaize-cyberattack-grocery": {
+      "guid": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+      "fuente": "The Record",
+      "titulo": "Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands",
+      "fecha_publicacion_iso": "2026-10-19T16:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-ahold-delhaize-confirms-malicious-actions-behind-cyber-outag-425846ce.html"
+    },
+    "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html": {
+      "guid": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "fuente": "The Hacker News",
+      "titulo": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "fecha_publicacion_iso": "2026-10-19T16:28:47+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-popular-wordpress-seo-plugin-rank-math-pro-hijacked-to-deliv-4ad529ab.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "fecha_publicacion_iso": "2026-10-19T16:28:47+00:00",
+      "fecha_agregada_iso": "2026-10-19T21:33:25.394415+00:00",
+      "ruta_noticia": "/noticia/2026-10-19-popular-wordpress-seo-plugin-rank-math-pro-hijacked-to-deliv-4ad529ab.html"
     }
   }
 }
