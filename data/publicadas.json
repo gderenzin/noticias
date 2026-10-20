@@ -18031,6 +18031,358 @@
       "fecha_publicacion_iso": "2026-10-19T21:13:41+00:00",
       "fecha_agregada_iso": "2026-10-20T06:03:01.836936+00:00",
       "ruta_noticia": "/noticia/2026-10-20-researchers-infiltrate-microsoft-tech-support-scam-operation-cd2448e3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/ncomplete-security-patches-broken-fixes-rise/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388496",
+      "fuente": "Help Net Security",
+      "titulo": "Incomplete security patches show hackers where to look next",
+      "fecha_publicacion_iso": "2026-10-20T14:13:04+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-incomplete-security-patches-show-hackers-where-to-look-next-73fd52e0.html"
+    },
+    "https://therecord.media/aomei-yet-to-notify-customers-hijack-software": {
+      "guid": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
+      "fuente": "The Record",
+      "titulo": "AOMEI yet to notify customers after hackers hijacked its software updates",
+      "fecha_publicacion_iso": "2026-10-20T14:11:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-aomei-yet-to-notify-customers-after-hackers-hijacked-its-sof-314dad77.html"
+    },
+    "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform": {
+      "guid": "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
+      "fuente": "The Record",
+      "titulo": "Anti-Putin messages disrupt nationwide school assessments in Russia",
+      "fecha_publicacion_iso": "2026-10-20T14:05:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-anti-putin-messages-disrupt-nationwide-school-assessments-in-ba5b9e5d.html"
+    },
+    "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/": {
+      "guid": "https://www.securityweek.com/?p=50153",
+      "fuente": "SecurityWeek",
+      "titulo": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "fecha_publicacion_iso": "2026-10-20T13:51:01+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-aomei-backupper-compromised-in-short-burst-supply-chain-camp-0db72c8b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "fuente": "BleepingComputer",
+      "titulo": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "fecha_publicacion_iso": "2026-10-20T13:51:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-cjis-v6-1-compliance-5-practical-priorities-for-agencies-54e589c7.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/20/password1-and-a-forgotten-test-account-land-welsh-outfits-in-hot-water/5304139": {
+      "guid": "https://www.theregister.com/a/5304139",
+      "fuente": "The Register - Security",
+      "titulo": "'Password1' and a forgotten test account land Welsh outfits in hot water",
+      "fecha_publicacion_iso": "2026-10-20T13:35:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-password1-and-a-forgotten-test-account-land-welsh-outfits-in-61ae4029.html"
+    },
+    "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/": {
+      "guid": "https://www.securityweek.com/?p=50150",
+      "fuente": "SecurityWeek",
+      "titulo": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
+      "fecha_publicacion_iso": "2026-10-20T13:34:23+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-the-key-to-ai-software-security-isnt-speed-its-maturity-4791d60c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/abstract-links-automated-response-actions-directly-to-siem-detection-rules/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388491",
+      "fuente": "Help Net Security",
+      "titulo": "Abstract links automated response actions directly to SIEM detection rules",
+      "fecha_publicacion_iso": "2026-10-20T13:26:09+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-abstract-links-automated-response-actions-directly-to-siem-d-afb6cd59.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "fecha_publicacion_iso": "2026-10-20T13:18:36+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hacker-gets-8-years-for-stealing-3-3-million-from-taxpayers-b8cb67bf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/threatmodeler-nexusai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388486",
+      "fuente": "Help Net Security",
+      "titulo": "ThreatModeler NexusAI tracks architectural changes and proposes security updates",
+      "fecha_publicacion_iso": "2026-10-20T13:17:56+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-threatmodeler-nexusai-tracks-architectural-changes-and-propo-d0e29dd2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/identos-policyarc/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388480",
+      "fuente": "Help Net Security",
+      "titulo": "IDENTOS PolicyArc gives AI agents task-specific, time-limited access",
+      "fecha_publicacion_iso": "2026-10-20T13:09:24+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-identos-policyarc-gives-ai-agents-task-specific-time-limited-a8188903.html"
+    },
+    "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=50146",
+      "fuente": "SecurityWeek",
+      "titulo": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+      "fecha_publicacion_iso": "2026-10-20T13:02:18+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ahold-delhaize-restoring-services-disrupted-by-cyberattack-cf21e83d.html"
+    },
+    "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html": {
+      "guid": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "fuente": "The Hacker News",
+      "titulo": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "fecha_publicacion_iso": "2026-10-20T12:59:44+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-pegasus-spyware-infection-confirmed-on-serbian-university-re-2f7a0f9a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/appgate-session-governance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388475",
+      "fuente": "Help Net Security",
+      "titulo": "AppGate gives OT supervisors live monitoring and session termination controls",
+      "fecha_publicacion_iso": "2026-10-20T12:59:32+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-appgate-gives-ot-supervisors-live-monitoring-and-session-ter-4741baa1.html"
+    },
+    "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": {
+      "guid": "https://www.securityweek.com/?p=50144",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Platform Cairn Abused to Hack Over 100 Organizations",
+      "fecha_publicacion_iso": "2026-10-20T12:47:22+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ai-platform-cairn-abused-to-hack-over-100-organizations-d02f2b9b.html"
+    },
+    "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/": {
+      "guid": "https://www.securityweek.com/?p=50142",
+      "fuente": "SecurityWeek",
+      "titulo": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+      "fecha_publicacion_iso": "2026-10-20T12:33:12+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ex-openai-worker-accused-of-bugging-conference-room-planned-b44079bd.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/nsa-cisa-y-nist-publican-nuevas.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4507162551677897982",
+      "fuente": "Segu-Info",
+      "titulo": "NSA, CISA y NIST publican nuevas directrices de seguridad para detectar y desactivar agentes de IA maliciosos",
+      "fecha_publicacion_iso": "2026-10-20T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-nsa-cisa-y-nist-publican-nuevas-directrices-de-seguridad-par-1684502a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/malicious-calendar-invites/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388459",
+      "fuente": "Help Net Security",
+      "titulo": "Quarantined, but still on your calendar: The explosion of invite-based attacks",
+      "fecha_publicacion_iso": "2026-10-20T12:18:04+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-quarantined-but-still-on-your-calendar-the-explosion-of-invi-ef7f8951.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows Server 2025 gets support for quick machine recovery",
+      "fecha_publicacion_iso": "2026-10-20T12:16:32+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-windows-server-2025-gets-support-for-quick-machine-recovery-4f28949e.html"
+    },
+    "https://www.theregister.com/security/2026/10/20/bullhorn-sees-red-after-cyberattack-knocks-recruitment-platform-offline/5304114": {
+      "guid": "https://www.theregister.com/a/5304114",
+      "fuente": "The Register - Security",
+      "titulo": "Bullhorn sees red after cyberattack knocks recruitment platform offline",
+      "fecha_publicacion_iso": "2026-10-20T12:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-bullhorn-sees-red-after-cyberattack-knocks-recruitment-platf-f7168b88.html"
+    },
+    "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html": {
+      "guid": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+      "fuente": "The Hacker News",
+      "titulo": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+      "fecha_publicacion_iso": "2026-10-20T11:41:06+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-whatsapp-hid-instructions-in-help-pages-telling-its-ai-chatb-467c211f.html"
+    },
+    "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html": {
+      "guid": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+      "fuente": "The Hacker News",
+      "titulo": "What Security Teams Can Do To Tame Wild Code",
+      "fecha_publicacion_iso": "2026-10-20T11:33:04+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-what-security-teams-can-do-to-tame-wild-code-df48f73e.html"
+    },
+    "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html": {
+      "guid": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+      "fuente": "The Hacker News",
+      "titulo": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "fecha_publicacion_iso": "2026-10-20T11:32:59+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-go-issues-emergency-update-blocking-eight-ca-keys-over-undis-f0509be4.html"
+    },
+    "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/": {
+      "guid": "https://www.securityweek.com/?p=50140",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
+      "fecha_publicacion_iso": "2026-10-20T11:30:18+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-microsoft-targets-rogue-ai-agents-with-dynamic-permissions-r-38240039.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+      "fecha_publicacion_iso": "2026-10-20T11:18:35+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ahold-delhaize-cyberattack-affects-services-across-us-and-eu-9f686724.html"
+    },
+    "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html": {
+      "guid": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+      "fecha_publicacion_iso": "2026-10-20T11:06:25+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-russian-apt28-breaches-nato-naval-shipbuilder-in-nato-countr-41525c11.html"
+    },
+    "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html": {
+      "guid": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+      "fuente": "The Hacker News",
+      "titulo": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "fecha_publicacion_iso": "2026-10-20T10:56:08+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-connectwise-resets-credentials-as-cloud-backup-remains-offli-13881c9b.html"
+    },
+    "https://www.theregister.com/public-sector/2026/10/20/whitehall-shuts-the-front-door-on-digital-id-but-leaves-the-back-open/5304100": {
+      "guid": "https://www.theregister.com/a/5304100",
+      "fuente": "The Register - Security",
+      "titulo": "Whitehall shuts the front door on digital ID but leaves the back open",
+      "fecha_publicacion_iso": "2026-10-20T10:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-whitehall-shuts-the-front-door-on-digital-id-but-leaves-the-46e6030c.html"
+    },
+    "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/": {
+      "guid": "https://www.securityweek.com/?p=50136",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Steal 1.8 Million Records From Nikkei",
+      "fecha_publicacion_iso": "2026-10-20T10:35:18+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hackers-steal-1-8-million-records-from-nikkei-3493ad24.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/teradata-ai-data-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388441",
+      "fuente": "Help Net Security",
+      "titulo": "Teradata expands AI data security with post-quantum protection and immutable backups",
+      "fecha_publicacion_iso": "2026-10-20T10:21:39+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-teradata-expands-ai-data-security-with-post-quantum-protecti-0a81b4c5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/extend-verify/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388430",
+      "fuente": "Help Net Security",
+      "titulo": "Extend Verify helps AI agents flag suspicious documents before acting",
+      "fecha_publicacion_iso": "2026-10-20T10:08:24+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-extend-verify-helps-ai-agents-flag-suspicious-documents-befo-edf01566.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/us-army-ai-agents-echotribble/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388408",
+      "fuente": "Help Net Security",
+      "titulo": "US Army is developing AI agents that could strike enemy networks and vanish without a trace",
+      "fecha_publicacion_iso": "2026-10-20T10:03:39+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-us-army-is-developing-ai-agents-that-could-strike-enemy-netw-f1e0cf73.html"
+    },
+    "https://therecord.media/european-defense-contractors-fancy-bear-espionage": {
+      "guid": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+      "fuente": "The Record",
+      "titulo": "Defense contractors in two NATO allies hacked in recent Russia-linked campaign",
+      "fecha_publicacion_iso": "2026-10-20T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-defense-contractors-in-two-nato-allies-hacked-in-recent-russ-87e932b6.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/20/uk-finance-watchdog-wants-firms-to-report-ai-failures-and-close-calls/5304078": {
+      "guid": "https://www.theregister.com/a/5304078",
+      "fuente": "The Register - Security",
+      "titulo": "UK finance watchdog wants firms to report AI failures and close calls",
+      "fecha_publicacion_iso": "2026-10-20T09:57:08+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-uk-finance-watchdog-wants-firms-to-report-ai-failures-and-cl-257bb4c2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+      "fuente": "BleepingComputer",
+      "titulo": "Revolut outage disrupts online banking operations worldwide",
+      "fecha_publicacion_iso": "2026-10-20T09:46:44+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-revolut-outage-disrupts-online-banking-operations-worldwide-4b4f09e0.html"
+    },
+    "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=50134",
+      "fuente": "SecurityWeek",
+      "titulo": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
+      "fecha_publicacion_iso": "2026-10-20T09:33:49+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-970-000-medi-cal-members-affected-by-paradigm-healthcare-dat-ebff9306.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "fecha_publicacion_iso": "2026-10-20T08:21:29+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hackers-hijack-five-ovhcloud-cli-releases-to-distribute-secr-92e40767.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "fecha_publicacion_iso": "2026-10-20T08:21:29+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hackers-hijack-five-ovhcloud-cli-releases-to-distribute-secr-92e40767.html"
+    },
+    "https://www.theregister.com/security/2026/10/20/partner-content-why-cyber-resilience-is-now-a-boardroom-priority-for-uk-public-services/5301601": {
+      "guid": "https://www.theregister.com/a/5301601",
+      "fuente": "The Register - Security",
+      "titulo": "Why cyber resilience is now a boardroom priority for UK public services",
+      "fecha_publicacion_iso": "2026-10-20T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-why-cyber-resilience-is-now-a-boardroom-priority-for-uk-publ-19d73113.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-facturascripts": {
+      "guid": "676542 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en FacturaScripts",
+      "fecha_publicacion_iso": "2026-10-20T07:14:47+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-multiples-vulnerabilidades-en-facturascripts-541e3471.html"
+    },
+    "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html": {
+      "guid": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+      "fuente": "The Hacker News",
+      "titulo": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "fecha_publicacion_iso": "2026-10-20T07:11:45+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-clickfix-attackers-exploit-siemens-software-center-flaw-to-d-4fd8d5a3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
+      "fuente": "Help Net Security",
+      "titulo": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "fecha_publicacion_iso": "2026-10-20T07:11:45+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-clickfix-attackers-exploit-siemens-software-center-flaw-to-d-4fd8d5a3.html"
+    },
+    "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html": {
+      "guid": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+      "fuente": "The Hacker News",
+      "titulo": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "fecha_publicacion_iso": "2026-10-20T05:53:16+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ex-openai-engineer-detained-in-spy-device-case-as-saudi-roya-50e34241.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/que-hacer-ante-una-brecha-de-datos-con-poca-informacion/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/que-hacer-ante-una-brecha-de-datos-con-poca-informacion/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Qué hacer cuando una empresa informa una brecha de datos, pero aporta poca información",
+      "fecha_publicacion_iso": "2026-10-19T17:50:02+00:00",
+      "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-que-hacer-cuando-una-empresa-informa-una-brecha-de-datos-per-a9d91852.html"
     }
   }
 }
