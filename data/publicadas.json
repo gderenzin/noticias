@@ -18583,6 +18583,38 @@
       "fecha_publicacion_iso": "2026-10-20T08:00:00+00:00",
       "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
       "ruta_noticia": "/noticia/2026-10-20-la-aepd-recibe-mas-de-3-000-notificaciones-de-brechas-de-dat-d88ab331.html"
+    },
+    "https://cyberscoop.com/identity-theft-fraud-military-servicemembers-veterans-guilty-robert-boling/": {
+      "guid": "https://cyberscoop.com/?p=91210",
+      "fuente": "CyberScoop",
+      "titulo": "Philippines-based American pleads guilty to running expansive fraud scheme targeting US servicemembers",
+      "fecha_publicacion_iso": "2026-10-20T23:36:10+00:00",
+      "fecha_agregada_iso": "2026-10-20T23:53:09.527439+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-philippines-based-american-pleads-guilty-to-running-expansiv-c3a32bbf.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/vulnerabilidad-critica-10-de-10-en-php.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4595201963316326317",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad CRÍTICA (10 de 10) en PHP de 5.x a 8.x (preparate!)",
+      "fecha_publicacion_iso": "2026-10-20T23:06:38+00:00",
+      "fecha_agregada_iso": "2026-10-20T23:53:09.527439+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-vulnerabilidad-critica-10-de-10-en-php-de-5-x-a-8-x-preparat-74eba801.html"
+    },
+    "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys": {
+      "guid": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "fuente": "Dark Reading",
+      "titulo": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "fecha_publicacion_iso": "2026-10-20T21:45:47+00:00",
+      "fecha_agregada_iso": "2026-10-20T23:53:09.527439+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-tech-giants-block-emudhra-certificates-tied-to-8-compromised-532771c4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "fuente": "BleepingComputer",
+      "titulo": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "fecha_publicacion_iso": "2026-10-20T20:56:43+00:00",
+      "fecha_agregada_iso": "2026-10-20T23:53:09.527439+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-php-warns-admins-of-two-critical-flaws-emergency-patches-com-05dd90fd.html"
     }
   }
 }
