@@ -18383,6 +18383,206 @@
       "fecha_publicacion_iso": "2026-10-19T17:50:02+00:00",
       "fecha_agregada_iso": "2026-10-20T14:35:44.692020+00:00",
       "ruta_noticia": "/noticia/2026-10-20-que-hacer-cuando-una-empresa-informa-una-brecha-de-datos-per-a9d91852.html"
+    },
+    "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": {
+      "guid": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+      "fuente": "The Record",
+      "titulo": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+      "fecha_publicacion_iso": "2026-10-20T20:27:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-fbi-says-safepay-ransomware-gang-among-most-active-with-more-a92bc795.html"
+    },
+    "https://cyberscoop.com/nigerian-sentenced-hacking-fraud-tax-investment-scheme/": {
+      "guid": "https://cyberscoop.com/?p=91207",
+      "fuente": "CyberScoop",
+      "titulo": "Nigerian sentenced to 8 years for long-running tax business hacking and fraud scheme",
+      "fecha_publicacion_iso": "2026-10-20T19:33:21+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-nigerian-sentenced-to-8-years-for-long-running-tax-business-124f277a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "fuente": "BleepingComputer",
+      "titulo": "Zeabur shutting down after second security breach in two months",
+      "fecha_publicacion_iso": "2026-10-20T19:33:02+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-zeabur-shutting-down-after-second-security-breach-in-two-mon-aa2f36ff.html"
+    },
+    "https://therecord.media/california-warns-all-public-school-students-of-data-breach": {
+      "guid": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+      "fuente": "The Record",
+      "titulo": "California warns all public school students of data stolen in contractor breach",
+      "fecha_publicacion_iso": "2026-10-20T19:20:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-california-warns-all-public-school-students-of-data-stolen-i-6203e915.html"
+    },
+    "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties": {
+      "guid": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+      "fuente": "Dark Reading",
+      "titulo": "Ex-OpenAI Engineer Held Over Secret Recorder, Saudi Ties",
+      "fecha_publicacion_iso": "2026-10-20T19:16:49+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-ex-openai-engineer-held-over-secret-recorder-saudi-ties-2364e99b.html"
+    },
+    "https://therecord.media/23andme-california-data-breach-settlement": {
+      "guid": "https://therecord.media/23andme-california-data-breach-settlement",
+      "fuente": "The Record",
+      "titulo": "23andMe successor settles with California for $6 million over cybersecurity failings",
+      "fecha_publicacion_iso": "2026-10-20T18:32:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-23andme-successor-settles-with-california-for-6-million-over-29ac1c4b.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+      "fecha_publicacion_iso": "2026-10-20T18:11:03+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-openai-says-gpt-6-1-sol-is-dramatically-better-at-migrating-2bcaf37a.html"
+    },
+    "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/": {
+      "guid": "https://cyberscoop.com/?p=91200",
+      "fuente": "CyberScoop",
+      "titulo": "Russian GRU hackers hit NATO shipbuilder, aircraft engine maker, law enforcement agency in espionage campaign",
+      "fecha_publicacion_iso": "2026-10-20T17:55:35+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-russian-gru-hackers-hit-nato-shipbuilder-aircraft-engine-mak-7f980a9b.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226": {
+      "guid": "https://www.theregister.com/a/5304226",
+      "fuente": "The Register - Security",
+      "titulo": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
+      "fecha_publicacion_iso": "2026-10-20T17:33:26+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-palo-alto-s-firewall-os-has-been-under-attack-from-multiple-7e6b42f8.html"
+    },
+    "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks": {
+      "guid": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks",
+      "fuente": "The Record",
+      "titulo": "Nigerian national given 8-year sentence for tax business hacks",
+      "fecha_publicacion_iso": "2026-10-20T17:14:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-nigerian-national-given-8-year-sentence-for-tax-business-hac-1b377ec7.html"
+    },
+    "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html": {
+      "guid": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "fuente": "The Hacker News",
+      "titulo": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "fecha_publicacion_iso": "2026-10-20T17:09:53+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-eight-emudhra-ca-keys-compromised-triggering-emergency-fixes-15309554.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/google-chrome-enhanced-protection-updates/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388447",
+      "fuente": "Help Net Security",
+      "titulo": "Chrome flags malicious commands that scammers pass off as fixes",
+      "fecha_publicacion_iso": "2026-10-20T17:00:47+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-chrome-flags-malicious-commands-that-scammers-pass-off-as-fi-b39b9589.html"
+    },
+    "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198": {
+      "guid": "https://www.theregister.com/a/5304198",
+      "fuente": "The Register - Security",
+      "titulo": "Swamped curl maintainers take low-level flaws public to survive vulnerability 'avalanche'",
+      "fecha_publicacion_iso": "2026-10-20T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-swamped-curl-maintainers-take-low-level-flaws-public-to-surv-4f1699f9.html"
+    },
+    "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/": {
+      "guid": "https://cyberscoop.com/?p=91190",
+      "fuente": "CyberScoop",
+      "titulo": "ConnectWise customers hit by supply-chain attack linked to compromised API secret",
+      "fecha_publicacion_iso": "2026-10-20T16:17:52+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-connectwise-customers-hit-by-supply-chain-attack-linked-to-c-cc8c5311.html"
+    },
+    "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/": {
+      "guid": "https://www.securityweek.com/?p=50167",
+      "fuente": "SecurityWeek",
+      "titulo": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+      "fecha_publicacion_iso": "2026-10-20T15:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-us-agencies-detail-incident-response-practices-for-rogue-ai-f7a865ab.html"
+    },
+    "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "fecha_publicacion_iso": "2026-10-20T15:38:52+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-critical-fortisiem-flaw-gets-public-exploit-poc-for-unauthen-53ddecf9.html"
+    },
+    "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai": {
+      "guid": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
+      "fuente": "Dark Reading",
+      "titulo": "Close Identity Gaps in Software Development Before Unleashing AI",
+      "fecha_publicacion_iso": "2026-10-20T15:35:45+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-close-identity-gaps-in-software-development-before-unleashin-dff178c3.html"
+    },
+    "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html": {
+      "guid": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "fuente": "The Hacker News",
+      "titulo": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "fecha_publicacion_iso": "2026-10-20T15:32:27+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-qilin-and-inc-ransomware-groups-exploit-palo-alto-networks-f-0d304799.html"
+    },
+    "https://cyberscoop.com/justice-department-california-voter-arrests-noncitizen-claims/": {
+      "guid": "https://cyberscoop.com/?p=91187",
+      "fuente": "CyberScoop",
+      "titulo": "DOJ escalates fight for election supremacy with California raids",
+      "fecha_publicacion_iso": "2026-10-20T15:29:36+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-doj-escalates-fight-for-election-supremacy-with-california-r-85d254d8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/20/aomei-backupper-compromised-supply-chain/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388513",
+      "fuente": "Help Net Security",
+      "titulo": "AOMEI Backupper servers hijacked for minutes at a time to push backdoor",
+      "fecha_publicacion_iso": "2026-10-20T15:14:30+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-aomei-backupper-servers-hijacked-for-minutes-at-a-time-to-pu-d9574813.html"
+    },
+    "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack": {
+      "guid": "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack",
+      "fuente": "The Record",
+      "titulo": "EU cyber law won’t force fixes for fridge controllers hit in French attack",
+      "fecha_publicacion_iso": "2026-10-20T14:55:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-eu-cyber-law-wont-force-fixes-for-fridge-controllers-hit-in-4cce5b06.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+      "fuente": "Dark Reading",
+      "titulo": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+      "fecha_publicacion_iso": "2026-10-20T14:36:05+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hackers-abuse-ai-pen-test-tool-cairn-to-automate-massive-att-91169d02.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "fuente": "BleepingComputer",
+      "titulo": "DHS bans DeepSeek products across US federal civilian agencies",
+      "fecha_publicacion_iso": "2026-10-20T14:19:05+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-dhs-bans-deepseek-products-across-us-federal-civilian-agenci-4162cca6.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "fecha_publicacion_iso": "2026-10-20T14:07:17+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-hackers-use-autonomous-ai-agents-to-breach-company-websites-0dfa738d.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-recibe-mas-de-3.000-notificaciones-de-brechas-de": {
+      "guid": "5411ddc4-fbd5-4189-8f73-3ec782020b14",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año",
+      "fecha_publicacion_iso": "2026-10-20T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-20T20:37:18.626006+00:00",
+      "ruta_noticia": "/noticia/2026-10-20-la-aepd-recibe-mas-de-3-000-notificaciones-de-brechas-de-dat-d88ab331.html"
     }
   }
 }

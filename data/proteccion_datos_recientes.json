@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año",
+    "fuente": "AEPD (España) - Notas de prensa",
+    "idioma": "es",
+    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
+    "dominio_fuente": "aepd.es",
+    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-recibe-mas-de-3.000-notificaciones-de-brechas-de",
+    "guid": "5411ddc4-fbd5-4189-8f73-3ec782020b14",
+    "fecha_publicacion_iso": "2026-10-20T08:00:00+00:00",
+    "fecha_publicacion_original": "Tue, 20 Oct 2026 10:00:00 +0200",
+    "extracto_original": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año AEPD Mar, 20/10/2026 Las brechas de datos personales notificadas a la Agencia en el primer semestre de 2026 superan a las recibidas durante todo 2025 Esta cifra es un indicador del aumento de ciberincidentes y otros casos en los que una brecha puede llegar a constituir un riesgo para los derechos y libertades de las personas La AEPD recuerda la importancia de que responsables y encargados adopten medidas adecuadas al riesgo y estén preparados para gestionar estas brechas",
+    "contenido_ampliado": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año AEPD Mar, 20/10/2026 Las brechas de datos personales notificadas a la Agencia en el primer semestre de 2026 superan a las recibidas durante todo 2025 Esta cifra es un indicador del aumento de ciberincidentes y otros casos en los que una brecha puede llegar a constituir un riesgo para los derechos y libertades de las personas La AEPD recuerda la importancia de que responsables y encargados adopten medidas adecuadas al riesgo y estén preparados para gestionar estas brechas…",
+    "imagen_url": null,
+    "categoria": "proteccion_datos",
+    "imagen_local": "/imagenes/2026-10-20/card_3f440c1b64.jpg",
+    "resumen_ia": null,
+    "resumen_ia_ok": false,
+    "imagen_es_generica": true,
+    "ruta_noticia": "/noticia/2026-10-20-la-aepd-recibe-mas-de-3-000-notificaciones-de-brechas-de-dat-d88ab331.html"
+  },
+  {
     "titulo": "Escudo de las Américas (II): ¿qué podría significar en política pública digital? Datos personales, inteligencia artificial y soberanía",
     "fuente": "Hiperderecho (Perú)",
     "idioma": "es",
@@ -373,25 +393,5 @@
     "resumen_ia_ok": false,
     "imagen_es_generica": true,
     "ruta_noticia": "/noticia/2026-10-08-la-aepd-publica-el-segundo-numero-de-la-revista-cientifica-p-00bd7976.html"
-  },
-  {
-    "titulo": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia",
-    "fuente": "AEPD (España) - Notas de prensa",
-    "idioma": "es",
-    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
-    "dominio_fuente": "aepd.es",
-    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-sennala-garantias-para-incorporar-ia-a-sistemas-videovigilancia",
-    "guid": "35d8717b-1c45-4fc8-a2cb-9387de7e04c9",
-    "fecha_publicacion_iso": "2026-10-06T08:00:00+00:00",
-    "fecha_publicacion_original": "Tue, 06 Oct 2026 10:00:00 +0200",
-    "extracto_original": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia AEPD Mar, 06/10/2026 La Agencia ha dirigido sendas advertencias a dos ayuntamientos cuyos proyectos de videovigilancia prevén funcionalidades de análisis automatizado de imágenes mediante inteligencia artificial Estas tecnologías pueden servir de apoyo para garantizar la seguridad, siempre que se integren las garantías de protección de datos desde el diseño de los proyectos La AEPD destaca que la disponibilidad de una tecnología no justifica por sí misma su utilización, que debe responder a una finalidad concreta y superar un análisis de necesidad y proporcionalidad Contenido de las advertencias: AI-00170-2026 y AI-00171-2026",
-    "contenido_ampliado": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia AEPD Mar, 06/10/2026 La Agencia ha dirigido sendas advertencias a dos ayuntamientos cuyos proyectos de videovigilancia prevén funcionalidades de análisis automatizado de imágenes mediante inteligencia artificial Estas tecnologías pueden servir de apoyo para garantizar la seguridad, siempre que se integren las garantías de protección de datos desde el diseño de los proyectos La AEPD destaca que la disponibilidad de una tecnología no justifica por sí misma su utilización, que debe responder a una finalidad concreta y superar un análisis de necesidad y proporcionalidad Contenido de las advertencias: AI-00170-2026 y AI-00171-2026…",
-    "imagen_url": null,
-    "categoria": "proteccion_datos",
-    "imagen_local": "/imagenes/2026-10-06/card_9344c1a979.jpg",
-    "resumen_ia": "La Agencia Española de Protección de Datos ha emitido advertencias dirigidas a dos consistorios debido a iniciativas de videovigilancia que incluyen el análisis automatizado de imágenes por medio de inteligencia artificial. Estas actuaciones se enmarcan dentro de la labor preventiva de la autoridad, buscando señalar operaciones planeadas que podrían incumplir las normas de privacidad para que los responsables corrijan los fallos antes de ponerlas en marcha. Entre las capacidades de estos proyectos se encuentran la detección y el reconocimiento facial, así como la identificación de vehículos y personas, la creación de metadatos y la búsqueda de individuos basándose en rasgos físicos, vestimenta, género o edad, pudiendo emplear incluso una fotografía como referencia inicial.\n\nEl organismo regulador puntualiza que la legislación vigente no prohíbe el empleo de estas herramientas tecnológicas en el ámbito de las administraciones públicas, siempre que se apliquen las salvaguardas apropiadas a sus riesgos y características desde el diseño inicial. El hecho de que una función técnica se encuentre disponible no valida su empleo de forma automática, por lo que resulta obligatorio justificar su finalidad mediante un análisis previo de necesidad, idoneidad y proporcionalidad. Asimismo, es preciso determinar los datos generados por cada función, el tiempo de conservación y los sujetos con autorización de acceso, contemplando además una evaluación de impacto si se detectan riesgos elevados para los derechos de los ciudadanos.\n\nLa autoridad otorga especial relevancia al manejo de información biométrica enfocada en la identificación única de individuos, lo cual exige cumplir con un marco reforzado de salvaguardas específicas. En el caso de los cuerpos de seguridad locales, el uso de estas capacidades de análisis automatizado debe justificarse adecuadamente para cada función adicional de manera independiente, y no solo para la colocación de los dispositivos de captura de imagen. Igualmente, se resalta la obligación de garantizar la transparencia ofreciendo a los ciudadanos información comprensible y accesible sobre el tratamiento de sus datos y las metas de los sistemas.\n\nEl artículo original no aporta más detalle sobre las identidades de los ayuntamientos afectados ni sobre otros proyectos adicionales más allá de los dos mencionados en el texto.",
-    "resumen_ia_ok": true,
-    "imagen_es_generica": true,
-    "ruta_noticia": "/noticia/2026-10-06-la-aepd-senala-las-garantias-para-incorporar-inteligencia-ar-7bb0152b.html"
   }
 ]
