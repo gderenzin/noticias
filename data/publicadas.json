@@ -18615,6 +18615,102 @@
       "fecha_publicacion_iso": "2026-10-20T20:56:43+00:00",
       "fecha_agregada_iso": "2026-10-20T23:53:09.527439+00:00",
       "ruta_noticia": "/noticia/2026-10-20-php-warns-admins-of-two-critical-flaws-emergency-patches-com-05dd90fd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/ecg-heart-data-privacy-preserving-ai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388393",
+      "fuente": "Help Net Security",
+      "titulo": "Privacy-preserving AI can protect your heart data, the bill is the problem",
+      "fecha_publicacion_iso": "2026-10-21T06:00:35+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-privacy-preserving-ai-can-protect-your-heart-data-the-bill-i-9b0f191d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/devguard-open-source-vulnerability-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388257",
+      "fuente": "Help Net Security",
+      "titulo": "DevGuard: Open-source vulnerability management for the software supply chain",
+      "fecha_publicacion_iso": "2026-10-21T05:30:45+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-devguard-open-source-vulnerability-management-for-the-softwa-10673ace.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/gitguardian-securing-credential-layer/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388315",
+      "fuente": "Help Net Security",
+      "titulo": "Why security tools lose sight of the credential",
+      "fecha_publicacion_iso": "2026-10-21T05:00:32+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-why-security-tools-lose-sight-of-the-credential-16fbbde2.html"
+    },
+    "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html": {
+      "guid": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "fecha_publicacion_iso": "2026-10-21T04:57:50+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-two-unpatched-critical-php-rce-flaws-cvss-9-2-trig-705a2aee.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388253",
+      "fuente": "Help Net Security",
+      "titulo": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
+      "fecha_publicacion_iso": "2026-10-21T04:30:13+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-bringing-ai-into-the-soc-means-watching-for-shadow-ai-and-lo-5084f12c.html"
+    },
+    "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/": {
+      "guid": "https://www.securityweek.com/?p=50171",
+      "fuente": "SecurityWeek",
+      "titulo": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
+      "fecha_publicacion_iso": "2026-10-21T04:22:11+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-accenture-dragos-sans-launch-10m-initiative-to-defend-small-b374ef59.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/php-security-release-announcement-october-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388528",
+      "fuente": "Help Net Security",
+      "titulo": "A critical PHP security release is coming today, so get ready to update!",
+      "fecha_publicacion_iso": "2026-10-21T04:21:54+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-a-critical-php-security-release-is-coming-today-so-get-ready-255f7ede.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/torchtpu-pytorch-on-tpus/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388519",
+      "fuente": "Help Net Security",
+      "titulo": "Google open-sourced TorchTPU, so PyTorch on TPUs just got a lot easier",
+      "fecha_publicacion_iso": "2026-10-21T03:42:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-google-open-sourced-torchtpu-so-pytorch-on-tpus-just-got-a-l-15a98de3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "fecha_publicacion_iso": "2026-10-21T01:01:50+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites-0f04a6f0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "fecha_publicacion_iso": "2026-10-21T00:46:42+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-mozilla-google-apple-block-compromised-emudhra-ca-certificat-7a020fdc.html"
+    },
+    "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312": {
+      "guid": "https://www.theregister.com/a/5304312",
+      "fuente": "The Register - Security",
+      "titulo": "Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’",
+      "fecha_publicacion_iso": "2026-10-20T22:57:44+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-indian-certification-authority-emudhras-private-keys-comprom-5a3c7b16.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281": {
+      "guid": "https://www.theregister.com/a/5304281",
+      "fuente": "The Register - Security",
+      "titulo": "Auto tech startup claims it traced hack attempt back to rival's IP address",
+      "fecha_publicacion_iso": "2026-10-20T22:00:46+00:00",
+      "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-auto-tech-startup-claims-it-traced-hack-attempt-back-to-riva-f10b70c9.html"
     }
   }
 }
