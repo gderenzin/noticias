@@ -18711,6 +18711,366 @@
       "fecha_publicacion_iso": "2026-10-20T22:00:46+00:00",
       "fecha_agregada_iso": "2026-10-21T06:03:48.054869+00:00",
       "ruta_noticia": "/noticia/2026-10-21-auto-tech-startup-claims-it-traced-hack-attempt-back-to-riva-f10b70c9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388647",
+      "fuente": "Help Net Security",
+      "titulo": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
+      "fecha_publicacion_iso": "2026-10-21T14:11:24+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-emudhra-security-blunder-left-trusted-ca-signing-keys-expose-72137f84.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "fuente": "BleepingComputer",
+      "titulo": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+      "fecha_publicacion_iso": "2026-10-21T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-clickfix-has-never-been-bigger-and-ai-tools-are-its-most-con-bc6b0429.html"
+    },
+    "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/": {
+      "guid": "6ad6801d37835ef36a21e0be",
+      "fuente": "Wired - Security",
+      "titulo": "AI Guardrails Aren’t Stopping Criminal Hackers",
+      "fecha_publicacion_iso": "2026-10-21T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-ai-guardrails-arent-stopping-criminal-hackers-e50d33e7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388652",
+      "fuente": "Help Net Security",
+      "titulo": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
+      "fecha_publicacion_iso": "2026-10-21T13:52:23+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-nvidia-unveils-security-architecture-that-can-stop-ai-agents-e37ca55f.html"
+    },
+    "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/": {
+      "guid": "https://www.securityweek.com/?p=50196",
+      "fuente": "SecurityWeek",
+      "titulo": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+      "fecha_publicacion_iso": "2026-10-21T13:17:35+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-s-71ae2abe.html"
+    },
+    "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html": {
+      "guid": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "fecha_publicacion_iso": "2026-10-21T13:15:09+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-google-chrome-adds-clickfix-warnings-to-stop-users-from-runn-f29fd7d4.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
+      "fuente": "Dark Reading",
+      "titulo": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
+      "fecha_publicacion_iso": "2026-10-21T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-decades-old-windows-utility-powers-modern-clickfix-attack-13820dac.html"
+    },
+    "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/": {
+      "guid": "https://www.securityweek.com/?p=50194",
+      "fuente": "SecurityWeek",
+      "titulo": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
+      "fecha_publicacion_iso": "2026-10-21T12:57:47+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-memory-bugs-account-for-most-of-chromes-353-new-security-fix-9fa3f970.html"
+    },
+    "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/": {
+      "guid": "6ad7d96421d5362b857b93a4",
+      "fuente": "Wired - Security",
+      "titulo": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+      "fecha_publicacion_iso": "2026-10-21T12:35:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-a-design-flaw-in-share-links-exposes-users-personal-conversa-04cfd76c.html"
+    },
+    "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/": {
+      "guid": "https://www.securityweek.com/?p=50192",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
+      "fecha_publicacion_iso": "2026-10-21T12:34:22+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-openai-agents-silenced-security-team-alerts-removed-misalign-2616dfa7.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "fecha_publicacion_iso": "2026-10-21T12:20:34+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools-ba8deb36.html"
+    },
+    "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html": {
+      "guid": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+      "fecha_publicacion_iso": "2026-10-21T12:05:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-china-aligned-bronze-sandcastle-abuses-sandboxie-dll-sideloa-c7a020f2.html"
+    },
+    "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297": {
+      "guid": "https://www.theregister.com/a/5304297",
+      "fuente": "The Register - Security",
+      "titulo": "AI has 'potential' to turn script kiddies into sophisticated infrastructure attackers",
+      "fecha_publicacion_iso": "2026-10-21T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-ai-has-potential-to-turn-script-kiddies-into-sophisticated-i-ff808700.html"
+    },
+    "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html": {
+      "guid": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "fuente": "The Hacker News",
+      "titulo": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "fecha_publicacion_iso": "2026-10-21T11:53:34+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-generative-ai-is-erasing-behavioral-tells-weakening-behavior-b8126080.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-picks-openshell-to-tame-ai-gents/5304319": {
+      "guid": "https://www.theregister.com/a/5304319",
+      "fuente": "The Register - Security",
+      "titulo": "Nvidia picks OpenShell to tame AI gents",
+      "fecha_publicacion_iso": "2026-10-21T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-nvidia-picks-openshell-to-tame-ai-gents-531851bb.html"
+    },
+    "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/": {
+      "guid": "https://www.securityweek.com/?p=50190",
+      "fuente": "SecurityWeek",
+      "titulo": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
+      "fecha_publicacion_iso": "2026-10-21T11:22:05+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-browsers-block-emudhra-intermediate-cas-over-recoverable-pri-9b477066.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388600",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware gangs have been exploiting Palo Alto GlobalProtect VPN flaw since June",
+      "fecha_publicacion_iso": "2026-10-21T11:13:39+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-ransomware-gangs-have-been-exploiting-palo-alto-globalprotec-f78db32e.html"
+    },
+    "https://www.theregister.com/security/2026/10/21/eu-wants-bookingcom-to-check-out-of-its-scam-problem/5304413": {
+      "guid": "https://www.theregister.com/a/5304413",
+      "fuente": "The Register - Security",
+      "titulo": "EU wants Booking.com to check out of its scam problem",
+      "fecha_publicacion_iso": "2026-10-21T11:10:55+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-eu-wants-booking-com-to-check-out-of-its-scam-problem-1151568b.html"
+    },
+    "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html": {
+      "guid": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Harness Is the Hard Part of Agentic Pentesting",
+      "fecha_publicacion_iso": "2026-10-21T10:32:40+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-the-harness-is-the-hard-part-of-agentic-pentesting-f31f85df.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+      "fecha_publicacion_iso": "2026-10-21T10:30:27+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-attackers-hijacked-over-300-tor-exit-relays-to-intercept-ssh-00d9c6c0.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says October updates didn’t actually fix VPN issues",
+      "fecha_publicacion_iso": "2026-10-21T10:14:53+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-microsoft-says-october-updates-didnt-actually-fix-vpn-issues-73d154fe.html"
+    },
+    "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/": {
+      "guid": "https://www.securityweek.com/?p=50179",
+      "fuente": "SecurityWeek",
+      "titulo": "Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor",
+      "fecha_publicacion_iso": "2026-10-21T10:03:24+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-chinese-ai-model-writes-more-hackable-code-when-told-its-for-724c2add.html"
+    },
+    "https://www.wired.com/story/the-deas-premier-crypto-detective-clues-led-straight-to-her-own-family/": {
+      "guid": "69c6b57ae6de93fc3732e7b0",
+      "fuente": "Wired - Security",
+      "titulo": "She Was the DEA’s Premier Crypto Detective. The Clues Led Straight to Her Own Family",
+      "fecha_publicacion_iso": "2026-10-21T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-she-was-the-deas-premier-crypto-detective-the-clues-led-stra-f571cb68.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/grafana-labs-knowledge-graph/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388585",
+      "fuente": "Help Net Security",
+      "titulo": "Grafana Labs connects observability and incident response with Knowledge Graph",
+      "fecha_publicacion_iso": "2026-10-21T09:30:38+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-grafana-labs-connects-observability-and-incident-response-wi-d842c2b0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/threatlocker-zero-trust-ai-control-ztaic/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388582",
+      "fuente": "Help Net Security",
+      "titulo": "ThreatLocker adds external controls for AI agent access and execution",
+      "fecha_publicacion_iso": "2026-10-21T09:07:30+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-threatlocker-adds-external-controls-for-ai-agent-access-and-74deef03.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "fecha_publicacion_iso": "2026-10-21T09:01:12+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-attackers-abuse-updraftcentral-keys-to-plant-backdoors-on-wo-7f88afbf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388557",
+      "fuente": "Help Net Security",
+      "titulo": "Info-stealing malware slipped into OVHcloud CLI releases on GitHub",
+      "fecha_publicacion_iso": "2026-10-21T08:59:57+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-info-stealing-malware-slipped-into-ovhcloud-cli-releases-on-4a3c956e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/apple-safari-tracking-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388553",
+      "fuente": "Help Net Security",
+      "titulo": "Safari blocks trackers that turn your email into a tracking ID",
+      "fecha_publicacion_iso": "2026-10-21T08:53:34+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-safari-blocks-trackers-that-turn-your-email-into-a-tracking-d69a5575.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "fecha_publicacion_iso": "2026-10-21T08:36:24+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-cisa-safepay-ransomware-hit-over-600-critical-infrastructure-190252fc.html"
+    },
+    "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html": {
+      "guid": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "fecha_publicacion_iso": "2026-10-21T08:04:17+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-u-s-orders-deepseek-removed-from-federal-civilian-systems-ba-0c6fe061.html"
+    },
+    "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/": {
+      "guid": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
+      "fuente": "SecurityWeek",
+      "titulo": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "fecha_publicacion_iso": "2026-10-21T08:04:17+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-u-s-orders-deepseek-removed-from-federal-civilian-systems-ba-0c6fe061.html"
+    },
+    "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html": {
+      "guid": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+      "fuente": "The Hacker News",
+      "titulo": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "fecha_publicacion_iso": "2026-10-21T07:44:22+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-state-bank-of-india-confirms-data-leak-after-3-897-customer-17efaa05.html"
+    },
+    "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html": {
+      "guid": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:26:49+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-cisa-orders-federal-agencies-to-patch-exploited-plex2shell-s-f6fe2f95.html"
+    },
+    "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/": {
+      "guid": "https://www.securityweek.com/?p=50177",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html": {
+      "guid": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/": {
+      "guid": "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/",
+      "fuente": "CyberScoop",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/",
+      "fuente": "Help Net Security",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-php": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-php",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://therecord.media/php-script-vulnerabilities-warnings": {
+      "guid": "https://therecord.media/php-script-vulnerabilities-warnings",
+      "fuente": "The Record",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/": {
+      "guid": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+      "fuente": "Wired - Security",
+      "titulo": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "fecha_publicacion_iso": "2026-10-21T07:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-mass-exploitation-looms-for-leaked-critical-php-fl-856618cc.html"
+    },
+    "http://www.elladodelmal.com/2026/10/bypassing-system-prompt-guardrails-en.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8418860884259227027",
+      "fuente": "El Lado del Mal",
+      "titulo": "Bypassing System Prompt & Guardrails en un Asistente IA para que pinte gatos en Python",
+      "fecha_publicacion_iso": "2026-10-21T07:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-bypassing-system-prompt-guardrails-en-un-asistente-ia-para-q-041b1e83.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle": {
+      "guid": "676548 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Oracle",
+      "fecha_publicacion_iso": "2026-10-21T06:10:46+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-multiples-vulnerabilidades-en-productos-de-oracle-50ef5093.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+      "fecha_publicacion_iso": "2026-10-21T06:05:15+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-hackers-hid-vasilek-backdoor-in-vmware-tools-during-2-year-r-bd60f0eb.html"
+    },
+    "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/": {
+      "guid": "https://www.securityweek.com/?p=50174",
+      "fuente": "SecurityWeek",
+      "titulo": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
+      "fecha_publicacion_iso": "2026-10-21T06:02:27+00:00",
+      "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-f543d8c6.html"
     }
   }
 }
