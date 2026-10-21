@@ -19071,6 +19071,206 @@
       "fecha_publicacion_iso": "2026-10-21T06:02:27+00:00",
       "fecha_agregada_iso": "2026-10-21T14:45:33.072510+00:00",
       "ruta_noticia": "/noticia/2026-10-21-hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-f543d8c6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "fuente": "BleepingComputer",
+      "titulo": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "fecha_publicacion_iso": "2026-10-21T20:31:48+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-lazarus-hackers-use-post-quantum-cryptography-for-malware-de-3371acd3.html"
+    },
+    "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case": {
+      "guid": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+      "fuente": "The Record",
+      "titulo": "Meta on the spot for $25 billion under New Mexico privacy ruling",
+      "fecha_publicacion_iso": "2026-10-21T20:25:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-meta-on-the-spot-for-25-billion-under-new-mexico-privacy-rul-56584292.html"
+    },
+    "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss": {
+      "guid": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+      "fuente": "Dark Reading",
+      "titulo": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+      "fecha_publicacion_iso": "2026-10-21T20:03:14+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-cloud-security-alliance-survey-finds-data-loss-prevention-of-04b5c5ae.html"
+    },
+    "https://therecord.media/utilities-cybersecurity-initiative-accenture": {
+      "guid": "https://therecord.media/utilities-cybersecurity-initiative-accenture",
+      "fuente": "The Record",
+      "titulo": "Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity",
+      "fecha_publicacion_iso": "2026-10-21T19:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-tech-trio-launches-10-million-initiative-to-help-under-resou-548b69ca.html"
+    },
+    "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry": {
+      "guid": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+      "fuente": "Dark Reading",
+      "titulo": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+      "fecha_publicacion_iso": "2026-10-21T19:19:17+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-bugs-signal-red-alert-for-security-industry-5f2ddb41.html"
+    },
+    "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "fecha_publicacion_iso": "2026-10-21T18:57:34+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-critical-gitlab-flaw-cvss-10-0-could-allow-unauthenticated-r-a9726704.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "fecha_publicacion_iso": "2026-10-21T18:34:42+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breac-71f04853.html"
+    },
+    "https://therecord.media/democrat-lawmakers-say-russia-is-aiming-to-undermine-party": {
+      "guid": "https://therecord.media/democrat-lawmakers-say-russia-is-aiming-to-undermine-party",
+      "fuente": "The Record",
+      "titulo": "Democrat lawmakers say Russia is aiming to undermine party ahead of midterms",
+      "fecha_publicacion_iso": "2026-10-21T18:28:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-democrat-lawmakers-say-russia-is-aiming-to-undermine-party-a-14b2da24.html"
+    },
+    "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html": {
+      "guid": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "fuente": "The Hacker News",
+      "titulo": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "fecha_publicacion_iso": "2026-10-21T18:01:57+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-creden-f5335e20.html"
+    },
+    "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548": {
+      "guid": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+      "fuente": "The Register - Security",
+      "titulo": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "fecha_publicacion_iso": "2026-10-21T18:01:57+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-litellm-compromised-in-supply-chain-attack-delivering-creden-f5335e20.html"
+    },
+    "https://therecord.media/php-foundation-statement-critical-vulnerabilities": {
+      "guid": "https://therecord.media/php-foundation-statement-critical-vulnerabilities",
+      "fuente": "The Record",
+      "titulo": "PHP says AI review of critical bugs first sparked alarm in August, but signs surfaced in 2024",
+      "fecha_publicacion_iso": "2026-10-21T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php-says-ai-review-of-critical-bugs-first-sparked-alarm-in-a-bf264550.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/alerta-maxima-descubren-de-8.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-288610300220437662",
+      "fuente": "Segu-Info",
+      "titulo": "Alerta máxima: descubren de 8 certificados intermedios comprometidos",
+      "fecha_publicacion_iso": "2026-10-21T17:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-alerta-maxima-descubren-de-8-certificados-intermedios-compro-3361d551.html"
+    },
+    "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528": {
+      "guid": "https://www.theregister.com/a/5304528",
+      "fuente": "The Register - Security",
+      "titulo": "Signal bug could keep your mic - and camera - on after hangup",
+      "fecha_publicacion_iso": "2026-10-21T17:00:58+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-signal-bug-could-keep-your-mic-and-camera-on-after-hangup-3cd0deed.html"
+    },
+    "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/": {
+      "guid": "https://www.securityweek.com/?p=50184",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+      "fecha_publicacion_iso": "2026-10-21T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-google-hardens-chrome-against-clickfix-attacks-insecure-http-6397dd9b.html"
+    },
+    "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/": {
+      "guid": "https://www.securityweek.com/?p=50209",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
+      "fecha_publicacion_iso": "2026-10-21T16:50:40+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php2shell-patches-land-as-first-exploitation-attempts-hit-se-661e0d2a.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+      "fuente": "Dark Reading",
+      "titulo": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+      "fecha_publicacion_iso": "2026-10-21T16:50:15+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-ovhcloud-github-compromise-tied-to-glassworm-threat-actors-a124b567.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI agents disabled safety monitoring, one lied about it",
+      "fecha_publicacion_iso": "2026-10-21T16:26:53+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-openai-agents-disabled-safety-monitoring-one-lied-about-it-288893f6.html"
+    },
+    "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html": {
+      "guid": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI agents disabled safety monitoring, one lied about it",
+      "fecha_publicacion_iso": "2026-10-21T16:26:53+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-openai-agents-disabled-safety-monitoring-one-lied-about-it-288893f6.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+      "fuente": "Dark Reading",
+      "titulo": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+      "fecha_publicacion_iso": "2026-10-21T15:44:48+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-optiv-launches-cyberbot-cybersecurity-awareness-training-pro-b716aa67.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
+      "fuente": "Dark Reading",
+      "titulo": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
+      "fecha_publicacion_iso": "2026-10-21T15:29:09+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-survey-finds-high-profile-executives-feel-untouchable-as-dig-ce8b3bbc.html"
+    },
+    "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/": {
+      "guid": "https://krebsonsecurity.com/?p=74522",
+      "fuente": "Krebs on Security",
+      "titulo": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "fecha_publicacion_iso": "2026-10-21T15:26:07+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-widespread-php-flaw-may-cause-many-site-outages-today-24755a35.html"
+    },
+    "https://www.theregister.com/security/2026/10/21/php-devs-publish-critical-bug-fix-as-site-owners-warned-pull-em-offline-if-youre-unpatched/5304519": {
+      "guid": "https://www.theregister.com/a/5304519",
+      "fuente": "The Register - Security",
+      "titulo": "PHP devs publish critical bug fix as site owners warned: Pull 'em offline if you're unpatched",
+      "fecha_publicacion_iso": "2026-10-21T15:08:51+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php-devs-publish-critical-bug-fix-as-site-owners-warned-pull-e65691ba.html"
+    },
+    "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/": {
+      "guid": "https://www.securityweek.com/?p=50205",
+      "fuente": "SecurityWeek",
+      "titulo": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
+      "fecha_publicacion_iso": "2026-10-21T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-context-bombs-cut-ai-attack-success-by-misleading-agents-wit-a45dacf8.html"
+    },
+    "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/": {
+      "guid": "https://www.securityweek.com/?p=50203",
+      "fuente": "SecurityWeek",
+      "titulo": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+      "fecha_publicacion_iso": "2026-10-21T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-high-severity-flaws-exploited-in-three-days-as-ransomware-do-67c1ab51.html"
+    },
+    "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html": {
+      "guid": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "fecha_publicacion_iso": "2026-10-21T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php-issues-emergency-patches-for-two-critical-php2shell-rce-6478f584.html"
     }
   }
 }
