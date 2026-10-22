@@ -19759,6 +19759,150 @@
       "fecha_publicacion_iso": "2026-10-21T16:20:05+00:00",
       "fecha_agregada_iso": "2026-10-22T14:41:31.235643+00:00",
       "ruta_noticia": "/noticia/2026-10-22-es-una-estafa-como-identificar-un-anuncio-fraudulento-antes-c5175a20.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Capcom confirms data breach affecting 11.7 million accounts",
+      "fecha_publicacion_iso": "2026-10-22T20:22:45+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-capcom-confirms-data-breach-affecting-11-7-million-accounts-177124c9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "fecha_publicacion_iso": "2026-10-22T19:12:51+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-litellm-release-pipeline-hacked-to-distribute-info-stealer-m-0151e852.html"
+    },
+    "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html": {
+      "guid": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "fecha_publicacion_iso": "2026-10-22T17:45:44+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-threatsday-ai-secrets-leak-pingcap-source-theft-signal-hang-a45e553c.html"
+    },
+    "https://cyberscoop.com/bipartisan-bill-combat-ai-distillation-attacks-nist/": {
+      "guid": "https://cyberscoop.com/?p=91240",
+      "fuente": "CyberScoop",
+      "titulo": "Exclusive: bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber",
+      "fecha_publicacion_iso": "2026-10-22T17:37:24+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-exclusive-bipartisan-bill-would-develop-federal-guidance-for-a6150969.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854": {
+      "guid": "https://www.theregister.com/a/5304854",
+      "fuente": "The Register - Security",
+      "titulo": "Max-severity GitLab bug allows remote code execution over 12 years of releases",
+      "fecha_publicacion_iso": "2026-10-22T17:36:30+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-max-severity-gitlab-bug-allows-remote-code-execution-over-12-0f075004.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-22T17:18:22+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-arista-patches-new-velocloud-orchestrator-zero-day-exploited-5d4f96d6.html"
+    },
+    "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html": {
+      "guid": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "fuente": "The Hacker News",
+      "titulo": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-22T17:18:22+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-arista-patches-new-velocloud-orchestrator-zero-day-exploited-5d4f96d6.html"
+    },
+    "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html": {
+      "guid": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "fecha_publicacion_iso": "2026-10-22T17:01:53+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-two-cvss-9-0-linux-ksmbd-rce-flaws-disclosed-on-public-maili-eebdb3f4.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/disgraced-indian-cert-issuer-leaves-the-cert-issuing-business/5304848": {
+      "guid": "https://www.theregister.com/a/5304848",
+      "fuente": "The Register - Security",
+      "titulo": "Disgraced Indian cert issuer leaves the cert issuing business",
+      "fecha_publicacion_iso": "2026-10-22T16:58:25+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-disgraced-indian-cert-issuer-leaves-the-cert-issuing-busines-c00a1c6f.html"
+    },
+    "https://therecord.media/china-cyber-connectwise-ai": {
+      "guid": "https://therecord.media/china-cyber-connectwise-ai",
+      "fuente": "The Record",
+      "titulo": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+      "fecha_publicacion_iso": "2026-10-22T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-microsoft-blames-connectwise-attacks-on-chinese-state-hacker-2a5b06ac.html"
+    },
+    "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html": {
+      "guid": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "fecha_publicacion_iso": "2026-10-22T16:12:31+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-meta-ordered-to-pay-25-billion-after-court-finds-43-million-6b7369ef.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840": {
+      "guid": "https://www.theregister.com/a/5304840",
+      "fuente": "The Register - Security",
+      "titulo": "PHP2Shell puts dozens of UK government services out of service",
+      "fecha_publicacion_iso": "2026-10-22T16:05:53+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-php2shell-puts-dozens-of-uk-government-services-out-of-servi-65cab385.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "fecha_publicacion_iso": "2026-10-22T15:49:32+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-microsoft-shares-how-to-fix-broken-exchange-online-ews-apps-0563a66c.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/sponsored-when-the-attacker-becomes-the-user-rethinking-account-takeover/5303913": {
+      "guid": "https://www.theregister.com/a/5303913",
+      "fuente": "The Register - Security",
+      "titulo": "When the attacker becomes the user: Rethinking account takeover",
+      "fecha_publicacion_iso": "2026-10-22T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-when-the-attacker-becomes-the-user-rethinking-account-takeov-19b3e407.html"
+    },
+    "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/": {
+      "guid": "https://cyberscoop.com/?p=91233",
+      "fuente": "CyberScoop",
+      "titulo": "eMudhra kills its certificate business after researchers cracked its private keys in under a second",
+      "fecha_publicacion_iso": "2026-10-22T14:57:06+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-emudhra-kills-its-certificate-business-after-researchers-cra-c4900ec0.html"
+    },
+    "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html": {
+      "guid": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "fuente": "The Hacker News",
+      "titulo": "eMudhra kills its certificate business after researchers cracked its private keys in under a second",
+      "fecha_publicacion_iso": "2026-10-22T14:57:06+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-emudhra-kills-its-certificate-business-after-researchers-cra-c4900ec0.html"
+    },
+    "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident": {
+      "guid": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+      "fuente": "The Record",
+      "titulo": "eMudhra kills its certificate business after researchers cracked its private keys in under a second",
+      "fecha_publicacion_iso": "2026-10-22T14:57:06+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-emudhra-kills-its-certificate-business-after-researchers-cra-c4900ec0.html"
+    },
+    "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/": {
+      "guid": "https://www.securityweek.com/?p=50243",
+      "fuente": "SecurityWeek",
+      "titulo": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "fecha_publicacion_iso": "2026-10-22T14:31:34+00:00",
+      "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-hacker-conversations-corey-thuen-and-the-evil-bit-dcda11bc.html"
     }
   }
 }
