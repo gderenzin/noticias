@@ -19271,6 +19271,62 @@
       "fecha_publicacion_iso": "2026-10-21T14:00:00+00:00",
       "fecha_agregada_iso": "2026-10-21T20:39:58.845298+00:00",
       "ruta_noticia": "/noticia/2026-10-21-php-issues-emergency-patches-for-two-critical-php2shell-rce-6478f584.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611": {
+      "guid": "https://www.theregister.com/a/5304611",
+      "fuente": "The Register - Security",
+      "titulo": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
+      "fecha_publicacion_iso": "2026-10-21T23:02:57+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-php-blames-supply-chain-security-biz-chainguard-for-putting-d8f28661.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/google-chrome-https-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388621",
+      "fuente": "Help Net Security",
+      "titulo": "Chrome puts insecure sites behind a permission prompt",
+      "fecha_publicacion_iso": "2026-10-21T22:30:30+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-chrome-puts-insecure-sites-behind-a-permission-prompt-f7ebc828.html"
+    },
+    "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "fecha_publicacion_iso": "2026-10-21T22:16:26+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-google-chrome-adds-gemini-powered-scam-detection-warns-users-83212438.html"
+    },
+    "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/": {
+      "guid": "https://cyberscoop.com/?p=91224",
+      "fuente": "CyberScoop",
+      "titulo": "Microsoft pins ConnectWise supply-chain attack to China-state aligned threat group",
+      "fecha_publicacion_iso": "2026-10-21T21:58:21+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-microsoft-pins-connectwise-supply-chain-attack-to-china-stat-067268fe.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "fuente": "BleepingComputer",
+      "titulo": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "fecha_publicacion_iso": "2026-10-21T21:43:27+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-japan-s-onamae-desktop-cloud-hacked-up-to-27-000-servers-aff-e9fd60a7.html"
+    },
+    "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security": {
+      "guid": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+      "fuente": "Dark Reading",
+      "titulo": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+      "fecha_publicacion_iso": "2026-10-21T21:15:39+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-tidb-breach-exposes-flawed-cloud-security-assumptions-7bcbd743.html"
+    },
+    "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security": {
+      "guid": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+      "fuente": "Dark Reading",
+      "titulo": "Marvell, Microsoft &amp; Oracle Work to Standardize Data Center Hardware Security",
+      "fecha_publicacion_iso": "2026-10-21T20:14:42+00:00",
+      "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
+      "ruta_noticia": "/noticia/2026-10-21-marvell-microsoft-amp-oracle-work-to-standardize-data-center-f6f763b9.html"
     }
   }
 }
