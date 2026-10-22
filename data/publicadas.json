@@ -19327,6 +19327,70 @@
       "fecha_publicacion_iso": "2026-10-21T20:14:42+00:00",
       "fecha_agregada_iso": "2026-10-22T00:01:38.592110+00:00",
       "ruta_noticia": "/noticia/2026-10-21-marvell-microsoft-amp-oracle-work-to-standardize-data-center-f6f763b9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/roger-halbheer-microsoft-data-sovereignty/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388549",
+      "fuente": "Help Net Security",
+      "titulo": "Sovereignty vs. security: Microsoft’s Roger Halbheer says you’re asking the wrong question",
+      "fecha_publicacion_iso": "2026-10-22T06:00:08+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-sovereignty-vs-security-microsofts-roger-halbheer-says-youre-22382100.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/ai-agent-permissions-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388384",
+      "fuente": "Help Net Security",
+      "titulo": "AI agent permissions are outrunning security",
+      "fecha_publicacion_iso": "2026-10-22T05:30:14+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-ai-agent-permissions-are-outrunning-security-b9eacf3a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/research-speech-model-backdoor/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388588",
+      "fuente": "Help Net Security",
+      "titulo": "Say a few words, and a rigged AI asks for $5,000",
+      "fecha_publicacion_iso": "2026-10-22T05:00:44+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-say-a-few-words-and-a-rigged-ai-asks-for-5-000-a466c662.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+      "fuente": "Dark Reading",
+      "titulo": "UAE Transitions 50% of Gov't Services to Agentic AI",
+      "fecha_publicacion_iso": "2026-10-22T05:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-uae-transitions-50-of-gov-t-services-to-agentic-ai-a734856a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/localstack-ai-code-testing-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388609",
+      "fuente": "Help Net Security",
+      "titulo": "AI coding boom exposes cracks in cloud development",
+      "fecha_publicacion_iso": "2026-10-22T04:30:38+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-ai-coding-boom-exposes-cracks-in-cloud-development-ae4fed18.html"
+    },
+    "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html": {
+      "guid": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-22T04:21:26+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-china-linked-hackers-use-artex-ai-agents-in-connectwise-supp-9b69347c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/22/ai-agent-observability-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388539",
+      "fuente": "Help Net Security",
+      "titulo": "AI agent observability is struggling to keep up with hallucinations",
+      "fecha_publicacion_iso": "2026-10-22T04:00:14+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-ai-agent-observability-is-struggling-to-keep-up-with-halluci-9ca3dbd6.html"
+    },
+    "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/": {
+      "guid": "6ad955a28e3faf9869a11a20",
+      "fuente": "Wired - Security",
+      "titulo": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "fecha_publicacion_iso": "2026-10-22T02:24:17+00:00",
+      "fecha_agregada_iso": "2026-10-22T06:08:45.248102+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-hackers-exploited-the-php-vulnerabilities-days-before-they-w-19e42460.html"
     }
   }
 }
