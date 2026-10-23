@@ -1,5 +1,24 @@
 [
   {
+    "titulo": "Desafíos frente a protección de datos en gafas inteligentes",
+    "fuente": "OlarteMoure (Colombia)",
+    "idioma": "es",
+    "url_fuente_feed": "https://www.olartemoure.com/feed/",
+    "dominio_fuente": "olartemoure.com",
+    "enlace": "https://olartemoure.com/proteccion-de-datos-en-gafas-inteligentes/",
+    "guid": "https://olartemoure.com/?p=4431125",
+    "fecha_publicacion_iso": "2026-10-23T21:14:39+00:00",
+    "fecha_publicacion_original": "Fri, 23 Oct 2026 21:14:39 +0000",
+    "extracto_original": "El EDPB se pronunció frente a las gafas inteligentes, los riesgos que plantean en la protección de datos, sobretodo al grabar a personas sin su conocimiento La entrada Desafíos frente a protección de datos en gafas inteligentes se publicó primero en OlarteMoure .",
+    "contenido_ampliado": "El 13 de octubre de 2026, el Comité Europeo de Protección de Datos (EDPB) adoptó la Declaración 1/2026 sobre gafas inteligentes, dispositivos equipados con cámaras, micrófonos y conexión a internet que pueden parecer gafas convencionales. El documento ofrece orientaciones preliminares sobre los riesgos que estos dispositivos plantean para la protección de datos personales, especialmente por la posibilidad de grabar a personas sin su conocimiento, particularmente en hospitales, escuelas, lugares de trabajo o cuando las grabaciones involucran a menores o se difunden en redes sociales.\n\nEl EDPB señala que los usuarios pueden ser considerados responsables del tratamiento cuando utilizan estos dispositivos en actividades oficiales, profesionales o políticas, o publican imágenes y videos en redes sociales de acceso público. En cambio, los usos exclusivamente personales o domésticos pueden quedar excluidos del ámbito de aplicación del RGPD, sin perjuicio de otras disposiciones civiles, penales o laborales aplicables.\n\nAsimismo, el EDPB recuerda que los fabricantes y proveedores de aplicaciones o servicios asociados, incluidos aquellos que incorporan inteligencia artificial, deben cumplir las obligaciones de protección de datos que les correspondan y no pueden trasladarlas a los usuarios.\n\nFinalmente, el EDPB recomienda incorporar indicadores luminosos o sonoros, notificaciones móviles y diseños distintivos, fiables y difíciles de desactivar, que permitan advertir a terceros cuando estos dispositivos estén realizando grabaciones.\n\nLa entrada Desafíos frente a protección de datos en gafas inteligentes se publicó primero en OlarteMoure.",
+    "imagen_url": "https://olartemoure.com/wp-content/uploads/2026/10/proteccion-de-datos-gafas-inteligentes.jpg",
+    "categoria": "proteccion_datos",
+    "imagen_local": "/imagenes/2026-10-23/c0e6c3fa1d1e460355b0.jpg",
+    "resumen_ia": "El Comité Europeo de Protección de Datos adoptó una declaración centrada en las gafas inteligentes, las cuales cuentan con conexión a internet, micrófonos y cámaras que simulan lentes comunes. Esta postura preliminar advierte sobre los peligros que representan para la privacidad debido a la capacidad de registrar a individuos sin su consentimiento previo, sobre todo en ámbitos como escuelas, centros de salud, entornos laborales, situaciones que involucren a menores o cuando el material se comparte en plataformas digitales.\n\nLas personas que utilicen estos aparatos podrían asumir la responsabilidad del tratamiento de datos si los emplean en funciones profesionales, políticas u oficiales, o bien al compartir material audiovisual en redes sociales abiertas al público. Por otra parte, las aplicaciones de carácter estrictamente doméstico o personal podrían quedar fuera del marco regulatorio general de protección de datos, aunque esto no exime de cumplir con otras normativas del ámbito laboral, penal o civil.\n\nLa directiva también especifica que los creadores de hardware, así como los proveedores de servicios y aplicaciones vinculadas —incluyendo herramientas de inteligencia artificial—, tienen la obligación de acatar las normativas de privacidad correspondientes sin poder transferir esta responsabilidad a los consumidores finales.\n\nPara mitigar estos riesgos, el organismo sugiere el uso de elementos de advertencia como señales luminosas o acústicas, avisos en dispositivos móviles y características físicas de diseño que sean evidentes, seguras y difíciles de anular, con el fin de avisar a los afectados cuando el equipo se encuentre grabando.",
+    "resumen_ia_ok": true,
+    "ruta_noticia": "/noticia/2026-10-23-desafios-frente-a-proteccion-de-datos-en-gafas-inteligentes-5b7fcce1.html"
+  },
+  {
     "titulo": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año",
     "fuente": "AEPD (España) - Notas de prensa",
     "idioma": "es",
@@ -373,25 +392,5 @@
     "resumen_ia_ok": true,
     "imagen_es_generica": true,
     "ruta_noticia": "/noticia/2026-10-08-dutch-dpa-fines-uber-eur-824-990-000-for-unlawful-automated-5828ea99.html"
-  },
-  {
-    "titulo": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’",
-    "fuente": "AEPD (España) - Notas de prensa",
-    "idioma": "es",
-    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
-    "dominio_fuente": "aepd.es",
-    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-segundo-numero-revista-cientifica-privacidad-innovacion-tecnologia",
-    "guid": "9ef2e1f9-1fcd-4900-9763-e01f81c08b20",
-    "fecha_publicacion_iso": "2026-10-08T08:36:45+00:00",
-    "fecha_publicacion_original": "Thu, 08 Oct 2026 10:36:45 +0200",
-    "extracto_original": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’ AEPD Jue, 08/10/2026 El monográfico está dedicado al 10º aniversario del Reglamento General de Protección de Datos y analiza algunos de sus principales retos ante la evolución tecnológica Los artículos centrales abordan la responsabilidad proactiva, el derecho a explicación en las decisiones automatizadas y la protección de datos desde el diseño en el uso de inteligencia artificial generativa por parte de las administraciones públicas La sección Estudios de privacidad reúne nueve investigaciones sobre cuestiones como neurodatos, anonimización, brechas de datos personales, ciudades inteligentes, publicidad política algorítmica o identidad sintética",
-    "contenido_ampliado": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’ AEPD Jue, 08/10/2026 El monográfico está dedicado al 10º aniversario del Reglamento General de Protección de Datos y analiza algunos de sus principales retos ante la evolución tecnológica Los artículos centrales abordan la responsabilidad proactiva, el derecho a explicación en las decisiones automatizadas y la protección de datos desde el diseño en el uso de inteligencia artificial generativa por parte de las administraciones públicas La sección Estudios de privacidad reúne nueve investigaciones sobre cuestiones como neurodatos, anonimización, brechas de datos personales, ciudades inteligentes, publicidad política algorítmica o identidad sintética…",
-    "imagen_url": null,
-    "categoria": "proteccion_datos",
-    "imagen_local": "/imagenes/2026-10-08/card_2db6c7a827.jpg",
-    "resumen_ia": null,
-    "resumen_ia_ok": false,
-    "imagen_es_generica": true,
-    "ruta_noticia": "/noticia/2026-10-08-la-aepd-publica-el-segundo-numero-de-la-revista-cientifica-p-00bd7976.html"
   }
 ]

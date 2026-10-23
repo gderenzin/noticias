@@ -20447,6 +20447,38 @@
       "fecha_publicacion_iso": "2026-10-23T04:00:00+00:00",
       "fecha_agregada_iso": "2026-10-23T20:30:45.558422+00:00",
       "ruta_noticia": "/noticia/2026-10-23-reports-of-php-bug-exploitation-attempts-grow-as-experts-dow-b65cad20.html"
+    },
+    "https://olartemoure.com/proteccion-de-datos-en-gafas-inteligentes/": {
+      "guid": "https://olartemoure.com/?p=4431125",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Desafíos frente a protección de datos en gafas inteligentes",
+      "fecha_publicacion_iso": "2026-10-23T21:14:39+00:00",
+      "fecha_agregada_iso": "2026-10-23T23:52:41.567866+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-desafios-frente-a-proteccion-de-datos-en-gafas-inteligentes-5b7fcce1.html"
+    },
+    "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it": {
+      "guid": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+      "fuente": "Dark Reading",
+      "titulo": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+      "fecha_publicacion_iso": "2026-10-23T20:57:56+00:00",
+      "fecha_agregada_iso": "2026-10-23T23:52:41.567866+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it-78e6b44f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "fecha_publicacion_iso": "2026-10-23T20:55:05+00:00",
+      "fecha_agregada_iso": "2026-10-23T23:52:41.567866+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-abandoned-popcorn-time-app-exposed-millions-of-devices-to-rc-201a6bfc.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/php2shell-guia-completa-de-verificacion.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4965684329224206043",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell: guía completa de verificación, mitigación y respuesta (CVE-2026-109618 y CVE-2026-109619)",
+      "fecha_publicacion_iso": "2026-10-23T20:54:47+00:00",
+      "fecha_agregada_iso": "2026-10-23T23:52:41.567866+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-guia-completa-de-verificacion-mitigacion-y-respues-177bce0f.html"
     }
   }
 }
