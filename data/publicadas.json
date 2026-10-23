@@ -19991,6 +19991,334 @@
       "fecha_publicacion_iso": "2026-10-23T03:30:00+00:00",
       "fecha_agregada_iso": "2026-10-23T06:03:20.036864+00:00",
       "ruta_noticia": "/noticia/2026-10-23-state-bank-of-india-suffers-a-customer-pii-data-leak-fdce8a7d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "fuente": "BleepingComputer",
+      "titulo": "You gave your AI agent access, but who is giving it orders?",
+      "fecha_publicacion_iso": "2026-10-23T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-you-gave-your-ai-agent-access-but-who-is-giving-it-orders-4eed9c7e.html"
+    },
+    "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk": {
+      "guid": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+      "fuente": "Dark Reading",
+      "titulo": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+      "fecha_publicacion_iso": "2026-10-23T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-why-caribbean-threats-cascade-into-global-cyber-risk-bd43f4cf.html"
+    },
+    "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough": {
+      "guid": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+      "fuente": "Dark Reading",
+      "titulo": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+      "fecha_publicacion_iso": "2026-10-23T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-cyber-insurance-s-new-reality-underwriting-isn-t-enough-ff1522ac.html"
+    },
+    "https://therecord.media/quest-diagnostics-network-intrusion": {
+      "guid": "https://therecord.media/quest-diagnostics-network-intrusion",
+      "fuente": "The Record",
+      "titulo": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+      "fecha_publicacion_iso": "2026-10-23T12:52:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-quest-diagnostics-warns-of-potential-data-theft-after-attack-8bb70837.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+      "fuente": "BleepingComputer",
+      "titulo": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+      "fecha_publicacion_iso": "2026-10-23T12:48:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws-eb477469.html"
+    },
+    "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/": {
+      "guid": "https://www.securityweek.com/?p=50273",
+      "fuente": "SecurityWeek",
+      "titulo": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+      "fecha_publicacion_iso": "2026-10-23T12:45:52+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-ceaaccb7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/uk-undersea-cable-sabotage-sentences/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388964",
+      "fuente": "Help Net Security",
+      "titulo": "UK proposes 14-year jail terms for subsea cable saboteurs",
+      "fecha_publicacion_iso": "2026-10-23T12:37:41+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-uk-proposes-14-year-jail-terms-for-subsea-cable-saboteurs-b9fd16be.html"
+    },
+    "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines": {
+      "guid": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+      "fuente": "The Record",
+      "titulo": "UK proposes 14-year jail terms for subsea cable saboteurs",
+      "fecha_publicacion_iso": "2026-10-23T12:37:41+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-uk-proposes-14-year-jail-terms-for-subsea-cable-saboteurs-b9fd16be.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388924",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
+      "fecha_publicacion_iso": "2026-10-23T11:45:12+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-microsoft-365-accounts-compromised-at-79-organizations-no-pa-f9213bfd.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+      "fuente": "Dark Reading",
+      "titulo": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "fecha_publicacion_iso": "2026-10-23T11:38:28+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-ai-agents-as-insider-threats-inside-microsoft-s-bet-on-a-uni-ba1a1add.html"
+    },
+    "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357": {
+      "guid": "https://www.theregister.com/a/5304357",
+      "fuente": "The Register - Security",
+      "titulo": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
+      "fecha_publicacion_iso": "2026-10-23T11:31:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-driv-d7cbb582.html"
+    },
+    "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html": {
+      "guid": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "fecha_publicacion_iso": "2026-10-23T11:11:23+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-russian-linked-hackers-used-new-mesh-network-backdoor-in-des-80697809.html"
+    },
+    "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50267",
+      "fuente": "SecurityWeek",
+      "titulo": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+      "fecha_publicacion_iso": "2026-10-23T10:31:16+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks-713a68aa.html"
+    },
+    "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/": {
+      "guid": "https://www.securityweek.com/?p=50265",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "fecha_publicacion_iso": "2026-10-23T09:58:34+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-attackers-exploit-third-velocloud-orchestrator-zero-day-in-f-94808457.html"
+    },
+    "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "fecha_publicacion_iso": "2026-10-23T09:36:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-critical-flaw-in-pythons-popular-pillow-image-library-allows-3a89e694.html"
+    },
+    "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794": {
+      "guid": "https://www.theregister.com/a/5304794",
+      "fuente": "The Register - Security",
+      "titulo": "UK threatens subsea cable saboteurs with 14 years behind bars",
+      "fecha_publicacion_iso": "2026-10-23T09:29:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bar-e84a5183.html"
+    },
+    "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html": {
+      "guid": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "fecha_publicacion_iso": "2026-10-23T08:40:43+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-researchers-demonstrate-node2shell-rce-exploit-on-node-js-bu-a2a9e372.html"
+    },
+    "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "fecha_publicacion_iso": "2026-10-23T08:35:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-critical-x402-sdk-flaw-could-let-malicious-apis-drain-ai-age-6f084559.html"
+    },
+    "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=50261",
+      "fuente": "SecurityWeek",
+      "titulo": "11 Million Impacted by Capcom Data Breach",
+      "fecha_publicacion_iso": "2026-10-23T08:34:14+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-11-million-impacted-by-capcom-data-breach-962b5311.html"
+    },
+    "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/": {
+      "guid": "https://www.securityweek.com/?p=50257",
+      "fuente": "SecurityWeek",
+      "titulo": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
+      "fecha_publicacion_iso": "2026-10-23T08:25:06+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-quest-diagnostics-data-breach-exposed-certain-patient-record-0515431e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
+      "fuente": "Help Net Security",
+      "titulo": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
+      "fecha_publicacion_iso": "2026-10-23T08:25:06+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-quest-diagnostics-data-breach-exposed-certain-patient-record-0515431e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388895",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
+      "fecha_publicacion_iso": "2026-10-23T08:21:48+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-hackers-hijack-exposed-ai-models-to-launch-cyberattacks-at-v-21a210d1.html"
+    },
+    "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50254",
+      "fuente": "SecurityWeek",
+      "titulo": "LiteLLM Compromised in Fresh Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-23T08:10:46+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-litellm-compromised-in-fresh-supply-chain-attack-8d39c401.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-actualizaciones-en-productos-de-fortinet": {
+      "guid": "684185 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples actualizaciones en productos de Fortinet",
+      "fecha_publicacion_iso": "2026-10-23T08:02:13+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-multiples-actualizaciones-en-productos-de-fortinet-77a9ef3c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-19": {
+      "guid": "684159 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-10-23T08:02:05+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-multiples-vulnerabilidades-en-productos-de-cisco-2700144b.html"
+    },
+    "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/": {
+      "guid": "https://www.securityweek.com/?p=50251",
+      "fuente": "SecurityWeek",
+      "titulo": "Atlassian Patches 75 Flaws in Data Center and Server Products",
+      "fecha_publicacion_iso": "2026-10-23T07:54:47+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-atlassian-patches-75-flaws-in-data-center-and-server-product-76ce6885.html"
+    },
+    "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html": {
+      "guid": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-cisco": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-cisco",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-synology": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-synology",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-palo-alto-networks": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-palo-alto-networks",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-mitel": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-mitel",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-tenable": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-tenable",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-qnap": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-en-productos-de-qnap",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html": {
+      "guid": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/php-advierte-sobre-otra-vulnerabilidad.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/10/php-advierte-sobre-otra-vulnerabilidad.html",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/telemetria-de-ataques-realizados.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/10/telemetria-de-ataques-realizados.html",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "fecha_publicacion_iso": "2026-10-23T07:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-php2shell-exploit-attempts-hit-millions-as-attackers-try-to-199bd086.html"
+    },
+    "http://www.elladodelmal.com/2026/10/cloudflare-immerse-santiago-de-chile-10.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4779550277045153373",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cloudflare Immerse Santiago de Chile - 10 de Noviembre",
+      "fecha_publicacion_iso": "2026-10-23T07:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-cloudflare-immerse-santiago-de-chile-10-de-noviembre-c67b182b.html"
+    },
+    "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/": {
+      "guid": "https://www.securityweek.com/?p=50249",
+      "fuente": "SecurityWeek",
+      "titulo": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
+      "fecha_publicacion_iso": "2026-10-23T06:39:29+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-irans-prince-of-persia-apt-hosts-c-c-in-us-for-first-time-si-fcaeed91.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/google-cloud-openai-models-private-preview/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388867",
+      "fuente": "Help Net Security",
+      "titulo": "Google opens its cloud to rival OpenAI, promises business data won’t train models",
+      "fecha_publicacion_iso": "2026-10-23T06:00:31+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-google-opens-its-cloud-to-rival-openai-promises-business-dat-7be951cf.html"
+    },
+    "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage": {
+      "guid": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
+      "fuente": "Dark Reading",
+      "titulo": "As AI Risks Grow, Insurers Split on Covering the Damage",
+      "fecha_publicacion_iso": "2026-10-22T14:21:22+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-as-ai-risks-grow-insurers-split-on-covering-the-damage-3c321f07.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/mythicratatoskr-backdoor-yggdrasil-sandworm/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/mythicratatoskr-backdoor-yggdrasil-sandworm/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "MythicRatatoskr: el backdoor que utilizó la red Yggdrasil antes de un ataque destructivo de Sandworm",
+      "fecha_publicacion_iso": "2026-10-22T13:53:29+00:00",
+      "fecha_agregada_iso": "2026-10-23T14:24:05.159495+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-mythicratatoskr-el-backdoor-que-utilizo-la-red-yggdrasil-ant-5c3b7b4f.html"
     }
   }
 }
