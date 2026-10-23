@@ -19959,6 +19959,38 @@
       "fecha_publicacion_iso": "2026-10-22T19:30:20+00:00",
       "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
       "ruta_noticia": "/noticia/2026-10-22-les-supermarches-de-l-ue-paient-d-un-firmware-de-refrigerate-a0b44de9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/nick-donarski-rotorlab-drone-program-compliance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388366",
+      "fuente": "Help Net Security",
+      "titulo": "Drone program compliance: What a CTO says most agencies get wrong",
+      "fecha_publicacion_iso": "2026-10-23T05:30:25+00:00",
+      "fecha_agregada_iso": "2026-10-23T06:03:20.036864+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-drone-program-compliance-what-a-cto-says-most-agencies-get-w-a3a1cbcf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388853",
+      "fuente": "Help Net Security",
+      "titulo": "AI is taking cybersecurity jobs at junior and experienced levels alike",
+      "fecha_publicacion_iso": "2026-10-23T04:30:39+00:00",
+      "fecha_agregada_iso": "2026-10-23T06:03:20.036864+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-ai-is-taking-cybersecurity-jobs-at-junior-and-experienced-le-795d94f6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/23/new-infosec-products-of-the-week-october-23-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388814",
+      "fuente": "Help Net Security",
+      "titulo": "New infosec products of the week: October 23, 2026",
+      "fecha_publicacion_iso": "2026-10-23T04:00:41+00:00",
+      "fecha_agregada_iso": "2026-10-23T06:03:20.036864+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-new-infosec-products-of-the-week-october-23-2026-9a4461ea.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+      "fuente": "Dark Reading",
+      "titulo": "State Bank of India Suffers a Customer PII Data Leak",
+      "fecha_publicacion_iso": "2026-10-23T03:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T06:03:20.036864+00:00",
+      "ruta_noticia": "/noticia/2026-10-23-state-bank-of-india-suffers-a-customer-pii-data-leak-fdce8a7d.html"
     }
   }
 }
