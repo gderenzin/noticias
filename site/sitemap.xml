@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://noticias.derenzin.com/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/archivo/index.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/archivo/2026-09-01.html</loc>
@@ -214,43 +214,43 @@
   </url>
   <url>
     <loc>https://noticias.derenzin.com/archivo/2026-10-22.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/proteccion-datos/index.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/ddos.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/filtracion_datos.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/generico.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/malware.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/phishing.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/proteccion_datos.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/ransomware.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/categoria/vulnerabilidad.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-09-01-13-malicious-packagist-packages-target-unpatched-iphones-to-42489679.html</loc>
@@ -9433,6 +9433,10 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-les-supermarches-de-l-ue-paient-d-un-firmware-de-refrigerate-a0b44de9.html</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-litellm-hit-by-second-supply-chain-attack-this-year-users-ur-7f07a058.html</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -9463,6 +9467,10 @@
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-microsoft-blames-connectwise-attacks-on-chinese-state-hacker-2a5b06ac.html</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-microsoft-links-storm-0940-to-connectwise-supply-chain-attac-778da976.html</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-microsoft-says-connectwise-breach-let-chinese-spies-loose-on-17b550f6.html</loc>
@@ -9509,6 +9517,10 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-php2shell-exploit-bypasses-protections-designed-to-stop-remo-f2b6d976.html</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-php2shell-exploitation-started-days-before-patches-01e27be4.html</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -9517,8 +9529,16 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-railway-advierte-que-roten-sus-secretos-tras-una-posible-bre-14e546d5.html</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-railway-says-intruder-may-have-accessed-customer-secrets-urg-76b18c2d.html</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-railway-warns-devs-to-rotate-secrets-after-potential-breach-6af5f5a8.html</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-say-a-few-words-and-a-rigged-ai-asks-for-5-000-a466c662.html</loc>
@@ -9561,6 +9581,10 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-toronto-crime-tips-org-freezes-operations-after-details-of-d-0589859b.html</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+  <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-two-cvss-9-0-linux-ksmbd-rce-flaws-disclosed-on-public-maili-eebdb3f4.html</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -9571,6 +9595,10 @@
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-what-the-php2shell-vulnerability-means-for-fortinet-cisco-an-9f16a9bd.html</loc>
     <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://noticias.derenzin.com/noticia/2026-10-22-what-we-missed-feds-lasso-texas-laptop-farms-0a629026.html</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://noticias.derenzin.com/noticia/2026-10-22-when-the-attacker-becomes-the-user-rethinking-account-takeov-19b3e407.html</loc>

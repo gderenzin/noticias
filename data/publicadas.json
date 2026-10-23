@@ -19903,6 +19903,62 @@
       "fecha_publicacion_iso": "2026-10-22T14:31:34+00:00",
       "fecha_agregada_iso": "2026-10-22T20:36:18.032597+00:00",
       "ruta_noticia": "/noticia/2026-10-22-hacker-conversations-corey-thuen-and-the-evil-bit-dcda11bc.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/railway-advierte-que-roten-sus-secretos.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6544802179276075762",
+      "fuente": "Segu-Info",
+      "titulo": "Railway advierte que roten sus secretos tras una posible brecha de seguridad",
+      "fecha_publicacion_iso": "2026-10-22T22:54:56+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-railway-advierte-que-roten-sus-secretos-tras-una-posible-bre-14e546d5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Railway warns devs to rotate secrets after potential breach",
+      "fecha_publicacion_iso": "2026-10-22T21:25:31+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-railway-warns-devs-to-rotate-secrets-after-potential-breach-6af5f5a8.html"
+    },
+    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": {
+      "guid": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+      "fuente": "The Record",
+      "titulo": "Toronto crime tips org freezes operations after details of data breach come to light",
+      "fecha_publicacion_iso": "2026-10-22T20:52:00+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-toronto-crime-tips-org-freezes-operations-after-details-of-d-0589859b.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "fuente": "Dark Reading",
+      "titulo": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-22T20:42:17+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-microsoft-links-storm-0940-to-connectwise-supply-chain-attac-778da976.html"
+    },
+    "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883": {
+      "guid": "https://www.theregister.com/a/5304883",
+      "fuente": "The Register - Security",
+      "titulo": "PHP2Shell exploit bypasses protections designed to stop remote code execution",
+      "fecha_publicacion_iso": "2026-10-22T20:37:52+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-php2shell-exploit-bypasses-protections-designed-to-stop-remo-f2b6d976.html"
+    },
+    "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers": {
+      "guid": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+      "fuente": "Dark Reading",
+      "titulo": "What We Missed: Feds Lasso Texas Laptop Farms",
+      "fecha_publicacion_iso": "2026-10-22T20:33:10+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-what-we-missed-feds-lasso-texas-laptop-farms-0a629026.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french": {
+      "guid": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
+      "fuente": "Dark Reading",
+      "titulo": "Les supermarchés de l'UE paient d'un firmware de réfrigérateur non mis à jour",
+      "fecha_publicacion_iso": "2026-10-22T19:30:20+00:00",
+      "fecha_agregada_iso": "2026-10-23T00:00:49.541153+00:00",
+      "ruta_noticia": "/noticia/2026-10-22-les-supermarches-de-l-ue-paient-d-un-firmware-de-refrigerate-a0b44de9.html"
     }
   }
 }
