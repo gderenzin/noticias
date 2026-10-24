@@ -20487,6 +20487,54 @@
       "fecha_publicacion_iso": "2026-10-24T04:01:00+00:00",
       "fecha_agregada_iso": "2026-10-24T05:52:04.575048+00:00",
       "ruta_noticia": "/noticia/2026-10-24-rufus-el-asistente-ia-de-amazon-de-shopping-assistant-a-hace-7858306d.html"
+    },
+    "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/": {
+      "guid": "6ad927eedb675d3d17a94c9a",
+      "fuente": "Wired - Security",
+      "titulo": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "fecha_publicacion_iso": "2026-10-24T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable-9865b391.html"
+    },
+    "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html": {
+      "guid": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "fecha_publicacion_iso": "2026-10-24T11:09:29+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-brotli-decoder-flaw-behind-node-js-rce-also-affects-bun-pyth-a0a9e49a.html"
+    },
+    "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html": {
+      "guid": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "fuente": "The Hacker News",
+      "titulo": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "fecha_publicacion_iso": "2026-10-24T11:03:33+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-leaked-litellm-master-key-let-attackers-steal-github-tokens-3a1a036e.html"
+    },
+    "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html": {
+      "guid": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "fecha_publicacion_iso": "2026-10-24T10:36:33+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-google-says-gmail-and-photos-data-shared-with-ai-search-coul-afec56c7.html"
+    },
+    "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html": {
+      "guid": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "fecha_publicacion_iso": "2026-10-24T09:04:24+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-researchers-push-over-2-million-updates-to-remotely-disable-94d51fe2.html"
+    },
+    "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html": {
+      "guid": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "fecha_publicacion_iso": "2026-10-24T06:25:57+00:00",
+      "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-cisa-flags-two-actively-exploited-critical-flaws-in-collabor-838b4b1c.html"
     }
   }
 }
