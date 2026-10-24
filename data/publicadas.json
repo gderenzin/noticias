@@ -20535,6 +20535,22 @@
       "fecha_publicacion_iso": "2026-10-24T06:25:57+00:00",
       "fecha_agregada_iso": "2026-10-24T13:22:17.219848+00:00",
       "ruta_noticia": "/noticia/2026-10-24-cisa-flags-two-actively-exploited-critical-flaws-in-collabor-838b4b1c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "fuente": "BleepingComputer",
+      "titulo": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "fecha_publicacion_iso": "2026-10-24T14:17:32+00:00",
+      "fecha_agregada_iso": "2026-10-24T19:30:12.239041+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secur-a6ce3170.html"
+    },
+    "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215": {
+      "guid": "https://www.theregister.com/a/5305215",
+      "fuente": "The Register - Security",
+      "titulo": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+      "fecha_publicacion_iso": "2026-10-24T13:02:00+00:00",
+      "fecha_agregada_iso": "2026-10-24T19:30:12.239041+00:00",
+      "ruta_noticia": "/noticia/2026-10-24-autonomous-attack-agent-in-skynet-mode-hijacks-other-models-1afcb21b.html"
     }
   }
 }
