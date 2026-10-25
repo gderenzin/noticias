@@ -20591,6 +20591,38 @@
       "fecha_publicacion_iso": "2026-10-25T06:54:29+00:00",
       "fecha_agregada_iso": "2026-10-25T13:43:52.304540+00:00",
       "ruta_noticia": "/noticia/2026-10-25-openai-ai-agents-demonstrate-vm-escapes-and-secret-cross-san-5d0e99bc.html"
+    },
+    "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html": {
+      "guid": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "fecha_publicacion_iso": "2026-10-25T17:44:09+00:00",
+      "fecha_agregada_iso": "2026-10-25T19:37:40.479637+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-unpatched-tailscale-ssh-flaws-could-let-a-hacked-device-reac-4a815415.html"
+    },
+    "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html": {
+      "guid": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "fecha_publicacion_iso": "2026-10-25T17:19:46+00:00",
+      "fecha_agregada_iso": "2026-10-25T19:37:40.479637+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-php2shell-exploitation-hits-government-entity-amid-global-sc-3eda0d6a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "fuente": "BleepingComputer",
+      "titulo": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "fecha_publicacion_iso": "2026-10-25T15:49:38+00:00",
+      "fecha_agregada_iso": "2026-10-25T19:37:40.479637+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-ai-coding-agents-hijacked-using-agents-md-file-in-downloads-9e8f0603.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/observacion-de-una-explotacion-tipo.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5738485805599836137",
+      "fuente": "Segu-Info",
+      "titulo": "Observación de una explotación tipo PHP2Shell con evidencia real de RCE",
+      "fecha_publicacion_iso": "2026-10-25T15:08:07+00:00",
+      "fecha_agregada_iso": "2026-10-25T19:37:40.479637+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-observacion-de-una-explotacion-tipo-php2shell-con-evidencia-2166f6ad.html"
     }
   }
 }
