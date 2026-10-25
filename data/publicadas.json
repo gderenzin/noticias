@@ -20567,6 +20567,30 @@
       "fecha_publicacion_iso": "2026-10-25T01:21:48+00:00",
       "fecha_agregada_iso": "2026-10-25T06:07:26.728553+00:00",
       "ruta_noticia": "/noticia/2026-10-25-node2shell-python2shell-html2shell-echale-la-culpa-a-brotli-e9891400.html"
+    },
+    "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/": {
+      "guid": "https://www.securityweek.com/?p=50280",
+      "fuente": "SecurityWeek",
+      "titulo": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "fecha_publicacion_iso": "2026-10-25T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-25T13:43:52.304540+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-former-unit-8200-officers-raise-34-million-for-agentic-secop-e85723a0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388881",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+      "fecha_publicacion_iso": "2026-10-25T09:00:56+00:00",
+      "fecha_agregada_iso": "2026-10-25T13:43:52.304540+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-week-in-review-php-vulnerabilities-patched-exploited-palo-al-3ddec341.html"
+    },
+    "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html": {
+      "guid": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "fecha_publicacion_iso": "2026-10-25T06:54:29+00:00",
+      "fecha_agregada_iso": "2026-10-25T13:43:52.304540+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-openai-ai-agents-demonstrate-vm-escapes-and-secret-cross-san-5d0e99bc.html"
     }
   }
 }
