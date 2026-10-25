@@ -20551,6 +20551,22 @@
       "fecha_publicacion_iso": "2026-10-24T13:02:00+00:00",
       "fecha_agregada_iso": "2026-10-24T19:30:12.239041+00:00",
       "ruta_noticia": "/noticia/2026-10-24-autonomous-attack-agent-in-skynet-mode-hijacks-other-models-1afcb21b.html"
+    },
+    "http://www.elladodelmal.com/2026/10/hacr0n-grancanaria-porque-un.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-2040744302701045170",
+      "fuente": "El Lado del Mal",
+      "titulo": "Hacr0n #GranCanaria: Porque un Ciberataque nunca avisa. 6 de Noviembre",
+      "fecha_publicacion_iso": "2026-10-25T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-25T06:07:26.728553+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-hacr0n-grancanaria-porque-un-ciberataque-nunca-avisa-6-de-no-92fce3db.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/node2shell-python2shell-html2shell.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-9196754573694960852",
+      "fuente": "Segu-Info",
+      "titulo": "Node2shell > Python2shell > HTML2shell (echale la culpa a #Brotli)",
+      "fecha_publicacion_iso": "2026-10-25T01:21:48+00:00",
+      "fecha_agregada_iso": "2026-10-25T06:07:26.728553+00:00",
+      "ruta_noticia": "/noticia/2026-10-25-node2shell-python2shell-html2shell-echale-la-culpa-a-brotli-e9891400.html"
     }
   }
 }
