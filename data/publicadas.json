@@ -20623,6 +20623,70 @@
       "fecha_publicacion_iso": "2026-10-25T15:08:07+00:00",
       "fecha_agregada_iso": "2026-10-25T19:37:40.479637+00:00",
       "ruta_noticia": "/noticia/2026-10-25-observacion-de-una-explotacion-tipo-php2shell-con-evidencia-2166f6ad.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/product-showcase-stellar-cyber-isoc-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388884",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Stellar Cyber’s ISOC platform provides full-cycle architecture",
+      "fecha_publicacion_iso": "2026-10-26T06:00:12+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-product-showcase-stellar-cybers-isoc-platform-provides-full-786d926d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388959",
+      "fuente": "Help Net Security",
+      "titulo": "Forgotten AI agents may still access sensitive company data",
+      "fecha_publicacion_iso": "2026-10-26T05:30:27+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-forgotten-ai-agents-may-still-access-sensitive-company-data-36875f2f.html"
+    },
+    "http://www.elladodelmal.com/2026/10/inteligencia-artificial-en-las-empresas.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3739476477954010098",
+      "fuente": "El Lado del Mal",
+      "titulo": "Inteligencia Artificial en las empresas: Tres formas de uso. Tres niveles de control del riesgo.",
+      "fecha_publicacion_iso": "2026-10-26T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-inteligencia-artificial-en-las-empresas-tres-formas-de-uso-t-b0faf5be.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/transunion-synthetic-identity-fraud-risks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388925",
+      "fuente": "Help Net Security",
+      "titulo": "Synthetic identities leave US lenders with $2.4 billion in fraud exposure",
+      "fecha_publicacion_iso": "2026-10-26T05:00:59+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-synthetic-identities-leave-us-lenders-with-2-4-billion-in-fr-155faaf4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389020",
+      "fuente": "Help Net Security",
+      "titulo": "r/opensource bans AI projects, and solo devs go down with them",
+      "fecha_publicacion_iso": "2026-10-26T04:30:36+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-r-opensource-bans-ai-projects-and-solo-devs-go-down-with-the-b2e653b2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388989",
+      "fuente": "Help Net Security",
+      "titulo": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
+      "fecha_publicacion_iso": "2026-10-26T04:25:59+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-google-open-sources-the-elephant-goldfish-model-plugin-its-e-15fdd35c.html"
+    },
+    "https://www.theregister.com/networks/2026/10/26/work-to-protect-dns-from-quantum-decryption-attacks-is-speeding-up/5305274": {
+      "guid": "https://www.theregister.com/a/5305274",
+      "fuente": "The Register - Security",
+      "titulo": "Work to protect DNS from quantum decryption attacks is speeding up",
+      "fecha_publicacion_iso": "2026-10-26T04:08:23+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-work-to-protect-dns-from-quantum-decryption-attacks-is-speed-93aa3d65.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389013",
+      "fuente": "Help Net Security",
+      "titulo": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+      "fecha_publicacion_iso": "2026-10-25T23:33:35+00:00",
+      "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-openssl-4-1-0-whats-new-whats-removed-and-whats-still-broken-20e096d3.html"
     }
   }
 }
