@@ -21031,6 +21031,174 @@
       "fecha_publicacion_iso": "2026-10-26T06:03:48+00:00",
       "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
       "ruta_noticia": "/noticia/2026-10-26-malicious-file-in-downloads-folder-tries-to-trick-ai-coding-8239096a.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561": {
+      "guid": "https://www.theregister.com/a/5305561",
+      "fuente": "The Register - Security",
+      "titulo": "Alibaba's Qwen AI caught trying to contact server in China",
+      "fecha_publicacion_iso": "2026-10-26T21:27:37+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-alibaba-s-qwen-ai-caught-trying-to-contact-server-in-china-ca6faf2f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "fuente": "BleepingComputer",
+      "titulo": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "fecha_publicacion_iso": "2026-10-26T21:08:28+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-former-pentester-used-artex-ai-to-steal-8-2-million-data-rec-9b615396.html"
+    },
+    "https://therecord.media/texas-sues-openai-deceiving-customers": {
+      "guid": "https://therecord.media/texas-sues-openai-deceiving-customers",
+      "fuente": "The Record",
+      "titulo": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+      "fecha_publicacion_iso": "2026-10-26T21:03:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-texas-sues-openai-for-deceiving-consumers-about-safety-seeks-327318fb.html"
+    },
+    "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown": {
+      "guid": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+      "fuente": "Dark Reading",
+      "titulo": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+      "fecha_publicacion_iso": "2026-10-26T20:59:26+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-in-the-wild-attack-abuses-ai-agents-trust-in-markdown-c25a5812.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "fecha_publicacion_iso": "2026-10-26T20:46:49+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-openai-launches-gpt-6-1-terra-with-3x-faster-ai-agents-50-lo-154f6899.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544": {
+      "guid": "https://www.theregister.com/a/5305544",
+      "fuente": "The Register - Security",
+      "titulo": "LiteLLM supply chain attack started with an exposed master key",
+      "fecha_publicacion_iso": "2026-10-26T20:30:53+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-litellm-supply-chain-attack-started-with-an-exposed-master-k-1a47a5db.html"
+    },
+    "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/": {
+      "guid": "https://www.securityweek.com/?p=50305",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
+      "fecha_publicacion_iso": "2026-10-26T20:20:56+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-89547e18.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "fuente": "BleepingComputer",
+      "titulo": "DreamHost forces password resets in ongoing \"incident\"",
+      "fecha_publicacion_iso": "2026-10-26T19:26:20+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-dreamhost-forces-password-resets-in-ongoing-incident-d84dc99c.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "fecha_publicacion_iso": "2026-10-26T18:12:22+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-hackers-infect-953-online-stores-with-scanner-evading-javasc-96127724.html"
+    },
+    "https://cyberscoop.com/wyden-schiff-fisa-section-702-declassification/": {
+      "guid": "https://cyberscoop.com/?p=91266",
+      "fuente": "CyberScoop",
+      "titulo": "Senators, rights groups say Trump administration breaking law by withholding surveillance court opinion",
+      "fecha_publicacion_iso": "2026-10-26T18:05:35+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-senators-rights-groups-say-trump-administration-breaking-law-550edd49.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
+      "fuente": "Dark Reading",
+      "titulo": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
+      "fecha_publicacion_iso": "2026-10-26T18:01:40+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-gheist-weaponizes-github-tokens-to-steal-cloud-secrets-e6cb2418.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515": {
+      "guid": "https://www.theregister.com/a/5305515",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft releases emergency .NET security fixes for Google Brotli bug",
+      "fecha_publicacion_iso": "2026-10-26T17:58:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-microsoft-releases-emergency-net-security-fixes-for-google-b-58e679e2.html"
+    },
+    "https://thehackernews.com/2026/10/php-issues-second-windows-security.html": {
+      "guid": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "fecha_publicacion_iso": "2026-10-26T17:45:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php-issues-second-windows-security-update-in-five-days-to-fi-fd2c8a91.html"
+    },
+    "https://therecord.media/serbia-election-spyware-vucic": {
+      "guid": "https://therecord.media/serbia-election-spyware-vucic",
+      "fuente": "The Record",
+      "titulo": "Serbian autocrat loses election following widespread reports of digital repression",
+      "fecha_publicacion_iso": "2026-10-26T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-serbian-autocrat-loses-election-following-widespread-reports-f722b9fc.html"
+    },
+    "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse": {
+      "guid": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+      "fuente": "The Record",
+      "titulo": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+      "fecha_publicacion_iso": "2026-10-26T16:40:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-ukraine-disputes-musk-s-claims-of-starlink-misuse-as-militar-5d6b2a0b.html"
+    },
+    "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams": {
+      "guid": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+      "fuente": "The Record",
+      "titulo": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+      "fecha_publicacion_iso": "2026-10-26T16:37:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-dutch-police-extradite-chinese-national-accused-of-launderin-3e53d355.html"
+    },
+    "https://cyberscoop.com/chinese-national-extradited-investment-scam/": {
+      "guid": "https://cyberscoop.com/chinese-national-extradited-investment-scam/",
+      "fuente": "CyberScoop",
+      "titulo": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+      "fecha_publicacion_iso": "2026-10-26T16:37:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-dutch-police-extradite-chinese-national-accused-of-launderin-3e53d355.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "fecha_publicacion_iso": "2026-10-26T16:27:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-critical-http2shell-brotli-vulnerability-triggers-emergency-5e34561e.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/uk-pentester-killa-claims-2k-bitcoin-prize-in-php2shell-capture-the-flag-contest/5305429": {
+      "guid": "https://www.theregister.com/a/5305429",
+      "fuente": "The Register - Security",
+      "titulo": "UK pentester 'killa' claims $2K Bitcoin prize in PHP2Shell capture-the-flag contest",
+      "fecha_publicacion_iso": "2026-10-26T16:14:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-uk-pentester-killa-claims-2k-bitcoin-prize-in-php2shell-capt-8d730520.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "fecha_publicacion_iso": "2026-10-26T15:52:40+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-attackers-use-microsoft-teams-it-support-scams-to-deploy-mal-03f54c74.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/partner-content-no-login-no-app-code-no-warning-what-next/5305336": {
+      "guid": "https://www.theregister.com/a/5305336",
+      "fuente": "The Register - Security",
+      "titulo": "PHP2Shell: No login, no app code, no warning. What next?",
+      "fecha_publicacion_iso": "2026-10-26T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-no-login-no-app-code-no-warning-what-next-80a63170.html"
     }
   }
 }
