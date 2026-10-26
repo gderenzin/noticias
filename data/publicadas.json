@@ -20687,6 +20687,350 @@
       "fecha_publicacion_iso": "2026-10-25T23:33:35+00:00",
       "fecha_agregada_iso": "2026-10-26T06:13:04.370763+00:00",
       "ruta_noticia": "/noticia/2026-10-26-openssl-4-1-0-whats-new-whats-removed-and-whats-still-broken-20e096d3.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456": {
+      "guid": "https://www.theregister.com/a/5305456",
+      "fuente": "The Register - Security",
+      "titulo": "Trumpets blare and skies part as AI hypefest culminates in Anthropic IPO filing",
+      "fecha_publicacion_iso": "2026-10-26T15:47:05+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-a-0484546a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "fecha_publicacion_iso": "2026-10-26T15:38:24+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-microsoft-releases-emergency-net-patches-for-critical-brotli-cf08225e.html"
+    },
+    "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50303",
+      "fuente": "SecurityWeek",
+      "titulo": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-26T14:52:14+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-industrial-vendors-check-products-for-php2shell-vulnerabilit-d7e589c6.html"
+    },
+    "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/": {
+      "guid": "https://www.securityweek.com/?p=50301",
+      "fuente": "SecurityWeek",
+      "titulo": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "fecha_publicacion_iso": "2026-10-26T14:40:48+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-genesys-hack-exposes-customer-data-from-internal-systems-08947230.html"
+    },
+    "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/": {
+      "guid": "https://www.securityweek.com/?p=50299",
+      "fuente": "SecurityWeek",
+      "titulo": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "fecha_publicacion_iso": "2026-10-26T14:30:09+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-stolen-ai-reasoning-could-help-china-build-cheaper-rivals-38ba7bc2.html"
+    },
+    "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked": {
+      "guid": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+      "fuente": "The Record",
+      "titulo": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+      "fecha_publicacion_iso": "2026-10-26T14:21:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-ukraine-warns-hackers-are-exploiting-chinese-made-dahua-surv-d72684f8.html"
+    },
+    "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/": {
+      "guid": "6adb8d8d2fb53f1e44e3d5cc",
+      "fuente": "Wired - Security",
+      "titulo": "The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans",
+      "fecha_publicacion_iso": "2026-10-26T14:09:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-the-us-government-is-hiding-a-secret-court-ruling-about-how-6edce386.html"
+    },
+    "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html": {
+      "guid": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "fecha_publicacion_iso": "2026-10-26T14:06:13+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-weekly-recap-this2shell-that2shell-everything-s-an-rce-rogue-35769346.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "fuente": "BleepingComputer",
+      "titulo": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+      "fecha_publicacion_iso": "2026-10-26T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-when-an-ai-agent-is-the-incident-the-identity-record-is-the-3c0f1fb3.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
+      "fuente": "Dark Reading",
+      "titulo": "10 Software Security Practices Built for the Next 250 Years",
+      "fecha_publicacion_iso": "2026-10-26T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-10-software-security-practices-built-for-the-next-250-years-0d99ee2b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "fecha_publicacion_iso": "2026-10-26T13:56:44+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-chinese-man-extradited-for-role-in-36-million-cryptocurrency-9cb04220.html"
+    },
+    "https://cyberscoop.com/cisa-2030-cybersecurity-strategy/": {
+      "guid": "https://cyberscoop.com/?p=91258",
+      "fuente": "CyberScoop",
+      "titulo": "CISA publishes strategy with eye on the next four years",
+      "fecha_publicacion_iso": "2026-10-26T13:31:38+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-cisa-publishes-strategy-with-eye-on-the-next-four-years-b0268599.html"
+    },
+    "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/": {
+      "guid": "https://www.securityweek.com/?p=50297",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "fecha_publicacion_iso": "2026-10-26T13:30:10+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-exploitation-moves-from-probes-to-working-shells-104d6302.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/ai-tools-security-worry-survey/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389097",
+      "fuente": "Help Net Security",
+      "titulo": "Security pros reckon the biggest AI risk comes with an employee badge",
+      "fecha_publicacion_iso": "2026-10-26T13:16:01+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-security-pros-reckon-the-biggest-ai-risk-comes-with-an-emplo-1b00cdb8.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186": {
+      "guid": "https://www.theregister.com/a/5305186",
+      "fuente": "The Register - Security",
+      "titulo": "We shouldn't be surprised about the PHPocalypse, as the internet is built on sticks and glue",
+      "fecha_publicacion_iso": "2026-10-26T13:14:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-we-shouldn-t-be-surprised-about-the-phpocalypse-as-the-inter-1a44d05f.html"
+    },
+    "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/": {
+      "guid": "https://www.securityweek.com/?p=50295",
+      "fuente": "SecurityWeek",
+      "titulo": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+      "fecha_publicacion_iso": "2026-10-26T12:46:44+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-953-online-stores-infected-in-long-lasting-malware-campaign-23a9892a.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/uk-biobank-back-online-soon-months-after-someone-tried-to-sell-500k-peoples-data-on-alibaba/5305363": {
+      "guid": "https://www.theregister.com/a/5305363",
+      "fuente": "The Register - Security",
+      "titulo": "UK Biobank back online soon, months after someone tried to sell 500k people's data on Alibaba",
+      "fecha_publicacion_iso": "2026-10-26T12:38:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-uk-biobank-back-online-soon-months-after-someone-tried-to-se-423b4b6a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-el-software-ismygym-de-zuinq-studio": {
+      "guid": "611131 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting reflejado en el software IsMyGym de Zuinq Studio",
+      "fecha_publicacion_iso": "2026-10-26T12:01:15+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-cross-site-scripting-reflejado-en-el-software-ismygym-de-zui-c12b1e65.html"
+    },
+    "https://therecord.media/litellm-hackers-ai-malware": {
+      "guid": "https://therecord.media/litellm-hackers-ai-malware",
+      "fuente": "The Record",
+      "titulo": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+      "fecha_publicacion_iso": "2026-10-26T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-popular-ai-tool-litellm-says-unrevoked-key-allowed-hackers-t-680a1bde.html"
+    },
+    "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html": {
+      "guid": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "fecha_publicacion_iso": "2026-10-26T11:52:41+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-two-critical-wasmtime-flaws-could-let-malicious-webassembly-a5411bb3.html"
+    },
+    "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/": {
+      "guid": "https://www.securityweek.com/?p=50292",
+      "fuente": "SecurityWeek",
+      "titulo": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+      "fecha_publicacion_iso": "2026-10-26T11:47:52+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-f5fa96b2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389068",
+      "fuente": "Help Net Security",
+      "titulo": "AI coding agents fall for malicious instructions planted in the Downloads folder",
+      "fecha_publicacion_iso": "2026-10-26T11:26:40+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-ai-coding-agents-fall-for-malicious-instructions-planted-in-d9181338.html"
+    },
+    "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html": {
+      "guid": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "fecha_publicacion_iso": "2026-10-26T11:23:56+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-between-alerts-what-attackers-do-in-the-spaces-ordinary-dete-49aedb62.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389080",
+      "fuente": "Help Net Security",
+      "titulo": "Fortinet patches critical FortiOS flaws found with AI help",
+      "fecha_publicacion_iso": "2026-10-26T11:22:52+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-fortinet-patches-critical-fortios-flaws-found-with-ai-help-a8aab615.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-helping-create/5305319": {
+      "guid": "https://www.theregister.com/a/5305319",
+      "fuente": "The Register - Security",
+      "titulo": "Britain bets big on AI to defend against the threats AI is helping create",
+      "fecha_publicacion_iso": "2026-10-26T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-h-c452ea55.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/anthropic-claude-duet-security-safeguards/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389056",
+      "fuente": "Help Net Security",
+      "titulo": "Anthropic details what stops Claude Duet from going rogue",
+      "fecha_publicacion_iso": "2026-10-26T10:41:47+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-anthropic-details-what-stops-claude-duet-from-going-rogue-919b527f.html"
+    },
+    "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "fecha_publicacion_iso": "2026-10-26T10:26:52+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-kali-linux-2026-3-released-with-6-new-tools-desktop-updates-4dd6d369.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/26/kali-linux-2026-3-released/",
+      "fuente": "Help Net Security",
+      "titulo": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "fecha_publicacion_iso": "2026-10-26T10:26:52+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-kali-linux-2026-3-released-with-6-new-tools-desktop-updates-4dd6d369.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-velocloud-orchestrator-de-arista": {
+      "guid": "685189 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en VeloCloud Orchestrator de Arista",
+      "fecha_publicacion_iso": "2026-10-26T10:22:19+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-inyeccion-sql-en-velocloud-orchestrator-de-arista-0cf3d702.html"
+    },
+    "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/": {
+      "guid": "https://www.securityweek.com/?p=50289",
+      "fuente": "SecurityWeek",
+      "titulo": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "fecha_publicacion_iso": "2026-10-26T10:21:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-node2shell-brotli-flaw-triggers-patching-across-microsoft-no-2a948c7d.html"
+    },
+    "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html": {
+      "guid": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "fuente": "The Hacker News",
+      "titulo": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "fecha_publicacion_iso": "2026-10-26T09:54:02+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-ucreator-android-spyware-can-steal-telegram-2fa-passwords-an-275e6f3b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "fuente": "BleepingComputer",
+      "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "fecha_publicacion_iso": "2026-10-26T09:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-security-flaws-now-sucessfully-exploited-in-the-wi-fbd9cb2b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-4": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-4",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "fecha_publicacion_iso": "2026-10-26T09:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-security-flaws-now-sucessfully-exploited-in-the-wi-fbd9cb2b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-0": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-0",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "fecha_publicacion_iso": "2026-10-26T09:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-security-flaws-now-sucessfully-exploited-in-the-wi-fbd9cb2b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-y-java-en-entornos-de-sage-crm": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/impacto-de-vulnerabilidades-criticas-de-php-y-java-en-entornos-de-sage-crm",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "fecha_publicacion_iso": "2026-10-26T09:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-security-flaws-now-sucessfully-exploited-in-the-wi-fbd9cb2b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-broadcom": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-broadcom",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "fecha_publicacion_iso": "2026-10-26T09:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-php2shell-security-flaws-now-sucessfully-exploited-in-the-wi-fbd9cb2b.html"
+    },
+    "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/": {
+      "guid": "https://www.securityweek.com/?p=50285",
+      "fuente": "SecurityWeek",
+      "titulo": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "fecha_publicacion_iso": "2026-10-26T09:10:03+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-mythos-5-ignored-real-world-harm-in-july-attack-4c6c7b2e.html"
+    },
+    "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html": {
+      "guid": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "fecha_publicacion_iso": "2026-10-26T08:35:51+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-microsoft-365-token-replay-attacks-compromise-97-accounts-at-35a2887f.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-la-videoteca-de-las-cortes-de-castilla-la": {
+      "guid": "685181 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting reflejado en la videoteca de las Cortes de Castilla-La Mancha",
+      "fecha_publicacion_iso": "2026-10-26T08:31:00+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-cross-site-scripting-reflejado-en-la-videoteca-de-las-cortes-92c73846.html"
+    },
+    "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html": {
+      "guid": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "fecha_publicacion_iso": "2026-10-26T07:49:46+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-gheist-uses-stolen-github-tokens-to-steal-private-repository-8e95a20d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/witness-open-source-software-supply-chain-tool/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388793",
+      "fuente": "Help Net Security",
+      "titulo": "Witness: Open-source framework for verifying how your software was built",
+      "fecha_publicacion_iso": "2026-10-26T07:00:45+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-witness-open-source-framework-for-verifying-how-your-softwar-725a3e4d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/": {
+      "guid": "https://www.helpnetsecurity.com/?p=388997",
+      "fuente": "Help Net Security",
+      "titulo": "AI slop is piling up highest on the biggest open-source projects",
+      "fecha_publicacion_iso": "2026-10-26T06:30:29+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-ai-slop-is-piling-up-highest-on-the-biggest-open-source-proj-31b7e154.html"
+    },
+    "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html": {
+      "guid": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "fecha_publicacion_iso": "2026-10-26T06:03:48+00:00",
+      "fecha_agregada_iso": "2026-10-26T16:23:06.685598+00:00",
+      "ruta_noticia": "/noticia/2026-10-26-malicious-file-in-downloads-folder-tries-to-trick-ai-coding-8239096a.html"
     }
   }
 }
