@@ -21311,6 +21311,374 @@
       "fecha_publicacion_iso": "2026-10-26T21:44:33+00:00",
       "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
       "ruta_noticia": "/noticia/2026-10-27-risks-amp-rewards-how-ai-is-redefining-the-ciso-s-role-5d6c647a.html"
+    },
+    "https://cyberscoop.com/oncd-rural-hospital-cybersecurity-pilot-project-lifeline-250/": {
+      "guid": "https://cyberscoop.com/?p=91283",
+      "fuente": "CyberScoop",
+      "titulo": "National cyber director rolls out latest pilot in South Carolina, this time for rural hospitals",
+      "fecha_publicacion_iso": "2026-10-27T15:13:48+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-national-cyber-director-rolls-out-latest-pilot-in-south-caro-ce13d310.html"
+    },
+    "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report": {
+      "guid": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
+      "fuente": "The Record",
+      "titulo": "Hackers repeatedly breached suppliers holding UK police data, watchdog finds",
+      "fecha_publicacion_iso": "2026-10-27T15:07:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-hackers-repeatedly-breached-suppliers-holding-uk-police-data-37ead5af.html"
+    },
+    "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident": {
+      "guid": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+      "fuente": "The Record",
+      "titulo": "University of New Mexico hospital diverts ambulances after cyberattack",
+      "fecha_publicacion_iso": "2026-10-27T14:57:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-university-of-new-mexico-hospital-diverts-ambulances-after-c-31976538.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/microsoft-teams-social-engineering-fake-it-help-desk/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389336",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
+      "fecha_publicacion_iso": "2026-10-27T14:16:43+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-hackers-bury-inboxes-in-spam-then-show-up-on-microsoft-teams-5533eece.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "fuente": "BleepingComputer",
+      "titulo": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "fecha_publicacion_iso": "2026-10-27T14:09:46+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-tailscale-warns-of-ssh-flaws-allowing-root-privilege-escalat-eeae20ed.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "fuente": "BleepingComputer",
+      "titulo": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "fecha_publicacion_iso": "2026-10-27T14:01:11+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-the-huntress-tragic-quadrant-ranking-threats-hitting-busines-b611ff4c.html"
+    },
+    "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes": {
+      "guid": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
+      "fuente": "The Record",
+      "titulo": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
+      "fecha_publicacion_iso": "2026-10-27T13:36:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-malicious-apps-prey-on-russians-anxiety-about-fuel-prices-dr-37d79b83.html"
+    },
+    "https://www.wired.com/story/the-big-interview-podcast-jess-asato/": {
+      "guid": "6adb71e137abe86dfce58bcd",
+      "fuente": "Wired - Security",
+      "titulo": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "fecha_publicacion_iso": "2026-10-27T13:29:41+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-uk-politician-jess-asato-got-deepfaked-now-shes-taking-xai-t-b60d62ac.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/socure-agent-intelligence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389331",
+      "fuente": "Help Net Security",
+      "titulo": "Socure links AI agents to verified people and businesses",
+      "fecha_publicacion_iso": "2026-10-27T13:28:31+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-socure-links-ai-agents-to-verified-people-and-businesses-1251ca83.html"
+    },
+    "https://therecord.media/moscow-faces-internet-disruptions-as-foreign-leaders-gather": {
+      "guid": "https://therecord.media/moscow-faces-internet-disruptions-as-foreign-leaders-gather",
+      "fuente": "The Record",
+      "titulo": "Moscow faces internet disruptions as foreign leaders gather for summits",
+      "fecha_publicacion_iso": "2026-10-27T13:20:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-moscow-faces-internet-disruptions-as-foreign-leaders-gather-933843ff.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/carga-sin-restricciones-de-archivos-en-la-aplicacion-pumukit": {
+      "guid": "611134 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Carga sin restricciones de archivos en la aplicación PuMuKIT",
+      "fecha_publicacion_iso": "2026-10-27T13:14:20+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-carga-sin-restricciones-de-archivos-en-la-aplicacion-pumukit-5c440219.html"
+    },
+    "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/": {
+      "guid": "https://www.securityweek.com/?p=50327",
+      "fuente": "SecurityWeek",
+      "titulo": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "fecha_publicacion_iso": "2026-10-27T13:13:58+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-hpe-patches-dozens-of-critical-flaws-in-networking-products-243406f6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/sekoia-self-hosted/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389326",
+      "fuente": "Help Net Security",
+      "titulo": "Sekoia introduces self-hosted deployment for organizations with strict data controls",
+      "fecha_publicacion_iso": "2026-10-27T13:11:59+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-sekoia-introduces-self-hosted-deployment-for-organizations-w-814945c6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/dnsfilter-luminate/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389320",
+      "fuente": "Help Net Security",
+      "titulo": "DNSFilter LUMINATE unifies DNS security, AI controls and remote work protection",
+      "fecha_publicacion_iso": "2026-10-27T13:00:49+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-dnsfilter-luminate-unifies-dns-security-ai-controls-and-remo-05abb43d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/firemon-agentic-ai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389314",
+      "fuente": "Help Net Security",
+      "titulo": "FireMon Agentic AI helps teams investigate access and prepare policy changes",
+      "fecha_publicacion_iso": "2026-10-27T12:51:04+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-firemon-agentic-ai-helps-teams-investigate-access-and-prepar-beeec944.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/exeon-expands-threat-detection-to-shadow-ai-and-autonomous-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389299",
+      "fuente": "Help Net Security",
+      "titulo": "Exeon expands threat detection to shadow AI and autonomous agents",
+      "fecha_publicacion_iso": "2026-10-27T12:36:08+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-exeon-expands-threat-detection-to-shadow-ai-and-autonomous-a-22418d85.html"
+    },
+    "https://www.theregister.com/security/2026/10/27/microsoft-releases-out-of-band-windows-fixes-with-certificate-updates/5305637": {
+      "guid": "https://www.theregister.com/a/5305637",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft releases out-of-band Windows fixes with certificate updates",
+      "fecha_publicacion_iso": "2026-10-27T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-microsoft-releases-out-of-band-windows-fixes-with-certificat-e0a16a2e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389301",
+      "fuente": "Help Net Security",
+      "titulo": "Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack",
+      "fecha_publicacion_iso": "2026-10-27T12:24:14+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cyberattack-disrupts-university-of-new-mexico-hospitals-exto-3617f562.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/threataware-dimension-governed-workspace/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389288",
+      "fuente": "Help Net Security",
+      "titulo": "ThreatAware brings governance to AI-built security applications",
+      "fecha_publicacion_iso": "2026-10-27T12:13:25+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-threataware-brings-governance-to-ai-built-security-applicati-50b3dbe0.html"
+    },
+    "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html": {
+      "guid": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "fecha_publicacion_iso": "2026-10-27T12:09:50+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-microsoft-authenticator-flaw-let-permissionless-android-apps-a6006728.html"
+    },
+    "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/": {
+      "guid": "https://www.securityweek.com/?p=50325",
+      "fuente": "SecurityWeek",
+      "titulo": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+      "fecha_publicacion_iso": "2026-10-27T12:02:06+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-unexplained-dreamhost-incident-prompts-email-ftp-password-re-928eba25.html"
+    },
+    "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/": {
+      "guid": "https://www.securityweek.com/?p=50321",
+      "fuente": "SecurityWeek",
+      "titulo": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+      "fecha_publicacion_iso": "2026-10-27T11:49:57+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backpor-c99aa3fd.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/27/attack-on-email-hosting-provider-for-german-far-right-party-afd-exposed-345k-accounts/5305660": {
+      "guid": "https://www.theregister.com/a/5305660",
+      "fuente": "The Register - Security",
+      "titulo": "Attack on email hosting provider for German far right party AfD exposed 345k accounts",
+      "fecha_publicacion_iso": "2026-10-27T11:49:30+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-attack-on-email-hosting-provider-for-german-far-right-party-f9eb56af.html"
+    },
+    "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html": {
+      "guid": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "fecha_publicacion_iso": "2026-10-27T11:46:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-keystone-to-destroy-18-835-hardware-wallets-after-hackers-st-3fba9192.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389257",
+      "fuente": "Help Net Security",
+      "titulo": "Cyberattack on University of Copenhagen exposes data of 525,000 people",
+      "fecha_publicacion_iso": "2026-10-27T11:39:22+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cyberattack-on-university-of-copenhagen-exposes-data-of-525-271aa9be.html"
+    },
+    "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": {
+      "guid": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "fuente": "SecurityWeek",
+      "titulo": "Cyberattack on University of Copenhagen exposes data of 525,000 people",
+      "fecha_publicacion_iso": "2026-10-27T11:39:22+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cyberattack-on-university-of-copenhagen-exposes-data-of-525-271aa9be.html"
+    },
+    "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html": {
+      "guid": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "fecha_publicacion_iso": "2026-10-27T11:32:46+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-ai-generated-fake-login-pages-are-making-account-takeovers-e-1ce9ccf1.html"
+    },
+    "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html": {
+      "guid": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "fuente": "The Hacker News",
+      "titulo": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "fecha_publicacion_iso": "2026-10-27T11:32:31+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-lazarus-abuses-south-korean-security-software-to-deploy-malw-cf5c346f.html"
+    },
+    "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/": {
+      "guid": "https://www.securityweek.com/?p=50319",
+      "fuente": "SecurityWeek",
+      "titulo": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+      "fecha_publicacion_iso": "2026-10-27T10:44:20+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-risks-spelled-out-for-anthropic-investors-include-possible-h-60e8b957.html"
+    },
+    "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/": {
+      "guid": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "fuente": "BleepingComputer",
+      "titulo": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "fecha_publicacion_iso": "2026-10-27T10:36:12+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-apple-backports-coregraphics-zero-day-patches-to-older-iphon-18137863.html"
+    },
+    "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/": {
+      "guid": "https://www.securityweek.com/?p=50316",
+      "fuente": "SecurityWeek",
+      "titulo": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+      "fecha_publicacion_iso": "2026-10-27T10:02:24+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-177d2de8.html"
+    },
+    "https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91273",
+      "fuente": "CyberScoop",
+      "titulo": "What happens when security tools go dark before the ransomware",
+      "fecha_publicacion_iso": "2026-10-27T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-what-happens-when-security-tools-go-dark-before-the-ransomwa-a71ac5df.html"
+    },
+    "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/": {
+      "guid": "https://www.securityweek.com/?p=50313",
+      "fuente": "SecurityWeek",
+      "titulo": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+      "fecha_publicacion_iso": "2026-10-27T09:44:50+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-dead-popcorn-time-updater-put-millions-of-computers-at-risk-b7087025.html"
+    },
+    "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html": {
+      "guid": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "fecha_publicacion_iso": "2026-10-27T09:33:06+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-australia-gets-into-amadey-malware-backend-cuts-off-access-t-1da67faa.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Energy giant ENGIE discloses data breach affecting customers",
+      "fecha_publicacion_iso": "2026-10-27T09:25:50+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-energy-giant-engie-discloses-data-breach-affecting-customers-4b38edd6.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-cloud-bi-platform-de-sisense": {
+      "guid": "686193 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Cloud BI Platform de Sisense",
+      "fecha_publicacion_iso": "2026-10-27T08:28:12+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-multiples-vulnerabilidades-en-cloud-bi-platform-de-sisense-5ce09747.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-palo-alto-networks": {
+      "guid": "686194 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en productos de Palo Alto Networks",
+      "fecha_publicacion_iso": "2026-10-27T08:25:56+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-escritura-fuera-de-limites-en-productos-de-palo-alto-network-8df2680c.html"
+    },
+    "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html": {
+      "guid": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "fecha_publicacion_iso": "2026-10-27T08:22:43+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-openai-compaction-flaw-let-researchers-bypass-hidden-reasoni-ea5496fe.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-27T08:20:54+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cisa-confirms-php2shell-vulnerabilities-now-exploited-in-att-77d8f324.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/cisa-2030-cyber-resilience-strategy/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/27/cisa-2030-cyber-resilience-strategy/",
+      "fuente": "Help Net Security",
+      "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-27T08:20:54+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cisa-confirms-php2shell-vulnerabilities-now-exploited-in-att-77d8f324.html"
+    },
+    "https://therecord.media/php-vulnerabilities-cisa-kev": {
+      "guid": "https://therecord.media/php-vulnerabilities-cisa-kev",
+      "fuente": "The Record",
+      "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-27T08:20:54+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cisa-confirms-php2shell-vulnerabilities-now-exploited-in-att-77d8f324.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681": {
+      "guid": "https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681",
+      "fuente": "The Register - Security",
+      "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-27T08:20:54+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cisa-confirms-php2shell-vulnerabilities-now-exploited-in-att-77d8f324.html"
+    },
+    "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/": {
+      "guid": "https://www.securityweek.com/?p=50310",
+      "fuente": "SecurityWeek",
+      "titulo": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+      "fecha_publicacion_iso": "2026-10-27T07:14:27+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-maritime-coalition-launches-free-vulnerability-database-for-46ee8b88.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "fecha_publicacion_iso": "2026-10-27T06:34:47+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-attackers-hijack-dahua-ip-cameras-in-ukraine-using-p2p-acces-ad878331.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-php/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-php/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "PHP2Shell: lo que hay que saber sobre dos fallas críticas en PHP",
+      "fecha_publicacion_iso": "2026-10-26T19:10:16+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-37abcbbd.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/una-mirada-al-uso-de-php-en-el-sector.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/10/una-mirada-al-uso-de-php-en-el-sector.html",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell: lo que hay que saber sobre dos fallas críticas en PHP",
+      "fecha_publicacion_iso": "2026-10-26T19:10:16+00:00",
+      "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-37abcbbd.html"
     }
   }
 }
