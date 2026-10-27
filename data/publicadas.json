@@ -21199,6 +21199,118 @@
       "fecha_publicacion_iso": "2026-10-26T08:00:00+00:00",
       "fecha_agregada_iso": "2026-10-26T21:41:13.168588+00:00",
       "ruta_noticia": "/noticia/2026-10-26-php2shell-no-login-no-app-code-no-warning-what-next-80a63170.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/llm-agent-security-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389018",
+      "fuente": "Help Net Security",
+      "titulo": "LLM agent security needs more than guardrails",
+      "fecha_publicacion_iso": "2026-10-27T06:00:26+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-llm-agent-security-needs-more-than-guardrails-a22c741f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/amutable-foundations-linux-system/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389173",
+      "fuente": "Help Net Security",
+      "titulo": "Amutable Foundations is a Linux system with no SSH and no package manager",
+      "fecha_publicacion_iso": "2026-10-27T05:44:26+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-amutable-foundations-is-a-linux-system-with-no-ssh-and-no-pa-25d9c790.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/rapid7-vulnerability-exploitation-trends-q3-2026-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389125",
+      "fuente": "Help Net Security",
+      "titulo": "71% of vulnerability exploitation starts within a week of disclosure",
+      "fecha_publicacion_iso": "2026-10-27T05:30:33+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-71-of-vulnerability-exploitation-starts-within-a-week-of-dis-763b7ef9.html"
+    },
+    "http://www.elladodelmal.com/2026/10/secadmin-2026-la-con-de-hackers-ninjas.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5345866094720391522",
+      "fuente": "El Lado del Mal",
+      "titulo": "SecAdmin 2026 - La CON de Hackers, Ninjas y Samurais en Sevilla el 27 y 28 de Noviembre",
+      "fecha_publicacion_iso": "2026-10-27T05:16:32+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-secadmin-2026-la-con-de-hackers-ninjas-y-samurais-en-sevilla-0911614c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/cybersecurity-jobs-available-right-now-october-27-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389090",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: October 27, 2026",
+      "fecha_publicacion_iso": "2026-10-27T05:00:31+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cybersecurity-jobs-available-right-now-october-27-2026-93ef34dd.html"
+    },
+    "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html": {
+      "guid": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "fecha_publicacion_iso": "2026-10-27T04:37:59+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cisa-confirms-active-exploitation-of-two-php2shell-flaws-ena-968629f0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/gpt-6-1-terra-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389164",
+      "fuente": "Help Net Security",
+      "titulo": "GPT-6.1 Terra meets OpenAI’s Critical cyber threshold, and it’s cheaper than GPT-5.6 Terra",
+      "fecha_publicacion_iso": "2026-10-27T04:33:34+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-gpt-6-1-terra-meets-openais-critical-cyber-threshold-and-its-492d2ad8.html"
+    },
+    "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": {
+      "guid": "https://www.securityweek.com/?p=50307",
+      "fuente": "SecurityWeek",
+      "titulo": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+      "fecha_publicacion_iso": "2026-10-27T01:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cybersecurity-issue-forces-a-major-new-mexico-hospital-to-di-7f986c27.html"
+    },
+    "https://www.theregister.com/security/2026/10/27/japanese-virtual-desktop-cloud-hacked-so-hard-it-asks-to-be-banned/5305610": {
+      "guid": "https://www.theregister.com/a/5305610",
+      "fuente": "The Register - Security",
+      "titulo": "Japanese virtual desktop cloud hacked so hard it asks to be banned",
+      "fecha_publicacion_iso": "2026-10-27T01:06:22+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-japanese-virtual-desktop-cloud-hacked-so-hard-it-asks-to-be-87fbf5a3.html"
+    },
+    "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges": {
+      "guid": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+      "fuente": "Dark Reading",
+      "titulo": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+      "fecha_publicacion_iso": "2026-10-27T00:26:50+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-so-many-ai-security-benchmarks-but-none-tell-the-whole-story-837fe1ce.html"
+    },
+    "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/": {
+      "guid": "https://cyberscoop.com/?p=91277",
+      "fuente": "CyberScoop",
+      "titulo": "Experts temper emergency-level alarms over critical Brotli defect",
+      "fecha_publicacion_iso": "2026-10-27T00:22:54+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-experts-temper-emergency-level-alarms-over-critical-brotli-d-0a6caa74.html"
+    },
+    "https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570": {
+      "guid": "https://www.theregister.com/a/5305570",
+      "fuente": "The Register - Security",
+      "titulo": "Worm armed 42 GitHub repos by hiding a payload too big to fail",
+      "fecha_publicacion_iso": "2026-10-26T22:29:01+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fa-a3e6628c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "fuente": "BleepingComputer",
+      "titulo": "University of Copenhagen data breach exposes data of 525,000 people",
+      "fecha_publicacion_iso": "2026-10-26T22:20:36+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-university-of-copenhagen-data-breach-exposes-data-of-525-000-627cc70b.html"
+    },
+    "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role": {
+      "guid": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+      "fuente": "Dark Reading",
+      "titulo": "Risks &amp; Rewards: How AI Is Redefining the CISO's Role",
+      "fecha_publicacion_iso": "2026-10-26T21:44:33+00:00",
+      "fecha_agregada_iso": "2026-10-27T06:17:15.453805+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-risks-amp-rewards-how-ai-is-redefining-the-ciso-s-role-5d6c647a.html"
     }
   }
 }
