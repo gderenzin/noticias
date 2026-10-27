@@ -21679,6 +21679,150 @@
       "fecha_publicacion_iso": "2026-10-26T19:10:16+00:00",
       "fecha_agregada_iso": "2026-10-27T15:34:20.600350+00:00",
       "ruta_noticia": "/noticia/2026-10-27-php2shell-lo-que-hay-que-saber-sobre-dos-fallas-criticas-en-37abcbbd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers hijack Convertr analytics script to steal payment card data",
+      "fecha_publicacion_iso": "2026-10-27T20:57:25+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-hackers-hijack-convertr-analytics-script-to-steal-payment-ca-7477a331.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/explotacion-activa-de-php2shell.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4372369848745933083",
+      "fuente": "Segu-Info",
+      "titulo": "Explotación efectiva de PHP2Shell confirmada (de nuevo, ahora por KEV)",
+      "fecha_publicacion_iso": "2026-10-27T20:48:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-explotacion-efectiva-de-php2shell-confirmada-de-nuevo-ahora-39db00c5.html"
+    },
+    "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path": {
+      "guid": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+      "fuente": "Dark Reading",
+      "titulo": "Email Bombing, External Teams Chats Form Repeatable Access Path",
+      "fecha_publicacion_iso": "2026-10-27T20:42:40+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-email-bombing-external-teams-chats-form-repeatable-access-pa-e7767410.html"
+    },
+    "https://cyberscoop.com/anthropic-ipo-filing-cybersecurity-risks/": {
+      "guid": "https://cyberscoop.com/?p=91292",
+      "fuente": "CyberScoop",
+      "titulo": "All the security risks Anthropic is worried about before its IPO",
+      "fecha_publicacion_iso": "2026-10-27T20:41:16+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-all-the-security-risks-anthropic-is-worried-about-before-its-d319090e.html"
+    },
+    "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison": {
+      "guid": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+      "fuente": "The Record",
+      "titulo": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+      "fecha_publicacion_iso": "2026-10-27T20:40:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-nefilim-hive-ransomware-operator-given-five-year-plus-senten-2f6663d0.html"
+    },
+    "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar": {
+      "guid": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+      "fuente": "The Record",
+      "titulo": "US indicts Malaysian national after Madagascar scam operation uncovered",
+      "fecha_publicacion_iso": "2026-10-27T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-us-indicts-malaysian-national-after-madagascar-scam-operatio-c75ce470.html"
+    },
+    "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811": {
+      "guid": "https://www.theregister.com/a/5305811",
+      "fuente": "The Register - Security",
+      "titulo": "AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
+      "fecha_publicacion_iso": "2026-10-27T19:11:02+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-004c1850.html"
+    },
+    "https://cyberscoop.com/nefilim-hive-ransomware-affiliate-artem-stryzhak-sentenced/": {
+      "guid": "https://cyberscoop.com/?p=91288",
+      "fuente": "CyberScoop",
+      "titulo": "Prolific Hive and Nefilim ransomware affiliate sentenced to 70 months in prison",
+      "fecha_publicacion_iso": "2026-10-27T18:33:41+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-prolific-hive-and-nefilim-ransomware-affiliate-sentenced-to-f9ab7d3f.html"
+    },
+    "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html": {
+      "guid": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "fecha_publicacion_iso": "2026-10-27T18:26:46+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-cyberstrikeai-uses-44-ai-agents-to-automate-hacking-operatio-d09366a9.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "fecha_publicacion_iso": "2026-10-27T18:20:28+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-microsoft-releases-windows-oob-updates-to-distrust-emudhra-c-9df47a48.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+      "fuente": "Dark Reading",
+      "titulo": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+      "fecha_publicacion_iso": "2026-10-27T17:43:07+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-beware-the-slasher-ai-could-kill-off-cybersecurity-pros-skil-a8008ad6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389353",
+      "fuente": "Help Net Security",
+      "titulo": "Brotli bug reaches far beyond Node.js (CVE-2026-111497)",
+      "fecha_publicacion_iso": "2026-10-27T17:38:51+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-brotli-bug-reaches-far-beyond-node-js-cve-2026-111497-18000dc0.html"
+    },
+    "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants": {
+      "guid": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+      "fuente": "Dark Reading",
+      "titulo": "'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+      "fecha_publicacion_iso": "2026-10-27T16:47:20+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-aokigahara-stealer-targets-developer-keyrings-amp-ai-assista-c64d4188.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "fecha_publicacion_iso": "2026-10-27T16:15:39+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-db852607.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690": {
+      "guid": "https://www.theregister.com/a/5305690",
+      "fuente": "The Register - Security",
+      "titulo": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack",
+      "fecha_publicacion_iso": "2026-10-27T16:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-day-2-of-canceled-classes-at-university-of-new-mexico-after-bee2c07a.html"
+    },
+    "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/": {
+      "guid": "https://www.securityweek.com/?p=50337",
+      "fuente": "SecurityWeek",
+      "titulo": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+      "fecha_publicacion_iso": "2026-10-27T15:26:12+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-tailscale-rushes-patches-after-uncoordinated-disclosure-of-t-820476dc.html"
+    },
+    "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html": {
+      "guid": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "fuente": "The Hacker News",
+      "titulo": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "fecha_publicacion_iso": "2026-10-27T13:59:48+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-goahead-tls-flaws-allow-revoked-client-certificates-and-enab-ae042a0b.html"
+    },
+    "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html": {
+      "guid": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "fuente": "The Hacker News",
+      "titulo": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "fecha_publicacion_iso": "2026-10-27T13:59:09+00:00",
+      "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
+      "ruta_noticia": "/noticia/2026-10-27-apple-backports-fix-for-exploited-coregraphics-flaw-to-older-0afa3606.html"
     }
   }
 }
