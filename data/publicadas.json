@@ -21943,6 +21943,430 @@
       "fecha_publicacion_iso": "2026-10-22T08:00:00+00:00",
       "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
       "ruta_noticia": "/noticia/2026-10-28-abierta-la-inscripcion-para-la-jornada-de-la-aepd-sobre-cibe-f9681655.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050": {
+      "guid": "https://www.theregister.com/a/5306050",
+      "fuente": "The Register - Security",
+      "titulo": "Serial ransomware crook gets 70 months behind bars for Nefilim, Hive roles",
+      "fecha_publicacion_iso": "2026-10-28T15:52:17+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-serial-ransomware-crook-gets-70-months-behind-bars-for-nefil-28e02983.html"
+    },
+    "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches": {
+      "guid": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+      "fuente": "The Record",
+      "titulo": "UK to look at making software companies liable for cyber breaches",
+      "fecha_publicacion_iso": "2026-10-28T15:37:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-uk-to-look-at-making-software-companies-liable-for-cyber-bre-bfd6a8fe.html"
+    },
+    "https://cyberscoop.com/madagascar-nft-dating-scam-charges/": {
+      "guid": "https://cyberscoop.com/?p=91308",
+      "fuente": "CyberScoop",
+      "titulo": "Prosecutors charge Madagascar scammers in NFT-stealing scheme based on fake online dating profiles",
+      "fecha_publicacion_iso": "2026-10-28T15:36:36+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-prosecutors-charge-madagascar-scammers-in-nft-stealing-schem-891448a7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/exaforce-trust-in-ai-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389154",
+      "fuente": "Help Net Security",
+      "titulo": "I underestimated how fast security teams would trust AI to act in the SOC",
+      "fecha_publicacion_iso": "2026-10-28T15:25:01+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-i-underestimated-how-fast-security-teams-would-trust-ai-to-a-96459ac2.html"
+    },
+    "https://therecord.media/belarus-russia-hackers-ukraine-war": {
+      "guid": "https://therecord.media/belarus-russia-hackers-ukraine-war",
+      "fuente": "The Record",
+      "titulo": "Belarusian hackers increasingly acting as proxies for Russia amid war in Ukraine",
+      "fecha_publicacion_iso": "2026-10-28T15:15:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-belarusian-hackers-increasingly-acting-as-proxies-for-russia-b9677723.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "fecha_publicacion_iso": "2026-10-28T14:48:32+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-microsoft-urges-entra-id-admins-to-migrate-users-to-passkeys-7f47388e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/controlup-pulse-ai-resolve/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389554",
+      "fuente": "Help Net Security",
+      "titulo": "ControlUp’s Pulse AI Resolve diagnoses and fixes IT issues within admin-defined controls",
+      "fecha_publicacion_iso": "2026-10-28T14:46:55+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-controlups-pulse-ai-resolve-diagnoses-and-fixes-it-issues-wi-caf360da.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/compromised-camera-management-software-initial-access/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389544",
+      "fuente": "Help Net Security",
+      "titulo": "Compromised camera management software gives attackers a way into corporate networks",
+      "fecha_publicacion_iso": "2026-10-28T14:43:23+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-compromised-camera-management-software-gives-attackers-a-way-ab4ecfa0.html"
+    },
+    "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials": {
+      "guid": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
+      "fuente": "Dark Reading",
+      "titulo": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+      "fecha_publicacion_iso": "2026-10-28T14:37:52+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-attacker-relentlessly-scans-for-credentials-by-impersonating-70a17c1d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/digitate-ignio-hummingbird/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389542",
+      "fuente": "Help Net Security",
+      "titulo": "Digitate adds AI agents for patch planning, service desks, and SAP operations",
+      "fecha_publicacion_iso": "2026-10-28T14:36:59+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-digitate-adds-ai-agents-for-patch-planning-service-desks-and-d3bd967b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/afd-data-breach-email-leak/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389516",
+      "fuente": "Help Net Security",
+      "titulo": "345,000 email addresses stolen in cyberattack on Germany’s far-right party AfD",
+      "fecha_publicacion_iso": "2026-10-28T14:28:43+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-345-000-email-addresses-stolen-in-cyberattack-on-germanys-fa-a8c914b5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/swimlane-turbine-platform-capabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389531",
+      "fuente": "Help Net Security",
+      "titulo": "Swimlane connects custom detections to AI-led investigation and response",
+      "fecha_publicacion_iso": "2026-10-28T14:26:24+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-swimlane-connects-custom-detections-to-ai-led-investigation-1d293d8c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389520",
+      "fuente": "Help Net Security",
+      "titulo": "VikingCloud gives businesses a scorecard for AI governance readiness",
+      "fecha_publicacion_iso": "2026-10-28T14:06:13+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-vikingcloud-gives-businesses-a-scorecard-for-ai-governance-r-8243a4d8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "fuente": "BleepingComputer",
+      "titulo": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "fecha_publicacion_iso": "2026-10-28T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-infratrust-report-warns-of-exploited-flaws-in-critical-netwo-60ccb0bb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "fuente": "BleepingComputer",
+      "titulo": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "fecha_publicacion_iso": "2026-10-28T13:50:59+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-even-after-php2shell-blast-radius-matters-more-than-a-cvss-s-219f99ac.html"
+    },
+    "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50369",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-28T13:39:35+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-chrome-and-firefox-updates-patch-over-200-vulnerabilities-04dad7bd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/upwind-400-million-series-c-funding/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389491",
+      "fuente": "Help Net Security",
+      "titulo": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
+      "fecha_publicacion_iso": "2026-10-28T13:31:26+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-upwind-secures-400-million-to-protect-ai-across-endpoints-co-0a06df48.html"
+    },
+    "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/": {
+      "guid": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "fuente": "SecurityWeek",
+      "titulo": "Upwind secures $400 million to protect AI across endpoints, code, and cloud",
+      "fecha_publicacion_iso": "2026-10-28T13:31:26+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-upwind-secures-400-million-to-protect-ai-across-endpoints-co-0a06df48.html"
+    },
+    "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/": {
+      "guid": "https://www.securityweek.com/?p=50367",
+      "fuente": "SecurityWeek",
+      "titulo": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+      "fecha_publicacion_iso": "2026-10-28T13:10:34+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-mi-84fd8501.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/claude-security-incorpora-analisis.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3035377482077721232",
+      "fuente": "Segu-Info",
+      "titulo": "Claude Security incorpora análisis continuo de repositorios y seguimiento de correcciones",
+      "fecha_publicacion_iso": "2026-10-28T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-claude-security-incorpora-analisis-continuo-de-repositorios-d570fcdd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers now scanning systems for recently-patched Oracle flaw",
+      "fecha_publicacion_iso": "2026-10-28T12:19:57+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-hackers-now-scanning-systems-for-recently-patched-oracle-fla-7c22489c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/doj-ukrainian-ransomware-hacker-sentenced/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389471",
+      "fuente": "Help Net Security",
+      "titulo": "Ukrainian ransomware hacker sentenced, $11 million reward offered for co-conspirator",
+      "fecha_publicacion_iso": "2026-10-28T12:17:33+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-ukrainian-ransomware-hacker-sentenced-11-million-reward-offe-712880ab.html"
+    },
+    "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/": {
+      "guid": "https://www.securityweek.com/?p=50365",
+      "fuente": "SecurityWeek",
+      "titulo": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+      "fecha_publicacion_iso": "2026-10-28T12:00:59+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-china-linked-hackers-exploit-php2shell-to-root-firewalls-0d8d39d2.html"
+    },
+    "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867": {
+      "guid": "https://www.theregister.com/a/5305867",
+      "fuente": "The Register - Security",
+      "titulo": "Cisco open sources tool for detecting AI agents on hacking sprees",
+      "fecha_publicacion_iso": "2026-10-28T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-s-d1d6e819.html"
+    },
+    "https://therecord.media/fbi-seizure-csam-virtualine": {
+      "guid": "https://therecord.media/fbi-seizure-csam-virtualine",
+      "fuente": "The Record",
+      "titulo": "FBI seizes ‘bulletproof’ hosting site accused of facilitating child abuse, money laundering",
+      "fecha_publicacion_iso": "2026-10-28T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-fbi-seizes-bulletproof-hosting-site-accused-of-facilitating-12185b0b.html"
+    },
+    "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html": {
+      "guid": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "fecha_publicacion_iso": "2026-10-28T11:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-critical-16-year-old-uefi-flaw-can-run-code-before-secure-bo-eb93de23.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936": {
+      "guid": "https://www.theregister.com/a/5305936",
+      "fuente": "The Register - Security",
+      "titulo": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+      "fecha_publicacion_iso": "2026-10-28T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-123-reg-discloses-ai-cyberattack-on-customer-data-suspects-c-dda9773d.html"
+    },
+    "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html": {
+      "guid": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "fuente": "The Hacker News",
+      "titulo": "Wazuh and AI for Enhanced SOC Workflows",
+      "fecha_publicacion_iso": "2026-10-28T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-wazuh-and-ai-for-enhanced-soc-workflows-ce5fe177.html"
+    },
+    "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html": {
+      "guid": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "fuente": "The Hacker News",
+      "titulo": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "fecha_publicacion_iso": "2026-10-28T11:15:51+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-adobe-fixes-8-critical-campaign-classic-flaws-allowing-code-42a9e60a.html"
+    },
+    "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/": {
+      "guid": "https://www.securityweek.com/?p=50361",
+      "fuente": "SecurityWeek",
+      "titulo": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+      "fecha_publicacion_iso": "2026-10-28T10:48:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-long-hidden-flaws-patched-in-epics-research-facility-control-9ebc7f16.html"
+    },
+    "https://thehackernews.com/2026/10/american-organizations-under-attack.html": {
+      "guid": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "fuente": "The Hacker News",
+      "titulo": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "fecha_publicacion_iso": "2026-10-28T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-american-organizations-under-attack-skyw4lker-device-code-ph-169a3a02.html"
+    },
+    "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/": {
+      "guid": "https://www.securityweek.com/?p=50355",
+      "fuente": "SecurityWeek",
+      "titulo": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
+      "fecha_publicacion_iso": "2026-10-28T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-nobody-trusts-the-security-questionnaire-we-rely-on-it-anywa-085573e2.html"
+    },
+    "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/": {
+      "guid": "https://www.securityweek.com/?p=50353",
+      "fuente": "SecurityWeek",
+      "titulo": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
+      "fecha_publicacion_iso": "2026-10-28T09:48:24+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-secrets-management-firm-infisical-valued-at-600-million-afte-56f1c438.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "fecha_publicacion_iso": "2026-10-28T09:43:15+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-nefilim-and-hive-ransomware-affiliate-gets-70-months-in-pris-965a65e0.html"
+    },
+    "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
+      "guid": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "fuente": "SecurityWeek",
+      "titulo": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "fecha_publicacion_iso": "2026-10-28T09:43:15+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-nefilim-and-hive-ransomware-affiliate-gets-70-months-in-pris-965a65e0.html"
+    },
+    "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/": {
+      "guid": "6ad8ea7985529c1d195fc105",
+      "fuente": "Wired - Security",
+      "titulo": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
+      "fecha_publicacion_iso": "2026-10-28T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-ice-is-running-one-of-the-largest-anti-left-surveillance-ope-f58d318a.html"
+    },
+    "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/": {
+      "guid": "https://www.securityweek.com/?p=50349",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "fecha_publicacion_iso": "2026-10-28T09:14:23+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-hackers-start-probing-fresh-oracle-ebs-vulnerability-3f9c6dce.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "fecha_publicacion_iso": "2026-10-28T09:14:23+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-hackers-start-probing-fresh-oracle-ebs-vulnerability-3f9c6dce.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-2": {
+      "guid": "686931 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-10-28T09:06:02+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-multiples-vulnerabilidades-en-productos-de-citrix-dc4eb04d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fireware-os-de-watchguard": {
+      "guid": "686930 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Fireware OS de WatchGuard",
+      "fecha_publicacion_iso": "2026-10-28T09:06:01+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-multiples-vulnerabilidades-en-fireware-os-de-watchguard-eb27bd26.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-sqli-en-el-modulo-de-autenticacion-de-usuarios-de-futurum-software": {
+      "guid": "686927 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL (SQLi) en el módulo de autenticación de usuarios de Futurum Software",
+      "fecha_publicacion_iso": "2026-10-28T08:44:49+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-inyeccion-sql-sqli-en-el-modulo-de-autenticacion-de-usuarios-4217d92c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-novigest-desktop-app-de-tactis": {
+      "guid": "686926 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en NoviGest Desktop App de Tactis",
+      "fecha_publicacion_iso": "2026-10-28T08:39:43+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-multiples-vulnerabilidades-en-novigest-desktop-app-de-tactis-0d4adda7.html"
+    },
+    "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/": {
+      "guid": "https://www.securityweek.com/?p=50346",
+      "fuente": "SecurityWeek",
+      "titulo": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+      "fecha_publicacion_iso": "2026-10-28T08:37:24+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-cisa-warns-of-node2shell-exploitation-as-honeypots-log-attac-21dec5f0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+      "fecha_publicacion_iso": "2026-10-28T08:37:24+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-cisa-warns-of-node2shell-exploitation-as-honeypots-log-attac-21dec5f0.html"
+    },
+    "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html": {
+      "guid": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "fuente": "The Hacker News",
+      "titulo": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "fecha_publicacion_iso": "2026-10-28T08:15:07+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-anthropic-s-unreleased-ai-model-chains-flaws-into-working-ch-d75560f4.html"
+    },
+    "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html": {
+      "guid": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "fecha_publicacion_iso": "2026-10-28T07:37:50+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-fbi-seizes-virtualine-domain-over-alleged-criminal-hosting-a-6fcf621f.html"
+    },
+    "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html": {
+      "guid": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "fecha_publicacion_iso": "2026-10-28T07:13:21+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-japan-s-gmo-offers-1-million-bounty-to-catch-hackers-behind-697aeb22.html"
+    },
+    "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html": {
+      "guid": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "fuente": "The Hacker News",
+      "titulo": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "fecha_publicacion_iso": "2026-10-28T06:20:37+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-tailscale-patches-ssh-flaws-that-could-let-hacked-devices-ga-345dc53c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/",
+      "fuente": "Help Net Security",
+      "titulo": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "fecha_publicacion_iso": "2026-10-28T06:20:37+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-tailscale-patches-ssh-flaws-that-could-let-hacked-devices-ga-345dc53c.html"
+    },
+    "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html": {
+      "guid": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "fuente": "The Hacker News",
+      "titulo": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "fecha_publicacion_iso": "2026-10-28T06:04:58+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-shinyhunters-exploited-oracle-peoplesoft-zero-day-turns-out-f01e6eed.html"
+    },
+    "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html": {
+      "guid": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "fuente": "The Hacker News",
+      "titulo": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "fecha_publicacion_iso": "2026-10-28T05:42:26+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-adobe-commerce-polyshell-attacks-breach-hundreds-of-stores-a-dc166c04.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-sddc-manager-de-broadcom": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-sddc-manager-de-broadcom",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "fecha_publicacion_iso": "2026-10-28T05:42:26+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-adobe-commerce-polyshell-attacks-breach-hundreds-of-stores-a-dc166c04.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/inteligencia-artificial-ciberseguridad-casos-2026/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/inteligencia-artificial-ciberseguridad-casos-2026/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Inteligencia artificial y ciberseguridad: qué nos muestran realmente los casos de 2026",
+      "fecha_publicacion_iso": "2026-10-27T16:57:54+00:00",
+      "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-inteligencia-artificial-y-ciberseguridad-que-nos-muestran-re-1054515e.html"
     }
   }
 }
