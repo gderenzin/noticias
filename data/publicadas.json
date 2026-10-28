@@ -22367,6 +22367,166 @@
       "fecha_publicacion_iso": "2026-10-27T16:57:54+00:00",
       "fecha_agregada_iso": "2026-10-28T16:18:16.680842+00:00",
       "ruta_noticia": "/noticia/2026-10-28-inteligencia-artificial-y-ciberseguridad-que-nos-muestran-re-1054515e.html"
+    },
+    "https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/": {
+      "guid": "https://cyberscoop.com/?p=91319",
+      "fuente": "CyberScoop",
+      "titulo": "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists",
+      "fecha_publicacion_iso": "2026-10-28T21:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-leak-site-publishes-data-on-more-than-41-000-dhs-employees-o-4c1608ed.html"
+    },
+    "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court": {
+      "guid": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+      "fuente": "The Record",
+      "titulo": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+      "fecha_publicacion_iso": "2026-10-28T20:50:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-court-strikes-down-west-virginia-law-barring-disclosure-of-p-bf65784f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "fuente": "BleepingComputer",
+      "titulo": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "fecha_publicacion_iso": "2026-10-28T20:47:22+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-police-seize-virtualine-bulletproof-service-tied-to-ransowma-6369b7f8.html"
+    },
+    "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents": {
+      "guid": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+      "fuente": "The Record",
+      "titulo": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+      "fecha_publicacion_iso": "2026-10-28T20:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-japan-airlines-warns-of-data-breach-as-country-grapples-with-6297f139.html"
+    },
+    "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/": {
+      "guid": "6ae22870174befc300fca0ac",
+      "fuente": "Wired - Security",
+      "titulo": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
+      "fecha_publicacion_iso": "2026-10-28T20:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-most-servers-on-the-planet-are-vulnerable-to-this-firmware-c-8ea683e1.html"
+    },
+    "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/": {
+      "guid": "6ae1052df71e5beea7b81bb4",
+      "fuente": "Wired - Security",
+      "titulo": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+      "fecha_publicacion_iso": "2026-10-28T20:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-massive-leak-exposes-41-000-homeland-security-workersincludi-80d0fea3.html"
+    },
+    "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121": {
+      "guid": "https://www.theregister.com/a/5306121",
+      "fuente": "The Register - Security",
+      "titulo": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+      "fecha_publicacion_iso": "2026-10-28T19:56:56+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-oracle-celebrates-end-of-cybersecurity-awareness-month-with-c96bde33.html"
+    },
+    "https://cyberscoop.com/patrick-byrne-dominion-defamation-lawsuit-actual-malice/": {
+      "guid": "https://cyberscoop.com/?p=91312",
+      "fuente": "CyberScoop",
+      "titulo": "Lawsuit against Ex-Overstock CEO tied to 2020 election film falls apart over question of ‘actual malice’",
+      "fecha_publicacion_iso": "2026-10-28T18:58:55+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-lawsuit-against-ex-overstock-ceo-tied-to-2020-election-film-15663cb8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+      "fuente": "BleepingComputer",
+      "titulo": "Discord to let search engines index public server messages",
+      "fecha_publicacion_iso": "2026-10-28T18:44:16+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-discord-to-let-search-engines-index-public-server-messages-d9b49b7f.html"
+    },
+    "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html": {
+      "guid": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "fuente": "The Hacker News",
+      "titulo": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "fecha_publicacion_iso": "2026-10-28T18:08:33+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-volt-typhoon-used-covert-silent-train-network-in-four-zero-d-10e92bd4.html"
+    },
+    "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance": {
+      "guid": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
+      "fuente": "The Record",
+      "titulo": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+      "fecha_publicacion_iso": "2026-10-28T18:02:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-european-digital-rights-nonprofit-noyb-sues-scale-ai-for-inv-d949b1e3.html"
+    },
+    "https://therecord.media/north-korea-russia-sanctions": {
+      "guid": "https://therecord.media/north-korea-russia-sanctions",
+      "fuente": "The Record",
+      "titulo": "US sanctions Russians, North Koreans for laundering IT worker earnings",
+      "fecha_publicacion_iso": "2026-10-28T17:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-us-sanctions-russians-north-koreans-for-laundering-it-worker-22278c0b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/github-package-firewall-npm/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389390",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub’s npm package firewall can block brand-new versions before they install",
+      "fecha_publicacion_iso": "2026-10-28T17:09:14+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-githubs-npm-package-firewall-can-block-brand-new-versions-be-997184ed.html"
+    },
+    "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html": {
+      "guid": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "fecha_publicacion_iso": "2026-10-28T17:08:09+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-google-to-allow-one-tap-android-app-installs-from-approved-t-b057f338.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "fuente": "BleepingComputer",
+      "titulo": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "fecha_publicacion_iso": "2026-10-28T16:45:47+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-sony-isp-subsidiary-data-breach-exposes-2-5-million-customer-516ab619.html"
+    },
+    "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks": {
+      "guid": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+      "fuente": "The Record",
+      "titulo": "Moldova investigates possible foreign involvement in major government cyberattack",
+      "fecha_publicacion_iso": "2026-10-28T16:37:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-moldova-investigates-possible-foreign-involvement-in-major-g-ddb9d5f0.html"
+    },
+    "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html": {
+      "guid": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "fecha_publicacion_iso": "2026-10-28T16:23:34+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-researcher-reveals-how-logic-bugs-alone-cracked-microsoft-ed-bce30872.html"
+    },
+    "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html": {
+      "guid": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "fecha_publicacion_iso": "2026-10-28T16:02:45+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-php2shell-attack-roots-25-servers-breaches-u-s-government-af-eb73651e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "fuente": "BleepingComputer",
+      "titulo": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "fecha_publicacion_iso": "2026-10-28T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-volt-typhoon-hides-zero-day-attacks-using-silent-train-frame-6e5b3419.html"
+    },
+    "https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/": {
+      "guid": "https://cyberscoop.com/?p=91305",
+      "fuente": "CyberScoop",
+      "titulo": "Researchers uncover Volt Typhoon’s covert, ephemeral network",
+      "fecha_publicacion_iso": "2026-10-28T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-researchers-uncover-volt-typhoons-covert-ephemeral-network-5154982e.html"
     }
   }
 }
