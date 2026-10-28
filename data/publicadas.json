@@ -21823,6 +21823,126 @@
       "fecha_publicacion_iso": "2026-10-27T13:59:09+00:00",
       "fecha_agregada_iso": "2026-10-27T21:20:27.641935+00:00",
       "ruta_noticia": "/noticia/2026-10-27-apple-backports-fix-for-exploited-coregraphics-flaw-to-older-0afa3606.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389194",
+      "fuente": "Help Net Security",
+      "titulo": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+      "fecha_publicacion_iso": "2026-10-28T06:30:35+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-bellini-capital-ciso-on-ai-security-governance-and-the-limit-ded555b8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389215",
+      "fuente": "Help Net Security",
+      "titulo": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
+      "fecha_publicacion_iso": "2026-10-28T06:00:45+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-abusebox-open-source-monitor-for-blacklists-dns-ssl-and-emai-d649258c.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
+      "fuente": "Dark Reading",
+      "titulo": "Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature",
+      "fecha_publicacion_iso": "2026-10-28T06:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-third-serengeti-sweep-tops-1-400-arrests-as-investigations-m-271b8360.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389358",
+      "fuente": "Help Net Security",
+      "titulo": "NIST starts the countdown to retire quantum-vulnerable encryption",
+      "fecha_publicacion_iso": "2026-10-28T05:30:29+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-nist-starts-the-countdown-to-retire-quantum-vulnerable-encry-97a1a437.html"
+    },
+    "http://www.elladodelmal.com/2026/10/shadow-ai-los-datos-de-tu-empresa-que.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-2143416442565502273",
+      "fuente": "El Lado del Mal",
+      "titulo": "Shadow AI: Los datos de tu empresa que tus empleados enviaron a Servicios IA sin que tú lo supieras.",
+      "fecha_publicacion_iso": "2026-10-28T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-shadow-ai-los-datos-de-tu-empresa-que-tus-empleados-enviaron-5fa9e95e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389222",
+      "fuente": "Help Net Security",
+      "titulo": "Breach victims discover their data was held by companies they’ve never heard of",
+      "fecha_publicacion_iso": "2026-10-28T05:00:19+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-breach-victims-discover-their-data-was-held-by-companies-the-ed2275cb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+      "fuente": "BleepingComputer",
+      "titulo": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "fecha_publicacion_iso": "2026-10-27T23:35:51+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-japan-s-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-5246b127.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+      "fecha_publicacion_iso": "2026-10-27T22:43:27+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-openai-s-gpt-6-1-terra-is-safer-overall-but-shows-more-destr-dedf00d6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+      "fuente": "BleepingComputer",
+      "titulo": "UNM Health ransomware attack disrupts patient care, surgeries",
+      "fecha_publicacion_iso": "2026-10-27T22:07:34+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-unm-health-ransomware-attack-disrupts-patient-care-surgeries-78275c0a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/mas-actualizaciones-para-broccoli.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7483315042227134774",
+      "fuente": "Segu-Info",
+      "titulo": "Más actualizaciones para Broccoli 2Shell (HTTP2Shell - CVE-2026-111497), revisa TODOS tus dispositivos y aplicaciones",
+      "fecha_publicacion_iso": "2026-10-27T21:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-mas-actualizaciones-para-broccoli-2shell-http2shell-cve-2026-0e7c873a.html"
+    },
+    "https://cyberscoop.com/openai-ai-generated-bug-reports/": {
+      "guid": "https://cyberscoop.com/?p=91300",
+      "fuente": "CyberScoop",
+      "titulo": "Before you file that AI bug report, OpenAI has some advice",
+      "fecha_publicacion_iso": "2026-10-27T21:21:27+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-before-you-file-that-ai-bug-report-openai-has-some-advice-003902bc.html"
+    },
+    "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability": {
+      "guid": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
+      "fuente": "Dark Reading",
+      "titulo": "3 Frameworks to Protect CISOs &amp; Orgs Against AI Liability",
+      "fecha_publicacion_iso": "2026-10-27T21:15:03+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-3-frameworks-to-protect-cisos-amp-orgs-against-ai-liability-2db299f6.html"
+    },
+    "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack": {
+      "guid": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+      "fuente": "Dark Reading",
+      "titulo": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-27T19:58:06+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-sboms-alone-can-t-reveal-the-scope-of-a-supply-chain-attack-67aef7e7.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes": {
+      "guid": "fe951a7d-508e-4bcc-a20d-fd4f6f8bc404",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales",
+      "fecha_publicacion_iso": "2026-10-27T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistente-89c669ab.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic": {
+      "guid": "a031fa81-6957-4860-a0cc-e24db11ffa38",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC",
+      "fecha_publicacion_iso": "2026-10-22T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-28T06:53:17.213423+00:00",
+      "ruta_noticia": "/noticia/2026-10-28-abierta-la-inscripcion-para-la-jornada-de-la-aepd-sobre-cibe-f9681655.html"
     }
   }
 }
