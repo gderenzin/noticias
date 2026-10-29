@@ -22527,6 +22527,86 @@
       "fecha_publicacion_iso": "2026-10-28T16:00:00+00:00",
       "fecha_agregada_iso": "2026-10-28T21:43:44.364747+00:00",
       "ruta_noticia": "/noticia/2026-10-28-researchers-uncover-volt-typhoons-covert-ephemeral-network-5154982e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389495",
+      "fuente": "Help Net Security",
+      "titulo": "Qualys CISO on what security teams can do as exploit campaigns grow",
+      "fecha_publicacion_iso": "2026-10-29T06:30:04+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-qualys-ciso-on-what-security-teams-can-do-as-exploit-campaig-e417a2d8.html"
+    },
+    "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html": {
+      "guid": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "fecha_publicacion_iso": "2026-10-29T06:22:33+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-china-linked-hackers-exploited-vmware-esx-zero-day-to-reduce-e91f33b0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/tls-certificate-automation-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389487",
+      "fuente": "Help Net Security",
+      "titulo": "IT bosses are confident they’ve found the certificates they don’t know about",
+      "fecha_publicacion_iso": "2026-10-29T06:00:06+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-it-bosses-are-confident-theyve-found-the-certificates-they-d-5168ee6b.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "fecha_publicacion_iso": "2026-10-29T05:50:17+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-attackers-exploit-php2shell-flaws-in-internet-exposed-palo-a-f4eff089.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/itrc-identity-theft-recovery-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389415",
+      "fuente": "Help Net Security",
+      "titulo": "Shame and sleepless nights haunt scam victims long after the money is gone",
+      "fecha_publicacion_iso": "2026-10-29T05:30:22+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-shame-and-sleepless-nights-haunt-scam-victims-long-after-the-e3cac517.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389423",
+      "fuente": "Help Net Security",
+      "titulo": "Stolen staff logins are spreading attacks between K-12 school districts",
+      "fecha_publicacion_iso": "2026-10-29T05:00:01+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-stolen-staff-logins-are-spreading-attacks-between-k-12-schoo-63cfb127.html"
+    },
+    "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/": {
+      "guid": "6ae2a81b168dfe749932cb22",
+      "fuente": "Wired - Security",
+      "titulo": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+      "fecha_publicacion_iso": "2026-10-29T03:34:46+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-bluesky-is-blocking-links-to-a-major-leak-of-dhs-employee-re-da1d7499.html"
+    },
+    "https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/": {
+      "guid": "https://cyberscoop.com/?p=91323",
+      "fuente": "CyberScoop",
+      "titulo": "Officials seize domain of top bulletproof hosting provider Virtualine",
+      "fecha_publicacion_iso": "2026-10-29T00:38:19+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-officials-seize-domain-of-top-bulletproof-hosting-provider-v-3669b592.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/ataque-php2shell-compromete-25.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4261064548678797424",
+      "fuente": "Segu-Info",
+      "titulo": "Ataque PHP2Shell compromete 25 servidores y vulnera una red vinculada al gobierno de EE.UU.",
+      "fecha_publicacion_iso": "2026-10-28T21:58:09+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ataque-php2shell-compromete-25-servidores-y-vulnera-una-red-2e799d04.html"
+    },
+    "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github": {
+      "guid": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+      "fuente": "Dark Reading",
+      "titulo": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+      "fecha_publicacion_iso": "2026-10-28T19:39:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ghostaction-hacking-wave-fizzles-but-attackers-lurk-on-in-gi-89379326.html"
     }
   }
 }
