@@ -22607,6 +22607,438 @@
       "fecha_publicacion_iso": "2026-10-28T19:39:00+00:00",
       "fecha_agregada_iso": "2026-10-29T07:07:00.619100+00:00",
       "ruta_noticia": "/noticia/2026-10-29-ghostaction-hacking-wave-fizzles-but-attackers-lurk-on-in-gi-89379326.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-la-aplicacion-de-sabbatic": {
+      "guid": "616903 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en la aplicación de SABBATIC",
+      "fecha_publicacion_iso": "2026-10-29T16:47:15+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-multiples-vulnerabilidades-en-la-aplicacion-de-sabbatic-9f6bae3a.html"
+    },
+    "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions": {
+      "guid": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
+      "fuente": "Dark Reading",
+      "titulo": "Threat Modeling With 4 Simple Questions on a White Board",
+      "fecha_publicacion_iso": "2026-10-29T15:44:04+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-threat-modeling-with-4-simple-questions-on-a-white-board-efbb1c68.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/deteccion-de-php2shell-con-wazuh-open.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3590202602940901060",
+      "fuente": "Segu-Info",
+      "titulo": "Detección de PHP2Shell con Wazuh (Open Source)",
+      "fecha_publicacion_iso": "2026-10-29T15:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-deteccion-de-php2shell-con-wazuh-open-source-6d99718d.html"
+    },
+    "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html": {
+      "guid": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "fecha_publicacion_iso": "2026-10-29T15:20:29+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-fake-chatgpt-and-claude-apps-abuse-signed-executables-to-dep-8cc04215.html"
+    },
+    "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50412",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
+      "fecha_publicacion_iso": "2026-10-29T15:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-google-touts-powerful-cybersecurity-capabilities-in-gemini-4-f5faf77d.html"
+    },
+    "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/": {
+      "guid": "https://www.securityweek.com/?p=50404",
+      "fuente": "SecurityWeek",
+      "titulo": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
+      "fecha_publicacion_iso": "2026-10-29T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-how-secure-are-us-elections-voting-machine-risks-and-the-gro-fcadd0dd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/fake-chatgpt-claude-apps-github-yoba-malware-cryptominer/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389683",
+      "fuente": "Help Net Security",
+      "titulo": "Yoba malware hides in fake desktop versions of ChatGPT and Claude",
+      "fecha_publicacion_iso": "2026-10-29T14:49:11+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-yoba-malware-hides-in-fake-desktop-versions-of-chatgpt-and-c-e7c6ca87.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409": {
+      "guid": "https://www.theregister.com/a/5306409",
+      "fuente": "The Register - Security",
+      "titulo": "Belgium's tax agency confirms cyberattack, pulls services offline",
+      "fecha_publicacion_iso": "2026-10-29T14:47:40+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-belgium-s-tax-agency-confirms-cyberattack-pulls-services-off-8c5315d5.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+      "fecha_publicacion_iso": "2026-10-29T14:35:40+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-microsoft-fixes-remote-desktop-failures-caused-by-recent-win-f34fb5d0.html"
+    },
+    "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/": {
+      "guid": "https://www.securityweek.com/?p=50402",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+      "fecha_publicacion_iso": "2026-10-29T14:18:03+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-i-67386231.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389664",
+      "fuente": "Help Net Security",
+      "titulo": "Researchers broke the browsers built into VS Code, Cursor, Copilot, Codex and Claude Desktop",
+      "fecha_publicacion_iso": "2026-10-29T14:10:49+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-researchers-broke-the-browsers-built-into-vs-code-cursor-cop-42f121e2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+      "fuente": "BleepingComputer",
+      "titulo": "3 Ways AI Agents Already Operate in Your Browser",
+      "fecha_publicacion_iso": "2026-10-29T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-3-ways-ai-agents-already-operate-in-your-browser-d340597c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "fecha_publicacion_iso": "2026-10-29T13:59:48+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-atta-748d67ab.html"
+    },
+    "https://therecord.media/ftc-rideshare-airlines-data": {
+      "guid": "https://therecord.media/ftc-rideshare-airlines-data",
+      "fuente": "The Record",
+      "titulo": "FTC to probe major companies over personalized pricing and pay",
+      "fecha_publicacion_iso": "2026-10-29T13:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ftc-to-probe-major-companies-over-personalized-pricing-and-p-147d2921.html"
+    },
+    "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50400",
+      "fuente": "SecurityWeek",
+      "titulo": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-29T13:42:52+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-adobe-veeam-juniper-networks-patch-critical-vulnerabilities-b326a55c.html"
+    },
+    "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html": {
+      "guid": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "fecha_publicacion_iso": "2026-10-29T13:42:40+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-google-s-gemini-4-carbon-leads-benchmarks-for-finding-exploi-005f2528.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389666",
+      "fuente": "Help Net Security",
+      "titulo": "Volt Typhoon targeted enterprise control planes via ever-changing “Silent Train” relay network",
+      "fecha_publicacion_iso": "2026-10-29T13:42:13+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-volt-typhoon-targeted-enterprise-control-planes-via-ever-cha-12109279.html"
+    },
+    "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline": {
+      "guid": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+      "fuente": "The Record",
+      "titulo": "Cyberattack disrupts Belgian tax services before filing deadline",
+      "fecha_publicacion_iso": "2026-10-29T13:31:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cyberattack-disrupts-belgian-tax-services-before-filing-dead-342c7493.html"
+    },
+    "https://therecord.media/new-mexico-cyberattack-hospital": {
+      "guid": "https://therecord.media/new-mexico-cyberattack-hospital",
+      "fuente": "The Record",
+      "titulo": "University of New Mexico restores hospital systems, urges no contact with hackers",
+      "fecha_publicacion_iso": "2026-10-29T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-university-of-new-mexico-restores-hospital-systems-urges-no-56ef0576.html"
+    },
+    "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/": {
+      "guid": "https://www.securityweek.com/?p=50396",
+      "fuente": "SecurityWeek",
+      "titulo": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+      "fecha_publicacion_iso": "2026-10-29T13:26:49+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-bae-says-no-data-extracted-in-incident-hitting-bankruptcy-co-1b4f0740.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/ejecucion-remota-de-codigo-sin.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6238975405431017802",
+      "fuente": "Segu-Info",
+      "titulo": "Ejecución remota de código descubiertos por Anthropic en Chrome, Safari, Android, Windows y Linux (CVE-2026-98432)",
+      "fecha_publicacion_iso": "2026-10-29T13:14:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ejecucion-remota-de-codigo-descubiertos-por-anthropic-en-chr-152fad66.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389619",
+      "fuente": "Help Net Security",
+      "titulo": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws",
+      "fecha_publicacion_iso": "2026-10-29T12:44:15+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-google-says-gemini-4-carbon-beats-its-predecessors-at-findin-6b9126ef.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282": {
+      "guid": "https://www.theregister.com/a/5306282",
+      "fuente": "The Register - Security",
+      "titulo": "Shortlist of age checks for the UK's under-16 social media ban is out, 'some' adults will need verifying",
+      "fecha_publicacion_iso": "2026-10-29T12:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-shortlist-of-age-checks-for-the-uk-s-under-16-social-media-b-6a441017.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/canonical-ubuntu-core-desktop/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389630",
+      "fuente": "Help Net Security",
+      "titulo": "Ubuntu Core Desktop returns as Canonical’s plan for an immutable default desktop",
+      "fecha_publicacion_iso": "2026-10-29T12:24:45+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ubuntu-core-desktop-returns-as-canonicals-plan-for-an-immuta-e22ea88a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "fecha_publicacion_iso": "2026-10-29T12:00:07+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-windows-11-kb5127936-update-released-with-41-changes-and-fix-15f712f3.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153": {
+      "guid": "https://www.theregister.com/a/5306153",
+      "fuente": "The Register - Security",
+      "titulo": "Attackers turn GitHub issues into supply chain campaign against 61 public repos in less than an hour",
+      "fecha_publicacion_iso": "2026-10-29T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-attackers-turn-github-issues-into-supply-chain-campaign-agai-41e5bf08.html"
+    },
+    "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html": {
+      "guid": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "fuente": "The Hacker News",
+      "titulo": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "fecha_publicacion_iso": "2026-10-29T11:39:41+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-webinar-how-to-build-ai-threat-readiness-into-your-security-5a570ea1.html"
+    },
+    "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html": {
+      "guid": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+      "fuente": "The Hacker News",
+      "titulo": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+      "fecha_publicacion_iso": "2026-10-29T11:39:18+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-telegram-android-flaw-lets-attackers-run-code-when-users-ans-dd1c518d.html"
+    },
+    "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html": {
+      "guid": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "fecha_publicacion_iso": "2026-10-29T11:33:41+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-the-rise-of-the-threat-operator-how-ai-will-redefine-securit-e6aa25e9.html"
+    },
+    "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html": {
+      "guid": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "fuente": "The Hacker News",
+      "titulo": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "fecha_publicacion_iso": "2026-10-29T11:33:15+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-26-400-valid-cloud-and-ai-credentials-found-exposed-in-publi-c9e7c513.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "fecha_publicacion_iso": "2026-10-29T11:10:13+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-new-cisco-firewall-zero-day-exploited-to-crash-ssl-vpn-devic-409f0b04.html"
+    },
+    "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/": {
+      "guid": "https://www.securityweek.com/?p=50391",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
+      "fecha_publicacion_iso": "2026-10-29T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-dac38c36.html"
+    },
+    "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/": {
+      "guid": "6adf7da631eac9e54331b316",
+      "fuente": "Wired - Security",
+      "titulo": "A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards",
+      "fecha_publicacion_iso": "2026-10-29T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-a-hacker-targeted-high-stakes-poker-players-with-malware-tha-2e58cd2f.html"
+    },
+    "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/": {
+      "guid": "https://www.securityweek.com/?p=50387",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+      "fecha_publicacion_iso": "2026-10-29T10:29:25+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-sil-13fcb928.html"
+    },
+    "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html": {
+      "guid": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "fuente": "The Hacker News",
+      "titulo": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "fecha_publicacion_iso": "2026-10-29T10:26:33+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-github-launches-npm-firewall-to-block-malicious-packages-bef-cf3544e8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389591",
+      "fuente": "Help Net Security",
+      "titulo": "Hacktivists leak 41,000 DHS staff records, revealing undercover ICE agents",
+      "fecha_publicacion_iso": "2026-10-29T10:16:18+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hacktivists-leak-41-000-dhs-staff-records-revealing-undercov-c5d0fff0.html"
+    },
+    "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/": {
+      "guid": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+      "fuente": "SecurityWeek",
+      "titulo": "Hacktivists leak 41,000 DHS staff records, revealing undercover ICE agents",
+      "fecha_publicacion_iso": "2026-10-29T10:16:18+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hacktivists-leak-41-000-dhs-staff-records-revealing-undercov-c5d0fff0.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes": {
+      "guid": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+      "fuente": "Dark Reading",
+      "titulo": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+      "fecha_publicacion_iso": "2026-10-29T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-shadowy-ai-relay-disables-openai-codex-claude-code-sandboxes-196b1e60.html"
+    },
+    "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/": {
+      "guid": "https://www.securityweek.com/?p=50383",
+      "fuente": "SecurityWeek",
+      "titulo": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "fecha_publicacion_iso": "2026-10-29T09:47:10+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-attackers-exploit-second-cisco-firewall-vpn-zero-day-since-a-77d976ef.html"
+    },
+    "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html": {
+      "guid": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "fecha_publicacion_iso": "2026-10-29T09:05:39+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-attacker-tried-to-exploit-alpine-linuxs-gitlab-via-cvss-10-0-9ac8296d.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/admin-dropped-the-f-bomb-in-a-password-to-show-hackers-who-was-really-1337/5306139": {
+      "guid": "https://www.theregister.com/a/5306139",
+      "fuente": "The Register - Security",
+      "titulo": "Admin dropped the F-bomb in a password to show hackers who was really 1337",
+      "fecha_publicacion_iso": "2026-10-29T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-admin-dropped-the-f-bomb-in-a-password-to-show-hackers-who-w-39740207.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-php-para-windows": {
+      "guid": "687685 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en PHP para Windows",
+      "fecha_publicacion_iso": "2026-10-29T08:53:12+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-escritura-fuera-de-limites-en-php-para-windows-6dec469a.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openscape-endpoint-management-de-mitel": {
+      "guid": "687684 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en OpenScape Endpoint Management de Mitel",
+      "fecha_publicacion_iso": "2026-10-29T08:53:10+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-multiples-vulnerabilidades-en-openscape-endpoint-management-bf507420.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-cisco-20": {
+      "guid": "687683 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-10-29T08:53:09+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-multiples-vulnerabilidades-en-productos-de-cisco-3834b649.html"
+    },
+    "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html": {
+      "guid": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "fuente": "The Hacker News",
+      "titulo": "Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-10-29T08:53:09+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-multiples-vulnerabilidades-en-productos-de-cisco-3834b649.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-reflejado-en-la-configuracion-de-php-cgiphp-fpm-de-ict": {
+      "guid": "687680 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting reflejado en la configuración de PHP-CGI/PHP-FPM de ICT Innovations",
+      "fecha_publicacion_iso": "2026-10-29T08:32:13+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cross-site-scripting-reflejado-en-la-configuracion-de-php-cg-ef48a1c0.html"
+    },
+    "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/": {
+      "guid": "https://www.securityweek.com/?p=50381",
+      "fuente": "SecurityWeek",
+      "titulo": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+      "fecha_publicacion_iso": "2026-10-29T08:27:16+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million-b3306983.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "fecha_publicacion_iso": "2026-10-29T08:24:22+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hackers-exploited-cisco-sd-wan-flaw-to-plant-malware-built-t-aabd8e14.html"
+    },
+    "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy": {
+      "guid": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
+      "fuente": "Dark Reading",
+      "titulo": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+      "fecha_publicacion_iso": "2026-10-29T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-cyber-vulnerabilities-besiege-italy-absent-clear-cause-75699bb6.html"
+    },
+    "http://www.elladodelmal.com/2026/10/como-aprender-gestionar-los-fracasos.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4232487015062913984",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo aprender a gestionar los fracasos para alcanzar los sueños: El sueño americano en Prime",
+      "fecha_publicacion_iso": "2026-10-29T06:01:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-como-aprender-a-gestionar-los-fracasos-para-alcanzar-los-sue-8aff9672.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/semana-negra-ciberseguridad-php-linux-gitlab/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/semana-negra-ciberseguridad-php-linux-gitlab/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Una semana caótica para la ciberseguridad: lecciones y alertas",
+      "fecha_publicacion_iso": "2026-10-28T18:44:57+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-una-semana-caotica-para-la-ciberseguridad-lecciones-y-alerta-a91aeaf0.html"
+    },
+    "https://www.welivesecurity.com/es/informes/reporte-actividad-apt-activity-report-q2-2026-q3-2026/": {
+      "guid": "https://www.welivesecurity.com/es/informes/reporte-actividad-apt-activity-report-q2-2026-q3-2026/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "ESET APT Activity Report del segundo y tercer semestre de 2026",
+      "fecha_publicacion_iso": "2026-10-28T17:41:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-eset-apt-activity-report-del-segundo-y-tercer-semestre-de-20-1f4c33f8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/oracle-e-business-suite-cve-2026-101767-exploitation/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/29/oracle-e-business-suite-cve-2026-101767-exploitation/",
+      "fuente": "Help Net Security",
+      "titulo": "ESET APT Activity Report del segundo y tercer semestre de 2026",
+      "fecha_publicacion_iso": "2026-10-28T17:41:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-eset-apt-activity-report-del-segundo-y-tercer-semestre-de-20-1f4c33f8.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
+      "fuente": "Dark Reading",
+      "titulo": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
+      "fecha_publicacion_iso": "2026-10-28T15:29:06+00:00",
+      "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-ai-takes-root-in-hospital-corridors-raises-security-stakes-c5cb56f9.html"
     }
   }
 }
