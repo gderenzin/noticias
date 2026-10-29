@@ -23039,6 +23039,118 @@
       "fecha_publicacion_iso": "2026-10-28T15:29:06+00:00",
       "fecha_agregada_iso": "2026-10-29T16:30:31.728892+00:00",
       "ruta_noticia": "/noticia/2026-10-29-ai-takes-root-in-hospital-corridors-raises-security-stakes-c5cb56f9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+      "fuente": "BleepingComputer",
+      "titulo": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+      "fecha_publicacion_iso": "2026-10-29T21:47:25+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-polymarket-halts-trading-after-crypto-draining-script-breach-fe7730fa.html"
+    },
+    "https://cyberscoop.com/dhs-employee-breach-icepick-database-takedown/": {
+      "guid": "https://cyberscoop.com/?p=91335",
+      "fuente": "CyberScoop",
+      "titulo": "Leaked DHS employee archive, Icepick, faces challenges to stay online",
+      "fecha_publicacion_iso": "2026-10-29T20:58:28+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-leaked-dhs-employee-archive-icepick-faces-challenges-to-stay-2211e8c8.html"
+    },
+    "https://therecord.media/php2shell-successful-exploitation-reports-emerge": {
+      "guid": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+      "fuente": "The Record",
+      "titulo": "Limited reports of PHP bug exploitation emerge",
+      "fecha_publicacion_iso": "2026-10-29T20:01:25+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-limited-reports-of-php-bug-exploitation-emerge-6c129a86.html"
+    },
+    "https://therecord.media/general-motors-lawsuit-privacy": {
+      "guid": "https://therecord.media/general-motors-lawsuit-privacy",
+      "fuente": "The Record",
+      "titulo": "GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms",
+      "fecha_publicacion_iso": "2026-10-29T19:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-gm-settles-with-36-states-for-selling-driver-data-agrees-to-aacd7396.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+      "fecha_publicacion_iso": "2026-10-29T19:23:41+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-thef-e692538b.html"
+    },
+    "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html": {
+      "guid": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "fecha_publicacion_iso": "2026-10-29T19:11:58+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-threatsday-critical-firewall-flaws-banking-trojans-rented-we-7325900e.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456": {
+      "guid": "https://www.theregister.com/a/5306456",
+      "fuente": "The Register - Security",
+      "titulo": "Suspected Chinese attackers built a custom PHP2Shell exploit and rooted 25 servers",
+      "fecha_publicacion_iso": "2026-10-29T19:05:17+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-suspected-chinese-attackers-built-a-custom-php2shell-exploit-50e8cd6d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "fecha_publicacion_iso": "2026-10-29T18:38:26+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-7c2b70bd.html"
+    },
+    "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses": {
+      "guid": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+      "fuente": "Dark Reading",
+      "titulo": "Claude Model Builds Exploits Across Major Browsers &amp; OSes",
+      "fecha_publicacion_iso": "2026-10-29T18:15:59+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-claude-model-builds-exploits-across-major-browsers-amp-oses-2c3bc905.html"
+    },
+    "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/": {
+      "guid": "https://www.securityweek.com/?p=50421",
+      "fuente": "SecurityWeek",
+      "titulo": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+      "fecha_publicacion_iso": "2026-10-29T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-when-risk-becomes-personal-what-security-leaders-can-learn-f-39a63375.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/29/php2shell-fragnesia-vmware-esx-zero-day/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389707",
+      "fuente": "Help Net Security",
+      "titulo": "Chinese hackers used VMware ESX zero-day; PHP2Shell and Fragnesia chained to root firewalls",
+      "fecha_publicacion_iso": "2026-10-29T16:25:10+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-chinese-hackers-used-vmware-esx-zero-day-php2shell-and-fragn-e1f46de0.html"
+    },
+    "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack": {
+      "guid": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
+      "fecha_publicacion_iso": "2026-10-29T16:13:00+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-federal-bankruptcy-courts-contractor-says-no-data-stolen-dur-31dc864a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chrome extensions with 13.4 million installs caught hijacking searches",
+      "fecha_publicacion_iso": "2026-10-29T16:10:31+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-chrome-extensions-with-13-4-million-installs-caught-hijackin-a556f2a1.html"
+    },
+    "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html": {
+      "guid": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "fuente": "The Hacker News",
+      "titulo": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "fecha_publicacion_iso": "2026-10-29T15:57:05+00:00",
+      "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
+      "ruta_noticia": "/noticia/2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-649ecf4a.html"
     }
   }
 }
