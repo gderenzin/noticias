@@ -23631,6 +23631,126 @@
       "fecha_publicacion_iso": "2026-10-29T08:53:09+00:00",
       "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
       "ruta_noticia": "/noticia/2026-10-30-actualizacion-30-10-2026-multiples-vulnerabilidades-en-produ-67cfb035.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "fecha_publicacion_iso": "2026-10-30T21:09:46+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-critical-linux-kernel-flaw-allows-remote-root-attacks-on-mpt-f167e37b.html"
+    },
+    "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale": {
+      "guid": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+      "fuente": "The Record",
+      "titulo": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+      "fecha_publicacion_iso": "2026-10-30T20:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-doj-raises-privacy-concerns-over-potential-sale-of-character-ce4d8aef.html"
+    },
+    "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/": {
+      "guid": "6ae4b1a65ad2ab653323a35a",
+      "fuente": "Wired - Security",
+      "titulo": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+      "fecha_publicacion_iso": "2026-10-30T20:38:46+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-a-supply-chain-attack-put-malicious-anthropic-claude-extensi-7ac37fbf.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+      "fuente": "Dark Reading",
+      "titulo": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+      "fecha_publicacion_iso": "2026-10-30T20:05:58+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-devs-hit-by-trojanized-claude-code-extension-for-cursor-ac7367a3.html"
+    },
+    "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754": {
+      "guid": "https://www.theregister.com/a/5306754",
+      "fuente": "The Register - Security",
+      "titulo": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
+      "fecha_publicacion_iso": "2026-10-30T19:37:12+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-83d9201a.html"
+    },
+    "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards": {
+      "guid": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+      "fuente": "The Record",
+      "titulo": "Fashion retailer Resolve says hackers stole payment card information",
+      "fecha_publicacion_iso": "2026-10-30T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-fashion-retailer-resolve-says-hackers-stole-payment-card-inf-84a2c916.html"
+    },
+    "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/": {
+      "guid": "https://cyberscoop.com/?p=91378",
+      "fuente": "CyberScoop",
+      "titulo": "Apple notifications alert victims in 99 countries about mercenary spyware infections",
+      "fecha_publicacion_iso": "2026-10-30T17:07:05+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-apple-notifications-alert-victims-in-99-countries-about-merc-e6861203.html"
+    },
+    "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html": {
+      "guid": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "fecha_publicacion_iso": "2026-10-30T16:58:44+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-chinese-hackers-use-ai-powered-artex-to-target-over-200-orga-46d8d781.html"
+    },
+    "https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721": {
+      "guid": "https://www.theregister.com/a/5306721",
+      "fuente": "The Register - Security",
+      "titulo": "GM cracks the petty cash box for multistate driver tracking settlement",
+      "fecha_publicacion_iso": "2026-10-30T16:48:37+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-35de059a.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682": {
+      "guid": "https://www.theregister.com/a/5306682",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic: That Claude Code extension compromise… couldn't be us",
+      "fecha_publicacion_iso": "2026-10-30T16:27:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-anthropic-that-claude-code-extension-compromise-couldn-t-be-a1f01e3b.html"
+    },
+    "https://cyberscoop.com/california-election-subpoenas-doj-voter-rolls/": {
+      "guid": "https://cyberscoop.com/?p=91371",
+      "fuente": "CyberScoop",
+      "titulo": "California officials confirm grand jury subpoenas as states, civil groups brace to protect elections from federal encroachment",
+      "fecha_publicacion_iso": "2026-10-30T15:58:35+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-california-officials-confirm-grand-jury-subpoenas-as-states-05fccf2d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "fuente": "BleepingComputer",
+      "titulo": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "fecha_publicacion_iso": "2026-10-30T15:58:20+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-trezor-warns-of-suspected-crypto-theft-implant-in-hardware-w-e645dafd.html"
+    },
+    "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach": {
+      "guid": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+      "fuente": "The Record",
+      "titulo": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+      "fecha_publicacion_iso": "2026-10-30T15:54:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-florida-warns-that-4-9-million-people-had-social-security-nu-4bf94269.html"
+    },
+    "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html": {
+      "guid": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "fuente": "The Hacker News",
+      "titulo": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "fecha_publicacion_iso": "2026-10-30T15:17:28+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-teamviewer-flaw-lets-remote-computers-attack-users-who-conne-bfec2004.html"
+    },
+    "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html": {
+      "guid": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "fuente": "The Hacker News",
+      "titulo": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "fecha_publicacion_iso": "2026-10-30T14:08:14+00:00",
+      "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-wordpress-rce-flaw-draws-nearly-63-000-attack-attempts-in-ju-6473fc77.html"
     }
   }
 }
