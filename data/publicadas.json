@@ -23279,6 +23279,358 @@
       "fecha_publicacion_iso": "2026-10-29T19:25:38+00:00",
       "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
       "ruta_noticia": "/noticia/2026-10-30-quishing-como-funcionan-las-estafas-con-codigos-qr-y-como-pr-be32afc3.html"
+    },
+    "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian": {
+      "guid": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
+      "fuente": "Dark Reading",
+      "titulo": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
+      "fecha_publicacion_iso": "2026-10-30T15:39:54+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-litalia-e-afflitta-da-vulnerabilita-informatiche-senza-una-c-47e04300.html"
+    },
+    "https://cyberscoop.com/defense-contractor-guilty-north-korea-scheme-facilitator/": {
+      "guid": "https://cyberscoop.com/?p=91369",
+      "fuente": "CyberScoop",
+      "titulo": "Defense contractor pleads guilty to aiding North Korean remote worker scheme",
+      "fecha_publicacion_iso": "2026-10-30T15:14:29+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-defense-contractor-pleads-guilty-to-aiding-north-korean-remo-9dcdf8c1.html"
+    },
+    "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/": {
+      "guid": "https://www.securityweek.com/?p=50450",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "fecha_publicacion_iso": "2026-10-30T15:09:25+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-php2shell-attacks-root-palo-alto-firewalls-but-fail-against-5ec9d44a.html"
+    },
+    "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/": {
+      "guid": "https://www.securityweek.com/?p=50447",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "fecha_publicacion_iso": "2026-10-30T14:41:35+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-s-5e82c4f3.html"
+    },
+    "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years": {
+      "guid": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
+      "fuente": "The Record",
+      "titulo": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
+      "fecha_publicacion_iso": "2026-10-30T14:24:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-syrian-electronic-army-hacker-gets-prison-time-for-attacks-o-b44d4a56.html"
+    },
+    "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks": {
+      "guid": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
+      "fuente": "Dark Reading",
+      "titulo": "Undead Software Projects Continue to Raise Security Risks",
+      "fecha_publicacion_iso": "2026-10-30T14:10:37+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-undead-software-projects-continue-to-raise-security-risks-c5d4f7a3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "fuente": "BleepingComputer",
+      "titulo": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "fecha_publicacion_iso": "2026-10-30T14:00:10+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-ss7-and-diameter-attacks-how-signaling-flaws-expose-your-pho-27c3e9ac.html"
+    },
+    "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/": {
+      "guid": "https://www.securityweek.com/?p=50443",
+      "fuente": "SecurityWeek",
+      "titulo": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "fecha_publicacion_iso": "2026-10-30T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-passkeys-are-better-than-passwords-but-they-are-not-enough-8258efe8.html"
+    },
+    "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/": {
+      "guid": "https://www.securityweek.com/?p=50440",
+      "fuente": "SecurityWeek",
+      "titulo": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "fecha_publicacion_iso": "2026-10-30T13:36:12+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure-4119054f.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/herramientas-gratuitas-para-detectar.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8160772248072365698",
+      "fuente": "Segu-Info",
+      "titulo": "Herramientas gratuitas para detectar errores de configuración de seguridad en Microsoft 365 y Google Workspace",
+      "fecha_publicacion_iso": "2026-10-30T13:13:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-herramientas-gratuitas-para-detectar-errores-de-configuracio-bc41dd2a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389809",
+      "fuente": "Help Net Security",
+      "titulo": "Shufti ties AI agent actions to verified owners and permissions",
+      "fecha_publicacion_iso": "2026-10-30T12:53:33+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-shufti-ties-ai-agent-actions-to-verified-owners-and-permissi-fee81dfd.html"
+    },
+    "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices": {
+      "guid": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
+      "fuente": "The Record",
+      "titulo": "British spy agency cannot account for thousands of data storage devices, watchdog says",
+      "fecha_publicacion_iso": "2026-10-30T12:52:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-british-spy-agency-cannot-account-for-thousands-of-data-stor-bb609cd3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389801",
+      "fuente": "Help Net Security",
+      "titulo": "Bedrock Data routes data exposure fixes to owners and verifies results",
+      "fecha_publicacion_iso": "2026-10-30T12:39:09+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-bedrock-data-routes-data-exposure-fixes-to-owners-and-verifi-d812aa0f.html"
+    },
+    "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware": {
+      "guid": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
+      "fuente": "The Record",
+      "titulo": "Hackers target government Windows systems in Asia with new malware",
+      "fecha_publicacion_iso": "2026-10-30T12:36:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-hackers-target-government-windows-systems-in-asia-with-new-m-21c20d4b.html"
+    },
+    "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html": {
+      "guid": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "fecha_publicacion_iso": "2026-10-30T12:21:56+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-trezor-warns-of-suspected-hardware-implant-in-one-of-its-wal-4eafb481.html"
+    },
+    "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/": {
+      "guid": "https://www.securityweek.com/?p=50436",
+      "fuente": "SecurityWeek",
+      "titulo": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "fecha_publicacion_iso": "2026-10-30T12:04:13+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-fresh-wordpress-vulnerability-in-attackers-crosshairs-3556a8b0.html"
+    },
+    "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html": {
+      "guid": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "fuente": "The Hacker News",
+      "titulo": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "fecha_publicacion_iso": "2026-10-30T11:58:53+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-why-urgent-security-fixes-aren-t-fixed-observe-prove-act-con-0e377490.html"
+    },
+    "https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605": {
+      "guid": "https://www.theregister.com/a/5306605",
+      "fuente": "The Register - Security",
+      "titulo": "British intelligence agency misplaced 'thousands' of storage devices, years later still can't say how many",
+      "fecha_publicacion_iso": "2026-10-30T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-british-intelligence-agency-misplaced-thousands-of-storage-d-95b826d0.html"
+    },
+    "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/": {
+      "guid": "6ae457b031d902d96b8b17a0",
+      "fuente": "Wired - Security",
+      "titulo": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
+      "fecha_publicacion_iso": "2026-10-30T11:36:52+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-the-6-3-billion-binance-hack-was-pulled-off-in-just-20-minut-b192f74f.html"
+    },
+    "https://therecord.media/polymarket-confirms-cyberattack-third-party": {
+      "guid": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+      "fuente": "The Record",
+      "titulo": "Polymarket confirms cyberattack on third-party provider after outages",
+      "fecha_publicacion_iso": "2026-10-30T11:33:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-polymarket-confirms-cyberattack-on-third-party-provider-afte-e117daf2.html"
+    },
+    "https://therecord.media/russian-home-goods-chain-faces-disruptions": {
+      "guid": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+      "fuente": "The Record",
+      "titulo": "Russian popular home goods chain faces days of disruption following cyberattack",
+      "fecha_publicacion_iso": "2026-10-30T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-russian-popular-home-goods-chain-faces-days-of-disruption-fo-8dd5d26e.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft finally fixes VPN issues caused by September updates",
+      "fecha_publicacion_iso": "2026-10-30T11:20:26+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-microsoft-finally-fixes-vpn-issues-caused-by-september-updat-4198413c.html"
+    },
+    "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/": {
+      "guid": "https://www.securityweek.com/?p=50433",
+      "fuente": "SecurityWeek",
+      "titulo": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "fecha_publicacion_iso": "2026-10-30T11:07:11+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-drupal-commerce-core-vulnerability-exploited-against-online-35fc634a.html"
+    },
+    "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html": {
+      "guid": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "fuente": "The Hacker News",
+      "titulo": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "fecha_publicacion_iso": "2026-10-30T10:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-syrian-hacker-behind-fake-tweet-that-triggered-136-billion-m-6734aa3a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/",
+      "fuente": "Help Net Security",
+      "titulo": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "fecha_publicacion_iso": "2026-10-30T10:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-syrian-hacker-behind-fake-tweet-that-triggered-136-billion-m-6734aa3a.html"
+    },
+    "https://cyberscoop.com/syrian-hacker-ahmad-umar-agha-sentenced/": {
+      "guid": "https://cyberscoop.com/syrian-hacker-ahmad-umar-agha-sentenced/",
+      "fuente": "CyberScoop",
+      "titulo": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "fecha_publicacion_iso": "2026-10-30T10:40:45+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-syrian-hacker-behind-fake-tweet-that-triggered-136-billion-m-6734aa3a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-10-30T10:16:07+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-drupal-warns-of-critical-commerce-core-flaw-exploited-in-att-eaaaa83e.html"
+    },
+    "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50430",
+      "fuente": "SecurityWeek",
+      "titulo": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-10-30T09:41:36+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-2-million-drained-from-polymarket-traders-in-new-supply-chai-aedf5164.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/irregular-glm-5-3-cyber-capabilities-evaluation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389728",
+      "fuente": "Help Net Security",
+      "titulo": "Open-weight AI model GLM-5.3 cheated its way to correct answers",
+      "fecha_publicacion_iso": "2026-10-30T09:23:25+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-open-weight-ai-model-glm-5-3-cheated-its-way-to-correct-answ-27aad19a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "fuente": "BleepingComputer",
+      "titulo": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "fecha_publicacion_iso": "2026-10-30T09:18:13+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-binance-links-6-3-billion-crypto-theft-to-compromised-devops-93a6b87f.html"
+    },
+    "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html": {
+      "guid": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "fuente": "The Hacker News",
+      "titulo": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "fecha_publicacion_iso": "2026-10-30T08:55:47+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojani-ad2cc061.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/": {
+      "guid": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
+      "fuente": "Help Net Security",
+      "titulo": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "fecha_publicacion_iso": "2026-10-30T08:55:47+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojani-ad2cc061.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "fuente": "BleepingComputer",
+      "titulo": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "fecha_publicacion_iso": "2026-10-30T08:55:47+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-official-claude-code-extension-on-cursor-marketplace-trojani-ad2cc061.html"
+    },
+    "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/": {
+      "guid": "https://www.securityweek.com/?p=50426",
+      "fuente": "SecurityWeek",
+      "titulo": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "fecha_publicacion_iso": "2026-10-30T08:44:49+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-teamviewer-flaw-could-let-malicious-hosts-take-over-support-d0d43ed2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/binance-crypto-hack/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389720",
+      "fuente": "Help Net Security",
+      "titulo": "Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record",
+      "fecha_publicacion_iso": "2026-10-30T08:26:13+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-binance-hit-by-6-3-billion-theft-in-what-could-be-the-bigges-33255345.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-en-el-editor-de-comentarios-de-forocoches": {
+      "guid": "687730 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Exposición de información en el editor de comentarios de Forocoches",
+      "fecha_publicacion_iso": "2026-10-30T08:24:41+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-exposicion-de-informacion-en-el-editor-de-comentarios-de-for-c4ec078b.html"
+    },
+    "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/": {
+      "guid": "https://www.securityweek.com/?p=50423",
+      "fuente": "SecurityWeek",
+      "titulo": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "fecha_publicacion_iso": "2026-10-30T08:16:26+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-6-billion-binance-hack-bears-hallmarks-of-north-koreas-trade-3bb9ba7c.html"
+    },
+    "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward": {
+      "guid": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+      "fuente": "Dark Reading",
+      "titulo": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+      "fecha_publicacion_iso": "2026-10-30T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-as-russia-s-cyberwar-evolves-belarus-steps-forward-f6a72b86.html"
+    },
+    "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html": {
+      "guid": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "fecha_publicacion_iso": "2026-10-30T07:45:30+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-hackers-actively-exploit-highly-critical-drupal-commerce-cor-6d2a0802.html"
+    },
+    "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html": {
+      "guid": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "fecha_publicacion_iso": "2026-10-30T07:27:05+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-cisa-adds-actively-exploited-gitlab-rce-and-cisco-firewall-d-5100bc63.html"
+    },
+    "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/": {
+      "guid": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "fuente": "SecurityWeek",
+      "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "fecha_publicacion_iso": "2026-10-30T07:27:05+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-cisa-adds-actively-exploited-gitlab-rce-and-cisco-firewall-d-5100bc63.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "fecha_publicacion_iso": "2026-10-30T07:27:05+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-cisa-adds-actively-exploited-gitlab-rce-and-cisco-firewall-d-5100bc63.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
+      "fuente": "Dark Reading",
+      "titulo": "Why CTF Competitions May Be More Important Than Ever",
+      "fecha_publicacion_iso": "2026-10-29T19:56:44+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-why-ctf-competitions-may-be-more-important-than-ever-5553b245.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/actualizacion-30102026-multiples-vulnerabilidades-en-productos-de-cisco": {
+      "guid": "687683 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "[Actualización 30/10/2026] Múltiples vulnerabilidades en productos de Cisco",
+      "fecha_publicacion_iso": "2026-10-29T08:53:09+00:00",
+      "fecha_agregada_iso": "2026-10-30T16:00:33.537623+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-actualizacion-30-10-2026-multiples-vulnerabilidades-en-produ-67cfb035.html"
     }
   }
 }
