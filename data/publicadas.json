@@ -23151,6 +23151,134 @@
       "fecha_publicacion_iso": "2026-10-29T15:57:05+00:00",
       "fecha_agregada_iso": "2026-10-29T21:50:44.336084+00:00",
       "ruta_noticia": "/noticia/2026-10-29-linux-kernel-tcp-flaw-with-9-8-cvss-score-affects-ubuntu-red-649ecf4a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389568",
+      "fuente": "Help Net Security",
+      "titulo": "Fake IT help desk callers got by on little more than names and email addresses",
+      "fecha_publicacion_iso": "2026-10-30T06:30:26+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-fake-it-help-desk-callers-got-by-on-little-more-than-names-a-5eaccf8a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/stellar-cyber-integrated-security-operations-center/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389584",
+      "fuente": "Help Net Security",
+      "titulo": "What exactly is ISOC? And what does it mean for you?",
+      "fecha_publicacion_iso": "2026-10-30T06:00:14+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-what-exactly-is-isoc-and-what-does-it-mean-for-you-988808b6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389682",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers rebuild fake shopping sites within hours of a takedown",
+      "fecha_publicacion_iso": "2026-10-30T05:30:26+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-scammers-rebuild-fake-shopping-sites-within-hours-of-a-taked-8e54c008.html"
+    },
+    "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389589",
+      "fuente": "Help Net Security",
+      "titulo": "Smart TVs can harbor unpatched security flaws and track what you watch",
+      "fecha_publicacion_iso": "2026-10-30T05:00:27+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-smart-tvs-can-harbor-unpatched-security-flaws-and-track-what-eaa8d779.html"
+    },
+    "http://www.elladodelmal.com/2026/10/como-evitar-fugas-de-documentos-con-un.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4419782698177032735",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo evitar fugas de documentos con un \"DLP AI\" para ficheros de imágenes con Cloudflare Workers AI y Clef",
+      "fecha_publicacion_iso": "2026-10-30T04:27:49+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-como-evitar-fugas-de-documentos-con-un-dlp-ai-para-ficheros-649c4388.html"
+    },
+    "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539": {
+      "guid": "https://www.theregister.com/a/5306539",
+      "fuente": "The Register - Security",
+      "titulo": "In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security",
+      "fecha_publicacion_iso": "2026-10-30T04:22:12+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-fd607345.html"
+    },
+    "https://thehackernews.com/2026/10/binance-suffers-security-breach.html": {
+      "guid": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "fuente": "The Hacker News",
+      "titulo": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "fecha_publicacion_iso": "2026-10-30T04:14:59+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-binance-suffers-security-breach-affecting-6-3-billion-in-ass-1dad8889.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/roban-binance-mas-de-5800-millones-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-131685560973620434",
+      "fuente": "Segu-Info",
+      "titulo": "\"Roban\" a Binance más de 5.800 millones de dólares (por ahora)",
+      "fecha_publicacion_iso": "2026-10-29T23:43:48+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-roban-a-binance-mas-de-5-800-millones-de-dolares-por-ahora-f456d0e1.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "fecha_publicacion_iso": "2026-10-29T23:35:52+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-7363e725.html"
+    },
+    "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508": {
+      "guid": "https://www.theregister.com/a/5306508",
+      "fuente": "The Register - Security",
+      "titulo": "Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched",
+      "fecha_publicacion_iso": "2026-10-29T23:12:26+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-researchers-find-bugs-in-5-ai-developer-tools-with-openai-an-eee28578.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Binance probes potential $5.8 billion crypto-theft hack",
+      "fecha_publicacion_iso": "2026-10-29T22:45:23+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-binance-probes-potential-5-8-billion-crypto-theft-hack-7d9fa054.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+      "fecha_publicacion_iso": "2026-10-29T22:09:24+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-hugging-face-malware-campaign-returns-to-hijack-gpus-for-cry-a6d0e88b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "fuente": "BleepingComputer",
+      "titulo": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "fecha_publicacion_iso": "2026-10-29T22:08:04+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-japan-airlines-suffers-third-party-data-breach-exposing-pass-17e71a11.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+      "fuente": "Dark Reading",
+      "titulo": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+      "fecha_publicacion_iso": "2026-10-29T21:21:56+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-anthropic-themed-phishing-emails-bypass-top-security-tools-cbcc5cba.html"
+    },
+    "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era": {
+      "guid": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+      "fuente": "Dark Reading",
+      "titulo": "Rethinking Cybersecurity Awareness in the AI Era",
+      "fecha_publicacion_iso": "2026-10-29T20:15:37+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-rethinking-cybersecurity-awareness-in-the-ai-era-68f0757a.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-moviles/quishing-estafas-codigos-qr-como-protegerte/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-moviles/quishing-estafas-codigos-qr-como-protegerte/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Quishing: cómo funcionan las estafas con códigos QR y cómo protegerte",
+      "fecha_publicacion_iso": "2026-10-29T19:25:38+00:00",
+      "fecha_agregada_iso": "2026-10-30T07:09:39.733042+00:00",
+      "ruta_noticia": "/noticia/2026-10-30-quishing-como-funcionan-las-estafas-con-codigos-qr-y-como-pr-be32afc3.html"
     }
   }
 }
