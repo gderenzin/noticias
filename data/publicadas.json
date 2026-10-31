@@ -23863,6 +23863,22 @@
       "fecha_publicacion_iso": "2026-10-30T18:00:03+00:00",
       "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
       "ruta_noticia": "/noticia/2026-10-31-ataque-a-binance-unos-ciberdelincuentes-roban-6-300-millones-bbfdf333.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "fuente": "BleepingComputer",
+      "titulo": "Northflank security breach leads to abuse of customers' AI API keys",
+      "fecha_publicacion_iso": "2026-10-31T18:01:12+00:00",
+      "fecha_agregada_iso": "2026-10-31T20:28:06.210456+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-northflank-security-breach-leads-to-abuse-of-customers-ai-ap-ba55b05e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "fecha_publicacion_iso": "2026-10-31T15:35:11+00:00",
+      "fecha_agregada_iso": "2026-10-31T20:28:06.210456+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-new-android-sms-of-death-exploit-can-remotely-crash-unpatche-845cf24b.html"
     }
   }
 }
