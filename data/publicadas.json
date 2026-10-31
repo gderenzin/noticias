@@ -23783,6 +23783,86 @@
       "fecha_publicacion_iso": "2026-10-30T19:46:08+00:00",
       "fecha_agregada_iso": "2026-10-31T07:00:45.257432+00:00",
       "ruta_noticia": "/noticia/2026-10-31-behind-the-scenes-of-how-operation-blackout-went-down-983cd743.html"
+    },
+    "http://blog.segu-info.com.ar/2026/10/sitios-javascript-comprometidos-atacan.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3677398131325725143",
+      "fuente": "Segu-Info",
+      "titulo": "Sitios JavaScript comprometidos atacan a los administradores de WordPress para implementar una puerta trasera PHP persistente.",
+      "fecha_publicacion_iso": "2026-10-31T14:16:00+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-sitios-javascript-comprometidos-atacan-a-los-administradores-b54c7120.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Reddit to lock content behind logins to fight scrapers",
+      "fecha_publicacion_iso": "2026-10-31T14:05:15+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-reddit-to-lock-content-behind-logins-to-fight-scrapers-b35f9e57.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "fuente": "BleepingComputer",
+      "titulo": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "fecha_publicacion_iso": "2026-10-31T13:10:19+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-4e3b797f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "fecha_publicacion_iso": "2026-10-31T12:50:09+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-chainalysis-discloses-data-breach-from-offensive-agentic-tec-a291b705.html"
+    },
+    "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html": {
+      "guid": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "fuente": "The Hacker News",
+      "titulo": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "fecha_publicacion_iso": "2026-10-31T12:01:56+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-chainalysis-confirms-intrusion-into-internal-tools-and-expos-1f2870fb.html"
+    },
+    "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/": {
+      "guid": "6ae370037389580e6da942a4",
+      "fuente": "Wired - Security",
+      "titulo": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "fecha_publicacion_iso": "2026-10-31T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-spooky-new-infostealer-malware-uses-ai-to-autodox-victims-bc2326c8.html"
+    },
+    "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/": {
+      "guid": "https://www.securityweek.com/?p=50452",
+      "fuente": "SecurityWeek",
+      "titulo": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "fecha_publicacion_iso": "2026-10-31T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-f0c80b90.html"
+    },
+    "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html": {
+      "guid": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "fecha_publicacion_iso": "2026-10-31T08:27:43+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-attackers-chain-three-ivanti-connect-secure-flaws-to-gain-un-4a3beb5a.html"
+    },
+    "http://www.elladodelmal.com/2026/10/ecrime-2026-lisboa-2-al-6-de-noviembre.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5520672652157044070",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo formarse en Cybercrime: eCrime 2026 en Lisboa del 2 al 6 de Noviembre",
+      "fecha_publicacion_iso": "2026-10-31T05:48:44+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-como-formarse-en-cybercrime-ecrime-2026-en-lisboa-del-2-al-6-08efeafc.html"
+    },
+    "https://www.welivesecurity.com/es/cibercrimen/ataque-a-binance-ciberdelincuentes-roban-6300-millones-de-dolares/": {
+      "guid": "https://www.welivesecurity.com/es/cibercrimen/ataque-a-binance-ciberdelincuentes-roban-6300-millones-de-dolares/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Ataque a Binance: unos ciberdelincuentes roban 6.300 millones de dólares",
+      "fecha_publicacion_iso": "2026-10-30T18:00:03+00:00",
+      "fecha_agregada_iso": "2026-10-31T15:20:35.897966+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-ataque-a-binance-unos-ciberdelincuentes-roban-6-300-millones-bbfdf333.html"
     }
   }
 }
