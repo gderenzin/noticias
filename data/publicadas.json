@@ -23751,6 +23751,38 @@
       "fecha_publicacion_iso": "2026-10-30T14:08:14+00:00",
       "fecha_agregada_iso": "2026-10-30T21:31:19.303653+00:00",
       "ruta_noticia": "/noticia/2026-10-30-wordpress-rce-flaw-draws-nearly-63-000-attack-attempts-in-ju-6473fc77.html"
+    },
+    "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": {
+      "guid": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "fuente": "The Hacker News",
+      "titulo": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "fecha_publicacion_iso": "2026-10-31T05:33:41+00:00",
+      "fecha_agregada_iso": "2026-10-31T07:00:45.257432+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-a-shared-chatgpt-link-could-run-attacker-code-in-your-sessio-e8eb8234.html"
+    },
+    "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html": {
+      "guid": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "fecha_publicacion_iso": "2026-10-31T04:56:12+00:00",
+      "fecha_agregada_iso": "2026-10-31T07:00:45.257432+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-cloudflare-reports-18-2-million-network-layer-ddos-attacks-i-21ad2182.html"
+    },
+    "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/": {
+      "guid": "https://cyberscoop.com/?p=91390",
+      "fuente": "CyberScoop",
+      "titulo": "China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+      "fecha_publicacion_iso": "2026-10-30T21:30:00+00:00",
+      "fecha_agregada_iso": "2026-10-31T07:00:45.257432+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-china-backed-threat-group-used-agentic-ai-pentesting-tool-to-9ae5a482.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+      "fuente": "Dark Reading",
+      "titulo": "Behind the Scenes of How Operation Blackout Went Down",
+      "fecha_publicacion_iso": "2026-10-30T19:46:08+00:00",
+      "fecha_agregada_iso": "2026-10-31T07:00:45.257432+00:00",
+      "ruta_noticia": "/noticia/2026-10-31-behind-the-scenes-of-how-operation-blackout-went-down-983cd743.html"
     }
   }
 }
