@@ -23951,6 +23951,14 @@
       "fecha_publicacion_iso": "2026-11-01T07:02:58+00:00",
       "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
       "ruta_noticia": "/noticia/2026-11-01-netamloader-malware-targets-government-windows-10-systems-in-be08e34b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "fecha_publicacion_iso": "2026-11-01T19:57:53+00:00",
+      "fecha_agregada_iso": "2026-11-01T21:12:13.802929+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-fbi-links-6-3-billion-binance-crypto-heist-to-north-korean-h-8cfea889.html"
     }
   }
 }
