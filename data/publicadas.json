@@ -23887,6 +23887,70 @@
       "fecha_publicacion_iso": "2026-11-01T05:01:00+00:00",
       "fecha_agregada_iso": "2026-11-01T07:31:20.517424+00:00",
       "ruta_noticia": "/noticia/2026-11-01-de-hacker-a-hacker-pablo-gonzalez-vs-alejandro-acosta-como-h-e1806a1e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "fecha_publicacion_iso": "2026-11-01T15:11:21+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-alpine-linux-rebuilds-gitlab-after-attempted-rce-attack-af6ffe74.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "fecha_publicacion_iso": "2026-11-01T13:53:11+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-openai-says-it-s-doubling-pro-usage-limits-and-bringing-work-d15dc155.html"
+    },
+    "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/": {
+      "guid": "https://www.securityweek.com/?p=50438",
+      "fuente": "SecurityWeek",
+      "titulo": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "fecha_publicacion_iso": "2026-11-01T11:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-northstar-security-exits-stealth-with-7m-to-expose-toxic-ris-1d293ae9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389726",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Binance hit by $6.3 billion theft, impact of Brotli vulnerability",
+      "fecha_publicacion_iso": "2026-11-01T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-week-in-review-binance-hit-by-6-3-billion-theft-impact-of-br-bfe2619c.html"
+    },
+    "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "fuente": "The Hacker News",
+      "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "fecha_publicacion_iso": "2026-11-01T08:51:31+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-cvss-10-0-lxd-microcloud-flaw-lets-attackers-impersonate-tru-c1c20131.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "fecha_publicacion_iso": "2026-11-01T07:25:40+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-hackers-steal-about-2-7-million-from-polymarket-traders-via-2a3e4a8e.html"
+    },
+    "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html": {
+      "guid": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "fecha_publicacion_iso": "2026-11-01T07:03:00+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-fbi-links-north-korea-s-tradertraitor-to-record-6-43-billion-6e20a979.html"
+    },
+    "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html": {
+      "guid": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "fuente": "The Hacker News",
+      "titulo": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "fecha_publicacion_iso": "2026-11-01T07:02:58+00:00",
+      "fecha_agregada_iso": "2026-11-01T16:01:58.673137+00:00",
+      "ruta_noticia": "/noticia/2026-11-01-netamloader-malware-targets-government-windows-10-systems-in-be08e34b.html"
     }
   }
 }
