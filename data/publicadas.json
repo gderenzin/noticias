@@ -23967,6 +23967,62 @@
       "fecha_publicacion_iso": "2026-11-01T22:47:26+00:00",
       "fecha_agregada_iso": "2026-11-02T00:44:39.758370+00:00",
       "ruta_noticia": "/noticia/2026-11-01-federal-court-tosses-trump-lawsuit-challenging-alaska-senate-2dabc341.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389837",
+      "fuente": "Help Net Security",
+      "titulo": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
+      "fecha_publicacion_iso": "2026-11-02T07:09:55+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-deepseek-open-sources-super-agent-a-coding-agent-that-watche-8f51d84a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389575",
+      "fuente": "Help Net Security",
+      "titulo": "The first ten lines of a command policy for AI coding agents",
+      "fecha_publicacion_iso": "2026-11-02T06:30:36+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-the-first-ten-lines-of-a-command-policy-for-ai-coding-agents-25d58d63.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389639",
+      "fuente": "Help Net Security",
+      "titulo": "Byoky: Open-source wallet for AI API keys",
+      "fecha_publicacion_iso": "2026-11-02T06:00:33+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-byoky-open-source-wallet-for-ai-api-keys-af20a6ee.html"
+    },
+    "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html": {
+      "guid": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "fuente": "The Hacker News",
+      "titulo": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "fecha_publicacion_iso": "2026-11-02T05:51:07+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-new-volta-infostealer-uses-claude-gemini-and-kimi-ai-to-rank-9068a344.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389730",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Trust Onion uses rotating codewords to verify callers",
+      "fecha_publicacion_iso": "2026-11-02T05:30:38+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-product-showcase-trust-onion-uses-rotating-codewords-to-veri-e7b145f6.html"
+    },
+    "http://www.elladodelmal.com/2026/11/cp-advantage-2026-en-praga-el-5-de.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5956941821091903180",
+      "fuente": "El Lado del Mal",
+      "titulo": "CP Advantage 2026: En Praga el 5 de Noviembre",
+      "fecha_publicacion_iso": "2026-11-02T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-cp-advantage-2026-en-praga-el-5-de-noviembre-ad897290.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/aur0ra-ransomware-ai-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389826",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware gang talked AI agents into doing much of its dirty work",
+      "fecha_publicacion_iso": "2026-11-02T05:00:46+00:00",
+      "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-ransomware-gang-talked-ai-agents-into-doing-much-of-its-dirt-519e4238.html"
     }
   }
 }
