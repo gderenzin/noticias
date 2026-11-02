@@ -24023,6 +24023,406 @@
       "fecha_publicacion_iso": "2026-11-02T05:00:46+00:00",
       "fecha_agregada_iso": "2026-11-02T07:41:50.011832+00:00",
       "ruta_noticia": "/noticia/2026-11-02-ransomware-gang-talked-ai-agents-into-doing-much-of-its-dirt-519e4238.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045": {
+      "guid": "https://www.theregister.com/a/5307045",
+      "fuente": "The Register - Security",
+      "titulo": "Cops bust botnet of 1.3M infected Android TV boxes",
+      "fecha_publicacion_iso": "2026-11-02T19:03:31+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-cops-bust-botnet-of-1-3m-infected-android-tv-boxes-4ae274b3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "fecha_publicacion_iso": "2026-11-02T19:00:45+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-fintech-platform-sageworks-taken-offline-after-suspected-cyb-b9a8fe94.html"
+    },
+    "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise": {
+      "guid": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+      "fuente": "The Record",
+      "titulo": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+      "fecha_publicacion_iso": "2026-11-02T17:05:20+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-polymarket-pledges-to-give-3-9-million-back-to-victims-after-b22118a1.html"
+    },
+    "https://www.wired.com/story/anti-oligarchy-activists-plan-to-dox-elon-musk-and-hundreds-of-billionaire-linked-homes/": {
+      "guid": "6ae223b96935299a386949bd",
+      "fuente": "Wired - Security",
+      "titulo": "Anti-Oligarchy Activists Plan to Dox Elon Musk and Hundreds of Billionaire-Linked Homes",
+      "fecha_publicacion_iso": "2026-11-02T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-anti-oligarchy-activists-plan-to-dox-elon-musk-and-hundreds-d96c5fa5.html"
+    },
+    "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html": {
+      "guid": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "fecha_publicacion_iso": "2026-11-02T16:57:56+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-weekly-recap-critical-cves-linux-ddos-botnet-device-code-phi-65afadf0.html"
+    },
+    "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998": {
+      "guid": "https://www.theregister.com/a/5306998",
+      "fuente": "The Register - Security",
+      "titulo": "Thieves pilfer environment variables from Trigger AI workflow tool",
+      "fecha_publicacion_iso": "2026-11-02T16:44:30+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-thieves-pilfer-environment-variables-from-trigger-ai-workflo-8342145f.html"
+    },
+    "https://therecord.media/hackers-ukraine-belarus-russia": {
+      "guid": "https://therecord.media/hackers-ukraine-belarus-russia",
+      "fuente": "The Record",
+      "titulo": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
+      "fecha_publicacion_iso": "2026-11-02T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-russia-s-statistics-agency-confirms-cyberattack-claimed-by-b-acbef9b6.html"
+    },
+    "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967": {
+      "guid": "https://www.theregister.com/a/5306967",
+      "fuente": "The Register - Security",
+      "titulo": "Token thieves costing companies $100K+ per day in illicit LLM charges",
+      "fecha_publicacion_iso": "2026-11-02T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-token-thieves-costing-companies-100k-per-day-in-illicit-llm-6d4404d5.html"
+    },
+    "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html": {
+      "guid": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "fecha_publicacion_iso": "2026-11-02T15:50:26+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-google-disrupts-1-3-million-device-android-botnet-says-tv-bo-948be6f5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/",
+      "fuente": "Help Net Security",
+      "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "fecha_publicacion_iso": "2026-11-02T15:50:26+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-google-disrupts-1-3-million-device-android-botnet-says-tv-bo-948be6f5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "fecha_publicacion_iso": "2026-11-02T15:50:26+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-google-disrupts-1-3-million-device-android-botnet-says-tv-bo-948be6f5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+      "fuente": "BleepingComputer",
+      "titulo": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+      "fecha_publicacion_iso": "2026-11-02T15:03:07+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-btcpay-server-warns-of-hot-wallet-crypto-thefts-on-outdated-be1d39ea.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+      "fuente": "BleepingComputer",
+      "titulo": "Your Mobile Carrier Stores Your Call Logs for Years",
+      "fecha_publicacion_iso": "2026-11-02T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-your-mobile-carrier-stores-your-call-logs-for-years-5ea1d647.html"
+    },
+    "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/": {
+      "guid": "https://www.securityweek.com/?p=50474",
+      "fuente": "SecurityWeek",
+      "titulo": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+      "fecha_publicacion_iso": "2026-11-02T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-cybersecurity-m-a-roundup-37-deals-announced-in-october-2026-c0b0ac94.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+      "fuente": "Dark Reading",
+      "titulo": "Microsoft's AI Risk Report Misses This Key Detail",
+      "fecha_publicacion_iso": "2026-11-02T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-microsoft-s-ai-risk-report-misses-this-key-detail-6c5cf422.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/ai-powered-infostealer-volta-victim-profiling/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389981",
+      "fuente": "Help Net Security",
+      "titulo": "AI-powered infostealer picks out the most profitable parts of your stolen data",
+      "fecha_publicacion_iso": "2026-11-02T14:47:57+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-ai-powered-infostealer-picks-out-the-most-profitable-parts-o-f3672c9c.html"
+    },
+    "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html": {
+      "guid": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "fuente": "The Hacker News",
+      "titulo": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+      "fecha_publicacion_iso": "2026-11-02T14:46:05+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-darkblinders-compromises-israeli-target-and-iraqi-kurdish-go-39749d75.html"
+    },
+    "https://www.theregister.com/security/2026/11/02/nuclear-threats-and-street-brawls-russia-ukraine-report-attacks-on-their-emergency-alert-apps/5306901": {
+      "guid": "https://www.theregister.com/a/5306901",
+      "fuente": "The Register - Security",
+      "titulo": "Nuclear threats and street brawls: Russia, Ukraine report attacks on their emergency alert apps",
+      "fecha_publicacion_iso": "2026-11-02T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-nuclear-threats-and-street-brawls-russia-ukraine-report-atta-62404d68.html"
+    },
+    "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/": {
+      "guid": "https://www.securityweek.com/?p=50472",
+      "fuente": "SecurityWeek",
+      "titulo": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+      "fecha_publicacion_iso": "2026-11-02T14:44:18+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-florida-student-aid-website-hack-puts-data-of-4-9-million-pe-36bb8340.html"
+    },
+    "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware": {
+      "guid": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
+      "fuente": "The Record",
+      "titulo": "Apple warns users in 99 countries of mercenary spyware",
+      "fecha_publicacion_iso": "2026-11-02T14:42:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-apple-warns-users-in-99-countries-of-mercenary-spyware-9b847cec.html"
+    },
+    "https://therecord.media/ukraine-hackers-russia-alert-system": {
+      "guid": "https://therecord.media/ukraine-hackers-russia-alert-system",
+      "fuente": "The Record",
+      "titulo": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
+      "fecha_publicacion_iso": "2026-11-02T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-russian-and-ukrainian-hackers-hijack-emergency-apps-to-sprea-7bca49cd.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
+      "fuente": "Dark Reading",
+      "titulo": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
+      "fecha_publicacion_iso": "2026-11-02T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-paprat-cyber-espionage-campaign-leaves-a-bitter-taste-in-sou-96515b09.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes Smart App Control broken by October Windows update",
+      "fecha_publicacion_iso": "2026-11-02T13:57:29+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-microsoft-fixes-smart-app-control-broken-by-october-windows-5e44eeba.html"
+    },
+    "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/": {
+      "guid": "https://www.securityweek.com/?p=50470",
+      "fuente": "SecurityWeek",
+      "titulo": "Revolve Data Breach Impacts at Least 180,000 People",
+      "fecha_publicacion_iso": "2026-11-02T13:35:21+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-revolve-data-breach-impacts-at-least-180-000-people-adcc13fa.html"
+    },
+    "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/": {
+      "guid": "https://www.securityweek.com/?p=50468",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
+      "fecha_publicacion_iso": "2026-11-02T13:25:11+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-google-introduces-250-000-root-in-cloud-bug-bounty-reward-afbf7260.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/02/frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supermarkets-again/5306924": {
+      "guid": "https://www.theregister.com/a/5306924",
+      "fuente": "The Register - Security",
+      "titulo": "Frozen part II: Hackers remotely defrost produce in Euro supermarkets ... again",
+      "fecha_publicacion_iso": "2026-11-02T13:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supe-cc016daa.html"
+    },
+    "https://therecord.media/cyberattack-grocery-freezers-europe": {
+      "guid": "https://therecord.media/cyberattack-grocery-freezers-europe",
+      "fuente": "The Record",
+      "titulo": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+      "fecha_publicacion_iso": "2026-11-02T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-second-wave-of-suspected-cyberattacks-hits-supermarket-freez-00a3b1e5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/02/european-supermarkets-refrigeration-units-cyberattacks/",
+      "fuente": "Help Net Security",
+      "titulo": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+      "fecha_publicacion_iso": "2026-11-02T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-second-wave-of-suspected-cyberattacks-hits-supermarket-freez-00a3b1e5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+      "fecha_publicacion_iso": "2026-11-02T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-second-wave-of-suspected-cyberattacks-hits-supermarket-freez-00a3b1e5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/trezor-hardware-wallet-implant-cryptobilis/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389928",
+      "fuente": "Help Net Security",
+      "titulo": "Trezor warns some of its wallets may hide a seed-stealing implant",
+      "fecha_publicacion_iso": "2026-11-02T12:48:04+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-trezor-warns-some-of-its-wallets-may-hide-a-seed-stealing-im-45cd3130.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+      "fecha_publicacion_iso": "2026-11-02T12:47:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-over-1-000-gitlab-servers-vulnerable-to-ongoing-rce-attacks-7398c8fe.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/php2shell-por-que-un-exploit-no.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3850692498413143063",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell, por qué un exploit no funciona en todas partes",
+      "fecha_publicacion_iso": "2026-11-02T12:03:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-php2shell-por-que-un-exploit-no-funciona-en-todas-partes-2fbbb87f.html"
+    },
+    "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+      "fecha_publicacion_iso": "2026-11-02T11:50:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-critical-langflow-flaws-could-let-unauthenticated-attackers-ad2df654.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/chainalysis-breached-using-offensive-agentic-techniques/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389930",
+      "fuente": "Help Net Security",
+      "titulo": "Chainalysis breached using “offensive agentic techniques”",
+      "fecha_publicacion_iso": "2026-11-02T11:40:19+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-chainalysis-breached-using-offensive-agentic-techniques-5d2dccd9.html"
+    },
+    "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html": {
+      "guid": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "fuente": "The Hacker News",
+      "titulo": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+      "fecha_publicacion_iso": "2026-11-02T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-is-your-soc-ready-for-ai-agents-a-maturity-check-before-you-c477f181.html"
+    },
+    "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50466",
+      "fuente": "SecurityWeek",
+      "titulo": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-11-02T11:29:39+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-malicious-claude-code-extension-served-in-cursor-supply-chai-fe787079.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+      "fecha_publicacion_iso": "2026-11-02T11:28:42+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-synology-warns-of-c3rb3r-ransomware-attacks-targeting-nas-de-e52f7534.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+      "fecha_publicacion_iso": "2026-11-02T11:08:45+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-attackers-pose-as-it-support-on-microsoft-teams-abuse-ad-cs-d596e3f2.html"
+    },
+    "https://cyberscoop.com/nick-andersen-cisa-acting-director-nomination/": {
+      "guid": "https://cyberscoop.com/?p=91385",
+      "fuente": "CyberScoop",
+      "titulo": "Could Nick Andersen’s leadership outlast the clock on his acting role?",
+      "fecha_publicacion_iso": "2026-11-02T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-could-nick-andersens-leadership-outlast-the-clock-on-his-act-de117707.html"
+    },
+    "https://www.wired.com/story/my-journey-to-the-center-of-americas-political-spam-text-hell/": {
+      "guid": "6ae3707f4c0c94a306d05686",
+      "fuente": "Wired - Security",
+      "titulo": "My Journey to the Center of America’s Political Spam Text Hell",
+      "fecha_publicacion_iso": "2026-11-02T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-my-journey-to-the-center-of-americas-political-spam-text-hel-4263aac4.html"
+    },
+    "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html": {
+      "guid": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+      "fecha_publicacion_iso": "2026-11-02T10:49:59+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-government-linux-servers-targeted-with-sysgorat-and-suspecte-87a25e1b.html"
+    },
+    "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=50463",
+      "fuente": "SecurityWeek",
+      "titulo": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+      "fecha_publicacion_iso": "2026-11-02T10:27:49+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-chainalysis-discloses-data-breach-following-ai-driven-cybera-2e0eed25.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/fbi-north-korea-binance-hack/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389890",
+      "fuente": "Help Net Security",
+      "titulo": "FBI pins $6.3 billion Binance crypto heist on North Korea while scammers circle anxious users",
+      "fecha_publicacion_iso": "2026-11-02T10:12:51+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-fbi-pins-6-3-billion-binance-crypto-heist-on-north-korea-whi-31148243.html"
+    },
+    "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889": {
+      "guid": "https://www.theregister.com/security/2026/11/02/fbi-pins-63b-binance-crypto-heist-on-north-korean-hackers/5306889",
+      "fuente": "The Register - Security",
+      "titulo": "FBI pins $6.3 billion Binance crypto heist on North Korea while scammers circle anxious users",
+      "fecha_publicacion_iso": "2026-11-02T10:12:51+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-fbi-pins-6-3-billion-binance-crypto-heist-on-north-korea-whi-31148243.html"
+    },
+    "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/": {
+      "guid": "6ace3a4387812505ce91e493",
+      "fuente": "Wired - Security",
+      "titulo": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "fecha_publicacion_iso": "2026-11-02T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-hundreds-of-mundane-ai-apps-are-hiding-sexually-abusive-deep-865143ca.html"
+    },
+    "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/": {
+      "guid": "https://www.securityweek.com/?p=50461",
+      "fuente": "SecurityWeek",
+      "titulo": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+      "fecha_publicacion_iso": "2026-11-02T09:33:15+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-polymarket-returns-3-9-million-to-traders-as-debugbear-cites-ff9c9693.html"
+    },
+    "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/": {
+      "guid": "https://www.securityweek.com/?p=50459",
+      "fuente": "SecurityWeek",
+      "titulo": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
+      "fecha_publicacion_iso": "2026-11-02T08:40:36+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-fbi-flags-over-600-addresses-tied-to-north-koreas-binance-he-1befc304.html"
+    },
+    "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/": {
+      "guid": "https://www.securityweek.com/?p=50457",
+      "fuente": "SecurityWeek",
+      "titulo": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+      "fecha_publicacion_iso": "2026-11-02T07:57:49+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-ivanti-patches-two-more-zero-days-exploited-in-connect-secur-0bc09b42.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+      "fecha_publicacion_iso": "2026-11-02T07:57:49+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-ivanti-patches-two-more-zero-days-exploited-in-connect-secur-0bc09b42.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
+      "fuente": "Help Net Security",
+      "titulo": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+      "fecha_publicacion_iso": "2026-11-02T07:57:49+00:00",
+      "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-ivanti-patches-two-more-zero-days-exploited-in-connect-secur-0bc09b42.html"
     }
   }
 }
