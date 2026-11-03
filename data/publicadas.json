@@ -24503,6 +24503,230 @@
       "fecha_publicacion_iso": "2026-11-02T19:46:54+00:00",
       "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
       "ruta_noticia": "/noticia/2026-11-02-exploit-sms-de-la-muerte-en-android-puede-bloquear-telefonos-2aafef97.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390135",
+      "fuente": "Help Net Security",
+      "titulo": "AI agents scale and speed up Chinese-linked attacks",
+      "fecha_publicacion_iso": "2026-11-03T12:31:59+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-ai-agents-scale-and-speed-up-chinese-linked-attacks-d7cae2dc.html"
+    },
+    "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50494",
+      "fuente": "SecurityWeek",
+      "titulo": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-03T12:21:49+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-androids-november-2026-updates-patch-over-200-vulnerabilitie-14152597.html"
+    },
+    "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50492",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Node-RED Flaw Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-03T12:10:19+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-critical-node-red-flaw-exploited-in-attacks-5c6c31b6.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/desmantelan-una-botnet-de-android-de-13.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3393272322656261389",
+      "fuente": "Segu-Info",
+      "titulo": "Desmantelan una botnet de Android de 1,3 millones en decodificadores de TV",
+      "fecha_publicacion_iso": "2026-11-03T12:09:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-desmantelan-una-botnet-de-android-de-1-3-millones-en-decodif-a408cf7f.html"
+    },
+    "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/": {
+      "guid": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+      "fecha_publicacion_iso": "2026-11-03T12:05:52+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-b-8ede56d4.html"
+    },
+    "https://cyberscoop.com/cisa-2030-strategy-operational-technology-blind-trust-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91409",
+      "fuente": "CyberScoop",
+      "titulo": "CISA’s new strategy runs into America’s blind trust problem",
+      "fecha_publicacion_iso": "2026-11-03T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-cisas-new-strategy-runs-into-americas-blind-trust-problem-96743687.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Harvard University data breach exposed info of 851,000 accounts",
+      "fecha_publicacion_iso": "2026-11-03T10:53:25+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-harvard-university-data-breach-exposed-info-of-851-000-accou-8491f2b2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390024",
+      "fuente": "Help Net Security",
+      "titulo": "Gorbag APT group hits Ukrainian courts and city councils with self-deleting malware",
+      "fecha_publicacion_iso": "2026-11-03T10:00:14+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-gorbag-apt-group-hits-ukrainian-courts-and-city-councils-wit-dc3fd7a4.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-alo-suite-de-am-system": {
+      "guid": "689665 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en ALO Suite de AM System",
+      "fecha_publicacion_iso": "2026-11-03T09:51:21+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-multiples-vulnerabilidades-en-alo-suite-de-am-system-a519c8b6.html"
+    },
+    "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/": {
+      "guid": "https://www.securityweek.com/?p=50490",
+      "fuente": "SecurityWeek",
+      "titulo": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "fecha_publicacion_iso": "2026-11-03T09:49:12+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-crit-5e74da19.html"
+    },
+    "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200": {
+      "guid": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
+      "fuente": "The Register - Security",
+      "titulo": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "fecha_publicacion_iso": "2026-11-03T09:49:12+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-crit-5e74da19.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/llmjacking-stolen-ai-access-cloud-bills/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390073",
+      "fuente": "Help Net Security",
+      "titulo": "Stolen AI access leaves companies with cloud bills of up to $1 million",
+      "fecha_publicacion_iso": "2026-11-03T09:39:05+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-stolen-ai-access-leaves-companies-with-cloud-bills-of-up-to-1355a9e6.html"
+    },
+    "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/": {
+      "guid": "https://www.securityweek.com/?p=50488",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "fecha_publicacion_iso": "2026-11-03T09:22:09+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-google-dismantles-xcpe-botnet-of-1-3-million-android-devices-402458e4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/openai-bigger-bug-bounty-rewards/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390051",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI raises top bug bounty payout to $172,000 with bonuses",
+      "fecha_publicacion_iso": "2026-11-03T08:58:59+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-openai-raises-top-bug-bounty-payout-to-172-000-with-bonuses-fc835976.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/opal-security-agent-id-virtual-event/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389915",
+      "fuente": "Help Net Security",
+      "titulo": "Opal’s agent.ID virtual event: Top security leaders on governing Al agents",
+      "fecha_publicacion_iso": "2026-11-03T08:55:07+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-opals-agent-id-virtual-event-top-security-leaders-on-governi-c1b0c87a.html"
+    },
+    "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/": {
+      "guid": "https://www.securityweek.com/?p=50485",
+      "fuente": "SecurityWeek",
+      "titulo": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+      "fecha_publicacion_iso": "2026-11-03T08:49:03+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-natos-crossed-swords-exercise-brings-ai-agents-into-cyber-op-0658f100.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "fecha_publicacion_iso": "2026-11-03T08:31:48+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-hackers-exploit-btcpay-server-flaw-to-steal-bitcoin-and-lite-07d9937f.html"
+    },
+    "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/": {
+      "guid": "https://www.securityweek.com/?p=50480",
+      "fuente": "SecurityWeek",
+      "titulo": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+      "fecha_publicacion_iso": "2026-11-03T07:43:24+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-over-100-european-stores-hit-as-supermarket-fridge-attacks-r-f9c39fb1.html"
+    },
+    "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html": {
+      "guid": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "fecha_publicacion_iso": "2026-11-03T07:43:07+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-synology-nas-devices-targeted-in-ransomware-attacks-exploiti-d108c8ca.html"
+    },
+    "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html": {
+      "guid": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "fecha_publicacion_iso": "2026-11-03T07:27:07+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-new-wave-of-refrigeration-cyberattacks-hits-supermarkets-acr-36d509a3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389850",
+      "fuente": "Help Net Security",
+      "titulo": "What human hackers still do better than AI, according to HackerOne’s CEO",
+      "fecha_publicacion_iso": "2026-11-03T06:30:36+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-what-human-hackers-still-do-better-than-ai-according-to-hack-67037c41.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/product-showcase-sweet-security-virtual-patching/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389869",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Sweet Virtual Patching stops HTTP2Shell while fixes catch up",
+      "fecha_publicacion_iso": "2026-11-03T06:00:18+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-product-showcase-sweet-virtual-patching-stops-http2shell-whi-87343440.html"
+    },
+    "http://www.elladodelmal.com/2026/11/mountain-quest.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-7794292576948068092",
+      "fuente": "El Lado del Mal",
+      "titulo": "Mountain Quest",
+      "fecha_publicacion_iso": "2026-11-03T05:55:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-mountain-quest-37c3ba09.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389885",
+      "fuente": "Help Net Security",
+      "titulo": "AI coding agents are installing MCP servers that will never be patched",
+      "fecha_publicacion_iso": "2026-11-03T05:45:53+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-ai-coding-agents-are-installing-mcp-servers-that-will-never-16de9d47.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "fecha_publicacion_iso": "2026-11-03T05:34:41+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-attackers-exploit-critical-siemens-iot2050-flaw-to-plant-rem-3e6bc640.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-target-unpatched.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "fecha_publicacion_iso": "2026-11-03T05:34:37+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-attackers-target-unpatched-cryptopayment-gateway-flaw-that-c-d4042f8d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/fireperf-open-source-network-testing-tool/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389868",
+      "fuente": "Help Net Security",
+      "titulo": "Fireperf: Open-source network testing tool for firewalls and routers",
+      "fecha_publicacion_iso": "2026-11-03T05:30:59+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-fireperf-open-source-network-testing-tool-for-firewalls-and-9a67e075.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/03/cybersecurity-jobs-available-right-now-november-3-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=389924",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: November 3, 2026",
+      "fecha_publicacion_iso": "2026-11-03T05:00:25+00:00",
+      "fecha_agregada_iso": "2026-11-03T12:49:59.911876+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-cybersecurity-jobs-available-right-now-november-3-2026-08e9e441.html"
     }
   }
 }
