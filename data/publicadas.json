@@ -24423,6 +24423,86 @@
       "fecha_publicacion_iso": "2026-11-02T07:57:49+00:00",
       "fecha_agregada_iso": "2026-11-02T19:32:32.552426+00:00",
       "ruta_noticia": "/noticia/2026-11-02-ivanti-patches-two-more-zero-days-exploited-in-connect-secur-0bc09b42.html"
+    },
+    "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/": {
+      "guid": "https://krebsonsecurity.com/?p=74548",
+      "fuente": "Krebs on Security",
+      "titulo": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "fecha_publicacion_iso": "2026-11-03T02:24:31+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-p-3b6a5110.html"
+    },
+    "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months": {
+      "guid": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+      "fuente": "The Record",
+      "titulo": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+      "fecha_publicacion_iso": "2026-11-03T00:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-uk-faces-unprecedented-rise-in-cyberattacks-in-coming-months-266b3df3.html"
+    },
+    "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086": {
+      "guid": "https://www.theregister.com/a/5307086",
+      "fuente": "The Register - Security",
+      "titulo": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
+      "fecha_publicacion_iso": "2026-11-02T22:55:17+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-max-severity-bug-in-widely-used-ot-programming-tool-exploite-4e585df6.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+      "fuente": "Dark Reading",
+      "titulo": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+      "fecha_publicacion_iso": "2026-11-02T22:27:24+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-one-compromised-laptop-billions-lost-the-binance-attack-path-8158b1dc.html"
+    },
+    "https://cyberscoop.com/google-disrupts-xcpe-botnet-videostrong-android-devices/": {
+      "guid": "https://cyberscoop.com/?p=91415",
+      "fuente": "CyberScoop",
+      "titulo": "Google shuts down global botnet running on certified Android devices",
+      "fecha_publicacion_iso": "2026-11-02T21:58:24+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-google-shuts-down-global-botnet-running-on-certified-android-4112664a.html"
+    },
+    "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist": {
+      "guid": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+      "fuente": "The Record",
+      "titulo": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+      "fecha_publicacion_iso": "2026-11-02T21:42:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-largest-crypto-exchange-in-brazil-confirms-cyberattack-as-mi-d32892ba.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+      "fuente": "BleepingComputer",
+      "titulo": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "fecha_publicacion_iso": "2026-11-02T21:40:14+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-chinese-hackers-use-artex-ai-in-automated-attacks-against-20-f6edbcaf.html"
+    },
+    "https://cyberscoop.com/business-groups-cisa-2015-renewal-ndaa-cybersecurity/": {
+      "guid": "https://cyberscoop.com/?p=91403",
+      "fuente": "CyberScoop",
+      "titulo": "Business groups mount fresh campaign for long-term renewal of information sharing law",
+      "fecha_publicacion_iso": "2026-11-02T21:04:42+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-business-groups-mount-fresh-campaign-for-long-term-renewal-o-5ea36275.html"
+    },
+    "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": {
+      "guid": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "fuente": "The Record",
+      "titulo": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
+      "fecha_publicacion_iso": "2026-11-02T19:54:00+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-michigan-state-cyber-incident-claimed-by-ransomware-gang-beh-18836a27.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/exploit-sms-de-la-muerte-en-android.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8691014791897880035",
+      "fuente": "Segu-Info",
+      "titulo": "Exploit \"SMS de la muerte\" en Android puede bloquear teléfonos de forma remota",
+      "fecha_publicacion_iso": "2026-11-02T19:46:54+00:00",
+      "fecha_agregada_iso": "2026-11-03T02:56:13.117909+00:00",
+      "ruta_noticia": "/noticia/2026-11-02-exploit-sms-de-la-muerte-en-android-puede-bloquear-telefonos-2aafef97.html"
     }
   }
 }
