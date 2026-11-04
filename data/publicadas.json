@@ -25071,6 +25071,54 @@
       "fecha_publicacion_iso": "2026-11-02T19:04:53+00:00",
       "fecha_agregada_iso": "2026-11-03T20:29:43.661722+00:00",
       "ruta_noticia": "/noticia/2026-11-03-sitios-web-falsos-y-agentes-de-ia-riesgos-y-como-protegerse-a9dfee59.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+      "fecha_publicacion_iso": "2026-11-03T22:18:50+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-d-b0a8ea5b.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security": {
+      "guid": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
+      "fuente": "Dark Reading",
+      "titulo": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
+      "fecha_publicacion_iso": "2026-11-03T22:16:49+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-fresh-european-fridge-attacks-put-cold-chain-security-in-foc-df7c4721.html"
+    },
+    "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398": {
+      "guid": "https://www.theregister.com/a/5307398",
+      "fuente": "The Register - Security",
+      "titulo": "North Korean fake job interview led to $6.3B Binance heist",
+      "fecha_publicacion_iso": "2026-11-03T22:04:45+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-north-korean-fake-job-interview-led-to-6-3b-binance-heist-7f80142f.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
+      "fuente": "Dark Reading",
+      "titulo": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
+      "fecha_publicacion_iso": "2026-11-03T21:57:12+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-germany-busts-crime-as-a-service-investment-fraud-outfit-699d6dc9.html"
+    },
+    "https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/": {
+      "guid": "https://cyberscoop.com/?p=91440",
+      "fuente": "CyberScoop",
+      "titulo": "Defense and aerospace firm settles with government over allegedly failing to meet cybersecurity contract requirements",
+      "fecha_publicacion_iso": "2026-11-03T21:49:51+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-defense-and-aerospace-firm-settles-with-government-over-alle-d327652e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "fuente": "BleepingComputer",
+      "titulo": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "fecha_publicacion_iso": "2026-11-03T21:28:44+00:00",
+      "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
+      "ruta_noticia": "/noticia/2026-11-03-workos-says-attacker-used-artex-ai-to-breach-internal-sales-27b11b63.html"
     }
   }
 }
