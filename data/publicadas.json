@@ -25119,6 +25119,318 @@
       "fecha_publicacion_iso": "2026-11-03T21:28:44+00:00",
       "fecha_agregada_iso": "2026-11-04T01:21:29.978936+00:00",
       "ruta_noticia": "/noticia/2026-11-03-workos-says-attacker-used-artex-ai-to-breach-internal-sales-27b11b63.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/impart-security-runtime-defense-harness/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390300",
+      "fuente": "Help Net Security",
+      "titulo": "Impart uses AI to build virtual patches without putting models in the traffic path",
+      "fecha_publicacion_iso": "2026-11-04T12:48:29+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-impart-uses-ai-to-build-virtual-patches-without-putting-mode-460b0d6e.html"
+    },
+    "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/": {
+      "guid": "https://www.securityweek.com/?p=50527",
+      "fuente": "SecurityWeek",
+      "titulo": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+      "fecha_publicacion_iso": "2026-11-04T12:43:20+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-ai-linked-breaches-mount-as-workos-northflank-trigger-dev-di-2f587759.html"
+    },
+    "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/": {
+      "guid": "https://www.securityweek.com/?p=50525",
+      "fuente": "SecurityWeek",
+      "titulo": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+      "fecha_publicacion_iso": "2026-11-04T12:27:58+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-canadian-extradited-to-us-over-cryptomining-hacks-on-univers-9c244103.html"
+    },
+    "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "fecha_publicacion_iso": "2026-11-04T12:07:04+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-critical-rails-flaw-lets-attackers-write-server-files-via-cr-d013e25b.html"
+    },
+    "https://www.theregister.com/security/2026/11/04/cyberattack-on-french-plasma-stores-is-enough-to-make-your-blood-boil/5307519": {
+      "guid": "https://www.theregister.com/a/5307519",
+      "fuente": "The Register - Security",
+      "titulo": "Cyberattack on French plasma stores is enough to make your blood boil",
+      "fecha_publicacion_iso": "2026-11-04T11:56:54+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-cyberattack-on-french-plasma-stores-is-enough-to-make-your-b-bb7f8696.html"
+    },
+    "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html": {
+      "guid": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "fuente": "The Hacker News",
+      "titulo": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "fecha_publicacion_iso": "2026-11-04T11:46:27+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-xen-hypervisor-flaws-let-one-malicious-vm-read-and-write-any-de8bbdd0.html"
+    },
+    "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html": {
+      "guid": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "fuente": "The Hacker News",
+      "titulo": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "fecha_publicacion_iso": "2026-11-04T11:34:20+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-radio-with-no-radar-why-agent-runtime-security-fails-without-ecf2013f.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves": {
+      "guid": "391bd365-9c81-4ffa-b8b9-fcfa4c54788d",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves",
+      "fecha_publicacion_iso": "2026-11-04T11:30:35+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-como-decide-un-algoritmo-te-invitamos-a-conectarte-en-direct-db41610f.html"
+    },
+    "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html": {
+      "guid": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "fuente": "The Hacker News",
+      "titulo": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "fecha_publicacion_iso": "2026-11-04T11:24:31+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-china-aligned-hackers-hijack-sogou-input-method-dns-requests-8384c224.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390287",
+      "fuente": "Help Net Security",
+      "titulo": "Poisoned cPGuard update hits thousands of web hosting servers",
+      "fecha_publicacion_iso": "2026-11-04T11:18:23+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-poisoned-cpguard-update-hits-thousands-of-web-hosting-server-f1aed100.html"
+    },
+    "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50523",
+      "fuente": "SecurityWeek",
+      "titulo": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-11-04T10:54:48+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-malicious-cpguard-updates-served-in-opsshield-supply-chain-a-9726794b.html"
+    },
+    "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/": {
+      "guid": "https://www.securityweek.com/?p=50519",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+      "fecha_publicacion_iso": "2026-11-04T10:38:46+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-chrome-157-rolls-out-with-213-security-fixes-seven-rated-cri-493913be.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390254",
+      "fuente": "Help Net Security",
+      "titulo": "Fake job interview opened the door to $6.34 billion Binance heist",
+      "fecha_publicacion_iso": "2026-11-04T10:29:48+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-fake-job-interview-opened-the-door-to-6-34-billion-binance-h-5704c36d.html"
+    },
+    "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/": {
+      "guid": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+      "fuente": "SecurityWeek",
+      "titulo": "Fake job interview opened the door to $6.34 billion Binance heist",
+      "fecha_publicacion_iso": "2026-11-04T10:29:48+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-fake-job-interview-opened-the-door-to-6-34-billion-binance-h-5704c36d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+      "fecha_publicacion_iso": "2026-11-04T09:39:54+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-andr-955f969e.html"
+    },
+    "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/": {
+      "guid": "https://www.securityweek.com/?p=50515",
+      "fuente": "SecurityWeek",
+      "titulo": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
+      "fecha_publicacion_iso": "2026-11-04T09:23:22+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-north-korea-launches-missiles-toward-the-sea-as-pyongyang-pr-68960d21.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-coupa-total-spend-management-platform-de-coupa": {
+      "guid": "690509 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Coupa Total Spend Management Platform de Coupa",
+      "fecha_publicacion_iso": "2026-11-04T08:44:13+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-multiples-vulnerabilidades-en-coupa-total-spend-management-p-030c1a03.html"
+    },
+    "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/": {
+      "guid": "https://www.securityweek.com/?p=50509",
+      "fuente": "SecurityWeek",
+      "titulo": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+      "fecha_publicacion_iso": "2026-11-04T08:27:05+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-1f8acdc5.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-productos-de-citrix": {
+      "guid": "690582 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en productos de Citrix",
+      "fecha_publicacion_iso": "2026-11-04T08:25:36+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-escritura-fuera-de-limites-en-productos-de-citrix-8e1dfe90.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-memoria-previamente-liberada-en-productos-de-watchguard": {
+      "guid": "690581 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Uso de memoria previamente liberada en productos de WatchGuard",
+      "fecha_publicacion_iso": "2026-11-04T08:25:35+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-uso-de-memoria-previamente-liberada-en-productos-de-watchgua-cdd6b3ee.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-gms-de-sonicwall": {
+      "guid": "690580 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en GMS de SonicWall",
+      "fecha_publicacion_iso": "2026-11-04T08:25:34+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-multiples-vulnerabilidades-en-gms-de-sonicwall-d1749ab4.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-en-storagegrid-de-netapp": {
+      "guid": "690579 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión de autenticación en StorageGRID de NetApp",
+      "fecha_publicacion_iso": "2026-11-04T08:25:33+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-omision-de-autenticacion-en-storagegrid-de-netapp-baf23576.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-dameware-de-solarwinds": {
+      "guid": "690578 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Dameware de SolarWinds",
+      "fecha_publicacion_iso": "2026-11-04T08:25:30+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-multiples-vulnerabilidades-en-dameware-de-solarwinds-c635e610.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-fabric-composer-de-hpe": {
+      "guid": "690577 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Fabric Composer de HPE",
+      "fecha_publicacion_iso": "2026-11-04T08:25:29+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-multiples-vulnerabilidades-en-fabric-composer-de-hpe-05b0f1d5.html"
+    },
+    "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html": {
+      "guid": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "fecha_publicacion_iso": "2026-11-04T08:17:11+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-russian-police-arrest-3-suspected-vasygrek-hackers-dismantle-40a5a274.html"
+    },
+    "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html": {
+      "guid": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "fecha_publicacion_iso": "2026-11-04T07:46:15+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-google-issues-patches-for-critical-android-flaw-that-could-a-32c90d2f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/rsync-3-5-2-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390236",
+      "fuente": "Help Net Security",
+      "titulo": "Open-source file sync tool rsync 3.5.2 fixes a CPU exhaustion flaw",
+      "fecha_publicacion_iso": "2026-11-04T07:43:13+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-open-source-file-sync-tool-rsync-3-5-2-fixes-a-cpu-exhaustio-2e0cdd81.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/lindsay-kaye-human-security-ai-generated-malware/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390028",
+      "fuente": "Help Net Security",
+      "titulo": "What AI-generated malware looks like under the microscope",
+      "fecha_publicacion_iso": "2026-11-04T07:00:26+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-what-ai-generated-malware-looks-like-under-the-microscope-7880589c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/ghostunnel-open-source-tls-proxy/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390041",
+      "fuente": "Help Net Security",
+      "titulo": "Ghostunnel: Open-source TLS proxy with mutual authentication",
+      "fecha_publicacion_iso": "2026-11-04T06:30:14+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-ghostunnel-open-source-tls-proxy-with-mutual-authentication-c4f34d13.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390113",
+      "fuente": "Help Net Security",
+      "titulo": "Secure your containers without breaking what works",
+      "fecha_publicacion_iso": "2026-11-04T06:00:34+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-secure-your-containers-without-breaking-what-works-6e9532f0.html"
+    },
+    "http://www.elladodelmal.com/2026/11/como-portar-un-proyecto-de-azure.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-7144825824509084394",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo portar un proyecto de Azure a Cloudflare: Cómo lo hicimos con Weave.js de Inditex Tech Open Source",
+      "fecha_publicacion_iso": "2026-11-04T05:44:32+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-como-portar-un-proyecto-de-azure-a-cloudflare-como-lo-hicimo-dab5b6a4.html"
+    },
+    "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html": {
+      "guid": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "fecha_publicacion_iso": "2026-11-04T05:43:11+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-cisa-confirms-hackers-exploiting-wordpress-core-flaw-during-34981716.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "fecha_publicacion_iso": "2026-11-04T05:43:11+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-cisa-confirms-hackers-exploiting-wordpress-core-flaw-during-34981716.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/vulnerabilidad-critica-en-wordpress.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/11/vulnerabilidad-critica-en-wordpress.html",
+      "fuente": "Segu-Info",
+      "titulo": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "fecha_publicacion_iso": "2026-11-04T05:43:11+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-cisa-confirms-hackers-exploiting-wordpress-core-flaw-during-34981716.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390157",
+      "fuente": "Help Net Security",
+      "titulo": "Companies going all in on AI could see their strategy backfire",
+      "fecha_publicacion_iso": "2026-11-04T05:30:45+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-companies-going-all-in-on-ai-could-see-their-strategy-backfi-bd492964.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390088",
+      "fuente": "Help Net Security",
+      "titulo": "NIST publishes cybersecurity guide for businesses too small to have IT staff",
+      "fecha_publicacion_iso": "2026-11-04T05:00:23+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-nist-publishes-cybersecurity-guide-for-businesses-too-small-f772c15e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390217",
+      "fuente": "Help Net Security",
+      "titulo": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
+      "fecha_publicacion_iso": "2026-11-04T04:36:14+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-anthropic-open-sources-flashprove-its-provable-inference-pro-3490e0f2.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+      "fuente": "Dark Reading",
+      "titulo": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+      "fecha_publicacion_iso": "2026-11-04T02:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-philippine-migrant-worker-data-likely-leaked-in-69gb-governm-ed421e39.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/gorbag-grupo-rusia-roba-informacion-organizaciones-ucrania/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/gorbag-grupo-rusia-roba-informacion-organizaciones-ucrania/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Gorbag: el nuevo grupo alineado con Rusia que recopila inteligencia de organizaciones ucranianas",
+      "fecha_publicacion_iso": "2026-11-03T17:33:26+00:00",
+      "fecha_agregada_iso": "2026-11-04T13:14:00.500388+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-gorbag-el-nuevo-grupo-alineado-con-rusia-que-recopila-inteli-3c7b4f6d.html"
     }
   }
 }

@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves",
+    "fuente": "AEPD (España) - Notas de prensa",
+    "idioma": "es",
+    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
+    "dominio_fuente": "aepd.es",
+    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves",
+    "guid": "391bd365-9c81-4ffa-b8b9-fcfa4c54788d",
+    "fecha_publicacion_iso": "2026-11-04T11:30:35+00:00",
+    "fecha_publicacion_original": "Wed, 04 Nov 2026 12:30:35 +0100",
+    "extracto_original": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con la Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace",
+    "contenido_ampliado": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con la Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace…",
+    "imagen_url": null,
+    "categoria": "proteccion_datos",
+    "imagen_local": "/imagenes/2026-11-04/card_ccf5dfb5d2.jpg",
+    "resumen_ia": "La Agencia Española de Protección de Datos va a transmitir el segundo capítulo de su espacio audiovisual centrado en tecnologías disruptivas y privacidad, titulado en esta ocasión sobre la transparencia de los algoritmos. El evento consistirá en una charla entre el máximo responsable de la Agencia y una experta en derecho y acceso a la información pública, la cual podrá visualizarse por medio de internet.\n\nDurante el coloquio se examinará de qué manera se asegura que las decisiones automatizadas y los sistemas de inteligencia artificial resulten comprensibles, permitiendo además la rendición de cuentas y el control sobre los mismos. Asimismo, se tratarán asuntos como la importancia de esta transparencia para salvaguardar los derechos ciudadanos, los límites y alcances del derecho de acceso a la información en relación con estas herramientas, y las exigencias de explicación y lógica en las decisiones automatizadas según la normativa europea.\n\nEl programa también contemplará las obligaciones estipuladas por la normativa europea sobre inteligencia artificial y su vinculación con la protección de datos, además de mencionar instrumentos prácticos como los repertorios públicos de algoritmos. Quienes participen en la transmisión tendrán la oportunidad de plantear dudas a través de un chat, cuyas respuestas seleccionadas serán atendidas al concluir la sesión por parte de la invitada.",
+    "resumen_ia_ok": true,
+    "imagen_es_generica": true,
+    "ruta_noticia": "/noticia/2026-11-04-como-decide-un-algoritmo-te-invitamos-a-conectarte-en-direct-db41610f.html"
+  },
+  {
     "titulo": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales",
     "fuente": "AEPD (España) - Notas de prensa",
     "idioma": "es",
@@ -372,25 +392,5 @@
     "resumen_ia_ok": false,
     "imagen_es_generica": true,
     "ruta_noticia": "/noticia/2026-10-09-the-spanish-dpa-fines-securitas-direct-eur-100-000-for-makin-b8d75fed.html"
-  },
-  {
-    "titulo": "Swedish DPA fines Miljödata i Karlskrona approximately EUR 160 000 for insufficient technical and organisational measures to ensure information security",
-    "fuente": "European Data Protection Board (EDPB) - News",
-    "idioma": "en",
-    "url_fuente_feed": "https://www.edpb.europa.eu/feed/news_en",
-    "dominio_fuente": "edpb.europa.eu",
-    "enlace": "https://www.edpb.europa.eu/news/swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-160-000-for-insufficient-technical_en",
-    "guid": "c3539b51-1075-4bab-ba0f-c9332897135c",
-    "fecha_publicacion_iso": "2026-10-08T12:00:00+00:00",
-    "fecha_publicacion_original": "Thu, 08 Oct 2026 12:00:00 +0000",
-    "extracto_original": "Background information Date of final decision: 22/09/2026 National case Legal Reference(s): Article 32 (Security of processing) Decision: Administrative fine Website topics: Cybersecurity, personal data breaches Summary of the Decision Origin of the case In August 2025, the IT service provider Miljödata was targeted in a cyberattack, during which a malicious actor gained access to a large volume of personal data and subsequently published data on the darknet. According to the company, the incident affected 2.2 million individuals. Among Miljödata’s customers affected by the attack are a majority of Sweden’s municipalities, several regions, and government agencies, as well as a large number of private companies. The compromised data included personal identity numbers, contact details, and sensitive data related to sick leave, rehabilitation, and student-related incidents in schools. Key Findings The review shows that the company did not maintain a sufficiently high level of technical and organizational security, given the types of personal data it processed. Miljödata failed to conduct adequate checks when installing new software and did not have automated real-time monitoring of its systems to detect intrusions or suspicious activity. Decision IMY, the Swedish Data Protection Authority, assesses that Miljödata acted negligently and has therefore decided to impose an administrative fine of SEK 1 800 000 (approximately EUR 160 000) for violating Article 32(1) GDPR. For further information: Administrative Fine against Miljödata",
-    "contenido_ampliado": "Background information Date of final decision: 22/09/2026 National case Legal Reference(s): Article 32 (Security of processing) Decision: Administrative fine Website topics: Cybersecurity, personal data breaches Summary of the Decision Origin of the case In August 2025, the IT service provider Miljödata was targeted in a cyberattack, during which a malicious actor gained access to a large volume of personal data and subsequently published data on the darknet. According to the company, the incident affected 2.2 million individuals. Among Miljödata’s customers affected by the attack are a majority of Sweden’s municipalities, several regions, and government agencies, as well as a large number of private companies. The compromised data included personal identity numbers, contact details, and sensitive data related to sick leave, rehabilitation, and student-related incidents in schools. Key Findings The review shows that the company did not maintain a sufficiently high level of technical and organizational security, given the types of personal data it processed. Miljödata failed to conduct adequate checks when installing new software and did not have automated real-time monitoring of its systems to detect intrusions or suspicious activity. Decision IMY, the Swedish Data Protection Authority, assesses that Miljödata acted negligently and has therefore decided to impose an administrative fine of SEK 1 800 000 (approximately EUR 160 000) for violating Article 32(1) GDPR. For further information: Administrative Fine against Miljödata…",
-    "imagen_url": null,
-    "categoria": "proteccion_datos",
-    "imagen_local": "/imagenes/2026-10-08/card_bd1121a4ea.jpg",
-    "resumen_ia": "La autoridad sueca de protección de datos ha impuesto una sanción económica al proveedor de servicios informáticos Miljödata, tras determinarse que la compañía no contaba con las medidas técnicas y organizativas adecuadas para garantizar la seguridad de la información. La infracción está relacionada con el artículo 32 del Reglamento General de Protección de Datos.\n\nEl caso se originó a raíz de un ciberataque sufrido por la empresa, en el cual un actor malintencionado logró acceder a una gran cantidad de datos personales y los difundió en la darknet. El incidente afectó a millones de personas, incluyendo clientes de la compañía como municipios de Suecia, regiones, agencias gubernamentales y empresas privadas. Entre la información comprometida se encontraban números de identidad personal, datos de contacto e información sensible sobre bajas médicas, rehabilitación y situaciones escolares de estudiantes.\n\nLa investigación de la autoridad sueca reveló que el nivel de seguridad de la empresa no era el adecuado para el tipo de datos que manejaba, señalando fallas en la verificación durante la instalación de nuevo software y la ausencia de monitoreo automatizado en tiempo real para detectar intrusiones o actividades sospechosas. Debido a esta actuación negligente, se decidió aplicar una multa administrativa al proveedor informático.",
-    "resumen_ia_ok": true,
-    "imagen_es_generica": true,
-    "ruta_noticia": "/noticia/2026-10-08-swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-1-9e595047.html"
   }
 ]
