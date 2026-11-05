@@ -26031,6 +26031,246 @@
       "fecha_publicacion_iso": "2026-11-04T15:58:46+00:00",
       "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
       "ruta_noticia": "/noticia/2026-11-05-ia-seguridad-en-la-nube-y-respuesta-a-incidentes-las-habilid-0386f4c3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Truffle Security launches program to revoke 1.4 million live secrets",
+      "fecha_publicacion_iso": "2026-11-05T20:15:08+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-truffle-security-launches-program-to-revoke-1-4-million-live-58f4053a.html"
+    },
+    "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers": {
+      "guid": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+      "fuente": "The Record",
+      "titulo": "US issues more sanctions against Prince Group scam center affiliates",
+      "fecha_publicacion_iso": "2026-11-05T20:11:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-us-issues-more-sanctions-against-prince-group-scam-center-af-8b7832be.html"
+    },
+    "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users": {
+      "guid": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "fuente": "Dark Reading",
+      "titulo": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "fecha_publicacion_iso": "2026-11-05T20:05:39+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-apt29-s-watering-holes-target-thousands-of-mobile-users-8c41ea53.html"
+    },
+    "https://cyberscoop.com/air-force-digital-forensics-cyber-investment/": {
+      "guid": "https://cyberscoop.com/?p=91477",
+      "fuente": "CyberScoop",
+      "titulo": "Air Force cyber official: need to invest in digital forensics",
+      "fecha_publicacion_iso": "2026-11-05T19:22:27+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-air-force-cyber-official-need-to-invest-in-digital-forensics-928a924f.html"
+    },
+    "https://therecord.media/cyberattacks-refrigeration-cisa-fbi": {
+      "guid": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+      "fuente": "The Record",
+      "titulo": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
+      "fecha_publicacion_iso": "2026-11-05T19:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-harden-cooling-systems-now-feds-warn-critical-infrastructure-dd395642.html"
+    },
+    "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910": {
+      "guid": "https://www.theregister.com/a/5307910",
+      "fuente": "The Register - Security",
+      "titulo": "Get root on a musl Linux system by slamming it with an overly long password",
+      "fecha_publicacion_iso": "2026-11-05T18:29:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-get-root-on-a-musl-linux-system-by-slamming-it-with-an-overl-2a385681.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852": {
+      "guid": "https://www.theregister.com/a/5307852",
+      "fuente": "The Register - Security",
+      "titulo": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
+      "fecha_publicacion_iso": "2026-11-05T18:03:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-october-crypto-tracker-hack-access-cracked-law-enforcement-t-4c85354b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "fecha_publicacion_iso": "2026-11-05T17:45:29+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openssh-flaw-lets-attackers-log-into-password-disabled-linux-671b07a9.html"
+    },
+    "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/": {
+      "guid": "https://www.securityweek.com/?p=50574",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "fecha_publicacion_iso": "2026-11-05T17:32:37+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-r-3347a006.html"
+    },
+    "https://cyberscoop.com/openai-gpt-6-cyber-security-model/": {
+      "guid": "https://cyberscoop.com/?p=91464",
+      "fuente": "CyberScoop",
+      "titulo": "OpenAI debuts GPT-6 Cyber, touting better performance — and safety guardrails",
+      "fecha_publicacion_iso": "2026-11-05T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openai-debuts-gpt-6-cyber-touting-better-performance-and-saf-e3b02af5.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI debuts GPT-6 Cyber, touting better performance — and safety guardrails",
+      "fecha_publicacion_iso": "2026-11-05T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openai-debuts-gpt-6-cyber-touting-better-performance-and-saf-e3b02af5.html"
+    },
+    "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855": {
+      "guid": "https://www.theregister.com/a/5307855",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
+      "fecha_publicacion_iso": "2026-11-05T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openai-releases-gpt-6-cyber-and-promises-this-one-stays-with-7796ff75.html"
+    },
+    "https://therecord.media/russia-hackers-smartphone-cyberattacks": {
+      "guid": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+      "fuente": "The Record",
+      "titulo": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+      "fecha_publicacion_iso": "2026-11-05T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-russian-state-linked-hackers-target-iphone-android-devices-i-44c25684.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+      "fuente": "Dark Reading",
+      "titulo": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+      "fecha_publicacion_iso": "2026-11-05T16:48:36+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-securitydatapipeline-com-launches-as-a-new-educational-resou-d5adbe76.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/sshole-falla-de-openssh-en-sistemas-con.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4359956473687911207",
+      "fuente": "Segu-Info",
+      "titulo": "SSHole: falla de OpenSSH en sistemas con musl (Alpine, OpenWrt, Buildroot, Yocto)",
+      "fecha_publicacion_iso": "2026-11-05T16:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-sshole-falla-de-openssh-en-sistemas-con-musl-alpine-openwrt-1d543bcb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "fecha_publicacion_iso": "2026-11-05T16:24:26+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-hackers-backdoor-linux-servers-using-trojanized-cwp-web-serv-5263a8e9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "fuente": "BleepingComputer",
+      "titulo": "DigiCert data breach exposes customer information, identity documents",
+      "fecha_publicacion_iso": "2026-11-05T16:12:46+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-digicert-data-breach-exposes-customer-information-identity-d-6b1d9cd5.html"
+    },
+    "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704": {
+      "guid": "https://www.theregister.com/a/5307704",
+      "fuente": "The Register - Security",
+      "titulo": "Tobacco company got smoked by leaving secret recipes on a file share",
+      "fecha_publicacion_iso": "2026-11-05T16:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-fi-a7e1d0b0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390514",
+      "fuente": "Help Net Security",
+      "titulo": "Cyberhaven launches Agentic Data Security to track and control AI data use",
+      "fecha_publicacion_iso": "2026-11-05T15:04:07+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-cyberhaven-launches-agentic-data-security-to-track-and-contr-0e52048a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+      "fuente": "BleepingComputer",
+      "titulo": "Closing the Identity Gap at the Service Desk",
+      "fecha_publicacion_iso": "2026-11-05T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-closing-the-identity-gap-at-the-service-desk-dad53d7e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/rubrik-unstructured-data-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390506",
+      "fuente": "Help Net Security",
+      "titulo": "Rubrik hosts NAS backups in isolated, immutable vaults",
+      "fecha_publicacion_iso": "2026-11-05T14:48:20+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-rubrik-hosts-nas-backups-in-isolated-immutable-vaults-3f09ef17.html"
+    },
+    "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html": {
+      "guid": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "fecha_publicacion_iso": "2026-11-05T14:41:10+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-threatsday-apache-ofbiz-rce-dreamhost-breach-defi-site-hijac-59043a85.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/vercel-security-review-session-hijacking/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390500",
+      "fuente": "Help Net Security",
+      "titulo": "Vercel ties login sessions to devices, rolls out AI security reviews in public beta",
+      "fecha_publicacion_iso": "2026-11-05T14:37:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-vercel-ties-login-sessions-to-devices-rolls-out-ai-security-a2de1405.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/arkose-agent-trust-manager/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390499",
+      "fuente": "Help Net Security",
+      "titulo": "Arkose Labs expands Agent Trust Manager to govern agent sessions",
+      "fecha_publicacion_iso": "2026-11-05T14:33:02+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-arkose-labs-expands-agent-trust-manager-to-govern-agent-sess-b422fe90.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/box-architect/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390493",
+      "fuente": "Help Net Security",
+      "titulo": "Box pairs agentic workflow plans with new threat protections",
+      "fecha_publicacion_iso": "2026-11-05T14:25:34+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-box-pairs-agentic-workflow-plans-with-new-threat-protections-a2aaec48.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390470",
+      "fuente": "Help Net Security",
+      "titulo": "Cyberattack on Norway’s aid agency may have swept up all user data",
+      "fecha_publicacion_iso": "2026-11-05T13:56:49+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-cyberattack-on-norways-aid-agency-may-have-swept-up-all-user-907479fa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/portswigger-burp-at-enterprises/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390472",
+      "fuente": "Help Net Security",
+      "titulo": "PortSwigger’s Burp AT lets enterprises delegate pentests with defined limits",
+      "fecha_publicacion_iso": "2026-11-05T13:48:16+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-portswiggers-burp-at-lets-enterprises-delegate-pentests-with-76cbbd24.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/sysdig-ai-defense/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390464",
+      "fuente": "Help Net Security",
+      "titulo": "Sysdig AI Defense puts runtime guardrails on AI agents",
+      "fecha_publicacion_iso": "2026-11-05T13:29:28+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-sysdig-ai-defense-puts-runtime-guardrails-on-ai-agents-57050d5c.html"
+    },
+    "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/": {
+      "guid": "https://www.securityweek.com/?p=50565",
+      "fuente": "SecurityWeek",
+      "titulo": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+      "fecha_publicacion_iso": "2026-11-05T13:22:12+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-bank-phishing-sites-show-fake-suspended-pages-to-evade-taked-2dacffdc.html"
+    },
+    "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html": {
+      "guid": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "fuente": "The Hacker News",
+      "titulo": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+      "fecha_publicacion_iso": "2026-11-05T12:25:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-is-your-exposure-management-platform-leaving-you-exposed-fiv-5d4d0326.html"
     }
   }
 }
