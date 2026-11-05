@@ -25743,6 +25743,294 @@
       "fecha_publicacion_iso": "2026-11-04T20:58:19+00:00",
       "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
       "ruta_noticia": "/noticia/2026-11-04-zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-0fd87eaf.html"
+    },
+    "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684": {
+      "guid": "https://www.theregister.com/a/5307684",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries",
+      "fecha_publicacion_iso": "2026-11-05T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-anthropic-won-t-fix-a-claude-dispatch-flaw-that-could-let-at-c29bbce4.html"
+    },
+    "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/": {
+      "guid": "https://www.securityweek.com/?p=50560",
+      "fuente": "SecurityWeek",
+      "titulo": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+      "fecha_publicacion_iso": "2026-11-05T12:58:32+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-cyberattack-hits-french-blood-bank-site-but-no-blood-product-8384bfde.html"
+    },
+    "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/": {
+      "guid": "https://www.securityweek.com/?p=50558",
+      "fuente": "SecurityWeek",
+      "titulo": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+      "fecha_publicacion_iso": "2026-11-05T12:33:49+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaw-1779cfdf.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/05/new-yorks-queens-public-library-battles-ransomware-crims-wi-fi-checkouts-and-website-go-dark/5307796": {
+      "guid": "https://www.theregister.com/a/5307796",
+      "fuente": "The Register - Security",
+      "titulo": "New York's Queens Public Library battles ransomware crims: Wi-Fi, checkouts, and website go dark",
+      "fecha_publicacion_iso": "2026-11-05T12:10:15+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-new-york-s-queens-public-library-battles-ransomware-crims-wi-27b7a41e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/vulnerabilidad-en-apt-presente-en.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6713926495965489800",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad en APT, presente en Debian y Ubuntu, permite realizar MitM y ejecutar código como root",
+      "fecha_publicacion_iso": "2026-11-05T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-vulnerabilidad-en-apt-presente-en-debian-y-ubuntu-permite-re-be446c59.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390433",
+      "fuente": "Help Net Security",
+      "titulo": "Scammers capitalize on GTA 6 hype to push malware and crypto cons",
+      "fecha_publicacion_iso": "2026-11-05T11:41:50+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-scammers-capitalize-on-gta-6-hype-to-push-malware-and-crypto-95338b4e.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/05/norways-aid-agency-pwned-and-all-users-data-is-stolen/5307765": {
+      "guid": "https://www.theregister.com/a/5307765",
+      "fuente": "The Register - Security",
+      "titulo": "Norway's aid agency pwned and all users' data is stolen",
+      "fecha_publicacion_iso": "2026-11-05T11:19:16+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-norway-s-aid-agency-pwned-and-all-users-data-is-stolen-7cabac96.html"
+    },
+    "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/": {
+      "guid": "https://www.securityweek.com/?p=50554",
+      "fuente": "SecurityWeek",
+      "titulo": "The Agent Smith Dilemma: Governing Agentic Identities",
+      "fecha_publicacion_iso": "2026-11-05T11:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-the-agent-smith-dilemma-governing-agentic-identities-bcd0f8e5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/google-cloud-ai-agents-security-controls/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390421",
+      "fuente": "Help Net Security",
+      "titulo": "Google puts new limits on AI agents that hunt threats and fix vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-05T11:02:43+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-google-puts-new-limits-on-ai-agents-that-hunt-threats-and-fi-7c97a1bd.html"
+    },
+    "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/": {
+      "guid": "https://www.securityweek.com/?p=50537",
+      "fuente": "SecurityWeek",
+      "titulo": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+      "fecha_publicacion_iso": "2026-11-05T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ciso-conversations-ryan-davis-the-unknown-is-where-security-a190c692.html"
+    },
+    "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/": {
+      "guid": "https://www.securityweek.com/?p=50549",
+      "fuente": "SecurityWeek",
+      "titulo": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+      "fecha_publicacion_iso": "2026-11-05T10:37:13+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-russia-linked-hackers-hit-ios-android-devices-with-exploit-c-68af6446.html"
+    },
+    "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html": {
+      "guid": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "fuente": "The Hacker News",
+      "titulo": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "fecha_publicacion_iso": "2026-11-05T10:06:19+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-5-active-cyber-threats-that-put-us-enterprises-at-risk-in-oc-1981b067.html"
+    },
+    "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/": {
+      "guid": "https://www.securityweek.com/?p=50547",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+      "fecha_publicacion_iso": "2026-11-05T10:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openai-finds-gpt-6-astra-quietly-holding-back-on-internal-re-89af0224.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+      "fuente": "BleepingComputer",
+      "titulo": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+      "fecha_publicacion_iso": "2026-11-05T09:18:29+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ghostmap-android-flaw-lets-malicious-app-trigger-persistent-da77af0f.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-matchpoint-de-tpc-software": {
+      "guid": "690971 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en MatchPoint de TPC Software",
+      "fecha_publicacion_iso": "2026-11-05T09:16:54+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-multiples-vulnerabilidades-en-matchpoint-de-tpc-software-f5615522.html"
+    },
+    "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html": {
+      "guid": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "fuente": "The Hacker News",
+      "titulo": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "fecha_publicacion_iso": "2026-11-05T09:13:28+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-apple-to-start-scanning-publicly-shared-icloud-photos-and-fi-96a1ace9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390402",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+      "fecha_publicacion_iso": "2026-11-05T09:05:06+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openais-upcoming-ai-model-built-948-working-linux-root-explo-30645dc8.html"
+    },
+    "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html": {
+      "guid": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run",
+      "fecha_publicacion_iso": "2026-11-05T09:05:06+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openais-upcoming-ai-model-built-948-working-linux-root-explo-30645dc8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/ghostmap-android-bug-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390400",
+      "fuente": "Help Net Security",
+      "titulo": "A banking malware sample led researchers to an Android bug that can loop-crash phones",
+      "fecha_publicacion_iso": "2026-11-05T09:00:02+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-a-banking-malware-sample-led-researchers-to-an-android-bug-t-a49bac03.html"
+    },
+    "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html": {
+      "guid": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "fecha_publicacion_iso": "2026-11-05T08:42:03+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-cert-in-flags-ai-driven-attacks-as-backdoored-artex-exposes-4f9bb7c1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/apple-icloud-link-sharing-checks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390394",
+      "fuente": "Help Net Security",
+      "titulo": "Apple is bringing harmful content checks to iCloud link sharing with potential account penalties",
+      "fecha_publicacion_iso": "2026-11-05T08:32:52+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-apple-is-bringing-harmful-content-checks-to-icloud-link-shar-502a2689.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-authpoint-gateway-de-watchguard": {
+      "guid": "690970 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en AuthPoint Gateway de WatchGuard",
+      "fecha_publicacion_iso": "2026-11-05T08:24:16+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-multiples-vulnerabilidades-en-authpoint-gateway-de-watchguar-23d7a199.html"
+    },
+    "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html": {
+      "guid": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+      "fuente": "The Hacker News",
+      "titulo": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "fecha_publicacion_iso": "2026-11-05T07:06:33+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-zyxel-gs1900-patch-fails-to-block-zero-day-exploit-allowing-a665869d.html"
+    },
+    "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/": {
+      "guid": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+      "fuente": "SecurityWeek",
+      "titulo": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "fecha_publicacion_iso": "2026-11-05T07:06:33+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-zyxel-gs1900-patch-fails-to-block-zero-day-exploit-allowing-a665869d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/",
+      "fuente": "Help Net Security",
+      "titulo": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "fecha_publicacion_iso": "2026-11-05T07:06:33+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-zyxel-gs1900-patch-fails-to-block-zero-day-exploit-allowing-a665869d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/zohaib-ahmed-resemble-ai-detecting-ai-agent-traffic/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390223",
+      "fuente": "Help Net Security",
+      "titulo": "AI agent detection signals that still work when agents look human",
+      "fecha_publicacion_iso": "2026-11-05T06:45:07+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ai-agent-detection-signals-that-still-work-when-agents-look-eeeae62d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/healthcare-ai-governance-patient-data/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390363",
+      "fuente": "Help Net Security",
+      "titulo": "Healthcare can’t govern the AI tools it hasn’t found yet",
+      "fecha_publicacion_iso": "2026-11-05T06:11:25+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-healthcare-cant-govern-the-ai-tools-it-hasnt-found-yet-915c0b58.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390247",
+      "fuente": "Help Net Security",
+      "titulo": "Companies are spending more on AI governance and getting less control",
+      "fecha_publicacion_iso": "2026-11-05T05:30:14+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-companies-are-spending-more-on-ai-governance-and-getting-les-fc3bb545.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "fecha_publicacion_iso": "2026-11-05T05:17:04+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-hackers-exploit-patched-apple-flaw-to-deliver-info-stealing-2a5b7d5a.html"
+    },
+    "http://www.elladodelmal.com/2026/11/jornada-tecnica-para-democratizacion-de.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4257630601029467397",
+      "fuente": "El Lado del Mal",
+      "titulo": "Jornada Técnica para Democratización de la Inteligencia Artificial para PyMEs: Getafe 10 de Noviembre",
+      "fecha_publicacion_iso": "2026-11-05T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-jornada-tecnica-para-democratizacion-de-la-inteligencia-arti-58690ef8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390270",
+      "fuente": "Help Net Security",
+      "titulo": "Most consumers aren’t ready to let AI agents shop unsupervised",
+      "fecha_publicacion_iso": "2026-11-05T05:00:30+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-most-consumers-arent-ready-to-let-ai-agents-shop-unsupervise-4d0aa265.html"
+    },
+    "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/": {
+      "guid": "https://krebsonsecurity.com/?p=74588",
+      "fuente": "Krebs on Security",
+      "titulo": "Want to Rent an Internet Address at the White House?",
+      "fecha_publicacion_iso": "2026-11-05T04:36:17+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-want-to-rent-an-internet-address-at-the-white-house-49bf8b36.html"
+    },
+    "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack": {
+      "guid": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
+      "fecha_publicacion_iso": "2026-11-05T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-chainalysis-warns-all-users-hit-in-cyber-breach-involving-ag-350327fd.html"
+    },
+    "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation": {
+      "guid": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+      "fuente": "The Record",
+      "titulo": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
+      "fecha_publicacion_iso": "2026-11-05T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ukraine-fires-two-senior-security-officials-amid-corruption-260025e6.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/slippynunchucks-sogou-input-method-distribucion-malware/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/slippynunchucks-sogou-input-method-distribucion-malware/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "SlippyNunchucks abusó de Sogou Input Method para desplegar DarkVigil mediante secuestro de DNS",
+      "fecha_publicacion_iso": "2026-11-04T18:55:05+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-slippynunchucks-abuso-de-sogou-input-method-para-desplegar-d-89b41550.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-digital/habilidades-ciberseguridad-ia-nube-respuesta-incidentes/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-digital/habilidades-ciberseguridad-ia-nube-respuesta-incidentes/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "IA, seguridad en la nube y respuesta a incidentes: las habilidades más buscadas en ciberseguridad",
+      "fecha_publicacion_iso": "2026-11-04T15:58:46+00:00",
+      "fecha_agregada_iso": "2026-11-05T13:16:10.139111+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-ia-seguridad-en-la-nube-y-respuesta-a-incidentes-las-habilid-0386f4c3.html"
     }
   }
 }
