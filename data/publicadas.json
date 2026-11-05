@@ -25695,6 +25695,54 @@
       "fecha_publicacion_iso": "2026-11-04T01:05:40+00:00",
       "fecha_agregada_iso": "2026-11-04T20:28:51.827535+00:00",
       "ruta_noticia": "/noticia/2026-11-04-phishing-resistant-isn-t-enough-yubico-takes-aim-at-identity-5ce5c8d2.html"
+    },
+    "https://cyberscoop.com/democrats-congress-cybersecurity-cisa-ai-priorities/": {
+      "guid": "https://cyberscoop.com/?p=91458",
+      "fuente": "CyberScoop",
+      "titulo": "What Democratic control of Congress means for cybersecurity",
+      "fecha_publicacion_iso": "2026-11-04T23:05:04+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-what-democratic-control-of-congress-means-for-cybersecurity-8582547f.html"
+    },
+    "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681": {
+      "guid": "https://www.theregister.com/a/5307681",
+      "fuente": "The Register - Security",
+      "titulo": "Apple turns iCloud into spy cloud, will start looking at public share links",
+      "fecha_publicacion_iso": "2026-11-04T21:49:38+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-apple-turns-icloud-into-spy-cloud-will-start-looking-at-publ-bf3dcb66.html"
+    },
+    "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers": {
+      "guid": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+      "fuente": "Dark Reading",
+      "titulo": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+      "fecha_publicacion_iso": "2026-11-04T21:48:18+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-critical-rails-bug-threatens-to-derail-vulnerable-servers-1b4641ca.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Vercel rolls out new protection against stolen session cookie attacks",
+      "fecha_publicacion_iso": "2026-11-04T21:31:18+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-vercel-rolls-out-new-protection-against-stolen-session-cooki-de788756.html"
+    },
+    "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident": {
+      "guid": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+      "fuente": "The Record",
+      "titulo": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+      "fecha_publicacion_iso": "2026-11-04T21:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-more-asian-airlines-announce-data-breaches-after-attack-on-s-71b12d48.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "fuente": "BleepingComputer",
+      "titulo": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "fecha_publicacion_iso": "2026-11-04T20:58:19+00:00",
+      "fecha_agregada_iso": "2026-11-05T01:30:42.201302+00:00",
+      "ruta_noticia": "/noticia/2026-11-04-zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-0fd87eaf.html"
     }
   }
 }
