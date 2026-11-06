@@ -26367,6 +26367,270 @@
       "fecha_publicacion_iso": "2026-11-05T09:00:00+00:00",
       "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
       "ruta_noticia": "/noticia/2026-11-05-la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos-publi-249801bb.html"
+    },
+    "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=50589",
+      "fuente": "SecurityWeek",
+      "titulo": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "fecha_publicacion_iso": "2026-11-06T12:47:55+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-grocery-giant-ahold-delhaize-estimates-financial-toll-of-oct-8694430c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "fuente": "BleepingComputer",
+      "titulo": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "fecha_publicacion_iso": "2026-11-06T12:37:22+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switch-d0b8b49f.html"
+    },
+    "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/": {
+      "guid": "https://www.securityweek.com/?p=50584",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+      "fecha_publicacion_iso": "2026-11-06T12:07:42+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-openssh-rushes-patches-for-sshole-authentication-bypass-222613d4.html"
+    },
+    "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html": {
+      "guid": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "fecha_publicacion_iso": "2026-11-06T12:06:43+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-microsoft-paint-rce-fix-now-available-but-windows-update-won-649e0d8b.html"
+    },
+    "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html": {
+      "guid": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "fuente": "The Hacker News",
+      "titulo": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "fecha_publicacion_iso": "2026-11-06T12:06:35+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-malicious-browser-extensions-could-use-claude-dispatch-to-ru-cea41b03.html"
+    },
+    "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html": {
+      "guid": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "fuente": "The Hacker News",
+      "titulo": "The Flood is Coming And The Pipes Were Already Full",
+      "fecha_publicacion_iso": "2026-11-06T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-the-flood-is-coming-and-the-pipes-were-already-full-6625b8a7.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889": {
+      "guid": "https://www.theregister.com/a/5307889",
+      "fuente": "The Register - Security",
+      "titulo": "UK ministers seek powers to investigate when AI agents are let off the leash",
+      "fecha_publicacion_iso": "2026-11-06T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-uk-ministers-seek-powers-to-investigate-when-ai-agents-are-l-32fa7564.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390562",
+      "fuente": "Help Net Security",
+      "titulo": "Residential proxy traffic caught leaving the White House network",
+      "fecha_publicacion_iso": "2026-11-06T10:29:58+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-residential-proxy-traffic-caught-leaving-the-white-house-net-7dec2b66.html"
+    },
+    "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/": {
+      "guid": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+      "fuente": "SecurityWeek",
+      "titulo": "Residential proxy traffic caught leaving the White House network",
+      "fecha_publicacion_iso": "2026-11-06T10:29:58+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-residential-proxy-traffic-caught-leaving-the-white-house-net-7dec2b66.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/openai-gpt-6-cyber-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390550",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI’s GPT-6 Cyber found 81 Firefox flaws earlier AI testing missed",
+      "fecha_publicacion_iso": "2026-11-06T10:19:49+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-openais-gpt-6-cyber-found-81-firefox-flaws-earlier-ai-testin-c9b59394.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/sarajevo-cyber-security-summit-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390539",
+      "fuente": "Help Net Security",
+      "titulo": "Sarajevo Cyber Security Summit 2026 puts the Western Balkans’ cyber resilience in focus",
+      "fecha_publicacion_iso": "2026-11-06T10:18:30+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-sarajevo-cyber-security-summit-2026-puts-the-western-balkans-affb73a9.html"
+    },
+    "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/": {
+      "guid": "https://www.securityweek.com/?p=50580",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "fecha_publicacion_iso": "2026-11-06T09:33:51+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-openai-model-wrote-its-own-network-code-to-get-around-sandbo-3a73b8fc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "fuente": "BleepingComputer",
+      "titulo": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "fecha_publicacion_iso": "2026-11-06T09:22:28+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-metamask-says-recent-attack-didn-t-affect-wallet-infrastruct-3a8f9a3b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/cyberattacks-refrigeration-systems-cisa-fbi/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390540",
+      "fuente": "Help Net Security",
+      "titulo": "US agencies warn attackers are targeting refrigeration systems that protect food and medicine",
+      "fecha_publicacion_iso": "2026-11-06T09:04:36+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-us-agencies-warn-attackers-are-targeting-refrigeration-syste-9e0aea37.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+      "fuente": "Dark Reading",
+      "titulo": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+      "fecha_publicacion_iso": "2026-11-06T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-uk-warns-its-critical-infrastructure-faces-grave-risk-67dcad13.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-de-autenticacion-por-contrasena-en-openssh-de-alpine-linux": {
+      "guid": "691604 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión de autenticación por contraseña en OpenSSH de Alpine Linux",
+      "fecha_publicacion_iso": "2026-11-06T08:45:26+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-omision-de-autenticacion-por-contrasena-en-openssh-de-alpine-5eb5b8a2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/",
+      "fuente": "Help Net Security",
+      "titulo": "Omisión de autenticación por contraseña en OpenSSH de Alpine Linux",
+      "fecha_publicacion_iso": "2026-11-06T08:45:26+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-omision-de-autenticacion-por-contrasena-en-openssh-de-alpine-5eb5b8a2.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-sirec-de-atmira": {
+      "guid": "691603 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en SIREC de Atmira",
+      "fecha_publicacion_iso": "2026-11-06T08:26:35+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-inyeccion-sql-en-sirec-de-atmira-e95d3412.html"
+    },
+    "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html": {
+      "guid": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "fuente": "The Hacker News",
+      "titulo": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "fecha_publicacion_iso": "2026-11-06T08:04:49+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-chainalysis-breach-exposes-all-users-credentials-forces-shut-6facdf5f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390529",
+      "fuente": "Help Net Security",
+      "titulo": "November 2026 Patch Tuesday forecast: Old software continues to bite",
+      "fecha_publicacion_iso": "2026-11-06T07:00:48+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-november-2026-patch-tuesday-forecast-old-software-continues-66bb14a3.html"
+    },
+    "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-erm-pleasure/5307750": {
+      "guid": "https://www.theregister.com/a/5307750",
+      "fuente": "The Register - Security",
+      "titulo": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
+      "fecha_publicacion_iso": "2026-11-06T06:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-dc955d2a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390058",
+      "fuente": "Help Net Security",
+      "titulo": "Security certification is a snapshot, and buyers read too much into it",
+      "fecha_publicacion_iso": "2026-11-06T06:30:16+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-security-certification-is-a-snapshot-and-buyers-read-too-muc-89631936.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/autonomous-ai-oversight-governance/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390242",
+      "fuente": "Help Net Security",
+      "titulo": "87% say their AI controls need to work better",
+      "fecha_publicacion_iso": "2026-11-06T06:00:03+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-87-say-their-ai-controls-need-to-work-better-a64f9217.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "fecha_publicacion_iso": "2026-11-06T05:58:54+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-hackers-hide-linux-backdoor-in-control-web-panel-server-to-e-ed60ea7f.html"
+    },
+    "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html": {
+      "guid": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "fuente": "The Hacker News",
+      "titulo": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "fecha_publicacion_iso": "2026-11-06T05:39:10+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-experts-demonstrate-barracuda-email-security-gateway-chain-e-a382c3d1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390455",
+      "fuente": "Help Net Security",
+      "titulo": "99% of repository access tokens never expire",
+      "fecha_publicacion_iso": "2026-11-06T05:30:23+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-99-of-repository-access-tokens-never-expire-57a5b9af.html"
+    },
+    "http://www.elladodelmal.com/2026/11/curso-de-hacking-etico-de-0-hackear.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-5380070341112359480",
+      "fuente": "El Lado del Mal",
+      "titulo": "Curso de Hacking Ético: \"De 0 a Hackear Aplicaciones\" disponible en Youtube",
+      "fecha_publicacion_iso": "2026-11-06T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-curso-de-hacking-etico-de-0-a-hackear-aplicaciones-disponibl-707a44f6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390513",
+      "fuente": "Help Net Security",
+      "titulo": "Rental phishing sites use live chat to win over hesitant travelers",
+      "fecha_publicacion_iso": "2026-11-06T05:00:41+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-rental-phishing-sites-use-live-chat-to-win-over-hesitant-tra-33ab60e6.html"
+    },
+    "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022": {
+      "guid": "https://www.theregister.com/a/5308022",
+      "fuente": "The Register - Security",
+      "titulo": "AI agents are a 'bane' for some website operators, says Cloudflare",
+      "fecha_publicacion_iso": "2026-11-06T04:25:14+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-ai-agents-are-a-bane-for-some-website-operators-says-cloudfl-4720393f.html"
+    },
+    "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/": {
+      "guid": "https://www.securityweek.com/?p=50576",
+      "fuente": "SecurityWeek",
+      "titulo": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+      "fecha_publicacion_iso": "2026-11-06T03:03:29+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorn-5d7c1511.html"
+    },
+    "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation": {
+      "guid": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+      "fuente": "The Record",
+      "titulo": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+      "fecha_publicacion_iso": "2026-11-06T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-eu-accuses-tiktok-of-trapping-users-in-harmful-rabbit-holes-0da6cf00.html"
+    },
+    "https://www.welivesecurity.com/es/cibercrimen/heladeras-hackeadas-en-europa-esta-america-latina-preparada/": {
+      "guid": "https://www.welivesecurity.com/es/cibercrimen/heladeras-hackeadas-en-europa-esta-america-latina-preparada/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Ataques a sistemas de refrigeración en Europa: ¿está América Latina preparada para un incidente similar?",
+      "fecha_publicacion_iso": "2026-11-05T19:29:13+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-ataques-a-sistemas-de-refrigeracion-en-europa-esta-america-l-1d84942e.html"
+    },
+    "https://www.welivesecurity.com/es/seguridad-corporativa/spoofing-email/": {
+      "guid": "https://www.welivesecurity.com/es/seguridad-corporativa/spoofing-email/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "¿Qué es el spoofing de email? Cómo funciona y cómo evitarlo",
+      "fecha_publicacion_iso": "2026-11-05T13:10:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T12:59:10.223344+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-que-es-el-spoofing-de-email-como-funciona-y-como-evitarlo-ada579df.html"
     }
   }
 }
