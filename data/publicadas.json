@@ -26271,6 +26271,102 @@
       "fecha_publicacion_iso": "2026-11-05T12:25:00+00:00",
       "fecha_agregada_iso": "2026-11-05T20:44:01.727529+00:00",
       "ruta_noticia": "/noticia/2026-11-05-is-your-exposure-management-platform-leaving-you-exposed-fiv-5d4d0326.html"
+    },
+    "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000": {
+      "guid": "https://www.theregister.com/a/5308000",
+      "fuente": "The Register - Security",
+      "titulo": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+      "fecha_publicacion_iso": "2026-11-06T01:17:40+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-threat-actor-targets-indian-fintechs-on-weekends-when-defend-63adad31.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "fecha_publicacion_iso": "2026-11-06T00:56:44+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-system-97d7db0e.html"
+    },
+    "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978": {
+      "guid": "https://www.theregister.com/a/5307978",
+      "fuente": "The Register - Security",
+      "titulo": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
+      "fecha_publicacion_iso": "2026-11-05T22:37:06+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-feds-warn-grocers-don-t-chill-on-cyber-defenses-as-freezer-h-4cb0518e.html"
+    },
+    "https://therecord.media/queens-library-ransomware-causes-disruptions": {
+      "guid": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+      "fuente": "The Record",
+      "titulo": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+      "fecha_publicacion_iso": "2026-11-05T22:08:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-queens-public-library-says-ransomware-attack-disrupted-wi-fi-3189ce2b.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+      "fuente": "Dark Reading",
+      "titulo": "US Government Email Systems Open to Abuse Thanks to Typos",
+      "fecha_publicacion_iso": "2026-11-05T21:35:05+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-us-government-email-systems-open-to-abuse-thanks-to-typos-c5d8bcb2.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "fecha_publicacion_iso": "2026-11-05T21:30:30+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-fake-openai-spacex-events-used-to-steal-microsoft-google-acc-886e9406.html"
+    },
+    "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds": {
+      "guid": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "fuente": "Dark Reading",
+      "titulo": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "fecha_publicacion_iso": "2026-11-05T21:00:47+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-what-we-missed-knicks-phishing-test-goes-out-of-bounds-6ae54b5b.html"
+    },
+    "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969": {
+      "guid": "https://www.theregister.com/a/5307969",
+      "fuente": "The Register - Security",
+      "titulo": "The White House is apparently a popular residential proxy exit spot",
+      "fecha_publicacion_iso": "2026-11-05T20:50:57+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-the-white-house-is-apparently-a-popular-residential-proxy-ex-431a63bf.html"
+    },
+    "https://therecord.media/social-media-giants-sue-california-over-social-media-law": {
+      "guid": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+      "fuente": "The Record",
+      "titulo": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+      "fecha_publicacion_iso": "2026-11-05T20:48:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-social-media-giants-sue-california-to-overturn-law-shielding-835e42a2.html"
+    },
+    "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html": {
+      "guid": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "fecha_publicacion_iso": "2026-11-05T16:42:46+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-openssh-issues-emergency-fix-for-flaw-letting-long-passwords-3fe484f4.html"
+    },
+    "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html": {
+      "guid": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "fecha_publicacion_iso": "2026-11-05T16:42:32+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-researchers-bypass-chatgpt-lockdown-mode-to-exfiltrate-chats-306be992.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos": {
+      "guid": "c0a87ad3-77db-48ff-943a-83518ea7b40d",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro",
+      "fecha_publicacion_iso": "2026-11-05T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-06T01:33:08.456205+00:00",
+      "ruta_noticia": "/noticia/2026-11-05-la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos-publi-249801bb.html"
     }
   }
 }
