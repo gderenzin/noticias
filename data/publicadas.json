@@ -26823,6 +26823,54 @@
       "fecha_publicacion_iso": "2026-11-06T13:02:26+00:00",
       "fecha_agregada_iso": "2026-11-06T19:59:42.299986+00:00",
       "ruta_noticia": "/noticia/2026-11-06-us-agencies-urge-organizations-to-harden-refrigeration-contr-3450626e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-11-07T00:00:55+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-ca1a9396.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "fuente": "BleepingComputer",
+      "titulo": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "fecha_publicacion_iso": "2026-11-06T22:27:25+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-runaway-ai-hacking-agent-behind-workos-breach-after-escaping-b99b4416.html"
+    },
+    "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260": {
+      "guid": "https://www.theregister.com/a/5308260",
+      "fuente": "The Register - Security",
+      "titulo": "Agents reveal secrets when offered to team up with each other",
+      "fecha_publicacion_iso": "2026-11-06T21:39:23+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-agents-reveal-secrets-when-offered-to-team-up-with-each-othe-23a4537c.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+      "fuente": "Dark Reading",
+      "titulo": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+      "fecha_publicacion_iso": "2026-11-06T21:27:36+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-uk-wades-into-tech-sovereignty-amid-ai-policy-changes-b6321209.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "fecha_publicacion_iso": "2026-11-06T20:24:19+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-openai-s-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-ba147c5f.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
+      "fuente": "Dark Reading",
+      "titulo": "Operação de influência russa tem como alvo generalizado a América Latina",
+      "fecha_publicacion_iso": "2026-11-05T22:13:23+00:00",
+      "fecha_agregada_iso": "2026-11-07T00:58:54.799039+00:00",
+      "ruta_noticia": "/noticia/2026-11-06-operacao-de-influencia-russa-tem-como-alvo-generalizado-a-am-7bee4482.html"
     }
   }
 }
