@@ -26879,6 +26879,62 @@
       "fecha_publicacion_iso": "2026-11-07T06:01:00+00:00",
       "fecha_agregada_iso": "2026-11-07T07:09:00.841742+00:00",
       "ruta_noticia": "/noticia/2026-11-07-mypublicinbox-news-ai-el-agente-ai-que-crea-tu-dossier-de-pr-e7a8a533.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers pull off $133 million French bank heist via service provider",
+      "fecha_publicacion_iso": "2026-11-07T15:25:35+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-hackers-pull-off-133-million-french-bank-heist-via-service-p-ded94754.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/llmhijacking-secuestro-de-llm-deja-las.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6078488329581433697",
+      "fuente": "Segu-Info",
+      "titulo": "LLMHijacking: secuestro de LLM deja a las empresas con facturas gigantes",
+      "fecha_publicacion_iso": "2026-11-07T14:12:00+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-llmhijacking-secuestro-de-llm-deja-a-las-empresas-con-factur-a5cc9dfd.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "fuente": "BleepingComputer",
+      "titulo": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "fecha_publicacion_iso": "2026-11-07T14:10:19+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brand-5a765cf4.html"
+    },
+    "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/": {
+      "guid": "6aecb024d52bfcd5eead0d31",
+      "fuente": "Wired - Security",
+      "titulo": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
+      "fecha_publicacion_iso": "2026-11-07T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-the-fridge-hacking-spree-is-an-internet-of-things-wake-up-ca-c2718613.html"
+    },
+    "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201": {
+      "guid": "https://www.theregister.com/a/5308201",
+      "fuente": "The Register - Security",
+      "titulo": "NHS breach helpline left staff carrying a 'significant emotional burden'",
+      "fecha_publicacion_iso": "2026-11-07T10:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-nhs-breach-helpline-left-staff-carrying-a-significant-emotio-d155a865.html"
+    },
+    "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/": {
+      "guid": "https://www.securityweek.com/?p=50612",
+      "fuente": "SecurityWeek",
+      "titulo": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "fecha_publicacion_iso": "2026-11-07T10:16:23+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-sonicwall-patches-exploited-sonicos-vulnerability-that-weake-986edfc8.html"
+    },
+    "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html": {
+      "guid": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "fuente": "The Hacker News",
+      "titulo": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "fecha_publicacion_iso": "2026-11-07T06:44:17+00:00",
+      "fecha_agregada_iso": "2026-11-07T15:40:54.809344+00:00",
+      "ruta_noticia": "/noticia/2026-11-07-claude-code-s-don-t-ask-again-file-exposes-passwords-and-key-804a43c3.html"
     }
   }
 }
