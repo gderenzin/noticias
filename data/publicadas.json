@@ -26943,6 +26943,38 @@
       "fecha_publicacion_iso": "2026-11-08T06:01:00+00:00",
       "fecha_agregada_iso": "2026-11-08T07:19:10.497225+00:00",
       "ruta_noticia": "/noticia/2026-11-08-2a-edicion-del-master-en-ia-aplicada-optimizacion-de-proceso-483f32a9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "fecha_publicacion_iso": "2026-11-08T15:43:08+00:00",
+      "fecha_agregada_iso": "2026-11-08T15:59:35.539438+00:00",
+      "ruta_noticia": "/noticia/2026-11-08-iris-ohyama-data-cloud-breach-exposes-info-of-7-7-million-cu-840fc918.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/chainalysis-y-otras-empresas-confirman.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4461060901696900134",
+      "fuente": "Segu-Info",
+      "titulo": "Chainalysis y otras empresas confirman brechas de seguridad relacionadas con IA y que expone credenciales de sus usuarios",
+      "fecha_publicacion_iso": "2026-11-08T14:29:00+00:00",
+      "fecha_agregada_iso": "2026-11-08T15:59:35.539438+00:00",
+      "ruta_noticia": "/noticia/2026-11-08-chainalysis-y-otras-empresas-confirman-brechas-de-seguridad-7a457f85.html"
+    },
+    "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/": {
+      "guid": "https://www.securityweek.com/?p=50608",
+      "fuente": "SecurityWeek",
+      "titulo": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "fecha_publicacion_iso": "2026-11-08T12:14:00+00:00",
+      "fecha_agregada_iso": "2026-11-08T15:59:35.539438+00:00",
+      "ruta_noticia": "/noticia/2026-11-08-brava-security-emerges-from-stealth-with-15-million-in-fundi-9c037607.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390537",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
+      "fecha_publicacion_iso": "2026-11-08T09:00:21+00:00",
+      "fecha_agregada_iso": "2026-11-08T15:59:35.539438+00:00",
+      "ruta_noticia": "/noticia/2026-11-08-week-in-review-refrigeration-cyberattacks-hit-european-retai-a977e0a4.html"
     }
   }
 }
