@@ -27047,6 +27047,398 @@
       "fecha_publicacion_iso": "2026-11-09T02:14:17+00:00",
       "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
       "ruta_noticia": "/noticia/2026-11-09-huawei-says-its-made-a-100-percent-chinese-pc-94acbee6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "fuente": "BleepingComputer",
+      "titulo": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "fecha_publicacion_iso": "2026-11-09T18:32:42+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-france-blames-iranian-hackers-for-supermarket-attacks-that-s-e89c57c6.html"
+    },
+    "https://therecord.media/france-blames-iran-for-fridge-cyberattacks": {
+      "guid": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+      "fuente": "The Record",
+      "titulo": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "fecha_publicacion_iso": "2026-11-09T18:32:42+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-france-blames-iranian-hackers-for-supermarket-attacks-that-s-e89c57c6.html"
+    },
+    "https://therecord.media/vanderbilt-cyberattack-ransomware-alert": {
+      "guid": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+      "fuente": "The Record",
+      "titulo": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+      "fecha_publicacion_iso": "2026-11-09T18:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-vanderbilt-cybersecurity-incident-impacting-campus-devices-a-2fdab4ab.html"
+    },
+    "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux": {
+      "guid": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+      "fecha_publicacion_iso": "2026-11-09T18:08:30+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-attackers-crash-claude-s-office-party-flaw-to-run-malicious-adccb074.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "fecha_publicacion_iso": "2026-11-09T17:51:21+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-hackers-exploit-qubole-s-trusted-aws-access-to-breach-custom-bd73ebc7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "fecha_publicacion_iso": "2026-11-09T17:50:32+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wi-073e03d2.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "fecha_publicacion_iso": "2026-11-09T17:36:28+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-hackers-compromise-ethersphere-s-bee-js-and-swarm-desktop-to-7cd796fb.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/researchers-pwn-automakers-android-apps-to-remotely-unlock-cars-honk-horns/5308483": {
+      "guid": "https://www.theregister.com/a/5308483",
+      "fuente": "The Register - Security",
+      "titulo": "Researchers pwn automakers’ Android apps to remotely unlock cars, honk horns",
+      "fecha_publicacion_iso": "2026-11-09T17:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-researchers-pwn-automakers-android-apps-to-remotely-unlock-c-ea9844bb.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+      "fuente": "Dark Reading",
+      "titulo": "PwC's CISO on AI, Robots &amp; What's Next for Security",
+      "fecha_publicacion_iso": "2026-11-09T17:17:23+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-pwc-s-ciso-on-ai-robots-amp-what-s-next-for-security-85970b30.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "fuente": "BleepingComputer",
+      "titulo": "Binance denies data breach after alleged ShinyHunters claims",
+      "fecha_publicacion_iso": "2026-11-09T16:12:39+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-binance-denies-data-breach-after-alleged-shinyhunters-claims-09460923.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
+      "fuente": "Dark Reading",
+      "titulo": "NIST: Solo Shouldn't Mean Less Secure",
+      "fecha_publicacion_iso": "2026-11-09T15:46:10+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-nist-solo-shouldn-t-mean-less-secure-32fa2d4c.html"
+    },
+    "https://therecord.media/ukraine-arrests-scam-call-centers-germany": {
+      "guid": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+      "fuente": "The Record",
+      "titulo": "Ukraine arrests four in $5 million crypto scam targeting Germans",
+      "fecha_publicacion_iso": "2026-11-09T15:24:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-ukraine-arrests-four-in-5-million-crypto-scam-targeting-germ-b5262f31.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+      "fuente": "BleepingComputer",
+      "titulo": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+      "fecha_publicacion_iso": "2026-11-09T15:05:15+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai-82ab336f.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/microsofts-azure-linux-gets-470-plus-security-fixes-in-one-almighty-patching-session/5308434": {
+      "guid": "https://www.theregister.com/a/5308434",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft's Azure Linux gets 470-plus security fixes in one almighty patching session",
+      "fecha_publicacion_iso": "2026-11-09T15:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-microsoft-s-azure-linux-gets-470-plus-security-fixes-in-one-fc813b91.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/artex-goes-from-pentesting-tool-to-attacker-staple-in-three-months/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390753",
+      "fuente": "Help Net Security",
+      "titulo": "ARTEX goes from pentesting tool to attacker staple in three months",
+      "fecha_publicacion_iso": "2026-11-09T14:57:32+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-artex-goes-from-pentesting-tool-to-attacker-staple-in-three-7e866765.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/copeland-xweb-refrigeration-controllers-spam-botnet/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390739",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers abuse refrigeration controllers to send spam and route proxy traffic",
+      "fecha_publicacion_iso": "2026-11-09T14:54:01+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-hackers-abuse-refrigeration-controllers-to-send-spam-and-rou-b202d7e3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+      "fecha_publicacion_iso": "2026-11-09T14:34:03+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-fbi-agent-stole-2-5-million-in-crypto-from-hackers-under-inv-47fb58a6.html"
+    },
+    "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html": {
+      "guid": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "fuente": "The Hacker News",
+      "titulo": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "fecha_publicacion_iso": "2026-11-09T14:31:29+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-bitter-hackers-deploy-new-paprat-backdoor-in-cyberespionage-7bdf0c6d.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/who-gives-a-crap-hackers-apparently-after-toilet-paper-makers-customer-data-exposed/5308419": {
+      "guid": "https://www.theregister.com/a/5308419",
+      "fuente": "The Register - Security",
+      "titulo": "Who Gives A Crap? Hackers, apparently, after toilet paper maker's customer data exposed",
+      "fecha_publicacion_iso": "2026-11-09T14:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-who-gives-a-crap-hackers-apparently-after-toilet-paper-maker-a18ce332.html"
+    },
+    "https://therecord.media/cyberattack-germany-ai-mittwald": {
+      "guid": "https://therecord.media/cyberattack-germany-ai-mittwald",
+      "fuente": "The Record",
+      "titulo": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "fecha_publicacion_iso": "2026-11-09T14:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-alleged-ai-aided-cyberattack-exploits-assistant-interface-to-e9e255b0.html"
+    },
+    "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/": {
+      "guid": "https://www.securityweek.com/?p=50636",
+      "fuente": "SecurityWeek",
+      "titulo": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+      "fecha_publicacion_iso": "2026-11-09T14:08:08+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-revolve-puts-data-breach-victim-count-at-1-5-million-7cf7e23f.html"
+    },
+    "https://www.theregister.com/applications/2026/11/09/outlookcom-bounces-legit-emails-as-microsofts-authentication-crackdown-goes-sideways/5308428": {
+      "guid": "https://www.theregister.com/a/5308428",
+      "fuente": "The Register - Security",
+      "titulo": "Outlook.com bounces legit emails as Microsoft's authentication crackdown goes sideways",
+      "fecha_publicacion_iso": "2026-11-09T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-outlook-com-bounces-legit-emails-as-microsoft-s-authenticati-2bf3346c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+      "fuente": "BleepingComputer",
+      "titulo": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+      "fecha_publicacion_iso": "2026-11-09T13:28:56+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercri-7ef80ee6.html"
+    },
+    "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html": {
+      "guid": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "fecha_publicacion_iso": "2026-11-09T13:28:25+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-weekly-recap-sshole-exploited-apt-root-rce-robot-takeovers-1-2c42fb61.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/pypi-security-tab-release-attestations/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390724",
+      "fuente": "Help Net Security",
+      "titulo": "PyPI makes release attestations easier to find with new security tab",
+      "fecha_publicacion_iso": "2026-11-09T13:23:29+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-pypi-makes-release-attestations-easier-to-find-with-new-secu-3f1364bd.html"
+    },
+    "https://therecord.media/hackers-russia-italy-noname": {
+      "guid": "https://therecord.media/hackers-russia-italy-noname",
+      "fuente": "The Record",
+      "titulo": "Pro-Russian hackers target European officials, offer rewards for personal information",
+      "fecha_publicacion_iso": "2026-11-09T13:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-pro-russian-hackers-target-european-officials-offer-rewards-5c31e462.html"
+    },
+    "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/": {
+      "guid": "https://www.securityweek.com/?p=50634",
+      "fuente": "SecurityWeek",
+      "titulo": "Plex2Shell Exploited Against QNAP NAS Users",
+      "fecha_publicacion_iso": "2026-11-09T13:13:28+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-plex2shell-exploited-against-qnap-nas-users-ca8912a2.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377": {
+      "guid": "https://www.theregister.com/a/5308377",
+      "fuente": "The Register - Security",
+      "titulo": "Japanese homeware giant pulls online store after cloud breach puts 7.7M records at risk",
+      "fecha_publicacion_iso": "2026-11-09T12:47:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-japanese-homeware-giant-pulls-online-store-after-cloud-breac-d24a7d11.html"
+    },
+    "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/": {
+      "guid": "https://www.securityweek.com/?p=50631",
+      "fuente": "SecurityWeek",
+      "titulo": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+      "fecha_publicacion_iso": "2026-11-09T12:41:27+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-iris-plaza-breach-may-have-exposed-data-of-7-7-million-custo-a278123a.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/artex-atacantes-chinos-utilizan.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7645373550615215287",
+      "fuente": "Segu-Info",
+      "titulo": "ARTEX: atacantes chinos utilizan framework basados en IA para atacar organizaciones en todo el mundo",
+      "fecha_publicacion_iso": "2026-11-09T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-artex-atacantes-chinos-utilizan-framework-basados-en-ia-para-4412ce9a.html"
+    },
+    "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/": {
+      "guid": "https://www.securityweek.com/?p=50629",
+      "fuente": "SecurityWeek",
+      "titulo": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+      "fecha_publicacion_iso": "2026-11-09T12:22:12+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-a3066db4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ukraine dismantles crypto scam network that stole €4.3 million",
+      "fecha_publicacion_iso": "2026-11-09T12:16:13+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-ukraine-dismantles-crypto-scam-network-that-stole-4-3-millio-53877e7b.html"
+    },
+    "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/": {
+      "guid": "https://www.securityweek.com/?p=50625",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+      "fecha_publicacion_iso": "2026-11-09T12:13:32+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-hackers-exploiting-sshole-authentication-bypass-in-openssh-de971951.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+      "fecha_publicacion_iso": "2026-11-09T12:13:32+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-hackers-exploiting-sshole-authentication-bypass-in-openssh-de971951.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/deepfake-ceo-fraud-129-million-indictment/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390679",
+      "fuente": "Help Net Security",
+      "titulo": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million",
+      "fecha_publicacion_iso": "2026-11-09T11:47:43+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-trio-accused-of-using-deepfake-ceos-and-bogus-lawyers-to-sca-05d80485.html"
+    },
+    "https://thehackernews.com/2026/11/default-adminadmin-server-password.html": {
+      "guid": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "fuente": "The Hacker News",
+      "titulo": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "fecha_publicacion_iso": "2026-11-09T11:27:53+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-default-admin-admin-server-password-helps-researchers-hack-t-c5154d08.html"
+    },
+    "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/": {
+      "guid": "https://www.securityweek.com/?p=50623",
+      "fuente": "SecurityWeek",
+      "titulo": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "fecha_publicacion_iso": "2026-11-09T11:20:09+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-amplifon-americas-data-breach-impacts-1-3-million-156a0344.html"
+    },
+    "https://cyberscoop.com/ai-hacking-risks-loopholes-bruce-schneier-defcon-keynote-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91491",
+      "fuente": "CyberScoop",
+      "titulo": "AI doesn’t have to go rogue to break the world",
+      "fecha_publicacion_iso": "2026-11-09T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-ai-doesnt-have-to-go-rogue-to-break-the-world-e40c7784.html"
+    },
+    "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html": {
+      "guid": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "fuente": "The Hacker News",
+      "titulo": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "fecha_publicacion_iso": "2026-11-09T10:56:25+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-web3auth-flaw-exploited-to-steal-keplr-crypto-provider-empti-a02fb0af.html"
+    },
+    "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=50618",
+      "fuente": "SecurityWeek",
+      "titulo": "Over 3 Million People Hit by Frontline Education Data Breach",
+      "fecha_publicacion_iso": "2026-11-09T10:09:02+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-over-3-million-people-hit-by-frontline-education-data-breach-3c0c651e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/credit-mutuel-arkea-cyberattack-133-million/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390645",
+      "fuente": "Help Net Security",
+      "titulo": "$133 million stolen from French bank via exploited service provider",
+      "fecha_publicacion_iso": "2026-11-09T10:03:01+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-133-million-stolen-from-french-bank-via-exploited-service-pr-b2c42f85.html"
+    },
+    "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html": {
+      "guid": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "fuente": "The Hacker News",
+      "titulo": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "fecha_publicacion_iso": "2026-11-09T10:01:21+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-lnbits-urges-all-operators-to-shut-down-their-bitcoin-lightn-62af4291.html"
+    },
+    "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/": {
+      "guid": "6aecd9e6f979e2b672d12d2f",
+      "fuente": "Wired - Security",
+      "titulo": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
+      "fecha_publicacion_iso": "2026-11-09T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-dhs-has-used-this-controversial-investigative-tool-185-000-t-b7b8f97a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/product-showcase-malwarebytes-claude-scam-detection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390643",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts",
+      "fecha_publicacion_iso": "2026-11-09T09:31:52+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-product-showcase-what-the-malwarebytes-claude-connector-reve-01d67ad2.html"
+    },
+    "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html": {
+      "guid": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "fecha_publicacion_iso": "2026-11-09T09:01:50+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-taiwan-based-hacker-used-bossai-ai-agents-to-steal-taipei-em-e8082cc5.html"
+    },
+    "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/": {
+      "guid": "https://www.securityweek.com/?p=50616",
+      "fuente": "SecurityWeek",
+      "titulo": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+      "fecha_publicacion_iso": "2026-11-09T08:35:50+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-33c824e2.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-sonicos-de-sonicwall": {
+      "guid": "692887 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en SonicOS de SonicWall",
+      "fecha_publicacion_iso": "2026-11-09T08:15:15+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-multiples-vulnerabilidades-en-sonicos-de-sonicwall-0342ab14.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+      "fuente": "Help Net Security",
+      "titulo": "Múltiples vulnerabilidades en SonicOS de SonicWall",
+      "fecha_publicacion_iso": "2026-11-09T08:15:15+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-multiples-vulnerabilidades-en-sonicos-de-sonicwall-0342ab14.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-xss-almacenado-en-tankuam-places": {
+      "guid": "692886 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-site Scripting (XSS) almacenado en Tankuam Places",
+      "fecha_publicacion_iso": "2026-11-09T08:10:37+00:00",
+      "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-cross-site-scripting-xss-almacenado-en-tankuam-places-a7276ff7.html"
     }
   }
 }
