@@ -26975,6 +26975,78 @@
       "fecha_publicacion_iso": "2026-11-08T09:00:21+00:00",
       "fecha_agregada_iso": "2026-11-08T15:59:35.539438+00:00",
       "ruta_noticia": "/noticia/2026-11-08-week-in-review-refrigeration-cyberattacks-hit-european-retai-a977e0a4.html"
+    },
+    "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html": {
+      "guid": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "fuente": "The Hacker News",
+      "titulo": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+      "fecha_publicacion_iso": "2026-11-09T07:05:48+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-former-openai-engineer-pleads-not-guilty-to-planting-covert-a2c922a0.html"
+    },
+    "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html": {
+      "guid": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "fecha_publicacion_iso": "2026-11-09T06:15:10+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-u-s-agencies-warn-refrigeration-controller-attacks-could-cau-df6a1e5a.html"
+    },
+    "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html": {
+      "guid": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "fecha_publicacion_iso": "2026-11-09T06:05:24+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-cisa-flags-sonicwall-sonicos-mfa-bypass-flaw-amid-reports-of-3d5dfb27.html"
+    },
+    "http://www.elladodelmal.com/2026/11/llmjacking-como-los-cibercriminales.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6987139383897641353",
+      "fuente": "El Lado del Mal",
+      "titulo": "LLMJacking: Cómo los cibercriminales usan Tokens IA que pagas tú.",
+      "fecha_publicacion_iso": "2026-11-09T06:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-llmjacking-como-los-cibercriminales-usan-tokens-ia-que-pagas-c34fe579.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/wirken-open-source-ai-agent-gateway/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390380",
+      "fuente": "Help Net Security",
+      "titulo": "Wirken: Open-source AI agent gateway",
+      "fecha_publicacion_iso": "2026-11-09T06:00:12+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-wirken-open-source-ai-agent-gateway-010d19db.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/barracuda-msp-cybersecurity-services-expectations-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390624",
+      "fuente": "Help Net Security",
+      "titulo": "Companies seeking an MSP doubt their ability to spot cyberattacks",
+      "fecha_publicacion_iso": "2026-11-09T06:00:05+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-companies-seeking-an-msp-doubt-their-ability-to-spot-cyberat-5f43a571.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390601",
+      "fuente": "Help Net Security",
+      "titulo": "An average of 8 minutes is all hackers need to log in with stolen credentials",
+      "fecha_publicacion_iso": "2026-11-09T05:00:39+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-an-average-of-8-minutes-is-all-hackers-need-to-log-in-with-s-f70e8a67.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345": {
+      "guid": "https://www.theregister.com/a/5308345",
+      "fuente": "The Register - Security",
+      "titulo": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
+      "fecha_publicacion_iso": "2026-11-09T04:53:08+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked-f95e5ffd.html"
+    },
+    "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335": {
+      "guid": "https://www.theregister.com/a/5308335",
+      "fuente": "The Register - Security",
+      "titulo": "Huawei says it’s made a 100 percent Chinese PC",
+      "fecha_publicacion_iso": "2026-11-09T02:14:17+00:00",
+      "fecha_agregada_iso": "2026-11-09T08:00:12.304068+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-huawei-says-its-made-a-100-percent-chinese-pc-94acbee6.html"
     }
   }
 }
