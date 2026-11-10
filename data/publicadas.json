@@ -27439,6 +27439,94 @@
       "fecha_publicacion_iso": "2026-11-09T08:10:37+00:00",
       "fecha_agregada_iso": "2026-11-09T19:53:13.549170+00:00",
       "ruta_noticia": "/noticia/2026-11-09-cross-site-scripting-xss-almacenado-en-tankuam-places-a7276ff7.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616": {
+      "guid": "https://www.theregister.com/a/5308616",
+      "fuente": "The Register - Security",
+      "titulo": "Anthropic's super bug-finding Mythos model is going into Cisco and IBM products",
+      "fecha_publicacion_iso": "2026-11-10T00:00:20+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-anthropic-s-super-bug-finding-mythos-model-is-going-into-cis-d3f5f59e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "fuente": "BleepingComputer",
+      "titulo": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "fecha_publicacion_iso": "2026-11-09T23:52:12+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-vanderbilt-university-hit-in-byod-ransomware-attack-data-the-48d9ef3d.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591": {
+      "guid": "https://www.theregister.com/a/5308591",
+      "fuente": "The Register - Security",
+      "titulo": "France blames Iran for supermarket hack meltdowns",
+      "fecha_publicacion_iso": "2026-11-09T22:45:21+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-france-blames-iran-for-supermarket-hack-meltdowns-47defdd6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "fuente": "BleepingComputer",
+      "titulo": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "fecha_publicacion_iso": "2026-11-09T22:09:33+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-sega-newsletter-data-breach-exposes-2-2-million-email-addres-fb65eccd.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+      "fuente": "Dark Reading",
+      "titulo": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+      "fecha_publicacion_iso": "2026-11-09T21:38:20+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-cisa-announces-enhanced-reporting-form-for-cyber-incidents-907718f8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "fuente": "BleepingComputer",
+      "titulo": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "fecha_publicacion_iso": "2026-11-09T21:26:25+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-n-able-takes-cloud-platform-offline-after-30-zero-days-publi-8d206c96.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "fuente": "BleepingComputer",
+      "titulo": "York University breach exposed personal information dating to 2007",
+      "fecha_publicacion_iso": "2026-11-09T21:22:31+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-york-university-breach-exposed-personal-information-dating-t-b9b072a1.html"
+    },
+    "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion": {
+      "guid": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+      "fuente": "Dark Reading",
+      "titulo": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+      "fecha_publicacion_iso": "2026-11-09T21:12:24+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-microsoft-fixes-rce-bug-in-windows-paint-after-weeks-of-conf-eae4ff98.html"
+    },
+    "https://therecord.media/amplifon-hearing-aid-company-data-breach": {
+      "guid": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+      "fuente": "The Record",
+      "titulo": "Data breach at hearing aid giant Amplifon impacts thousands",
+      "fecha_publicacion_iso": "2026-11-09T20:44:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-data-breach-at-hearing-aid-giant-amplifon-impacts-thousands-cd41a3a6.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
+      "fuente": "Dark Reading",
+      "titulo": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
+      "fecha_publicacion_iso": "2026-11-09T20:19:56+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-black-hat-india-2026-makes-a-landmark-debut-in-bengaluru-bri-527a6951.html"
+    },
+    "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553": {
+      "guid": "https://www.theregister.com/a/5308553",
+      "fuente": "The Register - Security",
+      "titulo": "Attackers backdoor trusted AWS integrations to steal secrets",
+      "fecha_publicacion_iso": "2026-11-09T19:59:50+00:00",
+      "fecha_agregada_iso": "2026-11-10T03:36:23.030398+00:00",
+      "ruta_noticia": "/noticia/2026-11-09-attackers-backdoor-trusted-aws-integrations-to-steal-secrets-0afd008a.html"
     }
   }
 }
