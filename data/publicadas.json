@@ -27847,6 +27847,398 @@
       "fecha_publicacion_iso": "2026-11-10T03:38:11+00:00",
       "fecha_agregada_iso": "2026-11-10T13:33:38.613912+00:00",
       "ruta_noticia": "/noticia/2026-11-10-trump-picks-palantirs-losapio-to-head-cisa-40624752.html"
+    },
+    "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/": {
+      "guid": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "fuente": "BleepingComputer",
+      "titulo": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "fecha_publicacion_iso": "2026-11-10T22:20:19+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-railway-breach-leads-to-740-000-in-fraudulent-ai-charges-16367edd.html"
+    },
+    "https://cyberscoop.com/us-quantum-computing-industry-manufacturing-push/": {
+      "guid": "https://cyberscoop.com/?p=91518",
+      "fuente": "CyberScoop",
+      "titulo": "The US wants its quantum lead to turn into factories and supply chains",
+      "fecha_publicacion_iso": "2026-11-10T21:50:46+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-the-us-wants-its-quantum-lead-to-turn-into-factories-and-sup-7824da26.html"
+    },
+    "https://cyberscoop.com/microsoft-patch-tuesday-november-2026/": {
+      "guid": "https://cyberscoop.com/?p=91521",
+      "fuente": "CyberScoop",
+      "titulo": "Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday",
+      "fecha_publicacion_iso": "2026-11-10T21:47:01+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-microsoft-fixes-over-1-000-vulnerabilities-in-november-patch-605ee75e.html"
+    },
+    "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/": {
+      "guid": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "fuente": "Krebs on Security",
+      "titulo": "Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday",
+      "fecha_publicacion_iso": "2026-11-10T21:47:01+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-microsoft-fixes-over-1-000-vulnerabilities-in-november-patch-605ee75e.html"
+    },
+    "https://www.theregister.com/offbeat/2026/11/10/ring-robots-ready-to-patrol-paranoids-pads/5308932": {
+      "guid": "https://www.theregister.com/a/5308932",
+      "fuente": "The Register - Security",
+      "titulo": "Ring robots ready to patrol paranoids’ pads",
+      "fecha_publicacion_iso": "2026-11-10T21:45:45+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-ring-robots-ready-to-patrol-paranoids-pads-cd42927e.html"
+    },
+    "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia": {
+      "guid": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+      "fuente": "The Record",
+      "titulo": "US Army member arrested in UK over allegations of spying for Russia",
+      "fecha_publicacion_iso": "2026-11-10T21:13:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-us-army-member-arrested-in-uk-over-allegations-of-spying-for-15da1f8e.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "fuente": "Dark Reading",
+      "titulo": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "fecha_publicacion_iso": "2026-11-10T21:01:14+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-artex-the-ai-pen-test-tool-hackers-turned-into-a-weapon-c9d200a4.html"
+    },
+    "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again": {
+      "guid": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+      "fuente": "The Record",
+      "titulo": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+      "fecha_publicacion_iso": "2026-11-10T20:55:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-microsofts-patch-tuesday-surpasses-1-000-bugs-for-second-mon-612ae5f0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "fuente": "BleepingComputer",
+      "titulo": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "fecha_publicacion_iso": "2026-11-10T20:54:55+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-japanese-furniture-giant-nitori-says-hackers-stole-37-6m-cus-230bcad0.html"
+    },
+    "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them": {
+      "guid": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+      "fuente": "Dark Reading",
+      "titulo": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+      "fecha_publicacion_iso": "2026-11-10T20:41:45+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-f-secure-identifies-26-ways-ai-can-harm-consumers-and-where-6922144e.html"
+    },
+    "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer": {
+      "guid": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+      "fuente": "Dark Reading",
+      "titulo": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+      "fecha_publicacion_iso": "2026-11-10T20:35:34+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-checkmarx-appoints-kobi-sivilya-as-chief-information-securit-8ec6ef10.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness": {
+      "guid": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
+      "fuente": "Dark Reading",
+      "titulo": "How to Assess OT Incident Response Preparedness",
+      "fecha_publicacion_iso": "2026-11-10T20:18:43+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-how-to-assess-ot-incident-response-preparedness-d6fe2bb7.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft releases Windows 10 KB5131096 extended security update",
+      "fecha_publicacion_iso": "2026-11-10T20:04:36+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-microsoft-releases-windows-10-kb5131096-extended-security-up-9814f029.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "fecha_publicacion_iso": "2026-11-10T19:31:11+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-09de80ae.html"
+    },
+    "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html": {
+      "guid": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "fuente": "The Hacker News",
+      "titulo": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "fecha_publicacion_iso": "2026-11-10T19:23:10+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-git-patches-flaw-that-lets-malicious-repositories-execute-co-b86930e1.html"
+    },
+    "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/": {
+      "guid": "https://www.securityweek.com/?p=50679",
+      "fuente": "SecurityWeek",
+      "titulo": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+      "fecha_publicacion_iso": "2026-11-10T19:19:46+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-exploited-outlook-zero-day-among-1-094-flaws-patched-by-micr-008f66d0.html"
+    },
+    "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html": {
+      "guid": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "fecha_publicacion_iso": "2026-11-10T19:19:39+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-sglang-rce-exploit-breaches-near-ai-steals-data-from-18-agen-b958c227.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "fecha_publicacion_iso": "2026-11-10T19:07:36+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outl-50eb1dcc.html"
+    },
+    "https://www.theregister.com/security/2026/11/10/barracudas-email-security-gateways-bitten-by-make-me-root-vulns/5308883": {
+      "guid": "https://www.theregister.com/a/5308883",
+      "fuente": "The Register - Security",
+      "titulo": "Barracuda’s email security gateways bitten by make-me-root vulns",
+      "fecha_publicacion_iso": "2026-11-10T18:51:35+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-barracudas-email-security-gateways-bitten-by-make-me-root-vu-12fdc093.html"
+    },
+    "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github": {
+      "guid": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+      "fuente": "Dark Reading",
+      "titulo": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+      "fecha_publicacion_iso": "2026-11-10T18:46:22+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-ai-coding-agents-leak-thousands-of-secrets-to-github-80496ac2.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+      "fuente": "BleepingComputer",
+      "titulo": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+      "fecha_publicacion_iso": "2026-11-10T18:33:26+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-windows-11-kb5132061-kb5131087-cumulative-updates-released-33bc3cf0.html"
+    },
+    "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/": {
+      "guid": "https://www.securityweek.com/?p=50677",
+      "fuente": "SecurityWeek",
+      "titulo": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+      "fecha_publicacion_iso": "2026-11-10T18:11:54+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-adobe-patches-110-vulnerabilities-across-9-products-4893b7f6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/10/firefox-free-vpn-data/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390904",
+      "fuente": "Help Net Security",
+      "titulo": "Firefox free VPN drops its 50GB launch cap until January 31",
+      "fecha_publicacion_iso": "2026-11-10T18:05:38+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-firefox-free-vpn-drops-its-50gb-launch-cap-until-january-31-fb96488c.html"
+    },
+    "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/": {
+      "guid": "https://cyberscoop.com/?p=91512",
+      "fuente": "CyberScoop",
+      "titulo": "Vanderbilt University reels following ransomware attack claimed by BYOD group",
+      "fecha_publicacion_iso": "2026-11-10T17:46:29+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-vanderbilt-university-reels-following-ransomware-attack-clai-e4793974.html"
+    },
+    "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html": {
+      "guid": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "fuente": "The Hacker News",
+      "titulo": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "fecha_publicacion_iso": "2026-11-10T17:43:23+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-three-china-nexus-espionage-campaigns-linked-through-sparrow-3ac35ff6.html"
+    },
+    "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/": {
+      "guid": "https://www.securityweek.com/?p=50668",
+      "fuente": "SecurityWeek",
+      "titulo": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+      "fecha_publicacion_iso": "2026-11-10T16:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-software-transparency-is-changing-allan-friedman-on-sbom-ai-cc845d87.html"
+    },
+    "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/": {
+      "guid": "https://www.securityweek.com/?p=50672",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+      "fecha_publicacion_iso": "2026-11-10T16:42:02+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-google-widens-gemini-4-carbon-access-after-ai-agents-verify-38532208.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "fecha_publicacion_iso": "2026-11-10T16:17:16+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-82b5e1a6.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "fecha_publicacion_iso": "2026-11-10T16:17:16+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-82b5e1a6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/10/x-org-server-vulnerabilities-november-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390899",
+      "fuente": "Help Net Security",
+      "titulo": "X.Org patches eight server vulnerabilities a month after fixing 12 others",
+      "fecha_publicacion_iso": "2026-11-10T16:15:36+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-x-org-patches-eight-server-vulnerabilities-a-month-after-fix-be01413d.html"
+    },
+    "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763": {
+      "guid": "https://www.theregister.com/a/5308763",
+      "fuente": "The Register - Security",
+      "titulo": "Trump taps Palantir security chief to run battered US cyber defense agency",
+      "fecha_publicacion_iso": "2026-11-10T16:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-trump-taps-palantir-security-chief-to-run-battered-us-cyber-16d2c7e6.html"
+    },
+    "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks": {
+      "guid": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+      "fuente": "The Record",
+      "titulo": "AI company Fireworks says hackers stole data, billing info during October breaches",
+      "fecha_publicacion_iso": "2026-11-10T16:08:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-ai-company-fireworks-says-hackers-stole-data-billing-info-du-4a9230ae.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "fecha_publicacion_iso": "2026-11-10T16:00:55+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-attackers-exploit-ahsaycbs-flaws-to-deploy-sandbox-evading-p-0eb55bf1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+      "fecha_publicacion_iso": "2026-11-10T15:59:19+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secr-89d6f625.html"
+    },
+    "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html": {
+      "guid": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "fecha_publicacion_iso": "2026-11-10T15:58:44+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-blind-eagle-uses-fake-court-notices-to-deliver-remote-access-7e413807.html"
+    },
+    "https://therecord.media/spyware-cyber-crime-iverify": {
+      "guid": "https://therecord.media/spyware-cyber-crime-iverify",
+      "fuente": "The Record",
+      "titulo": "Cybercriminals are increasingly infecting regular people with spyware",
+      "fecha_publicacion_iso": "2026-11-10T15:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-cybercriminals-are-increasingly-infecting-regular-people-wit-cb71d2bd.html"
+    },
+    "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html": {
+      "guid": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "fuente": "The Hacker News",
+      "titulo": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "fecha_publicacion_iso": "2026-11-10T15:33:59+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-fireworks-ai-confirms-wider-breach-affecting-customer-datase-7646e96e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/sap-parchea-cuatro-fallas-de-cvss-100.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-4454893822551244087",
+      "fuente": "Segu-Info",
+      "titulo": "SAP parchea cuatro fallas de CVSS 10.0, incluidas dos que permiten la ejecución remota de código",
+      "fecha_publicacion_iso": "2026-11-10T15:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-sap-parchea-cuatro-fallas-de-cvss-10-0-incluidas-dos-que-per-07abe82b.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/10/fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens/5308722": {
+      "guid": "https://www.theregister.com/a/5308722",
+      "fuente": "The Register - Security",
+      "titulo": "Fireworks AI gets burned twice as customer data exposure widens",
+      "fecha_publicacion_iso": "2026-11-10T15:28:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-fireworks-ai-gets-burned-twice-as-customer-data-exposure-wid-8546ce92.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ransomware recovery is now a client retention metric",
+      "fecha_publicacion_iso": "2026-11-10T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-ransomware-recovery-is-now-a-client-retention-metric-74f31cae.html"
+    },
+    "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/": {
+      "guid": "https://www.securityweek.com/?p=50652",
+      "fuente": "SecurityWeek",
+      "titulo": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+      "fecha_publicacion_iso": "2026-11-10T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-today-ciso-forum-virtual-summit-2026-join-global-cybersecuri-f9a315b0.html"
+    },
+    "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/": {
+      "guid": "https://www.securityweek.com/?p=50660",
+      "fuente": "SecurityWeek",
+      "titulo": "WhiteMatter Raises $20 Million in Series A Funding",
+      "fecha_publicacion_iso": "2026-11-10T14:58:19+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-whitematter-raises-20-million-in-series-a-funding-77e18dcd.html"
+    },
+    "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50655",
+      "fuente": "SecurityWeek",
+      "titulo": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-10T14:46:28+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-sap-patches-critical-icm2shell-proxygate-vulnerabilities-c1d47a91.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390876",
+      "fuente": "Help Net Security",
+      "titulo": "AI reverse engineering let researchers add a new feature to Slack",
+      "fecha_publicacion_iso": "2026-11-10T14:45:18+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-ai-reverse-engineering-let-researchers-add-a-new-feature-to-4ab3567c.html"
+    },
+    "https://therecord.media/michael-losapio-cisa-director-nomination": {
+      "guid": "https://therecord.media/michael-losapio-cisa-director-nomination",
+      "fuente": "The Record",
+      "titulo": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+      "fecha_publicacion_iso": "2026-11-10T14:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-palantir-exec-nominated-to-lead-cisa-lame-duck-senate-vote-i-f00273d9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/10/dreeze-application-revival-33-million-funding/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390649",
+      "fuente": "Help Net Security",
+      "titulo": "Dreeze raises $33 million to automate recovery of entire cloud applications",
+      "fecha_publicacion_iso": "2026-11-10T14:00:13+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-dreeze-raises-33-million-to-automate-recovery-of-entire-clou-97bc5fc4.html"
+    },
+    "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732": {
+      "guid": "https://www.theregister.com/a/5308732",
+      "fuente": "The Register - Security",
+      "titulo": "Chrome zero-day whack-a-mole continues as 2026 tally hits 8",
+      "fecha_publicacion_iso": "2026-11-10T13:28:00+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8-8a1aa391.html"
+    },
+    "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/": {
+      "guid": "https://www.securityweek.com/?p=50648",
+      "fuente": "SecurityWeek",
+      "titulo": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+      "fecha_publicacion_iso": "2026-11-10T13:27:44+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-over-a-dozen-organizations-hit-in-qubole-supply-chain-attack-e7a8a4d2.html"
+    },
+    "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai": {
+      "guid": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+      "fuente": "Dark Reading",
+      "titulo": "People Are Getting Weird About AI",
+      "fecha_publicacion_iso": "2026-11-09T23:06:22+00:00",
+      "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
+      "ruta_noticia": "/noticia/2026-11-10-people-are-getting-weird-about-ai-ccc69e15.html"
     }
   }
 }
