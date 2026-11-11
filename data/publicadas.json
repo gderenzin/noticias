@@ -28239,6 +28239,102 @@
       "fecha_publicacion_iso": "2026-11-09T23:06:22+00:00",
       "fecha_agregada_iso": "2026-11-10T22:27:57.055176+00:00",
       "ruta_noticia": "/noticia/2026-11-10-people-are-getting-weird-about-ai-ccc69e15.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/aurimas-bakas-copla-cra-vulnerability-reporting/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390796",
+      "fuente": "Help Net Security",
+      "titulo": "The Cyber Resilience Act clock doesn’t stop for weekends",
+      "fecha_publicacion_iso": "2026-11-11T07:00:54+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-the-cyber-resilience-act-clock-doesnt-stop-for-weekends-b093a8f1.html"
+    },
+    "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/": {
+      "guid": "https://www.securityweek.com/?p=50681",
+      "fuente": "SecurityWeek",
+      "titulo": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+      "fecha_publicacion_iso": "2026-11-11T07:00:17+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-bluetooth-airplay-pairing-vulnerabilities-patched-across-app-ddf3562d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/flat-security-budget-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390806",
+      "fuente": "Help Net Security",
+      "titulo": "A CISO’s guide to trimming waste from a flat security budget",
+      "fecha_publicacion_iso": "2026-11-11T06:30:10+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-a-cisos-guide-to-trimming-waste-from-a-flat-security-budget-cdd8a2af.html"
+    },
+    "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html": {
+      "guid": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "fecha_publicacion_iso": "2026-11-11T06:04:02+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-cisco-broadworks-and-openwave-flaws-actively-exploited-despi-cd6455aa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/eu-enisa-cybersecurity-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390858",
+      "fuente": "Help Net Security",
+      "titulo": "EU cyber scores look healthy, but 45% of surveyed IT providers take months to patch",
+      "fecha_publicacion_iso": "2026-11-11T06:00:09+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-eu-cyber-scores-look-healthy-but-45-of-surveyed-it-providers-8b162c57.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/security-teams-vulnerability-backlog/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390825",
+      "fuente": "Help Net Security",
+      "titulo": "Nearly half of big firms shelve or close vulnerability findings they haven’t confirmed",
+      "fecha_publicacion_iso": "2026-11-11T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-nearly-half-of-big-firms-shelve-or-close-vulnerability-findi-2b2ae154.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006": {
+      "guid": "https://www.theregister.com/a/5309006",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI builds a kill switch for its research models",
+      "fecha_publicacion_iso": "2026-11-11T05:20:56+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-openai-builds-a-kill-switch-for-its-research-models-763a80de.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/iverify-iphone-exploit-kit-attacks-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390875",
+      "fuente": "Help Net Security",
+      "titulo": "An Instagram ad was all it took: Leaked exploit kits are hitting employees’ iPhones",
+      "fecha_publicacion_iso": "2026-11-11T05:00:34+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-an-instagram-ad-was-all-it-took-leaked-exploit-kits-are-hitt-93d0782d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/google-fi-super-network-encryption/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390915",
+      "fuente": "Help Net Security",
+      "titulo": "Google Fi super network leans on encryption to keep hotspot traffic private",
+      "fecha_publicacion_iso": "2026-11-11T04:50:38+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-google-fi-super-network-leans-on-encryption-to-keep-hotspot-a632dce9.html"
+    },
+    "https://cyberscoop.com/michael-losapio-cisa-director-nomination-palantir-scrutiny/": {
+      "guid": "https://cyberscoop.com/?p=91527",
+      "fuente": "CyberScoop",
+      "titulo": "CISA director pick already drawing concern from Hill Dems over Palantir connection",
+      "fecha_publicacion_iso": "2026-11-10T22:38:16+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-cisa-director-pick-already-drawing-concern-from-hill-dems-ov-e8b3d61b.html"
+    },
+    "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946": {
+      "guid": "https://www.theregister.com/a/5308946",
+      "fuente": "The Register - Security",
+      "titulo": "November Patch Tuesday boasts over 1,000 bugs but only one zero-day so far",
+      "fecha_publicacion_iso": "2026-11-10T22:37:01+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-november-patch-tuesday-boasts-over-1-000-bugs-but-only-one-z-2a555df5.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "fuente": "Dark Reading",
+      "titulo": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "fecha_publicacion_iso": "2026-11-10T22:26:51+00:00",
+      "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-november-patch-tuesday-an-overflowing-cornucopia-of-cves-95f88336.html"
     }
   }
 }
