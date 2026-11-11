@@ -28735,6 +28735,86 @@
       "fecha_publicacion_iso": "2026-11-10T16:10:28+00:00",
       "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
       "ruta_noticia": "/noticia/2026-11-11-cereal-como-turla-se-oculta-dentro-de-servidores-microsoft-e-044274da.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "fuente": "BleepingComputer",
+      "titulo": "Baker Tilly notifies clients of data breach at third-party provider",
+      "fecha_publicacion_iso": "2026-11-11T23:01:31+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-baker-tilly-notifies-clients-of-data-breach-at-third-party-p-7f241c94.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "fuente": "BleepingComputer",
+      "titulo": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "fecha_publicacion_iso": "2026-11-11T22:56:21+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-active-screenconnect-attacks-breach-msps-impact-dozens-of-or-ccdd6c7f.html"
+    },
+    "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack": {
+      "guid": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+      "fecha_publicacion_iso": "2026-11-11T21:44:04+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-attackers-say-hello-to-a-different-scale-of-cloud-attack-bcbd3a3c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "fuente": "BleepingComputer",
+      "titulo": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "fecha_publicacion_iso": "2026-11-11T21:27:40+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-emudhra-revokes-8-more-ca-certificates-after-private-key-mis-a4a34375.html"
+    },
+    "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience": {
+      "guid": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+      "fuente": "Dark Reading",
+      "titulo": "AI Raises the Stakes for Cyber Resilience",
+      "fecha_publicacion_iso": "2026-11-11T21:20:41+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-ai-raises-the-stakes-for-cyber-resilience-c5c797f8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "fuente": "BleepingComputer",
+      "titulo": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "fecha_publicacion_iso": "2026-11-11T20:54:20+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-notion-says-fireworks-breach-exposed-customer-ai-chat-transc-4555dea1.html"
+    },
+    "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws": {
+      "guid": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+      "fuente": "Dark Reading",
+      "titulo": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+      "fecha_publicacion_iso": "2026-11-11T20:05:18+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-n-able-takes-n-central-platform-offline-after-discovery-of-3-e2b7ebdc.html"
+    },
+    "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/": {
+      "guid": "https://krebsonsecurity.com/?p=74550",
+      "fuente": "Krebs on Security",
+      "titulo": "Who Runs the Ransomware Group Qilin?",
+      "fecha_publicacion_iso": "2026-11-11T18:06:01+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-who-runs-the-ransomware-group-qilin-8cdc4a0f.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/microsoft-corrige-1259-vulnerabilidades.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8454936116529707759",
+      "fuente": "Segu-Info",
+      "titulo": "Microsoft corrige 1.259 vulnerabilidades, incluida una falla en Outlook que ya está siendo explotada y que podría exponer hashes NTLMv2",
+      "fecha_publicacion_iso": "2026-11-11T17:35:42+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-corrige-1-259-vulnerabilidades-incluida-una-falla-434396a7.html"
+    },
+    "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-one-already-under-attack/5308946": {
+      "guid": "https://www.theregister.com/a/5308946",
+      "fuente": "The Register - Security",
+      "titulo": "November Patch Tuesday boasts over 1,000 bugs, one already under attack",
+      "fecha_publicacion_iso": "2026-11-10T22:37:01+00:00",
+      "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-november-patch-tuesday-boasts-over-1-000-bugs-one-already-un-b5beca2c.html"
     }
   }
 }
