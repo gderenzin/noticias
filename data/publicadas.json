@@ -28335,6 +28335,406 @@
       "fecha_publicacion_iso": "2026-11-10T22:26:51+00:00",
       "fecha_agregada_iso": "2026-11-11T07:46:23.553424+00:00",
       "ruta_noticia": "/noticia/2026-11-11-november-patch-tuesday-an-overflowing-cornucopia-of-cves-95f88336.html"
+    },
+    "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime": {
+      "guid": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+      "fuente": "The Record",
+      "titulo": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+      "fecha_publicacion_iso": "2026-11-11T16:57:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-iran-backed-network-directed-london-attacks-over-facetime-us-d6204029.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "fuente": "BleepingComputer",
+      "titulo": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "fecha_publicacion_iso": "2026-11-11T16:24:18+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-maersk-confirms-data-breach-as-whitearmor-ransomware-demands-4c32248b.html"
+    },
+    "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "fecha_publicacion_iso": "2026-11-11T16:12:46+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-critical-zoom-workplace-flaw-could-allow-unauthenticated-rem-8b35f69e.html"
+    },
+    "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50708",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-11T15:42:47+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-critical-xen-orchestra-flaws-exploited-in-attacks-d62ab969.html"
+    },
+    "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html": {
+      "guid": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "fuente": "The Hacker News",
+      "titulo": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "fecha_publicacion_iso": "2026-11-11T15:34:27+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-antifox-ai-pentesting-platform-linked-to-attacks-that-access-63cbf256.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "fecha_publicacion_iso": "2026-11-11T15:12:59+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-hackers-use-antifox-ai-agents-in-aws-credential-theft-attack-9c9df925.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "fuente": "BleepingComputer",
+      "titulo": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "fecha_publicacion_iso": "2026-11-11T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-ebpf-rootkits-why-underground-actors-are-taking-notice-a9021fd4.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/fortinet2shell-vulnerabilidad-critica.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1329534443084594669",
+      "fuente": "Segu-Info",
+      "titulo": "Fortinet2Shell: vulnerabilidad crítica en FortiClient permite ejecutar código",
+      "fecha_publicacion_iso": "2026-11-11T14:59:33+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-fortinet2shell-vulnerabilidad-critica-en-forticlient-permite-2428cb9e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/kai-autonomous-defense-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391006",
+      "fuente": "Help Net Security",
+      "titulo": "Kai extends Autonomous Defense Platform visibility to internet-facing assets",
+      "fecha_publicacion_iso": "2026-11-11T14:55:27+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-kai-extends-autonomous-defense-platform-visibility-to-intern-6d153e69.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/git-project-security-updates/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390990",
+      "fuente": "Help Net Security",
+      "titulo": "Git fixes six vulnerabilities, including code execution during recursive clones",
+      "fecha_publicacion_iso": "2026-11-11T14:26:12+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-git-fixes-six-vulnerabilities-including-code-execution-durin-8841db87.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "fecha_publicacion_iso": "2026-11-11T14:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-hackers-target-qlik-sense-servers-with-reverse-shells-stage-7fc0ff6a.html"
+    },
+    "https://www.securityweek.com/asus-zoom-release-security-patches/": {
+      "guid": "https://www.securityweek.com/?p=50706",
+      "fuente": "SecurityWeek",
+      "titulo": "Asus, Zoom Release Security Patches",
+      "fecha_publicacion_iso": "2026-11-11T13:58:38+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-asus-zoom-release-security-patches-7ba87170.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390946",
+      "fuente": "Help Net Security",
+      "titulo": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
+      "fecha_publicacion_iso": "2026-11-11T13:54:12+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-embed-security-lets-analysts-teach-its-ai-soc-platform-how-t-a61691d7.html"
+    },
+    "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50704",
+      "fuente": "SecurityWeek",
+      "titulo": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-11T13:37:19+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-citrix-ivanti-patch-critical-and-high-severity-vulnerabiliti-60ccd3ca.html"
+    },
+    "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack": {
+      "guid": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Poland shuts down government services platform ePUAP following cyberattack",
+      "fecha_publicacion_iso": "2026-11-11T13:18:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-poland-shuts-down-government-services-platform-epuap-followi-2b63f8aa.html"
+    },
+    "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms": {
+      "guid": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+      "fuente": "The Record",
+      "titulo": "Britain, France set out first guidelines for commercial hacking firms",
+      "fecha_publicacion_iso": "2026-11-11T13:11:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-britain-france-set-out-first-guidelines-for-commercial-hacki-424f8e5e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "fuente": "BleepingComputer",
+      "titulo": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-11T12:32:27+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-n-able-releases-security-hotfixes-for-zero-day-vulnerabiliti-69367988.html"
+    },
+    "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/": {
+      "guid": "https://www.securityweek.com/?p=50702",
+      "fuente": "SecurityWeek",
+      "titulo": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "fecha_publicacion_iso": "2026-11-11T12:24:33+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-finite-state-raises-27-million-to-secure-software-and-firmwa-6ef677aa.html"
+    },
+    "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html": {
+      "guid": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "fuente": "The Hacker News",
+      "titulo": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "fecha_publicacion_iso": "2026-11-11T12:19:40+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-over-35-000-grok-built-apps-exposed-online-some-leaking-conf-14caa111.html"
+    },
+    "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50700",
+      "fuente": "SecurityWeek",
+      "titulo": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-11T12:10:14+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-fortinet-patches-nearly-100-vulnerabilities-6efa2d9b.html"
+    },
+    "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/5309096": {
+      "guid": "https://www.theregister.com/a/5309096",
+      "fuente": "The Register - Security",
+      "titulo": "Shipping giant Maersk probes 'IT security incident,' data theft",
+      "fecha_publicacion_iso": "2026-11-11T12:05:34+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-shipping-giant-maersk-probes-it-security-incident-data-theft-faa87692.html"
+    },
+    "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html": {
+      "guid": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "fuente": "The Hacker News",
+      "titulo": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "fecha_publicacion_iso": "2026-11-11T12:01:59+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-we-built-an-agent-that-broke-all-of-our-security-rules-here-de184002.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/rubrik-devops-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390976",
+      "fuente": "Help Net Security",
+      "titulo": "Rubrik enhances DevOps Protection to preserve legitimate work during recovery",
+      "fecha_publicacion_iso": "2026-11-11T12:01:53+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-rubrik-enhances-devops-protection-to-preserve-legitimate-wor-966ea0ff.html"
+    },
+    "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html": {
+      "guid": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "fecha_publicacion_iso": "2026-11-11T12:00:53+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-emudhra-revokes-8-more-cas-it-previously-declared-unaffected-b80a24c8.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/la-contrasena-predeterminada-adminadmin.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5580756141307866308",
+      "fuente": "Segu-Info",
+      "titulo": "\"admin:admin\" en el servidor permite hackear a dos fabricantes de automóviles, abrir los vehículos y ponerlos en marcha",
+      "fecha_publicacion_iso": "2026-11-11T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-admin-admin-en-el-servidor-permite-hackear-a-dos-fabricantes-df36110b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-ivanti-5": {
+      "guid": "695617 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Ivanti",
+      "fecha_publicacion_iso": "2026-11-11T11:52:42+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-multiples-vulnerabilidades-en-productos-de-ivanti-7d0e366d.html"
+    },
+    "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/": {
+      "guid": "https://www.securityweek.com/?p=50697",
+      "fuente": "SecurityWeek",
+      "titulo": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+      "fecha_publicacion_iso": "2026-11-11T11:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-bay-raises-50-million-to-control-what-enterprise-ai-agents-c-21b7ddf6.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes audio issues caused by September security updates",
+      "fecha_publicacion_iso": "2026-11-11T11:18:36+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-fixes-audio-issues-caused-by-september-security-up-15c0b590.html"
+    },
+    "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/": {
+      "guid": "https://www.securityweek.com/?p=50694",
+      "fuente": "SecurityWeek",
+      "titulo": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+      "fecha_publicacion_iso": "2026-11-11T11:16:40+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-a-3d74aba6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/microsoft-hidden-ai-backdoors-lazarus/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390959",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft researchers demonstrate hidden backdoor technique for AI agents",
+      "fecha_publicacion_iso": "2026-11-11T10:55:54+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-researchers-demonstrate-hidden-backdoor-technique-ba698932.html"
+    },
+    "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/": {
+      "guid": "https://www.securityweek.com/?p=50692",
+      "fuente": "SecurityWeek",
+      "titulo": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+      "fecha_publicacion_iso": "2026-11-11T10:35:15+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-ics-patch-tuesday-siemens-flags-high-severity-flaws-node2she-3dfcf984.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/ubuntu-certificate-revocation-curl-openssl/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390948",
+      "fuente": "Help Net Security",
+      "titulo": "Ubuntu certificate revocation checks arrive in curl, OpenSSL is next",
+      "fecha_publicacion_iso": "2026-11-11T09:46:23+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-ubuntu-certificate-revocation-checks-arrive-in-curl-openssl-1092fa4c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/red-hat-openshift-5/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390942",
+      "fuente": "Help Net Security",
+      "titulo": "Red Hat OpenShift 5 brings autonomous troubleshooting to hybrid clouds",
+      "fecha_publicacion_iso": "2026-11-11T09:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-red-hat-openshift-5-brings-autonomous-troubleshooting-to-hyb-79dab6d1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/druva-agent-recovery/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390938",
+      "fuente": "Help Net Security",
+      "titulo": "Druva helps restore AI agents without rolling back entire environments",
+      "fecha_publicacion_iso": "2026-11-11T09:23:04+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-druva-helps-restore-ai-agents-without-rolling-back-entire-en-22100d80.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/fingerprint-fraud-score/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390934",
+      "fuente": "Help Net Security",
+      "titulo": "Fingerprint trains specialized models to detect distinct fraud types",
+      "fecha_publicacion_iso": "2026-11-11T09:12:57+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-fingerprint-trains-specialized-models-to-detect-distinct-fra-040cd554.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+      "fecha_publicacion_iso": "2026-11-11T09:07:27+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-fixes-exchange-sign-ins-broken-by-windows-server-u-6cc65111.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/11/orca-security-ai-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390930",
+      "fuente": "Help Net Security",
+      "titulo": "Orca Security adds visibility into AI-generated code and agent risks",
+      "fecha_publicacion_iso": "2026-11-11T09:05:46+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-orca-security-adds-visibility-into-ai-generated-code-and-age-d4e4627c.html"
+    },
+    "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50690",
+      "fuente": "SecurityWeek",
+      "titulo": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-11T09:01:07+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-threat-actors-exploit-openwave-cisco-broadworks-vulnerabilit-c5080c64.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-11T09:01:07+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-threat-actors-exploit-openwave-cisco-broadworks-vulnerabilit-c5080c64.html"
+    },
+    "http://www.elladodelmal.com/2026/11/12-y-13-de-noviembre-madrid-isms-forum.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4363808918797307164",
+      "fuente": "El Lado del Mal",
+      "titulo": "12 y 13 de Noviembre - Madrid. ISMS Forum y Foro Ciberseguridad ABC",
+      "fecha_publicacion_iso": "2026-11-11T09:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-12-y-13-de-noviembre-madrid-isms-forum-y-foro-ciberseguridad-8b0d3020.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escalada-de-privilegios-en-iperius-backup-de-enter": {
+      "guid": "695569 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escalada de privilegios en Iperius Backup de Enter",
+      "fecha_publicacion_iso": "2026-11-11T08:46:37+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-escalada-de-privilegios-en-iperius-backup-de-enter-a031a371.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ejecucion-remota-de-codigo-en-confluence-data-center-de-atlassian": {
+      "guid": "695571 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Ejecución remota de código en Confluence Data Center de Atlassian",
+      "fecha_publicacion_iso": "2026-11-11T08:41:03+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-ejecucion-remota-de-codigo-en-confluence-data-center-de-atla-21cf653b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-sap-de-noviembre-de-2026": {
+      "guid": "695572 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de SAP de noviembre de 2026",
+      "fecha_publicacion_iso": "2026-11-11T08:41:02+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-boletin-de-seguridad-de-sap-de-noviembre-de-2026-d81eaa94.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/boletin-de-seguridad-de-microsoft-de-noviembre-de-2026": {
+      "guid": "695614 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Boletín de seguridad de Microsoft de noviembre de 2026",
+      "fecha_publicacion_iso": "2026-11-11T08:41:00+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-boletin-de-seguridad-de-microsoft-de-noviembre-de-2026-d7aac8ac.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-n-central-de-n-able": {
+      "guid": "695615 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en N-central de N-able",
+      "fecha_publicacion_iso": "2026-11-11T08:40:59+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-multiples-vulnerabilidades-en-n-central-de-n-able-17453540.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-fortinet-4": {
+      "guid": "695620 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Fortinet",
+      "fecha_publicacion_iso": "2026-11-11T08:40:56+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-multiples-vulnerabilidades-en-productos-de-fortinet-75563ce4.html"
+    },
+    "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html": {
+      "guid": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "fecha_publicacion_iso": "2026-11-11T08:17:53+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-patches-1-259-flaws-including-exploited-outlook-bu-44096b20.html"
+    },
+    "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html": {
+      "guid": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "fuente": "The Hacker News",
+      "titulo": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "fecha_publicacion_iso": "2026-11-11T07:49:04+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-railway-says-stolen-customer-ai-keys-led-to-740-000-in-estim-890bd5d6.html"
+    },
+    "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html": {
+      "guid": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "fecha_publicacion_iso": "2026-11-11T07:21:05+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-microsoft-researchers-show-ai-agents-can-be-backdoored-by-ed-e23f07d9.html"
+    },
+    "https://www.welivesecurity.com/es/investigaciones/turla-cereal-microsoft-exchange/": {
+      "guid": "https://www.welivesecurity.com/es/investigaciones/turla-cereal-microsoft-exchange/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "Cereal: cómo Turla se oculta dentro de servidores Microsoft Exchange",
+      "fecha_publicacion_iso": "2026-11-10T16:10:28+00:00",
+      "fecha_agregada_iso": "2026-11-11T17:13:55.375850+00:00",
+      "ruta_noticia": "/noticia/2026-11-11-cereal-como-turla-se-oculta-dentro-de-servidores-microsoft-e-044274da.html"
     }
   }
 }
