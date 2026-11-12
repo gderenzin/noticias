@@ -28815,6 +28815,102 @@
       "fecha_publicacion_iso": "2026-11-10T22:37:01+00:00",
       "fecha_agregada_iso": "2026-11-11T23:29:32.264714+00:00",
       "ruta_noticia": "/noticia/2026-11-11-november-patch-tuesday-boasts-over-1-000-bugs-one-already-un-b5beca2c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/marcelo-oliveira-github-agentic-autofix/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390836",
+      "fuente": "Help Net Security",
+      "titulo": "GitHub Agentic Autofix and the question of who owns a bad AI patch",
+      "fecha_publicacion_iso": "2026-11-12T07:00:38+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-github-agentic-autofix-and-the-question-of-who-owns-a-bad-ai-cefb9b2e.html"
+    },
+    "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html": {
+      "guid": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "fecha_publicacion_iso": "2026-11-12T06:42:47+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-attacker-used-4-837-hijacked-github-accounts-to-run-a-ci-sec-417b99b8.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/dagster-open-source-cloud-native-data-pipeline-orchestrator/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391040",
+      "fuente": "Help Net Security",
+      "titulo": "Dagster: Open-source cloud-native data pipeline orchestrator",
+      "fecha_publicacion_iso": "2026-11-12T06:30:08+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-dagster-open-source-cloud-native-data-pipeline-orchestrator-25503525.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/sprinto-ai-agent-offboarding/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390969",
+      "fuente": "Help Net Security",
+      "titulo": "Who collects the keys when an AI agent retires?",
+      "fecha_publicacion_iso": "2026-11-12T06:00:57+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-who-collects-the-keys-when-an-ai-agent-retires-d9a39f40.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/sans-industrial-cybersecurity-survey/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390910",
+      "fuente": "Help Net Security",
+      "titulo": "CISOs say OT will survive a cyberattack, but their engineers aren’t so sure",
+      "fecha_publicacion_iso": "2026-11-12T05:30:13+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-cisos-say-ot-will-survive-a-cyberattack-but-their-engineers-f5f5bc16.html"
+    },
+    "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "fecha_publicacion_iso": "2026-11-12T05:12:26+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-critical-apache-http-2-flaw-could-let-unauthenticated-attack-8b748363.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/bots-ai-agent-impersonation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391011",
+      "fuente": "Help Net Security",
+      "titulo": "Bots pose as AI agents, AI agents pose as humans, and defenses believe both",
+      "fecha_publicacion_iso": "2026-11-12T05:00:59+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-bots-pose-as-ai-agents-ai-agents-pose-as-humans-and-defenses-6e21074f.html"
+    },
+    "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html": {
+      "guid": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "fuente": "The Hacker News",
+      "titulo": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "fecha_publicacion_iso": "2026-11-12T04:39:48+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-screenconnect-attacks-target-at-least-288-endpoints-across-4-f1a5b4bf.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244": {
+      "guid": "https://www.theregister.com/a/5309244",
+      "fuente": "The Register - Security",
+      "titulo": "Disgraced former CA eMudhra blames buggy script for hopelessly weak certificates",
+      "fecha_publicacion_iso": "2026-11-12T04:22:18+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-disgraced-former-ca-emudhra-blames-buggy-script-for-hopeless-d14bdfc6.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry": {
+      "guid": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+      "fuente": "Dark Reading",
+      "titulo": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+      "fecha_publicacion_iso": "2026-11-12T01:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-chinese-ai-project-scouts-spies-in-taiwan-chip-industry-d9fc7bca.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+      "fuente": "Dark Reading",
+      "titulo": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+      "fecha_publicacion_iso": "2026-11-12T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-japan-pushes-emergency-funding-for-cybersecurity-as-ai-assis-09ebecc4.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil": {
+      "guid": "924a55eb-a3ec-40fe-a875-8264de291311",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil",
+      "fecha_publicacion_iso": "2026-11-11T12:44:12+00:00",
+      "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-la-agencia-espanola-de-proteccion-de-datos-ante-la-difusion-8261429e.html"
     }
   }
 }
