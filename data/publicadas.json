@@ -28911,6 +28911,462 @@
       "fecha_publicacion_iso": "2026-11-11T12:44:12+00:00",
       "fecha_agregada_iso": "2026-11-12T08:21:28.550864+00:00",
       "ruta_noticia": "/noticia/2026-11-12-la-agencia-espanola-de-proteccion-de-datos-ante-la-difusion-8261429e.html"
+    },
+    "https://cyberscoop.com/section-702-reauthorization-ndaa-debate/": {
+      "guid": "https://cyberscoop.com/?p=91533",
+      "fuente": "CyberScoop",
+      "titulo": "Don’t put Section 702 spying law renewal in defense bill, groups urge Hill leaders",
+      "fecha_publicacion_iso": "2026-11-12T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-dont-put-section-702-spying-law-renewal-in-defense-bill-grou-84d2c357.html"
+    },
+    "https://cyberscoop.com/operation-endgame-malware-takedown-gootloader-stealc-europol/": {
+      "guid": "https://cyberscoop.com/?p=91539",
+      "fuente": "CyberScoop",
+      "titulo": "International operation dismantles malware networks, exposes 6.4 million stolen credentials",
+      "fecha_publicacion_iso": "2026-11-12T16:55:34+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-international-operation-dismantles-malware-networks-exposes-eae739ae.html"
+    },
+    "https://therecord.media/european-authorities-take-down-stealic-malware-second-time": {
+      "guid": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+      "fuente": "The Record",
+      "titulo": "European authorities take down SteaIC malware servers for second time this year",
+      "fecha_publicacion_iso": "2026-11-12T16:21:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-european-authorities-take-down-steaic-malware-servers-for-se-023264eb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+      "fecha_publicacion_iso": "2026-11-12T16:04:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-new-windows-signdrop-zero-day-gives-hackers-system-privilege-ad975797.html"
+    },
+    "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html": {
+      "guid": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "fuente": "The Hacker News",
+      "titulo": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "fecha_publicacion_iso": "2026-11-12T15:38:49+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-citrix-patches-12-netscaler-and-secure-access-client-flaws-i-c398aa3e.html"
+    },
+    "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html": {
+      "guid": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "fecha_publicacion_iso": "2026-11-12T15:15:40+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-186-fake-ai-domains-redirect-users-to-clickfix-lures-browser-50b7d482.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "fuente": "BleepingComputer",
+      "titulo": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+      "fecha_publicacion_iso": "2026-11-12T15:07:20+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-police-dismantle-gootloader-castlerat-stealc-malware-infrast-62ff99ae.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/picus-autonomous-penetration-testing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391191",
+      "fuente": "Help Net Security",
+      "titulo": "Picus puts AI agents on the offensive with autonomous pentesting",
+      "fecha_publicacion_iso": "2026-11-12T15:05:02+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-picus-puts-ai-agents-on-the-offensive-with-autonomous-pentes-74218da7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391032",
+      "fuente": "Help Net Security",
+      "titulo": "Attackers breached 10 organizations with an open-source AI pentest framework",
+      "fecha_publicacion_iso": "2026-11-12T15:00:29+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-attackers-breached-10-organizations-with-an-open-source-ai-p-4864a862.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "fuente": "BleepingComputer",
+      "titulo": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "fecha_publicacion_iso": "2026-11-12T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-your-endpoint-management-platform-could-be-your-biggest-secu-28ab9a11.html"
+    },
+    "https://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401": {
+      "guid": "https://www.theregister.com/a/5309401",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft Exchange Server 2016 and 2019 enter their 'permanently vulnerable' era",
+      "fecha_publicacion_iso": "2026-11-12T14:55:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-microsoft-exchange-server-2016-and-2019-enter-their-permanen-2a38c656.html"
+    },
+    "https://therecord.media/europe-hoax-email-threats": {
+      "guid": "https://therecord.media/europe-hoax-email-threats",
+      "fuente": "The Record",
+      "titulo": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+      "fecha_publicacion_iso": "2026-11-12T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hijacked-email-accounts-complicate-investigations-into-europ-504c4dbc.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Apify rotates API tokens, prompts 2FA resets after breach",
+      "fecha_publicacion_iso": "2026-11-12T14:36:47+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-apify-rotates-api-tokens-prompts-2fa-resets-after-breach-7927f7b9.html"
+    },
+    "https://www.wired.com/story/apples-homeview-tries-face-authentication-without-faceid/": {
+      "guid": "6af4c2f347864bece89c86ee",
+      "fuente": "Wired - Security",
+      "titulo": "Apple’s HomeView Tries Face Authentication Without FaceID",
+      "fecha_publicacion_iso": "2026-11-12T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-apples-homeview-tries-face-authentication-without-faceid-20c8115f.html"
+    },
+    "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50738",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-12T13:42:09+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-chrome-firefox-updates-patch-over-180-vulnerabilities-116311b7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391171",
+      "fuente": "Help Net Security",
+      "titulo": "Operation Endgame malware takedown turns up over 6 million stolen logins",
+      "fecha_publicacion_iso": "2026-11-12T13:34:14+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-operation-endgame-malware-takedown-turns-up-over-6-million-s-14fd5bce.html"
+    },
+    "https://therecord.media/romania-russia-cyberattack-emails": {
+      "guid": "https://therecord.media/romania-russia-cyberattack-emails",
+      "fuente": "The Record",
+      "titulo": "Romania says it stopped Russian cyberattack targeting government emails",
+      "fecha_publicacion_iso": "2026-11-12T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-romania-says-it-stopped-russian-cyberattack-targeting-govern-5209bb09.html"
+    },
+    "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/": {
+      "guid": "https://www.securityweek.com/?p=50730",
+      "fuente": "SecurityWeek",
+      "titulo": "Daylight Lands $80 Million for AI-Powered Security Operations",
+      "fecha_publicacion_iso": "2026-11-12T13:12:11+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-daylight-lands-80-million-for-ai-powered-security-operations-0ea3d753.html"
+    },
+    "https://therecord.media/kazakhstan-hackers-central-asia": {
+      "guid": "https://therecord.media/kazakhstan-hackers-central-asia",
+      "fuente": "The Record",
+      "titulo": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
+      "fecha_publicacion_iso": "2026-11-12T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-kazakhstan-linked-hackers-used-ai-agent-to-spy-on-central-as-e447c2de.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "fecha_publicacion_iso": "2026-11-12T12:11:11+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-microsoft-recent-windows-updates-cause-sql-server-performanc-00c8c05e.html"
+    },
+    "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html": {
+      "guid": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "fecha_publicacion_iso": "2026-11-12T12:09:14+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-google-cloud-warns-three-amd-turin-cpu-flaws-could-leak-data-5af74d5c.html"
+    },
+    "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html": {
+      "guid": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "fuente": "The Hacker News",
+      "titulo": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "fecha_publicacion_iso": "2026-11-12T12:02:51+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-webinar-see-how-identity-blind-spots-put-your-soc-at-risk-an-950205e1.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/actualizaciones-de-seguridad-de.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5034156858756783605",
+      "fuente": "Segu-Info",
+      "titulo": "Actualizaciones de seguridad de NOVIEMBRE para todas las empresas",
+      "fecha_publicacion_iso": "2026-11-12T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-actualizaciones-de-seguridad-de-noviembre-para-todas-las-emp-3b496862.html"
+    },
+    "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html": {
+      "guid": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "fuente": "The Hacker News",
+      "titulo": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "fecha_publicacion_iso": "2026-11-12T11:51:43+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-new-n-central-exploits-work-against-patched-servers-enable-r-4fb3f4a5.html"
+    },
+    "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html": {
+      "guid": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "fuente": "The Hacker News",
+      "titulo": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "fecha_publicacion_iso": "2026-11-12T11:51:31+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-calendar-invites-and-live-proxies-inside-a-google-session-hi-f7cf5708.html"
+    },
+    "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html": {
+      "guid": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "fecha_publicacion_iso": "2026-11-12T11:33:15+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-ptc-patches-critical-windchill-and-flexplm-flaw-that-could-e-988b46d1.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/european-tech-buyers-add-digital-sovereignty-to-cyber-shopping-list/5309216": {
+      "guid": "https://www.theregister.com/a/5309216",
+      "fuente": "The Register - Security",
+      "titulo": "European tech buyers add digital sovereignty to cyber shopping list",
+      "fecha_publicacion_iso": "2026-11-12T11:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-european-tech-buyers-add-digital-sovereignty-to-cyber-shoppi-2b2cd93c.html"
+    },
+    "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/": {
+      "guid": "https://www.securityweek.com/?p=50728",
+      "fuente": "SecurityWeek",
+      "titulo": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "fecha_publicacion_iso": "2026-11-12T11:08:52+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-notion-customer-data-compromised-in-fireworks-ai-hack-0fd5862f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391150",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
+      "fecha_publicacion_iso": "2026-11-12T11:04:24+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-microsoft-entra-adds-a-seven-day-safeguard-against-irreversi-4ac54296.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/stolen-claude-api-keys-remote-controlled-implant/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391055",
+      "fuente": "Help Net Security",
+      "titulo": "Stolen Claude API keys can turn Claude Code into a remote-controlled implant",
+      "fecha_publicacion_iso": "2026-11-12T11:00:21+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-stolen-claude-api-keys-can-turn-claude-code-into-a-remote-co-b1687c54.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+      "fuente": "Dark Reading",
+      "titulo": "Inside an AI Attack Against a US Retailer",
+      "fecha_publicacion_iso": "2026-11-12T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-inside-an-ai-attack-against-a-us-retailer-9b952a7f.html"
+    },
+    "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/": {
+      "guid": "https://www.securityweek.com/?p=50726",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "fecha_publicacion_iso": "2026-11-12T10:39:34+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-deploy-malware-in-fresh-screenconnect-campaign-b8a4eb8f.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361": {
+      "guid": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
+      "fuente": "The Register - Security",
+      "titulo": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "fecha_publicacion_iso": "2026-11-12T10:39:34+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-deploy-malware-in-fresh-screenconnect-campaign-b8a4eb8f.html"
+    },
+    "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html": {
+      "guid": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "fecha_publicacion_iso": "2026-11-12T10:39:34+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-deploy-malware-in-fresh-screenconnect-campaign-b8a4eb8f.html"
+    },
+    "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool": {
+      "guid": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+      "fuente": "The Record",
+      "titulo": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "fecha_publicacion_iso": "2026-11-12T10:39:34+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-deploy-malware-in-fresh-screenconnect-campaign-b8a4eb8f.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms Windows security updates installation issues",
+      "fecha_publicacion_iso": "2026-11-12T10:24:07+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-microsoft-confirms-windows-security-updates-installation-iss-a3551b4d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/irisscon-2026-photos/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391069",
+      "fuente": "Help Net Security",
+      "titulo": "Photos: IRISSCON 2026 cybercrime conference",
+      "fecha_publicacion_iso": "2026-11-12T10:16:07+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-photos-irisscon-2026-cybercrime-conference-b5c61c3f.html"
+    },
+    "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/": {
+      "guid": "https://www.securityweek.com/?p=50724",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+      "fecha_publicacion_iso": "2026-11-12T09:39:55+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-target-n-central-zero-days-as-n-able-rushes-patches-2bb5c2ca.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers plant GSocket on Linux servers for persistent access",
+      "fecha_publicacion_iso": "2026-11-12T09:38:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-plant-gsocket-on-linux-servers-for-persistent-access-3ca0085e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/aws-ai-agents-built-emulator/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391100",
+      "fuente": "Help Net Security",
+      "titulo": "AWS Emulator: Open-source tool for testing AWS apps locally, built by autonomous AI agents",
+      "fecha_publicacion_iso": "2026-11-12T09:30:46+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-aws-emulator-open-source-tool-for-testing-aws-apps-locally-b-835329b1.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/london-hotel-put-admin-login-for-booking-website-on-whiteboard-behind-the-front-desk/5308889": {
+      "guid": "https://www.theregister.com/a/5308889",
+      "fuente": "The Register - Security",
+      "titulo": "London hotel put admin login for booking website on whiteboard behind the front desk",
+      "fecha_publicacion_iso": "2026-11-12T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-london-hotel-put-admin-login-for-booking-website-on-whiteboa-3d418711.html"
+    },
+    "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "fecha_publicacion_iso": "2026-11-12T09:25:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-critical-pre-auth-mongodb-flaw-cve-2026-118383-can-crash-lag-26d811aa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/wfx-loot-github-actions-secret-stealer/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391101",
+      "fuente": "Help Net Security",
+      "titulo": "Check your GitHub repos: A secret stealer hit tens of thousands of them",
+      "fecha_publicacion_iso": "2026-11-12T09:24:32+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-check-your-github-repos-a-secret-stealer-hit-tens-of-thousan-44241255.html"
+    },
+    "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/": {
+      "guid": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+      "fuente": "SecurityWeek",
+      "titulo": "Check your GitHub repos: A secret stealer hit tens of thousands of them",
+      "fecha_publicacion_iso": "2026-11-12T09:24:32+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-check-your-github-repos-a-secret-stealer-hit-tens-of-thousan-44241255.html"
+    },
+    "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/": {
+      "guid": "https://www.securityweek.com/?p=50722",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+      "fecha_publicacion_iso": "2026-11-12T09:23:21+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-critical-red-hat-quay-vulnerability-could-expose-private-con-3773dc55.html"
+    },
+    "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+      "fecha_publicacion_iso": "2026-11-12T09:23:21+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-critical-red-hat-quay-vulnerability-could-expose-private-con-3773dc55.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos": {
+      "guid": "b4ecaa62-15b8-4436-aef8-c0bacc8ba404",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales",
+      "fecha_publicacion_iso": "2026-11-12T09:10:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos-es-8d0105e9.html"
+    },
+    "http://www.elladodelmal.com/2026/11/uno-de-los-libros-que-mas-ha-gustado-y.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3209195655498583949",
+      "fuente": "El Lado del Mal",
+      "titulo": "Social Hunters: Hacking con Ingeniería Social en el Red Team  2a Edición",
+      "fecha_publicacion_iso": "2026-11-12T09:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-social-hunters-hacking-con-ingenieria-social-en-el-red-team-6c892182.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-en-eos-de-arista": {
+      "guid": "696276 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de búfer en EOS de Arista",
+      "fecha_publicacion_iso": "2026-11-12T08:46:49+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-desbordamiento-de-bufer-en-eos-de-arista-54066e55.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-apache-http-server": {
+      "guid": "696277 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Apache HTTP Server",
+      "fecha_publicacion_iso": "2026-11-12T08:46:48+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-multiples-vulnerabilidades-en-apache-http-server-4971e54d.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/falla-critica-en-el-modulo-http2-de.html": {
+      "guid": "http://blog.segu-info.com.ar/2026/11/falla-critica-en-el-modulo-http2-de.html",
+      "fuente": "Segu-Info",
+      "titulo": "Múltiples vulnerabilidades en Apache HTTP Server",
+      "fecha_publicacion_iso": "2026-11-12T08:46:48+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-multiples-vulnerabilidades-en-apache-http-server-4971e54d.html"
+    },
+    "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/": {
+      "guid": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "fuente": "SecurityWeek",
+      "titulo": "Múltiples vulnerabilidades en Apache HTTP Server",
+      "fecha_publicacion_iso": "2026-11-12T08:46:48+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-multiples-vulnerabilidades-en-apache-http-server-4971e54d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-mivoice-mx-one-de-mitel": {
+      "guid": "696279 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en MiVoice MX-ONE de Mitel",
+      "fecha_publicacion_iso": "2026-11-12T08:46:46+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-multiples-vulnerabilidades-en-mivoice-mx-one-de-mitel-e0ef12d4.html"
+    },
+    "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/": {
+      "guid": "https://www.securityweek.com/?p=50718",
+      "fuente": "SecurityWeek",
+      "titulo": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+      "fecha_publicacion_iso": "2026-11-12T08:38:47+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-maersk-confirms-data-theft-amid-5-million-extortion-attempt-2f643c57.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-whatsapp-para-dolibarr-de-sgestion-easysoft": {
+      "guid": "696272 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en WhatsApp para Dolibarr de Sgestion / EasySoft",
+      "fecha_publicacion_iso": "2026-11-12T08:34:23+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-inyeccion-sql-en-whatsapp-para-dolibarr-de-sgestion-easysoft-a7702a90.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/net-11-security-changes/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391085",
+      "fuente": "Help Net Security",
+      "titulo": ".NET 11 security changes target the software supply chain",
+      "fecha_publicacion_iso": "2026-11-12T08:23:33+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-net-11-security-changes-target-the-software-supply-chain-05bcda2d.html"
+    },
+    "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html": {
+      "guid": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "fuente": "The Hacker News",
+      "titulo": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "fecha_publicacion_iso": "2026-11-12T08:20:37+00:00",
+      "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-node-js-fixes-16-flaws-including-http-2-bugs-that-crash-serv-c2d283cd.html"
     }
   }
 }
