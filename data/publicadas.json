@@ -29559,6 +29559,302 @@
       "fecha_publicacion_iso": "2026-11-11T22:14:44+00:00",
       "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
       "ruta_noticia": "/noticia/2026-11-12-ai-b8f3cb13.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+      "fecha_publicacion_iso": "2026-11-13T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-attackers-in-binance-breach-targeted-known-weakness-missing-fff233fa.html"
+    },
+    "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=50776",
+      "fuente": "SecurityWeek",
+      "titulo": "Apify Confirms Customer Data Accessed in Cyberattack",
+      "fecha_publicacion_iso": "2026-11-13T12:41:01+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-apify-confirms-customer-data-accessed-in-cyberattack-4084f96e.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says November security updates cause printing issues",
+      "fecha_publicacion_iso": "2026-11-13T12:27:40+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-microsoft-says-november-security-updates-cause-printing-issu-293c69c9.html"
+    },
+    "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html": {
+      "guid": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "fuente": "The Hacker News",
+      "titulo": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "fecha_publicacion_iso": "2026-11-13T11:52:31+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-when-an-ai-agent-goes-wrong-can-you-stop-it-fe3ab048.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/apple-secure-exclaves-security-architecture/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391259",
+      "fuente": "Help Net Security",
+      "titulo": "Apple details Secure Exclaves, isolated runtimes for camera and microphone data",
+      "fecha_publicacion_iso": "2026-11-13T11:27:56+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-apple-details-secure-exclaves-isolated-runtimes-for-camera-a-f9c805ed.html"
+    },
+    "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html": {
+      "guid": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "fuente": "The Hacker News",
+      "titulo": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "fecha_publicacion_iso": "2026-11-13T11:10:40+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-silentair-hijacks-asian-telecom-networks-to-intercept-sms-2f-d030547d.html"
+    },
+    "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/": {
+      "guid": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+      "fuente": "SecurityWeek",
+      "titulo": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "fecha_publicacion_iso": "2026-11-13T11:10:40+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-silentair-hijacks-asian-telecom-networks-to-intercept-sms-2f-d030547d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/europol-dark-web-arrests-cybercrime/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391260",
+      "fuente": "Help Net Security",
+      "titulo": "354 dark web vendors and buyers arrested in Operation TorNado",
+      "fecha_publicacion_iso": "2026-11-13T11:06:29+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-354-dark-web-vendors-and-buyers-arrested-in-operation-tornad-11607675.html"
+    },
+    "https://www.theregister.com/security/2026/11/13/crackdown-on-uk-medical-record-snooping-after-staff-reported-sneaking-300-times-this-year/5309421": {
+      "guid": "https://www.theregister.com/a/5309421",
+      "fuente": "The Register - Security",
+      "titulo": "Crackdown on UK medical record snooping after staff reported sneaking 300+ times this year",
+      "fecha_publicacion_iso": "2026-11-13T11:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-crackdown-on-uk-medical-record-snooping-after-staff-reported-9de821d4.html"
+    },
+    "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/": {
+      "guid": "https://www.securityweek.com/?p=50767",
+      "fuente": "SecurityWeek",
+      "titulo": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+      "fecha_publicacion_iso": "2026-11-13T10:48:40+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-law-enforcement-disrupts-gootloader-castlerat-and-stealc-inf-e4df5d0c.html"
+    },
+    "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html": {
+      "guid": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "fuente": "The Hacker News",
+      "titulo": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+      "fecha_publicacion_iso": "2026-11-13T10:48:40+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-law-enforcement-disrupts-gootloader-castlerat-and-stealc-inf-e4df5d0c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+      "fuente": "BleepingComputer",
+      "titulo": "Check Point warns of zero-day flaw exploited for root access",
+      "fecha_publicacion_iso": "2026-11-13T10:44:22+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-check-point-warns-of-zero-day-flaw-exploited-for-root-access-e49e186a.html"
+    },
+    "https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379": {
+      "guid": "https://www.theregister.com/a/5309379",
+      "fuente": "The Register - Security",
+      "titulo": "Brit police watchdog says cops' use of facial recog risks wrongful arrests",
+      "fecha_publicacion_iso": "2026-11-13T10:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-brit-police-watchdog-says-cops-use-of-facial-recog-risks-wro-c1c74e25.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-citrix-3": {
+      "guid": "696630 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Citrix",
+      "fecha_publicacion_iso": "2026-11-13T09:54:25+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-multiples-vulnerabilidades-en-productos-de-citrix-8136c55f.html"
+    },
+    "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50764",
+      "fuente": "SecurityWeek",
+      "titulo": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-13T09:36:56+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-citrix-patches-10-critical-netscaler-vulnerabilities-d20b2da1.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms Windows activation failures after November updates",
+      "fecha_publicacion_iso": "2026-11-13T09:36:18+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-microsoft-confirms-windows-activation-failures-after-novembe-8762a201.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/openai-daybreak-vulnerability-remediation-red-team-defense-factory-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391238",
+      "fuente": "Help Net Security",
+      "titulo": "OpenAI’s Daybreak brings AI agents to security testing and vulnerability fixes",
+      "fecha_publicacion_iso": "2026-11-13T09:31:07+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-openais-daybreak-brings-ai-agents-to-security-testing-and-vu-404b30e4.html"
+    },
+    "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/": {
+      "guid": "https://www.securityweek.com/?p=50762",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+      "fecha_publicacion_iso": "2026-11-13T09:21:01+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-openai-unveils-daybreak-red-team-defense-factory-security-to-e4b47e3b.html"
+    },
+    "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/": {
+      "guid": "https://www.securityweek.com/?p=50758",
+      "fuente": "SecurityWeek",
+      "titulo": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+      "fecha_publicacion_iso": "2026-11-13T08:50:36+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-nightmare-eclipse-drops-windows-zero-day-exploit-signdrop-0b5efb81.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-openkm-community-edition-de-openkm": {
+      "guid": "696629 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en OpenKM Community Edition de OpenKM",
+      "fecha_publicacion_iso": "2026-11-13T08:42:53+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-multiples-vulnerabilidades-en-openkm-community-edition-de-op-8e417a6f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+      "fuente": "BleepingComputer",
+      "titulo": "Police arrest 354 suspects in dark web cybercrime crackdown",
+      "fecha_publicacion_iso": "2026-11-13T08:34:20+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-police-arrest-354-suspects-in-dark-web-cybercrime-crackdown-3ff055fe.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "fecha_publicacion_iso": "2026-11-13T08:05:49+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-hackers-exploit-php2shell-flaws-in-check-point-gateways-to-d-c0eea237.html"
+    },
+    "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50756",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+      "fecha_publicacion_iso": "2026-11-13T07:39:04+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-php2shell-exploited-in-destructive-check-point-gateway-attac-d9f74690.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-check-point-0": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-check-point-0",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+      "fecha_publicacion_iso": "2026-11-13T07:39:04+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-php2shell-exploited-in-destructive-check-point-gateway-attac-d9f74690.html"
+    },
+    "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526": {
+      "guid": "https://www.theregister.com/a/5309526",
+      "fuente": "The Register - Security",
+      "titulo": "C++26 stumbles at finish line over Contracts dispute",
+      "fecha_publicacion_iso": "2026-11-13T07:31:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-c-26-stumbles-at-finish-line-over-contracts-dispute-c36e90f8.html"
+    },
+    "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/": {
+      "guid": "https://www.securityweek.com/?p=50754",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+      "fecha_publicacion_iso": "2026-11-13T07:20:50+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-hackers-exploit-new-n-central-zero-day-hours-after-poc-publi-f1ba5df7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391224",
+      "fuente": "Help Net Security",
+      "titulo": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+      "fecha_publicacion_iso": "2026-11-13T06:30:30+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-stolen-webcam-clips-of-900-victims-feed-north-koreas-400-mil-474c0fc5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/microsoft-teams-device-code-phishing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391188",
+      "fuente": "Help Net Security",
+      "titulo": "How attackers turned a Teams meeting booking into a device code phishing trap",
+      "fecha_publicacion_iso": "2026-11-13T06:15:48+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-how-attackers-turned-a-teams-meeting-booking-into-a-device-c-536dea6e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391092",
+      "fuente": "Help Net Security",
+      "titulo": "Suspected North Korean IT workers reached onboarding at companies with open data",
+      "fecha_publicacion_iso": "2026-11-13T06:00:22+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-suspected-north-korean-it-workers-reached-onboarding-at-comp-355dbfe4.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "fecha_publicacion_iso": "2026-11-13T05:43:28+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-hackers-exploit-n-central-flaws-to-infect-21-servers-includi-9e0cc84d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/corelight-mcp-server-supply-chain/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391077",
+      "fuente": "Help Net Security",
+      "titulo": "Your pinned MCP server may not be as pinned as you think",
+      "fecha_publicacion_iso": "2026-11-13T05:30:22+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-your-pinned-mcp-server-may-not-be-as-pinned-as-you-think-121956c9.html"
+    },
+    "http://www.elladodelmal.com/2026/11/en-el-laboratorio-hackers-ia-y.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3761361157758671777",
+      "fuente": "El Lado del Mal",
+      "titulo": "En el Laboratorio: Hackers, IA y Ciberseguridad",
+      "fecha_publicacion_iso": "2026-11-13T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-en-el-laboratorio-hackers-ia-y-ciberseguridad-0ab283fd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/ibm-digital-sovereignty-challenges-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391166",
+      "fuente": "Help Net Security",
+      "titulo": "Digital sovereignty leaves enterprises chasing their own audit trails",
+      "fecha_publicacion_iso": "2026-11-13T05:00:54+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-digital-sovereignty-leaves-enterprises-chasing-their-own-aud-c5e6afb8.html"
+    },
+    "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/": {
+      "guid": "https://www.securityweek.com/?p=50752",
+      "fuente": "SecurityWeek",
+      "titulo": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+      "fecha_publicacion_iso": "2026-11-13T02:28:21+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stole-589fccee.html"
+    },
+    "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator": {
+      "guid": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
+      "fuente": "The Record",
+      "titulo": "Record number of cyber incidents reported to UK privacy regulator",
+      "fecha_publicacion_iso": "2026-11-13T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-record-number-of-cyber-incidents-reported-to-uk-privacy-regu-f88082b8.html"
+    },
+    "https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app": {
+      "guid": "https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app",
+      "fuente": "The Record",
+      "titulo": "NATO issues and then withdraws Russian taxi app travel advice for defense industry conference",
+      "fecha_publicacion_iso": "2026-11-13T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-nato-issues-and-then-withdraws-russian-taxi-app-travel-advic-2be753d1.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+      "fuente": "Dark Reading",
+      "titulo": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+      "fecha_publicacion_iso": "2026-11-12T22:46:05+00:00",
+      "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-getting-past-the-post-quantum-cryptography-discovery-phase-e9f16b1c.html"
     }
   }
 }
