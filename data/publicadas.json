@@ -29855,6 +29855,174 @@
       "fecha_publicacion_iso": "2026-11-12T22:46:05+00:00",
       "fecha_agregada_iso": "2026-11-13T13:09:17.380603+00:00",
       "ruta_noticia": "/noticia/2026-11-13-getting-past-the-post-quantum-cryptography-discovery-phase-e9f16b1c.html"
+    },
+    "https://therecord.media/city-of-osaka-japan-email-data-breach": {
+      "guid": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+      "fuente": "The Record",
+      "titulo": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+      "fecha_publicacion_iso": "2026-11-13T19:43:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-city-of-osaka-warns-of-data-breach-impacting-1-million-as-ja-810ecd44.html"
+    },
+    "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/": {
+      "guid": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "fuente": "BleepingComputer",
+      "titulo": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "fecha_publicacion_iso": "2026-11-13T19:38:36+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-trezor-confirms-crypto-stealing-implants-in-three-wallets-re-ee274201.html"
+    },
+    "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/": {
+      "guid": "6af737b0981b066bb4e2d1ab",
+      "fuente": "Wired - Security",
+      "titulo": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+      "fecha_publicacion_iso": "2026-11-13T19:08:57+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-microsoft-365-crawls-back-to-life-after-a-24-hour-outage-1876ce8b.html"
+    },
+    "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing": {
+      "guid": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+      "fuente": "The Record",
+      "titulo": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+      "fecha_publicacion_iso": "2026-11-13T18:35:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-nyc-to-bar-surveillance-pricing-as-momentum-for-bans-grows-n-cf42b36a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "fuente": "BleepingComputer",
+      "titulo": "German military drone operations disrupted by cyberattack",
+      "fecha_publicacion_iso": "2026-11-13T17:31:56+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-german-military-drone-operations-disrupted-by-cyberattack-f6f4a6d6.html"
+    },
+    "https://therecord.media/university-of-texas-arlington-warns-data-breach": {
+      "guid": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+      "fuente": "The Record",
+      "titulo": "University of Texas at Arlington warns personal information stolen during cyberattack",
+      "fecha_publicacion_iso": "2026-11-13T17:26:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-university-of-texas-at-arlington-warns-personal-information-4c8fe02b.html"
+    },
+    "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/": {
+      "guid": "6af718e565e40024232d7b0f",
+      "fuente": "Wired - Security",
+      "titulo": "The Microsoft Outage Is a Warning for the World",
+      "fecha_publicacion_iso": "2026-11-13T17:15:54+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-the-microsoft-outage-is-a-warning-for-the-world-c2116e34.html"
+    },
+    "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html": {
+      "guid": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "fuente": "The Hacker News",
+      "titulo": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "fecha_publicacion_iso": "2026-11-13T16:53:08+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-postgresql-patches-52-flaws-including-22-year-old-bug-enabli-e05f7a78.html"
+    },
+    "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power": {
+      "guid": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+      "fuente": "The Record",
+      "titulo": "German parliament passes law giving spy agencies hacking, sabotage powers",
+      "fecha_publicacion_iso": "2026-11-13T16:32:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-german-parliament-passes-law-giving-spy-agencies-hacking-sab-f6d06bee.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "fuente": "BleepingComputer",
+      "titulo": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "fecha_publicacion_iso": "2026-11-13T16:21:43+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-check-point-gateways-hacked-via-php2shell-to-deploy-vmware-e-b297d876.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391290",
+      "fuente": "Help Net Security",
+      "titulo": "ChatGPT Wallet lets agents pay without seeing your card number",
+      "fecha_publicacion_iso": "2026-11-13T16:15:25+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-chatgpt-wallet-lets-agents-pay-without-seeing-your-card-numb-162be0ba.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/alphaproof-code-verificacion-formal-y.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7113005287843189652",
+      "fuente": "Segu-Info",
+      "titulo": "AlphaProof Code: verificación formal y matemática de la seguridad de un software",
+      "fecha_publicacion_iso": "2026-11-13T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-alphaproof-code-verificacion-formal-y-matematica-de-la-segur-aef2d12f.html"
+    },
+    "https://therecord.media/gootloader-ransomware-doj-details": {
+      "guid": "https://therecord.media/gootloader-ransomware-doj-details",
+      "fuente": "The Record",
+      "titulo": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018",
+      "fecha_publicacion_iso": "2026-11-13T15:59:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-doj-gootloader-used-in-at-least-44-ransomware-attacks-costin-e4e9606f.html"
+    },
+    "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html": {
+      "guid": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "fecha_publicacion_iso": "2026-11-13T15:27:05+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-new-mior-and-skyfall-attacks-let-rogue-cloud-hosts-steal-sec-fb5ac890.html"
+    },
+    "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=50780",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+      "fecha_publicacion_iso": "2026-11-13T15:20:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-in-other-news-new-cisa-director-nominee-connected-car-hackin-c3cb9f99.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "fuente": "BleepingComputer",
+      "titulo": "How one AI agent exposed five critical enterprise security gaps",
+      "fecha_publicacion_iso": "2026-11-13T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-how-one-ai-agent-exposed-five-critical-enterprise-security-g-db3fd3a5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/fake-gta-6-download-scam/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391234",
+      "fuente": "Help Net Security",
+      "titulo": "Fake GTA 6 download goes after Steam logins and crypto wallet data",
+      "fecha_publicacion_iso": "2026-11-13T15:00:59+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-fake-gta-6-download-goes-after-steam-logins-and-crypto-walle-baed7b02.html"
+    },
+    "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html": {
+      "guid": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "fuente": "The Hacker News",
+      "titulo": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "fecha_publicacion_iso": "2026-11-13T14:28:58+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-fbi-says-north-korean-hackers-stole-over-400-million-in-cryp-c6e1d6a7.html"
+    },
+    "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html": {
+      "guid": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "fuente": "The Hacker News",
+      "titulo": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "fecha_publicacion_iso": "2026-11-13T13:54:20+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-trezor-confirms-hidden-implants-in-cryptobilis-sold-wallets-79815295.html"
+    },
+    "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/": {
+      "guid": "https://www.securityweek.com/?p=50778",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+      "fecha_publicacion_iso": "2026-11-13T13:47:42+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-microsoft-struggles-to-restore-email-and-other-services-in-a-70883ad5.html"
+    },
+    "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658": {
+      "guid": "https://www.theregister.com/a/5309658",
+      "fuente": "The Register - Security",
+      "titulo": "Quantum Systems drones back in the air after malware scare",
+      "fecha_publicacion_iso": "2026-11-13T13:14:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-quantum-systems-drones-back-in-the-air-after-malware-scare-56543c03.html"
     }
   }
 }
