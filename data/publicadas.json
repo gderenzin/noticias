@@ -29367,6 +29367,198 @@
       "fecha_publicacion_iso": "2026-11-12T08:20:37+00:00",
       "fecha_agregada_iso": "2026-11-12T17:55:41.499584+00:00",
       "ruta_noticia": "/noticia/2026-11-12-node-js-fixes-16-flaws-including-http-2-bugs-that-crash-serv-c2d283cd.html"
+    },
+    "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/": {
+      "guid": "https://cyberscoop.com/?p=91555",
+      "fuente": "CyberScoop",
+      "titulo": "US seizes North Korean hacking infrastructure, $1.2 billion in cryptocurrency stolen from Binance",
+      "fecha_publicacion_iso": "2026-11-13T00:32:19+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-us-seizes-north-korean-hacking-infrastructure-1-2-billion-in-d1613bb1.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/google-smart-glasses-privacy-protections/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391203",
+      "fuente": "Help Net Security",
+      "titulo": "Google smart glasses privacy features cover wearers and the people around them",
+      "fecha_publicacion_iso": "2026-11-12T23:45:43+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-google-smart-glasses-privacy-features-cover-wearers-and-the-c2a33ef5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391049",
+      "fuente": "Help Net Security",
+      "titulo": "Fake Zillow pages use ClickFix NetSupport RAT to target apartment hunters",
+      "fecha_publicacion_iso": "2026-11-12T23:15:23+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-fake-zillow-pages-use-clickfix-netsupport-rat-to-target-apar-faa5ecf2.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/13/postgresql-security-update-november-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391217",
+      "fuente": "Help Net Security",
+      "titulo": "PostgreSQL security update fixes 52 vulnerabilities, ends support for PostgreSQL 14",
+      "fecha_publicacion_iso": "2026-11-12T23:05:33+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-postgresql-security-update-fixes-52-vulnerabilities-ends-sup-dea6b104.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "fecha_publicacion_iso": "2026-11-12T22:25:30+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-hackers-compromise-4-800-github-accounts-to-steal-cloud-cred-674c4b85.html"
+    },
+    "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted": {
+      "guid": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+      "fuente": "The Record",
+      "titulo": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+      "fecha_publicacion_iso": "2026-11-12T21:42:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-feds-announce-seizure-of-1-2-billion-from-binance-theft-also-e52fb195.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+      "fuente": "Dark Reading",
+      "titulo": "Cyber Experts Weigh In: How to Fight Artex &amp; AntiFox",
+      "fecha_publicacion_iso": "2026-11-12T21:18:52+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-cyber-experts-weigh-in-how-to-fight-artex-amp-antifox-39360acc.html"
+    },
+    "https://cyberscoop.com/connectwise-screenconnect-sckit-attack/": {
+      "guid": "https://cyberscoop.com/?p=91552",
+      "fuente": "CyberScoop",
+      "titulo": "Rogue remote-access campaign spread through ScreenConnect add-on, researchers say",
+      "fecha_publicacion_iso": "2026-11-12T20:58:17+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-rogue-remote-access-campaign-spread-through-screenconnect-ad-65ba8076.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rogue remote-access campaign spread through ScreenConnect add-on, researchers say",
+      "fecha_publicacion_iso": "2026-11-12T20:58:17+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-rogue-remote-access-campaign-spread-through-screenconnect-ad-65ba8076.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500": {
+      "guid": "https://www.theregister.com/a/5309500",
+      "fuente": "The Register - Security",
+      "titulo": "OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
+      "fecha_publicacion_iso": "2026-11-12T20:48:45+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-openai-launches-security-products-tells-orgs-theyre-doomed-i-73823819.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "fuente": "BleepingComputer",
+      "titulo": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "fecha_publicacion_iso": "2026-11-12T20:15:16+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-massive-microsoft-365-outage-disrupts-outlook-teams-copilot-fd416d58.html"
+    },
+    "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/": {
+      "guid": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "fuente": "SecurityWeek",
+      "titulo": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "fecha_publicacion_iso": "2026-11-12T20:15:16+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-massive-microsoft-365-outage-disrupts-outlook-teams-copilot-fd416d58.html"
+    },
+    "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time": {
+      "guid": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+      "fuente": "Dark Reading",
+      "titulo": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+      "fecha_publicacion_iso": "2026-11-12T20:09:41+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-extortion-group-luna-moth-flits-into-law-firms-a-second-time-43b2bb31.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425": {
+      "guid": "https://www.theregister.com/a/5309425",
+      "fuente": "The Register - Security",
+      "titulo": "Lego marketplace BrickLink in pieces after 'unusual activity' takes it offline for almost a week",
+      "fecha_publicacion_iso": "2026-11-12T20:08:08+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-lego-marketplace-bricklink-in-pieces-after-unusual-activity-30fb76b0.html"
+    },
+    "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/": {
+      "guid": "6af60e8dbf1463b6abc5f706",
+      "fuente": "Wired - Security",
+      "titulo": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
+      "fecha_publicacion_iso": "2026-11-12T20:01:33+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-major-microsoft-outlook-outage-leaves-people-with-email-jobs-6790f790.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+      "fuente": "BleepingComputer",
+      "titulo": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "fecha_publicacion_iso": "2026-11-12T19:51:16+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-new-n-able-4everable2shell-zero-day-exploited-hours-after-po-5e7c3d53.html"
+    },
+    "https://therecord.media/united-airlines-to-block-customers-using-ai-agents": {
+      "guid": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+      "fuente": "The Record",
+      "titulo": "United to block customers from using AI agents, citing cyber threats",
+      "fecha_publicacion_iso": "2026-11-12T19:20:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-united-to-block-customers-from-using-ai-agents-citing-cyber-bb48d6f8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+      "fuente": "BleepingComputer",
+      "titulo": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "fecha_publicacion_iso": "2026-11-12T19:12:55+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-apache-http-server-patches-critical-http-2-remote-code-execu-fac88878.html"
+    },
+    "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system": {
+      "guid": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+      "fuente": "The Record",
+      "titulo": "Shipping giant Maersk says recent cyber incident affected legacy system",
+      "fecha_publicacion_iso": "2026-11-12T18:28:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-shipping-giant-maersk-says-recent-cyber-incident-affected-le-2559f209.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391207",
+      "fuente": "Help Net Security",
+      "titulo": "Self-hosted Claude Managed Agents keeps agent credentials in your environment",
+      "fecha_publicacion_iso": "2026-11-12T18:07:00+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-self-hosted-claude-managed-agents-keeps-agent-credentials-in-37fe5be8.html"
+    },
+    "https://www.theregister.com/security/2026/11/12/software-samaritan-revamps-borked-indian-certs-to-block-smart-tv-ads/5309467": {
+      "guid": "https://www.theregister.com/a/5309467",
+      "fuente": "The Register - Security",
+      "titulo": "Software Samaritan revamps borked Indian certs to block smart TV ads",
+      "fecha_publicacion_iso": "2026-11-12T18:02:55+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-software-samaritan-revamps-borked-indian-certs-to-block-smar-b0ab29dc.html"
+    },
+    "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html": {
+      "guid": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "fecha_publicacion_iso": "2026-11-12T18:02:51+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-threatsday-59-linux-kernel-bugs-falcon-spyware-gsocket-backd-0215fb68.html"
+    },
+    "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html": {
+      "guid": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "fuente": "The Hacker News",
+      "titulo": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "fecha_publicacion_iso": "2026-11-12T17:50:27+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-new-signdrop-zero-day-exploit-turns-windows-clfs-security-fe-1acaa8e7.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+      "fuente": "Dark Reading",
+      "titulo": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+      "fecha_publicacion_iso": "2026-11-11T22:14:44+00:00",
+      "fecha_agregada_iso": "2026-11-13T01:52:39.139958+00:00",
+      "ruta_noticia": "/noticia/2026-11-12-ai-b8f3cb13.html"
     }
   }
 }
