@@ -30119,6 +30119,54 @@
       "fecha_publicacion_iso": "2026-11-13T13:25:17+00:00",
       "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
       "ruta_noticia": "/noticia/2026-11-14-gta-6-esta-por-llegar-pero-los-estafadores-ya-aprovechan-la-8b1bd4b4.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cursor confirms security breach led to malicious Claude Code extension",
+      "fecha_publicacion_iso": "2026-11-14T17:27:25+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-cursor-confirms-security-breach-led-to-malicious-claude-code-403e4bdf.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "fuente": "BleepingComputer",
+      "titulo": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "fecha_publicacion_iso": "2026-11-14T15:15:49+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-us-disrupts-north-korean-campaign-behind-400-million-crypto-e253199b.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/postgresql-corrige-52-vulnerabilidades.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3675553044085345621",
+      "fuente": "Segu-Info",
+      "titulo": "PostgreSQL corrige 52 vulnerabilidades, incluido un fallo de 22 años que permite RCE tras la autenticación.",
+      "fecha_publicacion_iso": "2026-11-14T15:09:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-postgresql-corrige-52-vulnerabilidades-incluido-un-fallo-de-91ca6e58.html"
+    },
+    "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/": {
+      "guid": "https://www.securityweek.com/?p=50800",
+      "fuente": "SecurityWeek",
+      "titulo": "Is AI Making Us Worse at Cybersecurity?",
+      "fecha_publicacion_iso": "2026-11-14T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-is-ai-making-us-worse-at-cybersecurity-3772cdf1.html"
+    },
+    "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": {
+      "guid": "6af7247ac18c09c3056cf94f",
+      "fuente": "Wired - Security",
+      "titulo": "Beware the New AI-Fueled Ransomware Boom",
+      "fecha_publicacion_iso": "2026-11-14T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-beware-the-new-ai-fueled-ransomware-boom-82ab3d6d.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "fecha_publicacion_iso": "2026-11-14T12:38:35+00:00",
+      "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-attackers-exploit-unrealircd-flaw-that-enables-server-level-b58e8e6c.html"
     }
   }
 }
