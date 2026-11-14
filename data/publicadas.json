@@ -30023,6 +30023,62 @@
       "fecha_publicacion_iso": "2026-11-13T13:14:00+00:00",
       "fecha_agregada_iso": "2026-11-13T20:31:28.634128+00:00",
       "ruta_noticia": "/noticia/2026-11-13-quantum-systems-drones-back-in-the-air-after-malware-scare-56543c03.html"
+    },
+    "https://olartemoure.com/oposiciones-transigidas-oficina-marcas-de-india/": {
+      "guid": "https://olartemoure.com/?p=4431771",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Oposiciones transigidas en oficina de marcas de India",
+      "fecha_publicacion_iso": "2026-11-13T22:43:28+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-oposiciones-transigidas-en-oficina-de-marcas-de-india-a2ec450f.html"
+    },
+    "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/": {
+      "guid": "https://www.securityweek.com/?p=50788",
+      "fuente": "SecurityWeek",
+      "titulo": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+      "fecha_publicacion_iso": "2026-11-13T21:33:27+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-faa-ground-stop-issued-due-to-extraordinary-circumstances-11d7cc16.html"
+    },
+    "https://therecord.media/artex-ai-tool-fbi-flash-alert": {
+      "guid": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+      "fuente": "The Record",
+      "titulo": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+      "fecha_publicacion_iso": "2026-11-13T21:32:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-fbi-flash-alert-says-artex-tool-automating-cyberattacks-at-m-f0f23fdb.html"
+    },
+    "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/": {
+      "guid": "https://cyberscoop.com/?p=91564",
+      "fuente": "CyberScoop",
+      "titulo": "Researchers continue to find serious vulnerabilities in internet connected refrigerators",
+      "fecha_publicacion_iso": "2026-11-13T21:20:51+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-researchers-continue-to-find-serious-vulnerabilities-in-inte-67e222e8.html"
+    },
+    "https://cyberscoop.com/pall-mall-process-commercial-spyware-guidelines/": {
+      "guid": "https://cyberscoop.com/?p=91559",
+      "fuente": "CyberScoop",
+      "titulo": "Industry guidelines for offensive cyber tools unveiled through international Pall Mall Process",
+      "fecha_publicacion_iso": "2026-11-13T20:56:20+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-industry-guidelines-for-offensive-cyber-tools-unveiled-throu-0a8d031b.html"
+    },
+    "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882": {
+      "guid": "https://www.theregister.com/a/5309882",
+      "fuente": "The Register - Security",
+      "titulo": "This year’s bug count just passed 100K",
+      "fecha_publicacion_iso": "2026-11-13T20:52:17+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-this-years-bug-count-just-passed-100k-cced99ea.html"
+    },
+    "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai": {
+      "guid": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+      "fuente": "Dark Reading",
+      "titulo": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+      "fecha_publicacion_iso": "2026-11-13T20:20:27+00:00",
+      "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
+      "ruta_noticia": "/noticia/2026-11-13-arcticrat-cybercrime-gang-profiles-victim-finances-with-ai-e12779d5.html"
     }
   }
 }
