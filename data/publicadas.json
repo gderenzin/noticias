@@ -30079,6 +30079,46 @@
       "fecha_publicacion_iso": "2026-11-13T20:20:27+00:00",
       "fecha_agregada_iso": "2026-11-14T01:28:23.126702+00:00",
       "ruta_noticia": "/noticia/2026-11-13-arcticrat-cybercrime-gang-profiles-victim-finances-with-ai-e12779d5.html"
+    },
+    "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/": {
+      "guid": "https://www.securityweek.com/?p=50784",
+      "fuente": "SecurityWeek",
+      "titulo": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "fecha_publicacion_iso": "2026-11-14T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-apple-reveals-how-secure-exclaves-shield-camera-and-micropho-f694138a.html"
+    },
+    "http://www.elladodelmal.com/2026/11/cloudflare-connect-2026-en-video-y.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-1034262019606768517",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cloudflare Connect 2026 en vídeo y online",
+      "fecha_publicacion_iso": "2026-11-14T08:51:21+00:00",
+      "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-cloudflare-connect-2026-en-video-y-online-c59bb365.html"
+    },
+    "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/": {
+      "guid": "https://www.securityweek.com/?p=50794",
+      "fuente": "SecurityWeek",
+      "titulo": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "fecha_publicacion_iso": "2026-11-14T08:40:22+00:00",
+      "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-pro-9cdb1de4.html"
+    },
+    "https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302": {
+      "guid": "https://www.theregister.com/a/5309302",
+      "fuente": "The Register - Security",
+      "titulo": "Big Tech takes a beating as online safety experts accuse companies of doing bare minimum",
+      "fecha_publicacion_iso": "2026-11-14T08:18:00+00:00",
+      "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-big-tech-takes-a-beating-as-online-safety-experts-accuse-com-43803d3c.html"
+    },
+    "https://www.welivesecurity.com/es/estafas-enganos/gta-6-estafas-descargas-maliciosas/": {
+      "guid": "https://www.welivesecurity.com/es/estafas-enganos/gta-6-estafas-descargas-maliciosas/",
+      "fuente": "WeLiveSecurity (ESET) en español",
+      "titulo": "GTA 6 está por llegar, pero los estafadores ya aprovechan la expectativa",
+      "fecha_publicacion_iso": "2026-11-13T13:25:17+00:00",
+      "fecha_agregada_iso": "2026-11-14T12:11:19.877773+00:00",
+      "ruta_noticia": "/noticia/2026-11-14-gta-6-esta-por-llegar-pero-los-estafadores-ya-aprovechan-la-8b1bd4b4.html"
     }
   }
 }
