@@ -30167,6 +30167,70 @@
       "fecha_publicacion_iso": "2026-11-14T12:38:35+00:00",
       "fecha_agregada_iso": "2026-11-14T18:45:40.147375+00:00",
       "ruta_noticia": "/noticia/2026-11-14-attackers-exploit-unrealircd-flaw-that-enables-server-level-b58e8e6c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "fuente": "BleepingComputer",
+      "titulo": "TSMC employee data breach linked to cloud provider",
+      "fecha_publicacion_iso": "2026-11-15T15:23:48+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-tsmc-employee-data-breach-linked-to-cloud-provider-bbb8a672.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/el-tiempo-medio-transcurrido-desde-la.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-460449196685949682",
+      "fuente": "Segu-Info",
+      "titulo": "El tiempo medio transcurrido desde la divulgación de una vulnerabilidad hasta su explotación pasó de 771 días a \"menos siete días\"",
+      "fecha_publicacion_iso": "2026-11-15T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-el-tiempo-medio-transcurrido-desde-la-divulgacion-de-una-vul-4d170495.html"
+    },
+    "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/": {
+      "guid": "https://www.securityweek.com/?p=50806",
+      "fuente": "SecurityWeek",
+      "titulo": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "fecha_publicacion_iso": "2026-11-15T12:51:33+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-pentagon-renames-cdao-super-intelligence-office-c8b26857.html"
+    },
+    "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html": {
+      "guid": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "fuente": "The Hacker News",
+      "titulo": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "fecha_publicacion_iso": "2026-11-15T11:27:31+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-italy-fines-meta-805-million-over-facebook-s-android-gallery-04c1c102.html"
+    },
+    "http://www.elladodelmal.com/2026/11/como-hacer-pentesting-con-un-enjambre.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-869500990900221598",
+      "fuente": "El Lado del Mal",
+      "titulo": "Plexicus AI: Cómo hacer Pentesting con un Enjambre de Agentes IA de Seguridad Ofensiva",
+      "fecha_publicacion_iso": "2026-11-15T09:07:24+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-plexicus-ai-como-hacer-pentesting-con-un-enjambre-de-agentes-0a2148b9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391276",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
+      "fecha_publicacion_iso": "2026-11-15T09:00:37+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-week-in-review-secret-stealer-hits-github-repos-claude-code-8e707f9e.html"
+    },
+    "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html": {
+      "guid": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "fuente": "The Hacker News",
+      "titulo": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "fecha_publicacion_iso": "2026-11-15T08:22:04+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-cursor-says-stolen-fireworks-ai-key-led-to-trojanized-claude-960f4131.html"
+    },
+    "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/": {
+      "guid": "https://www.securityweek.com/?p=50804",
+      "fuente": "SecurityWeek",
+      "titulo": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "fecha_publicacion_iso": "2026-11-14T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-meta-fined-887-million-in-italy-over-android-gallery-photos-f316d41a.html"
     }
   }
 }
