@@ -30231,6 +30231,14 @@
       "fecha_publicacion_iso": "2026-11-14T19:00:00+00:00",
       "fecha_agregada_iso": "2026-11-15T16:21:26.859657+00:00",
       "ruta_noticia": "/noticia/2026-11-15-meta-fined-887-million-in-italy-over-android-gallery-photos-f316d41a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "fecha_publicacion_iso": "2026-11-15T18:29:53+00:00",
+      "fecha_agregada_iso": "2026-11-15T21:48:21.337575+00:00",
+      "ruta_noticia": "/noticia/2026-11-15-fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberatta-4201db3a.html"
     }
   }
 }
