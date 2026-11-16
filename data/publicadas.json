@@ -30303,6 +30303,358 @@
       "fecha_publicacion_iso": "2026-11-16T05:00:22+00:00",
       "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
       "ruta_noticia": "/noticia/2026-11-16-ai-uncovers-flaws-in-discontinued-devices-with-no-vendor-lef-30914c64.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+      "fuente": "Dark Reading",
+      "titulo": "'Sleeper Agent' Tactic Hides Payloads in Open-Weight AI Models",
+      "fecha_publicacion_iso": "2026-11-16T19:10:03+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-sleeper-agent-tactic-hides-payloads-in-open-weight-ai-models-9c11c754.html"
+    },
+    "https://www.theregister.com/security/2026/11/16/123456-has-been-the-worlds-most-popular-password-for-7-out-of-the-last-8-years/5310189": {
+      "guid": "https://www.theregister.com/a/5310189",
+      "fuente": "The Register - Security",
+      "titulo": "‘123456’ has been the world’s most popular password for 7 out of the last 8 years",
+      "fecha_publicacion_iso": "2026-11-16T18:33:03+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-123456-has-been-the-worlds-most-popular-password-for-7-out-o-74efbb3e.html"
+    },
+    "https://www.theregister.com/security/2026/11/16/noisytcp-bug-gives-linux-servers-a-remote-crash-problem-11-years-in-the-making/5310144": {
+      "guid": "https://www.theregister.com/a/5310144",
+      "fuente": "The Register - Security",
+      "titulo": "NoisyTCP bug gives Linux servers a remote crash problem 11 years in the making",
+      "fecha_publicacion_iso": "2026-11-16T18:28:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-noisytcp-bug-gives-linux-servers-a-remote-crash-problem-11-y-37fc6c08.html"
+    },
+    "https://therecord.media/italian-regulator-fines-meta-886-million-privacy": {
+      "guid": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
+      "fuente": "The Record",
+      "titulo": "Italian regulator fines Meta $886 million for violating data privacy law",
+      "fecha_publicacion_iso": "2026-11-16T18:05:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-italian-regulator-fines-meta-886-million-for-violating-data-4b4b8357.html"
+    },
+    "https://www.theregister.com/os-platforms/2026/11/16/ubuntu-gets-ai-generated-security-fixes-for-those-feeling-brave/5310139": {
+      "guid": "https://www.theregister.com/a/5310139",
+      "fuente": "The Register - Security",
+      "titulo": "Ubuntu gets AI-generated security fixes for those feeling brave",
+      "fecha_publicacion_iso": "2026-11-16T18:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-ubuntu-gets-ai-generated-security-fixes-for-those-feeling-br-ed987360.html"
+    },
+    "https://therecord.media/uk-national-cyber-force-headquarters-opens": {
+      "guid": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+      "fuente": "The Record",
+      "titulo": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
+      "fecha_publicacion_iso": "2026-11-16T17:22:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-king-charles-opens-new-hq-for-national-cyber-force-uks-offen-2ebc983e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/php2shell-historia-de-una.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-1346970308500655604",
+      "fuente": "Segu-Info",
+      "titulo": "PHP2Shell: Historia de una vulnerabilidad crítica, un embargo roto y un investigador que decidió no jugar según las reglas",
+      "fecha_publicacion_iso": "2026-11-16T17:05:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-php2shell-historia-de-una-vulnerabilidad-critica-un-embargo-295eba38.html"
+    },
+    "https://www.theregister.com/security/2026/11/16/crook-turns-free-trials-into-phishing-factory-as-learnworlds-sends-13000-fake-youtube-copyright-notices/5310122": {
+      "guid": "https://www.theregister.com/a/5310122",
+      "fuente": "The Register - Security",
+      "titulo": "Crook turns free trials into phishing factory, as LearnWorlds sends 13,000 fake YouTube copyright notices",
+      "fecha_publicacion_iso": "2026-11-16T17:03:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-crook-turns-free-trials-into-phishing-factory-as-learnworlds-0a957c94.html"
+    },
+    "https://therecord.media/romania-russia-cyberattack-espionage": {
+      "guid": "https://therecord.media/romania-russia-cyberattack-espionage",
+      "fuente": "The Record",
+      "titulo": "Russia denies intercepting Romanian government emails",
+      "fecha_publicacion_iso": "2026-11-16T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-russia-denies-intercepting-romanian-government-emails-6bde6c88.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "fecha_publicacion_iso": "2026-11-16T16:43:24+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-microsoft-says-months-old-bug-caused-global-microsoft-365-ou-18b00fe2.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+      "fuente": "Dark Reading",
+      "titulo": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+      "fecha_publicacion_iso": "2026-11-16T16:36:55+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-china-nexus-actors-breach-10-organizations-in-ai-driven-atta-10d373a6.html"
+    },
+    "https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094": {
+      "guid": "https://www.theregister.com/a/5310094",
+      "fuente": "The Register - Security",
+      "titulo": "US allies deepen deal to guard AI supply chains against 'hostile actors' (cough, China, cough)",
+      "fecha_publicacion_iso": "2026-11-16T16:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-us-allies-deepen-deal-to-guard-ai-supply-chains-against-host-14f862c2.html"
+    },
+    "https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775": {
+      "guid": "https://www.theregister.com/a/5309775",
+      "fuente": "The Register - Security",
+      "titulo": "Has AI’s ‘Black October’ changed the way you secure your code?",
+      "fecha_publicacion_iso": "2026-11-16T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-has-ais-black-october-changed-the-way-you-secure-your-code-380bb0f0.html"
+    },
+    "https://therecord.media/uk-ofcom-child-safety-rules-client-side-scanning-left-out": {
+      "guid": "https://therecord.media/uk-ofcom-child-safety-rules-client-side-scanning-left-out",
+      "fuente": "The Record",
+      "titulo": "UK leaves client-side scanning out of new child safety rules",
+      "fecha_publicacion_iso": "2026-11-16T15:56:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-uk-leaves-client-side-scanning-out-of-new-child-safety-rules-cb085db9.html"
+    },
+    "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": {
+      "guid": "https://www.securityweek.com/?p=50831",
+      "fuente": "SecurityWeek",
+      "titulo": "Cursor Supply Chain Attack Started at Fireworks AI",
+      "fecha_publicacion_iso": "2026-11-16T15:45:43+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-cursor-supply-chain-attack-started-at-fireworks-ai-67c2edf7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fandango says hackers stole payment card details from checkout pages",
+      "fecha_publicacion_iso": "2026-11-16T15:44:21+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-fandango-says-hackers-stole-payment-card-details-from-checko-d29e040f.html"
+    },
+    "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/": {
+      "guid": "https://www.securityweek.com/?p=50828",
+      "fuente": "SecurityWeek",
+      "titulo": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+      "fecha_publicacion_iso": "2026-11-16T15:31:25+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-google-project-zero-sets-course-for-30-day-disclosure-deadli-eea617c7.html"
+    },
+    "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/": {
+      "guid": "https://www.securityweek.com/?p=50826",
+      "fuente": "SecurityWeek",
+      "titulo": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+      "fecha_publicacion_iso": "2026-11-16T15:07:32+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-barracuda-hacked-amid-surge-in-artex-powered-cyberattacks-0f4c5e34.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "fuente": "BleepingComputer",
+      "titulo": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "fecha_publicacion_iso": "2026-11-16T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-7-tips-for-complying-with-cjis-password-and-mfa-requirements-1cea1420.html"
+    },
+    "https://therecord.media/british-government-complacent-foreign-cyber-threats": {
+      "guid": "https://therecord.media/british-government-complacent-foreign-cyber-threats",
+      "fuente": "The Record",
+      "titulo": "British government ‘complacent’ on cyber threats from hostile states, peers warn",
+      "fecha_publicacion_iso": "2026-11-16T14:21:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-british-government-complacent-on-cyber-threats-from-hostile-96e4ceda.html"
+    },
+    "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html": {
+      "guid": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "fecha_publicacion_iso": "2026-11-16T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-google-finds-hackers-using-ai-agents-to-build-and-run-exploi-5adf36e9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+      "fuente": "BleepingComputer",
+      "titulo": "Google warns that fully-automated AI attacks are coming soon",
+      "fecha_publicacion_iso": "2026-11-16T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-google-warns-that-fully-automated-ai-attacks-are-coming-soon-2e40619c.html"
+    },
+    "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926": {
+      "guid": "https://www.theregister.com/a/5309926",
+      "fuente": "The Register - Security",
+      "titulo": "Google: AI agent turned a security patch into a working exploit with no human help",
+      "fecha_publicacion_iso": "2026-11-16T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-google-ai-agent-turned-a-security-patch-into-a-working-explo-7666465c.html"
+    },
+    "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html": {
+      "guid": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "fecha_publicacion_iso": "2026-11-16T13:27:20+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-weekly-recap-n-able-0-days-windows-0-days-chrome-0-days-frid-f9828b77.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/ai-powered-infostealer-marketplace-victim-profiles/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391376",
+      "fuente": "Help Net Security",
+      "titulo": "Criminal marketplace sells infostealer logs with AI-written profiles of their owners",
+      "fecha_publicacion_iso": "2026-11-16T13:03:56+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-criminal-marketplace-sells-infostealer-logs-with-ai-written-071d1acb.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+      "fecha_publicacion_iso": "2026-11-16T12:53:18+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-microsoft-windows-server-2016-reaches-end-of-support-in-60-d-a1dd8f56.html"
+    },
+    "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/": {
+      "guid": "https://www.securityweek.com/?p=50824",
+      "fuente": "SecurityWeek",
+      "titulo": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+      "fecha_publicacion_iso": "2026-11-16T12:48:03+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-telegram-widgets-hit-by-rce-demos-malware-warning-days-after-79abf73e.html"
+    },
+    "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html": {
+      "guid": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "fuente": "The Hacker News",
+      "titulo": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "fecha_publicacion_iso": "2026-11-16T12:34:21+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-six-unpatched-danfoss-refrigeration-controller-flaws-could-a-119c79e2.html"
+    },
+    "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html": {
+      "guid": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "fecha_publicacion_iso": "2026-11-16T12:33:18+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-retadup-worm-resurfaces-7-years-after-takedown-to-spread-cof-8c37ef3c.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/facestealer-deepfake-de-corea-del-norte.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7390840758051120917",
+      "fuente": "Segu-Info",
+      "titulo": "FaceStealer: DeepFake de Corea del Norte para robar millones",
+      "fecha_publicacion_iso": "2026-11-16T12:10:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-facestealer-deepfake-de-corea-del-norte-para-robar-millones-3efcfc9a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391367",
+      "fuente": "Help Net Security",
+      "titulo": "Microsoft previews remote lock for lost or stolen Windows devices",
+      "fecha_publicacion_iso": "2026-11-16T11:57:54+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-microsoft-previews-remote-lock-for-lost-or-stolen-windows-de-f592fc7c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+      "fuente": "BleepingComputer",
+      "titulo": "Australian retail giant Coles investigates cybersecurity incident",
+      "fecha_publicacion_iso": "2026-11-16T11:18:09+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-australian-retail-giant-coles-investigates-cybersecurity-inc-7a50b6f6.html"
+    },
+    "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50820",
+      "fuente": "SecurityWeek",
+      "titulo": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-16T11:15:48+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-recent-unrealircd-vulnerability-exploited-in-attacks-f67825a8.html"
+    },
+    "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/": {
+      "guid": "https://www.securityweek.com/?p=50818",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+      "fecha_publicacion_iso": "2026-11-16T11:05:42+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-hackers-probe-newly-disclosed-flaws-in-copeland-refrigeratio-2b1b80c8.html"
+    },
+    "https://www.securityweek.com/uber-data-breach-impacts-150000-people/": {
+      "guid": "https://www.securityweek.com/?p=50815",
+      "fuente": "SecurityWeek",
+      "titulo": "Uber Data Breach Impacts 150,000 People",
+      "fecha_publicacion_iso": "2026-11-16T11:02:48+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-uber-data-breach-impacts-150-000-people-9d8b7182.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+      "fuente": "BleepingComputer",
+      "titulo": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+      "fecha_publicacion_iso": "2026-11-16T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-anthropics-claude-fable-5-2-blocks-fewer-security-tasks-whil-b9812e4c.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-archiva-sus-actuaciones-sobre-tiktok-tras--ministerio-fiscal": {
+      "guid": "53a891cc-26bb-4a62-8ddb-db5b688e9d74",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado",
+      "fecha_publicacion_iso": "2026-11-16T10:30:44+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-la-aepd-archiva-sus-actuaciones-sobre-tiktok-tras-la-denunci-d1d5a87d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/geovision-camera-software-vulnerabilities/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391330",
+      "fuente": "Help Net Security",
+      "titulo": "Unpatched GeoVision camera software gave cryptojackers a side door into 13 organizations",
+      "fecha_publicacion_iso": "2026-11-16T10:07:57+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-unpatched-geovision-camera-software-gave-cryptojackers-a-sid-6cd44615.html"
+    },
+    "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html": {
+      "guid": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "fuente": "The Hacker News",
+      "titulo": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "fecha_publicacion_iso": "2026-11-16T09:32:57+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-sansar-linux-cryptomining-malware-uses-modified-nvidia-libra-f0b3319b.html"
+    },
+    "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/": {
+      "guid": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+      "fuente": "BleepingComputer",
+      "titulo": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+      "fecha_publicacion_iso": "2026-11-16T09:30:04+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-new-noisytcp-vulnerability-lets-attackers-crash-linux-server-7d4f6584.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/rspamd-4-3-0-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391329",
+      "fuente": "Help Net Security",
+      "titulo": "Rspamd 4.3.0 stops forwarded mail from softening DMARC rejects",
+      "fecha_publicacion_iso": "2026-11-16T09:27:24+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-rspamd-4-3-0-stops-forwarded-mail-from-softening-dmarc-rejec-9eeb64e3.html"
+    },
+    "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/": {
+      "guid": "https://www.securityweek.com/?p=50813",
+      "fuente": "SecurityWeek",
+      "titulo": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+      "fecha_publicacion_iso": "2026-11-16T08:55:32+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-tor-updates-dos-defenses-again-as-relay-attacks-continue-aaca3d27.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft pushes Windows emergency updates to fix activation failures",
+      "fecha_publicacion_iso": "2026-11-16T08:26:52+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-microsoft-pushes-windows-emergency-updates-to-fix-activation-a60b8a45.html"
+    },
+    "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/": {
+      "guid": "https://www.securityweek.com/?p=50811",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+      "fecha_publicacion_iso": "2026-11-16T08:15:12+00:00",
+      "fecha_agregada_iso": "2026-11-16T19:41:41.398953+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-47ca43e2.html"
     }
   }
 }
