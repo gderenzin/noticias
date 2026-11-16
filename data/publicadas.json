@@ -30239,6 +30239,70 @@
       "fecha_publicacion_iso": "2026-11-15T18:29:53+00:00",
       "fecha_agregada_iso": "2026-11-15T21:48:21.337575+00:00",
       "ruta_noticia": "/noticia/2026-11-15-fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberatta-4201db3a.html"
+    },
+    "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html": {
+      "guid": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "fuente": "The Hacker News",
+      "titulo": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "fecha_publicacion_iso": "2026-11-16T07:34:21+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-amazon-uncovers-ai-agent-campaign-targeting-litellm-dify-and-f159cf23.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/cloudflare-kitesurf-open-source/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391308",
+      "fuente": "Help Net Security",
+      "titulo": "You can now self-host Kitesurf, Cloudflare’s open-source browser for AI agents",
+      "fecha_publicacion_iso": "2026-11-16T07:00:02+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-you-can-now-self-host-kitesurf-cloudflares-open-source-brows-2444f82f.html"
+    },
+    "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html": {
+      "guid": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "fuente": "The Hacker News",
+      "titulo": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "fecha_publicacion_iso": "2026-11-16T06:53:34+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-bo-team-exploits-log4shell-in-vmware-vcenter-compromises-rus-1a13d702.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391294",
+      "fuente": "Help Net Security",
+      "titulo": "Google Project Zero will disclose bugs after 90 days, fixed or not",
+      "fecha_publicacion_iso": "2026-11-16T06:30:02+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-google-project-zero-will-disclose-bugs-after-90-days-fixed-o-ec5543c6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391250",
+      "fuente": "Help Net Security",
+      "titulo": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+      "fecha_publicacion_iso": "2026-11-16T06:00:29+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-ory-hydra-open-source-oauth-2-0-server-and-openid-connect-pr-5388b4ab.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/product-showcase-eset-mobile-security-ios/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391281",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: ESET Mobile Security brings phishing protection and security checks to iOS",
+      "fecha_publicacion_iso": "2026-11-16T05:30:19+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-product-showcase-eset-mobile-security-brings-phishing-protec-4cf145c8.html"
+    },
+    "http://www.elladodelmal.com/2026/11/robots-empire-puede-un-llm-mejorar-otro.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-1505248879297583060",
+      "fuente": "El Lado del Mal",
+      "titulo": "Robots & Empire: ¿Puede un LLM mejorar a otro sólo tocando los pesos de la Red Neuronal?",
+      "fecha_publicacion_iso": "2026-11-16T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-robots-empire-puede-un-llm-mejorar-a-otro-solo-tocando-los-p-19762803.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391271",
+      "fuente": "Help Net Security",
+      "titulo": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+      "fecha_publicacion_iso": "2026-11-16T05:00:22+00:00",
+      "fecha_agregada_iso": "2026-11-16T07:59:48.616838+00:00",
+      "ruta_noticia": "/noticia/2026-11-16-ai-uncovers-flaws-in-discontinued-devices-with-no-vendor-lef-30914c64.html"
     }
   }
 }
