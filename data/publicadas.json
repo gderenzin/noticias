@@ -31567,6 +31567,334 @@
       "fecha_publicacion_iso": "2026-11-18T02:15:07+00:00",
       "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
       "ruta_noticia": "/noticia/2026-11-18-classified-communications-network-at-the-national-security-a-19347567.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841": {
+      "guid": "https://www.theregister.com/a/5310841",
+      "fuente": "The Register - Security",
+      "titulo": "California tells Waymo to take the next exit after freeway mishaps",
+      "fecha_publicacion_iso": "2026-11-18T17:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-california-tells-waymo-to-take-the-next-exit-after-freeway-m-d5ac8eae.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858": {
+      "guid": "https://www.theregister.com/a/5310858",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft's official Python agent framework hijacked to distribute malware",
+      "fecha_publicacion_iso": "2026-11-18T17:23:37+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-microsoft-s-official-python-agent-framework-hijacked-to-dist-55044eb1.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+      "fuente": "Dark Reading",
+      "titulo": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
+      "fecha_publicacion_iso": "2026-11-18T16:54:52+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-java4shell-flaw-threatens-global-enterprises-java-applicatio-03bfba8e.html"
+    },
+    "https://www.wired.com/story/artex-ai-hacking-tools/": {
+      "guid": "6afb2f8eec2f615c1fcad642",
+      "fuente": "Wired - Security",
+      "titulo": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+      "fecha_publicacion_iso": "2026-11-18T16:35:24+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-artex-is-criminals-new-favorite-point-and-shoot-ai-hacking-t-c0bdf578.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/siete-vulnerabilidades-criticas-en-nginx.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2491102599324508530",
+      "fuente": "Segu-Info",
+      "titulo": "Siete vulnerabilidades críticas en NGINX permiten RCE #Nginx2Root",
+      "fecha_publicacion_iso": "2026-11-18T16:24:15+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-siete-vulnerabilidades-criticas-en-nginx-permiten-rce-nginx2-399fe24a.html"
+    },
+    "https://therecord.media/nsa-continues-response-to-nsa-net-problems": {
+      "guid": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+      "fuente": "The Record",
+      "titulo": "NSA continues response to interruptions in classified internal network",
+      "fecha_publicacion_iso": "2026-11-18T16:19:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-nsa-continues-response-to-interruptions-in-classified-intern-e798ab68.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/partner-content-cyber-insurers-now-want-proof-you-can-actually-recover/5309325": {
+      "guid": "https://www.theregister.com/a/5309325",
+      "fuente": "The Register - Security",
+      "titulo": "Cyber insurers now want proof you can actually recover",
+      "fecha_publicacion_iso": "2026-11-18T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-cyber-insurers-now-want-proof-you-can-actually-recover-bdb65044.html"
+    },
+    "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/": {
+      "guid": "https://www.securityweek.com/?p=50910",
+      "fuente": "SecurityWeek",
+      "titulo": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+      "fecha_publicacion_iso": "2026-11-18T15:30:42+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-verosecurity-raises-11-million-for-ai-security-engineering-p-40076477.html"
+    },
+    "https://therecord.media/russia-cyber-espionage-google": {
+      "guid": "https://therecord.media/russia-cyber-espionage-google",
+      "fuente": "The Record",
+      "titulo": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+      "fecha_publicacion_iso": "2026-11-18T15:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-russian-cyber-espionage-group-used-stolen-cloud-data-to-hack-96111808.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "fuente": "BleepingComputer",
+      "titulo": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "fecha_publicacion_iso": "2026-11-18T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-from-deepfakes-to-helpdesk-impersonation-why-stronger-verifi-8e8debc4.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515": {
+      "guid": "https://www.theregister.com/a/5310515",
+      "fuente": "The Register - Security",
+      "titulo": "AI-powered cyber threats are changing the rules of enterprise recovery",
+      "fecha_publicacion_iso": "2026-11-18T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ai-powered-cyber-threats-are-changing-the-rules-of-enterpris-2796b64d.html"
+    },
+    "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider": {
+      "guid": "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
+      "fuente": "The Record",
+      "titulo": "British hacker gets 6 year sentence for $11.6M crypto theft scheme",
+      "fecha_publicacion_iso": "2026-11-18T14:48:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-british-hacker-gets-6-year-sentence-for-11-6m-crypto-theft-s-69958fa4.html"
+    },
+    "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html": {
+      "guid": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "fuente": "The Hacker News",
+      "titulo": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "fecha_publicacion_iso": "2026-11-18T14:11:28+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-new-eggstreme-malware-variant-goes-silent-to-evade-security-55016e2d.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+      "fuente": "Dark Reading",
+      "titulo": "Major Brazilian Signature Apps Enable RCE &amp; Fraud",
+      "fecha_publicacion_iso": "2026-11-18T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-major-brazilian-signature-apps-enable-rce-amp-fraud-8368f980.html"
+    },
+    "https://therecord.media/russia-hockey-cyberattack-championships": {
+      "guid": "https://therecord.media/russia-hockey-cyberattack-championships",
+      "fuente": "The Record",
+      "titulo": "Ice hockey governing body website defaced amid dispute over Russia's exclusion",
+      "fecha_publicacion_iso": "2026-11-18T13:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ice-hockey-governing-body-website-defaced-amid-dispute-over-959698f1.html"
+    },
+    "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/": {
+      "guid": "https://www.securityweek.com/?p=50907",
+      "fuente": "SecurityWeek",
+      "titulo": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+      "fecha_publicacion_iso": "2026-11-18T13:33:47+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-russian-apt-poses-as-employee-of-hacked-firm-to-breach-anoth-dfcd48a8.html"
+    },
+    "https://therecord.media/norway-equinor-cyberattack-energy": {
+      "guid": "https://therecord.media/norway-equinor-cyberattack-energy",
+      "fuente": "The Record",
+      "titulo": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+      "fecha_publicacion_iso": "2026-11-18T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-cyberattack-hits-norwegian-energy-giant-equinor-disrupting-i-58112a19.html"
+    },
+    "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/": {
+      "guid": "https://www.securityweek.com/?p=50904",
+      "fuente": "SecurityWeek",
+      "titulo": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+      "fecha_publicacion_iso": "2026-11-18T13:19:32+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-last-of-five-defendants-sentenced-in-us-scattered-spider-hac-2c1ddb51.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/que-paso-con-los-servicios-de-microsoft.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6846414467913796062",
+      "fuente": "Segu-Info",
+      "titulo": "Qué pasó con los servicios de Microsoft 365 [Informe preliminar]",
+      "fecha_publicacion_iso": "2026-11-18T13:12:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-que-paso-con-los-servicios-de-microsoft-365-informe-prelimin-aa2f4c05.html"
+    },
+    "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html": {
+      "guid": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "fecha_publicacion_iso": "2026-11-18T12:28:30+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-new-attack-bypasses-tpm-lockout-to-crack-windows-hello-and-b-74d12e44.html"
+    },
+    "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html": {
+      "guid": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "fecha_publicacion_iso": "2026-11-18T12:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ai-pentesting-checklist-for-web-apps-15-questions-to-ask-bef-c9f8dc26.html"
+    },
+    "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/": {
+      "guid": "https://www.securityweek.com/?p=50899",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+      "fecha_publicacion_iso": "2026-11-18T12:14:23+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-microsoft-takes-perception-agentic-security-platform-out-of-ddb3ea43.html"
+    },
+    "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/": {
+      "guid": "https://www.securityweek.com/?p=50884",
+      "fuente": "SecurityWeek",
+      "titulo": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+      "fecha_publicacion_iso": "2026-11-18T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ciso-conversations-patti-degnan-part-of-the-job-is-deciding-2df0fcea.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "fuente": "BleepingComputer",
+      "titulo": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+      "fecha_publicacion_iso": "2026-11-18T11:50:25+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-dizigom-illegal-streaming-service-with-21m-monthly-visits-sh-57cf485f.html"
+    },
+    "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/?p=50897",
+      "fuente": "SecurityWeek",
+      "titulo": "Chrome 158 Patches 204 Vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-18T11:43:22+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-chrome-158-patches-204-vulnerabilities-ac7a1243.html"
+    },
+    "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/": {
+      "guid": "https://www.securityweek.com/?p=50894",
+      "fuente": "SecurityWeek",
+      "titulo": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+      "fecha_publicacion_iso": "2026-11-18T11:05:39+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-microsoft-agent-framework-releases-poisoned-with-credential-aa9ca93e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+      "fecha_publicacion_iso": "2026-11-18T11:05:39+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-microsoft-agent-framework-releases-poisoned-with-credential-aa9ca93e.html"
+    },
+    "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html": {
+      "guid": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "fuente": "The Hacker News",
+      "titulo": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "fecha_publicacion_iso": "2026-11-18T11:03:57+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-quality-isnt-the-main-worry-about-ai-pentesting-data-privacy-63ab0fd1.html"
+    },
+    "https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91622",
+      "fuente": "CyberScoop",
+      "titulo": "Government tech debt is a national security risk",
+      "fecha_publicacion_iso": "2026-11-18T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-government-tech-debt-is-a-national-security-risk-608d082c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "fecha_publicacion_iso": "2026-11-18T10:35:05+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-apache-warns-of-roller-rce-vulnerability-exploited-in-attack-4f4cc6f1.html"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567": {
+      "guid": "https://www.theregister.com/a/5310567",
+      "fuente": "The Register - Security",
+      "titulo": "UK MPs want AI watchdog with power to pull the plug on dangerous models",
+      "fecha_publicacion_iso": "2026-11-18T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dange-3cd71e7a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft announces Windows Server 2028 with hardened security",
+      "fecha_publicacion_iso": "2026-11-18T09:24:31+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-microsoft-announces-windows-server-2028-with-hardened-securi-4ccf67b9.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/lectura-fuera-de-limites-en-leptonica-de-dan-bloomberg": {
+      "guid": "699272 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Lectura fuera de límites en Leptonica de Dan Bloomberg",
+      "fecha_publicacion_iso": "2026-11-18T09:03:14+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-lectura-fuera-de-limites-en-leptonica-de-dan-bloomberg-555a026e.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/verificacion-incorrecta-de-la-firma-criptografica-en-procesadores-zen-y-zen-de": {
+      "guid": "699293 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Verificación incorrecta de la firma criptográfica en procesadores Zen y Zen+ de AMD",
+      "fecha_publicacion_iso": "2026-11-18T08:58:33+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-verificacion-incorrecta-de-la-firma-criptografica-en-procesa-397167f3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/ubuntu-ai-security-patches-edge-archive/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391607",
+      "fuente": "Help Net Security",
+      "titulo": "Ubuntu AI security patches are here, if you’re willing to test them yourself",
+      "fecha_publicacion_iso": "2026-11-18T08:47:50+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ubuntu-ai-security-patches-are-here-if-youre-willing-to-test-fb5cecfd.html"
+    },
+    "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/": {
+      "guid": "https://www.securityweek.com/?p=50880",
+      "fuente": "SecurityWeek",
+      "titulo": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+      "fecha_publicacion_iso": "2026-11-18T08:47:18+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-oracle-patches-950-vulnerabilities-with-november-2026-cspu-0dd01d7b.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "fecha_publicacion_iso": "2026-11-18T08:24:31+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-hackers-exploiting-critical-puppet-rce-flaw-affecting-enterp-25f152a1.html"
+    },
+    "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "fecha_publicacion_iso": "2026-11-18T08:24:31+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-hackers-exploiting-critical-puppet-rce-flaw-affecting-enterp-25f152a1.html"
+    },
+    "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html": {
+      "guid": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "fecha_publicacion_iso": "2026-11-18T08:24:23+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-cisa-urges-immediate-patching-of-java4shell-flaw-that-could-1db641aa.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-java4shell": {
+      "guid": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-oracle-java4shell",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "fecha_publicacion_iso": "2026-11-18T08:24:23+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-cisa-urges-immediate-patching-of-java4shell-flaw-that-could-1db641aa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/",
+      "fuente": "Help Net Security",
+      "titulo": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "fecha_publicacion_iso": "2026-11-18T08:24:23+00:00",
+      "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-cisa-urges-immediate-patching-of-java4shell-flaw-that-could-1db641aa.html"
     }
   }
 }
