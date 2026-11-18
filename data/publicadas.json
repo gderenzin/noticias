@@ -31447,6 +31447,126 @@
       "fecha_publicacion_iso": "2026-11-16T18:10:25+00:00",
       "fecha_agregada_iso": "2026-11-17T23:54:44.515091+00:00",
       "ruta_noticia": "/noticia/2026-11-17-es-seguro-subir-tu-pasaporte-o-documento-de-identidad-a-inte-20b6256c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "fuente": "BleepingComputer",
+      "titulo": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "fecha_publicacion_iso": "2026-11-18T08:24:18+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-british-scattered-spider-hacker-sentenced-to-6-years-in-pris-0ad69605.html"
+    },
+    "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/": {
+      "guid": "https://www.securityweek.com/?p=50875",
+      "fuente": "SecurityWeek",
+      "titulo": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+      "fecha_publicacion_iso": "2026-11-18T07:43:34+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-java4shell-vulnerability-puts-many-enterprise-applications-a-c5f6c87f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/christian-schwalbe-deutsche-telekom-iot-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391484",
+      "fuente": "Help Net Security",
+      "titulo": "Deutsche Telekom IoT’s CEO on securing devices that run for 20 years",
+      "fecha_publicacion_iso": "2026-11-18T07:30:25+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-deutsche-telekom-iots-ceo-on-securing-devices-that-run-for-2-0cbe3d55.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/nicola-fox-hamilton-victim-blaming-scams-phishing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391515",
+      "fuente": "Help Net Security",
+      "titulo": "Once a scam ends the victim blaming begins",
+      "fecha_publicacion_iso": "2026-11-18T07:00:33+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-once-a-scam-ends-the-victim-blaming-begins-65d62400.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "fecha_publicacion_iso": "2026-11-18T06:45:26+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-attackers-compromise-microsoft-s-agent-framework-pypi-packag-1df53018.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/tapmap-network-map-open-source/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391323",
+      "fuente": "Help Net Security",
+      "titulo": "TapMap: Free, open-source network map",
+      "fecha_publicacion_iso": "2026-11-18T06:30:24+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-tapmap-free-open-source-network-map-73f99f24.html"
+    },
+    "http://www.elladodelmal.com/2026/11/como-se-crearon-las-semillas-del.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6809307907955541582",
+      "fuente": "El Lado del Mal",
+      "titulo": "¿Cómo se crearon las semillas del Elliptic Curve Digital Signature Algorithm (ECDSA)? Anthropic Claude encontró el origen.",
+      "fecha_publicacion_iso": "2026-11-18T06:30:16+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-como-se-crearon-las-semillas-del-elliptic-curve-digital-sign-4a09da4f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/winrar-bubbleloader-malware/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391466",
+      "fuente": "Help Net Security",
+      "titulo": "BubbleLoader malware turns copies of WinRAR and Windows Media Player into carriers",
+      "fecha_publicacion_iso": "2026-11-18T06:00:03+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-bubbleloader-malware-turns-copies-of-winrar-and-windows-medi-c1286bf5.html"
+    },
+    "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html": {
+      "guid": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "fuente": "The Hacker News",
+      "titulo": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "fecha_publicacion_iso": "2026-11-18T05:58:04+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-russian-cold-relic-hackers-use-stolen-google-workspace-data-ee9a2376.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/product-showcase-iverify-basic/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391523",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: iVerify Basic helps users check device security and improve privacy",
+      "fecha_publicacion_iso": "2026-11-18T05:30:11+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-product-showcase-iverify-basic-helps-users-check-device-secu-2aee2c1d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391490",
+      "fuente": "Help Net Security",
+      "titulo": "Fraudsters feed the right face into identity checks through virtual cameras",
+      "fecha_publicacion_iso": "2026-11-18T05:00:34+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-fraudsters-feed-the-right-face-into-identity-checks-through-889fd7ca.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661": {
+      "guid": "https://www.theregister.com/a/5310661",
+      "fuente": "The Register - Security",
+      "titulo": "Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps",
+      "fecha_publicacion_iso": "2026-11-18T04:33:05+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allow-73da2b32.html"
+    },
+    "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html": {
+      "guid": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "fuente": "The Hacker News",
+      "titulo": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "fecha_publicacion_iso": "2026-11-18T04:27:41+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-java4shell-flaw-cve-2026-114938-enables-pre-auth-rce-in-jira-223101d5.html"
+    },
+    "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/": {
+      "guid": "https://krebsonsecurity.com/?p=74672",
+      "fuente": "Krebs on Security",
+      "titulo": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "fecha_publicacion_iso": "2026-11-18T02:52:04+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-attackers-used-optimizely-to-a-b-test-malware-on-top-website-c5599644.html"
+    },
+    "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/": {
+      "guid": "https://www.securityweek.com/?p=50872",
+      "fuente": "SecurityWeek",
+      "titulo": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+      "fecha_publicacion_iso": "2026-11-18T02:15:07+00:00",
+      "fecha_agregada_iso": "2026-11-18T08:34:24.332916+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-classified-communications-network-at-the-national-security-a-19347567.html"
     }
   }
 }
