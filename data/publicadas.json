@@ -31895,6 +31895,174 @@
       "fecha_publicacion_iso": "2026-11-18T08:24:23+00:00",
       "fecha_agregada_iso": "2026-11-18T18:10:23.472294+00:00",
       "ruta_noticia": "/noticia/2026-11-18-cisa-urges-immediate-patching-of-java4shell-flaw-that-could-1db641aa.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/nist-quantum-position-verification/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391663",
+      "fuente": "Help Net Security",
+      "titulo": "Quantum position verification could lock remote hackers out, NIST shows",
+      "fecha_publicacion_iso": "2026-11-19T00:07:39+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-quantum-position-verification-could-lock-remote-hackers-out-c808af34.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/ransomware-access-brokers-cybercrime/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391654",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware access brokers are moving their deals off public forums",
+      "fecha_publicacion_iso": "2026-11-18T23:28:20+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ransomware-access-brokers-are-moving-their-deals-off-public-6e6d50da.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "fuente": "BleepingComputer",
+      "titulo": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "fecha_publicacion_iso": "2026-11-18T23:08:33+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ra-b326b853.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/microsoft-azure-linux-4/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391641",
+      "fuente": "Help Net Security",
+      "titulo": "Azure Linux 4 puts the OS behind Microsoft’s cloud services on your VMs at no extra license fee",
+      "fecha_publicacion_iso": "2026-11-18T23:01:14+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-azure-linux-4-puts-the-os-behind-microsofts-cloud-services-o-36b11d0f.html"
+    },
+    "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911": {
+      "guid": "https://www.theregister.com/a/5310911",
+      "fuente": "The Register - Security",
+      "titulo": "Get ready for another critical PHP security release to drop",
+      "fecha_publicacion_iso": "2026-11-18T22:38:12+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-get-ready-for-another-critical-php-security-release-to-drop-80197199.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+      "fuente": "Dark Reading",
+      "titulo": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
+      "fecha_publicacion_iso": "2026-11-18T21:59:46+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-russia-s-cold-relic-apt-turns-one-cloud-breach-into-another-84415312.html"
+    },
+    "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887": {
+      "guid": "https://www.theregister.com/a/5310887",
+      "fuente": "The Register - Security",
+      "titulo": "AI found more critical bugs in another widely used technology running 225M websites",
+      "fecha_publicacion_iso": "2026-11-18T21:11:04+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-ai-found-more-critical-bugs-in-another-widely-used-technolog-34139073.html"
+    },
+    "https://cyberscoop.com/tech-outages-ai-vulnerability-patching/": {
+      "guid": "https://cyberscoop.com/?p=91641",
+      "fuente": "CyberScoop",
+      "titulo": "Consensus mounts that tech outages were fueled by patching of AI-discovered vulnerabilities",
+      "fecha_publicacion_iso": "2026-11-18T20:56:55+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-consensus-mounts-that-tech-outages-were-fueled-by-patching-o-f83f4afb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "fuente": "BleepingComputer",
+      "titulo": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+      "fecha_publicacion_iso": "2026-11-18T20:49:32+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-coinbase-blocks-4-7-million-in-transfers-to-elon-musk-deepfa-ede0adf4.html"
+    },
+    "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool": {
+      "guid": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+      "fuente": "Dark Reading",
+      "titulo": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
+      "fecha_publicacion_iso": "2026-11-18T20:45:49+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-strike-graph-launches-integration-ai-to-automate-continuous-cebfa689.html"
+    },
+    "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data": {
+      "guid": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+      "fuente": "The Record",
+      "titulo": "Judge signs off on sale of Spirit Airlines’ data to Google",
+      "fecha_publicacion_iso": "2026-11-18T20:39:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-judge-signs-off-on-sale-of-spirit-airlines-data-to-google-33f8f6aa.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups": {
+      "guid": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+      "fuente": "Dark Reading",
+      "titulo": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+      "fecha_publicacion_iso": "2026-11-18T20:38:42+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-attackiq-research-reveals-how-iranian-cyber-groups-hand-off-27e5f548.html"
+    },
+    "https://therecord.media/tech-disruptions-house-homeland-committee-testimony": {
+      "guid": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+      "fuente": "The Record",
+      "titulo": "Trump administration officials size-up a bad stretch for tech",
+      "fecha_publicacion_iso": "2026-11-18T20:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-trump-administration-officials-size-up-a-bad-stretch-for-tec-db1d8279.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "fuente": "BleepingComputer",
+      "titulo": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+      "fecha_publicacion_iso": "2026-11-18T19:39:33+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-data-breach-impacts-40-irish-credit-unions-in-reported-it-pr-9f639cd3.html"
+    },
+    "https://cyberscoop.com/danielle-thumann-severs-fcc-nomination-tech-bills/": {
+      "guid": "https://cyberscoop.com/?p=91630",
+      "fuente": "CyberScoop",
+      "titulo": "Senate Republicans advance FCC nominee, slate of cyber bills",
+      "fecha_publicacion_iso": "2026-11-18T19:16:11+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-senate-republicans-advance-fcc-nominee-slate-of-cyber-bills-d5acfeb8.html"
+    },
+    "https://therecord.media/ai-cyber-white-house": {
+      "guid": "https://therecord.media/ai-cyber-white-house",
+      "fuente": "The Record",
+      "titulo": "Lawmakers call on White House to develop defensive AI cyber systems",
+      "fecha_publicacion_iso": "2026-11-18T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-lawmakers-call-on-white-house-to-develop-defensive-ai-cyber-1336631b.html"
+    },
+    "https://www.wired.com/story/ai-debt-collection-service-exposed-66-million-accounts-and-315000-call-recordings/": {
+      "guid": "6af4a10101c992abf39301bc",
+      "fuente": "Wired - Security",
+      "titulo": "An AI Debt Collection Service Exposed 6.6 Million Accounts and 315,000 Call Recordings",
+      "fecha_publicacion_iso": "2026-11-18T19:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-an-ai-debt-collection-service-exposed-6-6-million-accounts-a-2946b5f4.html"
+    },
+    "https://cyberscoop.com/nginx-critical-vulnerabilities-exploits/": {
+      "guid": "https://cyberscoop.com/?p=91631",
+      "fuente": "CyberScoop",
+      "titulo": "It’s NGINX’s turn to cause vulnpocalypse headaches",
+      "fecha_publicacion_iso": "2026-11-18T18:54:12+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-its-nginxs-turn-to-cause-vulnpocalypse-headaches-ad356693.html"
+    },
+    "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html": {
+      "guid": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "fuente": "The Hacker News",
+      "titulo": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "fecha_publicacion_iso": "2026-11-18T18:31:17+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-10-year-old-nginx-http-2-flaw-lets-unauthenticated-attackers-fb8b318a.html"
+    },
+    "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html": {
+      "guid": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "fuente": "The Hacker News",
+      "titulo": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "fecha_publicacion_iso": "2026-11-18T18:15:39+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-f5-warns-6-critical-big-ip-flaws-can-crash-traffic-in-specif-11aa6bef.html"
+    },
+    "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "fecha_publicacion_iso": "2026-11-18T17:10:45+00:00",
+      "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
+      "ruta_noticia": "/noticia/2026-11-18-critical-apache-roller-rce-flaw-under-active-exploitation-no-9c40ff9a.html"
     }
   }
 }
