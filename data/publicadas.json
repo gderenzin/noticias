@@ -32063,6 +32063,406 @@
       "fecha_publicacion_iso": "2026-11-18T17:10:45+00:00",
       "fecha_agregada_iso": "2026-11-19T02:36:36.400275+00:00",
       "ruta_noticia": "/noticia/2026-11-18-critical-apache-roller-rce-flaw-under-active-exploitation-no-9c40ff9a.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+      "fuente": "Dark Reading",
+      "titulo": "Why Holiday Security Can't Wait for Black Friday",
+      "fecha_publicacion_iso": "2026-11-19T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-why-holiday-security-can-t-wait-for-black-friday-4f4f9e0d.html"
+    },
+    "https://therecord.media/ukraine-ransomware-arrests-cyber": {
+      "guid": "https://therecord.media/ukraine-ransomware-arrests-cyber",
+      "fuente": "The Record",
+      "titulo": "Ukraine exposes ransomware network extorting US oil, healthcare firms",
+      "fecha_publicacion_iso": "2026-11-19T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-ukraine-exposes-ransomware-network-extorting-us-oil-healthca-04901787.html"
+    },
+    "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/": {
+      "guid": "https://www.securityweek.com/?p=50935",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "fecha_publicacion_iso": "2026-11-19T13:12:20+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-hackers-exploit-cisco-expressway-vulnerability-soon-after-po-5e668a30.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "fuente": "BleepingComputer",
+      "titulo": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "fecha_publicacion_iso": "2026-11-19T13:08:08+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-drupal-patches-critical-rce-flaw-warns-exploits-may-surface-df5a560c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/puppet-enterprise-vulnerability-cve-2026-115731-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391797",
+      "fuente": "Help Net Security",
+      "titulo": "Exploited Puppet flaw puts the server that configures your endpoint fleet at risk (CVE-2026-115731)",
+      "fecha_publicacion_iso": "2026-11-19T13:07:41+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-exploited-puppet-flaw-puts-the-server-that-configures-your-e-bd53d182.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391769",
+      "fuente": "Help Net Security",
+      "titulo": "Credential stealer slipped into Microsoft’s official Python agent framework",
+      "fecha_publicacion_iso": "2026-11-19T12:53:44+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-credential-stealer-slipped-into-microsofts-official-python-a-509cec87.html"
+    },
+    "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/": {
+      "guid": "https://www.securityweek.com/?p=50932",
+      "fuente": "SecurityWeek",
+      "titulo": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+      "fecha_publicacion_iso": "2026-11-19T12:23:34+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-stepsecurity-secures-20-million-to-expand-supply-chain-prote-b7f6d70b.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/frameworks-de-ataque-con-ia-que-nunca.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3491767412033838425",
+      "fuente": "Segu-Info",
+      "titulo": "Frameworks de ataque con IA que nunca piden permiso",
+      "fecha_publicacion_iso": "2026-11-19T12:16:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-frameworks-de-ataque-con-ia-que-nunca-piden-permiso-75a0020e.html"
+    },
+    "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50930",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-19T12:13:24+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-critical-apache-roller-axis-vulnerabilities-exploited-in-att-d02f8572.html"
+    },
+    "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/": {
+      "guid": "https://www.securityweek.com/?p=50927",
+      "fuente": "SecurityWeek",
+      "titulo": "The Governance Gap in Open-Weight AI and What to Do About It",
+      "fecha_publicacion_iso": "2026-11-19T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-the-governance-gap-in-open-weight-ai-and-what-to-do-about-it-4fc5c334.html"
+    },
+    "https://thehackernews.com/2026/11/everything-is-web-application-including.html": {
+      "guid": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "fuente": "The Hacker News",
+      "titulo": "Everything Is a Web Application, Including Your Firewall",
+      "fecha_publicacion_iso": "2026-11-19T11:52:23+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-everything-is-a-web-application-including-your-firewall-193208e8.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+      "fecha_publicacion_iso": "2026-11-19T11:46:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-api-937f390d.html"
+    },
+    "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979": {
+      "guid": "https://www.theregister.com/a/5310979",
+      "fuente": "The Register - Security",
+      "titulo": "Cyberattack on service provider exposes payee data at 40 Irish credit unions",
+      "fecha_publicacion_iso": "2026-11-19T11:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-cyberattack-on-service-provider-exposes-payee-data-at-40-iri-796c0101.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/backbox-linux-10-penetration-testing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391745",
+      "fuente": "Help Net Security",
+      "titulo": "BackBox Linux 10 brings new hacking tools and Ubuntu 26.04 support",
+      "fecha_publicacion_iso": "2026-11-19T11:01:12+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-backbox-linux-10-brings-new-hacking-tools-and-ubuntu-26-04-s-bef0b390.html"
+    },
+    "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985": {
+      "guid": "https://www.theregister.com/a/5310985",
+      "fuente": "The Register - Security",
+      "titulo": "TfL takes Oyster photocard website offline after attackers compromise customer accounts",
+      "fecha_publicacion_iso": "2026-11-19T11:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-tfl-takes-oyster-photocard-website-offline-after-attackers-c-bc96eaf0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/rubrik-configuration-resilience-for-microsoft-365/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391740",
+      "fuente": "Help Net Security",
+      "titulo": "Rubrik Configuration Resilience rolls back unauthorized Microsoft 365 changes",
+      "fecha_publicacion_iso": "2026-11-19T10:56:44+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-rubrik-configuration-resilience-rolls-back-unauthorized-micr-be4e4f6e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/sonicwall-gen-6-firewalls-reach-end-of-support/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391738",
+      "fuente": "Help Net Security",
+      "titulo": "SonicWall urges customers to replace Gen 6 firewalls now",
+      "fecha_publicacion_iso": "2026-11-19T10:44:29+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-sonicwall-urges-customers-to-replace-gen-6-firewalls-now-4c56a068.html"
+    },
+    "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/": {
+      "guid": "https://www.securityweek.com/?p=50925",
+      "fuente": "SecurityWeek",
+      "titulo": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+      "fecha_publicacion_iso": "2026-11-19T10:41:05+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-splunk-patches-nearly-140-flaws-across-three-core-products-2aa6fa29.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391734",
+      "fuente": "Help Net Security",
+      "titulo": "Bitwarden expands passkey support with new Windows and macOS integrations",
+      "fecha_publicacion_iso": "2026-11-19T10:39:33+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-bitwarden-expands-passkey-support-with-new-windows-and-macos-5f82a412.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms app installation, launch issues after hotpatch",
+      "fecha_publicacion_iso": "2026-11-19T10:35:05+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-microsoft-confirms-app-installation-launch-issues-after-hotp-1fc34cf6.html"
+    },
+    "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/": {
+      "guid": "https://www.securityweek.com/?p=50923",
+      "fuente": "SecurityWeek",
+      "titulo": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+      "fecha_publicacion_iso": "2026-11-19T10:26:51+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-publ-e45c5124.html"
+    },
+    "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908": {
+      "guid": "https://www.theregister.com/a/5310908",
+      "fuente": "The Register - Security",
+      "titulo": "Sticky note on monitor provided keys to the company’s kingdom",
+      "fecha_publicacion_iso": "2026-11-19T10:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-sticky-note-on-monitor-provided-keys-to-the-companys-kingdom-98f0b311.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/gta-6-scams-threats/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391708",
+      "fuente": "Help Net Security",
+      "titulo": "GTA 6 scams are after your Google password, money, and crypto wallet",
+      "fecha_publicacion_iso": "2026-11-19T10:09:31+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-gta-6-scams-are-after-your-google-password-money-and-crypto-ef1efe3f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391707",
+      "fuente": "Help Net Security",
+      "titulo": "Ukraine arrests key members of ransomware gang that extorted $40.5 million posing as IT support",
+      "fecha_publicacion_iso": "2026-11-19T10:07:30+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-ukraine-arrests-key-members-of-ransomware-gang-that-extorted-d4531eae.html"
+    },
+    "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html": {
+      "guid": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "fecha_publicacion_iso": "2026-11-19T09:31:26+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-hackers-breach-n-able-cloud-server-disrupting-email-security-67401cc8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "fuente": "BleepingComputer",
+      "titulo": "NVIDIA investigating Gentlemen ransomware breach claims",
+      "fecha_publicacion_iso": "2026-11-19T09:23:21+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-nvidia-investigating-gentlemen-ransomware-breach-claims-7aba46b2.html"
+    },
+    "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/": {
+      "guid": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "fuente": "SecurityWeek",
+      "titulo": "NVIDIA investigating Gentlemen ransomware breach claims",
+      "fecha_publicacion_iso": "2026-11-19T09:23:21+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-nvidia-investigating-gentlemen-ransomware-breach-claims-7aba46b2.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-hpe-networking": {
+      "guid": "700030 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de HPE Networking",
+      "fecha_publicacion_iso": "2026-11-19T09:19:56+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-productos-de-hpe-networking-fe58ad9e.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-mitel": {
+      "guid": "700029 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Mitel",
+      "fecha_publicacion_iso": "2026-11-19T09:19:55+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-productos-de-mitel-04280131.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-synology": {
+      "guid": "700027 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Synology",
+      "fecha_publicacion_iso": "2026-11-19T09:19:54+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-productos-de-synology-9cd12a27.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-atlassian-2": {
+      "guid": "700028 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Atlassian",
+      "fecha_publicacion_iso": "2026-11-19T09:19:53+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-productos-de-atlassian-191f83d3.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-cast-imaging-de-cast-software": {
+      "guid": "700026 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en CAST Imaging de CAST Software",
+      "fecha_publicacion_iso": "2026-11-19T09:19:52+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-cast-imaging-de-cast-software-446d9af6.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/ejecucion-remota-de-codigo-en-drupal": {
+      "guid": "700024 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Ejecución remota de código en Drupal",
+      "fecha_publicacion_iso": "2026-11-19T09:19:50+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-ejecucion-remota-de-codigo-en-drupal-446bff42.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-airlock-gateway-de-ergon": {
+      "guid": "700025 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en Airlock Gateway de Ergon",
+      "fecha_publicacion_iso": "2026-11-19T09:19:50+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-escritura-fuera-de-limites-en-airlock-gateway-de-ergon-6d198a8f.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-splunk-soar": {
+      "guid": "700023 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Splunk SOAR",
+      "fecha_publicacion_iso": "2026-11-19T09:19:49+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-splunk-soar-f0718b27.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-nginx-de-f5": {
+      "guid": "700000 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos NGINX de F5",
+      "fecha_publicacion_iso": "2026-11-19T09:19:47+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-multiples-vulnerabilidades-en-productos-nginx-de-f5-037d4314.html"
+    },
+    "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/": {
+      "guid": "https://www.securityweek.com/?p=50921",
+      "fuente": "SecurityWeek",
+      "titulo": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+      "fecha_publicacion_iso": "2026-11-19T09:10:58+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-java4shell-exploitation-attempts-begin-as-vendors-rush-out-a-ce554e89.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-el-estatuto-del-delegado-proteccion-datos-independencia-garantias": {
+      "guid": "7626740d-acad-4985-a7d3-757fa7301676",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses",
+      "fecha_publicacion_iso": "2026-11-19T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-la-aepd-publica-el-estatuto-del-delegado-de-proteccion-de-da-b47ef04d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/exposicion-de-informacion-sensible-en-el-campus-virtual-de-la-uoc": {
+      "guid": "699998 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Exposición de información sensible en el Campus Virtual de la UOC",
+      "fecha_publicacion_iso": "2026-11-19T08:58:24+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-exposicion-de-informacion-sensible-en-el-campus-virtual-de-l-1bbb9e68.html"
+    },
+    "http://www.elladodelmal.com/2026/11/los-comics-hechos-con-genai-del-dragon.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-4405720012076062853",
+      "fuente": "El Lado del Mal",
+      "titulo": "Los cómics hechos con GenAI del Dragón Matías",
+      "fecha_publicacion_iso": "2026-11-19T08:46:02+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-los-comics-hechos-con-genai-del-dragon-matias-dfcb7305.html"
+    },
+    "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html": {
+      "guid": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "fecha_publicacion_iso": "2026-11-19T08:42:11+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-ruby-releases-fixes-for-7-regex-and-string-flaws-warns-5-hav-ef3cecb6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/us-threat-disruption-center-scam-sextortion-funds/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391673",
+      "fuente": "Help Net Security",
+      "titulo": "US enlists private firms to cut scammers off from victims’ cash",
+      "fecha_publicacion_iso": "2026-11-19T08:21:15+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-us-enlists-private-firms-to-cut-scammers-off-from-victims-ca-1b4d43f7.html"
+    },
+    "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html": {
+      "guid": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "fecha_publicacion_iso": "2026-11-19T08:14:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-researcher-demonstrates-database-rce-exploits-affecting-post-3d3c5845.html"
+    },
+    "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html": {
+      "guid": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "fuente": "The Hacker News",
+      "titulo": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "fecha_publicacion_iso": "2026-11-19T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-cisa-warns-of-4-exploited-flaws-linked-to-ransomware-cryptom-7b2c191d.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge": {
+      "guid": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
+      "fuente": "Dark Reading",
+      "titulo": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
+      "fecha_publicacion_iso": "2026-11-19T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-africa-retakes-top-spot-as-most-attacked-region-led-by-niger-59d3b792.html"
+    },
+    "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/": {
+      "guid": "https://www.securityweek.com/?p=50917",
+      "fuente": "SecurityWeek",
+      "titulo": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+      "fecha_publicacion_iso": "2026-11-19T07:45:17+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-php-readies-critical-security-updates-to-patch-another-rce-f-e2e32d52.html"
+    },
+    "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html": {
+      "guid": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "fecha_publicacion_iso": "2026-11-19T04:33:46+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-php-warns-of-critical-security-flaws-affecting-all-supported-d1202d33.html"
+    },
+    "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/": {
+      "guid": "https://www.securityweek.com/?p=50913",
+      "fuente": "SecurityWeek",
+      "titulo": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+      "fecha_publicacion_iso": "2026-11-19T03:25:23+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-5128ef42.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/19/palo-alto-networks-acquires-applied-compute/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/19/palo-alto-networks-acquires-applied-compute/",
+      "fuente": "Help Net Security",
+      "titulo": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+      "fecha_publicacion_iso": "2026-11-19T03:25:23+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-5128ef42.html"
+    },
+    "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow": {
+      "guid": "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow",
+      "fuente": "The Record",
+      "titulo": "Russian charged with spying on Palantir employees for Moscow",
+      "fecha_publicacion_iso": "2026-11-19T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-19T14:40:05.287657+00:00",
+      "ruta_noticia": "/noticia/2026-11-19-russian-charged-with-spying-on-palantir-employees-for-moscow-4811bbf2.html"
     }
   }
 }
