@@ -32727,6 +32727,94 @@
       "fecha_publicacion_iso": "2026-11-18T22:38:12+00:00",
       "fecha_agregada_iso": "2026-11-19T23:41:08.314773+00:00",
       "ruta_noticia": "/noticia/2026-11-19-another-critical-php-security-release-has-dropped-fae8e99e.html"
+    },
+    "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/": {
+      "guid": "https://www.securityweek.com/?p=50946",
+      "fuente": "SecurityWeek",
+      "titulo": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+      "fecha_publicacion_iso": "2026-11-20T07:35:46+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-jpmorgan-visa-mastercard-cite-third-party-incidents-amid-dat-009f6643.html"
+    },
+    "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html": {
+      "guid": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "fuente": "The Hacker News",
+      "titulo": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "fecha_publicacion_iso": "2026-11-20T07:11:39+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-romulus-clickfix-attacks-deliver-rat-that-can-spy-on-users-a-ba74506a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/20/ai-prompt-injection-red-team/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391756",
+      "fuente": "Help Net Security",
+      "titulo": "Your AI red team may be finding the same prompt injection thousands of times",
+      "fecha_publicacion_iso": "2026-11-20T06:30:20+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-your-ai-red-team-may-be-finding-the-same-prompt-injection-th-8b38735d.html"
+    },
+    "http://www.elladodelmal.com/2026/11/blackfriday-en-0xwordcom-cupon-10.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6085037181257525173",
+      "fuente": "El Lado del Mal",
+      "titulo": "BLACKFRIDAY en 0xWord.com. Cupón 10% descuento: BLACKFRIDAY2026 más los cupones con Tempos de MyPublicInbox",
+      "fecha_publicacion_iso": "2026-11-20T06:17:20+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-blackfriday-en-0xword-com-cupon-10-descuento-blackfriday2026-bf6ff91a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/20/security-dashboards-tips-video/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391613",
+      "fuente": "Help Net Security",
+      "titulo": "It’s time to retire vanity security dashboards",
+      "fecha_publicacion_iso": "2026-11-20T06:00:21+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-its-time-to-retire-vanity-security-dashboards-9d409aaf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391695",
+      "fuente": "Help Net Security",
+      "titulo": "AI agent API security hasn’t caught up with agents already running in production",
+      "fecha_publicacion_iso": "2026-11-20T05:30:11+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-ai-agent-api-security-hasnt-caught-up-with-agents-already-ru-09866cb1.html"
+    },
+    "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html": {
+      "guid": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "fuente": "The Hacker News",
+      "titulo": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "fecha_publicacion_iso": "2026-11-20T05:30:01+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-new-unpatched-windows-0-day-fastunlock-lets-someone-holding-fa700a4e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/20/network-outage-recovery-resilience/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391702",
+      "fuente": "Help Net Security",
+      "titulo": "Most CIOs and CISOs expect to contain attacks, though few can reach their gear right away",
+      "fecha_publicacion_iso": "2026-11-20T05:00:27+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-most-cios-and-cisos-expect-to-contain-attacks-though-few-can-5cdfc826.html"
+    },
+    "https://cyberscoop.com/sean-cairncross-out-national-cyber-director/": {
+      "guid": "https://cyberscoop.com/?p=91680",
+      "fuente": "CyberScoop",
+      "titulo": "Sean Cairncross out as national cyber director",
+      "fecha_publicacion_iso": "2026-11-20T01:07:07+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-sean-cairncross-out-as-national-cyber-director-37fc541e.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "fuente": "BleepingComputer",
+      "titulo": "VMware patches vCenter zero-day exploited in attacks since September",
+      "fecha_publicacion_iso": "2026-11-20T00:26:25+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-vmware-patches-vcenter-zero-day-exploited-in-attacks-since-s-c5e24a06.html"
+    },
+    "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html": {
+      "guid": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "fuente": "The Hacker News",
+      "titulo": "VMware patches vCenter zero-day exploited in attacks since September",
+      "fecha_publicacion_iso": "2026-11-20T00:26:25+00:00",
+      "fecha_agregada_iso": "2026-11-20T08:33:21.021726+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-vmware-patches-vcenter-zero-day-exploited-in-attacks-since-s-c5e24a06.html"
     }
   }
 }
