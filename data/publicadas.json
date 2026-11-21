@@ -33319,6 +33319,30 @@
       "fecha_publicacion_iso": "2026-11-21T08:49:13+00:00",
       "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
       "ruta_noticia": "/noticia/2026-11-21-hackers-exploit-critical-vmware-cisco-and-apache-flaws-as-es-a3eac34b.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "fecha_publicacion_iso": "2026-11-21T18:01:58+00:00",
+      "fecha_agregada_iso": "2026-11-21T22:12:18.837308+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-microsoft-entra-connect-health-flaw-exploited-to-steal-tenan-1e1dbef9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "fuente": "BleepingComputer",
+      "titulo": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "fecha_publicacion_iso": "2026-11-21T15:17:27+00:00",
+      "fecha_agregada_iso": "2026-11-21T22:12:18.837308+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-badbox-botnet-returns-with-record-breaking-40-billion-daily-4b602194.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "fuente": "BleepingComputer",
+      "titulo": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "fecha_publicacion_iso": "2026-11-21T14:26:04+00:00",
+      "fecha_agregada_iso": "2026-11-21T22:12:18.837308+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-fbi-reportedly-hacked-again-this-time-targeting-nationwide-p-efef5bd5.html"
     }
   }
 }
