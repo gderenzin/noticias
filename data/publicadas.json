@@ -33247,6 +33247,78 @@
       "fecha_publicacion_iso": "2026-11-20T17:04:04+00:00",
       "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
       "ruta_noticia": "/noticia/2026-11-20-what-we-missed-nvidia-ceo-scandal-rocks-ai-industry-35aed7f2.html"
+    },
+    "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/": {
+      "guid": "6aff54f5dedf491d3bbcabcb",
+      "fuente": "Wired - Security",
+      "titulo": "The Outages Are Just Getting Started",
+      "fecha_publicacion_iso": "2026-11-21T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-the-outages-are-just-getting-started-9dd04be5.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/inside-loop-cinco-ai-attack-frameworks.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5677083693552551798",
+      "fuente": "Segu-Info",
+      "titulo": "Inside the loop: cinco AI attack frameworks que no piden permiso",
+      "fecha_publicacion_iso": "2026-11-21T12:45:58+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-inside-the-loop-cinco-ai-attack-frameworks-que-no-piden-perm-32b39ef8.html"
+    },
+    "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": {
+      "guid": "https://www.securityweek.com/?p=50982",
+      "fuente": "SecurityWeek",
+      "titulo": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+      "fecha_publicacion_iso": "2026-11-21T12:08:50+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-amazon-china-linked-hackers-ai-agents-exploited-medical-soft-6231e48f.html"
+    },
+    "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html": {
+      "guid": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "fuente": "The Hacker News",
+      "titulo": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "fecha_publicacion_iso": "2026-11-21T11:53:07+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-a-single-malicious-webpage-let-researchers-hijack-meta-muse-0ad755f2.html"
+    },
+    "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html": {
+      "guid": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "fuente": "The Hacker News",
+      "titulo": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "fecha_publicacion_iso": "2026-11-21T11:05:53+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-gnupg-warns-critical-gpgme-flaw-could-expose-app-data-via-ma-761885e6.html"
+    },
+    "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html": {
+      "guid": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "fecha_publicacion_iso": "2026-11-21T11:03:17+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-attackers-ai-agents-found-a-zero-day-in-medical-imaging-soft-16765aea.html"
+    },
+    "http://www.elladodelmal.com/2026/11/un-nuevo-comienzo-en-meta.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8027100768421090120",
+      "fuente": "El Lado del Mal",
+      "titulo": "Un nuevo comienzo en Meta",
+      "fecha_publicacion_iso": "2026-11-21T09:50:45+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-un-nuevo-comienzo-en-meta-2728430d.html"
+    },
+    "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html": {
+      "guid": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "fuente": "The Hacker News",
+      "titulo": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "fecha_publicacion_iso": "2026-11-21T08:49:20+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-signal-blocks-ai-agents-from-reading-private-chats-via-scree-9da47b8e.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "fecha_publicacion_iso": "2026-11-21T08:49:13+00:00",
+      "fecha_agregada_iso": "2026-11-21T13:28:59.176892+00:00",
+      "ruta_noticia": "/noticia/2026-11-21-hackers-exploit-critical-vmware-cisco-and-apache-flaws-as-es-a3eac34b.html"
     }
   }
 }
