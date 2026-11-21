@@ -33135,6 +33135,118 @@
       "fecha_publicacion_iso": "2026-11-20T00:06:35+00:00",
       "fecha_agregada_iso": "2026-11-20T18:01:57.481541+00:00",
       "ruta_noticia": "/noticia/2026-11-20-germ-network-infects-android-but-in-a-good-way-9b9f66e8.html"
+    },
+    "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/": {
+      "guid": "https://krebsonsecurity.com/?p=74696",
+      "fuente": "Krebs on Security",
+      "titulo": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "fecha_publicacion_iso": "2026-11-21T00:36:39+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-cto-of-ransomwarehelp-indicted-for-wire-fraud-93138fbb.html"
+    },
+    "https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486": {
+      "guid": "https://www.theregister.com/a/5311486",
+      "fuente": "The Register - Security",
+      "titulo": "PHP 8.6: Things are gonna get a lot more strict around here",
+      "fecha_publicacion_iso": "2026-11-20T23:28:47+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-php-8-6-things-are-gonna-get-a-lot-more-strict-around-here-9b2dca16.html"
+    },
+    "https://olartemoure.com/medidas-contra-la-suplantacion/": {
+      "guid": "https://olartemoure.com/?p=4431995",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Medidas contra la suplantación para compras más seguras",
+      "fecha_publicacion_iso": "2026-11-20T21:50:43+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-medidas-contra-la-suplantacion-para-compras-mas-seguras-a3ffa848.html"
+    },
+    "https://therecord.media/west-virginia-legislature-cyberattack": {
+      "guid": "https://therecord.media/west-virginia-legislature-cyberattack",
+      "fuente": "The Record",
+      "titulo": "West Virginia Legislature hit with cyber incident affecting IT systems",
+      "fecha_publicacion_iso": "2026-11-20T21:34:36+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-west-virginia-legislature-hit-with-cyber-incident-affecting-f0b8696c.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478": {
+      "guid": "https://www.theregister.com/a/5311478",
+      "fuente": "The Register - Security",
+      "titulo": "Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers",
+      "fecha_publicacion_iso": "2026-11-20T21:27:56+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-visa-mastercard-theft-included-info-useful-for-phishing-but-1d4b67e4.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+      "fuente": "Dark Reading",
+      "titulo": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+      "fecha_publicacion_iso": "2026-11-20T21:03:27+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-china-s-armory-castle-lays-siege-to-vmware-vcenter-zero-day-a9aa37ce.html"
+    },
+    "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466": {
+      "guid": "https://www.theregister.com/a/5311466",
+      "fuente": "The Register - Security",
+      "titulo": "Signal slams door on prying AI agents to protect privacy",
+      "fecha_publicacion_iso": "2026-11-20T20:42:04+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-signal-slams-door-on-prying-ai-agents-to-protect-privacy-273c692e.html"
+    },
+    "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation": {
+      "guid": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+      "fuente": "The Record",
+      "titulo": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+      "fecha_publicacion_iso": "2026-11-20T20:25:00+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-us-companies-use-of-chinese-open-weight-ai-draws-rebuke-from-e010061a.html"
+    },
+    "https://cyberscoop.com/signal-blocks-apple-google-ai-screenshots/": {
+      "guid": "https://cyberscoop.com/?p=91686",
+      "fuente": "CyberScoop",
+      "titulo": "Signal blocks Apple, Google AI screenshotting in response to ‘existential threat’ to privacy app",
+      "fecha_publicacion_iso": "2026-11-20T19:54:25+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-signal-blocks-apple-google-ai-screenshotting-in-response-to-0a863e6f.html"
+    },
+    "https://therecord.media/container-store-restores-systems-cyberattack": {
+      "guid": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Container Store restores systems after cyberattack",
+      "fecha_publicacion_iso": "2026-11-20T19:32:00+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-container-store-restores-systems-after-cyberattack-edfeced1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "fecha_publicacion_iso": "2026-11-20T18:51:43+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-bell-canada-says-agentic-hacker-stole-enterprise-customer-da-6c623452.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/security-words-matter": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
+      "fuente": "Dark Reading",
+      "titulo": "In Security, Words Matter as Much as Tools, Maybe More",
+      "fecha_publicacion_iso": "2026-11-20T18:35:40+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-in-security-words-matter-as-much-as-tools-maybe-more-95e1986b.html"
+    },
+    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html": {
+      "guid": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "fuente": "The Hacker News",
+      "titulo": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "fecha_publicacion_iso": "2026-11-20T17:57:20+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-whatsapp-patches-3-security-flaws-including-android-bug-susp-6cc616c5.html"
+    },
+    "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry": {
+      "guid": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
+      "fuente": "Dark Reading",
+      "titulo": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
+      "fecha_publicacion_iso": "2026-11-20T17:04:04+00:00",
+      "fecha_agregada_iso": "2026-11-21T02:14:05.406124+00:00",
+      "ruta_noticia": "/noticia/2026-11-20-what-we-missed-nvidia-ceo-scandal-rocks-ai-industry-35aed7f2.html"
     }
   }
 }
