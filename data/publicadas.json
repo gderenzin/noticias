@@ -33391,6 +33391,38 @@
       "fecha_publicacion_iso": "2026-11-21T13:00:00+00:00",
       "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
       "ruta_noticia": "/noticia/2026-11-22-president-trump-taps-kirsten-davies-as-national-cyber-direct-45e8d2f8.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "fecha_publicacion_iso": "2026-11-22T15:43:04+00:00",
+      "fecha_agregada_iso": "2026-11-22T17:09:58.190225+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-855a50ef.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "fuente": "BleepingComputer",
+      "titulo": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "fecha_publicacion_iso": "2026-11-22T15:15:25+00:00",
+      "fecha_agregada_iso": "2026-11-22T17:09:58.190225+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-a-2361e092.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/fastunlock-zero-day-en-bitlocker.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-5919742006443963522",
+      "fuente": "Segu-Info",
+      "titulo": "FastUnlock: Zero-Day en Bitlocker",
+      "fecha_publicacion_iso": "2026-11-22T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-22T17:09:58.190225+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-fastunlock-zero-day-en-bitlocker-ad9afca9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391913",
+      "fuente": "Help Net Security",
+      "titulo": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+      "fecha_publicacion_iso": "2026-11-22T09:00:25+00:00",
+      "fecha_agregada_iso": "2026-11-22T17:09:58.190225+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-week-in-review-java4shell-proves-tricky-to-exploit-malware-p-cee6ea33.html"
     }
   }
 }
