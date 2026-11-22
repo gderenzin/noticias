@@ -33343,6 +33343,54 @@
       "fecha_publicacion_iso": "2026-11-21T14:26:04+00:00",
       "fecha_agregada_iso": "2026-11-21T22:12:18.837308+00:00",
       "ruta_noticia": "/noticia/2026-11-21-fbi-reportedly-hacked-again-this-time-targeting-nationwide-p-efef5bd5.html"
+    },
+    "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html": {
+      "guid": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "fecha_publicacion_iso": "2026-11-22T05:06:55+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-openrouter-drops-3-providers-after-researchers-catch-months-78074d39.html"
+    },
+    "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html": {
+      "guid": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "fuente": "The Hacker News",
+      "titulo": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "fecha_publicacion_iso": "2026-11-22T05:03:41+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-researchers-demonstrate-ghostscript-sandbox-escape-rce-via-c-0be8ff22.html"
+    },
+    "http://www.elladodelmal.com/2026/11/un-par-de-entrevistas-en-la-brecha-y-en.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8166407662297490169",
+      "fuente": "El Lado del Mal",
+      "titulo": "Un par de entrevistas en la Brecha y en Podium o Ambulancia para el domingo",
+      "fecha_publicacion_iso": "2026-11-22T05:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-un-par-de-entrevistas-en-la-brecha-y-en-podium-o-ambulancia-4df8f4d6.html"
+    },
+    "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": {
+      "guid": "https://www.securityweek.com/?p=50985",
+      "fuente": "SecurityWeek",
+      "titulo": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "fecha_publicacion_iso": "2026-11-22T00:53:02+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-fbi-investigating-apparent-hack-of-its-key-national-criminal-aeb7ef21.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "fecha_publicacion_iso": "2026-11-21T22:59:58+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-rackspace-spot-breach-let-hackers-access-customer-kubernetes-9f2af01a.html"
+    },
+    "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/": {
+      "guid": "https://www.securityweek.com/?p=50987",
+      "fuente": "SecurityWeek",
+      "titulo": "President Trump Taps Kirsten Davies as National Cyber Director",
+      "fecha_publicacion_iso": "2026-11-21T13:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-22T08:01:22.061336+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-president-trump-taps-kirsten-davies-as-national-cyber-direct-45e8d2f8.html"
     }
   }
 }
