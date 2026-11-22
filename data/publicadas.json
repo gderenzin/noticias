@@ -33423,6 +33423,14 @@
       "fecha_publicacion_iso": "2026-11-22T09:00:25+00:00",
       "fecha_agregada_iso": "2026-11-22T17:09:58.190225+00:00",
       "ruta_noticia": "/noticia/2026-11-22-week-in-review-java4shell-proves-tricky-to-exploit-malware-p-cee6ea33.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "fecha_publicacion_iso": "2026-11-22T18:45:37+00:00",
+      "fecha_agregada_iso": "2026-11-22T22:29:42.362737+00:00",
+      "ruta_noticia": "/noticia/2026-11-22-hackers-exploit-gl-inet-cloud-flaw-to-infect-routers-kvm-dev-e84afceb.html"
     }
   }
 }
