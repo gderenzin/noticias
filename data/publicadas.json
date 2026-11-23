@@ -33431,6 +33431,118 @@
       "fecha_publicacion_iso": "2026-11-22T18:45:37+00:00",
       "fecha_agregada_iso": "2026-11-22T22:29:42.362737+00:00",
       "ruta_noticia": "/noticia/2026-11-22-hackers-exploit-gl-inet-cloud-flaw-to-infect-routers-kvm-dev-e84afceb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/signal-blocks-ai-assistants-screenshots/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391976",
+      "fuente": "Help Net Security",
+      "titulo": "Signal blocks AI assistants from peeking at your private messages",
+      "fecha_publicacion_iso": "2026-11-23T08:53:49+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-signal-blocks-ai-assistants-from-peeking-at-your-private-mes-6f784865.html"
+    },
+    "https://www.theregister.com/columnists/2026/11/23/when-microsoft-apple-and-the-faa-cant-keep-it-up-its-a-system-of-a-down/5311363": {
+      "guid": "https://www.theregister.com/a/5311363",
+      "fuente": "The Register - Security",
+      "titulo": "When Microsoft, Apple, and the FAA can't keep it up, it's a system of a down",
+      "fecha_publicacion_iso": "2026-11-23T08:42:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-when-microsoft-apple-and-the-faa-can-t-keep-it-up-it-s-a-sys-f8b881f8.html"
+    },
+    "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html": {
+      "guid": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "fuente": "The Hacker News",
+      "titulo": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "fecha_publicacion_iso": "2026-11-23T08:24:15+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-ai-assisted-cyberattacks-trigger-unauthorized-payments-at-in-80927b60.html"
+    },
+    "http://www.elladodelmal.com/2026/11/el-primer-dia.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-3089884157017353666",
+      "fuente": "El Lado del Mal",
+      "titulo": "El primer día",
+      "fecha_publicacion_iso": "2026-11-23T08:11:06+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-el-primer-dia-acca584c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391971",
+      "fuente": "Help Net Security",
+      "titulo": "Infected TV boxes in BADBOX 3.0 rent out their owners’ home internet",
+      "fecha_publicacion_iso": "2026-11-23T08:06:18+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-infected-tv-boxes-in-badbox-3-0-rent-out-their-owners-home-i-e5628202.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "fecha_publicacion_iso": "2026-11-23T07:44:19+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-cisa-flags-critical-cisco-rce-flaw-as-actively-exploited-in-5d81d809.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/rocco-saviano-istituto-nazionale-tumori-int-hospital-microsegmentation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391802",
+      "fuente": "Help Net Security",
+      "titulo": "Yes, but securely: A cancer institute’s answer to shadow IT in research",
+      "fecha_publicacion_iso": "2026-11-23T07:00:33+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-yes-but-securely-a-cancer-institutes-answer-to-shadow-it-in-f38047c3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391625",
+      "fuente": "Help Net Security",
+      "titulo": "Xalgorix: Open-source AI penetration testing tool",
+      "fecha_publicacion_iso": "2026-11-23T06:30:08+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-xalgorix-open-source-ai-penetration-testing-tool-f62ca087.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391937",
+      "fuente": "Help Net Security",
+      "titulo": "Black Friday scams started earlier this year without the usual red flags",
+      "fecha_publicacion_iso": "2026-11-23T06:00:16+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-black-friday-scams-started-earlier-this-year-without-the-usu-6971a11a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391849",
+      "fuente": "Help Net Security",
+      "titulo": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
+      "fecha_publicacion_iso": "2026-11-23T05:30:49+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-cobit-7-adds-ai-risk-scenarios-to-isacas-governance-framewor-708dbfd3.html"
+    },
+    "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547": {
+      "guid": "https://www.theregister.com/a/5311547",
+      "fuente": "The Register - Security",
+      "titulo": "Google claims last week’s critical VMware bug was under attack in September",
+      "fecha_publicacion_iso": "2026-11-23T04:39:19+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-google-claims-last-weeks-critical-vmware-bug-was-under-attac-b62580d0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391953",
+      "fuente": "Help Net Security",
+      "titulo": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+      "fecha_publicacion_iso": "2026-11-23T00:27:25+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-googles-semantic-governance-policies-can-block-an-ai-agents-9b531e94.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532": {
+      "guid": "https://www.theregister.com/a/5311532",
+      "fuente": "The Register - Security",
+      "titulo": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
+      "fecha_publicacion_iso": "2026-11-23T00:23:31+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-1-of-gpt-5-1-tokens-finds-new-ways-around-chinas-great-firew-9a79a19b.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391950",
+      "fuente": "Help Net Security",
+      "titulo": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+      "fecha_publicacion_iso": "2026-11-22T23:05:09+00:00",
+      "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-debian-13-8-bundles-kernel-and-chromium-security-fixes-with-d9d2b8e7.html"
     }
   }
 }
