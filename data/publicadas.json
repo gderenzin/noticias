@@ -33543,6 +33543,494 @@
       "fecha_publicacion_iso": "2026-11-22T23:05:09+00:00",
       "fecha_agregada_iso": "2026-11-23T09:02:52.181380+00:00",
       "ruta_noticia": "/noticia/2026-11-23-debian-13-8-bundles-kernel-and-chromium-security-fixes-with-d9d2b8e7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "fuente": "BleepingComputer",
+      "titulo": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "fecha_publicacion_iso": "2026-11-23T20:54:51+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-south-koreas-power-giant-kepco-confirms-data-breach-impactin-f1397973.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+      "fuente": "Dark Reading",
+      "titulo": "US Cyber Director Pick Signals Shift Toward Expertise",
+      "fecha_publicacion_iso": "2026-11-23T20:13:48+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-us-cyber-director-pick-signals-shift-toward-expertise-c01f8c41.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "fecha_publicacion_iso": "2026-11-23T20:00:20+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-openrouter-drops-ai-providers-over-leaked-prompts-and-secret-ad3d2932.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "fecha_publicacion_iso": "2026-11-23T19:42:20+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-microsoft-azure-flaw-exploited-to-steal-customers-api-creden-53716c44.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748": {
+      "guid": "https://www.theregister.com/a/5311748",
+      "fuente": "The Register - Security",
+      "titulo": "Bluetooth brakes are broken as researchers find anyone can control them",
+      "fecha_publicacion_iso": "2026-11-23T19:29:59+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-bluetooth-brakes-are-broken-as-researchers-find-anyone-can-c-879adbc1.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "fuente": "BleepingComputer",
+      "titulo": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+      "fecha_publicacion_iso": "2026-11-23T18:38:40+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-spanish-laliga-confirms-hackers-stole-soccer-fans-personal-d-f714b482.html"
+    },
+    "https://cyberscoop.com/hektor-avdyli-kosovo-credit-card-fraud-extradition/": {
+      "guid": "https://cyberscoop.com/?p=91703",
+      "fuente": "CyberScoop",
+      "titulo": "Indicted Kosovo credit card theft suspect extradited to US",
+      "fecha_publicacion_iso": "2026-11-23T18:37:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-indicted-kosovo-credit-card-theft-suspect-extradited-to-us-1b6ff172.html"
+    },
+    "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems": {
+      "guid": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "fuente": "The Record",
+      "titulo": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "fecha_publicacion_iso": "2026-11-23T18:37:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-signal-blocks-screenshots-by-apple-google-operating-systems-6edcda57.html"
+    },
+    "https://therecord.media/fbi-cyberattack-data-breach": {
+      "guid": "https://therecord.media/fbi-cyberattack-data-breach",
+      "fuente": "The Record",
+      "titulo": "FBI reportedly facing second data breach involving National Crime Information Center",
+      "fecha_publicacion_iso": "2026-11-23T18:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-fbi-reportedly-facing-second-data-breach-involving-national-4ca5a6cc.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722": {
+      "guid": "https://www.theregister.com/a/5311722",
+      "fuente": "The Register - Security",
+      "titulo": "Critical Cisco remote code execution bug under attack",
+      "fecha_publicacion_iso": "2026-11-23T17:56:56+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-critical-cisco-remote-code-execution-bug-under-attack-3e0e8a60.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+      "fuente": "Dark Reading",
+      "titulo": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+      "fecha_publicacion_iso": "2026-11-23T17:45:52+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-behind-the-alias-how-one-researcher-unmasked-a-decade-of-ran-5e9db553.html"
+    },
+    "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html": {
+      "guid": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "fuente": "The Hacker News",
+      "titulo": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "fecha_publicacion_iso": "2026-11-23T17:45:15+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-webworm-suspected-of-modifying-softether-vpn-to-evade-detect-1ab128c4.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629": {
+      "guid": "https://www.theregister.com/a/5311629",
+      "fuente": "The Register - Security",
+      "titulo": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+      "fecha_publicacion_iso": "2026-11-23T17:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-bulgaria-evicts-cyber-snoops-who-lurked-inside-government-ne-150147ab.html"
+    },
+    "https://cyberscoop.com/kirsten-davies-jay-clayton-national-cyber-director/": {
+      "guid": "https://cyberscoop.com/?p=91700",
+      "fuente": "CyberScoop",
+      "titulo": "Kirsten Davies to become national cyber director nominee, Jay Clayton takes acting director job",
+      "fecha_publicacion_iso": "2026-11-23T16:59:03+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-kirsten-davies-to-become-national-cyber-director-nominee-jay-4cf6189c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "fuente": "BleepingComputer",
+      "titulo": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "fecha_publicacion_iso": "2026-11-23T16:50:01+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-globetopper-loses-2-5-million-after-hackers-steal-70k-in-gif-0af9a751.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+      "fuente": "Dark Reading",
+      "titulo": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+      "fecha_publicacion_iso": "2026-11-23T16:17:21+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-ai-agents-zip-from-flaw-discovery-to-root-access-in-11-minut-f1ad3429.html"
+    },
+    "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/": {
+      "guid": "https://www.securityweek.com/?p=51013",
+      "fuente": "SecurityWeek",
+      "titulo": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+      "fecha_publicacion_iso": "2026-11-23T15:47:40+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-azure-flaw-exploited-to-target-secrets-at-norwegian-energy-f-e101d52c.html"
+    },
+    "https://therecord.media/norway-microsoft-cyberattack-equinor": {
+      "guid": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+      "fuente": "The Record",
+      "titulo": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+      "fecha_publicacion_iso": "2026-11-23T15:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-norway-says-hackers-exploited-microsoft-security-flaw-to-att-bcc6ff74.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/la-botnet-badbox-regresa-con-una-cifra.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-825936200151552389",
+      "fuente": "Segu-Info",
+      "titulo": "La botnet BADBOX regresa con una cifra récord de 40.000 millones de solicitudes publicitarias diarias",
+      "fecha_publicacion_iso": "2026-11-23T15:11:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-la-botnet-badbox-regresa-con-una-cifra-record-de-40-000-mill-c8884f24.html"
+    },
+    "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html": {
+      "guid": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "fuente": "The Hacker News",
+      "titulo": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "fecha_publicacion_iso": "2026-11-23T15:10:48+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-weekly-recap-vmware-0-day-java4shell-nginx2root-ruby2shell-a-ca0d1bde.html"
+    },
+    "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=51010",
+      "fuente": "SecurityWeek",
+      "titulo": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "fecha_publicacion_iso": "2026-11-23T15:06:49+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-n-able-patches-critical-flaw-disclosed-after-mail-assure-cyb-ed11d95a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "fuente": "BleepingComputer",
+      "titulo": "AI Agents Are Creating a Shared Responsibility Gap",
+      "fecha_publicacion_iso": "2026-11-23T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-ai-agents-are-creating-a-shared-responsibility-gap-594a8d6f.html"
+    },
+    "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458": {
+      "guid": "https://www.theregister.com/a/5311458",
+      "fuente": "The Register - Security",
+      "titulo": "Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier",
+      "fecha_publicacion_iso": "2026-11-23T14:04:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-everything-going-down-at-once-wasn-t-evidence-of-a-conspirac-82853628.html"
+    },
+    "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/": {
+      "guid": "https://www.securityweek.com/?p=51007",
+      "fuente": "SecurityWeek",
+      "titulo": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+      "fecha_publicacion_iso": "2026-11-23T13:58:07+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-phpaftershell-vulnerability-revives-php2shells-attack-path-f88275a5.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "fecha_publicacion_iso": "2026-11-23T13:28:45+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-4be13f59.html"
+    },
+    "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html": {
+      "guid": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "fuente": "The Hacker News",
+      "titulo": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "fecha_publicacion_iso": "2026-11-23T13:22:20+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-critical-binary-parser-flaw-enables-javascript-injection-via-cb673b12.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "fecha_publicacion_iso": "2026-11-23T12:41:04+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploit-critical-screenconnect-flaw-to-hijack-msp-te-33d65726.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598": {
+      "guid": "https://www.theregister.com/a/5311598",
+      "fuente": "The Register - Security",
+      "titulo": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+      "fecha_publicacion_iso": "2026-11-23T12:29:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-norway-links-energy-firm-cyberattacks-to-critical-azure-api-9d236933.html"
+    },
+    "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html": {
+      "guid": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "fuente": "The Hacker News",
+      "titulo": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "fecha_publicacion_iso": "2026-11-23T12:28:09+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-n-able-discloses-critical-mail-assure-vulnerability-found-du-759d50b4.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392032",
+      "fuente": "Help Net Security",
+      "titulo": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+      "fecha_publicacion_iso": "2026-11-23T12:26:10+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-cisco-expressway-vulnerability-exploited-to-breach-internal-d77f865b.html"
+    },
+    "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/": {
+      "guid": "https://www.securityweek.com/?p=51003",
+      "fuente": "SecurityWeek",
+      "titulo": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "fecha_publicacion_iso": "2026-11-23T12:16:20+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-ai-inference-providers-failed-to-detect-hacking-and-prompt-t-17e792ab.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/vulnerabilidad-en-la-api-de-microsoft.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-2387154849279091754",
+      "fuente": "Segu-Info",
+      "titulo": "Vulnerabilidad en la API de Microsoft Entra Connect Health, ya corregida",
+      "fecha_publicacion_iso": "2026-11-23T12:10:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-vulnerabilidad-en-la-api-de-microsoft-entra-connect-health-y-efa49eef.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "fuente": "BleepingComputer",
+      "titulo": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "fecha_publicacion_iso": "2026-11-23T12:02:23+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-call-center-operator-gets-8-years-for-helping-scam-30-000-am-f8665cc5.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573": {
+      "guid": "https://www.theregister.com/a/5311573",
+      "fuente": "The Register - Security",
+      "titulo": "Cleverbridge admits attackers stole customers' credit card and CVV numbers. Yep, you read that right",
+      "fecha_publicacion_iso": "2026-11-23T11:48:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-cleverbridge-admits-attackers-stole-customers-credit-card-an-86a9a6a5.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/",
+      "fuente": "Help Net Security",
+      "titulo": "Cleverbridge admits attackers stole customers' credit card and CVV numbers. Yep, you read that right",
+      "fecha_publicacion_iso": "2026-11-23T11:48:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-cleverbridge-admits-attackers-stole-customers-credit-card-an-86a9a6a5.html"
+    },
+    "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/": {
+      "guid": "https://www.securityweek.com/?p=51001",
+      "fuente": "SecurityWeek",
+      "titulo": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+      "fecha_publicacion_iso": "2026-11-23T11:44:18+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bi-c412b57f.html"
+    },
+    "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=50999",
+      "fuente": "SecurityWeek",
+      "titulo": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-23T11:35:15+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-sap-netweaver-cisco-expressway-flaws-exploited-in-attacks-bc11c30f.html"
+    },
+    "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/": {
+      "guid": "https://www.securityweek.com/?p=50996",
+      "fuente": "SecurityWeek",
+      "titulo": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "fecha_publicacion_iso": "2026-11-23T11:31:44+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-crowdstrike-to-acquire-zscaler-in-43-9-billion-deal-710e2668.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/",
+      "fuente": "Help Net Security",
+      "titulo": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "fecha_publicacion_iso": "2026-11-23T11:31:44+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-crowdstrike-to-acquire-zscaler-in-43-9-billion-deal-710e2668.html"
+    },
+    "https://cyberscoop.com/crowdstrike-to-acquire-zscaler/": {
+      "guid": "https://cyberscoop.com/crowdstrike-to-acquire-zscaler/",
+      "fuente": "CyberScoop",
+      "titulo": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "fecha_publicacion_iso": "2026-11-23T11:31:44+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-crowdstrike-to-acquire-zscaler-in-43-9-billion-deal-710e2668.html"
+    },
+    "https://therecord.media/crowdstrike-zscaler": {
+      "guid": "https://therecord.media/crowdstrike-zscaler",
+      "fuente": "The Record",
+      "titulo": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "fecha_publicacion_iso": "2026-11-23T11:31:44+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-crowdstrike-to-acquire-zscaler-in-43-9-billion-deal-710e2668.html"
+    },
+    "https://cyberscoop.com/finding-software-vulnerability-with-ai-wordpress-patchstack/": {
+      "guid": "https://cyberscoop.com/?p=91669",
+      "fuente": "CyberScoop",
+      "titulo": "I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.",
+      "fecha_publicacion_iso": "2026-11-23T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-ive-never-hunted-for-a-software-vulnerability-before-ai-help-f1ae0c7f.html"
+    },
+    "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/": {
+      "guid": "6b00a370dedf491d3bbcb843",
+      "fuente": "Wired - Security",
+      "titulo": "States Sue SpaceX Over Grok Deepfakes",
+      "fecha_publicacion_iso": "2026-11-23T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-states-sue-spacex-over-grok-deepfakes-c82dcfbd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/cairn-ai-agents-autonomous-attacks/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392017",
+      "fuente": "Help Net Security",
+      "titulo": "Open-source AI pentesting framework Cairn keeps turning up in real-world attacks",
+      "fecha_publicacion_iso": "2026-11-23T10:49:38+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-open-source-ai-pentesting-framework-cairn-keeps-turning-up-i-ade3122c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392000",
+      "fuente": "Help Net Security",
+      "titulo": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+      "fecha_publicacion_iso": "2026-11-23T10:34:01+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-attackers-exploited-microsoft-entra-connect-health-flaw-to-a-1e1c6072.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-11-23T09:11:56+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploit-critical-asp-net-anti-csrf-library-flaw-allo-31afdc96.html"
+    },
+    "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/": {
+      "guid": "https://cyberscoop.com/wpide-csrf-vulnerability-cve-2026-124251/",
+      "fuente": "CyberScoop",
+      "titulo": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "fecha_publicacion_iso": "2026-11-23T09:11:56+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploit-critical-asp-net-anti-csrf-library-flaw-allo-31afdc96.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "fecha_publicacion_iso": "2026-11-23T09:11:15+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-microsoft-confirms-windows-printing-issues-affecting-forcepo-d0dd2916.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "fecha_publicacion_iso": "2026-11-23T09:04:08+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploited-gl-inet-cloud-flaw-to-install-malware-on-r-791422e9.html"
+    },
+    "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/": {
+      "guid": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "fuente": "SecurityWeek",
+      "titulo": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "fecha_publicacion_iso": "2026-11-23T09:04:08+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploited-gl-inet-cloud-flaw-to-install-malware-on-r-791422e9.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+      "fuente": "Help Net Security",
+      "titulo": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "fecha_publicacion_iso": "2026-11-23T09:04:08+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-hackers-exploited-gl-inet-cloud-flaw-to-install-malware-on-r-791422e9.html"
+    },
+    "https://www.edpb.europa.eu/news/norwegian-dpa-fines-private-individual-for-credit-check-and-publication-of-personal-data_en": {
+      "guid": "797674bc-f0cc-4ed1-8bd1-0c16baa42bc8",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Norwegian DPA fines private individual for credit check and publication of personal data without a lawful basis",
+      "fecha_publicacion_iso": "2026-11-19T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-norwegian-dpa-fines-private-individual-for-credit-check-and-6e320c73.html"
+    },
+    "https://www.edpb.europa.eu/news/edpb-and-dpas-from-countries-and-organisation-with-eu-adequacy-decision-take-stock-of-progress_en": {
+      "guid": "dd0bc6ba-200c-4428-b218-86fb61a6eaba",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "EDPB and DPAs from countries and organisation with EU adequacy decision take stock of progress and set 2027 priorities",
+      "fecha_publicacion_iso": "2026-11-19T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-edpb-and-dpas-from-countries-and-organisation-with-eu-adequa-cbff67bb.html"
+    },
+    "https://www.edpb.europa.eu/news/the-norwegian-data-protection-authority-fines-social-garden-as-for-publishing-personal-data_en": {
+      "guid": "84c1af1e-ead3-47e6-bf74-f5a004a68b8d",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "The Norwegian Data Protection Authority fines Social Garden AS for publishing personal data without a lawful basis",
+      "fecha_publicacion_iso": "2026-11-19T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-the-norwegian-data-protection-authority-fines-social-garden-22caeb07.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-a-company-eur-25-500-over-employee-access-rights-and-corporate-email_en": {
+      "guid": "4b591fcb-16bc-4ce9-be0e-317acc78e210",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines a company EUR 25 500 over employee access rights and corporate email accounts",
+      "fecha_publicacion_iso": "2026-11-18T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-italian-dpa-fines-a-company-eur-25-500-over-employee-access-2716ce3d.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en": {
+      "guid": "5e29a28b-b517-43be-b617-0c78c64ab0c5",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines Meta EUR 805 million for unlawful access to Facebook users’ photo galleries",
+      "fecha_publicacion_iso": "2026-11-18T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-italian-dpa-fines-meta-eur-805-million-for-unlawful-access-t-99834fa4.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-radiology-centre-and-it-provider-a-combined-eur-28-000-for-exposing-patient_en": {
+      "guid": "cbaa893d-5594-4fdc-9ba0-84bc73d39a4c",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines radiology centre and IT provider a combined  EUR 28 000 for exposing patient health data",
+      "fecha_publicacion_iso": "2026-11-18T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-italian-dpa-fines-radiology-centre-and-it-provider-a-combine-b185f590.html"
+    },
+    "https://www.edpb.europa.eu/news/italian-dpa-fines-business-school-eur-8-000-for-unlawful-telemarketing-and-failure-to-handle_en": {
+      "guid": "79981e4e-8718-49d5-bb6a-ffc509e1c317",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Italian DPA fines Business School EUR 8 000 for unlawful telemarketing and failure to handle data subject request",
+      "fecha_publicacion_iso": "2026-11-18T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-italian-dpa-fines-business-school-eur-8-000-for-unlawful-tel-90375370.html"
+    },
+    "https://www.edpb.europa.eu/news/irish-data-protection-commission-fines-mtch-eur-11-million-following-inquiry-into-tinder-users_en": {
+      "guid": "b122b314-4a5a-4d48-aa45-085b84f43efa",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Irish Data Protection Commission fines MTCH EUR 11 million following Inquiry into Tinder users’ personal data requests",
+      "fecha_publicacion_iso": "2026-11-17T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-irish-data-protection-commission-fines-mtch-eur-11-million-f-65e9cbdf.html"
+    },
+    "https://www.edpb.europa.eu/news/edpb-supports-use-of-other-models-of-contractual-clauses-for-onward-transfers-of-personal-data_en": {
+      "guid": "582e8fe0-77da-4aff-9412-ae4f9d150a97",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "EDPB supports use of other models of contractual clauses for onward transfers of personal data",
+      "fecha_publicacion_iso": "2026-11-13T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-edpb-supports-use-of-other-models-of-contractual-clauses-for-48dbd3a8.html"
+    },
+    "https://www.edpb.europa.eu/news/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr_en": {
+      "guid": "1165701c-a7ae-4619-8cb4-f88f5bad6af6",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action",
+      "fecha_publicacion_iso": "2026-11-11T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
+      "ruta_noticia": "/noticia/2026-11-23-edpb-adopts-statement-on-review-of-the-republic-of-korea-ade-898dc5ae.html"
     }
   }
 }
