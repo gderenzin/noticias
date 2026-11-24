@@ -34303,6 +34303,414 @@
       "fecha_publicacion_iso": "2026-11-20T11:45:58+00:00",
       "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
       "ruta_noticia": "/noticia/2026-11-24-el-adjunto-de-la-aepd-francisco-perez-bes-elegido-miembro-de-24011509.html"
+    },
+    "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem": {
+      "guid": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "fuente": "Dark Reading",
+      "titulo": "Satellites Have a Ground-Level Cybersecurity Problem",
+      "fecha_publicacion_iso": "2026-11-24T22:05:34+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-satellites-have-a-ground-level-cybersecurity-problem-6a621893.html"
+    },
+    "https://cyberscoop.com/cia-odni-osint-data-breach/": {
+      "guid": "https://cyberscoop.com/?p=91731",
+      "fuente": "CyberScoop",
+      "titulo": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "fecha_publicacion_iso": "2026-11-24T22:01:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-unclassified-intel-system-hit-by-hackers-affecting-cia-odni-f52a7473.html"
+    },
+    "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/": {
+      "guid": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "fuente": "SecurityWeek",
+      "titulo": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "fecha_publicacion_iso": "2026-11-24T22:01:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-unclassified-intel-system-hit-by-hackers-affecting-cia-odni-f52a7473.html"
+    },
+    "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn": {
+      "guid": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "fuente": "Dark Reading",
+      "titulo": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+      "fecha_publicacion_iso": "2026-11-24T21:48:06+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-webworm-apt-slithers-into-networks-with-customized-softether-7f8f5938.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "Rackspace shuts down Spot cloud platform after security breach",
+      "fecha_publicacion_iso": "2026-11-24T21:37:30+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-rackspace-shuts-down-spot-cloud-platform-after-security-brea-6c270107.html"
+    },
+    "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc": {
+      "guid": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+      "fuente": "Dark Reading",
+      "titulo": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+      "fecha_publicacion_iso": "2026-11-24T21:36:11+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-god-mode-flaws-could-wreak-border-control-havoc-3b8d0a7e.html"
+    },
+    "https://therecord.media/mycolorado-app-down-data-breach": {
+      "guid": "https://therecord.media/mycolorado-app-down-data-breach",
+      "fuente": "The Record",
+      "titulo": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+      "fecha_publicacion_iso": "2026-11-24T20:52:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-colorado-says-cyberattack-took-down-mycolorado-app-warns-150-2f99e3ac.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Inception extortion gang launches large-scale vishing campaign",
+      "fecha_publicacion_iso": "2026-11-24T20:21:20+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-new-inception-extortion-gang-launches-large-scale-vishing-ca-0bc0f969.html"
+    },
+    "https://therecord.media/california-privacy-agency-kemp": {
+      "guid": "https://therecord.media/california-privacy-agency-kemp",
+      "fuente": "The Record",
+      "titulo": "California privacy agency director Kemp to leave after two-year tenure",
+      "fecha_publicacion_iso": "2026-11-24T19:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-california-privacy-agency-director-kemp-to-leave-after-two-y-8a279dc6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "fuente": "BleepingComputer",
+      "titulo": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "fecha_publicacion_iso": "2026-11-24T18:59:52+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-turnitin-discloses-cyberattack-affecting-customer-facing-sys-5f76ac4f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "fuente": "BleepingComputer",
+      "titulo": "Radware discloses breach exposing customer cloud access keys",
+      "fecha_publicacion_iso": "2026-11-24T17:49:05+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-radware-discloses-breach-exposing-customer-cloud-access-keys-adb18ca6.html"
+    },
+    "https://therecord.media/idscan-data-breach-warning-congressional-letter": {
+      "guid": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+      "fuente": "The Record",
+      "titulo": "Lawmakers warn ID verification companies to bolster security after September hack",
+      "fecha_publicacion_iso": "2026-11-24T17:49:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-lawmakers-warn-id-verification-companies-to-bolster-security-2db8a639.html"
+    },
+    "https://cyberscoop.com/kash-patel-fbi-ncic-database-hack/": {
+      "guid": "https://cyberscoop.com/?p=91725",
+      "fuente": "CyberScoop",
+      "titulo": "Patel mum on FBI crime info database hack, citing ongoing investigation",
+      "fecha_publicacion_iso": "2026-11-24T17:48:34+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-patel-mum-on-fbi-crime-info-database-hack-citing-ongoing-inv-c4d26819.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/shirudo-herramienta-para-bloquear.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-213595125703461393",
+      "fuente": "Segu-Info",
+      "titulo": "Shirudo: herramienta para bloquear exploits específicos en servidores Linux",
+      "fecha_publicacion_iso": "2026-11-24T17:29:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-shirudo-herramienta-para-bloquear-exploits-especificos-en-se-d199c52c.html"
+    },
+    "https://cyberscoop.com/uk-ncsc-ai-assisted-cyberattacks/": {
+      "guid": "https://cyberscoop.com/?p=91720",
+      "fuente": "CyberScoop",
+      "titulo": "UK cyber agency, threat companies tracking rise in AI-assisted hacks",
+      "fecha_publicacion_iso": "2026-11-24T17:27:09+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-uk-cyber-agency-threat-companies-tracking-rise-in-ai-assiste-93821c2a.html"
+    },
+    "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922": {
+      "guid": "https://www.theregister.com/a/5311922",
+      "fuente": "The Register - Security",
+      "titulo": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
+      "fecha_publicacion_iso": "2026-11-24T17:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financia-f6e8b2ad.html"
+    },
+    "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html": {
+      "guid": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "fuente": "The Hacker News",
+      "titulo": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "fecha_publicacion_iso": "2026-11-24T16:54:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-iran-aligned-volant-manticore-uses-ipfs-based-kuboshell-back-6b48789d.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers compromise Check Point Servers in 22 organizations",
+      "fecha_publicacion_iso": "2026-11-24T16:15:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-hackers-compromise-check-point-servers-in-22-organizations-5ba708d9.html"
+    },
+    "https://therecord.media/carnegie-endowment-data-breach": {
+      "guid": "https://therecord.media/carnegie-endowment-data-breach",
+      "fuente": "The Record",
+      "titulo": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+      "fecha_publicacion_iso": "2026-11-24T16:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-carnegie-endowment-for-international-peace-says-third-party-076062d7.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "fuente": "BleepingComputer",
+      "titulo": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "fecha_publicacion_iso": "2026-11-24T15:10:10+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-police-disrupt-57-illegal-streaming-services-with-7-3-millio-1f75de46.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+      "fuente": "BleepingComputer",
+      "titulo": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+      "fecha_publicacion_iso": "2026-11-24T15:01:11+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-from-vulnerability-noise-to-resilience-rethinking-security-i-a903b208.html"
+    },
+    "https://therecord.media/cisa-nable-cybersecurity-bug": {
+      "guid": "https://therecord.media/cisa-nable-cybersecurity-bug",
+      "fuente": "The Record",
+      "titulo": "CISA warns of exploited N-able bug as company restores email platform",
+      "fecha_publicacion_iso": "2026-11-24T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-cisa-warns-of-exploited-n-able-bug-as-company-restores-email-8476cf37.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/cloudera-digital-sovereignty/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392225",
+      "fuente": "Help Net Security",
+      "titulo": "Cloudera helps enterprises deploy sovereign AI without proprietary lock-in",
+      "fecha_publicacion_iso": "2026-11-24T14:33:35+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-cloudera-helps-enterprises-deploy-sovereign-ai-without-propr-5fb0c92e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/astelia-autonomous-network-mitigation/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392219",
+      "fuente": "Help Net Security",
+      "titulo": "Astelia blocks attack paths to vulnerabilities without waiting for patches",
+      "fecha_publicacion_iso": "2026-11-24T14:24:11+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-astelia-blocks-attack-paths-to-vulnerabilities-without-waiti-ecb734b1.html"
+    },
+    "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/": {
+      "guid": "https://www.securityweek.com/?p=51040",
+      "fuente": "SecurityWeek",
+      "titulo": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "fecha_publicacion_iso": "2026-11-24T14:21:56+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-check-point-security-management-servers-hacked-in-ai-assiste-22bf6552.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+      "fuente": "BleepingComputer",
+      "titulo": "McDonald's Japan data breach exposes customer location information",
+      "fecha_publicacion_iso": "2026-11-24T14:09:37+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-mcdonald-s-japan-data-breach-exposes-customer-location-infor-230a967c.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392202",
+      "fuente": "Help Net Security",
+      "titulo": "GTA 6 hacker sentenced to seven years and released the same day",
+      "fecha_publicacion_iso": "2026-11-24T13:35:37+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-gta-6-hacker-sentenced-to-seven-years-and-released-the-same-78138acb.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+      "fecha_publicacion_iso": "2026-11-24T13:34:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-f-e94ac3e9.html"
+    },
+    "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/": {
+      "guid": "https://www.securityweek.com/?p=51031",
+      "fuente": "SecurityWeek",
+      "titulo": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "fecha_publicacion_iso": "2026-11-24T13:30:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-anthropic-expands-enterprise-safeguards-for-detecting-ai-mis-a6ac99d6.html"
+    },
+    "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html": {
+      "guid": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "fuente": "The Hacker News",
+      "titulo": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "fecha_publicacion_iso": "2026-11-24T13:28:26+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-vmware-vcenter-hit-by-another-critical-9-8-rated-auth-bypass-db22ce6b.html"
+    },
+    "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/": {
+      "guid": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "fuente": "SecurityWeek",
+      "titulo": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "fecha_publicacion_iso": "2026-11-24T13:28:26+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-vmware-vcenter-hit-by-another-critical-9-8-rated-auth-bypass-db22ce6b.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/explotan-una-vulnerabilidad-critica-en.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-3224968251526141385",
+      "fuente": "Segu-Info",
+      "titulo": "Explotan una vulnerabilidad crítica en biblioteca Anti-CSRF de ASP.NET, permite RCE sin autenticación",
+      "fecha_publicacion_iso": "2026-11-24T13:06:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-explotan-una-vulnerabilidad-critica-en-biblioteca-anti-csrf-b87f0132.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-celebra-primera-jornada-con-espacio-propio-jornadas-stic": {
+      "guid": "80efc79a-6bb1-410e-aadc-4ec220f1d66a",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos",
+      "fecha_publicacion_iso": "2026-11-24T13:03:13+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-la-aepd-celebra-su-primera-jornada-con-espacio-propio-en-las-d4659122.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392153",
+      "fuente": "Help Net Security",
+      "titulo": "ShinyHunters-linked crew resurfaces on new leak site",
+      "fecha_publicacion_iso": "2026-11-24T12:47:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-shinyhunters-linked-crew-resurfaces-on-new-leak-site-88747994.html"
+    },
+    "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html": {
+      "guid": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "fuente": "The Hacker News",
+      "titulo": "ShinyHunters-linked crew resurfaces on new leak site",
+      "fecha_publicacion_iso": "2026-11-24T12:47:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-shinyhunters-linked-crew-resurfaces-on-new-leak-site-88747994.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "fuente": "BleepingComputer",
+      "titulo": "ShinyHunters-linked crew resurfaces on new leak site",
+      "fecha_publicacion_iso": "2026-11-24T12:47:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-shinyhunters-linked-crew-resurfaces-on-new-leak-site-88747994.html"
+    },
+    "https://www.theregister.com/security/2026/11/24/we-are-not-shinyhunters-says-criminal-hacking-crew-that-looks-and-acts-just-like-shinyhunters/5311978": {
+      "guid": "https://www.theregister.com/security/2026/11/24/we-are-not-shinyhunters-says-criminal-hacking-crew-that-looks-and-acts-just-like-shinyhunters/5311978",
+      "fuente": "The Register - Security",
+      "titulo": "ShinyHunters-linked crew resurfaces on new leak site",
+      "fecha_publicacion_iso": "2026-11-24T12:47:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-shinyhunters-linked-crew-resurfaces-on-new-leak-site-88747994.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/bedrock-data-agent-dlp/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392177",
+      "fuente": "Help Net Security",
+      "titulo": "Bedrock Data enhances AI agent governance with intent-aware DLP",
+      "fecha_publicacion_iso": "2026-11-24T12:34:02+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-bedrock-data-enhances-ai-agent-governance-with-intent-aware-ca1277f0.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/elastic-security-9-6-features/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392157",
+      "fuente": "Help Net Security",
+      "titulo": "Elastic puts AI agents to work on the SOC alert backlog",
+      "fecha_publicacion_iso": "2026-11-24T12:27:45+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-elastic-puts-ai-agents-to-work-on-the-soc-alert-backlog-c717d04d.html"
+    },
+    "https://www.theregister.com/security/2026/11/24/crowdstrike-splashes-44b-on-zscaler-customers-brace-for-the-bill/5311877": {
+      "guid": "https://www.theregister.com/a/5311877",
+      "fuente": "The Register - Security",
+      "titulo": "CrowdStrike splashes $44B on Zscaler, customers brace for the bill",
+      "fecha_publicacion_iso": "2026-11-24T12:22:17+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-crowdstrike-splashes-44b-on-zscaler-customers-brace-for-the-ba152944.html"
+    },
+    "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/": {
+      "guid": "https://www.securityweek.com/?p=51029",
+      "fuente": "SecurityWeek",
+      "titulo": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "fecha_publicacion_iso": "2026-11-24T12:20:41+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-openai-cisco-unveil-open-source-tool-to-shield-unpatched-lin-70ffa0cf.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392172",
+      "fuente": "Help Net Security",
+      "titulo": "Azure API Management vulnerability exploited to steal customers’ secrets",
+      "fecha_publicacion_iso": "2026-11-24T12:04:37+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-azure-api-management-vulnerability-exploited-to-steal-custom-bd2130a7.html"
+    },
+    "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html": {
+      "guid": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "fuente": "The Hacker News",
+      "titulo": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "fecha_publicacion_iso": "2026-11-24T12:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-google-researcher-shows-how-a-single-bit-change-in-net-files-bb2efaa9.html"
+    },
+    "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html": {
+      "guid": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "fuente": "The Hacker News",
+      "titulo": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "fecha_publicacion_iso": "2026-11-24T12:01:54+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-2027-soc-budget-reset-5-priorities-to-cut-costs-and-reduce-c-bb2aa84b.html"
+    },
+    "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/": {
+      "guid": "https://www.securityweek.com/?p=51027",
+      "fuente": "SecurityWeek",
+      "titulo": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+      "fecha_publicacion_iso": "2026-11-24T11:50:21+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-1-5-million-impacted-by-data-breach-at-south-korean-electric-f3a43b39.html"
+    },
+    "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834": {
+      "guid": "https://www.theregister.com/a/5311834",
+      "fuente": "The Register - Security",
+      "titulo": "European Commission confirms personal data stolen in AI-assisted cyberattack",
+      "fecha_publicacion_iso": "2026-11-24T11:32:41+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-european-commission-confirms-personal-data-stolen-in-ai-assi-b4a96905.html"
+    },
+    "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/": {
+      "guid": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "fuente": "SecurityWeek",
+      "titulo": "European Commission confirms personal data stolen in AI-assisted cyberattack",
+      "fecha_publicacion_iso": "2026-11-24T11:32:41+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-european-commission-confirms-personal-data-stolen-in-ai-assi-b4a96905.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "European Commission confirms personal data stolen in AI-assisted cyberattack",
+      "fecha_publicacion_iso": "2026-11-24T11:32:41+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-european-commission-confirms-personal-data-stolen-in-ai-assi-b4a96905.html"
+    },
+    "https://cyberscoop.com/ot-security-post-quantum-cryptography-op-ed/": {
+      "guid": "https://cyberscoop.com/?p=91707",
+      "fuente": "CyberScoop",
+      "titulo": "Tomorrow’s quantum threat is today’s open door",
+      "fecha_publicacion_iso": "2026-11-24T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-tomorrows-quantum-threat-is-todays-open-door-a36fd360.html"
+    },
+    "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online/": {
+      "guid": "6b008649d1264ea744d12ee1",
+      "fuente": "Wired - Security",
+      "titulo": "Database Leaks Expose 3.5 Billion Usernames, Passwords, and Documents",
+      "fecha_publicacion_iso": "2026-11-24T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-database-leaks-expose-3-5-billion-usernames-passwords-and-do-4625e961.html"
+    },
+    "http://www.elladodelmal.com/2026/11/hardening-ia-como-desplegar-modelos-e.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-2044196485743931482",
+      "fuente": "El Lado del Mal",
+      "titulo": "Hardening IA: Cómo desplegar modelos e infraestructura de Inteligencia Artificial fortificados",
+      "fecha_publicacion_iso": "2026-11-24T08:45:42+00:00",
+      "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-hardening-ia-como-desplegar-modelos-e-infraestructura-de-int-de87f657.html"
     }
   }
 }

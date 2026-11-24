@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos",
+    "fuente": "AEPD (España) - Notas de prensa",
+    "idioma": "es",
+    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
+    "dominio_fuente": "aepd.es",
+    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-celebra-primera-jornada-con-espacio-propio-jornadas-stic",
+    "guid": "80efc79a-6bb1-410e-aadc-4ec220f1d66a",
+    "fecha_publicacion_iso": "2026-11-24T13:03:13+00:00",
+    "fecha_publicacion_original": "Tue, 24 Nov 2026 14:03:13 +0100",
+    "extracto_original": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos AEPD Mar, 24/11/2026 El presidente de la Agencia, Lorenzo Cotino, ha puesto en valor el trabajo de la AEPD en inteligencia artificial como primera institución del sector público en lanzar e implementar una política de IA El adjunto, Francisco Pérez Bes, ha recordado que, cuando un incidente compromete información personal, también están en juego los derechos y las libertades de las personas La Agencia ha compartido con las asociaciones profesionales reflexiones sobre el nuevo ‘Estatuto del delegado de protección de datos’",
+    "contenido_ampliado": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos AEPD Mar, 24/11/2026 El presidente de la Agencia, Lorenzo Cotino, ha puesto en valor el trabajo de la AEPD en inteligencia artificial como primera institución del sector público en lanzar e implementar una política de IA El adjunto, Francisco Pérez Bes, ha recordado que, cuando un incidente compromete información personal, también están en juego los derechos y las libertades de las personas La Agencia ha compartido con las asociaciones profesionales reflexiones sobre el nuevo ‘Estatuto del delegado de protección de datos’…",
+    "imagen_url": null,
+    "categoria": "proteccion_datos",
+    "imagen_local": "/imagenes/2026-11-24/card_6655477fc6.jpg",
+    "resumen_ia": null,
+    "resumen_ia_ok": false,
+    "imagen_es_generica": true,
+    "ruta_noticia": "/noticia/2026-11-24-la-aepd-celebra-su-primera-jornada-con-espacio-propio-en-las-d4659122.html"
+  },
+  {
     "titulo": "El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos",
     "fuente": "AEPD (España) - Notas de prensa",
     "idioma": "es",
@@ -375,25 +395,5 @@
     "resumen_ia_ok": true,
     "imagen_es_generica": true,
     "ruta_noticia": "/noticia/2026-11-05-la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos-publi-249801bb.html"
-  },
-  {
-    "titulo": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves",
-    "fuente": "AEPD (España) - Notas de prensa",
-    "idioma": "es",
-    "url_fuente_feed": "https://www.aepd.es/noticias/feed.xml",
-    "dominio_fuente": "aepd.es",
-    "enlace": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves",
-    "guid": "391bd365-9c81-4ffa-b8b9-fcfa4c54788d",
-    "fecha_publicacion_iso": "2026-11-04T11:30:35+00:00",
-    "fecha_publicacion_original": "Wed, 04 Nov 2026 12:30:35 +0100",
-    "extracto_original": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con la Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace",
-    "contenido_ampliado": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con la Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace…",
-    "imagen_url": null,
-    "categoria": "proteccion_datos",
-    "imagen_local": "/imagenes/2026-11-04/card_ccf5dfb5d2.jpg",
-    "resumen_ia": "La Agencia Española de Protección de Datos va a transmitir el segundo capítulo de su espacio audiovisual centrado en tecnologías disruptivas y privacidad, titulado en esta ocasión sobre la transparencia de los algoritmos. El evento consistirá en una charla entre el máximo responsable de la Agencia y una experta en derecho y acceso a la información pública, la cual podrá visualizarse por medio de internet.\n\nDurante el coloquio se examinará de qué manera se asegura que las decisiones automatizadas y los sistemas de inteligencia artificial resulten comprensibles, permitiendo además la rendición de cuentas y el control sobre los mismos. Asimismo, se tratarán asuntos como la importancia de esta transparencia para salvaguardar los derechos ciudadanos, los límites y alcances del derecho de acceso a la información en relación con estas herramientas, y las exigencias de explicación y lógica en las decisiones automatizadas según la normativa europea.\n\nEl programa también contemplará las obligaciones estipuladas por la normativa europea sobre inteligencia artificial y su vinculación con la protección de datos, además de mencionar instrumentos prácticos como los repertorios públicos de algoritmos. Quienes participen en la transmisión tendrán la oportunidad de plantear dudas a través de un chat, cuyas respuestas seleccionadas serán atendidas al concluir la sesión por parte de la invitada.",
-    "resumen_ia_ok": true,
-    "imagen_es_generica": true,
-    "ruta_noticia": "/noticia/2026-11-04-como-decide-un-algoritmo-te-invitamos-a-conectarte-en-direct-db41610f.html"
   }
 ]
