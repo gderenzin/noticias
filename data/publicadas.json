@@ -34031,6 +34031,278 @@
       "fecha_publicacion_iso": "2026-11-11T12:00:00+00:00",
       "fecha_agregada_iso": "2026-11-23T21:27:47.286516+00:00",
       "ruta_noticia": "/noticia/2026-11-23-edpb-adopts-statement-on-review-of-the-republic-of-korea-ade-898dc5ae.html"
+    },
+    "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html": {
+      "guid": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "fecha_publicacion_iso": "2026-11-24T10:44:49+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-microsoft-fixes-azure-api-management-classic-flaw-as-actor-t-9436fc5b.html"
+    },
+    "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/": {
+      "guid": "https://www.securityweek.com/?p=51025",
+      "fuente": "SecurityWeek",
+      "titulo": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+      "fecha_publicacion_iso": "2026-11-24T10:44:44+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forc-15b8b568.html"
+    },
+    "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/": {
+      "guid": "https://www.securityweek.com/?p=51022",
+      "fuente": "SecurityWeek",
+      "titulo": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+      "fecha_publicacion_iso": "2026-11-24T10:35:04+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-peninsula-energy-halts-trading-after-cyber-incident-hits-us-20534b25.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/inyeccion-sql-en-cabinpaq-de-don-hierro": {
+      "guid": "702889 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Inyección SQL en CabinPaq de Don Hierro",
+      "fecha_publicacion_iso": "2026-11-24T09:54:08+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-inyeccion-sql-en-cabinpaq-de-don-hierro-5b9d277d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392135",
+      "fuente": "Help Net Security",
+      "titulo": "GlobeTopper faces up to $2.5 million in lost revenue after hackers steal $70,000 in gift cards",
+      "fecha_publicacion_iso": "2026-11-24T09:33:33+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-globetopper-faces-up-to-2-5-million-in-lost-revenue-after-ha-8f5a5362.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/anthropic-claude-ship-beta/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392127",
+      "fuente": "Help Net Security",
+      "titulo": "Claude Ship gives AI a seat on both sides of code review",
+      "fecha_publicacion_iso": "2026-11-24T09:02:02+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-claude-ship-gives-ai-a-seat-on-both-sides-of-code-review-d0b87a53.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-vmware-tanzu-de-broadcom": {
+      "guid": "702888 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos VMware Tanzu de Broadcom",
+      "fecha_publicacion_iso": "2026-11-24T08:44:26+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-multiples-vulnerabilidades-en-productos-vmware-tanzu-de-broa-4d849c4b.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/condicion-de-carrera-en-la-gestion-de-sesiones-php-en-productos-de-cisco": {
+      "guid": "702886 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Condición de carrera en la gestión de sesiones PHP en productos de Cisco",
+      "fecha_publicacion_iso": "2026-11-24T08:44:25+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-condicion-de-carrera-en-la-gestion-de-sesiones-php-en-produc-ffd1fd71.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-el-portal-de-empleo-de-globaleduca": {
+      "guid": "702829 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en el portal de empleo de GlobalEduca",
+      "fecha_publicacion_iso": "2026-11-24T08:35:48+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-multiples-vulnerabilidades-en-el-portal-de-empleo-de-globale-60057fdb.html"
+    },
+    "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html": {
+      "guid": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "fuente": "The Hacker News",
+      "titulo": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "fecha_publicacion_iso": "2026-11-24T08:34:20+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-whmcs-sql-injection-could-expose-customer-data-and-admin-pas-06ddd1a6.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/chris-betz-google-agentic-ai-security/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391853",
+      "fuente": "Help Net Security",
+      "titulo": "Google Cloud CISO talks agentic AI security and the future of the SOC",
+      "fecha_publicacion_iso": "2026-11-24T07:00:16+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-google-cloud-ciso-talks-agentic-ai-security-and-the-future-o-d3052264.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392078",
+      "fuente": "Help Net Security",
+      "titulo": "Ransomware gangs keep multiplying, even as fewer victims pay",
+      "fecha_publicacion_iso": "2026-11-24T06:30:26+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-ransomware-gangs-keep-multiplying-even-as-fewer-victims-pay-0dcf600d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/aws-european-sovereign-cloud-details/": {
+      "guid": "https://www.helpnetsecurity.com/?p=390787",
+      "fuente": "Help Net Security",
+      "titulo": "AWS European Sovereign Cloud: Architecture, assurance, and compliance",
+      "fecha_publicacion_iso": "2026-11-24T06:15:37+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-aws-european-sovereign-cloud-architecture-assurance-and-comp-389c7e58.html"
+    },
+    "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html": {
+      "guid": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "fuente": "The Hacker News",
+      "titulo": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "fecha_publicacion_iso": "2026-11-24T06:02:57+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-openai-and-cisco-unveil-ai-assisted-linux-security-tool-to-b-a0a25e5e.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "fecha_publicacion_iso": "2026-11-24T06:02:45+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-hackers-exploit-n-able-mailassure-flaw-while-ai-agents-explo-14a00d82.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392110",
+      "fuente": "Help Net Security",
+      "titulo": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime",
+      "fecha_publicacion_iso": "2026-11-24T06:00:50+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-linux-patches-can-take-weeks-and-openai-and-cisco-built-shir-97186169.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/passwork-enterprise-password-management/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391987",
+      "fuente": "Help Net Security",
+      "titulo": "How IT can delegate password management without losing control",
+      "fecha_publicacion_iso": "2026-11-24T05:30:07+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-how-it-can-delegate-password-management-without-losing-contr-97b500d3.html"
+    },
+    "https://www.theregister.com/security/2026/11/24/orgs-that-leak-data-prioritize-corporate-interests-over-customers-says-have-i-been-pwneds-troy-hunt/5311802": {
+      "guid": "https://www.theregister.com/a/5311802",
+      "fuente": "The Register - Security",
+      "titulo": "Orgs that leak data 'prioritize corporate interests over customers' says Have I Been Pwned’s Troy Hunt",
+      "fecha_publicacion_iso": "2026-11-24T05:13:51+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-orgs-that-leak-data-prioritize-corporate-interests-over-cust-e3ea5f47.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/stalwart-microsoft-exchange-replacement/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392101",
+      "fuente": "Help Net Security",
+      "titulo": "Stalwart: Open-source Microsoft Exchange replacement",
+      "fecha_publicacion_iso": "2026-11-24T05:00:26+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-stalwart-open-source-microsoft-exchange-replacement-5d936f89.html"
+    },
+    "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795": {
+      "guid": "https://www.theregister.com/a/5311795",
+      "fuente": "The Register - Security",
+      "titulo": "Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse",
+      "fecha_publicacion_iso": "2026-11-24T01:46:56+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tam-a3dc1c3f.html"
+    },
+    "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident": {
+      "guid": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+      "fuente": "The Record",
+      "titulo": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+      "fecha_publicacion_iso": "2026-11-24T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-laliga-hacked-spains-top-football-league-confirms-theft-of-f-670f8cdb.html"
+    },
+    "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license": {
+      "guid": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+      "fuente": "The Record",
+      "titulo": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+      "fecha_publicacion_iso": "2026-11-24T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-grand-theft-auto-vi-hacker-sentenced-to-seven-years-released-3e9064fe.html"
+    },
+    "https://therecord.media/austrian-foreign-ministry-says-website-hacked": {
+      "guid": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+      "fuente": "The Record",
+      "titulo": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+      "fecha_publicacion_iso": "2026-11-24T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-hackers-breach-austrian-foreign-ministry-website-access-dipl-5e4209ae.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/24/cybersecurity-jobs-available-right-now-november-24-2026/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391999",
+      "fuente": "Help Net Security",
+      "titulo": "Cybersecurity jobs available right now: November 24, 2026",
+      "fecha_publicacion_iso": "2026-11-23T23:30:54+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-cybersecurity-jobs-available-right-now-november-24-2026-453252f9.html"
+    },
+    "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure": {
+      "guid": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+      "fuente": "Dark Reading",
+      "titulo": "Industrial Serial Gateways Broadcast That They're Insecure",
+      "fecha_publicacion_iso": "2026-11-23T22:02:46+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-industrial-serial-gateways-broadcast-that-they-re-insecure-6a57f5ed.html"
+    },
+    "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768": {
+      "guid": "https://www.theregister.com/a/5311768",
+      "fuente": "The Register - Security",
+      "titulo": "Inception - possibly a ShinyHunters reboot - claims seven victims in a week",
+      "fecha_publicacion_iso": "2026-11-23T21:52:23+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-inception-possibly-a-shinyhunters-reboot-claims-seven-victim-ef949789.html"
+    },
+    "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/": {
+      "guid": "https://cyberscoop.com/?p=91711",
+      "fuente": "CyberScoop",
+      "titulo": "Virginia, Oregon hit SpaceX with fresh lawsuits over Grok-created CSAM",
+      "fecha_publicacion_iso": "2026-11-23T21:32:33+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-virginia-oregon-hit-spacex-with-fresh-lawsuits-over-grok-cre-1e06e3bf.html"
+    },
+    "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal": {
+      "guid": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+      "fuente": "Dark Reading",
+      "titulo": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
+      "fecha_publicacion_iso": "2026-11-23T21:21:42+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-crowdstrike-makes-ai-security-push-with-blockbuster-zscaler-adc0fa14.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-fuera-de-limites-en-synchronet-bbs-de-synchronet": {
+      "guid": "702399 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura fuera de límites en Synchronet BBS de synchro.net",
+      "fecha_publicacion_iso": "2026-11-23T09:13:15+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-escritura-fuera-de-limites-en-synchronet-bbs-de-synchro-net-b7e25e93.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-synology-0": {
+      "guid": "702406 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Synology",
+      "fecha_publicacion_iso": "2026-11-23T08:46:43+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-multiples-vulnerabilidades-en-productos-de-synology-8e92547d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-el-nucleo-de-linux": {
+      "guid": "702404 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en el núcleo de Linux",
+      "fecha_publicacion_iso": "2026-11-23T08:46:41+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-multiples-vulnerabilidades-en-el-nucleo-de-linux-6356def3.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-palo-alto-networks": {
+      "guid": "702403 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Palo Alto Networks",
+      "fecha_publicacion_iso": "2026-11-23T08:46:40+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-multiples-vulnerabilidades-en-productos-de-palo-alto-network-7ad86913.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/desbordamiento-de-bufer-en-gitlab": {
+      "guid": "702402 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Desbordamiento de búfer en GitLab",
+      "fecha_publicacion_iso": "2026-11-23T08:46:39+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-desbordamiento-de-bufer-en-gitlab-fa5553b5.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/adjunto-de-aepd-francisco-perez-bes-elegido-miembro-mesa-convenio-108": {
+      "guid": "3d5cf9e4-2aab-4612-93eb-d16a3fe78efa",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos",
+      "fecha_publicacion_iso": "2026-11-20T11:45:58+00:00",
+      "fecha_agregada_iso": "2026-11-24T11:02:35.054823+00:00",
+      "ruta_noticia": "/noticia/2026-11-24-el-adjunto-de-la-aepd-francisco-perez-bes-elegido-miembro-de-24011509.html"
     }
   }
 }
