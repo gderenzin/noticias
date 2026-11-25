@@ -34711,6 +34711,158 @@
       "fecha_publicacion_iso": "2026-11-24T08:45:42+00:00",
       "fecha_agregada_iso": "2026-11-24T23:04:44.117037+00:00",
       "ruta_noticia": "/noticia/2026-11-24-hardening-ia-como-desplegar-modelos-e-infraestructura-de-int-de87f657.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392258",
+      "fuente": "Help Net Security",
+      "titulo": "Anthropic wants to catch rogue AI activity without retaining your data",
+      "fecha_publicacion_iso": "2026-11-25T09:20:14+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-anthropic-wants-to-catch-rogue-ai-activity-without-retaining-d503225d.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-la-plataforma-web-de-vorecol": {
+      "guid": "703714 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en la plataforma web de Vorecol",
+      "fecha_publicacion_iso": "2026-11-25T09:13:41+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-multiples-vulnerabilidades-en-la-plataforma-web-de-vorecol-4265c49c.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "fecha_publicacion_iso": "2026-11-25T09:06:59+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-hackers-exploited-cvss-10-0-hex-pm-rce-flaw-to-compromise-6-91662909.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft confirms authentication issues after November updates",
+      "fecha_publicacion_iso": "2026-11-25T09:02:57+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-microsoft-confirms-authentication-issues-after-november-upda-00f16364.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/illegal-iptv-disrupted-europol-crypto/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392251",
+      "fuente": "Help Net Security",
+      "titulo": "Police disrupt 57 illegal IPTV services and trace €26 million in crypto",
+      "fecha_publicacion_iso": "2026-11-25T08:59:36+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-police-disrupt-57-illegal-iptv-services-and-trace-26-million-7a838ed8.html"
+    },
+    "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/": {
+      "guid": "https://www.securityweek.com/?p=51051",
+      "fuente": "SecurityWeek",
+      "titulo": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "fecha_publicacion_iso": "2026-11-25T08:12:24+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-palo-alto-networks-patches-fragnesia-flaw-used-to-root-firew-6a20b92f.html"
+    },
+    "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=51049",
+      "fuente": "SecurityWeek",
+      "titulo": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-25T08:01:06+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks-f44f10d6.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers reportedly breached CIA intelligence analysis system",
+      "fecha_publicacion_iso": "2026-11-25T07:45:03+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-hackers-reportedly-breached-cia-intelligence-analysis-system-3bc6f96d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392245",
+      "fuente": "Help Net Security",
+      "titulo": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+      "fecha_publicacion_iso": "2026-11-25T07:22:32+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-exploited-abandoned-idunno-anticsrf-library-opens-legacy-asp-961cd313.html"
+    },
+    "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/": {
+      "guid": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "fuente": "SecurityWeek",
+      "titulo": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+      "fecha_publicacion_iso": "2026-11-25T07:22:32+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-exploited-abandoned-idunno-anticsrf-library-opens-legacy-asp-961cd313.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "fecha_publicacion_iso": "2026-11-25T06:50:19+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-hackers-compromise-24-check-point-management-servers-in-susp-be8229fa.html"
+    },
+    "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html": {
+      "guid": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "fuente": "The Hacker News",
+      "titulo": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "fecha_publicacion_iso": "2026-11-25T06:37:06+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-com-affiliated-hackers-hijack-cloud-accounts-via-vishing-for-7a5ea890.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392229",
+      "fuente": "Help Net Security",
+      "titulo": "Credential harvesting goes from fringe activity to major exploitation trend",
+      "fecha_publicacion_iso": "2026-11-25T06:30:47+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-credential-harvesting-goes-from-fringe-activity-to-major-exp-acb83eb8.html"
+    },
+    "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html": {
+      "guid": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "fuente": "The Hacker News",
+      "titulo": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "fecha_publicacion_iso": "2026-11-25T06:21:12+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-wordpress-blocks-six-backdoored-wp-connect-plugins-before-ma-d52512d7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/gputaskman-open-source-gpu-task-manager/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392058",
+      "fuente": "Help Net Security",
+      "titulo": "gputaskman: Open-source task manager for GPUs",
+      "fecha_publicacion_iso": "2026-11-25T06:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-gputaskman-open-source-task-manager-for-gpus-1dcff8c3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/isc2-systems-security-certified-practitioner-sscp-certification/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392131",
+      "fuente": "Help Net Security",
+      "titulo": "Security+ builds the foundation. SSCP proves you can execute",
+      "fecha_publicacion_iso": "2026-11-25T05:30:30+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-security-builds-the-foundation-sscp-proves-you-can-execute-033d307e.html"
+    },
+    "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017": {
+      "guid": "https://www.theregister.com/a/5312017",
+      "fuente": "The Register - Security",
+      "titulo": "This could mess with Thanksgiving, says VMware as it drops third critical patch bundle in a week",
+      "fecha_publicacion_iso": "2026-11-25T05:15:08+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-this-could-mess-with-thanksgiving-says-vmware-as-it-drops-th-5ac4f099.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392213",
+      "fuente": "Help Net Security",
+      "titulo": "Holiday scam losses force some victims to cut back on essentials",
+      "fecha_publicacion_iso": "2026-11-25T05:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-holiday-scam-losses-force-some-victims-to-cut-back-on-essent-0b94ce10.html"
+    },
+    "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/": {
+      "guid": "6b059b8f77321780ff17d2de",
+      "fuente": "Wired - Security",
+      "titulo": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+      "fecha_publicacion_iso": "2026-11-24T23:39:04+00:00",
+      "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-jensen-huangs-return-shows-nvidia-is-too-big-to-police-c380f1e9.html"
     }
   }
 }
