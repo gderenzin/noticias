@@ -34863,6 +34863,342 @@
       "fecha_publicacion_iso": "2026-11-24T23:39:04+00:00",
       "fecha_agregada_iso": "2026-11-25T09:54:09.382177+00:00",
       "ruta_noticia": "/noticia/2026-11-25-jensen-huangs-return-shows-nvidia-is-too-big-to-police-c380f1e9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "fecha_publicacion_iso": "2026-11-25T22:05:09+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-50a53afa.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "1Password customer data stolen after employee GitHub account breach",
+      "fecha_publicacion_iso": "2026-11-25T21:33:33+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-1password-customer-data-stolen-after-employee-github-account-70f66acc.html"
+    },
+    "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool": {
+      "guid": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "fuente": "The Record",
+      "titulo": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+      "fecha_publicacion_iso": "2026-11-25T21:18:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-microsoft-chinas-salt-typhoon-hackers-are-using-artex-17a805c0.html"
+    },
+    "https://therecord.media/fifa-data-breach-limited": {
+      "guid": "https://therecord.media/fifa-data-breach-limited",
+      "fuente": "The Record",
+      "titulo": "FIFA says hackers accessed ‘limited set of personal and business information’",
+      "fecha_publicacion_iso": "2026-11-25T20:40:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-fifa-says-hackers-accessed-limited-set-of-personal-and-busin-dbfa2402.html"
+    },
+    "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243": {
+      "guid": "https://www.theregister.com/a/5312243",
+      "fuente": "The Register - Security",
+      "titulo": "The security of US water systems is even leakier than we thought",
+      "fecha_publicacion_iso": "2026-11-25T19:40:17+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-the-security-of-us-water-systems-is-even-leakier-than-we-tho-9398c175.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "fecha_publicacion_iso": "2026-11-25T19:39:31+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-italy-and-switzerland-warn-of-autonomous-ai-driven-cyberatta-63da0c2d.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/base-de-datos-abierta-deja-expuestos.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-284187594048498235",
+      "fuente": "Segu-Info",
+      "titulo": "Base de datos abierta deja expuestos 2.000 millones de registros de credenciales, incluidos tokens de sesión",
+      "fecha_publicacion_iso": "2026-11-25T18:15:48+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-base-de-datos-abierta-deja-expuestos-2-000-millones-de-regis-b2d2dd00.html"
+    },
+    "https://therecord.media/ransomware-doj-indictment-recovery": {
+      "guid": "https://therecord.media/ransomware-doj-indictment-recovery",
+      "fuente": "The Record",
+      "titulo": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+      "fecha_publicacion_iso": "2026-11-25T17:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-florida-ransomware-recovery-ceo-indicted-for-allegedly-payin-4fcf01c3.html"
+    },
+    "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms": {
+      "guid": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+      "fuente": "The Record",
+      "titulo": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+      "fecha_publicacion_iso": "2026-11-25T17:07:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-australia-passes-tough-legislation-requiring-big-tech-to-pre-b93540ef.html"
+    },
+    "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085": {
+      "guid": "https://www.theregister.com/a/5312085",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft's NTLM security changes trip up third-party logins",
+      "fecha_publicacion_iso": "2026-11-25T17:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-microsoft-s-ntlm-security-changes-trip-up-third-party-logins-243e0059.html"
+    },
+    "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165": {
+      "guid": "https://www.theregister.com/a/5312165",
+      "fuente": "The Register - Security",
+      "titulo": "US Treasury financial crimes unit becomes latest fed breach victim",
+      "fecha_publicacion_iso": "2026-11-25T16:40:16+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-us-treasury-financial-crimes-unit-becomes-latest-fed-breach-7deeca46.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "fuente": "BleepingComputer",
+      "titulo": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "fecha_publicacion_iso": "2026-11-25T16:13:40+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigerati-97df8d95.html"
+    },
+    "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments": {
+      "guid": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+      "fuente": "Dark Reading",
+      "titulo": "Attackers Target .NET Developers With Poisoned Job Assessments",
+      "fecha_publicacion_iso": "2026-11-25T15:48:04+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-attackers-target-net-developers-with-poisoned-job-assessment-75d3be51.html"
+    },
+    "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/": {
+      "guid": "https://www.securityweek.com/?p=51072",
+      "fuente": "SecurityWeek",
+      "titulo": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "fecha_publicacion_iso": "2026-11-25T15:27:36+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-two-newly-disclosed-geoserver-vulnerabilities-under-attack-b2ec8625.html"
+    },
+    "https://www.darkreading.com/cyber-risk/bot-world-just-living": {
+      "guid": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+      "fuente": "Dark Reading",
+      "titulo": "It's a Bot World. We're Just Living in It",
+      "fecha_publicacion_iso": "2026-11-25T15:20:27+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-it-s-a-bot-world-we-re-just-living-in-it-5265d3f0.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "fuente": "BleepingComputer",
+      "titulo": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "fecha_publicacion_iso": "2026-11-25T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-more-pentests-without-more-pentesters-where-ai-safely-helps-a3b682ce.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "fuente": "BleepingComputer",
+      "titulo": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "fecha_publicacion_iso": "2026-11-25T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-infratrust-warns-of-exploited-supply-chain-flaws-in-network-5d8223f8.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+      "fuente": "Dark Reading",
+      "titulo": "Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'",
+      "fecha_publicacion_iso": "2026-11-25T15:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-cyber-insurers-see-new-divide-ai-defense-haves-amp-have-nots-57a9de6d.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/shufti-fraud-hub/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392334",
+      "fuente": "Help Net Security",
+      "titulo": "Shufti Fraud Hub exposes suspicious links between seemingly legitimate accounts",
+      "fecha_publicacion_iso": "2026-11-25T14:45:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-shufti-fraud-hub-exposes-suspicious-links-between-seemingly-cc24de6d.html"
+    },
+    "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/": {
+      "guid": "https://www.securityweek.com/?p=51066",
+      "fuente": "SecurityWeek",
+      "titulo": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+      "fecha_publicacion_iso": "2026-11-25T14:15:25+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-shinyhunters-claims-comeback-new-inception-group-rejects-all-e13089d7.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+      "fuente": "Dark Reading",
+      "titulo": "Latin America Sees Cyberattacks on Ports, Pipelines &amp; Manufacturing",
+      "fecha_publicacion_iso": "2026-11-25T14:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-latin-america-sees-cyberattacks-on-ports-pipelines-amp-manuf-7c0a3009.html"
+    },
+    "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/": {
+      "guid": "https://www.securityweek.com/?p=51059",
+      "fuente": "SecurityWeek",
+      "titulo": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+      "fecha_publicacion_iso": "2026-11-25T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-ground-truth-ciso-matt-martin-on-building-a-real-security-pr-5aac1dca.html"
+    },
+    "https://therecord.media/guadeloupe-ransomware-hospital-cyber": {
+      "guid": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+      "fuente": "The Record",
+      "titulo": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+      "fecha_publicacion_iso": "2026-11-25T13:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-suspected-ransomware-attack-disrupts-cancer-treatments-surge-fa1f5076.html"
+    },
+    "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/": {
+      "guid": "https://cyberscoop.com/?p=91735",
+      "fuente": "CyberScoop",
+      "titulo": "FinCEN investigates cybersecurity incident, takes systems offline",
+      "fecha_publicacion_iso": "2026-11-25T13:03:24+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-fincen-investigates-cybersecurity-incident-takes-systems-off-8ce0cc79.html"
+    },
+    "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/": {
+      "guid": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "fuente": "SecurityWeek",
+      "titulo": "FinCEN investigates cybersecurity incident, takes systems offline",
+      "fecha_publicacion_iso": "2026-11-25T13:03:24+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-fincen-investigates-cybersecurity-incident-takes-systems-off-8ce0cc79.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "fecha_publicacion_iso": "2026-11-25T12:48:54+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-hackers-exploit-two-geoserver-flaws-as-researchers-warn-of-u-92db407f.html"
+    },
+    "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html": {
+      "guid": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "fuente": "The Hacker News",
+      "titulo": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "fecha_publicacion_iso": "2026-11-25T12:30:08+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-u-s-treasury-s-financial-crimes-agency-takes-some-systems-of-851806c2.html"
+    },
+    "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html": {
+      "guid": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "fuente": "The Hacker News",
+      "titulo": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "fecha_publicacion_iso": "2026-11-25T11:51:48+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-credential-remediation-is-slow-when-you-dont-know-what-will-6a8ceb0f.html"
+    },
+    "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html": {
+      "guid": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "fuente": "The Hacker News",
+      "titulo": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "fecha_publicacion_iso": "2026-11-25T11:23:26+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-drupal-fail2install-exploit-details-emerge-as-critical-rce-f-d52cc031.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+      "fuente": "Help Net Security",
+      "titulo": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "fecha_publicacion_iso": "2026-11-25T11:23:26+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-drupal-fail2install-exploit-details-emerge-as-critical-rce-f-d52cc031.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392276",
+      "fuente": "Help Net Security",
+      "titulo": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
+      "fecha_publicacion_iso": "2026-11-25T11:22:32+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-bots-exploited-leaked-aws-key-from-docker-image-in-under-8-s-0462a009.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "fecha_publicacion_iso": "2026-11-25T11:16:32+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-microsoft-fixes-microsoft-365-bug-blocking-access-to-office-bd8fc624.html"
+    },
+    "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060": {
+      "guid": "https://www.theregister.com/a/5312060",
+      "fuente": "The Register - Security",
+      "titulo": "Gatwick drop-off customers' personal data exposed in supplier breach",
+      "fecha_publicacion_iso": "2026-11-25T11:16:18+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-gatwick-drop-off-customers-personal-data-exposed-in-supplier-5baa8b1d.html"
+    },
+    "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/": {
+      "guid": "6b006c5e65ad856677941c3f",
+      "fuente": "Wired - Security",
+      "titulo": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
+      "fecha_publicacion_iso": "2026-11-25T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-the-true-crime-community-is-inspiring-violent-attacks-throug-3c032f60.html"
+    },
+    "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html": {
+      "guid": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "fuente": "The Hacker News",
+      "titulo": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "fecha_publicacion_iso": "2026-11-25T10:43:07+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-ex-openai-employee-accused-of-bugging-company-offices-grante-3885183f.html"
+    },
+    "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/": {
+      "guid": "https://www.securityweek.com/?p=51057",
+      "fuente": "SecurityWeek",
+      "titulo": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "fecha_publicacion_iso": "2026-11-25T10:40:07+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-plagiarism-checker-turnitin-investigating-cyberattack-7d08c2d9.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "fuente": "BleepingComputer",
+      "titulo": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "fecha_publicacion_iso": "2026-11-25T10:10:20+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites-7bb089ac.html"
+    },
+    "http://www.elladodelmal.com/2026/11/evilgrade-2026-18-anos-despues-tu.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-1077374439246449188",
+      "fuente": "El Lado del Mal",
+      "titulo": "Evilgrade 2026: 18 años después, tu software sigue instalando lo que le diga quien tenga el certificado",
+      "fecha_publicacion_iso": "2026-11-25T10:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-evilgrade-2026-18-anos-despues-tu-software-sigue-instalando-16997c17.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-serv-u-de-solarwinds-0": {
+      "guid": "703718 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Serv-U de SolarWinds",
+      "fecha_publicacion_iso": "2026-11-25T08:46:53+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-multiples-vulnerabilidades-en-serv-u-de-solarwinds-60e74314.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-productos-de-broadcom-1": {
+      "guid": "703717 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en productos de Broadcom",
+      "fecha_publicacion_iso": "2026-11-25T08:46:52+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-multiples-vulnerabilidades-en-productos-de-broadcom-8e9c6304.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-enclave-security-de-tenable-0": {
+      "guid": "703716 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Enclave Security de Tenable",
+      "fecha_publicacion_iso": "2026-11-25T08:46:51+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-multiples-vulnerabilidades-en-enclave-security-de-tenable-ddc0ac09.html"
+    },
+    "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data": {
+      "guid": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
+      "fuente": "Dark Reading",
+      "titulo": "How Southeastern University Got a Handle on Its Data",
+      "fecha_publicacion_iso": "2026-11-24T15:46:46+00:00",
+      "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
+      "ruta_noticia": "/noticia/2026-11-25-how-southeastern-university-got-a-handle-on-its-data-53b9a53e.html"
     }
   }
 }
