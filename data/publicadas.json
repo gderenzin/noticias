@@ -35327,6 +35327,206 @@
       "fecha_publicacion_iso": "2026-11-25T12:00:00+00:00",
       "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
       "ruta_noticia": "/noticia/2026-11-26-hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gd-458cfaad.html"
+    },
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/": {
+      "guid": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "fuente": "BleepingComputer",
+      "titulo": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "fecha_publicacion_iso": "2026-11-26T21:06:22+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-openai-warns-gpt-6-2-astra-will-hit-usage-limits-40-faster-b-e0bf93ab.html"
+    },
+    "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html": {
+      "guid": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "fuente": "The Hacker News",
+      "titulo": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "fecha_publicacion_iso": "2026-11-26T19:39:57+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-threatsday-10m-nginx-services-at-risk-250-malicious-extensio-2cde4a64.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433": {
+      "guid": "https://www.theregister.com/a/5312433",
+      "fuente": "The Register - Security",
+      "titulo": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+      "fecha_publicacion_iso": "2026-11-26T19:04:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-br-1f490d1f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "fuente": "BleepingComputer",
+      "titulo": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "fecha_publicacion_iso": "2026-11-26T17:58:42+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-nordvpn-black-friday-deal-get-78-off-vpn-plans-in-2026-1c0fdc39.html"
+    },
+    "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/": {
+      "guid": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "fuente": "BleepingComputer",
+      "titulo": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "fecha_publicacion_iso": "2026-11-26T17:15:27+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-fake-paid-expert-interviews-impersonate-brands-to-steal-goog-42756c94.html"
+    },
+    "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/": {
+      "guid": "https://www.securityweek.com/?p=51093",
+      "fuente": "SecurityWeek",
+      "titulo": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "fecha_publicacion_iso": "2026-11-26T17:06:55+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-fifa-says-it-has-been-victim-of-a-cyberattack-accessing-pers-8399c78e.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/nfs2root-vulnerabilidad-de-hace-12-anos.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-6245053955641133013",
+      "fuente": "Segu-Info",
+      "titulo": "NFS2ROOT: vulnerabilidad de 12 años en Linux permite obtener acceso root remoto sin autenticación en el servidor NFS",
+      "fecha_publicacion_iso": "2026-11-26T16:59:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-nfs2root-vulnerabilidad-de-12-anos-en-linux-permite-obtener-5dd3e396.html"
+    },
+    "https://www.theregister.com/public-sector/2026/11/26/uk-privacy-watchdog-faces-probe-into-its-workplace-culture/5312380": {
+      "guid": "https://www.theregister.com/a/5312380",
+      "fuente": "The Register - Security",
+      "titulo": "UK privacy watchdog faces probe into its workplace culture",
+      "fecha_publicacion_iso": "2026-11-26T16:16:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-uk-privacy-watchdog-faces-probe-into-its-workplace-culture-6e5dcf12.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360": {
+      "guid": "https://www.theregister.com/a/5312360",
+      "fuente": "The Register - Security",
+      "titulo": "'Significant number of customer records' pwned in Flight Centre Travel Group breach",
+      "fecha_publicacion_iso": "2026-11-26T15:29:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-significant-number-of-customer-records-pwned-in-flight-centr-e81487fa.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "fuente": "BleepingComputer",
+      "titulo": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "fecha_publicacion_iso": "2026-11-26T15:23:28+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-remus-malware-steals-gmail-messages-via-fake-google-sheets-e-17ea7e9d.html"
+    },
+    "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html": {
+      "guid": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "fuente": "The Hacker News",
+      "titulo": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "fecha_publicacion_iso": "2026-11-26T15:13:41+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-north-korea-linked-polinrider-poisons-over-7-600-github-repo-f5eee8a5.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323": {
+      "guid": "https://www.theregister.com/a/5312323",
+      "fuente": "The Register - Security",
+      "titulo": "Wyoming uranium operation shuts down after cyberattack",
+      "fecha_publicacion_iso": "2026-11-26T14:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-wyoming-uranium-operation-shuts-down-after-cyberattack-2512a65d.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/company-was-religious-about-backups-but-sinned-by-leaving-them-exposed/5312234": {
+      "guid": "https://www.theregister.com/a/5312234",
+      "fuente": "The Register - Security",
+      "titulo": "Company was religious about backups but sinned by leaving them exposed",
+      "fecha_publicacion_iso": "2026-11-26T13:22:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-company-was-religious-about-backups-but-sinned-by-leaving-th-14b3e60e.html"
+    },
+    "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/": {
+      "guid": "https://www.securityweek.com/?p=51090",
+      "fuente": "SecurityWeek",
+      "titulo": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "fecha_publicacion_iso": "2026-11-26T13:04:06+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-critical-juniper-session-smart-conductor-flaw-exploited-in-a-bb9d1e6a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392426",
+      "fuente": "Help Net Security",
+      "titulo": "Preinstalled Keenadu malware turns up on 220,000+ Android devices",
+      "fecha_publicacion_iso": "2026-11-26T12:57:58+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-preinstalled-keenadu-malware-turns-up-on-220-000-android-dev-04fe4012.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/windows-server-2028-microsoft-anuncia.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-7643763156448264903",
+      "fuente": "Segu-Info",
+      "titulo": "Windows Server 2028: Microsoft anuncia el fin de WSUS, SMBv1, VBScript y Windows PowerShell 5.1",
+      "fecha_publicacion_iso": "2026-11-26T12:14:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-windows-server-2028-microsoft-anuncia-el-fin-de-wsus-smbv1-v-a0967b4f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "fuente": "BleepingComputer",
+      "titulo": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "fecha_publicacion_iso": "2026-11-26T11:50:17+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-sys010-malware-abuses-browser-management-to-spy-on-gmail-out-23ec231c.html"
+    },
+    "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/": {
+      "guid": "https://www.securityweek.com/?p=51087",
+      "fuente": "SecurityWeek",
+      "titulo": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "fecha_publicacion_iso": "2026-11-26T11:35:25+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-84f25e46.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392404",
+      "fuente": "Help Net Security",
+      "titulo": "US agency tracking money laundering is latest casualty in string of federal breaches",
+      "fecha_publicacion_iso": "2026-11-26T11:05:01+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-us-agency-tracking-money-laundering-is-latest-casualty-in-st-98404916.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317": {
+      "guid": "https://www.theregister.com/a/5312317",
+      "fuente": "The Register - Security",
+      "titulo": "Hackers help themselves to 1Password's source code and customer data",
+      "fecha_publicacion_iso": "2026-11-26T11:02:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-hackers-help-themselves-to-1password-s-source-code-and-custo-977230cc.html"
+    },
+    "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html": {
+      "guid": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "fecha_publicacion_iso": "2026-11-26T10:57:55+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-most-wanted-the-phishing-kits-and-techniques-getting-past-se-27c41b73.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa": {
+      "guid": "66ec9708-e44e-4ed2-b7ab-42efcb69396b",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital",
+      "fecha_publicacion_iso": "2026-11-26T10:22:25+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-la-aepd-galardonada-con-el-premio-por-la-labor-en-ciberdefen-e4d60997.html"
+    },
+    "http://www.elladodelmal.com/2026/11/como-medir-si-tus-agentes-ia-de.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-8102191223870515982",
+      "fuente": "El Lado del Mal",
+      "titulo": "Cómo Medir si tus Agentes IA de Revisión de Seguridad de tu Código Funcionan bien (de verdad).",
+      "fecha_publicacion_iso": "2026-11-26T10:01:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-como-medir-si-tus-agentes-ia-de-revision-de-seguridad-de-tu-e80e305e.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392379",
+      "fuente": "Help Net Security",
+      "titulo": "Data recovery firm co-founder accused of cashing in on ransomware victims",
+      "fecha_publicacion_iso": "2026-11-26T09:59:07+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-data-recovery-firm-co-founder-accused-of-cashing-in-on-ranso-9fef03c4.html"
+    },
+    "https://therecord.media/britain-delays-national-cyber-action-plan-again": {
+      "guid": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+      "fuente": "The Record",
+      "titulo": "UK’s long-awaited National Cyber Action Plan delayed until December",
+      "fecha_publicacion_iso": "2026-11-26T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-uks-long-awaited-national-cyber-action-plan-delayed-until-de-c0ff4a7f.html"
     }
   }
 }
