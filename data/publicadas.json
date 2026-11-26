@@ -35199,6 +35199,134 @@
       "fecha_publicacion_iso": "2026-11-24T15:46:46+00:00",
       "fecha_agregada_iso": "2026-11-25T22:33:19.929287+00:00",
       "ruta_noticia": "/noticia/2026-11-25-how-southeastern-university-got-a-handle-on-its-data-53b9a53e.html"
+    },
+    "https://www.theregister.com/security/2026/11/26/uk-home-office-waved-through-border-system-without-a-working-fix-for-bad-data/5312162": {
+      "guid": "https://www.theregister.com/a/5312162",
+      "fuente": "The Register - Security",
+      "titulo": "UK Home Office waved through border system without a working fix for bad data",
+      "fecha_publicacion_iso": "2026-11-26T09:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-uk-home-office-waved-through-border-system-without-a-working-76edafc1.html"
+    },
+    "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/": {
+      "guid": "https://www.securityweek.com/?p=51085",
+      "fuente": "SecurityWeek",
+      "titulo": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "fecha_publicacion_iso": "2026-11-26T09:12:26+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-drupal-installer-patch-left-a-gap-attackers-are-already-expl-37e152d3.html"
+    },
+    "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad": {
+      "guid": "7d762c8c-1901-46c4-89f5-565bfc9d1cc4",
+      "fuente": "AEPD (España) - Notas de prensa",
+      "titulo": "La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías",
+      "fecha_publicacion_iso": "2026-11-26T09:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-la-aepd-y-su-red-de-grupos-de-investigacion-suscriben-una-de-6628c544.html"
+    },
+    "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/": {
+      "guid": "https://www.securityweek.com/?p=51082",
+      "fuente": "SecurityWeek",
+      "titulo": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "fecha_publicacion_iso": "2026-11-26T08:32:10+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-1password-breach-exposes-customer-data-internal-source-code-84ce059e.html"
+    },
+    "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers": {
+      "guid": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "fuente": "Dark Reading",
+      "titulo": "Cyprus Becomes Espionage Target for Iranian Hackers",
+      "fecha_publicacion_iso": "2026-11-26T08:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-cyprus-becomes-espionage-target-for-iranian-hackers-dd168b1e.html"
+    },
+    "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html": {
+      "guid": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "fuente": "The Hacker News",
+      "titulo": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "fecha_publicacion_iso": "2026-11-26T07:02:34+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-drupal-warns-of-new-highly-critical-site-takeover-vulnerabil-457c08cf.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "fecha_publicacion_iso": "2026-11-26T06:44:46+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-hackers-exploit-10-vulnerabilities-across-mitel-juniper-vate-1d57aa7a.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/black-friday-2026-cybersecurity-deals/": {
+      "guid": "https://www.helpnetsecurity.com/?p=391993",
+      "fuente": "Help Net Security",
+      "titulo": "Black Friday cybersecurity deals 2026: Stay safe, spend less",
+      "fecha_publicacion_iso": "2026-11-26T06:30:33+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-black-friday-cybersecurity-deals-2026-stay-safe-spend-less-39805624.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/proxmox-9-3-adds-production-snapshots-for-san-backed-vms/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392342",
+      "fuente": "Help Net Security",
+      "titulo": "Proxmox 9.3 adds production snapshots for SAN-backed VMs",
+      "fecha_publicacion_iso": "2026-11-26T06:07:23+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-proxmox-9-3-adds-production-snapshots-for-san-backed-vms-bb379b79.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392282",
+      "fuente": "Help Net Security",
+      "titulo": "More than 4,400 malicious domains are waiting for holiday shoppers",
+      "fecha_publicacion_iso": "2026-11-26T06:00:53+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-more-than-4-400-malicious-domains-are-waiting-for-holiday-sh-e51dcba7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392311",
+      "fuente": "Help Net Security",
+      "titulo": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+      "fecha_publicacion_iso": "2026-11-26T05:30:05+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-google-mandates-mcp-or-cli-access-for-workspace-ai-agents-st-d03a4b25.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/incogni-online-privacy-concerns-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392329",
+      "fuente": "Help Net Security",
+      "titulo": "People are willing to pay to vanish from search results",
+      "fecha_publicacion_iso": "2026-11-26T05:00:06+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-people-are-willing-to-pay-to-vanish-from-search-results-4defc608.html"
+    },
+    "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html": {
+      "guid": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "fecha_publicacion_iso": "2026-11-26T04:20:22+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-1password-hacked-customer-data-and-source-code-stolen-in-git-420627cd.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/": {
+      "guid": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+      "fuente": "Help Net Security",
+      "titulo": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "fecha_publicacion_iso": "2026-11-26T04:20:22+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-1password-hacked-customer-data-and-source-code-stolen-in-git-420627cd.html"
+    },
+    "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html": {
+      "guid": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "fuente": "The Hacker News",
+      "titulo": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "fecha_publicacion_iso": "2026-11-26T03:48:52+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-13-malicious-nuget-packages-turn-fake-net-job-assessments-in-98bf0c43.html"
+    },
+    "https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en": {
+      "guid": "e97be5f3-4af4-4e76-bc32-13b256627c55",
+      "fuente": "European Data Protection Board (EDPB) - News",
+      "titulo": "Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches",
+      "fecha_publicacion_iso": "2026-11-25T12:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-26T09:33:39.374801+00:00",
+      "ruta_noticia": "/noticia/2026-11-26-hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gd-458cfaad.html"
     }
   }
 }
