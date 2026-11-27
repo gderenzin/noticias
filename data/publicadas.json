@@ -35527,6 +35527,158 @@
       "fecha_publicacion_iso": "2026-11-26T00:00:00+00:00",
       "fecha_agregada_iso": "2026-11-26T22:23:33.578121+00:00",
       "ruta_noticia": "/noticia/2026-11-26-uks-long-awaited-national-cyber-action-plan-delayed-until-de-c0ff4a7f.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392481",
+      "fuente": "Help Net Security",
+      "titulo": "Flight Centre Travel Group warns of customer data breach involving some passport details",
+      "fecha_publicacion_iso": "2026-11-27T09:31:44+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-flight-centre-travel-group-warns-of-customer-data-breach-inv-3e6c0975.html"
+    },
+    "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=51104",
+      "fuente": "SecurityWeek",
+      "titulo": "100,000 Potentially Impacted by Colorado Data Breach",
+      "fecha_publicacion_iso": "2026-11-27T09:30:54+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-100-000-potentially-impacted-by-colorado-data-breach-564b5565.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "fecha_publicacion_iso": "2026-11-27T09:08:16+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-microsoft-pushes-emergency-hotpatch-to-fix-windows-server-cr-05f4c136.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/escritura-parcial-de-archivos-de-sesion-de-php-en-carbon-black-app-control": {
+      "guid": "704928 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Escritura parcial de archivos de sesión de PHP en Carbon Black App Control Server de Broadcom",
+      "fecha_publicacion_iso": "2026-11-27T08:14:10+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-escritura-parcial-de-archivos-de-sesion-de-php-en-carbon-bla-c629eb4a.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "fuente": "BleepingComputer",
+      "titulo": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "fecha_publicacion_iso": "2026-11-27T08:06:58+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileg-15e93fc5.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/path-traversal-en-medusa-de-medusajs": {
+      "guid": "704927 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Path Traversal en Medusa de MedusaJS",
+      "fecha_publicacion_iso": "2026-11-27T08:05:39+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-path-traversal-en-medusa-de-medusajs-c1bb7a86.html"
+    },
+    "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/": {
+      "guid": "https://www.securityweek.com/?p=51098",
+      "fuente": "SecurityWeek",
+      "titulo": "Hex Package Manager Warns of Potential Data Breach",
+      "fecha_publicacion_iso": "2026-11-27T07:44:49+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-hex-package-manager-warns-of-potential-data-breach-c51ad7ce.html"
+    },
+    "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/": {
+      "guid": "https://www.securityweek.com/?p=51096",
+      "fuente": "SecurityWeek",
+      "titulo": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "fecha_publicacion_iso": "2026-11-27T07:36:14+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-sap-confirms-cyberattack-source-code-reportedly-compromised-62ce00fb.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/sailpoint-2027-ai-identity-security-predictions-report/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392445",
+      "fuente": "Help Net Security",
+      "titulo": "In 2027, “the agent did it” stops being an excuse",
+      "fecha_publicacion_iso": "2026-11-27T06:30:14+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-in-2027-the-agent-did-it-stops-being-an-excuse-7398662a.html"
+    },
+    "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html": {
+      "guid": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "fuente": "The Hacker News",
+      "titulo": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "fecha_publicacion_iso": "2026-11-27T06:04:20+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-switzerland-confirms-ai-assisted-cyberattacks-breached-criti-bdba96d7.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/product-showcase-norton-claude-scam-detection/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392377",
+      "fuente": "Help Net Security",
+      "titulo": "Product showcase: Norton helps Claude users uncover the telltale signs of fraud",
+      "fecha_publicacion_iso": "2026-11-27T06:00:59+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-product-showcase-norton-helps-claude-users-uncover-the-tellt-e1ccd20a.html"
+    },
+    "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html": {
+      "guid": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "fuente": "The Hacker News",
+      "titulo": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "fecha_publicacion_iso": "2026-11-27T05:48:20+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-unpatched-cacti-zero-day-enables-rce-in-just-four-http-reque-70616882.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/doj-scam-crackdown-800-scammers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392444",
+      "fuente": "Help Net Security",
+      "titulo": "US seizes nearly $17 billion in global war on scam rings",
+      "fecha_publicacion_iso": "2026-11-27T05:30:28+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-us-seizes-nearly-17-billion-in-global-war-on-scam-rings-5dce1fd3.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/crest-ai-threat-led-penetration-testing/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392425",
+      "fuente": "Help Net Security",
+      "titulo": "AI raises new questions about what penetration testing proves",
+      "fecha_publicacion_iso": "2026-11-27T05:00:32+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-ai-raises-new-questions-about-what-penetration-testing-prove-ca0dc633.html"
+    },
+    "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449": {
+      "guid": "https://www.theregister.com/a/5312449",
+      "fuente": "The Register - Security",
+      "titulo": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+      "fecha_publicacion_iso": "2026-11-27T01:19:31+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-free-e-government-platform-that-serves-two-billion-people-in-24f73611.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-poly-privateconnect-de-hp": {
+      "guid": "704424 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Múltiples vulnerabilidades en Poly PrivateConnect de HP",
+      "fecha_publicacion_iso": "2026-11-26T10:28:20+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-multiples-vulnerabilidades-en-poly-privateconnect-de-hp-f1dbd525.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/omision-del-control-de-acceso-en-drupal": {
+      "guid": "704423 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Omisión del control de acceso en Drupal",
+      "fecha_publicacion_iso": "2026-11-26T10:14:04+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-omision-del-control-de-acceso-en-drupal-3f132e07.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/uso-de-credenciales-codificadas-en-bizum-pay-para-android": {
+      "guid": "704407 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Uso de credenciales codificadas en Bizum Pay para Android",
+      "fecha_publicacion_iso": "2026-11-26T09:21:32+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-uso-de-credenciales-codificadas-en-bizum-pay-para-android-f2b1643c.html"
+    },
+    "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/cross-site-scripting-almacenado-en-jobrouter-premium-de-jobrouter": {
+      "guid": "704405 at https://www.incibe.es",
+      "fuente": "INCIBE-CERT - Avisos",
+      "titulo": "Cross-Site Scripting almacenado en JobRouter Premium de JobRouter",
+      "fecha_publicacion_iso": "2026-11-26T08:29:05+00:00",
+      "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-cross-site-scripting-almacenado-en-jobrouter-premium-de-jobr-b4b0de00.html"
     }
   }
 }
