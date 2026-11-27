@@ -35679,6 +35679,238 @@
       "fecha_publicacion_iso": "2026-11-26T08:29:05+00:00",
       "fecha_agregada_iso": "2026-11-27T09:44:33.313264+00:00",
       "ruta_noticia": "/noticia/2026-11-27-cross-site-scripting-almacenado-en-jobrouter-premium-de-jobr-b4b0de00.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "fuente": "BleepingComputer",
+      "titulo": "pCloud confirms password manager hack after suspicious login alerts",
+      "fecha_publicacion_iso": "2026-11-27T19:26:04+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-pcloud-confirms-password-manager-hack-after-suspicious-login-c33ac200.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "fuente": "BleepingComputer",
+      "titulo": "New Boston Scientific data breach exposes personal, medical info",
+      "fecha_publicacion_iso": "2026-11-27T18:57:42+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-new-boston-scientific-data-breach-exposes-personal-medical-i-72cf1a53.html"
+    },
+    "https://corralrosales.com/normativa-general-para-el-tratamiento-de-datos-crediticios-resolucion-n-spdp-spd-2026-0052-r/": {
+      "guid": "https://corralrosales.com/?p=47090",
+      "fuente": "CorralRosales",
+      "titulo": "Normativa General para el Tratamiento de Datos Crediticios, Resolución N° SPDP-SPD-2026-0052-R",
+      "fecha_publicacion_iso": "2026-11-27T17:25:38+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-normativa-general-para-el-tratamiento-de-datos-crediticios-r-378d4c17.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "fuente": "BleepingComputer",
+      "titulo": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "fecha_publicacion_iso": "2026-11-27T17:06:13+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-unpatched-cacti-zero-day-with-public-poc-gives-remote-code-e-8b621497.html"
+    },
+    "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html": {
+      "guid": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "fuente": "The Hacker News",
+      "titulo": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "fecha_publicacion_iso": "2026-11-27T16:36:11+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-suspected-vietnam-linked-hackers-target-southeast-asia-in-so-f01224df.html"
+    },
+    "https://olartemoure.com/carlos-lehder-marca/": {
+      "guid": "https://olartemoure.com/?p=4432229",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "La SIC niega la marca de Carlos Lehder por razones morales",
+      "fecha_publicacion_iso": "2026-11-27T15:55:54+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-la-sic-niega-la-marca-de-carlos-lehder-por-razones-morales-cbdd7a08.html"
+    },
+    "https://olartemoure.com/investigacion-contra-clubes-de-futbol/": {
+      "guid": "https://olartemoure.com/?p=4432219",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "La SIC cierra investigación contra clubes de fútbol",
+      "fecha_publicacion_iso": "2026-11-27T15:43:35+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-la-sic-cierra-investigacion-contra-clubes-de-futbol-d68ad9e4.html"
+    },
+    "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks": {
+      "guid": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+      "fuente": "Dark Reading",
+      "titulo": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+      "fecha_publicacion_iso": "2026-11-27T15:27:20+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-matters-ai-lands-indias-largest-cybersecurity-pre-series-a-r-47ba8e3f.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "fuente": "BleepingComputer",
+      "titulo": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "fecha_publicacion_iso": "2026-11-27T15:09:40+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-us-air-force-cloud-platform-reportedly-hacked-in-latest-fede-2778b393.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "fuente": "BleepingComputer",
+      "titulo": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "fecha_publicacion_iso": "2026-11-27T15:00:10+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-your-firewall-isn-t-enough-the-hidden-risk-of-unmanaged-vms-96edb4ed.html"
+    },
+    "https://olartemoure.com/google-ley-de-datos-colombiana/": {
+      "guid": "https://olartemoure.com/?p=4432197",
+      "fuente": "OlarteMoure (Colombia)",
+      "titulo": "Google debe cumplir con la ley de datos colombiana",
+      "fecha_publicacion_iso": "2026-11-27T14:39:53+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-google-debe-cumplir-con-la-ley-de-datos-colombiana-cf20976c.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "fuente": "BleepingComputer",
+      "titulo": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "fecha_publicacion_iso": "2026-11-27T14:22:06+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-malwarebytes-antivirus-get-50-off-during-black-friday-2026-814d32c9.html"
+    },
+    "https://therecord.media/japan-education-ministry-cyberattack": {
+      "guid": "https://therecord.media/japan-education-ministry-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Japan’s education ministry discloses breach of government procurement system",
+      "fecha_publicacion_iso": "2026-11-27T14:15:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-japans-education-ministry-discloses-breach-of-government-pro-4a82d372.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/fifa-cyberattack-data-leak/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392517",
+      "fuente": "Help Net Security",
+      "titulo": "FIFA hacked, cybercriminals claim access to sensitive internal records",
+      "fecha_publicacion_iso": "2026-11-27T13:21:50+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-fifa-hacked-cybercriminals-claim-access-to-sensitive-interna-975d13cf.html"
+    },
+    "http://blog.segu-info.com.ar/2026/11/explotan-una-vulnerabilidad-critica.html": {
+      "guid": "tag:blogger.com,1999:blog-14423462.post-8673865891627036804",
+      "fuente": "Segu-Info",
+      "titulo": "Explotan vulnerabilidades críticas Zero-Day en VMware vCenter para obtener acceso de administrador y robar datos",
+      "fecha_publicacion_iso": "2026-11-27T12:30:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-explotan-vulnerabilidades-criticas-zero-day-en-vmware-vcente-9f1cb576.html"
+    },
+    "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html": {
+      "guid": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "fuente": "The Hacker News",
+      "titulo": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "fecha_publicacion_iso": "2026-11-27T11:49:34+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-microsoft-store-app-found-delivering-vinci-rat-capable-of-re-4895aa5a.html"
+    },
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/": {
+      "guid": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "fuente": "BleepingComputer",
+      "titulo": "Microsoft removes WSUS server role in Windows Server 2028",
+      "fecha_publicacion_iso": "2026-11-27T11:18:36+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-microsoft-removes-wsus-server-role-in-windows-server-2028-7b714952.html"
+    },
+    "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/": {
+      "guid": "https://www.helpnetsecurity.com/?p=392500",
+      "fuente": "Help Net Security",
+      "titulo": "Chinese and North Korean state hackers add ARTEX AI framework to their arsenal",
+      "fecha_publicacion_iso": "2026-11-27T11:06:57+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-chinese-and-north-korean-state-hackers-add-artex-ai-framewor-62401e0e.html"
+    },
+    "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/": {
+      "guid": "https://www.securityweek.com/?p=51100",
+      "fuente": "SecurityWeek",
+      "titulo": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "fecha_publicacion_iso": "2026-11-27T11:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-in-other-news-tanker-cyberattacks-eu-quantum-act-new-virusto-db4a5f90.html"
+    },
+    "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html": {
+      "guid": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "fuente": "The Hacker News",
+      "titulo": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "fecha_publicacion_iso": "2026-11-27T10:32:18+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-how-to-keep-your-security-picture-current-when-attackers-mov-415efee3.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "fuente": "BleepingComputer",
+      "titulo": "Drupal warns of new site takeover flaw exploited in attacks",
+      "fecha_publicacion_iso": "2026-11-27T10:10:15+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-drupal-warns-of-new-site-takeover-flaw-exploited-in-attacks-30a43f23.html"
+    },
+    "https://www.wired.com/story/the-british-government-is-turning-everyone-into-a-prepper/": {
+      "guid": "6b056c79e83c254af1e8b4ad",
+      "fuente": "Wired - Security",
+      "titulo": "The British Government is Turning Everyone Into a Prepper",
+      "fecha_publicacion_iso": "2026-11-27T10:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-the-british-government-is-turning-everyone-into-a-prepper-c2d67660.html"
+    },
+    "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/": {
+      "guid": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "fuente": "BleepingComputer",
+      "titulo": "SAP confirms security incident after suspicious GitHub activity",
+      "fecha_publicacion_iso": "2026-11-27T09:56:36+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-sap-confirms-security-incident-after-suspicious-github-activ-34ba075e.html"
+    },
+    "https://therecord.media/sap-germany-cyberattack-github": {
+      "guid": "https://therecord.media/sap-germany-cyberattack-github",
+      "fuente": "The Record",
+      "titulo": "SAP confirms security incident after suspicious GitHub activity",
+      "fecha_publicacion_iso": "2026-11-27T09:56:36+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-sap-confirms-security-incident-after-suspicious-github-activ-34ba075e.html"
+    },
+    "http://www.elladodelmal.com/2026/11/blackfriday-en-0xword-hasta-este.html": {
+      "guid": "tag:blogger.com,1999:blog-21555208.post-6133152368939878393",
+      "fuente": "El Lado del Mal",
+      "titulo": "BLACKFRIDAY en 0xWord hasta este DOMINGO. Cupón 10% descuento: BLACKFRIDAY2026 más los cupones con Tempos de MyPublicInbox",
+      "fecha_publicacion_iso": "2026-11-27T09:35:44+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-blackfriday-en-0xword-hasta-este-domingo-cupon-10-descuento-08d11409.html"
+    },
+    "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html": {
+      "guid": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "fuente": "The Hacker News",
+      "titulo": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "fecha_publicacion_iso": "2026-11-27T09:29:30+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-hackers-trojanize-official-q-dir-and-desktopok-downloads-to-99bc87f8.html"
+    },
+    "https://therecord.media/uk-department-work-pensions-cyber-incident": {
+      "guid": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+      "fuente": "The Record",
+      "titulo": "British government takes services offline following ‘cyber incident’",
+      "fecha_publicacion_iso": "2026-11-27T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-british-government-takes-services-offline-following-cyber-in-875b913e.html"
+    },
+    "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522": {
+      "guid": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+      "fuente": "The Register - Security",
+      "titulo": "British government takes services offline following ‘cyber incident’",
+      "fecha_publicacion_iso": "2026-11-27T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-british-government-takes-services-offline-following-cyber-in-875b913e.html"
+    },
+    "https://therecord.media/france-afp-hit-by-cyberattack": {
+      "guid": "https://therecord.media/france-afp-hit-by-cyberattack",
+      "fuente": "The Record",
+      "titulo": "Cyberattack disrupts global news distribution platform at France’s AFP",
+      "fecha_publicacion_iso": "2026-11-27T00:00:00+00:00",
+      "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
+      "ruta_noticia": "/noticia/2026-11-27-cyberattack-disrupts-global-news-distribution-platform-at-fr-f9571136.html"
     }
   }
 }
