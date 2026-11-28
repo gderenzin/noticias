@@ -35911,6 +35911,14 @@
       "fecha_publicacion_iso": "2026-11-27T00:00:00+00:00",
       "fecha_agregada_iso": "2026-11-27T22:00:02.503597+00:00",
       "ruta_noticia": "/noticia/2026-11-27-cyberattack-disrupts-global-news-distribution-platform-at-fr-f9571136.html"
+    },
+    "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html": {
+      "guid": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "fuente": "The Hacker News",
+      "titulo": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "fecha_publicacion_iso": "2026-11-28T08:08:11+00:00",
+      "fecha_agregada_iso": "2026-11-28T08:56:21.832816+00:00",
+      "ruta_noticia": "/noticia/2026-11-28-pcloud-password-manager-hit-by-cyber-attack-involving-email-ed56aac9.html"
     }
   }
 }
